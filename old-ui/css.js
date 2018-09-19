@@ -10,7 +10,7 @@ var cssFiles = {
   'index.css': fs.readFileSync(path.join(__dirname, '/app/css/index.css'), 'utf8'),
   'transitions.css': fs.readFileSync(path.join(__dirname, '/app/css/transitions.css'), 'utf8'),
   'first-time.css': fs.readFileSync(path.join(__dirname, '../mascara/src/app/first-time/index.css'), 'utf8'),
-  'react-tooltip-component.css': fs.readFileSync(path.join(__dirname, '..', 'node_modules', 'react-tooltip-component', 'dist', 'react-tooltip-component.css'), 'utf8'),
+  'react-tooltip-component-16.css': fs.readFileSync(path.join(__dirname, '..', 'node_modules', 'react-tooltip-component-16', 'dist', 'react-tooltip-component-16.css'), 'utf8'),
   'react-css': fs.readFileSync(path.join(__dirname, '..', 'node_modules', 'react-select', 'dist', 'react-select.css'), 'utf8'),
 }
 
