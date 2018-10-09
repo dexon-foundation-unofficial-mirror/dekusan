@@ -19,7 +19,6 @@
   text-transform: uppercase;
   outline: none;
   font-family: Roboto;
-
   &--disabled,
   &[disabled] {
     cursor: auto;
@@ -30,13 +29,12 @@
 
 .btn-primary {
   color: $curious-blue;
+  background: $dexon-purple;
   border: 2px solid $spindle;
-
   &:active {
-    background: $zumthor;
+    background: $dexon-purple;
     border-color: $curious-blue;
   }
-
   &:hover {
     border-color: $curious-blue;
   }
@@ -45,12 +43,10 @@
 .btn-secondary {
   color: $monzo;
   border: 2px solid lighten($monzo, 40%);
-
   &:active {
     background: lighten($monzo, 55%);
     border-color: $monzo;
   }
-
   &:hover {
     border-color: $monzo;
   }
@@ -59,12 +55,10 @@
 .btn-default {
   color: $scorpion;
   border: 2px solid $dusty-gray;
-
   &:active {
-    background: $gallery;
+    background: $dexon-purple;
     border-color: $dusty-gray;
   }
-
   &:hover {
     border-color: $scorpion;
   }
@@ -73,12 +67,12 @@
 .btn-confirm {
   color: $white;
   border: 2px solid $curious-blue;
-  background-color: $curious-blue;
+  background-color: $dexon-purple;
 }
 
 .btn-raised {
   color: $curious-blue;
-  background-color: $white;
+  background-color: $dexon-purple;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
   padding: 6px;
   height: initial;
@@ -105,11 +99,9 @@
   font-size: .85rem;
   font-weight: 400;
   transition: border-color .3s ease;
-
   &:hover {
     border-color: $curious-blue;
   }
-
   &--disabled,
   &[disabled] {
     cursor: auto;
@@ -129,7 +121,6 @@
   font-weight: 400;
   transition: border-color .3s ease;
   width: 100%;
-
   &:hover {
     border-color: $scorpion;
   }
@@ -145,34 +136,29 @@
 //   text-align: center;
 //   line-height: 25px;
 // }
-
 // .btn-red {
 //   background: rgba(254, 35, 17, 1);
 //   box-shadow: 0px 3px 6px rgba(254, 35, 17, 0.36);
 // }
-
 button[disabled],
 input[type="submit"][disabled] {
   cursor: not-allowed;
-  opacity: .5;
-  // background: rgba(197, 197, 197, 1);
+  opacity: .5; // background: rgba(197, 197, 197, 1);
   // box-shadow: 0 3px 6px rgba(197, 197, 197, .36);
 }
 
 // button.spaced {
 //   margin: 2px;
 // }
-
 // button:not([disabled]):hover, input[type="submit"]:not([disabled]):hover {
 //   transform: scale(1.1);
 // }
 // button:not([disabled]):active, input[type="submit"]:not([disabled]):active {
 //   transform: scale(0.95);
 // }
-
 button.primary {
   padding: 8px 12px;
-  background: #f7861c;
+  background: $dexon-purple;
   box-shadow: 0 3px 6px rgba(247, 134, 28, .36);
   color: $white;
   font-size: 1.1em;
@@ -181,8 +167,7 @@ button.primary {
 }
 
 .btn-light {
-  padding: 8px 12px;
-  // background: #FFFFFF; // $bg-white
+  padding: 8px 12px; // background: #FFFFFF; // $bg-white
   box-shadow: 0 3px 6px rgba(247, 134, 28, .36);
   color: #585d67; // TODO: make reusable light button color
   font-size: 1.1em;
@@ -193,19 +178,6 @@ button.primary {
   border-radius: 2px;
   border: 1px solid #979797; // #TODO: make reusable light border color
   opacity: .5;
-}
-
-// TODO: cleanup: not used anywhere
-button.btn-thin {
-  border: 1px solid;
-  border-color: #4d4d4d;
-  color: #4d4d4d;
-  background: rgb(255, 174, 41);
-  border-radius: 4px;
-  min-width: 200px;
-  margin: 12px 0;
-  padding: 6px;
-  font-size: 13px;
 }
 
 .btn-tertiary {

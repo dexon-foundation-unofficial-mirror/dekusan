@@ -84,7 +84,7 @@
     "message": "Add Suggested Tokens"
   },
   "addAcquiredTokens": {
-    "message": "Add the tokens you've acquired using MetaMask"
+    "message": "Add the tokens you've acquired using Dex San"
   },
   "advanced": {
     "message": "Advanced"
@@ -99,11 +99,11 @@
     "message": "Amount + TX Fee"
   },
   "appDescription": {
-    "message": "Ethereum Browser Extension",
+    "message": "Dexon Browser Extension",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Dex San",
     "description": "The name of the application"
   },
   "approve": {
@@ -162,7 +162,7 @@
     "message": "Your Browser is not supported..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask is designed and built in California."
+    "message": "Dex San is designed and built in California."
   },
   "buy": {
     "message": "Buy"
@@ -171,7 +171,7 @@
     "message": "Buy on Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase is the world’s most popular way to buy and sell Bitcoin, Ethereum, and Litecoin."
+    "message": "Coinbase is the world’s most popular way to buy and sell Bitcoin, Dexon, and Litecoin."
   },
   "bytes": {
     "message": "Bytes"
@@ -206,8 +206,8 @@
   "close": {
     "message": "Close"
   },
-  "chromeRequiredForHardwareWallets": {
-    "message": "You need to use MetaMask on Google Chrome in order to connect to your Hardware Wallet."
+  "chromeRequiredForHardwareWallets":{
+    "message": "You need to use Dex San on Google Chrome in order to connect to your Hardware Wallet."
   },
   "confirm": {
     "message": "Confirm"
@@ -346,7 +346,7 @@
     "message": "The default network for Ether transactions is Main Net."
   },
   "denExplainer": {
-    "message": "Your DEN is your password-encrypted storage within MetaMask."
+    "message": "Your DEN is your password-encrypted storage within Dex San."
   },
   "deposit": {
     "message": "Deposit"
@@ -374,7 +374,7 @@
     "message": "Deposit with ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "If you own other cryptocurrencies, you can trade and deposit Ether directly into your MetaMask wallet. No Account Needed."
+    "message": "If you own other cryptocurrencies, you can trade and deposit Ether directly into your Dex San wallet. No Account Needed."
   },
   "details": {
     "message": "Details"
@@ -550,7 +550,7 @@
     "message": "Connect a hardware wallet"
   },
   "hardwareWalletsMsg": {
-    "message": "Select a hardware wallet you'd like to use with MetaMask"
+    "message": "Select a hardware wallet you'd like to use with Dex San"
   },
   "havingTroubleConnecting": {
     "message": "Having trouble connecting?"
@@ -591,7 +591,7 @@
     "message": "Import Account"
   },
   "importAccountMsg": {
-    "message": " Imported accounts will not be associated with your originally created MetaMask account seedphrase. Learn more about imported accounts "
+    "message":" Imported accounts will not be associated with your originally created Dex San account seedphrase. Learn more about imported accounts "
   },
   "importAnAccount": {
     "message": "Import an account"
@@ -650,7 +650,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "Keep track of the tokens you’ve bought with your MetaMask account."
+    "message": "Keep track of the tokens you’ve bought with your Dex San account."
   },
   "kovan": {
     "message": "Kovan Test Network"
@@ -702,7 +702,7 @@
     "message": "seed words only have lowercase characters"
   },
   "mainnet": {
-    "message": "Main Ethereum Network"
+    "message": "Main Dexon Network"
   },
   "menu": {
     "message": "Menu"
@@ -711,10 +711,10 @@
     "message": "Message"
   },
   "metamaskDescription": {
-    "message": "MetaMask is a secure identity vault for Ethereum."
+    "message": "Dex San is a secure identity vault for Dexon."
   },
   "metamaskSeedWords": {
-    "message": "MetaMask Seed Words"
+    "message": "Dex San Seed Words"
   },
   "metamaskVersion": {
     "message": "MetaMask Version"
@@ -735,7 +735,7 @@
     "message": "Must select at least 1 token."
   },
   "needEtherInWallet": {
-    "message": "To interact with decentralized applications using MetaMask, you’ll need Ether in your wallet."
+    "message": "To interact with decentralized applications using Dex San, you’ll need Ether in your wallet."
   },
   "needImportFile": {
     "message": "You must select a file to import.",
@@ -1121,7 +1121,7 @@
     "message": "Select an Account"
   },
   "selectAnAccountHelp": {
-    "message": "Select the account to view in MetaMask"
+    "message": "Select the account to view in Dex San"
   },
   "selectHdPath": {
     "message": "Select HD Path"
@@ -1130,7 +1130,7 @@
     "message": "If you don't see your existing Ledger accounts below, try switching paths to \"Legacy (MEW / MyCrypto)\""
   },
   "sendTokensAnywhere": {
-    "message": "Send Tokens to anyone with an Ethereum account"
+    "message": "Send Tokens to anyone with an Dexon account"
   },
   "settings": {
     "message": "Settings"
@@ -1266,7 +1266,7 @@
     "message": "Token Symbol"
   },
   "tokenWarning1": {
-    "message": "Keep track of the tokens you’ve bought with your MetaMask account. If you bought tokens using a different account, those tokens will not appear here."
+    "message": "Keep track of the tokens you’ve bought with your Dex San account. If you bought tokens using a different account, those tokens will not appear here."
   },
   "total": {
     "message": "Total"
@@ -1348,7 +1348,7 @@
     "message": "Try again"
   },
   "twelveWords": {
-    "message": "These 12 words are the only way to restore your MetaMask accounts.\nSave them somewhere safe and secret."
+    "message": "These 12 words are the only way to restore your Dex San accounts.\nSave them somewhere safe and secret."
   },
   "typePassword": {
     "message": "Type your MetaMask password"
@@ -1357,7 +1357,7 @@
     "message": "Welcome to the New UI (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "You are now using the new MetaMask UI."
+    "message": "You are now using the new Dex San UI."
   },
   "unapproved": {
     "message": "Unapproved"
@@ -1432,8 +1432,8 @@
   "welcomeBack": {
     "message": "Welcome Back!"
   },
-  "welcome": {
-    "message": "Welcome to MetaMask"
+  "welcomeBeta": {
+    "message": "Welcome to Dex San Beta"
   },
   "whatsThis": {
     "message": "What's this?"

@@ -63,8 +63,8 @@ async function startApp (metamaskState, accountManager, opts) {
     store.dispatch(actions.updateMetamaskState(metamaskState))
   })
 
-  // global metamask api - used by tooling
-  global.metamask = {
+  // global dexsan api - used by tooling
+  global.dexsan = {
     updateCurrentLocale: (code) => {
       store.dispatch(actions.updateCurrentLocale(code))
     },

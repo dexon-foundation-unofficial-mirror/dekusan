@@ -87,11 +87,11 @@
     "message": "Znesek + Gas"
   },
   "appDescription": {
-    "message": "Denarnica za Ethereum v brskalniku",
+    "message": "Denarnica za Dexon v brskalniku",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Dex San",
     "description": "The name of the application"
   },
   "approve": {
@@ -144,7 +144,7 @@
     "message": "Vaš brskalnik ni podptrt ..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask je zasnovan in ustvarjen v Kaliforniji."
+    "message": "Dex San je ustvarjen v Kaliforniji."
   },
   "buy": {
     "message": "Kupi"
@@ -319,7 +319,7 @@
     "message": "Privzeto omrežje za transkacije je glavno omrežje."
   },
   "denExplainer": {
-    "message": "Vaš DEN je z geslom šifrirana shramba v MetaMask."
+    "message": "DEN je vaša šifrirana shramba v Dex Sanu."
   },
   "deposit": {
     "message": "Vplačaj"
@@ -347,7 +347,7 @@
     "message": "Vplačilo z ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Če imate druge kriptovalute, lahko Ether vplačate neposredno v MetaMask. Brez računov."
+    "message": "Če imate druge kriptovalute, lahko vpačate ether neposredno v Dex San. Brez računov."
   },
   "details": {
     "message": "Podrobnosti"
@@ -359,7 +359,7 @@
     "message": "Neposredno vplačilo ehera"
   },
   "directDepositEtherExplainer": {
-    "message": "Če že imate Ether, ga lahko najhitreje dobite v MetaMask z neposrednim vplačilom."
+    "message": "Če že imate ether, ga lahko najhitreje dobite v Dex San z direktnim vplačilom."
   },
   "done": {
     "message": "Končano"
@@ -672,7 +672,7 @@
     "message": "Sporočilo"
   },
   "metamaskDescription": {
-    "message": "MetaMask je varen identitetni sklad za Ethereum."
+    "message": "Dex San je varen identitetni sklad za Dexon."
   },
   "metamaskSeedWords": {
     "message": "Seed Words"
@@ -693,7 +693,7 @@
     "message": "Izbran mora biti vsaj 1 žeton."
   },
   "needEtherInWallet": {
-    "message": "Za interakcijo z decentraliziranimi aplikacijami boste v svoji denarnici potrebovali Eter."
+    "message": "Za interakcijo z decentraliziranimi aplikacijami, ki uporabljajo Dex San, boste v svoji denarnici potrebovali eter."
   },
   "needImportFile": {
     "message": "Za uvoz morate izbrati datoteko.",
@@ -1067,7 +1067,7 @@
     "message": "Če obstoječih Ledger ne vidite, poskusite izbrati \"Legacy (MEW / MyCrypto)\""
   },
   "sendTokensAnywhere": {
-    "message": "Pošljite žetone komurkoli z Ethereum naslovom"
+    "message": "Pošljite žetone vsem, ki imajo Dexon račun"
   },
   "settings": {
     "message": "Nastavitve"
@@ -1197,7 +1197,7 @@
     "message": "Simbol žetona"
   },
   "tokenWarning1": {
-    "message": "Sledite žetonom, ki ste jih kupili z MetaMask metamask računom. Če ste jih kupili drugje, ne bodo prikazani tukaj."
+    "message": "Spremljajte žetone, ki ste jih kupili s svojim Dex San računom. Če ste kupili žetone z drugačnim računom, ti žetoni ne bodo prikazani tukaj."
   },
   "total": {
     "message": "Skupno"
@@ -1261,7 +1261,7 @@
     "message": "Poskusi znova"
   },
   "twelveWords": {
-    "message": "Edini način za obnovitev MetaMask računa, je teh 12 besed.\nShranite jih na varno in skrivno mesto."
+    "message": "Edini način za obnovitev Dex San računa, je teh 12 besed.\nShranite jih na varno in skrivno mesto."
   },
   "typePassword": {
     "message": "Vnesite vaše MetaMask geslo"
@@ -1270,10 +1270,7 @@
     "message": "Dobrodošli v nov UI (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Uporabljate nov uporabniški vmesnik."
-  },
-  "unapproved": {
-    "message": "Neodobreno"
+    "message": "Zdaj uporabljate novi Dex San uporabniški vmesnik. Razglejte se, preizkusite nove funkcije, kot so pošiljanje žetonov, in nas obvestite, če imate kakšne težave."
   },
   "unavailable": {
     "message": "Ni na voljo"
@@ -1345,11 +1342,8 @@
   "warning": {
     "message": "Opozorilo"
   },
-  "welcomeBack": {
-    "message": "Dobrodošli nazaj!"
-  },
-  "welcome": {
-    "message": "Dobrodošli v MetaMask"
+  "welcomeBeta": {
+    "message": "Dobrodošli v Dex San Beta"
   },
   "whatsThis": {
     "message": "Kaj je to?"

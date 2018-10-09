@@ -131,7 +131,7 @@ app
 
 button.primary {
   padding: 8px 12px;
-  background: #F7861C;
+  background: #954a97;
   box-shadow: 0px 3px 6px rgba(247, 134, 28, 0.36);
   color: white;
   font-size: 1.1em;
@@ -206,7 +206,7 @@ textarea.twelve-word-phrase {
 
 .check {
   margin-left: 12px;
-  color: #F7861C;
+  color: #954a97;
   flex: 1 0 auto;
   display: flex;
   justify-content: flex-end;
@@ -220,7 +220,7 @@ app sections
 .initialize-screen hr {
   width: 60px;
   margin: 12px;
-  border-color: #F7861C;
+  border-color: #954a97;
   border-style: solid;
 }
 
@@ -239,7 +239,7 @@ app sections
 
 /* unlock */
 .error {
-  color: #f7861c;
+  color: #954a97;
   margin-bottom: 9px;
 }
 
@@ -482,7 +482,7 @@ input.large-input {
   margin-bottom: 2px;
   font-size: 11px;
   text-rendering: geometricPrecision;
-  color: #F7861C;
+  color: #954a97;
 }
 .name-label:hover .edit-text {
   visibility: visible;
@@ -517,7 +517,7 @@ input.large-input {
 /* Ether Balance Widget */
 
 .ether-balance-amount {
-  color: #F7861C;
+  color: #954a97;
 }
 
 .ether-balance-label {
@@ -612,14 +612,14 @@ input.large-input {
 .input-container:hover .buy-inputs{
   box-sizing: inherit;
   border: solid;
-  border-color: #F7861C;
+  border-color: #954a97;
   border-width: 0.5px;
   border-radius: 2px;
 }
 
 .buy-inputs:focus{
   border: solid;
-  border-color: #F7861C;
+  border-color: #954a97;
   border-width: 0.5px;
   border-radius: 2px;
 }
@@ -707,7 +707,7 @@ input.large-input {
 
 .qr-message {
   font-size: 12px;
-  color: #F7861C;
+  color: #954a97;
 }
 
 div.message-container > div:first-child {

@@ -23,11 +23,20 @@ const styles = {
   },
   materialFocused: {},
   materialUnderline: {
+    '&:before': {
+      borderBottom: '2px solid #aeaeae',
+    },
+    '&:hover:before': {
+      borderBottom: '2px solid #aeaeae',
+    },
     '&:after': {
-      borderBottom: '2px solid #f7861c',
+      borderBottom: '2px solid #954a97',
     },
   },
   materialError: {},
+  materialInput: {
+    color: 'white',
+  },
   // Non-material styles
   formLabel: {
     '&$formLabelFocused': {
@@ -52,6 +61,9 @@ const styles = {
     '&$inputFocused': {
       border: '1px solid #2f9ae0',
     },
+  },
+  input: {
+    color: 'white',
   },
   largeInputLabel: {
     ...inputLabelBase,
@@ -84,7 +96,7 @@ const TextField = props => {
         disableUnderline: !material,
         classes: {
           root: material ? '' : classes.inputRoot,
-          input: material ? '' : classes.input,
+          input: material ? classes.materialInput : classes.input,
           underline: material ? classes.materialUnderline : '',
           focused: material ? '' : classes.inputFocused,
         },
