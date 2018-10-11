@@ -3,7 +3,6 @@
  */
 
 @import './reset.scss';
-
 * {
   box-sizing: border-box;
 }
@@ -11,9 +10,9 @@
 html,
 body {
   font-family: Roboto, Arial;
-  color: #4d4d4d;
+  color: $white;
   font-weight: 400;
-  background: #f7f7f7;
+  background: $dark-gray;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -43,16 +42,17 @@ textarea:focus {
 }
 
 /* stylelint-disable */
+
 #app-content {
   overflow-x: hidden;
   height: 100%;
   display: flex;
   flex-direction: column;
-
   @media screen and (max-width: $break-small) {
     background-color: $white;
   }
 }
+
 /* stylelint-enable */
 
 a {
@@ -90,27 +90,22 @@ input.form-control {
   border: 1px solid $alto;
   border-radius: 3px;
   width: 100%;
-
   &::-webkit-input-placeholder {
     font-weight: 100;
     color: $dusty-gray;
   }
-
   &::-moz-placeholder {
     font-weight: 100;
     color: $dusty-gray;
   }
-
   &:-ms-input-placeholder {
     font-weight: 100;
     color: $dusty-gray;
   }
-
   &:-moz-placeholder {
     font-weight: 100;
     color: $dusty-gray;
   }
-
   &--error {
     border: 1px solid $monzo;
   }

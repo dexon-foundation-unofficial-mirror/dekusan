@@ -7,7 +7,7 @@ const inputLabelBase = {
   transform: 'none',
   transition: 'none',
   position: 'initial',
-  color: '#5b5b5b',
+  color: '#9b9b9b',
 }
 
 const styles = {
@@ -27,7 +27,7 @@ const styles = {
       borderBottom: '2px solid #aeaeae',
     },
     '&:hover:before': {
-      borderBottom: '2px solid #aeaeae',
+      borderBottom: '2px solid #954a97cc!important',
     },
     '&:after': {
       borderBottom: '2px solid #954a97',
@@ -40,10 +40,10 @@ const styles = {
   // Non-material styles
   formLabel: {
     '&$formLabelFocused': {
-      color: '#5b5b5b',
+      color: '#9b9b9b',
     },
     '&$materialError': {
-      color: '#5b5b5b',
+      color: '#9b9b9b',
     },
   },
   formLabelFocused: {},
@@ -52,14 +52,14 @@ const styles = {
     'label + &': {
       marginTop: '8px',
     },
-    border: '1px solid #d2d8dd',
+    border: '1px solid #777777',
     height: '48px',
     borderRadius: '4px',
     padding: '0 16px',
     display: 'flex',
     alignItems: 'center',
     '&$inputFocused': {
-      border: '1px solid #2f9ae0',
+      border: '1px solid #d2d8dd',
     },
   },
   input: {

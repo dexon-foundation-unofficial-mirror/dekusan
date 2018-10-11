@@ -8,24 +8,20 @@
 }
 
 .network-component.pointer {
-  border: 2px solid $silver;
-  border-radius: 82px;
+  border: 1px solid $dexon-purple;
+  border-radius: 4px;
   padding: 7px 3px;
   flex: 0 0 auto;
   display: flex;
-
   &.ethereum-network .menu-icon-circle div {
     background-color: rgba(3, 135, 137, .7) !important;
   }
-
   &.ropsten-test-network .menu-icon-circle div {
     background-color: rgba(233, 21, 80, .7) !important;
   }
-
   &.kovan-test-network .menu-icon-circle div {
     background-color: rgba(105, 4, 150, .7) !important;
   }
-
   &.rinkeby-test-network .menu-icon-circle div {
     background-color: rgba(235, 179, 63, .7) !important;
   }
@@ -42,7 +38,6 @@
   display: flex;
   align-items: center;
   font-size: .6em;
-
   .fa-caret-down {
     line-height: 15px;
     font-size: 12px;
@@ -55,30 +50,27 @@
   font-family: Roboto;
   font-size: 12px;
   flex: 1 0 auto;
-  color: $tundora;
+  color: $dexon-purple;
   font-weight: 500;
 }
 
 .dropdown-menu-item .fa.delete {
-    margin-right: 10px;
-    display: none;
+  margin-right: 10px;
+  display: none;
 }
 
 .dropdown-menu-item:hover .fa.delete {
-    display: inherit;
+  display: inherit;
 }
 
 .network-droppo {
   right: 2px;
-
   @media screen and (min-width: 576px) {
     right: calc(((100% - 85vw) / 2) + 2px);
   }
-
   @media screen and (min-width: 769px) {
     right: calc(((100% - 80vw) / 2) + 2px);
   }
-
   @media screen and (min-width: 1281px) {
     right: calc(((100% - 65vw) / 2) + 2px);
   }

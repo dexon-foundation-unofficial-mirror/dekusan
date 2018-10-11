@@ -28,15 +28,14 @@
 }
 
 .btn-primary {
-  color: $curious-blue;
+  color: $white;
   background: $dexon-purple;
-  border: 2px solid $spindle;
+  border: 2px solid $dexon-purple;
   &:active {
-    background: $dexon-purple;
-    border-color: $curious-blue;
+    border-color: $white;
   }
   &:hover {
-    border-color: $curious-blue;
+    border-color: $white;
   }
 }
 
@@ -53,14 +52,14 @@
 }
 
 .btn-default {
-  color: $scorpion;
+  color: $white;
   border: 2px solid $dusty-gray;
+  background: $dusty-gray;
   &:active {
-    background: $dexon-purple;
-    border-color: $dusty-gray;
+    border-color: $white;
   }
   &:hover {
-    border-color: $scorpion;
+    border-color: $white;
   }
 }
 
