@@ -238,7 +238,7 @@
   "depositEth": {
     "message": "การฝากอีเธอร์"
   },
-  "depositEther": {
+  "depositDex": {
     "message": "การฝากอีเธอร์"
   },
   "depositFiat": {
@@ -290,7 +290,7 @@
     "message": "ใส่รหัสผ่านอีกครั้งเพื่อยืนยัน"
   },
   "etherscanView": {
-    "message": "ดูบัญชีบน Etherscan"
+    "message": "ดูบัญชีบน DEXscan"
   },
   "exchangeRate": {
     "message": "อัตราแลกเปลี่ยน"
@@ -360,7 +360,7 @@
   },
   "getEtherFromFaucet": {
     "message": "รับอีเธอร์ที่ปล่อยจาก $1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for DEX faucet"
   },
   "greaterThanMin": {
     "message": "ต้องมากกว่าหรือเท่ากับ $1.",

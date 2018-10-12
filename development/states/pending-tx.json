@@ -705,7 +705,7 @@
       "mainnet": "ok",
       "ropsten": "ok",
       "kovan": "ok",
-      "rinkeby": "ok"
+      "testnet": "ok"
     },
     "shapeShiftTxList": [],
     "lostAccounts": []

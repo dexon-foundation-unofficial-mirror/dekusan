@@ -232,7 +232,7 @@
     "message": "Počet desetinných míst přesnosti"
   },
   "defaultNetwork": {
-    "message": "Výchozí síť pro Etherové transakce je Main Net."
+    "message": "Výchozí síť pro DEXové transakce je Main Net."
   },
   "denExplainer": {
     "message": "Váš DEN je heslem šifrované uložiště v Dex Sanu."
@@ -250,8 +250,8 @@
   "depositEth": {
     "message": "Vložit Eth"
   },
-  "depositEther": {
-    "message": "Vložit Ether"
+  "depositDex": {
+    "message": "Vložit DEX"
   },
   "depositFiat": {
     "message": "Vklad s fiat měnou"
@@ -263,7 +263,7 @@
     "message": "Vklad přes ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit Ether a vložit ho přímo do peněženky Dex San. Bez založení účtu."
+    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit DEX a vložit ho přímo do peněženky Dex San. Bez založení účtu."
   },
   "details": {
     "message": "Podrobnosti"
@@ -272,10 +272,10 @@
     "message": "Přímý vklad"
   },
   "directDepositEther": {
-    "message": "Vložit Ether přímo"
+    "message": "Vložit DEX přímo"
   },
   "directDepositEtherExplainer": {
-    "message": "Pokud už vlastníte nějaký Ether, nejrychleji ho dostanete do peněženky přímým vkladem."
+    "message": "Pokud už vlastníte nějaký DEX, nejrychleji ho dostanete do peněženky přímým vkladem."
   },
   "done": {
     "message": "Hotovo"
@@ -311,7 +311,7 @@
     "message": "Hesla nejsou stejná"
   },
   "etherscanView": {
-    "message": "Prohlédněte si účet na Etherscan"
+    "message": "Prohlédněte si účet na DEXscan"
   },
   "exchangeRate": {
     "message": "Směnný kurz"
@@ -377,11 +377,11 @@
     "message": "Cena paliva je povinná"
   },
   "getEther": {
-    "message": "Získejte Ether"
+    "message": "Získejte DEX"
   },
   "getEtherFromFaucet": {
-    "message": "Získejte Ether z faucetu za $1.",
-    "description": "Displays network name for Ether faucet"
+    "message": "Získejte DEX z faucetu za $1.",
+    "description": "Displays network name for DEX faucet"
   },
   "greaterThanMin": {
     "message": "musí být větší nebo roven $1.",
@@ -404,7 +404,7 @@
     "message": "Skrýt token?"
   },
   "howToDeposit": {
-    "message": "Jakým způsobem chcete vložit Ether?"
+    "message": "Jakým způsobem chcete vložit DEX?"
   },
   "holdEther": {
     "message": "Dovoluje vám držet ether a tokeny a slouží jako most k decentralizovaným aplikacím."
@@ -531,7 +531,7 @@
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needEtherInWallet": {
-    "message": "Potřebujete Ether v peněžence, abyste mohli pomocí Dex Sanu interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete DEX v peněžence, abyste mohli pomocí Dex Sanu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",
@@ -703,7 +703,7 @@
   "connectingToKovan": {
     "message": "Připojuji se k Kovan Test Network"
   },
-  "connectingToRinkeby": {
+  "connectingToTestnet": {
     "message": "Připojuji se k Rinkeby Test Network"
   },
   "connectingToUnknown": {
@@ -839,6 +839,9 @@
   },
   "testFaucet": {
     "message": "Testovací faucet"
+  },
+  "testnet": {
+    "message": "DEXON Testnet"
   },
   "to": {
     "message": "Komu"

@@ -304,7 +304,7 @@
     "message": "Décimales de précision"
   },
   "defaultNetwork": {
-    "message": "Le réseau par défaut pour les transactions Ether est le \"Réseau principal Ethereum\"."
+    "message": "Le réseau par défaut pour les transactions DEX est Main Net."
   },
   "denExplainer": {
     "message": "Votre DEN est votre stockage crypté par mot de passe dans Dex San."
@@ -322,8 +322,8 @@
   "depositEth": {
     "message": "Déposer Eth"
   },
-  "depositEther": {
-    "message": "Déposer de l'Ether"
+  "depositDex": {
+    "message": "Déposer DEX"
   },
   "depositFiat": {
     "message": "Déposer de la monnaie-fiat"
@@ -347,7 +347,7 @@
     "message": "Dépôt direct d'Ether"
   },
   "directDepositEtherExplainer": {
-    "message": "Si vous avez déjà de l'Ether, le moyen le plus rapide d'obtenir des Ether dans votre nouveau portefeuille est par dépôt direct."
+    "message": "Si vous avez déjà de l'Ether, le moyen le plus rapide d'obtenir des DEX dans votre nouveau portefeuille est par dépôt direct."
   },
   "done": {
     "message": "Terminé"
@@ -392,7 +392,7 @@
     "message": "Entrez votre mot de passe pour continuer"
   },
   "etherscanView": {
-    "message": "Afficher le compte sur Etherscan"
+    "message": "Afficher le compte sur DEXscan"
   },
   "exchangeRate": {
     "message": "Taux de change"
@@ -467,7 +467,7 @@
     "message": "Préparation de la transaction"
   },
   "getEther": {
-    "message": "Obtenir des Ether"
+    "message": "Obtenir des DEX"
   },
   "getEtherFromFaucet": {
     "message": "Obtenir de l'Ether d'une faucet pour $1",
@@ -1125,6 +1125,9 @@
   },
   "testFaucet": {
     "message": "Faucet Testnet"
+  },
+  "testnet": {
+    "message": "DEXON Testnet"
   },
   "to": {
     "message": "Destinataire"

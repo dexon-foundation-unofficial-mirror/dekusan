@@ -34,7 +34,7 @@ const modalContainerBaseStyle = {
   transform: 'translate3d(-50%, 0, 0px)',
   border: '1px solid #CCCFD1',
   borderRadius: '8px',
-  backgroundColor: '#FFFFFF',
+  backgroundColor: '#222222',
   boxShadow: '0 2px 22px 0 rgba(0,0,0,0.2)',
 }
 

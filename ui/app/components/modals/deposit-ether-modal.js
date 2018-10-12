@@ -133,7 +133,7 @@ DepositEtherModal.prototype.render = function () {
 
     h('div.page-container__header', [
 
-      h('div.page-container__title', [this.context.t('depositEther')]),
+      h('div.page-container__title', [this.context.t('depositDex')]),
 
       h('div.page-container__subtitle', [
         this.context.t('needEtherInWallet'),
@@ -172,41 +172,6 @@ DepositEtherModal.prototype.render = function () {
           onButtonClick: () => toFaucet(network),
           hide: !isTestNetwork || buyingWithShapeshift,
         }),
-
-        this.renderRow({
-          logo: h('div.deposit-ether-modal__logo', {
-            style: {
-              backgroundImage: 'url(\'./images/coinbase logo.png\')',
-              height: '40px',
-            },
-          }),
-          title: COINBASE_ROW_TITLE,
-          text: COINBASE_ROW_TEXT,
-          buttonLabel: this.context.t('continueToCoinbase'),
-          onButtonClick: () => toCoinbase(address),
-          hide: isTestNetwork || buyingWithShapeshift,
-        }),
-
-        this.renderRow({
-          logo: h('div.deposit-ether-modal__logo', {
-            style: {
-              backgroundImage: 'url(\'./images/shapeshift logo.png\')',
-            },
-          }),
-          title: SHAPESHIFT_ROW_TITLE,
-          text: SHAPESHIFT_ROW_TEXT,
-          buttonLabel: this.context.t('shapeshiftBuy'),
-          onButtonClick: () => this.setState({ buyingWithShapeshift: true }),
-          hide: isTestNetwork,
-          hideButton: buyingWithShapeshift,
-          hideTitle: buyingWithShapeshift,
-          onBackClick: () => this.setState({ buyingWithShapeshift: false }),
-          showBackButton: this.state.buyingWithShapeshift,
-          className: buyingWithShapeshift && 'deposit-ether-modal__buy-row__shapeshift-buy',
-        }),
-
-        buyingWithShapeshift && h(ShapeshiftForm),
-
       ]),
 
     ]),

@@ -259,8 +259,8 @@
   "depositEth": {
     "message": "存入 Eth"
   },
-  "depositEther": {
-    "message": "存入 Ether"
+  "depositDex": {
+    "message": "存入 DEX"
   },
   "depositFiat": {
     "message": "从 Fiat 存入"
@@ -272,7 +272,7 @@
     "message": "从 ShapeShift 存入"
   },
   "depositShapeShiftExplainer": {
-    "message": "如果你拥有其他加密货币，你可以直接交易并存入 Ether 到你的 Dex San 钱包。 不需要帐户。"
+    "message": "如果你拥有其他加密货币，你可以直接交易并存入 DEX 到你的 Dex San 钱包。 不需要帐户。"
   },
   "details": {
     "message": "详情"
@@ -281,10 +281,10 @@
     "message": "直接存入"
   },
   "directDepositEther": {
-    "message": "直接存入 Ether"
+    "message": "直接存入 DEX"
   },
   "directDepositEtherExplainer": {
-    "message": "如果你已经有了一些 Ether，通过直接转入是你的新钱包获取 Ether 的最快捷方式。"
+    "message": "如果你已经有了一些 DEX，通过直接转入是你的新钱包获取 DEX 的最快捷方式。"
   },
   "done": {
     "message": "完成"
@@ -323,7 +323,7 @@
     "message": "密码不匹配"
   },
   "etherscanView": {
-    "message": "在 Etherscan 上查看账户"
+    "message": "在 DEXscan 上查看账户"
   },
   "exchangeRate": {
     "message": "兑换比率"
@@ -392,11 +392,11 @@
     "message": "生成 交易"
   },
   "getEther": {
-    "message": "获取 Ether"
+    "message": "获取 DEX"
   },
   "getEtherFromFaucet": {
-    "message": "从水管获取$1网络的 Ether",
-    "description": "Displays network name for Ether faucet"
+    "message": "从水管获取$1网络的 DEX",
+    "description": "Displays network name for DEX faucet"
   },
   "greaterThanMin": {
     "message": "必须要大于等于 $1。",
@@ -419,7 +419,7 @@
     "message": "隐藏代币？"
   },
   "howToDeposit": {
-    "message": "你想怎样转入 Ether？"
+    "message": "你想怎样转入 DEX？"
   },
   "holdEther": {
     "message": "它允许你保存ether和代币，并作为你使用Dapp的桥梁."
@@ -549,7 +549,7 @@
     "message": "至少选择一种代币."
   },
   "needEtherInWallet": {
-    "message": "使用 Dex San 与 DAPP 交互，需要你的钱包里有 Ether。"
+    "message": "使用 Dex San 与 DAPP 交互，需要你的钱包里有 DEX。"
   },
   "needImportFile": {
     "message": "必须选择导入一个文件。",
@@ -733,7 +733,7 @@
   "connectingToKovan": {
     "message": "正在连接到Kovan测试网络"
   },
-  "connectingToRinkeby": {
+  "connectingToTestnet": {
     "message": "正在连接到Rinkeby测试网络"
   },
   "connectingToUnknown": {
@@ -875,6 +875,9 @@
   },
   "testFaucet": {
     "message": "测试水管"
+  },
+  "testnet": {
+    "message": "DEXON 测试网络"
   },
   "to": {
     "message": "至"

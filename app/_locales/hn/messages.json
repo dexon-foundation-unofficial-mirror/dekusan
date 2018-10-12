@@ -238,8 +238,8 @@
   "depositEth": {
     "message": "Eth जमाआर्थ"
   },
-  "depositEther": {
-    "message": "जमा - Ether"
+  "depositDex": {
+    "message": "जमा - DEX"
   },
   "depositFiat": {
     "message": "फिएट के साथ जमा हो"

@@ -316,7 +316,7 @@
     "message": "Precisione Decimali"
   },
   "defaultNetwork": {
-    "message": "La rete predefinita per transazioni in Ether è la Rete Dexon Principale."
+    "message": "La rete predefinita per transazioni in DEX è la Rete Dexon Principale."
   },
   "denExplainer": {
     "message": "Il DEN è il tuo archivio crittato con password dentro Dex San."
@@ -334,8 +334,8 @@
   "depositEth": {
     "message": "Deposita Eth"
   },
-  "depositEther": {
-    "message": "Deposita Ether"
+  "depositDex": {
+    "message": "Deposita DEX"
   },
   "depositFiat": {
     "message": "Deposita con moneta Fiat"
@@ -347,7 +347,7 @@
     "message": "Deposita con ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Se possiedi altre criptomonete, puoi scambiare e depositare Ether direttamente nel tuo portafoglio Dex San. Nessun account richiesto."
+    "message": "Se possiedi altre criptomonete, puoi scambiare e depositare DEX direttamente nel tuo portafoglio Dex San. Nessun account richiesto."
   },
   "details": {
     "message": "Dettagli"
@@ -356,10 +356,10 @@
     "message": "Deposito Diretto"
   },
   "directDepositEther": {
-    "message": "Deposita Direttamente Ether"
+    "message": "Deposita Direttamente DEX"
   },
   "directDepositEtherExplainer": {
-    "message": "Se possiedi già degli Ether, questa è la via più veloce per aggiungere Ether al tuo portafoglio con un deposito diretto."
+    "message": "Se possiedi già degli DEX, questa è la via più veloce per aggiungere DEX al tuo portafoglio con un deposito diretto."    
   },
   "done": {
     "message": "Finito"
@@ -404,7 +404,7 @@
     "message": "Inserisci la tua password per continuare"
   },
   "etherscanView": {
-    "message": "Vedi account su Etherscan"
+    "message": "Vedi account su DEXscan"
   },
   "exchangeRate": {
     "message": "Tasso di cambio"
@@ -482,11 +482,11 @@
     "message": "Generando la transazione"
   },
   "getEther": {
-    "message": "Ottieni Ether"
+    "message": "Ottieni DEX"
   },
   "getEtherFromFaucet": {
-    "message": "Ottieni Get Ether da un faucet per $1",
-    "description": "Visualizza il nome della rete per il faucet Ether"
+    "message": "Ottieni Get DEX da un faucet per $1",
+    "description": "Visualizza il nome della rete per il faucet DEX"
   },
   "getHelp": {
     "message": "Aiuto."
@@ -533,7 +533,7 @@
     "message": "Storico"
   },
   "howToDeposit": {
-    "message": "Come vuoi depositare Ether?"
+    "message": "Come vuoi depositare DEX?"
   },
   "holdEther": {
     "message": "Ti permette di tenere ether & token, e serve da ponte per le applicazioni decentralizzate."
@@ -684,7 +684,7 @@
     "message": "Devi selezionare almeno un token."
   },
   "needEtherInWallet": {
-    "message": "Per interagire con applicazioni decentralizzate con Dex San, devi possedere Ether nel tuo portafoglio."
+    "message": "Per interagire con applicazioni decentralizzate con Dex San, devi possedere DEX nel tuo portafoglio."
   },
   "needImportFile": {
     "message": "Devi selezionare un file da importare.",

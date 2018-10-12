@@ -334,8 +334,8 @@
   "depositEth": {
     "message": "Vplačilo ETH"
   },
-  "depositEther": {
-    "message": "Vplačilo ethra"
+  "depositDex": {
+    "message": "Vplačilo ethera"
   },
   "depositFiat": {
     "message": "Vplačilo s klasičnimi valutami"
@@ -407,7 +407,7 @@
     "message": "ETH"
   },
   "etherscanView": {
-    "message": "Poglej račun na Etherscan"
+    "message": "Poglejte račun na DEXscan"
   },
   "exchangeRate": {
     "message": "Menjalni tečaj"
@@ -491,8 +491,8 @@
     "message": "Pridobi Ether"
   },
   "getEtherFromFaucet": {
-    "message": "Pridobite Ether iz fauceta za $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Pridobite ether iz fauceta za $1",
+    "description": "Displays network name for DEX faucet"
   },
   "getHelp": {
     "message": "Get Help."

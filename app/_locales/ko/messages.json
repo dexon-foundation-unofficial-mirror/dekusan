@@ -331,7 +331,7 @@
   "depositEth": {
     "message": "이더 입금하기"
   },
-  "depositEther": {
+  "depositDex": {
     "message": "이더리움 입금하기"
   },
   "depositFiat": {
@@ -934,6 +934,9 @@
   },
   "rpc": {
     "message": "사용자 정의 RPC"
+  },
+  "connectingToTestnet": {
+    "message": "Rinkeby 테스트넷 접속중"
   },
   "sampleAccountName": {
     "message": "예) 나의 새 계정",

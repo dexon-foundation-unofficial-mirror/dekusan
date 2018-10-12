@@ -240,50 +240,22 @@ module.exports = class AppBar extends Component {
         },
       }, [
         h('.menu-icon.diamond'),
-        'Main Ethereum Network',
+        'Main DEXON Network',
         providerType === 'mainnet'
           ? h('.check', '✓')
           : null,
       ]),
       h(DropdownMenuItem, {
-        key: 'ropsten',
+        key: 'testnet',
         closeMenu: () => this.setState({ isNetworkMenuOpen: !isOpen }),
-        onClick: () => dispatch(actions.setProviderType('ropsten')),
-        style: {
-          fontSize: '18px',
-        },
-      }, [
-        h('.menu-icon.red-dot'),
-        'Ropsten Test Network',
-        providerType === 'ropsten'
-          ? h('.check', '✓')
-          : null,
-      ]),
-      h(DropdownMenuItem, {
-        key: 'kovan',
-        closeMenu: () => this.setState({ isNetworkMenuOpen: !isOpen }),
-        onClick: () => dispatch(actions.setProviderType('kovan')),
-        style: {
-          fontSize: '18px',
-        },
-      }, [
-        h('.menu-icon.hollow-diamond'),
-        'Kovan Test Network',
-        providerType === 'kovan'
-          ? h('.check', '✓')
-          : null,
-      ]),
-      h(DropdownMenuItem, {
-        key: 'rinkeby',
-        closeMenu: () => this.setState({ isNetworkMenuOpen: !isOpen }),
-        onClick: () => dispatch(actions.setProviderType('rinkeby')),
+        onClick: () => dispatch(actions.setProviderType('testnet')),
         style: {
           fontSize: '18px',
         },
       }, [
         h('.menu-icon.golden-square'),
-        'Rinkeby Test Network',
-        providerType === 'rinkeby'
+        'DEXON Test Network',
+        providerType === 'testnet'
           ? h('.check', '✓')
           : null,
       ]),

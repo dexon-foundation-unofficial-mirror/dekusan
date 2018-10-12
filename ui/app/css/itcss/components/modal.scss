@@ -1,4 +1,4 @@
-.modal>div:focus {
+.modal > div:focus {
   outline: none !important;
 }
 
@@ -31,19 +31,23 @@
     width: 100%;
     height: 100px;
   }
+
   .buy-modal-content-title {
     font-size: 26px;
     margin-top: 15px;
   }
+
   .buy-modal-content-options {
     flex-direction: column;
     padding: 5% 33%;
   }
+
   .buy-modal-content-footer {
     text-transform: uppercase;
     width: 100%;
     height: 50px;
   }
+
   div.buy-modal-content-option {
     display: flex;
     flex-direction: column;
@@ -55,9 +59,11 @@
     border: 1px solid $black;
     padding: 0% 7%;
     justify-content: center;
+
     div.buy-modal-content-option-title {
       font-size: 20px;
     }
+
     div.buy-modal-content-option-subtitle {
       font-size: 16px;
     }
@@ -70,19 +76,23 @@
     width: 100%;
     height: 110px;
   }
+
   .buy-modal-content-title {
     font-size: 26px;
     margin-top: 15px;
   }
+
   .buy-modal-content-footer {
     text-transform: uppercase;
     width: 100%;
     height: 50px;
   }
+
   .buy-modal-content-options {
     flex-direction: row;
     margin: 20px 0 60px;
   }
+
   div.buy-modal-content-option {
     display: flex;
     flex-direction: column;
@@ -93,36 +103,44 @@
     border: 1px solid $black;
     margin: 0 8px;
     padding: 18px 0;
+
     div.buy-modal-content-option-title {
       font-size: 20px;
       margin-bottom: 12px;
+
       @media screen and (max-width: 679px) {
         font-size: 14px;
       }
+
       @media screen and (min-width: 1281px) {
         font-size: 20px;
       }
     }
+
     div.buy-modal-content-option-subtitle {
       font-size: 16px;
       padding: 0 10px;
       height: 25%;
+
       @media screen and (max-width: 679px) {
         font-size: 10px;
         padding: 0 10px;
         margin-bottom: 5px;
         line-height: 15px;
       }
+
       @media screen and (min-width: 680px) {
         font-size: 14px;
         padding: 0 4px;
         margin-bottom: 2px;
       }
+
       @media screen and (min-width: 1281px) {
         font-size: 16px;
         padding: 0;
       }
     }
+
     div.buy-modal-content-footer {
       margin-top: 8vh;
     }
@@ -177,6 +195,7 @@
   border: 1px solid $silver;
   border-radius: 4px;
   font-family: Roboto;
+
   button {
     cursor: pointer;
   }
@@ -188,6 +207,7 @@
   top: 13px;
   left: 17px;
   cursor: pointer;
+
   &__text {
     margin-top: 2px;
     font-family: Roboto;
@@ -221,9 +241,11 @@
     margin-top: 9px;
     font-size: 20px;
   }
+
   .qr-wrapper {
     margin-top: 5px;
   }
+
   .ellip-address-wrapper {
     display: flex;
     justify-content: center;
@@ -233,6 +255,7 @@
     margin-top: 7px;
     width: 286px;
   }
+
   .account-modal__button {
     margin-top: 17px;
     padding: 10px 22px;
@@ -459,16 +482,19 @@
   min-height: 250.72px;
   border-radius: 4px;
   background-color: $dark-gray;
-  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.5);
+
   &__container {
     padding: 24px 27px 21px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   &__identicon {
     margin-bottom: 10px;
   }
+
   &__symbol {
     color: $tundora;
     font-family: Roboto;
@@ -477,6 +503,7 @@
     text-align: center;
     margin-bottom: 7.5px;
   }
+
   &__title {
     height: 30px;
     width: 271.28px;
@@ -487,6 +514,7 @@
     text-align: center;
     margin-bottom: 10.5px;
   }
+
   &__copy {
     height: 41px;
     width: 318px;
@@ -496,6 +524,7 @@
     line-height: 18px;
     text-align: center;
   }
+
   &__buttons {
     display: flex;
     flex-direction: row;
@@ -503,6 +532,7 @@
     margin-top: 15px;
     width: 100%;
   }
+
   &__button {
     width: 141px;
     margin: 0 5px;
@@ -521,6 +551,7 @@
     box-shadow: 0 0 2px 2px $alto;
     font-family: Roboto;
   }
+
   &__header {
     background: $wild-sand;
     width: 100%;
@@ -530,6 +561,7 @@
     font-size: 22px;
     color: $nile-blue;
   }
+
   &__message {
     padding: 20px;
     width: 100%;
@@ -538,16 +570,19 @@
     font-size: 17px;
     color: $nile-blue;
   }
+
   &__buttons {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     margin-bottom: 24px;
     padding: 0px 42px;
+
     &__btn {
       cursor: pointer;
     }
   }
+
   &__link {
     color: $curious-blue;
   }
@@ -560,6 +595,7 @@
   display: flex;
   flex-flow: column;
   height: 100%;
+
   &__header {
     width: 100%;
     border-radius: 8px 8px 0 0;
@@ -569,17 +605,20 @@
     padding: 25px;
     flex-flow: column;
     align-items: flex-start;
+
     &__title {
       color: $white;
       font-size: 24px;
       line-height: 32px;
     }
+
     &__description {
       color: $white;
       font-size: 16px;
       line-height: 22px;
       margin-top: 10px;
     }
+
     &__close::after {
       content: '\00D7';
       font-size: 2em;
@@ -590,6 +629,7 @@
       cursor: pointer;
     }
   }
+
   &__buy-rows {
     width: 100%;
     padding: 0 30px;
@@ -597,21 +637,25 @@
     flex-flow: column nowrap;
     flex: 1;
     align-items: center;
+
     @media screen and (max-width: 575px) {
       height: 0;
     }
+
     .shapeshift-form-wrapper {
       display: flex;
       flex-flow: column;
       justify-content: center;
       align-items: center;
       flex: 1 0 auto;
+
       .shapeshift-form,
       .modal-shapeshift-form {
         border-radius: 8px;
-        background-color: rgba(0, 0, 0, .05);
+        background-color: rgba(0, 0, 0, 0.05);
         padding: 17px 15px;
         margin-bottom: 10px;
+
         &__caret {
           width: auto;
           flex: 1;
@@ -619,6 +663,7 @@
       }
     }
   }
+
   &__logo {
     height: 60px;
     background-repeat: no-repeat;
@@ -629,27 +674,32 @@
     justify-content: center;
     align-items: center;
   }
+
   &__buy-row {
-    border-bottom: 1px solid $alto;
+    border-bottom: 1px solid $geyser;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 1 0 auto;
     padding: 30px 0 20px;
     min-height: 170px;
+
     @media screen and (max-width: 575px) {
       min-height: 270px;
       flex-flow: column;
       justify-content: flex-start;
     }
+
     &__back {
       position: absolute;
       top: 10px;
       left: 0px;
     }
+
     &__shapeshift-buy {
       padding-top: 25px;
       position: relative;
+
       @media screen and (max-width: 575px) {
         display: flex;
         justify-content: space-between;
@@ -663,61 +713,76 @@
         border: none;
       }
     }
+
     &__logo-container {
       display: flex;
       justify-content: center;
       flex: 0 0 auto;
       padding: 0 20px;
+
       @media screen and (min-width: 576px) {
         width: 12rem;
       }
+
       @media screen and (max-width: 575px) {
         width: 100%;
         max-height: 6rem;
         padding-bottom: 20px;
       }
     }
+
     &__coinbase-logo {
       height: 40px;
     }
+
     &__shapeshift-logo {
       height: 60px;
     }
+
     &__right {
       display: flex;
     }
+
     &__description {
-      color: $cape-cod;
+      color: $white;
       padding-bottom: 20px;
       align-self: flex-start;
+
       @media screen and (min-width: 575px) {
         width: 15rem;
       }
+
       &__title {
         font-size: 20px;
         line-height: 30px;
       }
+
       &__text {
         font-size: 14px;
         line-height: 22px;
         margin-top: 7px;
       }
     }
+
     &__button {
       display: flex;
       justify-content: flex-end;
+
       @media screen and (min-width: 575px) {
         min-width: 300px;
       }
     }
   }
+
   &__buy-row:last-of-type {
     border-bottom: 0px;
   }
+
   &__deposit-button,
   .shapeshift-form__shapeshift-buy-btn {
     width: 257px;
   }
+
   .shapeshift-form-wrapper {
     display: flex;
     flex-flow: column;
@@ -725,20 +790,24 @@
     align-items: center;
     margin-top: 28px;
     flex: 1 0 auto;
+
     .shapeshift-form,
     .modal-shapeshift-form {
       border-radius: 8px;
-      background-color: rgba(0, 0, 0, .05);
+      background-color: rgba(0, 0, 0, 0.05);
       padding: 17px 15px;
+
       &__caret {
         width: auto;
         flex: 1;
       }
     }
   }
+
   .shapeshift-form__shapeshift-buy-btn {
     margin-top: 10px;
   }
+
   .simple-dropdown {
     color: #5B5D67;
     font-size: 16px;
@@ -751,6 +820,7 @@
     line-height: 44px;
     font-family: Montserrat Light;
   }
+
   .simple-dropdown__selected {
     text-align: center;
   }

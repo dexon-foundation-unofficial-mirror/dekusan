@@ -232,7 +232,7 @@
     "message": "Количество десятичных разрядов"
   },
   "defaultNetwork": {
-    "message": "Основная сеть Dexon – это сеть по умолчанию для Ether транзакций."
+    "message": "Основная сеть Dexon – это сеть по умолчанию для DEX транзакций."
   },
   "denExplainer": {
     "message": "DEN – это зашифрованное паролем хранилище внутри Dex San."
@@ -250,8 +250,8 @@
   "depositEth": {
     "message": "Пополнить Eth"
   },
-  "depositEther": {
-    "message": "Пополнить Ether"
+  "depositDex": {
+    "message": "Пополнить DEX"
   },
   "depositFiat": {
     "message": "Пополнить деньгами"
@@ -263,7 +263,7 @@
     "message": "Пополнить через ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Если у вас есть другие криптовалюты, вы можете торговать и пополнять Ether напрямую в ваш Dex San кошелек. Нет необходимости в счете."
+    "message": "Если у вас есть другие криптовалюты, вы можете торговать и пополнять DEX напрямую в ваш Dex San кошелек. Нет необходимости в счете."
   },
   "details": {
     "message": "Детали"
@@ -272,10 +272,10 @@
     "message": "Прямое пополнение"
   },
   "directDepositEther": {
-    "message": "Прямое пополнение Ether"
+    "message": "Прямое пополнение DEX"
   },
   "directDepositEtherExplainer": {
-    "message": "Если у вас уже есть Ether, то самый быстрый способ получить Ether в ваш новый кошелек – это прямое пополнение."
+    "message": "Если у вас уже есть DEX, то самый быстрый способ получить DEX в ваш новый кошелек – это прямое пополнение."
   },
   "done": {
     "message": "Готово"
@@ -305,7 +305,7 @@
     "message": "Введите ваш пароль для подтверждения"
   },
   "etherscanView": {
-    "message": "Просмотреть счет на Etherscan"
+    "message": "Просмотреть счет на DEXscan"
   },
   "exchangeRate": {
     "message": "Обменный курс"
@@ -371,11 +371,11 @@
     "message": "Установите стоимость газа"
   },
   "getEther": {
-    "message": "Получить Ether"
+    "message": "Получить DEX"
   },
   "getEtherFromFaucet": {
-    "message": "Получить Ether из крана для $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Получить DEX из крана для $1",
+    "description": "Displays network name for DEX faucet"
   },
   "greaterThanMin": {
     "message": "должно быть больше или равно $1.",
@@ -398,7 +398,7 @@
     "message": "Скрыть токен?"
   },
   "howToDeposit": {
-    "message": "Как бы вы хотели пополнить Ether?"
+    "message": "Как бы вы хотели пополнить DEX?"
   },
   "holdEther": {
     "message": "Позволяет вам хранить ether и токены и служит в качестве моста в децентрализированные приложения."
@@ -525,7 +525,7 @@
     "message": "Необходимо выбрать как минимум 1 токен."
   },
   "needEtherInWallet": {
-    "message": "Для взаимодействия с децентрализованными приложениями с помощью Dex San нужен Ether в вашем кошельке."
+    "message": "Для взаимодействия с децентрализованными приложениями с помощью Dex San нужен DEX в вашем кошельке."
   },
   "needImportFile": {
     "message": "Вы должны выбрать файл для импорта.",
@@ -697,7 +697,7 @@
   "connectingToKovan": {
     "message": "Соединение с тестовой сетью Kovan"
   },
-  "connectingToRinkeby": {
+  "connectingToTestnet": {
     "message": "Соединение с тестовой сетью Rinkeby"
   },
   "connectingToUnknown": {
