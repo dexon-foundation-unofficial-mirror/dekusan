@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Button from '@material-ui/core/Button'
+import Button from '../../button'
 import TextField from '../../text-field'
 import { ENVIRONMENT_TYPE_POPUP } from '../../../../../app/scripts/lib/enums'
 import { getEnvironmentType } from '../../../../../app/scripts/lib/util'
@@ -81,26 +81,13 @@ export default class UnlockPage extends Component {
   }
 
   renderSubmitButton () {
-    const style = {
-      backgroundColor: '#954a97',
-      color: 'white',
-      marginTop: '20px',
-      height: '60px',
-      fontWeight: '400',
-      boxShadow: 'none',
-      borderRadius: '4px',
-    }
-
     return (
       <Button
-        type="submit"
-        style={style}
+        type="primary"
+        large
         disabled={!this.state.password}
         fullWidth
-        variant="raised"
-        size="large"
         onClick={event => this.handleSubmit(event)}
-        disableRipple
       >
         { this.context.t('login') }
       </Button>

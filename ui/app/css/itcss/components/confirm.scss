@@ -7,12 +7,10 @@
   box-shadow: 0 2px 4px 0 rgba($black, .08);
   border-radius: 8px;
   display: flex;
-
   @media screen and (max-width: 575px) {
     width: 100%;
     box-shadow: initial;
   }
-
   @media screen and (min-width: 576px) {
     // top: -26px;
   }
@@ -20,7 +18,6 @@
 
 .notification {
   .confirm-screen-wrapper {
-
     @media screen and (max-width: $break-small) {
       height: calc(100vh - 85px);
     }
@@ -30,7 +27,7 @@
 .confirm-screen-wrapper {
   height: 100%;
   width: 380px;
-  background-color: $white;
+  background-color: $dark-gray;
   display: flex;
   flex-flow: column nowrap;
   z-index: 25;
@@ -41,7 +38,6 @@
   overflow-x: hidden;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-
   @media screen and (max-width: $break-small) {
     width: 100%;
     overflow-x: hidden;
@@ -54,12 +50,12 @@
   }
 }
 
-.confirm-screen-wrapper > .confirm-screen-total-box {
+.confirm-screen-wrapper>.confirm-screen-total-box {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.confirm-screen-wrapper > .confirm-memo-wrapper {
+.confirm-screen-wrapper>.confirm-memo-wrapper {
   margin: 0;
 }
 
@@ -75,7 +71,6 @@
   width: 100%;
   padding: 25px 0;
   flex: 0 0 auto;
-
   @media screen and (max-width: $break-small) {
     font-size: 20px;
   }
@@ -95,7 +90,6 @@
 
 .confirm-screen-title {
   line-height: 27px;
-
   @media screen and (max-width: $break-small) {
     margin-left: 22px;
     margin-right: 8px;
@@ -150,12 +144,10 @@
 .confirm-screen-identicons {
   margin-top: 24px;
   flex: 0 0 auto;
-
   i.fa-arrow-right {
     align-self: start;
     margin: 42px 14px 0;
   }
-
   i.fa-file-text-o {
     font-size: 60px;
     margin: 16px 8px 0 8px;
@@ -234,7 +226,6 @@ section .confirm-screen-account-number,
   padding-left: 35px;
   font-size: 16px;
   line-height: 22px;
-
   &:not(:last-of-type) {
     border-bottom: 1px solid $alto;
   }
@@ -245,11 +236,9 @@ section .confirm-screen-account-number,
     span.confirm-screen-section-column {
       flex: 0.4;
     }
-
     div.confirm-screen-section-column {
       flex: 0.6;
     }
-
     .currency-display__input {
       font-size: 14px;
     }
@@ -265,20 +254,16 @@ section .confirm-screen-account-number,
 .confirm-screen-total-box {
   background-color: $wild-sand;
   position: relative;
-
   .confirm-screen-label {
     line-height: 21px;
   }
-
   .confirm-screen-row-detail {
     color: $scorpion;
   }
-
   &__subtitle {
     font-size: 12px;
     line-height: 16px;
   }
-
   .confirm-screen-row-info {
     font-size: 16px;
     font-weight: 500;
@@ -312,7 +297,6 @@ section .confirm-screen-account-number,
 
 .confirm-screen-form {
   position: relative;
-
   .confirm-screen-error {
     right: 0;
     width: 100%;

@@ -31,10 +31,10 @@
   color: $white;
   background: $dexon-purple;
   border: 2px solid $dexon-purple;
-  &:active {
-    border-color: $white;
-  }
   &:hover {
+    border-color: $white-transparent;
+  }
+  &:active {
     border-color: $white;
   }
 }
@@ -55,10 +55,10 @@
   color: $white;
   border: 2px solid $dusty-gray;
   background: $dusty-gray;
-  &:active {
-    border-color: $white;
-  }
   &:hover {
+    border-color: $white-transparent;
+  }
+  &:active {
     border-color: $white;
   }
 }
@@ -92,14 +92,14 @@
   background: $white;
   text-align: center;
   padding: .8rem 1rem;
-  color: $curious-blue;
-  border: 2px solid $spindle;
+  color: $white;
+  border: 2px solid $dexon-purple;
   border-radius: 4px;
   font-size: .85rem;
   font-weight: 400;
   transition: border-color .3s ease;
   &:hover {
-    border-color: $curious-blue;
+    border-color: $white;
   }
   &--disabled,
   &[disabled] {

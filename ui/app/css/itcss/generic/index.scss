@@ -49,7 +49,7 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   @media screen and (max-width: $break-small) {
-    background-color: $white;
+    background-color: $dark-gray;
   }
 }
 

@@ -5,9 +5,9 @@
   align-items: center;
   border: 1px solid $alto;
   border-radius: 4px;
-  background-color: $white;
+  background-color: $dark-gray;
   font-size: 16px;
-  color: #4d4d4d;
+  color: $geyser;
   cursor: pointer;
   position: relative;
 }
@@ -27,9 +27,9 @@
   position: absolute;
   height: 220px;
   width: 100%;
-  border: 1px solid #d2d8dd;
+  border: 1px solid $geyser;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: $dark-gray;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .11);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .11);
   margin-top: 10px;
@@ -40,7 +40,6 @@
 
 .simple-dropdown__option {
   padding: 10px;
-
   &:hover {
     background-color: $gallery;
   }
@@ -48,7 +47,6 @@
 
 .simple-dropdown__option--selected {
   background-color: $alto;
-
   &:hover {
     background-color: $alto;
     cursor: default;

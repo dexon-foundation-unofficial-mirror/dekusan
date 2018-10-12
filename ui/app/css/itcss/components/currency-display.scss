@@ -2,17 +2,15 @@
   height: 54px;
   border: 1px solid $alto;
   border-radius: 4px;
-  background-color: $white;
+  background-color: $dark-gray;
   color: $scorpion;
   font-family: Roboto;
   font-size: 16px;
   padding: 8px 10px;
   position: relative;
-
   &__primary-row {
     display: flex;
   }
-
   &__input {
     color: $scorpion;
     font-family: Roboto;
@@ -22,7 +20,6 @@
     outline: 0 !important;
     max-width: 22ch;
   }
-
   &__primary-currency {
     color: $scorpion;
     font-weight: 400;
@@ -30,11 +27,9 @@
     font-size: 16px;
     line-height: 22px;
   }
-
   &__converted-row {
     display: flex;
   }
-
   &__converted-value,
   &__converted-currency {
     color: $dusty-gray;
@@ -42,42 +37,35 @@
     font-size: 12px;
     line-height: 12px;
   }
-
   &__input-wrapper {
     position: relative;
     display: flex;
     flex: 1;
     max-width: 100%;
-
     input[type="number"] {
       -moz-appearance: textfield;
     }
-
     input[type="number"]::-webkit-inner-spin-button {
       -webkit-appearance: none;
       -moz-appearance: none;
       display: none;
     }
-
     input[type="number"]:hover::-webkit-inner-spin-button {
       -webkit-appearance: none;
       -moz-appearance: none;
       display: none;
     }
   }
-
   &__currency-symbol {
     margin-top: 1px;
     color: $scorpion;
   }
-
   .react-numeric-input {
     input[type="number"]::-webkit-inner-spin-button {
       -webkit-appearance: none;
       -moz-appearance: none;
       display: none;
     }
-
     input[type="number"]:hover::-webkit-inner-spin-button {
       -webkit-appearance: none;
       -moz-appearance: none;

@@ -1,11 +1,9 @@
 .transaction-view {
   flex: 1 1 66.5%;
-  background: $white;
+  background: $dark-gray;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-
   &__balance-wrapper {
     @media screen and (max-width: $break-small) {
       display: flex;
@@ -15,7 +13,6 @@
       flex: 0 0 auto;
       padding-top: 16px;
     }
-
     @media screen and (min-width: $break-large) {
       display: flex;
       flex-direction: row;

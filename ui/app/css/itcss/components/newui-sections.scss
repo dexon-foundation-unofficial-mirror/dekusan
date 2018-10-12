@@ -1,13 +1,11 @@
 $sub-mid-size-breakpoint: 667px;
 $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (max-width: #{$sub-mid-size-breakpoint})";
-
 /*
   NewUI Container Elements
  */
 
 // Component Colors
-$wallet-view-bg: $alabaster;
-
+$wallet-view-bg: $muddy-gray;
 // Main container
 .main-container {
   // position: absolute;
@@ -36,7 +34,6 @@ $wallet-view-bg: $alabaster;
 }
 
 // wallet view and sidebar
-
 .wallet-view {
   display: flex;
   flex-direction: column;
@@ -45,26 +42,21 @@ $wallet-view-bg: $alabaster;
   background: $wallet-view-bg;
   z-index: 200;
   position: relative;
-
   @media screen and (min-width: 576px) {
     overflow-y: scroll;
     overflow-x: hidden;
   }
-
   @media #{$sub-mid-size-breakpoint-range} {
     min-width: 160px;
   }
-
   .wallet-view-account-details {
     flex: 0 0 auto;
   }
-
   &__name-container {
     flex: 0 0 auto;
     cursor: pointer;
     width: 100%;
   }
-
   &__keyring-label {
     height: 50px;
     color: $dusty-gray;
@@ -74,7 +66,6 @@ $wallet-view-bg: $alabaster;
     padding: 17px 20px 0;
     box-sizing: border-box;
   }
-
   &__details-button {
     font-size: 10px;
     border-radius: 17px;
@@ -83,14 +74,12 @@ $wallet-view-bg: $alabaster;
     padding: 4px 12px;
     flex: 0 0 auto;
   }
-
   &__tooltip {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px;
   }
-
   &__address {
     border-radius: 3px;
     background-color: $alto;
@@ -100,14 +89,11 @@ $wallet-view-bg: $alabaster;
     padding: 4px 12px;
     cursor: pointer;
     flex: 0 0 auto;
-
     &__pressed {
       background-color: $manatee,
     }
   }
-
   &__sidebar-close {
-
     @media screen and (max-width: 575px) {
       &::after {
         content: '\00D7';
@@ -118,6 +104,16 @@ $wallet-view-bg: $alabaster;
         left: 12px;
         cursor: pointer;
       }
+    }
+  }
+  &__add-token-button {
+    flex: 0 0 auto;
+    margin: 36px auto;
+    background: none;
+    transition: border-color .3s ease;
+    width: 150px;
+    &:hover {
+      border-color: $white;
     }
   }
 }
@@ -134,9 +130,7 @@ $wallet-view-bg: $alabaster;
 
 .wallet-view-title {
   margin-left: 15px;
-  font-size: 16px;
-
-  // No title on mobile
+  font-size: 16px; // No title on mobile
   @media screen and (max-width: 575px) {
     display: none;
   }
@@ -161,21 +155,19 @@ $wallet-view-bg: $alabaster;
 }
 
 // main-container media queries
-
 @media screen and (min-width: 576px) {
   .lap-visible {
     display: flex;
   }
-
   .phone-visible {
     display: none;
   }
-
   .main-container {
     // margin-top: 6.9vh;
     width: 85vw;
     height: 90vh;
-    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .08);
+    border: 2px solid $geyser;
+    border-radius: 4px;
   }
 }
 
@@ -184,7 +176,6 @@ $wallet-view-bg: $alabaster;
     // margin-top: 6.9vh;
     width: 80vw;
     height: 82vh;
-    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .08);
   }
 }
 
@@ -193,7 +184,6 @@ $wallet-view-bg: $alabaster;
     // margin-top: 6.9vh;
     width: 62vw;
     height: 82vh;
-    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .08);
   }
 }
 
@@ -201,19 +191,16 @@ $wallet-view-bg: $alabaster;
   .lap-visible {
     display: none;
   }
-
   .phone-visible {
     display: flex;
   }
-
   .main-container {
     // margin-top: 41px;
     height: 100%;
     width: 100%;
     overflow-y: auto;
-    background-color: $white;
+    background-color: $dark-gray;
   }
-
   .main-container-wrapper {
     flex: 1;
     min-height: 0;
@@ -224,7 +211,7 @@ $wallet-view-bg: $alabaster;
 // wallet view
 .account-name {
   font-size: 24px;
-  color: $black;
+  color: $white;
   margin-top: 8px;
   margin-bottom: .9rem;
   white-space: nowrap;
@@ -255,19 +242,15 @@ $wallet-view-bg: $alabaster;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-
   @media screen and (max-width: 575px) {
     height: 100%;
   }
-
   @media screen and (min-width: 576px) {
     width: 85vw;
   }
-
   @media screen and (min-width: 769px) {
     width: 80vw;
   }
-
   @media screen and (min-width: 1281px) {
     width: 62vw;
   }

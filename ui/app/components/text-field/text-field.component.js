@@ -59,7 +59,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     '&$inputFocused': {
-      border: '1px solid #d2d8dd',
+      border: '1px solid #4a4a4a',
     },
   },
   input: {

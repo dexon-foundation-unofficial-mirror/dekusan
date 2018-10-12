@@ -3,12 +3,10 @@
   flex-flow: column nowrap;
   z-index: 25;
   font-family: Roboto;
-
   @media screen and (max-width: $break-small) {
     width: 100%;
     overflow-y: auto;
   }
-
   section {
     flex: 0 0 auto;
   }
@@ -18,14 +16,12 @@
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
   padding: 46px 40.5px 26px;
-  position: relative;
-  // top: -26px;
+  position: relative; // top: -26px;
   align-items: center;
   display: flex;
   flex-flow: column nowrap;
   width: 498px;
   flex: 1 0 auto;
-
   @media screen and (max-width: $break-small) {
     top: 0;
     width: 100%;
@@ -56,7 +52,6 @@
   z-index: 25;
   padding: 4px;
   background-color: $white;
-
   @media screen and (max-width: $break-small) {
     position: relative;
     top: 0;
@@ -66,11 +61,9 @@
 .send-screen-input-wrapper {
   width: 95%;
   position: relative;
-
   .fa-bolt {
     padding-right: 4px;
   }
-
   .large-input {
     border: 1px solid $dusty-gray;
     border-radius: 4px;
@@ -79,21 +72,17 @@
     line-height: 22.4px;
     font-family: Roboto;
   }
-
   .send-screen-gas-input {
     border: 1px solid transparent;
   }
-
   &__error-message {
     display: none;
   }
-
   &--error {
     input,
     .send-screen-gas-input {
       border-color: $red !important;
     }
-
     .send-screen-input-wrapper__error-message {
       display: block;
       position: absolute;
@@ -104,7 +93,6 @@
       color: $red;
     }
   }
-
   .send-screen-input-wrapper__error-message {
     display: block;
     position: absolute;
@@ -152,7 +140,6 @@
   &__item {
     color: $curious-blue;
     cursor: pointer;
-
     &--selected {
       color: $black;
       cursor: default;
@@ -180,7 +167,7 @@
   bottom: 50px;
   width: 237px;
   height: 307px;
-  background-color: $white;
+  background-color: $dark-gray;
   opacity: 1;
   box-shadow: $alto 0 0 5px;
   z-index: 1050;
@@ -282,7 +269,6 @@
     display: inline-block;
     margin-right: 4px;
   }
-
   &__symbol {
     display: inline-block;
   }
@@ -294,19 +280,16 @@
     font-size: 18px;
     line-height: 29px;
   }
-
   &__subtitle {
     margin: 10px 0 20px;
     font-size: 14px;
     line-height: 24px;
   }
-
   &__send-button,
   &__cancel-button {
     width: 163px;
     text-align: center;
   }
-
   &__send-button__disabled {
     opacity: .5;
     cursor: auto;
@@ -318,20 +301,17 @@
   flex-flow: column nowrap;
   z-index: 25;
   font-family: Roboto;
-
   &__content {
     width: 498px;
     height: 605px;
     background-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
     padding: 46px 40.5px 26px;
-    position: relative;
-    // top: -26px;
+    position: relative; // top: -26px;
     align-items: center;
     display: flex;
     flex-flow: column nowrap;
     flex: 1 0 auto;
-
     @media screen and (max-width: $break-small) {
       top: 0;
       width: 100%;
@@ -339,25 +319,21 @@
       padding: 12px;
     }
   }
-
   .identicon {
     position: absolute;
     top: -35px;
     z-index: 25;
-
     @media screen and (max-width: $break-small) {
       position: relative;
       top: 0;
       flex: 0 0 auto;
     }
   }
-
   &__title {
     color: $scorpion;
     font-size: 18px;
     line-height: 29px;
   }
-
   &__description,
   &__balance-text,
   &__token-symbol {
@@ -366,27 +342,22 @@
     line-height: 24px;
     text-align: center;
   }
-
   &__token-balance {
     font-size: 40px;
     line-height: 40px;
     margin-top: 13px;
-
     .token-balance__amount {
       padding-right: 12px;
     }
   }
-
   &__button-group {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     flex: 0 0 auto;
-
     @media screen and (max-width: $break-small) {
       margin-top: 24px;
     }
-
     button {
       width: 163px;
     }
@@ -404,7 +375,7 @@
     // height: 701px;
     width: 380px;
     border-radius: 8px;
-    background-color: $white;
+    background-color: $dark-gray;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
     display: flex;
     flex-flow: column nowrap;
@@ -412,7 +383,6 @@
     align-items: center;
     font-family: Roboto;
     position: relative;
-
     @media screen and (max-width: $break-small) {
       width: 100%;
       top: 0;
@@ -420,16 +390,13 @@
       flex: 1 1 auto;
     }
   }
-
   &__send-header-icon-container {
     z-index: 25;
-
     @media screen and (max-width: $break-small) {
       position: relative;
       top: 0;
     }
   }
-
   &__send-header-icon {
     border-radius: 50%;
     width: 48px;
@@ -439,7 +406,6 @@
     padding: 4px;
     background-color: $white;
   }
-
   &__send-arrow-icon {
     color: #f28930;
     transform: rotate(-45deg);
@@ -448,7 +414,6 @@
     left: 0;
     font-size: 1.12em;
   }
-
   &__arrow-background {
     background-color: $white;
     height: 14px;
@@ -458,12 +423,10 @@
     left: 199px;
     border-radius: 50%;
     z-index: 100;
-
     @media screen and (max-width: $break-small) {
       top: 36px;
     }
   }
-
   &__header {
     height: 88px;
     width: 380px;
@@ -472,13 +435,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     @media screen and (max-width: $break-small) {
       height: 59px;
       width: 100vw;
     }
   }
-
   &__header-tip {
     height: 25px;
     width: 25px;
@@ -487,7 +448,6 @@
     transform: rotate(45deg);
     left: 178px;
     top: 75px;
-
     @media screen and (max-width: $break-small) {
       top: 46px;
       left: 0;
@@ -495,7 +455,6 @@
       margin: 0 auto;
     }
   }
-
   &__title {
     color: $scorpion;
     font-size: 22px;
@@ -503,7 +462,6 @@
     text-align: center;
     margin-top: 25px;
   }
-
   &__copy {
     color: $gray;
     font-size: 14px;
@@ -512,27 +470,22 @@
     margin-top: 10px;
     width: 287px;
   }
-
   &__error {
     font-size: 12px;
     line-height: 12px;
     left: 8px;
     color: $red;
   }
-
   &__error-border {
     color: $red;
   }
-
   &__form {
     padding: 10px 0 25px;
-
     @media screen and (max-width: $break-small) {
       margin: 0;
       flex: 1 1 auto;
     }
   }
-
   &__form-header,
   &__form-header-copy {
     width: 100%;
@@ -540,7 +493,6 @@
     flex-flow: column;
     align-items: center;
   }
-
   &__form-row {
     margin: 14.5px 18px 0px;
     position: relative;
@@ -549,31 +501,24 @@
     flex: 1 0 auto;
     justify-content: space-between;
   }
-
   &__form-field {
     flex: 1 1 auto;
-    min-width: 0;
-
     .currency-display {
       color: $tundora;
-
       &__currency-symbol {
         color: $tundora;
       }
-
       &__converted-value,
       &__converted-currency {
         color: $tundora;
       }
     }
-
     .account-list-item {
       &__account-secondary-balance {
         color: $tundora;
       }
     }
   }
-
   &__form-label {
     color: $scorpion;
     font-family: Roboto;
@@ -583,19 +528,17 @@
     font-weight: 400;
     flex: 0 0 auto;
   }
-
   &__from-dropdown {
     height: 73px;
     width: 100%;
     border: 1px solid $alto;
     border-radius: 4px;
-    background-color: $white;
+    background-color: $dark-gray;
     font-family: Roboto;
     line-height: 16px;
     font-size: 12px;
     color: $tundora;
     position: relative;
-
     &__close-area {
       position: fixed;
       top: 0;
@@ -604,7 +547,6 @@
       width: 100%;
       height: 100%;
     }
-
     &__list {
       z-index: 1050;
       position: absolute;
@@ -613,23 +555,20 @@
       border: 1px solid $geyser;
       border-radius: 4px;
       background-color: $white;
-      box-shadow: 0 3px 6px 0 rgba(0 ,0 ,0 ,.11);
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .11);
       margin-top: 11px;
       margin-left: -1px;
       overflow-y: scroll;
     }
   }
-
   &__to-autocomplete {
     position: relative;
-
     &__down-caret {
       z-index: 1026;
       position: absolute;
       top: 18px;
       right: 12px;
     }
-
     &__qr-code {
       z-index: 1026;
       position: absolute;
@@ -639,17 +578,16 @@
       padding: 8px 5px 5px;
       border-radius: 4px;
     }
-
     &__qr-code:hover {
       background: #f1f1f1;
     }
-
     &__input.with-qr {
       padding-right: 65px;
     }
   }
-
-  &__to-autocomplete, &__memo-text-area, &__hex-data {
+  &__to-autocomplete,
+  &__memo-text-area,
+  &__hex-data {
     &__input {
       z-index: 1025;
       position: relative;
@@ -665,7 +603,6 @@
       line-height: 21px;
     }
   }
-
   &__amount-max {
     color: $curious-blue;
     font-family: Roboto;
@@ -674,11 +611,9 @@
     border: none;
     cursor: pointer;
   }
-
   &__gas-fee-display {
     width: 100%;
     position: relative;
-
     .currency-display--message {
       padding: 8px 38px 8px 10px;
       display: flex;
@@ -686,7 +621,6 @@
     }
 
   }
-
   &__sliders-icon-container {
     display: flex;
     align-items: center;
@@ -702,17 +636,14 @@
     cursor: pointer;
     font-size: 1em;
   }
-
   &__sliders-icon {
     color: $curious-blue;
   }
-
   &__memo-text-area {
     &__input {
       padding: 6px 10px;
     }
   }
-
   &__footer {
     height: 92px;
     width: 100%;
@@ -724,27 +655,23 @@
     padding: 0 12px;
     flex-shrink: 0;
   }
-
   &__next-btn,
   &__cancel-btn {
     width: 163px;
     margin: 0 4px;
   }
-
   &__customize-gas {
     border: 1px solid #D8D8D8;
     border-radius: 4px;
     background-color: #FFFFFF;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
     font-family: Roboto;
     display: flex;
     flex-flow: column;
-
     @media screen and (max-width: $break-small) {
       width: 100vw;
       height: 100vh;
     }
-
     &__header {
       height: 52px;
       border-bottom: 1px solid $alto;
@@ -752,16 +679,13 @@
       align-items: center;
       justify-content: space-between;
       font-size: 22px;
-
       @media screen and (max-width: $break-small) {
         flex: 0 0 auto;
       }
     }
-
     &__title {
       margin-left: 19.25px;
     }
-
     &__close::after {
       content: '\00D7';
       font-size: 1.8em;
@@ -770,23 +694,19 @@
       cursor: pointer;
       margin-right: 19.25px;
     }
-
     &__content {
       display: flex;
       flex-flow: column nowrap;
       height: 100%;
     }
-
     &__body {
       display: flex;
       margin-bottom: 24px;
-
       @media screen and (max-width: $break-small) {
         flex-flow: column;
         flex: 1 1 auto;
       }
     }
-
     &__footer {
       height: 75px;
       border-top: 1px solid $alto;
@@ -795,42 +715,40 @@
       justify-content: space-between;
       font-size: 22px;
       position: relative;
-
       @media screen and (max-width: $break-small) {
         flex: 0 0 auto;
       }
     }
-
     &__buttons {
       display: flex;
       justify-content: space-between;
       margin-right: 21.25px;
     }
-
-    &__revert, &__cancel, &__save, &__save__error {
+    &__revert,
+    &__cancel,
+    &__save,
+    &__save__error {
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 0 3px;
       cursor: pointer;
     }
-
     &__revert {
       color: $silver-chalice;
       font-size: 16px;
       margin-left: 21.25px;
     }
-
-    &__cancel, &__save, &__save__error {
+    &__cancel,
+    &__save,
+    &__save__error {
       width: 85.74px;
       min-width: initial;
     }
-
     &__save__error {
       opacity: 0.5;
       cursor: auto;
     }
-
     &__error-message {
       display: block;
       position: absolute;
@@ -842,19 +760,16 @@
       width: 100%;
       text-align: center;
     }
-
     &__cancel {
       margin-right: 10px;
     }
   }
-
   &__gas-modal-card {
     width: 360px;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
     padding-left: 20px;
-
     &__title {
       height: 26px;
       color: $tundora;
@@ -863,7 +778,6 @@
       line-height: 26px;
       margin-top: 17px;
     }
-
     &__copy {
       height: 38px;
       width: 314px;
@@ -873,11 +787,9 @@
       line-height: 19px;
       margin-top: 17px;
     }
-
     .customize-gas-input-wrapper {
       margin-top: 17px;
     }
-
     .customize-gas-input {
       height: 54px;
       width: 315px;
@@ -885,7 +797,6 @@
       background-color: $white;
       padding-left: 15px;
     }
-
     .gas-tooltip-input-arrows {
       width: 32px;
       height: 54px;
@@ -898,7 +809,6 @@
       justify-content: space-around;
       align-items: center;
     }
-
     .gas-tooltip-input-arrow-wrapper {
       align-items: center;
       align-self: stretch;
@@ -907,12 +817,10 @@
       flex-grow: 1;
       justify-content: center;
     }
-
     input[type="number"]::-webkit-inner-spin-button {
       -webkit-appearance: none;
       display: none;
     }
-
     input[type="number"]:hover::-webkit-inner-spin-button {
       -webkit-appearance: none;
       display: none;
@@ -937,7 +845,7 @@
   width: 24px;
   border: 1px solid $curious-blue;
   border-radius: 4px;
-  background-color: $white;
+  background-color: $dark-gray;
   position: absolute;
   right: 15px;
   top: 14px;
