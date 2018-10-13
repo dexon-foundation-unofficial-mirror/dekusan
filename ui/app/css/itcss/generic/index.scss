@@ -2,7 +2,8 @@
   Generic
  */
 
-@import './reset.scss';
+@import "./reset.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -48,6 +49,7 @@ textarea:focus {
   height: 100%;
   display: flex;
   flex-direction: column;
+
   @media screen and (max-width: $break-small) {
     background-color: $dark-gray;
   }
@@ -61,7 +63,12 @@ a {
 }
 
 a:hover {
-  color: #df6b0e;
+  color: #954A97;
+}
+
+input {
+  color: $white;
+  background-color: $dark-gray;
 }
 
 input.large-input,
@@ -90,22 +97,27 @@ input.form-control {
   border: 1px solid $alto;
   border-radius: 3px;
   width: 100%;
+
   &::-webkit-input-placeholder {
     font-weight: 100;
     color: $dusty-gray;
   }
+
   &::-moz-placeholder {
     font-weight: 100;
     color: $dusty-gray;
   }
+
   &:-ms-input-placeholder {
     font-weight: 100;
     color: $dusty-gray;
   }
+
   &:-moz-placeholder {
     font-weight: 100;
     color: $dusty-gray;
   }
+
   &--error {
     border: 1px solid $monzo;
   }

@@ -16,7 +16,7 @@ export default class Breadcrumbs extends Component {
           <div
             key={i}
             className="breadcrumb"
-            style={{backgroundColor: i === currentIndex ? '#D8D8D8' : '#FFFFFF'}}
+            style={{ backgroundColor: i === currentIndex ? '#954a97' : '#FFFFFF'}}
           />
         ))}
       </div>

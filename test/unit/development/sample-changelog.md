@@ -4,7 +4,7 @@
 
 ## 4.1.3 2018-2-28
 
-- Ensure MetaMask's inpage provider is named MetamaskInpageProvider to keep some sites from breaking.
+- Ensure DekuSan's inpage provider is named MetamaskInpageProvider to keep some sites from breaking.
 - Add retry transaction button back into classic ui.
 
 ## 4.1.2 2018-2-28
@@ -27,13 +27,13 @@
 
 ## 4.0.0 2018-2-22
 
-- Introduce new MetaMask user interface.
+- Introduce new DekuSan user interface.
 
 ## 3.14.2 2018-2-15
 
 - Fix bug where log subscriptions would break when switching network.
 - Fix bug where storage values were cached across blocks.
-- Add MetaMask light client [testing container](https://github.com/MetaMask/mesh-testing)
+- Add DekuSan light client [testing container](https://github.com/DekuSan/mesh-testing)
 
 ## 3.14.1 2018-2-1
 
@@ -114,7 +114,7 @@
 ## 3.11.2 2017-10-21
 
 - Fix bug where reject button would sometimes not work.
-- Fixed bug where sometimes MetaMask's connection to a page would be unreliable.
+- Fixed bug where sometimes DekuSan's connection to a page would be unreliable.
 
 ## 3.11.1 2017-10-20
 
@@ -200,7 +200,7 @@ rollback to 3.10.0 due to bug
 - Make eth_sign deprecation warning less noisy
 - Add useful link to eth_sign deprecation warning.
 - Fix bug with network version serialization over synchronous RPC
-- Add MetaMask version to state logs.
+- Add DekuSan version to state logs.
 - Add the total amount of tokens when multiple tokens are added under the token list
 - Use HTTPS links for Etherscan.
 - Update Support center link to new one with HTTPS.
@@ -387,7 +387,7 @@ rollback to 3.10.0 due to bug
 
 ## 3.6.3 2017-5-8
 
-- Fix bug that could stop newer versions of Geth from working with MetaMask.
+- Fix bug that could stop newer versions of Geth from working with DekuSan.
 
 ## 3.6.2 2017-5-8
 
@@ -404,7 +404,7 @@ rollback to 3.10.0 due to bug
 
 ## 3.6.0 2017-4-26
 
-- Add Rinkeby Test Network to our network list.
+- Add DEXON Test Network to our network list.
 
 ## 3.5.4 2017-4-25
 
@@ -542,7 +542,7 @@ rollback to 3.10.0 due to bug
 ## 2.13.9 2016-11-21
 
 - Add support for the new, default Ropsten Test Network.
-- Fix bug that would cause MetaMask to occasionally lose its StreamProvider connection and drop requests.
+- Fix bug that would cause DekuSan to occasionally lose its StreamProvider connection and drop requests.
 - Fix bug that would cause the Custom RPC menu item to not appear when Localhost 8545 was selected.
 - Point ropsten faucet button to actual faucet.
 - Phase out ethereumjs-util from our encryptor module.
@@ -593,8 +593,8 @@ rollback to 3.10.0 due to bug
 ## 2.13.2 2016-10-4
 
 - Fix bug where chosen FIAT exchange rate does no persist when switching networks
-- Fix additional parameters that made MetaMask sometimes receive errors from Parity.
-- Fix bug where invalid transactions would still open the MetaMask popup.
+- Fix additional parameters that made DekuSan sometimes receive errors from Parity.
+- Fix bug where invalid transactions would still open the DekuSan popup.
 - Removed hex prefix from private key export, to increase compatibility with Geth, MyEtherWallet, and Jaxx.
 
 ## 2.13.1 2016-09-23
@@ -611,14 +611,14 @@ too help visualize transactions and to where they are going.
 
 ## 2.12.1 2016-09-14
 
-- Fixed bug where if you send a transaction from within MetaMask extension the
+- Fixed bug where if you send a transaction from within DekuSan extension the
 popup notification opens up.
 - Fixed bug where some tx errors would block subsequent txs until the plugin was refreshed.
 
 ## 2.12.0 2016-09-14
 
 - Add a QR button to the Account detail screen
-- Fixed bug where opening MetaMask could close a non-metamask popup.
+- Fixed bug where opening DekuSan could close a non-metamask popup.
 - Fixed memory leak that caused occasional crashes.
 
 ## 2.11.1 2016-09-12
@@ -629,10 +629,10 @@ popup notification opens up.
 
 - Fix bug where pending transactions from Test net (or other networks) show up In Main net.
 - Add fiat conversion values to more views.
-- On fresh install, open a new tab with the MetaMask Introduction video. Does not open on update.
+- On fresh install, open a new tab with the DekuSan Introduction video. Does not open on update.
 - Block negative values from transactions.
 - Fixed a memory leak.
-- MetaMask logo now renders as super lightweight SVG, improving compatibility and performance.
+- DekuSan logo now renders as super lightweight SVG, improving compatibility and performance.
 - Now showing loading indication during vault unlocking, to clarify behavior for users who are experiencing slow unlocks.
 - Now only initially creates one wallet when restoring a vault, to reduce some users' confusion.
 
@@ -643,7 +643,7 @@ popup notification opens up.
 ## 2.10.1 2016-09-02
 
 - Fix bug where provider menu did not allow switching to custom network from a custom network.
-- Sending a transaction from within MetaMask no longer triggers a popup.
+- Sending a transaction from within DekuSan no longer triggers a popup.
 - The ability to build without livereload features (such as for production) can be enabled with the gulp --disableLiveReload flag.
 - Fix Ethereum JSON RPC Filters bug.
 
@@ -664,7 +664,7 @@ popup notification opens up.
 - Transaction history now has a hard limit.
 - Added info link on account screen that visits Etherscan.
 - Fixed bug where a message signing request would be lost if the vault was locked.
-- Added shortcut to open MetaMask (Ctrl+Alt+M or Cmd+Opt/Alt+M)
+- Added shortcut to open DekuSan (Ctrl+Alt+M or Cmd+Opt/Alt+M)
 - Prevent API calls in tests.
 - Fixed bug where sign message confirmation would sometimes render blank.
 
@@ -703,7 +703,7 @@ popup notification opens up.
 
 - Added a Warning screen about storing ETH
 - Add buy Button!
-- MetaMask now throws descriptive errors when apps try to use synchronous web3 methods.
+- DekuSan now throws descriptive errors when apps try to use synchronous web3 methods.
 - Removed firefox-specific line in manifest.
 
 ## 2.6.2 2016-07-20
@@ -743,7 +743,7 @@ popup notification opens up.
 
 ## 2.4.5 2016-06-29
 
-- Fixed bug where MetaMask interfered with PDF loading.
+- Fixed bug where DekuSan interfered with PDF loading.
 - Moved switch account icon into menu bar.
 - Changed status shapes to be a yellow warning sign for failure and ellipsis for pending transactions.
 - Now enforce 20 character limit on wallet names.

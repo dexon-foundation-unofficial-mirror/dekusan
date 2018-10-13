@@ -53,7 +53,7 @@ Network.prototype.render = function () {
     hoverText = 'Kovan Test Network'
     iconName = 'kovan-test-network'
   } else if (providerName === 'rinkeby') {
-    hoverText = 'Rinkeby Test Network'
+    hoverText = 'DEXON Test Network'
     iconName = 'rinkeby-test-network'
   } else {
     hoverText = 'Unknown Private Network'
@@ -105,7 +105,7 @@ Network.prototype.render = function () {
                 style: {
                   color: '#e7a218',
                 }},
-              'Rinkeby Test Net'),
+              'DEXON Test Net'),
               props.onClick && h('i.fa.fa-caret-down.fa-lg'),
             ])
           default:

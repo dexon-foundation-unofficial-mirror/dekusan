@@ -1,8 +1,7 @@
 .transaction-activity-log {
-  &__title {
-    border-bottom: 1px solid #d8d8d8;
-    padding-bottom: 4px;
-    text-transform: capitalize;
+  &__card {
+    background: $black;
+    height: 100%;
   }
 
   &__activities-container {
@@ -22,8 +21,8 @@
       left: 0;
       top: 0;
       height: 100%;
-      width: 7px;
-      border-right: 1px solid #909090;
+      width: 6px;
+      border-right: 1px solid $geyser;
     }
 
     &:first-child::after {
@@ -45,7 +44,7 @@
     height: 15px;
     margin-right: 6px;
     border-radius: 50%;
-    background: #909090;
+    background: $geyser;
     flex: 0 0 auto;
     display: flex;
     justify-content: center;
@@ -54,7 +53,7 @@
   }
 
   &__activity-text {
-    color: $dusty-gray;
+    color: $dim-gray;
     font-size: .75rem;
     cursor: pointer;
 

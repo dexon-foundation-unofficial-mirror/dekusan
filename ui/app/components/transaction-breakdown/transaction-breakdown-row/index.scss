@@ -1,12 +1,12 @@
 .transaction-breakdown-row {
   font-size: .75rem;
-  color: $scorpion;
+  color: $dim-gray;
   display: flex;
   justify-content: space-between;
   padding: 8px 0;
 
   &:not(:last-child) {
-    border-bottom: 1px solid #d8d8d8;
+    border-bottom: 1px solid $geyser;
   }
 
   &__title {

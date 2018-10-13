@@ -78,7 +78,7 @@ describe('Network Dropdown', () => {
     })
 
     it('checks background color for fourth NetworkDropdownIcon', () => {
-      assert.equal(wrapper.find(NetworkDropdownIcon).at(3).prop('backgroundColor'), '#f6c343') // Rinkeby Yellow
+      assert.equal(wrapper.find(NetworkDropdownIcon).at(3).prop('backgroundColor'), '#f6c343') // DEXON Yellow
     })
 
     it('checks background color for fifth NetworkDropdownIcon', () => {

@@ -3,11 +3,11 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid $alto;
+  border: 1px solid $geyser;
   border-radius: 4px;
   background-color: $dark-gray;
   font-size: 16px;
-  color: $geyser;
+  color: $dim-gray;
   cursor: pointer;
   position: relative;
 }
@@ -30,8 +30,8 @@
   border: 1px solid $geyser;
   border-radius: 4px;
   background-color: $dark-gray;
-  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .11);
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .11);
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.11);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.11);
   margin-top: 10px;
   overflow-y: scroll;
   left: 0;
@@ -40,15 +40,17 @@
 
 .simple-dropdown__option {
   padding: 10px;
+
   &:hover {
     background-color: $gallery;
   }
 }
 
 .simple-dropdown__option--selected {
-  background-color: $alto;
+  background-color: $white;
+
   &:hover {
-    background-color: $alto;
+    background-color: $white;
     cursor: default;
   }
 }

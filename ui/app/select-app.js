@@ -4,15 +4,16 @@ const connect = require('react-redux').connect
 const h = require('react-hyperscript')
 const { HashRouter } = require('react-router-dom')
 const App = require('./app')
-const OldApp = require('../../old-ui/app/app')
-const { getShouldUseNewUi } = require('./selectors')
+const { autoAddToBetaUI } = require('./selectors')
 const { setFeatureFlag } = require('./actions')
 const I18nProvider = require('./i18n-provider')
 
 function mapStateToProps (state) {
   return {
+    autoAdd: autoAddToBetaUI(state),
+    isUnlocked: state.metamask.isUnlocked,
     isMascara: state.metamask.isMascara,
-    shouldUseNewUi: getShouldUseNewUi(state),
+    shouldUseNewUi: true,
   }
 }
 
@@ -53,13 +54,13 @@ SelectedApp.prototype.componentWillReceiveProps = function (nextProps) {
 }
 
 SelectedApp.prototype.render = function () {
-  const { shouldUseNewUi } = this.props
-  const newUi = h(HashRouter, {
+  // Code commented out until we begin auto adding users to NewUI
+  // const { betaUI, isMascara, firstTime } = this.props
+  // const Selected = betaUI || isMascara || firstTime ? App : OldApp
+
+  return h(HashRouter, {
     hashType: 'noslash',
   }, [
-    h(I18nProvider, [
-      h(App),
-    ]),
+    h(I18nProvider, [h(App)]),
   ])
-  return shouldUseNewUi ? newUi : h(OldApp)
 }

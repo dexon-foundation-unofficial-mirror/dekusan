@@ -38,10 +38,10 @@ const dbController = new DbController({
 start().catch(log.error)
 
 async function start () {
-  log.debug('MetaMask initializing...')
+  log.debug('DekuSan initializing...')
   const initState = await loadStateFromPersistence()
   await setupController(initState)
-  log.debug('MetaMask initialization complete.')
+  log.debug('DekuSan initialization complete.')
 }
 
 //
@@ -61,7 +61,7 @@ async function loadStateFromPersistence () {
 async function setupController (initState, client) {
 
   //
-  // MetaMask Controller
+  // DekuSan Controller
   //
 
   const platform = new SwPlatform()
@@ -103,10 +103,10 @@ async function setupController (initState, client) {
   })
 
   function connectRemote (connectionStream, context) {
-    var isMetaMaskInternalProcess = (context === 'popup')
-    if (isMetaMaskInternalProcess) {
+    var isDekuSanInternalProcess = (context === 'popup')
+    if (isDekuSanInternalProcess) {
       // communication with popup
-      controller.setupTrustedCommunication(connectionStream, 'MetaMask')
+      controller.setupTrustedCommunication(connectionStream, 'DekuSan')
       global.metamaskPopupIsOpen = true
     } else {
       // communication with page

@@ -8,7 +8,7 @@
   &__label {
     font-size: .75rem;
     font-weight: 500;
-    color: $scorpion;
+    color: $white;
     text-transform: uppercase;
   }
 
@@ -32,10 +32,10 @@
     font-size: .75rem;
     text-transform: uppercase;
     margin-bottom: 6px;
-    color: $scorpion;
+    color: $white;
 
     &--edit {
-      color: $curious-blue;
+      color: $dexon-purple;
       cursor: pointer;
     }
 

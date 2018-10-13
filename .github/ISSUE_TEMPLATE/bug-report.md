@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Using MetaMask, but it's not working as you expect?
+about: Using DekuSan, but it's not working as you expect?
 
 ---
 
@@ -29,7 +29,12 @@ If applicable, add screenshots to help explain your problem.
 **Browser details (please complete the following information):**
  - OS: [e.g. OS X, Windows]
  - Browser [e.g. chrome, safari]
+<<<<<<< HEAD
  - MetaMask Version [e.g. 5.0.2]
+=======
+ - DekuSan Version [e.g. 4.9.0]
+ - Old UI or New / Beta UI?
+>>>>>>> Complete onboarding flow
 
 **Additional context**
 Add any other context about the problem here.

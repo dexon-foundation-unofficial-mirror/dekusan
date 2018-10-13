@@ -1,5 +1,4 @@
 const injectCss = require('inject-css')
-const OldMetaMaskUiCss = require('../../old-ui/css')
 const NewMetaMaskUiCss = require('../../ui/css')
 const {getShouldUseNewUi} = require('../../ui/app/selectors')
 const startPopup = require('./popup-core')
@@ -47,6 +46,7 @@ async function start () {
   const container = document.getElementById('app-content')
   startPopup({ container, connectionStream }, (err, store) => {
     if (err) return displayCriticalError(err)
+<<<<<<< HEAD
 
     const state = store.getState()
     let betaUIState = Boolean(state.featureFlags && state.featureFlags.betaUI)
@@ -66,6 +66,9 @@ async function start () {
         deleteInjectedCss = injectCss(css)
       }
     })
+=======
+    injectCss(NewMetaMaskUiCss())
+>>>>>>> Complete onboarding flow
   })
 
 

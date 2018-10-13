@@ -138,7 +138,7 @@ BuyButtonSubview.prototype.primarySubview = function () {
     case '1':
       return this.mainnetSubview()
 
-    // Ropsten, Rinkeby, Kovan
+    // Ropsten, DEXON, Kovan
     case '3':
     case '4':
     case '42':

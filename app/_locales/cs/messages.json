@@ -75,11 +75,11 @@
     "message": "Částka + palivo"
   },
   "appDescription": {
-    "message": "Dexon rozšíření prohlížeče",
+    "message": "DEXON rozšíření prohlížeče",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "Dex San",
+    "message": "DekuSan",
     "description": "The name of the application"
   },
   "approved": {
@@ -120,7 +120,7 @@
     "message": "Pújčit si přes Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "Dex San je navržen a vytvořen v Kalifornii."
+    "message": "DekuSan je navržen a vytvořen v Kalifornii."
   },
   "buy": {
     "message": "Koupit"
@@ -235,7 +235,7 @@
     "message": "Výchozí síť pro DEXové transakce je Main Net."
   },
   "denExplainer": {
-    "message": "Váš DEN je heslem šifrované uložiště v Dex Sanu."
+    "message": "Váš DEN je heslem šifrované uložiště v DekuSanu."
   },
   "deposit": {
     "message": "Vklad"
@@ -263,7 +263,7 @@
     "message": "Vklad přes ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit DEX a vložit ho přímo do peněženky Dex San. Bez založení účtu."
+    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit DEX a vložit ho přímo do peněženky DekuSan. Bez založení účtu."
   },
   "details": {
     "message": "Podrobnosti"
@@ -417,7 +417,7 @@
     "message": "Import účtu"
   },
   "importAccountMsg": {
-    "message":"Importované účty nebudou spojeny s vaší původní Dex Sanovou klíčovou frází. Zjistěte více o importovaných účtech "
+    "message":"Importované účty nebudou spojeny s vaší původní DekuSanovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "importAnAccount": {
     "message": "Import účtu"
@@ -464,7 +464,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "Udržujte si záznamy o tokenech, které jste koupili s účtem v Dex Sanu."
+    "message": "Udržujte si záznamy o tokenech, které jste koupili s účtem v DekuSanu."
   },
   "kovan": {
     "message": "Kovan Test Network"
@@ -513,13 +513,13 @@
     "message": "slova klíčové fráze mají pouze malá písmena"
   },
   "mainnet": {
-    "message": "Main Dexon Network"
+    "message": "Main DEXON Network"
   },
   "message": {
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "Dex San je bezpečný osobní trezor pro Dexon."
+    "message": "DekuSan je bezpečný osobní trezor pro Dexon."
   },
   "min": {
     "message": "Minimum"
@@ -531,7 +531,7 @@
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needEtherInWallet": {
-    "message": "Potřebujete DEX v peněžence, abyste mohli pomocí Dex Sanu interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete DEX v peněžence, abyste mohli pomocí DekuSanu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",
@@ -686,7 +686,7 @@
     "message": "Zvrátit"
   },
   "rinkeby": {
-    "message": "Rinkeby Test Network"
+    "message": "DEXON Test Network"
   },
   "ropsten": {
     "message": "Ropsten Test Network"
@@ -695,7 +695,7 @@
     "message": "Současné RPC"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main Dexon Network"
+    "message": "Připojuji se k Main DEXON Network"
   },
   "connectingToRopsten": {
     "message": "Připojuji se k Ropsten Test Network"
@@ -704,7 +704,7 @@
     "message": "Připojuji se k Kovan Test Network"
   },
   "connectingToTestnet": {
-    "message": "Připojuji se k Rinkeby Test Network"
+    "message": "Připojuji se k DEXON Test Network"
   },
   "connectingToUnknown": {
     "message": "Připojuji se k neznámé síti"
@@ -763,13 +763,13 @@
     "message": "Odeslat tokeny"
   },
   "onlySendToEtherAddress": {
-    "message": "Posílejte jen ETH na Dexon adresu."
+    "message": "Posílejte jen ETH na DEXON adresu."
   },
   "searchTokens": {
     "message": "Hledat tokeny"
   },
   "sendTokensAnywhere": {
-    "message": "Posílejte tokeny komukoli s Dexon účtem"
+    "message": "Posílejte tokeny komukoli s DEXON účtem"
   },
   "settings": {
     "message": "Nastavení"
@@ -841,7 +841,7 @@
     "message": "Testovací faucet"
   },
   "testnet": {
-    "message": "DEXON Testnet"
+    "message": "DEXON Test Network"
   },
   "to": {
     "message": "Komu"
@@ -866,7 +866,7 @@
     "message": "Symbol tokenu"
   },
   "tokenWarning1": {
-    "message": "Mějte přehled o tokenech, které jste koupili s účtem Dex Sanu. Pokud jste koupili tokeny s jiným účtem, tyto tokeny se zde nezobrazí."
+    "message": "Mějte přehled o tokenech, které jste koupili s účtem DekuSanu. Pokud jste koupili tokeny s jiným účtem, tyto tokeny se zde nezobrazí."
   },
   "total": {
     "message": "Celkem"
@@ -891,7 +891,7 @@
     "description": "Followed by a link (here) to view token balances"
   },
   "twelveWords": {
-    "message": "Těchto 12 slov je jedinou možností, jak obnovit Dex San účet. \nUložte je na bezpečné a neveřejné místo."
+    "message": "Těchto 12 slov je jedinou možností, jak obnovit DekuSan účet. \nUložte je na bezpečné a neveřejné místo."
   },
   "typePassword": {
     "message": "Zadejte své heslo"
@@ -900,7 +900,7 @@
     "message": "Vítejte v novém rozhraní (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Používáte nyní nové rozhraní Dex Sanu. Rozhlédněte se kolem, vyzkoušejte nové funkce, jako jsou zasílání tokenů, a dejte nám vědět, pokud narazíte na problém."
+    "message": "Používáte nyní nové rozhraní DekuSanu. Rozhlédněte se kolem, vyzkoušejte nové funkce, jako jsou zasílání tokenů, a dejte nám vědět, pokud narazíte na problém."
   },
   "unapproved": {
     "message": "Neschváleno"
@@ -946,7 +946,7 @@
     "message": "Varování"
   },
   "welcomeBeta": {
-    "message": "Vítejte v Dex San Beta"
+    "message": "Vítejte v DekuSan Beta"
   },
   "whatsThis": {
     "message": "Co to je?"

@@ -4,7 +4,6 @@ import { withRouter } from 'react-router-dom'
 import { compose } from 'recompose'
 import {connect} from 'react-redux'
 import Identicon from '../../../../ui/app/components/identicon'
-import Breadcrumbs from './breadcrumbs'
 import { INITIALIZE_NOTICE_ROUTE } from '../../../../ui/app/routes'
 
 class UniqueImageScreen extends Component {
@@ -32,7 +31,6 @@ class UniqueImageScreen extends Component {
             >
               Next
             </button>
-            <Breadcrumbs total={3} currentIndex={1} />
           </div>
         </div>
       </div>

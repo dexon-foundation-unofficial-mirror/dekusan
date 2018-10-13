@@ -1,10 +1,10 @@
-@import './info-tab/index';
+@import "./info-tab/index";
 
-@import './settings-tab/index';
+@import "./settings-tab/index";
 
 .settings-page {
   position: relative;
-  background: $white;
+  background: $dark-gray;
   display: flex;
   flex-flow: column nowrap;
 
@@ -15,7 +15,7 @@
   &__close-button::after {
     content: '\00D7';
     font-size: 40px;
-    color: $dusty-gray;
+    color: $dim-gray;
     position: absolute;
     top: 25px;
     right: 30px;
@@ -63,7 +63,7 @@
 
   &__content-description {
     font-size: 14px;
-    color: $dusty-gray;
+    color: $dim-gray;
     padding-top: 5px;
   }
 

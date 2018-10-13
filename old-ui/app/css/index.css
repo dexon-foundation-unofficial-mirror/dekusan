@@ -30,7 +30,7 @@ html {
 
 .app-root {
   overflow: hidden;
-  position: relative
+  position: relative;
 }
 
 .app-primary {
@@ -76,6 +76,7 @@ button, input[type="submit"] {
   color: white;
   transform-origin: center center;
   transition: transform 50ms ease-in;
+
   /* default orange */
   background: rgba(247, 134, 28, 1);
   box-shadow: 0px 3px 6px rgba(247, 134, 28, 0.36);
@@ -104,6 +105,7 @@ button.spaced {
 button:not([disabled]):hover, input[type="submit"]:not([disabled]):hover {
   transform: scale(1.1);
 }
+
 button:not([disabled]):active, input[type="submit"]:not([disabled]):active {
   transform: scale(0.95);
 }
@@ -117,7 +119,7 @@ a {
   color: inherit;
 }
 
-a:hover{
+a:hover {
   color: #df6b0e;
 }
 
@@ -195,7 +197,6 @@ textarea.twelve-word-phrase {
   display: flex;
   align-items: center;
   font-size: 0.6em;
-
 }
 
 .network-name {
@@ -211,6 +212,7 @@ textarea.twelve-word-phrase {
   display: flex;
   justify-content: flex-end;
 }
+
 /*
 app sections
 */
@@ -261,6 +263,7 @@ app sections
   opacity: 0.0;
   transition: opacity 400ms ease-in, transform 400ms ease-in;
 }
+
 .lock.unlocked {
   transform: scale(1);
   opacity: 1;
@@ -271,15 +274,18 @@ app sections
   transform: scaleX(1) translateX(0);
   transition: transform 250ms ease-in;
 }
+
 .lock.unlocked .lock-top {
   transform: scaleX(-1) translateX(-12px);
   transition: transform 250ms ease-in;
 }
+
 .lock.unlocked:hover {
   border-radius: 4px;
   background: #e5e5e5;
   border: 1px solid #b1b1b1;
 }
+
 .lock.unlocked:active {
   background: #c3c3c3;
 }
@@ -299,34 +305,40 @@ app sections
 
 .unlock-screen input[type=password] {
   width: 260px;
+
   /*height: 36px;
   margin-bottom: 24px;
   padding: 8px;*/
 }
 
-.sizing-input{
+.sizing-input {
   font-size: 14px;
   height: 30px;
   padding-left: 5px;
 }
-.editable-label{
+
+.editable-label {
   display: flex;
 }
+
 /* Webkit */
 .unlock-screen input::-webkit-input-placeholder {
   text-align: center;
   font-size: 1.2em;
 }
+
 /* Firefox 18- */
 .unlock-screen input:-moz-placeholder {
   text-align: center;
   font-size: 1.2em;
 }
+
 /* Firefox 19+ */
 .unlock-screen input::-moz-placeholder {
   text-align: center;
   font-size: 1.2em;
 }
+
 /* IE */
 .unlock-screen input:-ms-input-placeholder {
   text-align: center;
@@ -345,8 +357,6 @@ input.large-input {
 .letter-spacey {
   letter-spacing: 0.1em;
 }
-
-
 
 /* accounts */
 
@@ -416,9 +426,7 @@ input.large-input {
 
 /* accounts screen */
 
-.identity-section {
-
-}
+.identity-section {}
 
 .identity-section .identity-panel {
   background: #E9E9E9;
@@ -437,7 +445,7 @@ input.large-input {
 
 .identity-section .accounts-list-option:hover,
 .identity-section .accounts-list-option.selected {
-  background:white;
+  background: white;
 }
 
 /* account detail screen */
@@ -459,9 +467,7 @@ input.large-input {
   flex-grow: 10;
 }
 
-.name-label{
-
-}
+.name-label {}
 
 .unapproved-tx-icon {
   height: 16px;
@@ -475,6 +481,7 @@ input.large-input {
   height: 100%;
   visibility: hidden;
 }
+
 .editing-label {
   display: flex;
   justify-content: flex-start;
@@ -484,9 +491,11 @@ input.large-input {
   text-rendering: geometricPrecision;
   color: #954a97;
 }
+
 .name-label:hover .edit-text {
   visibility: visible;
 }
+
 /* tx confirm */
 
 .unconftx-section input[type=password] {
@@ -501,9 +510,7 @@ input.large-input {
 
 /* Send Screen */
 
-.send-screen {
-
-}
+.send-screen {}
 
 .send-screen section {
   margin: 8px 16px;
@@ -525,17 +532,17 @@ input.large-input {
 }
 
 /* Info screen */
-.info-gray{
+.info-gray {
   font-family: 'Montserrat Regular';
   text-transform: uppercase;
   color: #AEAEAE;
 }
 
-.icon-size{
+.icon-size {
   width: 20px;
 }
 
-.info{
+.info {
   font-family: 'Montserrat Regular', Arial;
   padding-bottom: 10px;
   display: inline-block;
@@ -547,7 +554,6 @@ input.large-input {
   justify-content: space-around;
   align-items: center;
 }
-
 
 .custom-radio-selected {
   width: 17px;
@@ -573,31 +579,25 @@ input.large-input {
   color: rgba(247, 134, 28, 1);
 }
 
-.radio-titles-subtext {
+.radio-titles-subtext {}
 
-}
+.selected-exchange {}
 
-.selected-exchange {
+.buy-radio {}
 
-}
-
-.buy-radio {
-
-}
-
-.eth-warning{
+.eth-warning {
   transition: opacity 400ms ease-in, transform 400ms ease-in;
 }
 
-.buy-subview{
+.buy-subview {
   transition: opacity 400ms ease-in, transform 400ms ease-in;
 }
 
-.input-container:hover .edit-text{
+.input-container:hover .edit-text {
   visibility: visible;
 }
 
-.buy-inputs{
+.buy-inputs {
   font-family: 'Montserrat Light';
   font-size: 13px;
   height: 20px;
@@ -607,9 +607,9 @@ input.large-input {
   border-color: transparent;
   border-width: 0.5px;
   border-radius: 2px;
-
 }
-.input-container:hover .buy-inputs{
+
+.input-container:hover .buy-inputs {
   box-sizing: inherit;
   border: solid;
   border-color: #954a97;
@@ -617,7 +617,7 @@ input.large-input {
   border-radius: 2px;
 }
 
-.buy-inputs:focus{
+.buy-inputs:focus {
   border: solid;
   border-color: #954a97;
   border-width: 0.5px;
@@ -631,7 +631,6 @@ input.large-input {
   width: 50%;
   text-align: center;
   padding-bottom: 4px;
-
 }
 
 .inactiveForm {
@@ -653,7 +652,7 @@ input.large-input {
   color: #4D4D4D;
 }
 
-.marketinfo{
+.marketinfo {
   font-family: 'Montserrat light';
   color: #AEAEAE;
   font-size: 15px;
@@ -670,25 +669,25 @@ input.large-input {
   overflow: scroll;
 }
 
-.icon-control .fa-refresh{
+.icon-control .fa-refresh {
   visibility: hidden;
 }
 
-.icon-control:hover .fa-refresh{
+.icon-control:hover .fa-refresh {
   visibility: visible;
 }
 
-.icon-control:hover .fa-chevron-right{
+.icon-control:hover .fa-chevron-right {
   visibility: hidden;
 }
 
 .inactive {
-    color: #AEAEAE;
+  color: #AEAEAE;
 }
 
-.inactive button{
-    background: #AEAEAE;
-    color: white;
+.inactive button {
+  background: #AEAEAE;
+  color: white;
 }
 
 .ellip-address {
@@ -701,8 +700,8 @@ input.large-input {
 }
 
 .qr-header {
-    font-size: 25px;
-    margin-top: 40px;
+  font-size: 25px;
+  margin-top: 40px;
 }
 
 .qr-message {
@@ -717,7 +716,7 @@ div.message-container > div:first-child {
 }
 
 .pop-hover:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .new-ui-announcement {
@@ -935,5 +934,5 @@ div.message-container > div:first-child {
 }
 
 .notification-modal__link {
-  color: #2f9ae0;
+  color: #954A97;
 }

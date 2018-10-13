@@ -2,7 +2,7 @@ const ROPSTEN = 'ropsten'
 const RINKEBY = 'rinkeby'
 const KOVAN = 'kovan'
 const MAINNET = 'mainnet'
-const TESTNET = 'testnet'
+const TESTNET = 'rinkeby'
 const LOCALHOST = 'localhost'
 
 const MAINNET_CODE = 1
@@ -12,7 +12,7 @@ const RINKEYBY_CODE = 4
 const KOVAN_CODE = 42
 
 const ROPSTEN_DISPLAY_NAME = 'Ropsten'
-const RINKEBY_DISPLAY_NAME = 'Rinkeby'
+const RINKEBY_DISPLAY_NAME = 'DEXON'
 const KOVAN_DISPLAY_NAME = 'Kovan'
 const MAINNET_DISPLAY_NAME = 'Main DEXON Network'
 const TESTNET_DISPLAY_NAME = 'DEXON Test Network'

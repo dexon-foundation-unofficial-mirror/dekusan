@@ -192,7 +192,7 @@
   align-items: center;
   position: relative;
   padding: 5px 0 31px 0;
-  border: 1px solid $silver;
+  border: 1px solid $geyser;
   border-radius: 4px;
   font-family: Roboto;
 
@@ -219,7 +219,7 @@
 .account-modal-close::after {
   content: '\00D7';
   font-size: 40px;
-  color: $dusty-gray;
+  color: $white;
   position: absolute;
   top: 10px;
   right: 12px;
@@ -244,12 +244,14 @@
 
   .qr-wrapper {
     margin-top: 5px;
+    background-color: $white;
   }
 
   .ellip-address-wrapper {
     display: flex;
     justify-content: center;
-    border: 1px solid $alto;
+    border: 1px solid $geyser;
+    border-radius: 2px;
     padding: 5px 10px;
     font-family: Roboto;
     margin-top: 7px;
@@ -267,7 +269,7 @@
   width: 100%;
   height: 1px;
   margin: 19px 0 8px 0;
-  background-color: $alto;
+  background-color: $geyser;
 }
 
 // Export Private Key Modal
@@ -584,7 +586,7 @@
   }
 
   &__link {
-    color: $curious-blue;
+    color: $dexon-purple;
   }
 }
 

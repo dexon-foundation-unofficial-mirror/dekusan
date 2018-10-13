@@ -266,7 +266,7 @@ export default class SettingsTab extends PureComponent {
                   if (err) {
                     displayWarning(t('stateLogError'))
                   } else {
-                    exportAsFile('MetaMask State Logs.json', result)
+                    exportAsFile('DekuSan State Logs.json', result)
                   }
                 })
               }}
@@ -329,34 +329,6 @@ export default class SettingsTab extends PureComponent {
               }}
             >
               { t('revealSeedWords') }
-            </Button>
-          </div>
-        </div>
-      </div>
-    )
-  }
-
-  renderOldUI () {
-    const { t } = this.context
-    const { setFeatureFlagToBeta } = this.props
-
-    return (
-      <div className="settings-page__content-row">
-        <div className="settings-page__content-item">
-          <span>{ t('useOldUI') }</span>
-        </div>
-        <div className="settings-page__content-item">
-          <div className="settings-page__content-item-col">
-            <Button
-              type="secondary"
-              large
-              className="settings-tab__button--orange"
-              onClick={event => {
-                event.preventDefault()
-                setFeatureFlagToBeta()
-              }}
-            >
-              { t('useOldUI') }
             </Button>
           </div>
         </div>
@@ -521,7 +493,7 @@ export default class SettingsTab extends PureComponent {
   }
 
   render () {
-    const { warning, isMascara } = this.props
+    const { warning } = this.props
 
     return (
       <div className="settings-page__content">
@@ -532,7 +504,6 @@ export default class SettingsTab extends PureComponent {
         { this.renderNewRpcUrl() }
         { this.renderStateLogs() }
         { this.renderSeedWords() }
-        { !isMascara && this.renderOldUI() }
         { this.renderResetAccount() }
         { this.renderClearApproval() }
         { this.renderPrivacyOptIn() }

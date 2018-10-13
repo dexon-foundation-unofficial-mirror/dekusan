@@ -6,7 +6,6 @@ import { withRouter } from 'react-router-dom'
 import { compose } from 'recompose'
 import Identicon from '../../../../ui/app/components/identicon'
 import {exportAsFile} from '../../../../ui/app/util'
-import Breadcrumbs from './breadcrumbs'
 import LoadingScreen from './loading-screen'
 import { DEFAULT_ROUTE, INITIALIZE_CONFIRM_SEED_ROUTE } from '../../../../ui/app/routes'
 
@@ -69,7 +68,7 @@ class BackupPhraseScreen extends Component {
   exportSeedWords = () => {
     const { seedWords } = this.props
 
-    exportAsFile('MetaMask Secret Backup Phrase', seedWords, 'text/plain')
+    exportAsFile('DekuSan Secret Backup Phrase', seedWords, 'text/plain')
   }
 
   renderSecretWordsContainer () {
@@ -142,7 +141,6 @@ class BackupPhraseScreen extends Component {
           >
             Next
           </button>
-          <Breadcrumbs total={3} currentIndex={1} />
         </div>
       </div>
     )

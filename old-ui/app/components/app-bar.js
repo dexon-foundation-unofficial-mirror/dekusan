@@ -78,7 +78,7 @@ module.exports = class AppBar extends Component {
           zIndex: 12,
         },
       }, [
-        'Try the New MetaMask',
+        'Try the New DekuSan',
         AppBar.renderSpace(),
         h('span.banner__link', {
           async onClick () {

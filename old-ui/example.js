@@ -1,6 +1,6 @@
 const injectCss = require('inject-css')
-const MetaMaskUi = require('./index.js')
-const MetaMaskUiCss = require('./css.js')
+const DekuSanUi = require('./index.js')
+const DekuSanUiCss = require('./css.js')
 const EventEmitter = require('events').EventEmitter
 
 // account management
@@ -103,10 +103,10 @@ accountManager._didUpdate = function () {
 
 var container = document.getElementById('app-content')
 
-var css = MetaMaskUiCss()
+var css = DekuSanUiCss()
 injectCss(css)
 
-MetaMaskUi({
+DekuSanUi({
   container: container,
   accountManager: accountManager,
 })

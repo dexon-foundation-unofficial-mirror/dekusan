@@ -62,11 +62,11 @@ function updateQueryParams (newView) {
 // CSS
 //
 
-const MetaMaskUiCss = require('../ui/css')
+const DekuSanUiCss = require('../ui/css')
 const injectCss = require('inject-css')
 
 //
-// MetaMask Controller
+// DekuSan Controller
 //
 
 const controller = new MetamaskController({
@@ -101,7 +101,7 @@ function modifyBackgroundConnection (backgroundConnectionModifier) {
   actions._setBackgroundConnection(modifiedBackgroundConnection)
 }
 
-var css = MetaMaskUiCss()
+var css = DekuSanUiCss()
 injectCss(css)
 
 // parse opts

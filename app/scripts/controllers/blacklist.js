@@ -20,7 +20,7 @@ class BlacklistController {
    * @param {object} opts Overrides the defaults for the initial state of this.store
    * @property {object} store The the store of the current phishing config
    * @property {object} store.phishing Contains fuzzylist, whitelist and blacklist arrays. @see
-   * {@link https://github.com/MetaMask/eth-phishing-detect/blob/master/src/config.json}
+   * {@link https://github.com/DekuSan/eth-phishing-detect/blob/master/src/config.json}
    * @property {object} _phishingDetector The PhishingDetector instantiated by passing store.phishing to
    * PhishingDetector.
    * @property {object} _phishingUpdateIntervalRef Id of the interval created to periodically update the blacklist
@@ -122,10 +122,10 @@ class BlacklistController {
 
   /**
    * Sets this._phishingDetector to a new PhishingDetector instance.
-   * @see {@link https://github.com/MetaMask/eth-phishing-detect}
+   * @see {@link https://github.com/DekuSan/eth-phishing-detect}
    *
    * @private
-   * @param {object} config A config object like that found at {@link https://github.com/MetaMask/eth-phishing-detect/blob/master/src/config.json}
+   * @param {object} config A config object like that found at {@link https://github.com/DekuSan/eth-phishing-detect/blob/master/src/config.json}
    *
    */
   _setupPhishingDetector (config) {

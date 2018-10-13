@@ -52,7 +52,7 @@ const styles = {
     'label + &': {
       marginTop: '8px',
     },
-    border: '1px solid #777777',
+    border: '1px solid #4a4a4a',
     height: '48px',
     borderRadius: '4px',
     padding: '0 16px',

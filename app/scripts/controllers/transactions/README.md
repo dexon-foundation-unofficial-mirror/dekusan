@@ -1,7 +1,7 @@
 # Transaction Controller
 
 Transaction Controller is an aggregate of sub-controllers and trackers
-exposed to the MetaMask controller.
+exposed to the DekuSan controller.
 
 - txStateManager
     responsible for the state of a transaction and
@@ -62,7 +62,7 @@ txMeta = {
   "gasPriceSpecified": false, //whether or not the user/dapp has specified gasPrice
   "gasLimitSpecified": false, //whether or not the user/dapp has specified gas
   "estimatedGas": "5208",
-  "origin": "MetaMask", //debug
+  "origin": "DekuSan", //debug
   "nonceDetails": {
     "params": {
       "highestLocallyConfirmed": 0,

@@ -1,6 +1,6 @@
 /**
  * @file      The central metamask controller. Aggregates other controllers and exports an api.
- * @copyright Copyright (c) 2018 MetaMask
+ * @copyright Copyright (c) 2018 DekuSan
  * @license   MIT
  */
 
@@ -281,7 +281,7 @@ module.exports = class MetamaskController extends EventEmitter {
     const providerOpts = {
       static: {
         eth_syncing: false,
-        web3_clientVersion: `MetaMask/v${version}`,
+        web3_clientVersion: `DekuSan/v${version}`,
       },
       version,
       // account mgmt
@@ -917,7 +917,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * @returns {Promise<Object>} Full state update.
    */
   signMessage (msgParams) {
-    log.info('MetaMaskController - signMessage')
+    log.info('DekuSanController - signMessage')
     const msgId = msgParams.metamaskId
 
     // sets the status op the message to 'approved'
@@ -976,7 +976,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * @returns {Promise<Object>} - A full state update.
    */
   signPersonalMessage (msgParams) {
-    log.info('MetaMaskController - signPersonalMessage')
+    log.info('DekuSanController - signPersonalMessage')
     const msgId = msgParams.metamaskId
     // sets the status op the message to 'approved'
     // and removes the metamaskId for signing
@@ -1029,7 +1029,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * @returns {Object} Full state update.
    */
   async signTypedMessage (msgParams) {
-    log.info('MetaMaskController - eth_signTypedData')
+    log.info('DekuSanController - eth_signTypedData')
     const msgId = msgParams.metamaskId
     const version = msgParams.version
     try {
@@ -1056,7 +1056,7 @@ module.exports = class MetamaskController extends EventEmitter {
       this.typedMessageManager.setMsgStatusSigned(msgId, signature)
       return this.getState()
     } catch (error) {
-      log.info('MetaMaskController - eth_signTypedData failed.', error)
+      log.info('DekuSanController - eth_signTypedData failed.', error)
       this.typedMessageManager.errorMessage(msgId, error)
     }
   }
@@ -1075,7 +1075,7 @@ module.exports = class MetamaskController extends EventEmitter {
   }
 
   // ---------------------------------------------------------------------------
-  // MetaMask Version 3 Migration Account Restauration Methods
+  // DekuSan Version 3 Migration Account Restauration Methods
 
   /**
    * A legacy method (probably dead code) that was used when we swapped out our
@@ -1155,7 +1155,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * transaction.
    * @param {number} originalTxId - the id of the txMeta that you want to attempt to cancel
    * @param {string=} customGasPrice - the hex value to use for the cancel transaction
-   * @returns {object} MetaMask state
+   * @returns {object} DekuSan state
    */
   async createCancelTransaction (originalTxId, customGasPrice, cb) {
     try {
@@ -1223,7 +1223,7 @@ module.exports = class MetamaskController extends EventEmitter {
   setupUntrustedCommunication (connectionStream, originDomain) {
     // Check if new connection is blacklisted
     if (this.blacklistController.checkForPhishing(originDomain)) {
-      log.debug('MetaMask - sending phishing warning for', originDomain)
+      log.debug('DekuSan - sending phishing warning for', originDomain)
       this.sendPhishingWarning(connectionStream, originDomain)
       return
     }
@@ -1394,7 +1394,7 @@ module.exports = class MetamaskController extends EventEmitter {
   }
 
   /**
-   * A method for emitting the full MetaMask state to all registered listeners.
+   * A method for emitting the full DekuSan state to all registered listeners.
    * @private
    */
   privateSendUpdate () {
@@ -1568,7 +1568,7 @@ module.exports = class MetamaskController extends EventEmitter {
 
   // TODO: Replace isClientOpen methods with `controllerConnectionChanged` events.
   /**
-   * A method for recording whether the MetaMask user interface is open or not.
+   * A method for recording whether the DekuSan user interface is open or not.
    * @private
    * @param {boolean} open
    */

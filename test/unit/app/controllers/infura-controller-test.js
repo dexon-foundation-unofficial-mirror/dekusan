@@ -49,12 +49,12 @@ describe('infura-controller', function () {
       })
     })
 
-    describe('Rinkeby', function () {
-      it('should have Rinkeby', function () {
+    describe('DEXON', function () {
+      it('should have DEXON', function () {
         assert.equal(Object.keys(networkStatus)[3], 'rinkeby')
       })
 
-      it('should have a value for Rinkeby status', function () {
+      it('should have a value for DEXON status', function () {
         assert.equal(networkStatus.rinkeby, 'down')
       })
     })

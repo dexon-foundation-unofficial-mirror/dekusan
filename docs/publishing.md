@@ -1,6 +1,6 @@
 # Publishing Guide
 
-When publishing a new version of MetaMask, we follow this procedure:
+When publishing a new version of DekuSan, we follow this procedure:
 
 ## Preparation
 
@@ -21,7 +21,7 @@ npm run version:bump $BUMP_TYPE` where `$BUMP_TYPE` is one of `major`, `minor`, 
 
 While we develop on the main `develop` branch, our production version is maintained on the `master` branch.
 
-With each pull request, the @MetaMaskBot will comment with a build of that new pull request, so after bumping the version on `develop`, open a pull request against `master`, and once the pull request is reviewed and merged, you can download those builds for publication.
+With each pull request, the @DekuSanBot will comment with a build of that new pull request, so after bumping the version on `develop`, open a pull request against `master`, and once the pull request is reviewed and merged, you can download those builds for publication.
 
 ## Publishing
 
@@ -29,5 +29,5 @@ With each pull request, the @MetaMaskBot will comment with a build of that new p
 2. Visit [the chrome developer dashboard](https://chrome.google.com/webstore/developer/dashboard?authuser=2).
 3. Publish to [firefox addon marketplace](http://addons.mozilla.org/en-us/firefox/addon/ether-metamask).
 4. Publish to [Opera store](https://addons.opera.com/en/extensions/details/metamask/).
-5. Post on [Github releases](https://github.com/MetaMask/metamask-extension/releases) page.
+5. Post on [Github releases](https://github.com/DekuSan/metamask-extension/releases) page.
 6. Run the `npm run announce` script, and post that announcement in our public places.

@@ -73,7 +73,7 @@
         cursor: pointer;
         font-size: 0.75rem;
         text-transform: uppercase;
-        color: #2f9ae0;
+        color: $dexon-purple;
       }
     }
   }
@@ -90,7 +90,7 @@
   }
 
   &__back-button {
-    color: #2f9ae0;
+    color: $dexon-purple;
     font-size: 1rem;
     cursor: pointer;
     font-weight: 400;
@@ -131,8 +131,8 @@
     }
 
     &--selected {
-      color: $curious-blue;
-      border-bottom: 2px solid $curious-blue;
+      color: $dexon-purple;
+      border-bottom: 2px solid $dexon-purple;
     }
   }
 
@@ -207,5 +207,6 @@
     flex: 0 0 auto;
     margin-right: auto;
     margin-left: auto;
+    border: 2px solid $geyser;
   }
 }

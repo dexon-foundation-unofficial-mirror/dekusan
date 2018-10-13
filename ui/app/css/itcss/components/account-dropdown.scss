@@ -53,7 +53,7 @@
   }
 
   &__account-primary-balance {
-    color: $scorpion;
+    color: $white;
     border: none;
     outline: 0 !important;
   }
@@ -67,6 +67,7 @@
     width: 80%;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: $dim-gray;
   }
 
   &__dropdown {

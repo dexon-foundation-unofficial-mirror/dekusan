@@ -25,7 +25,7 @@ function rootReducer (state, action) {
   }
 
   //
-  // MetaMask
+  // DekuSan
   //
 
   state.metamask = reduceMetamask(state, action)

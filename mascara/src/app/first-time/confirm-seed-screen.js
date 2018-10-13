@@ -7,7 +7,6 @@ import shuffle from 'lodash.shuffle'
 import { compose } from 'recompose'
 import Identicon from '../../../../ui/app/components/identicon'
 import { confirmSeedWords, showModal } from '../../../../ui/app/actions'
-import Breadcrumbs from './breadcrumbs'
 import LoadingScreen from './loading-screen'
 import { DEFAULT_ROUTE, INITIALIZE_BACKUP_PHRASE_ROUTE } from '../../../../ui/app/routes'
 
@@ -135,7 +134,6 @@ class ConfirmSeedScreen extends Component {
                       </button>
                     </div>
                   </div>
-                  <Breadcrumbs total={3} currentIndex={1} />
                 </div>
               </div>
             </div>

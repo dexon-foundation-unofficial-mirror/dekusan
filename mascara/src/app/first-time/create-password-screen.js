@@ -4,7 +4,6 @@ import {connect} from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import { compose } from 'recompose'
 import { createNewVaultAndKeychain } from '../../../../ui/app/actions'
-import Breadcrumbs from './breadcrumbs'
 import EventEmitter from 'events'
 import Mascot from '../../../../ui/app/components/mascot'
 import classnames from 'classnames'
@@ -123,7 +122,7 @@ class CreatePasswordScreen extends Component {
               height="225"
             />
             <div className="info">
-              MetaMask is a secure identity vault for Ethereum.
+              DekuSan is a secure identity vault for Ethereum.
             </div>
             <div className="info">
               It allows you to hold ether & tokens, and interact with decentralized applications.
@@ -189,7 +188,6 @@ class CreatePasswordScreen extends Component {
               Import an account
             </a>
             { */ }
-            <Breadcrumbs total={3} currentIndex={0} />
           </form>
         </div>
       </div>

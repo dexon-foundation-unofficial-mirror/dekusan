@@ -150,8 +150,8 @@ class ConnectScreen extends Component {
     renderFooter () {
         return (
             h('div.hw-connect__footer', {}, [
-                h('h3.hw-connect__footer__title', {}, this.context.t(`readyToConnect`)),
-                this.renderButtons(),
+                // h('h3.hw-connect__footer__title', {}, this.context.t(`readyToConnect`)),
+                // this.renderButtons(),
                 h('p.hw-connect__footer__msg', {}, [
                     this.context.t(`havingTroubleConnecting`),
                     h('a.hw-connect__footer__link', {
@@ -169,8 +169,8 @@ class ConnectScreen extends Component {
                 this.renderHeader(),
                 this.renderButtons(),
                 this.renderTrezorAffiliateLink(),
-                this.renderLearnMore(),
-                this.renderTutorialSteps(),
+                // this.renderLearnMore(),
+                // this.renderTutorialSteps(),
                 this.renderFooter(),
             ])
         )

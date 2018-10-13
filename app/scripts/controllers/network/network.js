@@ -24,12 +24,13 @@ const {
 } = require('./enums')
 const INFURA_PROVIDER_TYPES = [MAINNET, TESTNET]
 
-const env = process.env.METAMASK_ENV
-const METAMASK_DEBUG = process.env.METAMASK_DEBUG
-const testMode = (METAMASK_DEBUG || env === 'test')
+// const env = process.env.METAMASK_ENV
+// const METAMASK_DEBUG = process.env.METAMASK_DEBUG
+// const testMode = (METAMASK_DEBUG || env === 'test')
 
 const defaultProviderConfig = {
-  type: testMode ? TESTNET : MAINNET,
+  // type: testMode ? TESTNET : MAINNET,
+  type: MAINNET,
 }
 
 const defaultNetworkConfig = {

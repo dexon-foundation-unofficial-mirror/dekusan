@@ -15,7 +15,7 @@
     width: 250px;
     font-size: 14px;
     text-align: center;
-    border: 1px solid $alto;
+    border: 1px solid $geyser;
 
     &--error {
       border: 1px solid $monzo;
@@ -30,6 +30,6 @@
 
   &__icon {
     cursor: pointer;
-    color: $dusty-gray;
+    color: $white;
   }
 }

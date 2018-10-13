@@ -20,7 +20,7 @@ const {
 const fetchMockResponses = require('./fetch-mocks.js')
 
 
-describe('Using MetaMask with an existing account', function () {
+describe('Using DekuSan with an existing account', function () {
   let extensionId
   let driver
 
@@ -242,8 +242,8 @@ describe('Using MetaMask with an existing account', function () {
     })
   })
 
-  describe('Send ETH from inside MetaMask', () => {
-    it('starts a send transaction', async function () {
+  describe('Send ETH from inside DekuSan', () => {
+    it('starts to send a transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
       await delay(regularDelayMs)

@@ -178,7 +178,7 @@ function cleanContextForImports () {
   try {
     global.define = undefined
   } catch (_) {
-    console.warn('MetaMask - global.define could not be deleted.')
+    console.warn('DekuSan - global.define could not be deleted.')
   }
 }
 
@@ -189,6 +189,6 @@ function restoreContextAfterImports () {
   try {
     global.define = __define
   } catch (_) {
-    console.warn('MetaMask - global.define could not be overwritten.')
+    console.warn('DekuSan - global.define could not be overwritten.')
   }
 }

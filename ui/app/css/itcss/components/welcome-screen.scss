@@ -8,7 +8,7 @@
   width: 100%;
   flex: 1 0 auto;
   padding: 70px 0;
-  background: $white;
+  background: $dark-gray;
 
   @media screen and (max-width: 575px) {
     padding: 0;
@@ -31,6 +31,10 @@
       }
     }
 
+    &__logo {
+      margin-bottom: 20px;
+    }
+
     &__copy {
       font-size: 1em;
       width: 400px;
@@ -46,7 +50,7 @@
   &__button {
     height: 54px;
     width: 198px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .14);
+    border-radius: 4px;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -55,6 +59,6 @@
     text-transform: uppercase;
     margin: 35px 0 14px;
     transition: 200ms ease-in-out;
-    background-color: rgba(247, 134, 28, .9);
+    background-color: rgba(149,74,151, .9);
   }
 }

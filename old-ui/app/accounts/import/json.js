@@ -5,7 +5,7 @@ const actions = require('../../../../ui/app/actions')
 const FileInput = require('react-simple-file-input').default
 const PropTypes = require('prop-types')
 
-const HELP_LINK = 'https://github.com/MetaMask/faq/blob/master/README.md#q-i-cant-use-the-import-feature-for-uploading-a-json-file-the-window-keeps-closing-when-i-try-to-select-a-file'
+const HELP_LINK = 'https://github.com/DekuSan/faq/blob/master/README.md#q-i-cant-use-the-import-feature-for-uploading-a-json-file-the-window-keeps-closing-when-i-try-to-select-a-file'
 
 class JsonImportSubview extends Component {
   constructor (props) {

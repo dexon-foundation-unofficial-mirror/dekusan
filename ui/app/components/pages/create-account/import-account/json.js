@@ -28,10 +28,10 @@ class JsonImportSubview extends Component {
       h('div.new-account-import-form__json', [
 
         h('p', this.context.t('usedByClients')),
-        h('a.warning', {
-          href: HELP_LINK,
-          target: '_blank',
-        }, this.context.t('fileImportFail')),
+        // h('a.warning', {
+        //   href: HELP_LINK,
+        //   target: '_blank',
+        // }, this.context.t('fileImportFail')),
 
         h(FileInput, {
           readAs: 'text',

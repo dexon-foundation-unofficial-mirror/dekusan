@@ -32,7 +32,7 @@ import ConfirmCustomizeGasModal from '../gas-customization/gas-modal-page-contai
 
 const modalContainerBaseStyle = {
   transform: 'translate3d(-50%, 0, 0px)',
-  border: '1px solid #CCCFD1',
+  border: '1px solid #4a4a4a',
   borderRadius: '8px',
   backgroundColor: '#222222',
   boxShadow: '0 2px 22px 0 rgba(0,0,0,0.2)',
@@ -48,6 +48,10 @@ const modalContainerMobileStyle = {
   ...modalContainerBaseStyle,
   width: '309px',
   top: '12.5%',
+}
+
+const modalContentStyle = {
+  backgroundColor: '#222222',
 }
 
 const accountModalStyle = {
@@ -439,7 +443,10 @@ Modal.prototype.render = function () {
         this.modalRef = ref
       },
       modalStyle,
-      contentStyle,
+      contentStyle: {
+        ...modalContentStyle,
+        ...contentStyle,
+      },
       backdropStyle: BACKDROPSTYLE,
       closeOnClick: !disableBackdropClick,
     },

@@ -34,7 +34,7 @@ let selectedView = queryString.view || 'first time'
 updateQueryParams(selectedView)
 
 // CSS
-const MetaMaskUiCss = require('../ui/css')
+const DekuSanUiCss = require('../ui/css')
 const injectCss = require('inject-css')
 
 
@@ -57,7 +57,7 @@ const actions = {
   },
 }
 
-var css = MetaMaskUiCss()
+var css = DekuSanUiCss()
 injectCss(css)
 
 // parse opts

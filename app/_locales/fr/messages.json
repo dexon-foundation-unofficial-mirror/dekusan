@@ -84,11 +84,11 @@
     "message": "Montant + Gaz"
   },
   "appDescription": {
-    "message": "Extension Dexon pour navigateur",
+    "message": "Extension DEXON pour navigateur",
     "description": "La description de l'application"
   },
   "appName": {
-    "message": "Dex San",
+    "message": "DekuSan",
     "description": "Le nom de l'application"
   },
   "approve": {
@@ -150,7 +150,7 @@
     "message": "Acheter sur Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase est le moyen le plus populaire au monde d'acheter et de vendre du Bitcoin, de l'Dexon et du Litecoin."
+    "message": "Coinbase est le moyen le plus populaire au monde d'acheter et de vendre du Bitcoin, de l'DEXON et du Litecoin."
   },
   "cancel": {
     "message": "Annuler"
@@ -307,7 +307,7 @@
     "message": "Le réseau par défaut pour les transactions DEX est Main Net."
   },
   "denExplainer": {
-    "message": "Votre DEN est votre stockage crypté par mot de passe dans Dex San."
+    "message": "Votre DEN est votre stockage crypté par mot de passe dans DekuSan."
   },
   "deposit": {
     "message": "Déposer"
@@ -335,7 +335,7 @@
     "message": "Déposer avec ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Si vous possédez d'autres crypto-monnaies, vous pouvez échanger et déposer de l'Ether directement dans votre portefeuille Dex San. Aucun compte n'est requis."
+    "message": "Si vous possédez d'autres crypto-monnaies, vous pouvez échanger et déposer de l'Ether directement dans votre portefeuille DekuSan. Aucun compte n'est requis."
   },
   "details": {
     "message": "Détails"
@@ -669,7 +669,7 @@
     "message": "Vous devez selectionner au moins 1 jeton."
   },
   "needEtherInWallet": {
-    "message": "Pour interagir avec des applications décentralisées à l'aide de Dex San, vous aurez besoin d'Ether dans votre portefeuille."
+    "message": "Pour interagir avec des applications décentralisées à l'aide de DekuSan, vous aurez besoin d'Ether dans votre portefeuille."
   },
   "needImportFile": {
     "message": "Vous devez sélectionner un fichier à importer.",
@@ -927,7 +927,7 @@
     "message": "Prêt à se connecter ?"
   },
   "rinkeby": {
-    "message": "Réseau de test Rinkeby"
+    "message": "Réseau de test DEXON"
   },
   "ropsten": {
     "message": "Réseau de test Ropsten"
@@ -1127,7 +1127,7 @@
     "message": "Faucet Testnet"
   },
   "testnet": {
-    "message": "DEXON Testnet"
+    "message": "DEXON Test Network"
   },
   "to": {
     "message": "Destinataire"
@@ -1225,7 +1225,7 @@
     "message": "Bienvenue dans la nouvelle interface utilisateur (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Vous utilisez maintenant la nouvelle interface utilisateur Dex San. Jetez un coup d'oeil, essayez de nouvelles fonctionnalités comme l'envoi de jetons, et faites-nous savoir si vous avez des problèmes."
+    "message": "Vous utilisez maintenant la nouvelle interface utilisateur DekuSan. Jetez un coup d'oeil, essayez de nouvelles fonctionnalités comme l'envoi de jetons, et faites-nous savoir si vous avez des problèmes."
   },
   "unapproved": {
     "message": "Non autorisé"

@@ -28,11 +28,11 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #e8e6e8;
+      background-color: $geyser;
     }
 
     &:active {
-      background-color: #d9d7da;
+      background-color: $geyser;
     }
   }
 }

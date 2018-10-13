@@ -4,7 +4,7 @@ const clone = require('clone')
 const nock = require('nock')
 const createThoughStream = require('through2').obj
 const blacklistJSON = require('eth-phishing-detect/src/config')
-const MetaMaskController = require('../../../../app/scripts/metamask-controller')
+const DekuSanController = require('../../../../app/scripts/metamask-controller')
 const firstTimeState = require('../../../unit/localhostState')
 const createTxMeta = require('../../../lib/createTxMeta')
 const EthQuery = require('eth-query')
@@ -20,7 +20,7 @@ const TEST_SEED_ALT = 'setup olympic issue mobile velvet surge alcohol burger ho
 const TEST_ADDRESS_ALT = '0xc42edfcc21ed14dda456aa0756c153f7985d8813'
 const CUSTOM_RPC_URL = 'http://localhost:8545'
 
-describe('MetaMaskController', function () {
+describe('DekuSanController', function () {
   let metamaskController
   const sandbox = sinon.createSandbox()
   const noop = () => {}
@@ -45,7 +45,7 @@ describe('MetaMaskController', function () {
       .get(/.*/)
       .reply(200)
 
-    metamaskController = new MetaMaskController({
+    metamaskController = new DekuSanController({
       showUnapprovedTx: noop,
       showUnconfirmedMessage: noop,
       encryptor: {
@@ -438,14 +438,14 @@ describe('MetaMaskController', function () {
   })
 
   describe('#setCurrentCurrency', function () {
-    let defaultMetaMaskCurrency
+    let defaultDekuSanCurrency
 
     beforeEach(function () {
-      defaultMetaMaskCurrency = metamaskController.currencyController.getCurrentCurrency()
+      defaultDekuSanCurrency = metamaskController.currencyController.getCurrentCurrency()
     })
 
     it('defaults to usd', function () {
-      assert.equal(defaultMetaMaskCurrency, 'usd')
+      assert.equal(defaultDekuSanCurrency, 'usd')
     })
 
     it('sets currency to JPY', function () {
@@ -683,7 +683,7 @@ describe('MetaMaskController', function () {
         await metamaskController.newUnsignedPersonalMessage(msgParams)
         assert.fail('should have thrown')
       } catch (error) {
-        assert.equal(error.message, 'MetaMask Message Signature: from field is required.')
+        assert.equal(error.message, 'DekuSan Message Signature: from field is required.')
       }
     })
 

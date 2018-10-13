@@ -3,7 +3,7 @@ const actions = require('../actions')
 const MetamascaraPlatform = require('../../../app/scripts/platforms/window')
 const { getEnvironmentType } = require('../../../app/scripts/lib/util')
 const { ENVIRONMENT_TYPE_POPUP } = require('../../../app/scripts/lib/enums')
-const { OLD_UI_NETWORK_TYPE } = require('../../../app/scripts/controllers/network/enums')
+const { MAINNET } = require('../../../app/scripts/controllers/network/enums')
 
 module.exports = reduceMetamask
 
@@ -47,7 +47,7 @@ function reduceMetamask (state, action) {
     coinOptions: {},
     useBlockie: false,
     featureFlags: {},
-    networkEndpointType: OLD_UI_NETWORK_TYPE,
+    networkEndpointType: MAINNET,
     isRevealingSeedWords: false,
     welcomeScreenSeen: false,
     currentLocale: '',

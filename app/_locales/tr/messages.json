@@ -30,11 +30,11 @@
       "message": "Tutar + Gas"
     },
     "appDescription": {
-      "message": "Dexon Tarayıcı Uzantısı",
+      "message": "DEXON Tarayıcı Uzantısı",
       "description": "Uygulama açıklaması"
     },
     "appName": {
-      "message": "Dex San",
+      "message": "DekuSan",
       "description": "Uygulama ismi"
     },
     "approved": {
@@ -75,7 +75,7 @@
       "message": "Dharma (Beta) ile ödünç al"
     },
     "builtInCalifornia": {
-      "message": "Dex San California'da tasarlandı ve yaratıldı"
+      "message": "DekuSan California'da tasarlandı ve yaratıldı"
     },
     "buy": {
       "message": "Satın al"
@@ -190,7 +190,7 @@
       "message": "Ether işlemleri için varsayılan ağ Main Net."
     },
     "denExplainer": {
-      "message": "DEN'iniz Dex San içersinde parola-şifrelenmiş deponuzdur."
+      "message": "DEN'iniz DekuSan içersinde parola-şifrelenmiş deponuzdur."
     },
     "deposit": {
       "message": "Yatır"
@@ -218,7 +218,7 @@
       "message": "ShapeShift ile yatır"
     },
     "depositShapeShiftExplainer": {
-      "message": "Eğer başka kripto paralara sahipseniz, Dex San cüzdanınıza direk olarak DEX yatırabilirsiniz. Hesaba gerek yoktur."
+      "message": "Eğer başka kripto paralara sahipseniz, DekuSan cüzdanınıza direk olarak DEX yatırabilirsiniz. Hesaba gerek yoktur."
     },
     "details": {
       "message": "Ayrıntılar"
@@ -372,7 +372,7 @@
       "message": "Hesap Al"
     },
     "importAccountMsg": {
-      "message":" Alınan hesaplar orjinal kaynakifadenizle yarattığınız Dex San hesabınızla ilişkilendirilmez. Alınan hesaplar ile ilgili daha fazla bilgi edinin "
+      "message":" Alınan hesaplar orjinal kaynakifadenizle yarattığınız DekuSan hesabınızla ilişkilendirilmez. Alınan hesaplar ile ilgili daha fazla bilgi edinin "
     },
     "importAnAccount": {
       "message": "Hesap al"
@@ -419,7 +419,7 @@
       "description": "Hesap alımı için düzenle"
     },
     "keepTrackTokens": {
-      "message": "Dex San hesabınızla satın aldığınız jetonların kaydını tutun."
+      "message": "DekuSan hesabınızla satın aldığınız jetonların kaydını tutun."
     },
     "kovan": {
       "message": "Kovan Test Ağı"
@@ -468,13 +468,13 @@
       "message": "kaynak kelimeleri sadece küçük harflerden oluşabilir."
     },
     "mainnet": {
-      "message": "Main Dexon Ağı"
+      "message": "Main DEXON Ağı"
     },
     "message": {
       "message": "Mesaj"
     },
     "metamaskDescription": {
-      "message": "Dex San Dexon için güvenli bir kimlik kasasıdır."
+      "message": "DekuSan DEXON için güvenli bir kimlik kasasıdır."
     },
     "min": {
       "message": "Minimum"
@@ -486,7 +486,7 @@
       "message": "En az bir jeton seçilmeli"
     },
     "needEtherInWallet": {
-      "message": "Dex San kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda DEX bulunmalıdır."
+      "message": "DekuSan kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda DEX bulunmalıdır."
     },
     "needImportFile": {
       "message": "Almak için bir dosya seçmelisiniz.",
@@ -641,7 +641,7 @@
       "message": "Geri döndür"
     },
     "rinkeby": {
-      "message": "Rinkeby Test Ağı"
+      "message": "DEXON Test Ağı"
     },
     "ropsten": {
       "message": "Ropsten Test Ağı"
@@ -650,7 +650,7 @@
       "message": "Geçerli RPC"
     },
     "connectingToMainnet": {
-      "message": "Main Dexon Ağına bağlanıyor"
+      "message": "Main DEXON Ağına bağlanıyor"
     },
     "connectingToRopsten": {
       "message": "Ropsten Test Ağına bağlanıyor"
@@ -659,7 +659,7 @@
       "message": "Kovan Test Ağına bağlanıyor"
     },
     "connectingToTestnet": {
-      "message": "Rinkeby Test Ağına bağlanıyor"
+      "message": "DEXON Test Ağına bağlanıyor"
     },
     "connectingToUnknown": {
       "message": "Bilinmeyen Ağa bağlanıyor"
@@ -718,13 +718,13 @@
       "message": "Jeton Gönder"
     },
     "onlySendToEtherAddress": {
-      "message": "Dexon adresine sadece ETH gönder."
+      "message": "DEXON adresine sadece ETH gönder."
     },
     "searchTokens": {
       "message": "Jeton ara"
     },
     "sendTokensAnywhere": {
-      "message": "Dexon hesabı olan birine Jeton gönder"
+      "message": "DEXON hesabı olan birine Jeton gönder"
     },
     "settings": {
       "message": "Ayarlar"
@@ -818,7 +818,7 @@
       "message": "Jeton Sembolü"
     },
     "tokenWarning1": {
-      "message": "Dex San hesabınızla aldığınız jetonların kaydını tutun. Başka bir hesapla jetonlar satın aldıysanız, o jetonlar burada gözükmeyecektir."
+      "message": "DekuSan hesabınızla aldığınız jetonların kaydını tutun. Başka bir hesapla jetonlar satın aldıysanız, o jetonlar burada gözükmeyecektir."
     },
     "total": {
       "message": "Toplam"
@@ -843,7 +843,7 @@
       "description": "Jeton bakiyelerini görmek için bir link (burası) ile takip ediliyor"
     },
     "twelveWords": {
-      "message": "Dex San hesaplarınızı geri getirmenin tek yolu bu 12 kelimedir.\nBu kelimeleri güvenli ve gizli bir yerde saklayın."
+      "message": "DekuSan hesaplarınızı geri getirmenin tek yolu bu 12 kelimedir.\nBu kelimeleri güvenli ve gizli bir yerde saklayın."
     },
     "typePassword": {
       "message": "Parolanızı girin"
@@ -852,7 +852,7 @@
       "message": "Yeni UI (Beta)'ya hoşgeldiniz"
     },
     "uiWelcomeMessage": {
-      "message": "Şu anda yeni Dex San UI kullanmaktasınız. Gözatın, jeton gönderme gibi yeni özellikleri deneyin ve herhangi bir sorunlar karşılaşırsanız bize haber verin"
+      "message": "Şu anda yeni DekuSan UI kullanmaktasınız. Gözatın, jeton gönderme gibi yeni özellikleri deneyin ve herhangi bir sorunlar karşılaşırsanız bize haber verin"
     },
     "unapproved": {
       "message": "Onaylanmadı"
@@ -898,7 +898,7 @@
       "message": "Uyarı"
     },
     "welcomeBeta": {
-      "message": "Dex San Beta'ya Hoşgeldiniz"
+      "message": "DekuSan Beta'ya Hoşgeldiniz"
     },
     "whatsThis": {
       "message": "Bu nedir?"

@@ -1,4 +1,4 @@
-# Main MetaMask Code
+# Main DekuSan Code
 
 This folder contains the core-code.
 

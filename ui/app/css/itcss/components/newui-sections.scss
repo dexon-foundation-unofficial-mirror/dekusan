@@ -92,8 +92,8 @@ $wallet-view-bg: $muddy-gray;
 
   &__address {
     border-radius: 3px;
-    background-color: $alto;
-    color: $scorpion;
+    background-color: $dark-gray;
+    color: $dim-gray;
     font-size: 14px;
     line-height: 12px;
     padding: 4px 12px;
@@ -101,7 +101,7 @@ $wallet-view-bg: $muddy-gray;
     flex: 0 0 auto;
 
     &__pressed {
-      background-color: ($manatee,);
+      background-color: $black;
     }
   }
 
@@ -303,6 +303,5 @@ $wallet-view-bg: $muddy-gray;
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding: 0 10px;
-  background: white;
+  background: $dark-gray;
 }

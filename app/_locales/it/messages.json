@@ -90,11 +90,11 @@
     "message": "Importo + Gas"
   },
   "appDescription": {
-    "message": "Dexon Browser Extension",
+    "message": "DEXON Browser Extension",
     "description": "La descrizione dell'applicazione"
   },
   "appName": {
-    "message": "Dex San",
+    "message": "DekuSan",
     "description": "Il nome dell'applicazione"
   },
   "approve": {
@@ -147,7 +147,7 @@
     "message": "Il tuo Browser non è supportato..."
   },
   "builtInCalifornia": {
-    "message": "Dex San è progettato e costruito in California."
+    "message": "DekuSan è progettato e costruito in California."
   },
   "buy": {
     "message": "Compra"
@@ -156,7 +156,7 @@
     "message": "Compra su Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase è il servizio più popolare al mondo per comprare e vendere Bitcoin, Dexon e Litecoin."
+    "message": "Coinbase è il servizio più popolare al mondo per comprare e vendere Bitcoin, DEXON e Litecoin."
   },
   "bytes": {
     "message": "Bytes"
@@ -316,10 +316,10 @@
     "message": "Precisione Decimali"
   },
   "defaultNetwork": {
-    "message": "La rete predefinita per transazioni in DEX è la Rete Dexon Principale."
+    "message": "La rete predefinita per transazioni in DEX è la Rete DEXON Principale."
   },
   "denExplainer": {
-    "message": "Il DEN è il tuo archivio crittato con password dentro Dex San."
+    "message": "Il DEN è il tuo archivio crittato con password dentro DekuSan."
   },
   "deposit": {
     "message": "Deposita"
@@ -347,7 +347,7 @@
     "message": "Deposita con ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Se possiedi altre criptomonete, puoi scambiare e depositare DEX direttamente nel tuo portafoglio Dex San. Nessun account richiesto."
+    "message": "Se possiedi altre criptomonete, puoi scambiare e depositare DEX direttamente nel tuo portafoglio DekuSan. Nessun account richiesto."
   },
   "details": {
     "message": "Dettagli"
@@ -546,7 +546,7 @@
     "message": "Importa Account"
   },
   "importAccountMsg": {
-    "message":" Gli account importati non saranno associati alla frase seed originariamente creata con Dex San. Impara di più sugli account importati "    
+    "message":" Gli account importati non saranno associati alla frase seed originariamente creata con DekuSan. Impara di più sugli account importati "    
   },
   "importAnAccount": {
     "message": "Importa un account"
@@ -657,7 +657,7 @@
     "message": "le frasi seed hanno solo lettere minuscole"
   },
   "mainnet": {
-    "message": "Rete Dexon Principale"
+    "message": "Rete DEXON Principale"
   },
   "menu": {
     "message": "Menu"
@@ -666,7 +666,7 @@
     "message": "Messaggio"
   },
   "metamaskDescription": {
-    "message": "Dex San è una cassaforte sicura per identità su Dexon."
+    "message": "DekuSan è una cassaforte sicura per identità su Dexon."
   },
   "metamaskSeedWords": {
     "message": "Parole Seed di MetaMask"
@@ -684,7 +684,7 @@
     "message": "Devi selezionare almeno un token."
   },
   "needEtherInWallet": {
-    "message": "Per interagire con applicazioni decentralizzate con Dex San, devi possedere DEX nel tuo portafoglio."
+    "message": "Per interagire con applicazioni decentralizzate con DekuSan, devi possedere DEX nel tuo portafoglio."
   },
   "needImportFile": {
     "message": "Devi selezionare un file da importare.",
@@ -936,7 +936,7 @@
     "message": "Pronto a Connetterti?"
   },
   "rinkeby": {
-    "message": "Rete di test Rinkeby"
+    "message": "Rete di test DEXON"
   },
   "ropsten": {
     "message": "Rete di test Ropsten"
@@ -1161,7 +1161,7 @@
     "message": "Simbolo Token"
   },
   "tokenWarning1": {
-    "message": "Tieni traccia dei token che hai acquistato con il tuo account Dex San. Se hai acquistato token con un account diverso, quei token non appariranno qui."
+    "message": "Tieni traccia dei token che hai acquistato con il tuo account DekuSan. Se hai acquistato token con un account diverso, quei token non appariranno qui."
   },
   "total": {
     "message": "Totale"
@@ -1219,7 +1219,7 @@
     "description": "Seguito da un link (qui) per vedere il bilancio dei token"
   },
   "twelveWords": {    
-    "message": "Queste 12 parole sono l'unico modo per ripristinare i tuoi account Dex San. \nSalvale in un posto sicuro e segreto."
+    "message": "Queste 12 parole sono l'unico modo per ripristinare i tuoi account DekuSan. \nSalvale in un posto sicuro e segreto."
   },
   "typePassword": {
     "message": "Inserisci Password"
@@ -1228,7 +1228,7 @@
     "message": "Benvenuto alla nuova interfaccia (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Stai utilizzanto la nuova interfaccia di Dex San. Guarda in giro, prova nuove funzionalità come inviare token, e facci sapere se hai dei problemi."    
+    "message": "Stai utilizzanto la nuova interfaccia di DekuSan. Guarda in giro, prova nuove funzionalità come inviare token, e facci sapere se hai dei problemi."    
   },
   "unavailable": {
     "message": "Non Disponibile"
@@ -1307,7 +1307,7 @@
     "message": "Benvenuto nella Beta di MetaMask"
   },
   "welcomeBeta": {
-    "message": "Benvenuto nella Beta di Dex San"
+    "message": "Benvenuto nella Beta di DekuSan"
   },
   "whatsThis": {
     "message": "Cos'è questo?"

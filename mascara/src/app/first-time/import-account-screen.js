@@ -187,7 +187,7 @@ class ImportAccountScreen extends Component {
             Import
           </button>
           <a
-            href="https://github.com/MetaMask/faq/blob/master/README.md#q-i-cant-use-the-import-feature-for-uploading-a-json-file-the-window-keeps-closing-when-i-try-to-select-a-file"
+            href="https://github.com/DekuSan/faq/blob/master/README.md#q-i-cant-use-the-import-feature-for-uploading-a-json-file-the-window-keeps-closing-when-i-try-to-select-a-file"
             className="first-time-flow__link import-account__faq-link"
             rel="noopener noreferrer"
             target="_blank"

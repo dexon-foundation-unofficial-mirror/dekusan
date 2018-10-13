@@ -176,8 +176,12 @@ class CurrencyController {
         }
       }
     } catch (err) {
+<<<<<<< HEAD
       // reset current conversion rate
       log.warn(`MetaMask - Failed to query currency conversion:`, nativeCurrency, currentCurrency, err)
+=======
+      log.warn(`DekuSan - Failed to query currency conversion:`, currentCurrency, err)
+>>>>>>> Complete onboarding flow
       this.setConversionRate(0)
       this.setConversionDate('N/A')
       // throw error

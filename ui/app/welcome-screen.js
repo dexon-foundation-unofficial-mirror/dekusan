@@ -44,10 +44,10 @@ class WelcomeScreen extends Component {
 
         h('div.welcome-screen__info', [
 
-          h(Mascot, {
-            animationEventEmitter: this.animationEventEmitter,
-            width: '225',
-            height: '225',
+          h('img.welcome-screen__info__logo', {
+            src: '/images/dekusan.svg',
+            width: 160,
+            height: 160,
           }),
 
           h('div.welcome-screen__info__header', this.context.t('welcome')),

@@ -87,11 +87,11 @@
     "message": "Znesek + Gas"
   },
   "appDescription": {
-    "message": "Denarnica za Dexon v brskalniku",
+    "message": "Denarnica za DEXON v brskalniku",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "Dex San",
+    "message": "DekuSan",
     "description": "The name of the application"
   },
   "approve": {
@@ -144,7 +144,7 @@
     "message": "Vaš brskalnik ni podptrt ..."
   },
   "builtInCalifornia": {
-    "message": "Dex San je ustvarjen v Kaliforniji."
+    "message": "DekuSan je ustvarjen v Kaliforniji."
   },
   "buy": {
     "message": "Kupi"
@@ -319,7 +319,7 @@
     "message": "Privzeto omrežje za transkacije je glavno omrežje."
   },
   "denExplainer": {
-    "message": "DEN je vaša šifrirana shramba v Dex Sanu."
+    "message": "DEN je vaša šifrirana shramba v DekuSanu."
   },
   "deposit": {
     "message": "Vplačaj"
@@ -347,7 +347,7 @@
     "message": "Vplačilo z ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Če imate druge kriptovalute, lahko vpačate ether neposredno v Dex San. Brez računov."
+    "message": "Če imate druge kriptovalute, lahko vpačate ether neposredno v DekuSan. Brez računov."
   },
   "details": {
     "message": "Podrobnosti"
@@ -359,7 +359,7 @@
     "message": "Neposredno vplačilo ehera"
   },
   "directDepositEtherExplainer": {
-    "message": "Če že imate ether, ga lahko najhitreje dobite v Dex San z direktnim vplačilom."
+    "message": "Če že imate ether, ga lahko najhitreje dobite v DekuSan z direktnim vplačilom."
   },
   "done": {
     "message": "Končano"
@@ -672,7 +672,7 @@
     "message": "Sporočilo"
   },
   "metamaskDescription": {
-    "message": "Dex San je varen identitetni sklad za Dexon."
+    "message": "DekuSan je varen identitetni sklad za Dexon."
   },
   "metamaskSeedWords": {
     "message": "Seed Words"
@@ -693,7 +693,7 @@
     "message": "Izbran mora biti vsaj 1 žeton."
   },
   "needEtherInWallet": {
-    "message": "Za interakcijo z decentraliziranimi aplikacijami, ki uporabljajo Dex San, boste v svoji denarnici potrebovali eter."
+    "message": "Za interakcijo z decentraliziranimi aplikacijami, ki uporabljajo DekuSan, boste v svoji denarnici potrebovali eter."
   },
   "needImportFile": {
     "message": "Za uvoz morate izbrati datoteko.",
@@ -972,7 +972,7 @@
     "message": "Pripravljeni na povezovanje?"
   },
   "rinkeby": {
-    "message": "Testno omrežje Rinkeby"
+    "message": "Testno omrežje DEXON"
   },
   "ropsten": {
     "message": "Testno omrežje Ropsten"
@@ -1067,7 +1067,7 @@
     "message": "Če obstoječih Ledger ne vidite, poskusite izbrati \"Legacy (MEW / MyCrypto)\""
   },
   "sendTokensAnywhere": {
-    "message": "Pošljite žetone vsem, ki imajo Dexon račun"
+    "message": "Pošljite žetone vsem, ki imajo DEXON račun"
   },
   "settings": {
     "message": "Nastavitve"
@@ -1197,7 +1197,7 @@
     "message": "Simbol žetona"
   },
   "tokenWarning1": {
-    "message": "Spremljajte žetone, ki ste jih kupili s svojim Dex San računom. Če ste kupili žetone z drugačnim računom, ti žetoni ne bodo prikazani tukaj."
+    "message": "Spremljajte žetone, ki ste jih kupili s svojim DekuSan računom. Če ste kupili žetone z drugačnim računom, ti žetoni ne bodo prikazani tukaj."
   },
   "total": {
     "message": "Skupno"
@@ -1261,7 +1261,7 @@
     "message": "Poskusi znova"
   },
   "twelveWords": {
-    "message": "Edini način za obnovitev Dex San računa, je teh 12 besed.\nShranite jih na varno in skrivno mesto."
+    "message": "Edini način za obnovitev DekuSan računa, je teh 12 besed.\nShranite jih na varno in skrivno mesto."
   },
   "typePassword": {
     "message": "Vnesite vaše MetaMask geslo"
@@ -1270,7 +1270,7 @@
     "message": "Dobrodošli v nov UI (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Zdaj uporabljate novi Dex San uporabniški vmesnik. Razglejte se, preizkusite nove funkcije, kot so pošiljanje žetonov, in nas obvestite, če imate kakšne težave."
+    "message": "Zdaj uporabljate novi DekuSan uporabniški vmesnik. Razglejte se, preizkusite nove funkcije, kot so pošiljanje žetonov, in nas obvestite, če imate kakšne težave."
   },
   "unavailable": {
     "message": "Ni na voljo"
@@ -1343,7 +1343,7 @@
     "message": "Opozorilo"
   },
   "welcomeBeta": {
-    "message": "Dobrodošli v Dex San Beta"
+    "message": "Dobrodošli v DekuSan Beta"
   },
   "whatsThis": {
     "message": "Kaj je to?"

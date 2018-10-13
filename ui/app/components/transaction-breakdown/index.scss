@@ -1,10 +1,9 @@
 @import './transaction-breakdown-row/index';
 
 .transaction-breakdown {
-  &__title {
-    border-bottom: 1px solid #d8d8d8;
-    padding-bottom: 4px;
-    text-transform: capitalize;
+  &__card {
+    background: $black;
+    height: 100%;
   }
 
   &__row-title {

@@ -67,7 +67,7 @@
             {
               "op": "add",
               "path": "/origin",
-              "value": "MetaMask",
+              "value": "DekuSan",
               "note": "#newUnapprovedTransaction - adding the origin",
               "timestamp": 1536268017686
             }
@@ -76,7 +76,7 @@
         "gasPriceSpecified": true,
         "gasLimitSpecified": true,
         "estimatedGas": "0x5208",
-        "origin": "MetaMask"
+        "origin": "DekuSan"
       }
     },
     "selectedAddress": "0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc",
@@ -200,7 +200,7 @@
             {
               "op": "add",
               "path": "/origin",
-              "value": "MetaMask",
+              "value": "DekuSan",
               "note": "#newUnapprovedTransaction - adding the origin",
               "timestamp": 1528133130667
             }
@@ -314,7 +314,7 @@
         "gasPriceSpecified": true,
         "gasLimitSpecified": true,
         "estimatedGas": "0xcf08",
-        "origin": "MetaMask",
+        "origin": "DekuSan",
         "nonceDetails": {
           "params": {
             "highestLocallyConfirmed": 0,
@@ -398,7 +398,7 @@
             {
               "op": "add",
               "path": "/origin",
-              "value": "MetaMask",
+              "value": "DekuSan",
               "note": "#newUnapprovedTransaction - adding the origin",
               "timestamp": 1528133150013
             }
@@ -512,7 +512,7 @@
         "gasPriceSpecified": true,
         "gasLimitSpecified": true,
         "estimatedGas": "0xcf08",
-        "origin": "MetaMask",
+        "origin": "DekuSan",
         "nonceDetails": {
           "params": {
             "highestLocallyConfirmed": 0,
@@ -596,7 +596,7 @@
             {
               "op": "add",
               "path": "/origin",
-              "value": "MetaMask",
+              "value": "DekuSan",
               "note": "#newUnapprovedTransaction - adding the origin",
               "timestamp": 1528133180722
             }
@@ -710,7 +710,7 @@
         "gasPriceSpecified": true,
         "gasLimitSpecified": true,
         "estimatedGas": "0xcf08",
-        "origin": "MetaMask",
+        "origin": "DekuSan",
         "nonceDetails": {
           "params": {
             "highestLocallyConfirmed": 182,
@@ -1005,7 +1005,7 @@
             {
               "op": "add",
               "path": "/origin",
-              "value": "MetaMask",
+              "value": "DekuSan",
               "note": "#newUnapprovedTransaction - adding the origin",
               "timestamp": 1528133291486
             }
@@ -1119,7 +1119,7 @@
         "gasPriceSpecified": true,
         "gasLimitSpecified": true,
         "estimatedGas": "0xd508",
-        "origin": "MetaMask",
+        "origin": "DekuSan",
         "nonceDetails": {
           "params": {
             "highestLocallyConfirmed": 185,

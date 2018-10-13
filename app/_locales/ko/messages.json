@@ -927,7 +927,7 @@
     "message": "접속 준비되었나요?"
   },
   "rinkeby": {
-    "message": "Rinkeby 테스트넷"
+    "message": "DEXON 테스트넷"
   },
   "ropsten": {
     "message": "Ropsten 테스트넷"
@@ -936,7 +936,7 @@
     "message": "사용자 정의 RPC"
   },
   "connectingToTestnet": {
-    "message": "Rinkeby 테스트넷 접속중"
+    "message": "DEXON 테스트넷 접속중"
   },
   "sampleAccountName": {
     "message": "예) 나의 새 계정",
