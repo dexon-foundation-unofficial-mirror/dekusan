@@ -746,7 +746,7 @@
 
     &__header {
       height: 52px;
-      border-bottom: 1px solid $alto;
+      border-bottom: 1px solid $geyser;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -788,7 +788,7 @@
 
     &__footer {
       height: 75px;
-      border-top: 1px solid $alto;
+      border-top: 1px solid $geyser;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -861,7 +861,7 @@
 
     &__title {
       height: 26px;
-      color: $tundora;
+      color: $white;
       font-family: Roboto;
       font-size: 20px;
       line-height: 26px;
@@ -871,7 +871,7 @@
     &__copy {
       height: 38px;
       width: 314px;
-      color: $tundora;
+      color: $dim-gray;
       font-family: Roboto;
       font-size: 14px;
       line-height: 19px;
@@ -886,16 +886,18 @@
       height: 54px;
       width: 315px;
       border: 1px solid $geyser;
-      background-color: $white;
+      background-color: $dark-gray;
+      color: $white;
       padding-left: 15px;
     }
 
     .gas-tooltip-input-arrows {
       width: 32px;
       height: 54px;
-      border-left: 1px solid #dadada;
+      border: 1px solid $geyser;
       font-size: 18px;
-      color: $tundora;
+      color: $dim-gray;
+      background-color: $muddy-gray;
       right: 0px;
       padding: 0;
       display: flex;
