@@ -1203,3 +1203,9 @@ Made seed word restoring BIP44 compatible.
 ## 0.14.0
 
 Added the ability to restore accounts from seed words.
+## Current Master
+
+## 0.1.0
+
+- Fork from MetaMask.
+- Update UI/UX design.
