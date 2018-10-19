@@ -19,6 +19,7 @@
   text-transform: uppercase;
   outline: none;
   font-family: Roboto;
+
   &--disabled,
   &[disabled] {
     cursor: auto;
@@ -31,9 +32,11 @@
   color: $white;
   background: $dexon-purple;
   border: 2px solid $dexon-purple;
+
   &:hover {
     border-color: $white-transparent;
   }
+
   &:active {
     border-color: $white;
   }
@@ -42,10 +45,12 @@
 .btn-secondary {
   color: $monzo;
   border: 2px solid lighten($monzo, 40%);
+
   &:active {
     background: lighten($monzo, 55%);
     border-color: $monzo;
   }
+
   &:hover {
     border-color: $monzo;
   }
@@ -55,9 +60,11 @@
   color: $white;
   border: 2px solid $dusty-gray;
   background: $dusty-gray;
+
   &:hover {
     border-color: $white-transparent;
   }
+
   &:active {
     border-color: $white;
   }
@@ -92,15 +99,17 @@
   background: $white;
   text-align: center;
   padding: .8rem 1rem;
-  color: $white;
+  color: $dexon-purple;
   border: 2px solid $dexon-purple;
   border-radius: 4px;
   font-size: .85rem;
   font-weight: 400;
   transition: border-color .3s ease;
+
   &:hover {
     border-color: $white;
   }
+
   &--disabled,
   &[disabled] {
     cursor: auto;
@@ -120,6 +129,7 @@
   font-weight: 400;
   transition: border-color .3s ease;
   width: 100%;
+
   &:hover {
     border-color: $scorpion;
   }
@@ -158,7 +168,7 @@ input[type="submit"][disabled] {
 button.primary {
   padding: 8px 12px;
   background: $dexon-purple;
-  box-shadow: 0 3px 6px rgba(247, 134, 28, .36);
+  box-shadow: 0 3px 6px rgba(247, 134, 28, 0.36);
   color: $white;
   font-size: 1.1em;
   font-family: Roboto;
@@ -167,7 +177,7 @@ button.primary {
 
 .btn-light {
   padding: 8px 12px; // background: #FFFFFF; // $bg-white
-  box-shadow: 0 3px 6px rgba(247, 134, 28, .36);
+  box-shadow: 0 3px 6px rgba(247, 134, 28, 0.36);
   color: #585d67; // TODO: make reusable light button color
   font-size: 1.1em;
   font-family: Roboto;
