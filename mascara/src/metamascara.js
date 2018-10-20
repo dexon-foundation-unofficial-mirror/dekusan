@@ -1,1 +1,1 @@
-global.dexsan = require('metamascara')
+global.dekusan = require('metamascara')
