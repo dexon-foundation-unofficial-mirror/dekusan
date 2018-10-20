@@ -1,7 +1,6 @@
 cleanContextForImports()
 const LocalMessageDuplexStream = require('post-message-stream')
-const MetamaskInpageProvider = require('metamask-inpage-provider')
-
+const DekuSanInpageProvider = require('@dexon-foundation/dekusan-inpage-provider')
 let isEnabled = false
 let warned = false
 let providerHandle
@@ -29,14 +28,13 @@ function onMessage (messageType, handler, remove) {
 //
 
 // setup background connection
-var metamaskStream = new LocalMessageDuplexStream({
+var dekusanStream = new LocalMessageDuplexStream({
   name: 'inpage',
   target: 'contentscript',
 })
 
 // compose the inpage provider
-var inpageProvider = new MetamaskInpageProvider(metamaskStream)
-
+var inpageProvider = new DekuSanInpageProvider(dekusanStream)
 // set a high max listener count to avoid unnecesary warnings
 inpageProvider.setMaxListeners(100)
 

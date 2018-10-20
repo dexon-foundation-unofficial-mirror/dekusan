@@ -111,7 +111,7 @@ function setupStreams () {
 
   // ignore unused channels (handled by background, inpage)
   mux.ignoreStream('provider')
-  mux.ignoreStream('publicConfig')
+  mux.ignoreStream('dekuSanPublicConfig')
 }
 
 /**
