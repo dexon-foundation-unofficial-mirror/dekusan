@@ -42,7 +42,7 @@ function injectScript (content) {
     container.insertBefore(scriptTag, container.children[0])
     container.removeChild(scriptTag)
   } catch (e) {
-    console.error('MetaMask script injection failed', e)
+    console.error('DekuSan injection failed.', e)
   }
 }
 

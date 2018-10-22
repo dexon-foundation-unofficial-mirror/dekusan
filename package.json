@@ -81,7 +81,7 @@
   },
   "dependencies": {
     "@sentry/browser": "^4.1.1",
-    "@dexon-foundation/dekusan-inpage-provider": "^1.1.1",
+    "@dexon-foundation/dekusan-inpage-provider": "^1.2.3",
     "@dexon-foundation/jazzicon": "^2.0.0",
     "@material-ui/core": "^3.1.0",
     "@zxing/library": "^0.8.0",
