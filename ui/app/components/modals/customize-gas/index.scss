@@ -1,8 +1,8 @@
 .customize-gas {
-  border: 1px solid #D8D8D8;
+  border: 1px solid $geyser;
   border-radius: 4px;
-  background-color: #FFFFFF;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14);
+  background-color: $muddy-gray;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
   font-family: Roboto;
   display: flex;
   flex-flow: column;
@@ -14,7 +14,7 @@
 
   &__header {
     height: 52px;
-    border-bottom: 1px solid $alto;
+    border-bottom: 1px solid $geyser;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,7 +56,7 @@
 
   &__footer {
     height: 75px;
-    border-top: 1px solid $alto;
+    border-top: 1px solid $geyser;
     display: flex;
     align-items: center;
     justify-content: space-between;
