@@ -118,7 +118,7 @@ async function setupController (initState, client) {
     // setup multiplexing
     var mx = setupMultiplex(connectionStream)
     // connect features
-    controller.setupProviderConnection(mx.createStream('provider'), originDomain)
+    controller.setupProviderConnection(mx.createStream('dekuSanProvider'), originDomain)
     controller.setupPublicConfig(mx.createStream('dekuSanPublicConfig'))
   }
 }

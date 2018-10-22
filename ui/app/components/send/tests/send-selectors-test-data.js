@@ -148,7 +148,7 @@ module.exports = {
       },
     ],
     'selectedAddress': '0xd85a4b6a394794842887b8284293d69163007bbb',
-    'provider': {
+    'dekuSanProvider': {
       'type': 'testnet',
     },
     'shapeShiftTxList': [

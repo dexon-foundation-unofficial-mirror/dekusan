@@ -1231,7 +1231,7 @@ module.exports = class MetamaskController extends EventEmitter {
     // setup multiplexing
     const mux = setupMultiplex(connectionStream)
     // connect features
-    this.setupProviderConnection(mux.createStream('provider'), originDomain)
+    this.setupProviderConnection(mux.createStream('dekuSanProvider'), originDomain)
     this.setupPublicConfig(mux.createStream('dekuSanPublicConfig'))
   }
 
@@ -1250,7 +1250,7 @@ module.exports = class MetamaskController extends EventEmitter {
     const mux = setupMultiplex(connectionStream)
     // connect features
     this.setupControllerConnection(mux.createStream('controller'))
-    this.setupProviderConnection(mux.createStream('provider'), originDomain)
+    this.setupProviderConnection(mux.createStream('dekuSanProvider'), originDomain)
   }
 
   /**

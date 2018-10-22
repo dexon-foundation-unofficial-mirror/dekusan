@@ -110,7 +110,7 @@ function setupStreams () {
   phishingStream.once('data', redirectToPhishingWarning)
 
   // ignore unused channels (handled by background, inpage)
-  mux.ignoreStream('provider')
+  mux.ignoreStream('dekuSanProvider')
   mux.ignoreStream('dekuSanPublicConfig')
 }
 
