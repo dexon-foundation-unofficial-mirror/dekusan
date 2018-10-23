@@ -1249,7 +1249,7 @@ module.exports = class MetamaskController extends EventEmitter {
     // setup multiplexing
     const mux = setupMultiplex(connectionStream)
     // connect features
-    this.setupControllerConnection(mux.createStream('controller'))
+    this.setupControllerConnection(mux.createStream('dekuSanController'))
     this.setupProviderConnection(mux.createStream('dekuSanProvider'), originDomain)
   }
 
@@ -1264,7 +1264,7 @@ module.exports = class MetamaskController extends EventEmitter {
    */
   sendPhishingWarning (connectionStream, hostname) {
     const mux = setupMultiplex(connectionStream)
-    const phishingStream = mux.createStream('phishing')
+    const phishingStream = mux.createStream('dekuSanPhishing')
     phishingStream.write({ hostname })
   }
 

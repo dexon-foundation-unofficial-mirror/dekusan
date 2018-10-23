@@ -29,8 +29,8 @@ function onMessage (messageType, handler, remove) {
 
 // setup background connection
 var dekusanStream = new LocalMessageDuplexStream({
-  name: 'inpage',
-  target: 'contentscript',
+  name: 'dekuSanInpage',
+  target: 'dekuSanContentscript',
 })
 
 // compose the inpage provider

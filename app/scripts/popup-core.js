@@ -34,7 +34,7 @@ function connectToAccountManager (connectionStream, cb) {
   // setup multiplexing
   var mx = setupMultiplex(connectionStream)
   // connect features
-  setupControllerConnection(mx.createStream('controller'), cb)
+  setupControllerConnection(mx.createStream('dekuSanController'), cb)
   setupWeb3Connection(mx.createStream('dekuSanProvider'))
 }
 
