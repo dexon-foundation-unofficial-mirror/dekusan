@@ -241,17 +241,11 @@
   "connecting": {
     "message": "Connecting..."
   },
-  "connectingToKovan": {
-    "message": "Connecting to Kovan Test Network"
-  },
   "connectingToMainnet": {
-    "message": "Connecting to Main Ethereum Network"
+    "message": "Connecting to Main DEXON Network"
   },
-  "connectingToRopsten": {
-    "message": "Connecting to Ropsten Test Network"
-  },
-  "connectingToRinkeby": {
-    "message": "Connecting to Rinkeby Test Network"
+  "connectingToTestnet": {
+    "message": "Connecting to DEXON Test Network"
   },
   "connectingToUnknown": {
     "message": "Connecting to Unknown Network"
@@ -1425,7 +1419,7 @@
   "viewAccount": {
     "message": "View Account"
   },
-  "viewOnEtherscan": {
+  "viewOnDexScan": {
     "message": "View on DEXscan"
   },
   "visitWebSite": {

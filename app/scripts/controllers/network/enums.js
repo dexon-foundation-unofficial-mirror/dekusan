@@ -2,7 +2,7 @@ const ROPSTEN = 'ropsten'
 const RINKEBY = 'rinkeby'
 const KOVAN = 'kovan'
 const MAINNET = 'mainnet'
-const TESTNET = 'rinkeby'
+const TESTNET = 'testnet'
 const LOCALHOST = 'localhost'
 
 const MAINNET_CODE = 1
@@ -16,6 +16,8 @@ const RINKEBY_DISPLAY_NAME = 'DEXON'
 const KOVAN_DISPLAY_NAME = 'Kovan'
 const MAINNET_DISPLAY_NAME = 'Main DEXON Network'
 const TESTNET_DISPLAY_NAME = 'DEXON Test Network'
+
+const TESTNET_RPC_URL = 'http://testnet.dexon.org:8545'
 
 module.exports = {
   ROPSTEN,
@@ -34,4 +36,5 @@ module.exports = {
   KOVAN_DISPLAY_NAME,
   MAINNET_DISPLAY_NAME,
   TESTNET_DISPLAY_NAME,
+  TESTNET_RPC_URL,
 }

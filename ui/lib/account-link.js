@@ -3,10 +3,10 @@ module.exports = function (address, network) {
   let link
   switch (net) {
     case 1: // main net
-      link = `https://etherscan.io/address/${address}`
+      link = `https://dexscan.org/address/${address}`
       break
     case 2: // test net
-      link = `https://morden.etherscan.io/address/${address}`
+      link = `https://testnet.dexscan.org/address/${address}`
       break
     default:
       link = ''

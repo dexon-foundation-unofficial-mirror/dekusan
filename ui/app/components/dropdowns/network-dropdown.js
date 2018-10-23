@@ -115,27 +115,27 @@ NetworkDropdown.prototype.render = function () {
       ),
     ]),
 
-    h(
-      DropdownMenuItem,
-      {
-        key: 'main',
-        closeMenu: () => this.props.hideNetworkDropdown(),
-        onClick: () => props.setProviderType('mainnet'),
-        style: { ...dropdownMenuItemStyle, borderColor: '#038789' },
-      },
-      [
-        providerType === 'mainnet' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
-        h(NetworkDropdownIcon, {
-          backgroundColor: '#954A97', // $dexon-purple
-          isSelected: providerType === 'mainnet',
-        }),
-        h('span.network-name-item', {
-          style: {
-            color: providerType === 'mainnet' ? '#ffffff' : '#9b9b9b',
-          },
-        }, this.context.t('mainnet')),
-      ]
-    ),
+    // h(
+    //   DropdownMenuItem,
+    //   {
+    //     key: 'main',
+    //     closeMenu: () => this.props.hideNetworkDropdown(),
+    //     onClick: () => props.setProviderType('mainnet'),
+    //     style: { ...dropdownMenuItemStyle, borderColor: '#038789' },
+    //   },
+    //   [
+    //     providerType === 'mainnet' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
+    //     h(NetworkDropdownIcon, {
+    //       backgroundColor: '#aeaeae', // $silver-chalice
+    //       isSelected: providerType === 'mainnet',
+    //     }),
+    //     h('span.network-name-item', {
+    //       style: {
+    //         color: providerType === 'mainnet' ? '#ffffff' : '#9b9b9b',
+    //       },
+    //     }, this.context.t('mainnet')),
+    //   ]
+    // ),
 
     h(
       DropdownMenuItem,
@@ -146,9 +146,9 @@ NetworkDropdown.prototype.render = function () {
         style: dropdownMenuItemStyle,
       },
       [
-        providerType === 'ropsten' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
+        providerType === 'testnet' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
         h(NetworkDropdownIcon, {
-          backgroundColor: '#aeaeae', // $silver-chalice
+          backgroundColor: '#954A97', // $dexon-purple
           isSelected: providerType === 'testnet',
         }),
         h('span.network-name-item', {

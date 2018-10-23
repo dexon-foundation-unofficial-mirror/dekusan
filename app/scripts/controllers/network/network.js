@@ -21,8 +21,9 @@ const {
   MAINNET,
   TESTNET,
   LOCALHOST,
+  TESTNET_RPC_URL,
 } = require('./enums')
-const INFURA_PROVIDER_TYPES = [MAINNET, TESTNET]
+const DEXON_PROVIDER_TYPES = [MAINNET, TESTNET]
 
 // const env = process.env.METAMASK_ENV
 // const METAMASK_DEBUG = process.env.METAMASK_DEBUG
@@ -30,7 +31,7 @@ const INFURA_PROVIDER_TYPES = [MAINNET, TESTNET]
 
 const defaultProviderConfig = {
   // type: testMode ? TESTNET : MAINNET,
-  type: MAINNET,
+  type: TESTNET,
 }
 
 const defaultNetworkConfig = {
@@ -135,7 +136,7 @@ module.exports = class NetworkController extends EventEmitter {
 
   async setProviderType (type) {
     assert.notEqual(type, 'rpc', `NetworkController - cannot call "setProviderType" with type 'rpc'. use "setRpcTarget"`)
-    assert(INFURA_PROVIDER_TYPES.includes(type) || type === LOCALHOST, `NetworkController - Unknown rpc type "${type}"`)
+    assert(DEXON_PROVIDER_TYPES.includes(type) || type === LOCALHOST, `NetworkController - Unknown rpc type "${type}"`)
     const providerConfig = { type }
     this.providerConfig = providerConfig
   }
@@ -165,10 +166,9 @@ module.exports = class NetworkController extends EventEmitter {
 
   _configureProvider (opts) {
     const { type, rpcTarget, chainId, ticker, nickname } = opts
-    // infura type-based endpoints
-    const isInfura = INFURA_PROVIDER_TYPES.includes(type)
-    if (isInfura) {
-      this._configureInfuraProvider(opts)
+    // DEXON endpoints
+    if (DEXON_PROVIDER_TYPES.includes(type)) {
+      this._configureDexonProvider(opts)
     // other type-based rpc endpoints
     } else if (type === LOCALHOST) {
       this._configureLocalhostProvider()
@@ -189,6 +189,12 @@ module.exports = class NetworkController extends EventEmitter {
       ticker: 'ETH',
     }
     this.networkConfig.putState(settings)
+  }
+
+  _configureDexonProvider ({ type }) {
+    log.info('NetworkController - configureDexonProvider', type)
+    const networkClient = createJsonRpcClient({ rpcUrl: TESTNET_RPC_URL })
+    this._setNetworkClient(networkClient)
   }
 
   _configureLocalhostProvider () {

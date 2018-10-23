@@ -1288,7 +1288,7 @@
   "viewAccount": {
     "message": "Afficher le compte"
   },
-  "viewOnEtherscan": {
+  "viewOnDexScan": {
     "message": "Voir sur Etherscan"
   },
   "visitWebSite": {

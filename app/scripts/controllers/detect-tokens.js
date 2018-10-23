@@ -1,7 +1,7 @@
 const Web3 = require('web3')
 const contracts = require('eth-contract-metadata')
 const { warn } = require('loglevel')
-const { MAINNET } = require('./network/enums')
+const { TESTNET } = require('./network/enums')
 // By default, poll every 3 minutes
 const DEFAULT_INTERVAL = 180 * 1000
 const ERC20_ABI = [{'constant': true, 'inputs': [{'name': '_owner', 'type': 'address'}], 'name': 'balanceOf', 'outputs': [{'name': 'balance', 'type': 'uint256'}], 'payable': false, 'type': 'function'}]
@@ -29,7 +29,7 @@ class DetectTokensController {
    */
   async detectNewTokens () {
     if (!this.isActive) { return }
-    if (this._network.store.getState().provider.type !== MAINNET) { return }
+    if (this._network.store.getState().provider.type !== TESTNET) { return }
     this.web3.setProvider(this._network._provider)
     for (const contractAddress in contracts) {
       if (contracts[contractAddress].erc20 && !(this.tokenAddresses.includes(contractAddress.toLowerCase()))) {
