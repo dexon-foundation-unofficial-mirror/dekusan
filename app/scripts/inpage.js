@@ -158,8 +158,9 @@ detectAccountRequest('sendAsync')
 inpageProvider.publicConfigStore.subscribe(function (state) {
   web3.eth.defaultAccount = state.selectedAddress
 })
+
 // expose provider
-window.dexon = inpageProvider
+window.dexon = proxiedInpageProvider
 
 // need to make sure we aren't affected by overlapping namespaces
 // and that we dont affect the app with our namespace

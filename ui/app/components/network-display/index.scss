@@ -3,27 +3,16 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: lighten(rgb(74, 74, 74), 45%);
+    background-color: $muddy-gray;
     padding: 0 10px;
     border-radius: 4px;
     height: 25px;
-
-    &--colored {
-      background-color: lighten(rgb(125, 128, 130), 45%);
-    }
-
-    &--mainnet {
-      background-color: lighten($dexon-purple, 68%);
-    }
-
-    &--testnet {
-      background-color: lighten($silver-chalice, 68%);
-    }
   }
 
   &__name {
     font-size: .75rem;
     padding-left: 5px;
+    color: $dim-gray;
   }
 
   &__icon {
