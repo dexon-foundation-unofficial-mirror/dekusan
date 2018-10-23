@@ -1,6 +1,6 @@
 {
-  "name": "metamask-crx",
-  "version": "0.0.0",
+  "name": "dekusan",
+  "version": "0.1.2",
   "public": false,
   "private": true,
   "scripts": {
