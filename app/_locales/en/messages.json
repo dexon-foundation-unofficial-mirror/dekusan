@@ -1116,22 +1116,6 @@
   "separateEachWord": {
     "message": "Separate each word with a single space"
   },
-<<<<<<< HEAD
-=======
-  "onlySendToEtherAddress": {
-    "message": "Only send ETH to an DEXON address."
-  },
-  "onlySendTokensToAccountAddress": {
-    "message": "Only send $1 to an DEXON account address.",
-    "description": "displays token symbol"
-  },
-  "orderOneHere": {
-    "message": "Order a Trezor or Ledger and keep your funds in cold storage"
-  },
-  "outgoing": {
-    "message": "Outgoing"
-  },
->>>>>>> Complete onboarding flow
   "searchTokens": {
     "message": "Search Tokens"
   },
@@ -1156,36 +1140,6 @@
   "settings": {
     "message": "Settings"
   },
-<<<<<<< HEAD
-=======
-  "step1HardwareWallet": {
-    "message": "1. Connect Hardware Wallet"
-  },
-  "step1HardwareWalletMsg": {
-    "message": "Connect your hardware wallet directly to your computer."
-  },
-  "step2HardwareWallet": {
-    "message": "2. Select an Account"
-  },
-  "step2HardwareWalletMsg": {
-    "message": "Select the account you want to view. You can only choose one at a time."
-  },
-  "step3HardwareWallet": {
-    "message": "3. Start using dApps and more!"
-  },
-  "step3HardwareWalletMsg": {
-    "message": "Use your hardware account like you would with any DEXON account. Log in to dApps, send Eth, buy and store ERC20 tokens and Non-Fungible tokens like CryptoKitties."
-  },
-  "info": {
-  "message": "Info"
-  },
-  "scanInstructions": {
-    "message": "Place the QR code in front of your camera"
-  },
-  "scanQrCode": {
-    "message": "Scan QR Code"
-  },
->>>>>>> Complete onboarding flow
   "shapeshiftBuy": {
     "message": "Buy with Shapeshift"
   },
