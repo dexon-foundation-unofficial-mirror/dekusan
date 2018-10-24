@@ -305,3 +305,25 @@ $wallet-view-bg: $muddy-gray;
   justify-content: center;
   background: $dark-gray;
 }
+
+// tooltip style
+.tooltip-inner {
+  background-color: #ccc !important;
+  color: #000 !important;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #ccc !important;
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left-color: #ccc !important;
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: #ccc !important;
+}
+
+.tooltip.right .tooltip-arrow {
+  border-right-color: #ccc !important;
+}
