@@ -761,7 +761,7 @@
   "oldUIMessage": {
     "message": "Sei ritornato alla vecchia interfaccia. Puoi ritornare alla nuova interfaccia tramite l'opzione nel menu a discesa in alto a destra."
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "Invia ETH solamente ad un account Ethereum."
   },
   "onlySendTokensToAccountAddress": {
@@ -997,13 +997,13 @@
   "send": {
     "message": "Invia"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "Invia ETH"
   },
   "sendTokens": {
     "message": "Invia Tokens"
   },
-  "sentEther": {
+  "sentDexon": {
     "message": "ether inviati"
   },
   "sentTokens": {

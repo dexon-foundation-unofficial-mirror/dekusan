@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import UnitInput from '../unit-input'
 import CurrencyDisplay from '../currency-display'
 import { getValueFromWeiHex, getWeiHexFromDecimalValue } from '../../helpers/conversions.util'
-import { ETH } from '../../constants/common'
+import { DEX } from '../../constants/common'
 
 /**
  * Component that allows user to enter currency values as a number, and props receive a converted
@@ -52,7 +52,7 @@ export default class CurrencyInput extends PureComponent {
         value: hexValue, toCurrency: currentCurrency, conversionRate, numberOfDecimals: 2,
       })
       : getValueFromWeiHex({
-        value: hexValue, toCurrency: ETH, numberOfDecimals: 6,
+        value: hexValue, toCurrency: DEX, numberOfDecimals: 6,
       })
 
     return Number(decimalValueString) || 0
@@ -66,7 +66,7 @@ export default class CurrencyInput extends PureComponent {
         value: decimalValue, fromCurrency, conversionRate, invertConversionRate: true,
       })
       : getWeiHexFromDecimalValue({
-        value: decimalValue, fromCurrency: ETH, fromDenomination: ETH, conversionRate,
+        value: decimalValue, fromCurrency: DEX, fromDenomination: DEX, conversionRate,
       })
 
     this.setState({ hexValue, decimalValue })
@@ -78,13 +78,13 @@ export default class CurrencyInput extends PureComponent {
   }
 
   renderConversionComponent () {
-    const { useFiat, currentCurrency, nativeCurrency } = this.props
+    const { useFiat, currentCurrency } = this.props
     const { hexValue } = this.state
     let currency, numberOfDecimals
 
     if (useFiat) {
-      // Display ETH
-      currency = nativeCurrency || ETH
+      // Display DEX
+      currency = DEX
       numberOfDecimals = 6
     } else {
       // Display Fiat

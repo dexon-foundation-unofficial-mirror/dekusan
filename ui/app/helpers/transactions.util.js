@@ -11,7 +11,7 @@ import {
   TOKEN_METHOD_TRANSFER,
   TOKEN_METHOD_APPROVE,
   TOKEN_METHOD_TRANSFER_FROM,
-  SEND_ETHER_ACTION_KEY,
+  SEND_DEXON_ACTION_KEY,
   DEPLOY_CONTRACT_ACTION_KEY,
   APPROVE_ACTION_KEY,
   SEND_TOKEN_ACTION_KEY,
@@ -84,7 +84,7 @@ export async function getTransactionActionKey (transaction, methodData) {
     const toSmartContract = await isSmartContractAddress(to)
 
     if (!toSmartContract) {
-      return SEND_ETHER_ACTION_KEY
+      return SEND_DEXON_ACTION_KEY
     }
 
     const { name } = methodData
@@ -105,7 +105,7 @@ export async function getTransactionActionKey (transaction, methodData) {
         return undefined
     }
   } else {
-    return SEND_ETHER_ACTION_KEY
+    return SEND_DEXON_ACTION_KEY
   }
 }
 

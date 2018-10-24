@@ -168,7 +168,7 @@ export class ShapeShiftForm extends Component {
                 Receive
               </div>
               <div className="shapeshift-form__selector-input">
-                ETH
+                DEX
               </div>
             </div>
           </div>

@@ -755,7 +755,7 @@
   "oldUIMessage": {
     "message": "구버전 UI로 변경하셨습니다. 오른쪽 위 드롭다운 메뉴에서 새 UI로 변경하실 수 있습니다."
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "이더리움 주소로 ETH만 송금하세요."
   },
   "onlySendTokensToAccountAddress": {
@@ -1000,13 +1000,13 @@
   "send": {
     "message": "전송"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "ETH 보내기"
   },
   "sendTokens": {
     "message": "토큰 전송"
   },
-  "sentEther": {
+  "sentDexon": {
     "message": "전송된 이더"
   },
   "sentTokens": {

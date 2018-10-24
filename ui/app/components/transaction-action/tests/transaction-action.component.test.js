@@ -57,7 +57,7 @@ describe('TransactionAction Component', () => {
           gas: '0x5208',
           gasPrice: '0x3b9aca00',
           nonce: '0x96',
-          to: 'sentEtherAddress',
+          to: 'sentDexonAddress',
           value: '0x2386f26fc10000',
         },
       }
@@ -69,8 +69,8 @@ describe('TransactionAction Component', () => {
       />, { context: { t }})
 
       assert.equal(wrapper.find('.transaction-action').length, 1)
-      wrapper.setState({ transactionAction: 'sentEther' })
-      assert.equal(wrapper.text(), 'sentEther')
+      wrapper.setState({ transactionAction: 'sentDexon' })
+      assert.equal(wrapper.text(), 'sentDexon')
     })
 
     it('should render Approved', async () => {

@@ -687,7 +687,7 @@
   "send": {
     "message": "ส่ง"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "ส่งอีเธอร์"
   },
   "sendTokens": {

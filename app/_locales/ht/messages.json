@@ -951,13 +951,13 @@
   "send": {
     "message": "Voye"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "Voye ETH"
   },
   "sendTokens": {
     "message": "Voye Tokens"
   },
-  "sentEther": {
+  "sentDexon": {
     "message": "Voye ether"
   },
   "sentTokens": {
@@ -966,7 +966,7 @@
   "separateEachWord": {
     "message": "Separe chak mo ak yon sèl espas"
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "Sèlman voye ETH nan yon adrès DEXeum."
   },
   "onlySendTokensToAccountAddress": {

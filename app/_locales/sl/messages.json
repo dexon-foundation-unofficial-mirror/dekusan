@@ -1033,7 +1033,7 @@
   "send": {
     "message": "Pošlji"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "Pošlji ETH"
   },
   "sendTokens": {

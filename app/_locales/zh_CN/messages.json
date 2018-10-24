@@ -792,13 +792,13 @@
   "send": {
     "message": "发送"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "发送 ETH"
   },
   "sendTokens": {
     "message": "发送 代币"
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "只发送 ETH 给一个以太坊地址"
   },
   "searchTokens": {

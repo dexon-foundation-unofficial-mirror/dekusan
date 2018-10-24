@@ -64,7 +64,7 @@ export function getValueFromWeiHex ({
   return conversionUtil(value, {
     fromNumericBase: 'hex',
     toNumericBase: 'dec',
-    fromCurrency,
+    fromCurrency: 'DEX',
     toCurrency,
     numberOfDecimals,
     fromDenomination: 'WEI',
@@ -84,7 +84,7 @@ export function getTransactionFee ({
     fromNumericBase: 'BN',
     toNumericBase: 'dec',
     fromDenomination: 'WEI',
-    fromCurrency,
+    fromCurrency: 'DEX',
     toCurrency,
     numberOfDecimals,
     conversionRate,

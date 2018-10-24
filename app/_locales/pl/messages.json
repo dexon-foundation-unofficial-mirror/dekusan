@@ -918,13 +918,13 @@
   "send": {
     "message": "Wyślij"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "Wyślij ETH"
   },
   "sendTokens": {
     "message": "Wyślij tokeny"
   },
-  "sentEther": {
+  "sentDexon": {
     "message": "wyślij eter"
   },
   "sentTokens": {
@@ -933,7 +933,7 @@
   "separateEachWord": {
     "message": "Oddziel słowa pojedynczą spacją"
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "Na adres Ethereum wysyłaj tylko ETH."
   },
   "onlySendTokensToAccountAddress": {

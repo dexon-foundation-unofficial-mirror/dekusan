@@ -744,13 +744,13 @@
   "send": {
     "message": "Отправить"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "Отправить ETH"
   },
   "sendTokens": {
     "message": "Отправить токены"
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "Отправляйте ETH только на DEXON адреса."
   },
   "searchTokens": {

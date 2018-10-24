@@ -69,21 +69,18 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x1193461d01595930',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'DEX',
             numberOfDecimals: 3,
           },
           result: {
             displayValue: '1.266',
-            suffix: 'ETH',
-            nativeCurrency: 'ETH',
+            suffix: 'DEX',
           },
         },
         {
           props: {
             value: '0x1193461d01595930',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'DEX',
             numberOfDecimals: 3,
             hideLabel: true,
           },
@@ -96,8 +93,7 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x3b9aca00',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'DEX',
             denomination: 'GWEI',
             hideLabel: true,
           },
@@ -110,8 +106,7 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x3b9aca00',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'DEX',
             denomination: 'WEI',
             hideLabel: true,
           },
@@ -124,8 +119,7 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x3b9aca00',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'DEX',
             numberOfDecimals: 100,
             hideLabel: true,
           },

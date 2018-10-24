@@ -642,13 +642,13 @@
   "send": {
     "message": "送信"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "ETHの送信"
   },
   "sendTokens": {
     "message": "トークンを送信"
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "ETH はイーサリウムアカウントのみに送信できます。"
   },
   "onlySendTokensToAccountAddress": {

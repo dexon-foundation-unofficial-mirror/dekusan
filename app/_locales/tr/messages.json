@@ -711,13 +711,13 @@
     "send": {
       "message": "Gönder"
     },
-    "sendETH": {
+    "sendDEX": {
       "message": "ETH Gönder"
     },
     "sendTokens": {
       "message": "Jeton Gönder"
     },
-    "onlySendToEtherAddress": {
+    "onlySendToDexonAddress": {
       "message": "DEXON adresine sadece ETH gönder."
     },
     "searchTokens": {

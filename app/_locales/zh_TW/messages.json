@@ -755,13 +755,13 @@
   "send": {
     "message": "發送"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "發送 ETH"
   },
   "sendTokens": {
     "message": "發送代幣"
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "只發送 ETH 到乙太坊地址."
   },
   "searchTokens": {

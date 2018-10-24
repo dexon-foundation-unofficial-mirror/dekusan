@@ -738,13 +738,13 @@
   "send": {
     "message": "Senden"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "ETH senden"
   },
   "sendTokens": {
     "message": "Token senden"
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "ETH unbedingt nur zu einer DEXON Adresse senden."
   },
   "sendTokensAnywhere": {

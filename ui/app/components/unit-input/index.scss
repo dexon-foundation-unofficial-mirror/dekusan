@@ -1,9 +1,9 @@
 .unit-input {
   min-height: 54px;
-  border: 1px solid #dedede;
+  border: 1px solid $tundora;
   border-radius: 4px;
-  background-color: #fff;
-  color: #4d4d4d;
+  background-color: $dark-gray;
+  color: $dim-gray;
   font-size: 1rem;
   padding: 8px 10px;
   position: relative;
@@ -25,7 +25,7 @@
   }
 
   &__input {
-    color: #4d4d4d;
+    color: $white;
     font-size: 1rem;
     font-family: Roboto;
     border: none;

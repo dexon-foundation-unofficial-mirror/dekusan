@@ -687,7 +687,7 @@
   "send": {
     "message": "Enviar"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "Enviar ETH"
   },
   "sendTokens": {

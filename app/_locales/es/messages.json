@@ -599,7 +599,7 @@
   "oldUIMessage": {
     "message": "Regresaste a la antigua UI (Interfaz de Usuario). Puedes regresar a la nueva UI mediante la opcion en la barra desplegable del menu de arriba a la derecha."
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "Sólo envía a una dirección de Dexon"
   },
   "or": {
@@ -741,7 +741,7 @@
   "send": {
     "message": "Enviar"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "Enviar DEX"
   },
   "sendTokens": {

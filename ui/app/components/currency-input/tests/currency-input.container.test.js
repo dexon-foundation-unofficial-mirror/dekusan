@@ -52,8 +52,12 @@ describe('CurrencyInput container', () => {
       assert.deepEqual(mergeProps(mockStateProps, mockDispatchProps, {}), {
         conversionRate: 280.45,
         currentCurrency: 'usd',
+<<<<<<< HEAD
         nativeCurrency: 'ETH',
         suffix: 'ETH',
+=======
+        suffix: 'DEX',
+>>>>>>> Update Dexon wording
       })
     })
   })

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import CurrencyInput from './currency-input.component'
-import { ETH } from '../../constants/common'
+import { DEX } from '../../constants/common'
 
 const mapStateToProps = state => {
   const { metamask: { nativeCurrency, currentCurrency, conversionRate } } = state
@@ -13,9 +13,9 @@ const mapStateToProps = state => {
 }
 
 const mergeProps = (stateProps, dispatchProps, ownProps) => {
-  const { nativeCurrency, currentCurrency } = stateProps
+  const { currentCurrency } = stateProps
   const { useFiat } = ownProps
-  const suffix = useFiat ? currentCurrency.toUpperCase() : nativeCurrency || ETH
+  const suffix = useFiat ? currentCurrency.toUpperCase() : DEX
 
   return {
     ...stateProps,

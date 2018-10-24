@@ -756,13 +756,13 @@
   "send": {
     "message": "Odeslat"
   },
-  "sendETH": {
+  "sendDEX": {
     "message": "Odeslat ETH"
   },
   "sendTokens": {
     "message": "Odeslat tokeny"
   },
-  "onlySendToEtherAddress": {
+  "onlySendToDexonAddress": {
     "message": "Posílejte jen ETH na DEXON adresu."
   },
   "searchTokens": {
