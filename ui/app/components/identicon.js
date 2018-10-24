@@ -57,7 +57,7 @@ IdenticonComponent.prototype.render = function () {
   } else {
     return h('img.balance-icon', {
       className,
-      src: './images/dexon_logo.svg',
+      src: './images/dexon-logo.svg',
       style: {
         ...style,
       },

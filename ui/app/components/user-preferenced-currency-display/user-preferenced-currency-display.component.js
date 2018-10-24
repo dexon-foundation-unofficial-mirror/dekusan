@@ -29,7 +29,7 @@ export default class UserPreferencedCurrencyDisplay extends PureComponent {
 
     return currency === DEX && showEthLogo && (
       <img
-        src="/images/dexon_logo.svg"
+        src="/images/dexon-invert.svg"
         height={ethLogoHeight}
       />
     )
