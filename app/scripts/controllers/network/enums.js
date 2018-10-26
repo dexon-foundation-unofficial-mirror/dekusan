@@ -6,7 +6,7 @@ const TESTNET = 'testnet'
 const LOCALHOST = 'localhost'
 
 const MAINNET_CODE = 1
-const TESTNET_CODE = 2
+const TESTNET_CODE = 237
 const ROPSTEN_CODE = 3
 const RINKEYBY_CODE = 4
 const KOVAN_CODE = 42
