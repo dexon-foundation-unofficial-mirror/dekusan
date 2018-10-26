@@ -42,167 +42,167 @@
     "message": "Il dominio elencato di seguito sta tentando di richiedere l'accesso all'API Ethereum in modo che possa interagire con la blockchain di Ethereum. Controlla sempre di essere sul sito corretto prima di approvare l'accesso a Ethereum."
   },
   "accept": {
-    "message": ""
+    "message": "Accetta"
   },
   "account": {
-    "message": ""
+    "message": "Account"
   },
   "accountDetails": {
-    "message": ""
+    "message": "Dettagli Account"
   },
   "accountName": {
-    "message": ""
+    "message": "Nome Account"
   },
   "address": {
-    "message": ""
+    "message": "Indirizzo"
   },
   "addCustomToken": {
     "message": "Aggiungi un token personalizzato"
   },
   "addToken": {
-    "message": ""
+    "message": "Aggiungi Token"
   },
   "addTokens": {
     "message": "Aggiungi più token"
   },
   "amount": {
-    "message": ""
+    "message": "Importo"
   },
   "amountPlusGas": {
-    "message": ""
+    "message": "Importo + Gas"
   },
   "appDescription": {
-    "message": "",
-    "description": ""
+    "message": "DEXON Browser Extension",
+    "description": "La descrizione dell'applicazione"
   },
   "appName": {
-    "message": "",
-    "description": ""
+    "message": "DekuSan",
+    "description": "Il nome dell'applicazione"
   },
   "approved": {
     "message": "Approvato"
   },
   "attemptingConnect": {
-    "message": ""
+    "message": "Tentativo di connessione alla blockchain."
   },
   "attributions": {
     "message": "Attribuzioni"
   },
   "available": {
-    "message": ""
+    "message": "Disponibile"
   },
   "back": {
-    "message": ""
+    "message": "Indietro"
   },
   "balance": {
-    "message": ""
+    "message": "Bilancio:"
   },
   "balances": {
     "message": "I tuoi bilanci"
   },
   "balanceIsInsufficientGas": {
-    "message": ""
+    "message": "Bilancio insufficiente per il gas totale corrente"
   },
   "beta": {
-    "message": ""
+    "message": "BETA"
   },
   "betweenMinAndMax": {
-    "message": "",
-    "description": ""
+    "message": "deve essere maggiore o uguale a $1 e minore o uguale a $2.",
+    "description": "aiuto per inserire un input esadecimale come decimale"
   },
   "blockiesIdenticon": {
     "message": "Usa le icone Blockie"
   },
   "borrowDharma": {
-    "message": ""
+    "message": "Prendi in presisito con Dharma (Beta)"
   },
   "builtInCalifornia": {
     "message": "DekuSan è progettato e costruito in California."
   },
   "buy": {
-    "message": ""
+    "message": "Compra"
   },
   "buyCoinbase": {
-    "message": ""
+    "message": "Compra su Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": ""
+    "message": "Coinbase è il servizio più popolare al mondo per comprare e vendere Bitcoin, DEXON e Litecoin."
   },
   "ok": {
     "message": "Ok"
   },
   "cancel": {
-    "message": ""
+    "message": "Annulla"
   },
   "classicInterface": {
     "message": "Usa l'interfaccia classica"
   },
   "clickCopy": {
-    "message": ""
+    "message": "Clicca per Copiare"
   },
   "confirm": {
-    "message": ""
+    "message": "Conferma"
   },
   "confirmed": {
     "message": "Confermata"
   },
   "confirmContract": {
-    "message": ""
+    "message": "Conferma Contratto"
   },
   "confirmPassword": {
-    "message": ""
+    "message": "Conferma Password"
   },
   "confirmTransaction": {
-    "message": ""
+    "message": "Conferma Transazione"
   },
   "continue": {
     "message": "Continua"
   },
   "continueToCoinbase": {
-    "message": ""
+    "message": "Continua su Coinbase"
   },
   "contractDeployment": {
-    "message": ""
+    "message": "Distribuzione Contratto"
   },
   "conversionProgress": {
-    "message": ""
+    "message": "Conversione in corso"
   },
   "copiedButton": {
-    "message": ""
+    "message": "Copiato"
   },
   "copiedClipboard": {
-    "message": ""
+    "message": "Copiato negli Appunti"
   },
   "copiedExclamation": {
-    "message": ""
+    "message": "Copiato!"
   },
   "copiedSafe": {
     "message": "Le ho copiate in un posto sicuro"
   },
   "copy": {
-    "message": ""
+    "message": "Copia"
   },
   "copyToClipboard": {
-    "message": ""
+    "message": "Copia negli appunti"
   },
   "copyButton": {
-    "message": ""
+    "message": " Copia "
   },
   "copyPrivateKey": {
-    "message": ""
+    "message": "Questa è la tua chiave privata (clicca per copiare)"
   },
   "create": {
-    "message": ""
+    "message": "Crea"
   },
   "createAccount": {
-    "message": ""
+    "message": "Crea Account"
   },
   "createDen": {
-    "message": ""
+    "message": "Crea"
   },
   "crypto": {
-    "message": "",
-    "description": ""
+    "message": "Crypto",
+    "description": "Tipo di exchange (cryptomonete)"
   },
   "currentConversion": {
     "message": "Cambio Corrente"
@@ -211,16 +211,16 @@
     "message": "Rete Corrente"
   },
   "customGas": {
-    "message": ""
+    "message": "Personalizza Gas"
   },
   "customToken": {
     "message": "Token Personalizzato"
   },
   "customize": {
-    "message": ""
+    "message": "Personalizza"
   },
   "customRPC": {
-    "message": ""
+    "message": "RPC Personalizzata"
   },
   "decimalsMustZerotoTen": {
     "message": "Il numero di decimali deve essere almeno 0, e non oltre 36."
@@ -229,50 +229,50 @@
     "message": "Precisione Decimali"
   },
   "defaultNetwork": {
-    "message": ""
+    "message": "La rete predefinita per transazioni in DEX è la Rete DEXON Principale."
   },
   "denExplainer": {
-    "message": ""
+    "message": "Il DEN è il tuo archivio crittato con password dentro DekuSan."
   },
   "deposit": {
-    "message": ""
+    "message": "Deposita"
   },
   "depositBTC": {
-    "message": ""
+    "message": "Deposita i tuoi BTC all'indirizzo sotto:"
   },
   "depositCoin": {
-    "message": "",
-    "description": ""
+    "message": "Deposita $1 all'indirizzo sotto",
+    "description": "Dice all'utente quale moneta ha selezionato per depositare con Shapeshift"
   },
   "depositDEX": {
-    "message": ""
+    "message": "Deposita DEX"
   },
   "depositFiat": {
-    "message": ""
+    "message": "Deposita con moneta Fiat"
   },
   "depositFromAccount": {
-    "message": ""
+    "message": "Deposita da un altro account"
   },
   "depositShapeShift": {
-    "message": ""
+    "message": "Deposita con ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": ""
+    "message": "Se possiedi altre criptomonete, puoi scambiare e depositare DEX direttamente nel tuo portafoglio DekuSan. Nessun account richiesto."
   },
   "details": {
-    "message": ""
+    "message": "Dettagli"
   },
   "directDeposit": {
-    "message": ""
+    "message": "Deposito Diretto"
   },
   "directDepositDex": {
-    "message": ""
+    "message": "Deposita Direttamente DEX"
   },
   "directDepositDexExplainer": {
-    "message": ""
+    "message": "Se possiedi già degli DEX, questa è la via più veloce per aggiungere DEX al tuo portafoglio con un deposito diretto."
   },
   "done": {
-    "message": ""
+    "message": "Finito"
   },
   "downloadStateLogs": {
     "message": "Scarica i log di Stato"
@@ -281,19 +281,19 @@
     "message": "Abbandonata"
   },
   "edit": {
-    "message": ""
+    "message": "Modifica"
   },
   "editAccountName": {
-    "message": ""
+    "message": "Modifica Nome Account"
   },
   "emailUs": {
     "message": "Mandaci una mail!"
   },
   "encryptNewDen": {
-    "message": ""
+    "message": "Cripta il tuo nuovo DEN"
   },
   "enterPassword": {
-    "message": ""
+    "message": "Inserisci password"
   },
   "enterPasswordConfirm": {
     "message": "Inserisci la tua password per confermare"
@@ -305,126 +305,126 @@
     "message": "Le Password Non Corrispondonos"
   },
   "dexscanView": {
-    "message": ""
+    "message": "Vedi account su DexScan"
   },
   "exchangeRate": {
-    "message": ""
+    "message": "Tasso di cambio"
   },
   "exportPrivateKey": {
-    "message": ""
+    "message": "Esporta Chiave Privata"
   },
   "exportPrivateKeyWarning": {
-    "message": ""
+    "message": "Esporta chiave privata a tuo rischio."
   },
   "failed": {
-    "message": ""
+    "message": "Fallita"
   },
   "fiat": {
-    "message": "",
-    "description": ""
+    "message": "FIAT",
+    "description": "Tipo di scambio"
   },
   "fileImportFail": {
-    "message": "",
-    "description": ""
+    "message": "Importazione file non funziona? Clicca qui!",
+    "description": "Aiuta gli utenti a importare il loro account da un file JSON"
   },
   "followTwitter": {
     "message": "Seguici su Twitter"
   },
   "from": {
-    "message": ""
+    "message": "Da"
   },
   "fromToSame": {
     "message": "Gli indirizzi Da e A non possono essere uguali"
   },
   "fromShapeShift": {
-    "message": ""
+    "message": "Da ShapeShift"
   },
   "gas": {
-    "message": "",
-    "description": ""
+    "message": "Gas",
+    "description": "Piccola indicazione del costo del gas"
   },
   "gasFee": {
-    "message": ""
+    "message": "Costo Gas"
   },
   "gasLimit": {
-    "message": ""
+    "message": "Gas Limite"
   },
   "gasLimitCalculation": {
-    "message": ""
+    "message": "Calcoliamo il gas limite suggerito in base al successo delle transazioni in rete."
   },
   "gasLimitRequired": {
-    "message": ""
+    "message": "Gas Limite Richiesto"
   },
   "gasLimitTooLow": {
-    "message": ""
+    "message": "Il Gas Limite deve essere almeno 21000"
   },
   "generatingSeed": {
     "message": "Generando la frase seed..."
   },
   "gasPrice": {
-    "message": ""
+    "message": "Prezzo del Gas (GWEI)"
   },
   "gasPriceCalculation": {
-    "message": ""
+    "message": "Calcoliamo il gas limite suggerito in base al successo delle transazioni in rete."
   },
   "gasPriceRequired": {
-    "message": ""
+    "message": "Prezzo Gas Richiesto"
   },
   "getDex": {
-    "message": ""
+    "message": "Ottieni DEX"
   },
   "getDexFromFaucet": {
-    "message": "",
-    "description": ""
+    "message": "Ottieni Get DEX da un faucet per $1",
+    "description": "Visualizza il nome della rete per il faucet DEX"
   },
   "greaterThanMin": {
-    "message": "",
-    "description": ""
+    "message": "deve essere maggiore o uguale a $1.",
+    "description": "aiuto per inserire un input esadecimale come decimale"
   },
   "here": {
-    "message": "",
-    "description": ""
+    "message": "qui",
+    "description": "per intendere -clicca qui- per maggiori informazioni (va con troubleTokenBalances)"
   },
   "hereList": {
     "message": "Questa è una lista!!!!"
   },
   "hide": {
-    "message": ""
+    "message": "Nascondi"
   },
   "hideToken": {
-    "message": ""
+    "message": "Nascondi Token"
   },
   "hideTokenPrompt": {
-    "message": ""
+    "message": "Nascondi Token?"
   },
   "howToDeposit": {
-    "message": ""
+    "message": "Come vuoi depositare DEX?"
   },
   "holdDex": {
     "message": "Ti permette di tenere dexon & token, e serve da ponte per le applicazioni decentralizzate."
   },
   "import": {
-    "message": "",
-    "description": ""
+    "message": "Importa",
+    "description": "Tasto per importare un account da un file selezionato"
   },
   "importAccount": {
-    "message": ""
+    "message": "Importa Account"
   },
   "importAccountMsg": {
     "message": " Gli account importati non saranno associati alla frase seed originariamente creata con DekuSan. Impara di più sugli account importati "
   },
   "importAnAccount": {
-    "message": ""
+    "message": "Importa un account"
   },
   "importDen": {
-    "message": ""
+    "message": "Importa un DEN Esistente"
   },
   "imported": {
-    "message": "",
-    "description": ""
+    "message": "Importato",
+    "description": "stato che conferma che un account è stato totalmente caricato nel portachiavi"
   },
   "infoHelp": {
-    "message": ""
+    "message": "Informazioni & Aiuto"
   },
   "insufficientFunds": {
     "message": "Fondi non sufficienti."
@@ -433,19 +433,19 @@
     "message": "Token non sufficienti."
   },
   "invalidAddress": {
-    "message": ""
+    "message": "Indirizzo non valido"
   },
   "invalidAddressRecipient": {
     "message": "Indirizzo destinatario invalido"
   },
   "invalidGasParams": {
-    "message": ""
+    "message": "Parametri del Gas non validi"
   },
   "invalidInput": {
-    "message": ""
+    "message": "Input non valido."
   },
   "invalidRequest": {
-    "message": ""
+    "message": "Richiesta non Valida"
   },
   "invalidRPC": {
     "message": "URI RPC invalido"
@@ -454,14 +454,14 @@
     "message": "Qualcosa è andato storto. Assicurati che il file JSON sia formattato correttamente."
   },
   "jsonFile": {
-    "message": "",
-    "description": ""
+    "message": "File JSON",
+    "description": "formato per importare un account"
   },
   "keepTrackTokens": {
     "message": "Tieni traccia dei tokens che hai acquistato con il tuo account MetaMask."
   },
   "kovan": {
-    "message": ""
+    "message": "Rete di test Kovan"
   },
   "knowledgeDataBase": {
     "message": "Visita la nostra Knowledge Base"
@@ -473,8 +473,8 @@
     "message": "Scopri di più"
   },
   "lessThanMax": {
-    "message": "",
-    "description": ""
+    "message": "deve essere minore o uguale a $1.",
+    "description": "aiuto per inserire un input esadecimale come decimale"
   },
   "likeToAddTokens": {
     "message": "Vorresti aggiungere questi token?"
@@ -483,134 +483,134 @@
     "message": "Collegamenti"
   },
   "limit": {
-    "message": ""
+    "message": "Limite"
   },
   "loading": {
-    "message": ""
+    "message": "Caricamento..."
   },
   "loadingTokens": {
-    "message": ""
+    "message": "Caricamento Tokens..."
   },
   "localhost": {
-    "message": ""
+    "message": "Localhost 8545"
   },
   "login": {
     "message": "Connetti"
   },
   "logout": {
-    "message": ""
+    "message": "Disconnetti"
   },
   "loose": {
-    "message": ""
+    "message": "Libero"
   },
   "loweCaseWords": {
     "message": "le frasi seed hanno solo lettere minuscole"
   },
   "mainnet": {
-    "message": ""
+    "message": "Rete DEXON Principale"
   },
   "message": {
-    "message": ""
+    "message": "Messaggio"
   },
   "dekusanDescription": {
     "message": "DekuSan è una cassaforte sicura per identità su Dexon."
   },
   "min": {
-    "message": ""
+    "message": "Minimo"
   },
   "myAccounts": {
-    "message": ""
+    "message": "Miei Account"
   },
   "mustSelectOne": {
     "message": "Devi selezionare almeno un token."
   },
   "needDexInWallet": {
-    "message": ""
+    "message": "Per interagire con applicazioni decentralizzate con DekuSan, devi possedere DEX nel tuo portafoglio."
   },
   "needImportFile": {
-    "message": "",
-    "description": ""
+    "message": "Devi selezionare un file da importare.",
+    "description": "L'utente sta importando un account e deve aggiungere un file per continuare"
   },
   "needImportPassword": {
-    "message": "",
-    "description": ""
+    "message": "Dei inserire una password per il file selezionato.",
+    "description": "Password e file necessari per importare un account"
   },
   "negativeDex": {
     "message": "Non puoi inviare una quantità di DEX negativa."
   },
   "networks": {
-    "message": ""
+    "message": "Reti"
   },
   "newAccount": {
-    "message": ""
+    "message": "Nuovo Account"
   },
   "newAccountNumberName": {
-    "message": "",
-    "description": ""
+    "message": "Account $1",
+    "description": "Nome predefinito per il prossimo account da creare nella schermata di creazione account"
   },
   "newContract": {
-    "message": ""
+    "message": "Nuovo Contratto"
   },
   "newPassword": {
-    "message": ""
+    "message": "Nuova Password (minimo 8 caratteri)"
   },
   "newRecipient": {
-    "message": ""
+    "message": "Nuovo Destinatario"
   },
   "newRPC": {
     "message": "Nuovo URL RPC"
   },
   "next": {
-    "message": ""
+    "message": "Avanti"
   },
   "noAddressForName": {
-    "message": ""
+    "message": "Nessun indirizzo è stato impostato per questo nome."
   },
   "noDeposits": {
-    "message": ""
+    "message": "Nessun deposito ricevuto"
   },
   "noTransactionHistory": {
-    "message": ""
+    "message": "Nessuna cronologia delle transazioni."
   },
   "noTransactions": {
-    "message": ""
+    "message": "Nessuna Transazione"
   },
   "notStarted": {
-    "message": ""
+    "message": "Non Iniziato"
   },
   "oldUI": {
-    "message": ""
+    "message": "Vecchia interfaccia"
   },
   "oldUIMessage": {
-    "message": ""
+    "message": "Sei ritornato alla vecchia interfaccia. Puoi ritornare alla nuova interfaccia tramite l'opzione nel menu a discesa in alto a destra."
   },
   "or": {
-    "message": "",
-    "description": ""
+    "message": "o",
+    "description": "scelta tra creare o importare un nuovo account"
   },
   "passwordCorrect": {
     "message": "Assicurati che la password sia corretta."
   },
   "passwordMismatch": {
-    "message": "",
-    "description": ""
+    "message": "le password non corrispondono",
+    "description": "nella creazione della password, le due password all'interno dei campi non corrispondono"
   },
   "passwordShort": {
-    "message": "",
-    "description": ""
+    "message": "password non sufficientemente lunga",
+    "description": "nella creazione della password, la password non è lunga abbastanza"
   },
   "pastePrivateKey": {
-    "message": "",
-    "description": ""
+    "message": "Incolla la tua chiave privata qui:",
+    "description": "Per importare un account da una chiave privata"
   },
   "pasteSeed": {
-    "message": ""
+    "message": "Incolla la tua frase seed qui!"
   },
   "personalAddressDetected": {
     "message": "Rilevato indirizzo personale. Inserisci l'indirizzo del contratto del token."
   },
   "pleaseReviewTransaction": {
-    "message": ""
+    "message": "Ricontrolla la tua transazione."
   },
   "popularTokens": {
     "message": "Tokens Popolari"
@@ -619,51 +619,38 @@
     "message": "Politica sulla Privacy"
   },
   "privateKey": {
-    "message": "",
-    "description": ""
+    "message": "Chiave Privata",
+    "description": "seleziona questo tipo di file per importare un account"
   },
   "privateKeyWarning": {
-    "message": ""
+    "message": "Attenzione: non dire a nessuno questa chiave! Chiunque con la tua chiave privata può rubare qualsiasi moneta contenuta nel tuo account."
   },
   "privateNetwork": {
-    "message": ""
+    "message": "Rete Privata"
   },
   "qrCode": {
-    "message": ""
+    "message": "Mostra Codice QR"
   },
   "readdToken": {
-    "message": ""
+    "message": "Puoi aggiungere nuovamente questo token in futuro andando in “Aggiungi token” nel menu delle opzioni del tuo account."
   },
   "readMore": {
-    "message": ""
+    "message": "Leggi di più qui."
   },
   "readMore2": {
     "message": "Leggi di più."
   },
   "receive": {
-    "message": ""
+    "message": "Ricevi"
   },
   "recipientAddress": {
-    "message": ""
+    "message": "Indirizzo Destinatario"
   },
   "refundAddress": {
-<<<<<<< HEAD
     "message": "Indirizzo di Rimborso"
   },
-  "rejectAll": {
-    "message": "Reject All"
-  },
-  "rejectTxsN": {
-    "message": "Reject $1 transactions"
-  },
-  "rejectTxsDescription": {
-    "message": "You are about to batch reject $1 transactions."
-=======
-    "message": ""
->>>>>>> Update translations
-  },
   "rejected": {
-    "message": ""
+    "message": "Respinta"
   },
   "resetAccount": {
     "message": "Resetta Account"
@@ -675,10 +662,10 @@
     "message": "Ripristina Cassaforte"
   },
   "required": {
-    "message": ""
+    "message": "Richiesto"
   },
   "retryWithMoreGas": {
-    "message": ""
+    "message": "Riprova con un prezzo del Gas maggiore qui"
   },
   "walletSeed": {
     "message": "Seed del Portafoglio"
@@ -690,13 +677,13 @@
     "message": "Non ripristinare la tua frase seed in pubblico!. Queste parole possono essere usate per rubare il tuo account."
   },
   "revert": {
-    "message": ""
+    "message": "Annulla"
   },
   "rinkeby": {
-    "message": ""
+    "message": "Rete di test DEXON"
   },
   "ropsten": {
-    "message": ""
+    "message": "Rete di test Ropsten"
   },
   "currentRpc": {
     "message": "RPC Corrente"
@@ -717,11 +704,11 @@
     "message": "Connessione ad una Rete Sconosciuta"
   },
   "sampleAccountName": {
-    "message": "",
-    "description": ""
+    "message": "Es: Il mio nuovo account",
+    "description": "Aiuta l'utente a capire il concetto di aggiungere un nome leggibile al loro account"
   },
   "save": {
-    "message": ""
+    "message": "Salva"
   },
   "reprice_title": {
     "message": ""
@@ -730,8 +717,8 @@
     "message": ""
   },
   "saveAsFile": {
-    "message": "",
-    "description": ""
+    "message": "Salva come File",
+    "description": "Processo per esportare un account"
   },
   "saveSeedAsFile": {
     "message": "Salva la Frase Seed come File"
@@ -755,19 +742,19 @@
     "message": "Seleziona Moneta"
   },
   "selectService": {
-    "message": ""
+    "message": "Seleziona Servizio"
   },
   "selectType": {
     "message": "Seleziona Tipo"
   },
   "send": {
-    "message": ""
+    "message": "Invia"
   },
   "sendDEX": {
     "message": "Invia DEX"
   },
   "sendTokens": {
-    "message": ""
+    "message": "Invia Tokens"
   },
   "onlySendToDexonAddress": {
     "message": "Invia DEX solamente ad un account DEXON."
@@ -776,46 +763,46 @@
     "message": "Cerca Tokens"
   },
   "sendTokensAnywhere": {
-    "message": ""
+    "message": "Invia Tokens a chiunque abbia un account Dexon"
   },
   "settings": {
-    "message": ""
+    "message": "Impostazioni"
   },
   "info": {
     "message": "Informazioni"
   },
   "shapeshiftBuy": {
-    "message": ""
+    "message": "Compra con Shapeshift"
   },
   "showPrivateKeys": {
-    "message": ""
+    "message": "Mostra Chiave Privata"
   },
   "showQRCode": {
-    "message": ""
+    "message": "Mostra Codie QR"
   },
   "sign": {
-    "message": ""
+    "message": "Firma"
   },
   "signed": {
     "message": "Firmata"
   },
   "signMessage": {
-    "message": ""
+    "message": "Firma Messaggio"
   },
   "signNotice": {
-    "message": ""
+    "message": "Firmare questo messaggio può avere effetti collaterali pericolosi. \nFirma messaggi da siti di cui ti fidi totalmente. \nQuesto metodo pericoloso sarà rimosso in versioni future."
   },
   "sigRequest": {
-    "message": ""
+    "message": "Firma Richiesta"
   },
   "sigRequested": {
-    "message": ""
+    "message": "Richiesta Firma"
   },
   "spaceBetween": {
     "message": "ci può essere solo uno spazio tra le parole"
   },
   "status": {
-    "message": ""
+    "message": "Stato"
   },
   "stateLogs": {
     "message": "Log di Stato"
@@ -827,7 +814,7 @@
     "message": "Errore nel recupero dei log di stato."
   },
   "submit": {
-    "message": ""
+    "message": "Invia"
   },
   "submitted": {
     "message": "Inviata"
@@ -839,23 +826,23 @@
     "message": "Il simbolo deve essere lungo tra 0 e 12 caratteri."
   },
   "takesTooLong": {
-    "message": ""
+    "message": "Ci sta mettendo troppo?"
   },
   "terms": {
     "message": "Termini di Uso"
   },
   "testFaucet": {
-    "message": ""
+    "message": "Prova Faucet"
   },
   "testnet": {
     "message": ""
   },
   "to": {
-    "message": ""
+    "message": "A"
   },
   "toDEXviaShapeShift": {
-    "message": "",
-    "description": ""
+    "message": "$1 a DEX via ShapeShift",
+    "description": "il sistema riempirà il tipo di deposito all'inizio del messaggio"
   },
   "tokenAddress": {
     "message": "Indirizzo Token"
@@ -864,7 +851,7 @@
     "message": "Il token è già stato aggiunto."
   },
   "tokenBalance": {
-    "message": ""
+    "message": "Bilancio Token:"
   },
   "tokenSelection": {
     "message": "Cerca un token o seleziona dalla lista di token più popolari."
@@ -876,7 +863,7 @@
     "message": "Tieni traccia dei token che hai acquistato con il tuo account DekuSan. Se hai acquistato token con un account diverso, quei token non appariranno qui."
   },
   "total": {
-    "message": ""
+    "message": "Totale"
   },
   "transactions": {
     "message": "transazioni"
@@ -885,54 +872,54 @@
     "message": "Errore Transazione. Eccceziona generata nel codice del contratto."
   },
   "transactionMemo": {
-    "message": ""
+    "message": "Promemoria Transazione (opzionale)"
   },
   "transactionNumber": {
-    "message": ""
+    "message": "Numero Transazione"
   },
   "transfers": {
-    "message": ""
+    "message": "Trasferimenti"
   },
   "troubleTokenBalances": {
-    "message": "",
-    "description": ""
+    "message": "Abbiamo avuto un problema a caricare il bilancio dei tuoi token. Puoi vederlo ",
+    "description": "Seguito da un link (qui) per vedere il bilancio dei token"
   },
   "twelveWords": {
     "message": "Queste 12 parole sono l'unico modo per ripristinare i tuoi account DekuSan. \nSalvale in un posto sicuro e segreto."
   },
   "typePassword": {
-    "message": ""
+    "message": "Inserisci Password"
   },
   "uiWelcome": {
-    "message": ""
+    "message": "Benvenuto alla nuova interfaccia (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": ""
+    "message": "Stai utilizzanto la nuova interfaccia di DekuSan. Guarda in giro, prova nuove funzionalità come inviare token, e facci sapere se hai dei problemi."
   },
   "unapproved": {
     "message": ""
   },
   "unavailable": {
-    "message": ""
+    "message": "Non Disponibile"
   },
   "unknown": {
-    "message": ""
+    "message": "Sconosciuto"
   },
   "unknownNetwork": {
-    "message": ""
+    "message": "Rete Privata Sconosciuta"
   },
   "unknownNetworkId": {
-    "message": ""
+    "message": "ID rete sconosciuto"
   },
   "uriErrorMsg": {
     "message": "Gli URI richiedono un prefisso HTTP\/HTTPS."
   },
   "usaOnly": {
-    "message": "",
-    "description": ""
+    "message": "Solo USA",
+    "description": "Usare questo sito di scambio è possibile solo per persone residenti in USA."
   },
   "usedByClients": {
-    "message": ""
+    "message": "Usato da una varietà di clients diversi"
   },
   "useOldUI": {
     "message": "Use la vecchia UI"
@@ -944,13 +931,13 @@
     "message": "Cassaforte Creata"
   },
   "viewAccount": {
-    "message": ""
+    "message": "Vedi Account"
   },
   "visitWebSite": {
     "message": "Visita il nostro sito web"
   },
   "warning": {
-    "message": ""
+    "message": "Attenzione"
   },
   "welcome": {
     "message": "Benvenuto nella Beta di MetaMask"
@@ -959,13 +946,13 @@
     "message": "Benvenuto nella Beta di DekuSan"
   },
   "whatsThis": {
-    "message": ""
+    "message": "Cos'è questo?"
   },
   "yourSigRequested": {
-    "message": ""
+    "message": "E' richiesta la tua firma"
   },
   "youSign": {
-    "message": ""
+    "message": "Ti stai connettendo"
   },
   "aboutDekuSan": {
     "message": ""

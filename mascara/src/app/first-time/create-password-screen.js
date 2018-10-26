@@ -5,7 +5,6 @@ import { withRouter } from 'react-router-dom'
 import { compose } from 'recompose'
 import { createNewVaultAndKeychain } from '../../../../ui/app/actions'
 import EventEmitter from 'events'
-import Mascot from '../../../../ui/app/components/mascot'
 import classnames from 'classnames'
 import {
   INITIALIZE_UNIQUE_IMAGE_ROUTE,
@@ -116,8 +115,9 @@ class CreatePasswordScreen extends Component {
           'first-view-main__mascara': isMascara,
         })}>
           {isMascara && <div className="mascara-info first-view-phone-invisible">
-            <Mascot
-              animationEventEmitter={this.animationEventEmitter}
+            <img
+              className=".welcome-screen__info__logo"
+              src="/images/dekusan.svg"
               width="225"
               height="225"
             />

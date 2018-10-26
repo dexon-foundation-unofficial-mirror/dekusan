@@ -42,167 +42,167 @@
     "message": "아래 나열된 도메인은 Web3 API에 대한 액세스를 요청하여 Ethereum 블록 체인과 상호 작용할 수 있습니다. Ethereum 액세스를 승인하기 전에 항상 올바른 사이트에 있는지 다시 확인하십시오."
   },
   "accept": {
-    "message": ""
+    "message": "수락"
   },
   "account": {
-    "message": ""
+    "message": "계정"
   },
   "accountDetails": {
-    "message": ""
+    "message": "계정 상세보기"
   },
   "accountName": {
-    "message": ""
+    "message": "계정 이름"
   },
   "address": {
-    "message": ""
+    "message": "주소"
   },
   "addCustomToken": {
     "message": "사용자 정의 토큰 추가"
   },
   "addToken": {
-    "message": ""
+    "message": "토큰 추가"
   },
   "addTokens": {
     "message": "토큰 추가"
   },
   "amount": {
-    "message": ""
+    "message": "수량"
   },
   "amountPlusGas": {
-    "message": ""
+    "message": "수량 + 가스"
   },
   "appDescription": {
-    "message": "",
-    "description": ""
+    "message": "이더리움 브라우저 확장 프로그램",
+    "description": "애플리케이션 설명"
   },
   "appName": {
-    "message": "",
-    "description": ""
+    "message": "DekuSan",
+    "description": "애플리케이션 이름"
   },
   "approved": {
     "message": "수락"
   },
   "attemptingConnect": {
-    "message": ""
+    "message": "블록체인에 접속을 시도하는 중입니다."
   },
   "attributions": {
     "message": "속성"
   },
   "available": {
-    "message": ""
+    "message": "사용 가능"
   },
   "back": {
-    "message": ""
+    "message": "돌아가기"
   },
   "balance": {
-    "message": ""
+    "message": "잔액"
   },
   "balances": {
     "message": "토큰 잔액"
   },
   "balanceIsInsufficientGas": {
-    "message": ""
+    "message": "현재 가스 총합에 대해 잔액이 부족합니다"
   },
   "beta": {
-    "message": ""
+    "message": "BETA"
   },
   "betweenMinAndMax": {
-    "message": "",
-    "description": ""
+    "message": "$1 이상 $2 이하여야 합니다.",
+    "description": "10진수 입력으로 hex값 입력을 도와줍니다"
   },
   "blockiesIdenticon": {
     "message": "Blockies 아이덴티콘 사용"
   },
   "borrowDharma": {
-    "message": ""
+    "message": "Dharma에서 대출받기 (Beta)"
   },
   "builtInCalifornia": {
     "message": "메타마스크는 캘리포니아에서 디자인되고 만들어졌습니다."
   },
   "buy": {
-    "message": ""
+    "message": "구매"
   },
   "buyCoinbase": {
-    "message": ""
+    "message": "코인베이스에서 구매하기"
   },
   "buyCoinbaseExplainer": {
-    "message": ""
+    "message": "코인베이스는 비트코인, 이더리움, 라이트코인을 거래할 수 있는 유명한 거래소입니다."
   },
   "ok": {
     "message": "확인"
   },
   "cancel": {
-    "message": ""
+    "message": "취소"
   },
   "classicInterface": {
     "message": "예전 인터페이스"
   },
   "clickCopy": {
-    "message": ""
+    "message": "클릭하여 복사"
   },
   "confirm": {
-    "message": ""
+    "message": "승인"
   },
   "confirmed": {
     "message": "승인됨"
   },
   "confirmContract": {
-    "message": ""
+    "message": "컨트랙트 승인"
   },
   "confirmPassword": {
-    "message": ""
+    "message": "비밀번호 확인"
   },
   "confirmTransaction": {
-    "message": ""
+    "message": "트랜잭션 승인"
   },
   "continue": {
     "message": "계속"
   },
   "continueToCoinbase": {
-    "message": ""
+    "message": "코인베이스로 계속하기"
   },
   "contractDeployment": {
-    "message": ""
+    "message": "컨트랙트 배포"
   },
   "conversionProgress": {
-    "message": ""
+    "message": "변환 진행 중"
   },
   "copiedButton": {
-    "message": ""
+    "message": "복사됨"
   },
   "copiedClipboard": {
-    "message": ""
+    "message": "클립보드에 복사되었습니다"
   },
   "copiedExclamation": {
-    "message": ""
+    "message": "복사됨!"
   },
   "copiedSafe": {
     "message": "안전한 곳에 복사하였습니다"
   },
   "copy": {
-    "message": ""
+    "message": "복사"
   },
   "copyToClipboard": {
-    "message": ""
+    "message": "클립보드로 복사"
   },
   "copyButton": {
-    "message": ""
+    "message": " 복사 "
   },
   "copyPrivateKey": {
-    "message": ""
+    "message": "비밀 키입니다 (클릭하여 복사)"
   },
   "create": {
-    "message": ""
+    "message": "생성"
   },
   "createAccount": {
-    "message": ""
+    "message": "계정 생성"
   },
   "createDen": {
-    "message": ""
+    "message": "생성"
   },
   "crypto": {
-    "message": "",
-    "description": ""
+    "message": "암호화폐",
+    "description": "거래 유형 (암호화폐)"
   },
   "currentConversion": {
     "message": "현재 통화"
@@ -211,16 +211,16 @@
     "message": "현재 네트워크"
   },
   "customGas": {
-    "message": ""
+    "message": "가스 설정"
   },
   "customToken": {
     "message": "사용자 정의 토큰"
   },
   "customize": {
-    "message": ""
+    "message": "맞춤화하기"
   },
   "customRPC": {
-    "message": ""
+    "message": "사용자 정의 RPC"
   },
   "decimalsMustZerotoTen": {
     "message": "소수점은 0 이상이고 36 이하여야 합니다."
@@ -229,50 +229,50 @@
     "message": "소수점 정확도"
   },
   "defaultNetwork": {
-    "message": ""
+    "message": "이더리움 트랜잭션의 기본 네트워크는 메인넷입니다."
   },
   "denExplainer": {
-    "message": ""
+    "message": "DEN은 비밀번호로 암호화 된 메타마스크의 저장소입니다."
   },
   "deposit": {
-    "message": ""
+    "message": "입금"
   },
   "depositBTC": {
-    "message": ""
+    "message": "다음 주소로 BTC를 입금해주세요."
   },
   "depositCoin": {
-    "message": "",
-    "description": ""
+    "message": "다음 주소로 $1 만큼 입금해주세요.",
+    "description": "사용자에게 shapeshift에서 어떤 코인을 선택해 입금했는지 알려줍니다"
   },
   "depositDEX": {
-    "message": ""
+    "message": "이더리움 입금하기"
   },
   "depositFiat": {
-    "message": ""
+    "message": "현금으로 입금하기"
   },
   "depositFromAccount": {
-    "message": ""
+    "message": "다른 주소에서 입금하기"
   },
   "depositShapeShift": {
-    "message": ""
+    "message": "ShapeShift를 통해 입금하기"
   },
   "depositShapeShiftExplainer": {
-    "message": ""
+    "message": "다른 암호화폐를 가지고 있으면, 계정을 생성할 필요 없이 메타마스크 지갑에 이더리움을 바로 거래하거나 입금할 수 있습니다."
   },
   "details": {
-    "message": ""
+    "message": "세부사항"
   },
   "directDeposit": {
-    "message": ""
+    "message": "즉시 입금"
   },
   "directDepositDex": {
-    "message": ""
+    "message": "이더 즉시 입금"
   },
   "directDepositDexExplainer": {
-    "message": ""
+    "message": "약간의 이더를 이미 보유하고 있다면, 새로 만든 지갑에 직접 입금하여 이더를 보유할 수 있습니다."
   },
   "done": {
-    "message": ""
+    "message": "완료"
   },
   "downloadStateLogs": {
     "message": "상태 로그 다운로드"
@@ -281,19 +281,19 @@
     "message": "중단됨"
   },
   "edit": {
-    "message": ""
+    "message": "수정"
   },
   "editAccountName": {
-    "message": ""
+    "message": "계정 이름 수정"
   },
   "emailUs": {
     "message": "저자에게 메일 보내기!"
   },
   "encryptNewDen": {
-    "message": ""
+    "message": "새로운 DEN을 암호화"
   },
   "enterPassword": {
-    "message": ""
+    "message": "비밀번호를 입력해주세요"
   },
   "enterPasswordConfirm": {
     "message": "비밀번호를 다시 입력해 주세요"
@@ -305,126 +305,126 @@
     "message": "비밀번호가 맞지 않습니다"
   },
   "dexscanView": {
-    "message": ""
+    "message": "이더스캔에서 계정보기"
   },
   "exchangeRate": {
-    "message": ""
+    "message": "환율"
   },
   "exportPrivateKey": {
-    "message": ""
+    "message": "개인키 내보내기"
   },
   "exportPrivateKeyWarning": {
-    "message": ""
+    "message": "개인키 내보내기는 위험을 감수해야 합니다."
   },
   "failed": {
-    "message": ""
+    "message": "실패"
   },
   "fiat": {
-    "message": "",
-    "description": ""
+    "message": "FIAT",
+    "description": "거래 형식"
   },
   "fileImportFail": {
-    "message": "",
-    "description": ""
+    "message": "파일을 가져올 수 없나요? 이곳을 클릭해주세요!",
+    "description": "JSON 파일로부터 계정 가져오기를 도와줍니다"
   },
   "followTwitter": {
     "message": "트위터에서 팔로우하세요"
   },
   "from": {
-    "message": ""
+    "message": "보내는 이"
   },
   "fromToSame": {
     "message": "보내고 받는 주소는 같을 수 없습니다"
   },
   "fromShapeShift": {
-    "message": ""
+    "message": "ShapeShift로부터"
   },
   "gas": {
-    "message": "",
-    "description": ""
+    "message": "가스",
+    "description": "가스 가격의 줄임"
   },
   "gasFee": {
-    "message": ""
+    "message": "가스 수수료"
   },
   "gasLimit": {
-    "message": ""
+    "message": "가스 한도"
   },
   "gasLimitCalculation": {
-    "message": ""
+    "message": "네트워크 성공률을 기반으로 적합한 가스 한도를 계산합니다."
   },
   "gasLimitRequired": {
-    "message": ""
+    "message": "가스 한도가 필요합니다."
   },
   "gasLimitTooLow": {
-    "message": ""
+    "message": "가스 한도는 최소 21000 이상이어야 합니다."
   },
   "generatingSeed": {
     "message": "시드 생성 중..."
   },
   "gasPrice": {
-    "message": ""
+    "message": "가스 가격 (GWEI)"
   },
   "gasPriceCalculation": {
-    "message": ""
+    "message": "네트워크 성공률을 기반으로 적합한 가스 가격을 계산합니다."
   },
   "gasPriceRequired": {
-    "message": ""
+    "message": "가스 가격이 필요합니다."
   },
   "getDex": {
-    "message": ""
+    "message": "이더 얻기"
   },
   "getDexFromFaucet": {
-    "message": "",
-    "description": ""
+    "message": "파우셋에서 $1에 달하는 이더를 얻으세요.",
+    "description": "이더 파우셋에 대한 네트워크 이름을 표시합니다"
   },
   "greaterThanMin": {
-    "message": "",
-    "description": ""
+    "message": "$1 이상이어야 합니다.",
+    "description": "10진수 입력으로 hex값 입력을 도와줍니다"
   },
   "here": {
-    "message": "",
-    "description": ""
+    "message": "여기",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
   },
   "hereList": {
     "message": "리스트가 있습니다!!!!"
   },
   "hide": {
-    "message": ""
+    "message": "숨기기"
   },
   "hideToken": {
-    "message": ""
+    "message": "토큰 숨기기"
   },
   "hideTokenPrompt": {
-    "message": ""
+    "message": "토큰 숨기기?"
   },
   "howToDeposit": {
-    "message": ""
+    "message": "어떤 방법으로 이더를 입금하시겠습니까?"
   },
   "holdDex": {
     "message": "It allows you to hold dexon & tokens, and serves as your bridge to decentralized applications."
   },
   "import": {
-    "message": "",
-    "description": ""
+    "message": "가져오기",
+    "description": "선택된 파일로부터 계정 가져오기 버튼"
   },
   "importAccount": {
-    "message": ""
+    "message": "계정 가져오기"
   },
   "importAccountMsg": {
     "message": " 가져온 계정은 메타마스크에서 원래 생성된 계정의 시드구문과 연관성이 없습니다. 가져온 계정에 대해 더 배우기 "
   },
   "importAnAccount": {
-    "message": ""
+    "message": "계정 가져오기"
   },
   "importDen": {
-    "message": ""
+    "message": "기존의 DEN 가져오기"
   },
   "imported": {
-    "message": "",
-    "description": ""
+    "message": "가져온 계정",
+    "description": "이 상태는 해당 계정이 keyring으로 완전히 로드된 상태임을 표시합니다"
   },
   "infoHelp": {
-    "message": ""
+    "message": "정보 및 도움말"
   },
   "insufficientFunds": {
     "message": "충분하지 않은 자금."
@@ -433,19 +433,19 @@
     "message": "충분하지 않은 토큰."
   },
   "invalidAddress": {
-    "message": ""
+    "message": "올바르지 않은 주소"
   },
   "invalidAddressRecipient": {
     "message": "수신 주소가 올바르지 않습니다"
   },
   "invalidGasParams": {
-    "message": ""
+    "message": "올바르지 않은 가스 입력값"
   },
   "invalidInput": {
-    "message": ""
+    "message": "올바르지 않은 입력값"
   },
   "invalidRequest": {
-    "message": ""
+    "message": "유효하지 않은 요청"
   },
   "invalidRPC": {
     "message": "올바르지 않은 RPC URI"
@@ -454,14 +454,14 @@
     "message": "이상이 있습니다. JSON 파일이 올바른 파일인지 확인해주세요."
   },
   "jsonFile": {
-    "message": "",
-    "description": ""
+    "message": "JSON 파일",
+    "description": "계정을 가져오기 위한 형식"
   },
   "keepTrackTokens": {
     "message": "메타마스크 계정을 통해 구입한 토큰 기록을 추적 및 보관합니다."
   },
   "kovan": {
-    "message": ""
+    "message": "Kovan 테스트넷"
   },
   "knowledgeDataBase": {
     "message": "지식 베이스 방문"
@@ -473,8 +473,8 @@
     "message": "더 알아보기."
   },
   "lessThanMax": {
-    "message": "",
-    "description": ""
+    "message": "$1 이하여야합니다.",
+    "description": "10진수 입력으로 hex값 입력을 도와줍니다"
   },
   "likeToAddTokens": {
     "message": "토큰을 추가하시겠습니까?"
@@ -483,134 +483,134 @@
     "message": "링크"
   },
   "limit": {
-    "message": ""
+    "message": "한도"
   },
   "loading": {
-    "message": ""
+    "message": "로딩 중..."
   },
   "loadingTokens": {
-    "message": ""
+    "message": "토큰 로딩 중..."
   },
   "localhost": {
-    "message": ""
+    "message": "로컬호스트 8545"
   },
   "login": {
     "message": "로그인"
   },
   "logout": {
-    "message": ""
+    "message": "로그아웃"
   },
   "loose": {
-    "message": ""
+    "message": "느슨함"
   },
   "loweCaseWords": {
     "message": "시드 단어는 소문자만 가능합니다"
   },
   "mainnet": {
-    "message": ""
+    "message": "이더리움 메인넷"
   },
   "message": {
-    "message": ""
+    "message": "메시지"
   },
   "dekusanDescription": {
     "message": "메타마스크는 이더리움을 위한 안전한 신분 저장소입니다."
   },
   "min": {
-    "message": ""
+    "message": "최소"
   },
   "myAccounts": {
-    "message": ""
+    "message": "내 계정"
   },
   "mustSelectOne": {
     "message": "적어도 하나의 토큰을 선택하세요."
   },
   "needDexInWallet": {
-    "message": ""
+    "message": "메타마스크를 통한 dApp을 이용하기 위해서는 지갑에 이더가 있어야 합니다."
   },
   "needImportFile": {
-    "message": "",
-    "description": ""
+    "message": "가져올 파일을 선택해주세요.",
+    "description": "사용자는 계정을 가져오기 위해서 파일을 추가후 계속 진행해야 합니다"
   },
   "needImportPassword": {
-    "message": "",
-    "description": ""
+    "message": "선택된 파일에 대한 비밀번호를 입력해주세요.",
+    "description": "계정을 가져오기 위해서 비밀번호와 파일이 필요합니다."
   },
   "negativeDex": {
     "message": "음수값의 이더를 보낼 수 없습니다."
   },
   "networks": {
-    "message": ""
+    "message": "네트워크"
   },
   "newAccount": {
-    "message": ""
+    "message": "새 계정"
   },
   "newAccountNumberName": {
-    "message": "",
-    "description": ""
+    "message": "새 계정 $1",
+    "description": "계정 생성 시 볼 수 있는 새 계정의 기본 이름"
   },
   "newContract": {
-    "message": ""
+    "message": "새 컨트랙트"
   },
   "newPassword": {
-    "message": ""
+    "message": "새 비밀번호 (최소 8자 이상)"
   },
   "newRecipient": {
-    "message": ""
+    "message": "받는 사람"
   },
   "newRPC": {
     "message": "새로운 RPC URL"
   },
   "next": {
-    "message": ""
+    "message": "다음"
   },
   "noAddressForName": {
-    "message": ""
+    "message": "이 이름에 대해 주소가 설정되어 있지 않습니다."
   },
   "noDeposits": {
-    "message": ""
+    "message": "입금 내역이 없습니다."
   },
   "noTransactionHistory": {
-    "message": ""
+    "message": "트랜잭션 기록이 없습니다."
   },
   "noTransactions": {
-    "message": ""
+    "message": "트랜잭션이 없습니다"
   },
   "notStarted": {
-    "message": ""
+    "message": "시작 안 됨"
   },
   "oldUI": {
-    "message": ""
+    "message": "구버전 UI"
   },
   "oldUIMessage": {
-    "message": ""
+    "message": "구버전 UI로 변경하셨습니다. 오른쪽 위 드롭다운 메뉴에서 새 UI로 변경하실 수 있습니다."
   },
   "or": {
-    "message": "",
-    "description": ""
+    "message": "또는",
+    "description": "새 계정을 만들거나 가져오기 중에 선택하기"
   },
   "passwordCorrect": {
     "message": "비밀번호가 맞는지 확인해주세요."
   },
   "passwordMismatch": {
-    "message": "",
-    "description": ""
+    "message": "비밀번호가 일치하지 않습니다.",
+    "description": "비밀번호를 생성하는 과정에서 두 개의 새 비밀번호 입력란이 일치하지 않습니다"
   },
   "passwordShort": {
-    "message": "",
-    "description": ""
+    "message": "비밀번호가 짧습니다.",
+    "description": "비밀번호를 생성하는 과정에서 비밀번호가 짧으면 안전하지 않습니다"
   },
   "pastePrivateKey": {
-    "message": "",
-    "description": ""
+    "message": "개인키를 입력해주세요:",
+    "description": "개인키로부터 계정을 가져오는 것입니다"
   },
   "pasteSeed": {
-    "message": ""
+    "message": "시드 구문을 이곳에 붙여넣어 주세요!"
   },
   "personalAddressDetected": {
     "message": "개인 주소가 탐지됨. 토큰 컨트랙트 주소를 입력하세요."
   },
   "pleaseReviewTransaction": {
-    "message": ""
+    "message": "트랜잭션을 검토해주세요."
   },
   "popularTokens": {
     "message": "인기있는 토큰"
@@ -619,51 +619,38 @@
     "message": "개인정보 보호 정책"
   },
   "privateKey": {
-    "message": "",
-    "description": ""
+    "message": "개인키",
+    "description": "이 형식의 파일을 선택하여 계정을 가져올 수 있습니다"
   },
   "privateKeyWarning": {
-    "message": ""
+    "message": "절대 이 키를 노출하지 마십시오. 개인키가 노출되면 누구나 당신의 계정에서 자산을 빼갈 수 있습니다."
   },
   "privateNetwork": {
-    "message": ""
+    "message": "프라이빗 네트워크"
   },
   "qrCode": {
-    "message": ""
+    "message": "QR 코드 보기"
   },
   "readdToken": {
-    "message": ""
+    "message": "옵션 메뉴에서 “토큰 추가”를 눌러서 추후에 다시 이 토큰을 추가하실 수 있습니다."
   },
   "readMore": {
-    "message": ""
+    "message": "여기서 더 보기."
   },
   "readMore2": {
     "message": "더 보기."
   },
   "receive": {
-    "message": ""
+    "message": "받기"
   },
   "recipientAddress": {
-    "message": ""
+    "message": "받는 주소"
   },
   "refundAddress": {
-<<<<<<< HEAD
     "message": "환불받을 주소"
   },
-  "rejectAll": {
-    "message": "모두 거부"
-  },
-  "rejectTxsN": {
-    "message": "$1 트랜잭션 거부"
-  },
-  "rejectTxsDescription": {
-    "message": "$1 트랜잭션을 거부합니다."
-=======
-    "message": ""
->>>>>>> Update translations
-  },
   "rejected": {
-    "message": ""
+    "message": "거부됨"
   },
   "resetAccount": {
     "message": "계정 초기화"
@@ -675,10 +662,10 @@
     "message": "저장소 복구"
   },
   "required": {
-    "message": ""
+    "message": "필요함"
   },
   "retryWithMoreGas": {
-    "message": ""
+    "message": "더 높은 가스 가격으로 다시 시도해주세요"
   },
   "walletSeed": {
     "message": "지갑 시드값"
@@ -690,13 +677,13 @@
     "message": "이 단어 모음은 당신의 모든 계정을 훔치는데 사용할 수 있습니다."
   },
   "revert": {
-    "message": ""
+    "message": "되돌림"
   },
   "rinkeby": {
-    "message": ""
+    "message": "DEXON 테스트넷"
   },
   "ropsten": {
-    "message": ""
+    "message": "Ropsten 테스트넷"
   },
   "currentRpc": {
     "message": "현재 RPC"
@@ -717,11 +704,11 @@
     "message": "알 수 없는 네트워크 접속 중"
   },
   "sampleAccountName": {
-    "message": "",
-    "description": ""
+    "message": "예) 나의 새 계정",
+    "description": "각 계정에 대해서 구별하기 쉬운 이름을 지정하여 사용자가 쉽게 이해할 수 있게 합니다"
   },
   "save": {
-    "message": ""
+    "message": "저장"
   },
   "reprice_title": {
     "message": ""
@@ -730,8 +717,8 @@
     "message": ""
   },
   "saveAsFile": {
-    "message": "",
-    "description": ""
+    "message": "파일로 저장",
+    "description": "계정 내보내기 절차"
   },
   "saveSeedAsFile": {
     "message": "시드 단어를 파일로 저장하기"
@@ -755,19 +742,19 @@
     "message": "통화 선택"
   },
   "selectService": {
-    "message": ""
+    "message": "서비스 선택"
   },
   "selectType": {
     "message": "형식 선택"
   },
   "send": {
-    "message": ""
+    "message": "전송"
   },
   "sendDEX": {
     "message": "DEX 보내기"
   },
   "sendTokens": {
-    "message": ""
+    "message": "토큰 전송"
   },
   "onlySendToDexonAddress": {
     "message": "이더리움 주소로 DEX만 송금하세요."
@@ -776,46 +763,46 @@
     "message": "토큰 검색"
   },
   "sendTokensAnywhere": {
-    "message": ""
+    "message": "이더 계정으로 토큰 전송"
   },
   "settings": {
-    "message": ""
+    "message": "설정"
   },
   "info": {
     "message": "정보"
   },
   "shapeshiftBuy": {
-    "message": ""
+    "message": "Shapeshift를 통해서 구매하기"
   },
   "showPrivateKeys": {
-    "message": ""
+    "message": "개인키 보기"
   },
   "showQRCode": {
-    "message": ""
+    "message": "QR 코드 보기"
   },
   "sign": {
-    "message": ""
+    "message": "서명"
   },
   "signed": {
     "message": "서명됨"
   },
   "signMessage": {
-    "message": ""
+    "message": "메시지 서명"
   },
   "signNotice": {
-    "message": ""
+    "message": "이 메시지에 대한 서명은 위험할 수 있습니다.\n 완전히 신뢰할 수 있는 사이트에서만 서명해주세요.\n 안전을 위해 추후의 버전에서는 삭제될 기능입니다. "
   },
   "sigRequest": {
-    "message": ""
+    "message": "서명 요청"
   },
   "sigRequested": {
-    "message": ""
+    "message": "서명이 요청됨"
   },
   "spaceBetween": {
     "message": "단어 사이에는 공백만 올 수 있습니다"
   },
   "status": {
-    "message": ""
+    "message": "상태"
   },
   "stateLogs": {
     "message": "상태 로그"
@@ -827,7 +814,7 @@
     "message": "상태 로그 받기 실패."
   },
   "submit": {
-    "message": ""
+    "message": "제출"
   },
   "submitted": {
     "message": "제출됨"
@@ -839,23 +826,23 @@
     "message": "심볼은 0에서 12개 사이의 문자여야 합니다."
   },
   "takesTooLong": {
-    "message": ""
+    "message": "너무 오래 걸리나요?"
   },
   "terms": {
     "message": "사용 지침"
   },
   "testFaucet": {
-    "message": ""
+    "message": "파우셋 테스트"
   },
   "testnet": {
     "message": ""
   },
   "to": {
-    "message": ""
+    "message": "받는이: "
   },
   "toDEXviaShapeShift": {
-    "message": "",
-    "description": ""
+    "message": "ShapeShift를 통해 $1를 DEX로 바꾸기",
+    "description": "시스템이 시작할 때에 입금 유형을 입력해줍니다"
   },
   "tokenAddress": {
     "message": "토큰 주소"
@@ -864,7 +851,7 @@
     "message": "토큰이 이미 추가되어있습니다."
   },
   "tokenBalance": {
-    "message": ""
+    "message": "현재 토큰 잔액:"
   },
   "tokenSelection": {
     "message": "토큰을 검색하거나 유명한 토큰 리스트에서 선택하시기 바랍니다."
@@ -876,7 +863,7 @@
     "message": "메타마스크 계정을 통해 구입한 토큰을 추적합니다. 다른 계정으로 토큰을 구입한 경우 이곳에 나타나지 않습니다."
   },
   "total": {
-    "message": ""
+    "message": "합계"
   },
   "transactions": {
     "message": "트랜잭션"
@@ -885,54 +872,54 @@
     "message": "트랜잭션 오류. 컨트랙트 코드에서 예외 발생(Exception thrown)."
   },
   "transactionMemo": {
-    "message": ""
+    "message": "트랜잭션 메모 (선택사항)"
   },
   "transactionNumber": {
-    "message": ""
+    "message": "트랜잭션 번호"
   },
   "transfers": {
-    "message": ""
+    "message": "전송"
   },
   "troubleTokenBalances": {
-    "message": "",
-    "description": ""
+    "message": "토큰 잔액을 가져오는 데에 문제가 생겼습니다. 링크에서 상세내용을 볼 수 있습니다.",
+    "description": "토큰 잔액을 보려면 (here) 링크를 따라가세요"
   },
   "twelveWords": {
     "message": "12개의 단어는 메타마스크 계정을 복구하기 위한 유일한 방법입니다.\n안전한 장소에 보관하시기 바랍니다."
   },
   "typePassword": {
-    "message": ""
+    "message": "비밀번호를 입력하세요"
   },
   "uiWelcome": {
-    "message": ""
+    "message": "새로운 UI에 오신 것을 환영합니다. (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": ""
+    "message": "새로운 메타마스크 UI를 사용하고 계십니다. 토큰 전송과 같은 새 기능들을 사용해보시면서 문제가 있다면 알려주세요."
   },
   "unapproved": {
     "message": "허가 안 됨"
   },
   "unavailable": {
-    "message": ""
+    "message": "이용할 수 없음"
   },
   "unknown": {
-    "message": ""
+    "message": "알 수 없음"
   },
   "unknownNetwork": {
-    "message": ""
+    "message": "알 수 없는 프라이빗 네트워크"
   },
   "unknownNetworkId": {
-    "message": ""
+    "message": "알 수 없는 네트워크 ID"
   },
   "uriErrorMsg": {
     "message": "URI는 HTTP\/HTTPS로 시작해야 합니다."
   },
   "usaOnly": {
-    "message": "",
-    "description": ""
+    "message": "USA 거주자 한정",
+    "description": "해당 거래소는 USA 거주자에 한해서만 사용 가능합니다"
   },
   "usedByClients": {
-    "message": ""
+    "message": "다양한 클라이언트에서 사용되고 있습니다"
   },
   "useOldUI": {
     "message": "예전 UI 사용"
@@ -944,25 +931,25 @@
     "message": "저장소가 생성됨"
   },
   "viewAccount": {
-    "message": ""
+    "message": "계정 보기"
   },
   "visitWebSite": {
     "message": "웹사이트 방문"
   },
   "warning": {
-    "message": ""
+    "message": "경고"
   },
   "welcome": {
     "message": "메타마스크 Beta에 오신 것을 환영합니다"
   },
   "whatsThis": {
-    "message": ""
+    "message": "이것은 무엇인가요?"
   },
   "yourSigRequested": {
-    "message": ""
+    "message": "서명을 요청 중입니다."
   },
   "youSign": {
-    "message": ""
+    "message": "서명합니다"
   },
   "aboutDekuSan": {
     "message": ""

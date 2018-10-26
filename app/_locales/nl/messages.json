@@ -45,167 +45,167 @@
     "message": "Het onderstaande domein probeert toegang tot de Ethereum API te vragen zodat deze kan communiceren met de Ethereum-blockchain. Controleer altijd eerst of u op de juiste site bent voordat u Ethereum-toegang goedkeurt."
   },
   "accept": {
-    "message": ""
+    "message": "Aanvaarden"
   },
   "account": {
-    "message": ""
+    "message": "Account"
   },
   "accountDetails": {
-    "message": ""
+    "message": "Accountgegevens"
   },
   "accountName": {
-    "message": ""
+    "message": "Accountnaam"
   },
   "address": {
-    "message": ""
+    "message": "Adres"
   },
   "addCustomToken": {
     "message": "Aangepaste token toevoegen"
   },
   "addToken": {
-    "message": ""
+    "message": "Voeg token toe"
   },
   "addTokens": {
     "message": "Tokens toevoegen"
   },
   "amount": {
-    "message": ""
+    "message": "Bedrag"
   },
   "amountPlusGas": {
-    "message": ""
+    "message": "Bedrag + gas"
   },
   "appDescription": {
-    "message": "",
-    "description": ""
+    "message": "DEXON Browser-extensie",
+    "description": "De beschrijving van de applicatie"
   },
   "appName": {
-    "message": "",
-    "description": ""
+    "message": "DekuSan",
+    "description": "De naam van de applicatie"
   },
   "approved": {
     "message": ""
   },
   "attemptingConnect": {
-    "message": ""
+    "message": "Poging om verbinding te maken met blockchain."
   },
   "attributions": {
     "message": "Bevoegdheden"
   },
   "available": {
-    "message": ""
+    "message": "Beschikbaar"
   },
   "back": {
-    "message": ""
+    "message": "Terug"
   },
   "balance": {
-    "message": ""
+    "message": "Balans:"
   },
   "balances": {
     "message": "Je saldo"
   },
   "balanceIsInsufficientGas": {
-    "message": ""
+    "message": "Onvoldoende saldo voor huidig ​​gastotaal"
   },
   "beta": {
-    "message": ""
+    "message": "BETA"
   },
   "betweenMinAndMax": {
-    "message": "",
-    "description": ""
+    "message": "moet groter zijn dan of gelijk zijn aan $1 en kleiner dan of gelijk aan $2.",
+    "description": "helper voor het invoeren van hex als decimale invoer"
   },
   "blockiesIdenticon": {
     "message": "Gebruik Blockies Identicon"
   },
   "borrowDharma": {
-    "message": ""
+    "message": "Lenen met Dharma (Beta)"
   },
   "builtInCalifornia": {
     "message": "DekuSan is ontworpen en gebouwd in Californië."
   },
   "buy": {
-    "message": ""
+    "message": "Kopen"
   },
   "buyCoinbase": {
-    "message": ""
+    "message": "Koop op Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": ""
+    "message": "Coinbase is 's werelds populairste manier om Bitcoin, DEXON en Litecoin te kopen en verkopen."
   },
   "ok": {
     "message": ""
   },
   "cancel": {
-    "message": ""
+    "message": "Annuleer"
   },
   "classicInterface": {
     "message": "Gebruik de klassieke interface"
   },
   "clickCopy": {
-    "message": ""
+    "message": "Klik om te kopiëren"
   },
   "confirm": {
-    "message": ""
+    "message": "Bevestigen"
   },
   "confirmed": {
     "message": ""
   },
   "confirmContract": {
-    "message": ""
+    "message": "Contract bevestigen"
   },
   "confirmPassword": {
-    "message": ""
+    "message": "bevestig wachtwoord"
   },
   "confirmTransaction": {
-    "message": ""
+    "message": "Bevestig transactie"
   },
   "continue": {
     "message": "Doorgaan met"
   },
   "continueToCoinbase": {
-    "message": ""
+    "message": "Ga verder naar Coinbase"
   },
   "contractDeployment": {
-    "message": ""
+    "message": "Contractimplementatie"
   },
   "conversionProgress": {
-    "message": ""
+    "message": "Bezig met conversie"
   },
   "copiedButton": {
-    "message": ""
+    "message": "gekopieerde"
   },
   "copiedClipboard": {
-    "message": ""
+    "message": "Gekopieerd naar het klembord"
   },
   "copiedExclamation": {
-    "message": ""
+    "message": "Gekopieerde!"
   },
   "copiedSafe": {
     "message": "Ik heb het ergens veilig gekopieerd"
   },
   "copy": {
-    "message": ""
+    "message": "Kopiëren"
   },
   "copyToClipboard": {
-    "message": ""
+    "message": "Kopieer naar klembord"
   },
   "copyButton": {
-    "message": ""
+    "message": " Kopiëren "
   },
   "copyPrivateKey": {
-    "message": ""
+    "message": "Dit is uw privésleutel (klik om te kopiëren)"
   },
   "create": {
-    "message": ""
+    "message": "creëren"
   },
   "createAccount": {
-    "message": ""
+    "message": "Account aanmaken"
   },
   "createDen": {
-    "message": ""
+    "message": "creëren"
   },
   "crypto": {
-    "message": "",
-    "description": ""
+    "message": "crypto",
+    "description": "Ruiltype (cryptocurrencies)"
   },
   "currentConversion": {
     "message": "Huidige conversie"
@@ -214,16 +214,16 @@
     "message": "Huidig ​​netwerk"
   },
   "customGas": {
-    "message": ""
+    "message": "Pas Gas aan"
   },
   "customToken": {
     "message": ""
   },
   "customize": {
-    "message": ""
+    "message": "Aanpassen"
   },
   "customRPC": {
-    "message": ""
+    "message": "Aangepaste RPC"
   },
   "decimalsMustZerotoTen": {
     "message": "Decimalen moeten minimaal 0 en niet meer dan 36 zijn."
@@ -232,50 +232,50 @@
     "message": "Decimalen van precisie"
   },
   "defaultNetwork": {
-    "message": ""
+    "message": "Het standaardnetwerk voor DEX-transacties is Main Net."
   },
   "denExplainer": {
-    "message": ""
+    "message": "Uw DEN is uw wachtwoord-gecodeerde opslag binnen DekuSan."
   },
   "deposit": {
-    "message": ""
+    "message": "Storting"
   },
   "depositBTC": {
-    "message": ""
+    "message": "Stort uw BTC op het onderstaande adres:"
   },
   "depositCoin": {
-    "message": "",
-    "description": ""
+    "message": "Stort uw $1 op het onderstaande adres",
+    "description": "Laat de gebruiker weten welk muntje ze hebben geselecteerd om te deponeren met shapeshift"
   },
   "depositDEX": {
-    "message": ""
+    "message": "Stort DEX"
   },
   "depositFiat": {
-    "message": ""
+    "message": "Stort met Fiat"
   },
   "depositFromAccount": {
-    "message": ""
+    "message": "Storten van een ander account"
   },
   "depositShapeShift": {
-    "message": ""
+    "message": "Stort met ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": ""
+    "message": "Als u andere cryptocurrencies bezit, kunt u DEX direct in uw DekuSan-portemonnee ruilen en storten. Geen account nodig."
   },
   "details": {
-    "message": ""
+    "message": "Details"
   },
   "directDeposit": {
-    "message": ""
+    "message": "Directe storting"
   },
   "directDepositDex": {
-    "message": ""
+    "message": "Directe DEX storten"
   },
   "directDepositDexExplainer": {
-    "message": ""
+    "message": "Als je al wat DEX hebt, de snelste manier om DEX in je nieuwe portemonnee te krijgen door een directe storting."
   },
   "done": {
-    "message": ""
+    "message": "Gedaan"
   },
   "downloadStateLogs": {
     "message": "Staatslogboeken downloaden"
@@ -284,19 +284,19 @@
     "message": ""
   },
   "edit": {
-    "message": ""
+    "message": "Bewerk"
   },
   "editAccountName": {
-    "message": ""
+    "message": "Bewerk accountnaam"
   },
   "emailUs": {
     "message": "Email ons!"
   },
   "encryptNewDen": {
-    "message": ""
+    "message": "Versleutel je nieuwe DEN"
   },
   "enterPassword": {
-    "message": ""
+    "message": "Voer wachtwoord in"
   },
   "enterPasswordConfirm": {
     "message": "Voer uw wachtwoord in om te bevestigen"
@@ -308,126 +308,126 @@
     "message": ""
   },
   "dexscanView": {
-    "message": ""
+    "message": "Bekijk account op DexScan"
   },
   "exchangeRate": {
-    "message": ""
+    "message": "Wisselkoers"
   },
   "exportPrivateKey": {
-    "message": ""
+    "message": "Exporteer privésleutel"
   },
   "exportPrivateKeyWarning": {
-    "message": ""
+    "message": "Exporteer privésleutels op eigen risico."
   },
   "failed": {
-    "message": ""
+    "message": "mislukt"
   },
   "fiat": {
-    "message": "",
-    "description": ""
+    "message": "FIAT",
+    "description": "Ruiltype"
   },
   "fileImportFail": {
-    "message": "",
-    "description": ""
+    "message": "Bestandsimport werkt niet? Klik hier!",
+    "description": "Helpt de gebruiker om zijn account vanuit een JSON-bestand te importeren"
   },
   "followTwitter": {
     "message": "Volg ons op Twitter"
   },
   "from": {
-    "message": ""
+    "message": "Van"
   },
   "fromToSame": {
     "message": "Van en naar adres kan niet hetzelfde zijn"
   },
   "fromShapeShift": {
-    "message": ""
+    "message": "Van ShapeShift"
   },
   "gas": {
-    "message": "",
-    "description": ""
+    "message": "Gas",
+    "description": "Korte indicatie van gaskosten"
   },
   "gasFee": {
-    "message": ""
+    "message": "Gas vergoeding"
   },
   "gasLimit": {
-    "message": ""
+    "message": "Gaslimiet"
   },
   "gasLimitCalculation": {
-    "message": ""
+    "message": "We berekenen de voorgestelde gaslimiet op basis van succespercentages van het netwerk."
   },
   "gasLimitRequired": {
-    "message": ""
+    "message": "Gaslimiet vereist"
   },
   "gasLimitTooLow": {
-    "message": ""
+    "message": "De gaslimiet moet minstens 21000 zijn"
   },
   "generatingSeed": {
     "message": "Back-up woorden produceren ..."
   },
   "gasPrice": {
-    "message": ""
+    "message": "Gasprijs (GWEI)"
   },
   "gasPriceCalculation": {
-    "message": ""
+    "message": "We berekenen de voorgestelde gasprijzen op basis van succespercentages van het netwerk."
   },
   "gasPriceRequired": {
-    "message": ""
+    "message": "Gasprijs vereist"
   },
   "getDex": {
-    "message": ""
+    "message": "Krijg DEX"
   },
   "getDexFromFaucet": {
-    "message": "",
-    "description": ""
+    "message": "Haal DEX uit een kraan voor de $1",
+    "description": "Geeft de netwerknaam voor DEX-kraan weer"
   },
   "greaterThanMin": {
-    "message": "",
-    "description": ""
+    "message": "moet groter zijn dan of gelijk zijn aan $1.",
+    "description": "helper voor het invoeren van hex als decimale invoer"
   },
   "here": {
-    "message": "",
-    "description": ""
+    "message": "hier",
+    "description": "zoals in -klik hier- voor meer informatie (gaat met troubleTokenBalances)"
   },
   "hereList": {
     "message": "Hier is een lijst !!!!"
   },
   "hide": {
-    "message": ""
+    "message": "Verbergen"
   },
   "hideToken": {
-    "message": ""
+    "message": "Token verbergen"
   },
   "hideTokenPrompt": {
-    "message": ""
+    "message": "Token verbergen?"
   },
   "howToDeposit": {
-    "message": ""
+    "message": "Hoe zou je DEX willen deponeren?"
   },
   "holdDex": {
     "message": "Hiermee kunt u dexon & tokens bewaren en dient u als brug naar gedecentraliseerde applicaties."
   },
   "import": {
-    "message": "",
-    "description": ""
+    "message": "Importeren",
+    "description": "Knop om een ​​account uit een geselecteerd bestand te importeren"
   },
   "importAccount": {
-    "message": ""
+    "message": "Account importeren"
   },
   "importAccountMsg": {
     "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte DekuSan-account. Meer informatie over geïmporteerde accounts"
   },
   "importAnAccount": {
-    "message": ""
+    "message": "Importeer een account"
   },
   "importDen": {
-    "message": ""
+    "message": "Bestaande DEN importeren"
   },
   "imported": {
-    "message": "",
-    "description": ""
+    "message": "geïmporteerde",
+    "description": "status die aantoont dat een account volledig in de sleutelring is geladen"
   },
   "infoHelp": {
-    "message": ""
+    "message": "Info en hulp"
   },
   "insufficientFunds": {
     "message": "Onvoldoende fondsen."
@@ -436,19 +436,19 @@
     "message": "Onvoldoende tokens."
   },
   "invalidAddress": {
-    "message": ""
+    "message": "Ongeldig adres"
   },
   "invalidAddressRecipient": {
     "message": "Het adres van de ontvanger is ongeldig"
   },
   "invalidGasParams": {
-    "message": ""
+    "message": "Ongeldige gasparameters"
   },
   "invalidInput": {
-    "message": ""
+    "message": "Ongeldige invoer."
   },
   "invalidRequest": {
-    "message": ""
+    "message": "ongeldig verzoek"
   },
   "invalidRPC": {
     "message": "Ongeldige RPC-URI"
@@ -457,14 +457,14 @@
     "message": "Er is iets fout gegaan. Zorg ervoor dat uw JSON-bestand correct is opgemaakt."
   },
   "jsonFile": {
-    "message": "",
-    "description": ""
+    "message": "JSON-bestand",
+    "description": "formaat voor het importeren van een account"
   },
   "keepTrackTokens": {
     "message": ""
   },
   "kovan": {
-    "message": ""
+    "message": "Kovan-testnetwerk"
   },
   "knowledgeDataBase": {
     "message": "Bezoek onze Knowledge Base"
@@ -476,8 +476,8 @@
     "message": ""
   },
   "lessThanMax": {
-    "message": "",
-    "description": ""
+    "message": "moet kleiner zijn dan of gelijk zijn aan $1.",
+    "description": "helper voor het invoeren van hex als decimale invoer"
   },
   "likeToAddTokens": {
     "message": "Wil je deze tokens toevoegen?"
@@ -486,134 +486,134 @@
     "message": ""
   },
   "limit": {
-    "message": ""
+    "message": "Begrenzing"
   },
   "loading": {
-    "message": ""
+    "message": "Bezig met laden..."
   },
   "loadingTokens": {
-    "message": ""
+    "message": "Tokens laden ..."
   },
   "localhost": {
-    "message": ""
+    "message": "Localhost 8545"
   },
   "login": {
     "message": "Log in"
   },
   "logout": {
-    "message": ""
+    "message": "Uitloggen"
   },
   "loose": {
-    "message": ""
+    "message": "Los"
   },
   "loweCaseWords": {
     "message": "back-up woorden hebben alleen kleine letters"
   },
   "mainnet": {
-    "message": ""
+    "message": "belangrijkste Dexon-netwerk"
   },
   "message": {
-    "message": ""
+    "message": "Bericht"
   },
   "dekusanDescription": {
     "message": "DekuSan is een veilige identiteitskluis voor Dexon."
   },
   "min": {
-    "message": ""
+    "message": "Minimum"
   },
   "myAccounts": {
-    "message": ""
+    "message": "Mijn accounts"
   },
   "mustSelectOne": {
     "message": "Moet ten minste één token selecteren."
   },
   "needDexInWallet": {
-    "message": ""
+    "message": "Om te communiceren met gedecentraliseerde applicaties met DekuSan, heb je DEX nodig in je portemonnee."
   },
   "needImportFile": {
-    "message": "",
-    "description": ""
+    "message": "U moet een bestand selecteren om te importeren.",
+    "description": "Gebruiker is belangrijk een account en moet een bestand toevoegen om door te gaan"
   },
   "needImportPassword": {
-    "message": "",
-    "description": ""
+    "message": "U moet een wachtwoord invoeren voor het geselecteerde bestand.",
+    "description": "Wachtwoord en bestand nodig om een ​​account te importeren"
   },
   "negativeDex": {
     "message": "Kan geen negatieve hoeveelheden DEX verzenden."
   },
   "networks": {
-    "message": ""
+    "message": "netwerken"
   },
   "newAccount": {
-    "message": ""
+    "message": "Nieuw account"
   },
   "newAccountNumberName": {
-    "message": "",
-    "description": ""
+    "message": "Account $1",
+    "description": "Standaardnaam van de volgende account die moet worden aangemaakt op het scherm voor het maken van een account"
   },
   "newContract": {
-    "message": ""
+    "message": "Nieuw contract"
   },
   "newPassword": {
-    "message": ""
+    "message": "Nieuw wachtwoord (min 8 tekens)"
   },
   "newRecipient": {
-    "message": ""
+    "message": "Nieuwe ontvanger"
   },
   "newRPC": {
     "message": "Nieuwe RPC-URL"
   },
   "next": {
-    "message": ""
+    "message": "volgende"
   },
   "noAddressForName": {
-    "message": ""
+    "message": "Er is geen adres ingesteld voor deze naam."
   },
   "noDeposits": {
-    "message": ""
+    "message": "Geen aanbetalingen ontvangen"
   },
   "noTransactionHistory": {
-    "message": ""
+    "message": "Geen transactiegeschiedenis."
   },
   "noTransactions": {
-    "message": ""
+    "message": "Geen transacties"
   },
   "notStarted": {
-    "message": ""
+    "message": "Niet begonnen"
   },
   "oldUI": {
-    "message": ""
+    "message": "Oude gebruikersinterface"
   },
   "oldUIMessage": {
-    "message": ""
+    "message": "U bent teruggekeerd naar de oude gebruikersinterface. U kunt terugschakelen naar de nieuwe gebruikersinterface via de optie in het vervolgkeuzemenu in de rechterbovenhoek."
   },
   "or": {
-    "message": "",
-    "description": ""
+    "message": "of",
+    "description": "keuze tussen het maken of importeren van een nieuw account"
   },
   "passwordCorrect": {
     "message": "Zorg ervoor dat uw wachtwoord correct is."
   },
   "passwordMismatch": {
-    "message": "",
-    "description": ""
+    "message": "wachtwoorden komen niet overeen",
+    "description": "bij het maken van het wachtwoord kwamen de twee nieuwe wachtwoordvelden niet overeen"
   },
   "passwordShort": {
-    "message": "",
-    "description": ""
+    "message": "wachtwoord niet lang genoeg",
+    "description": "bij het maken van het wachtwoord is het wachtwoord niet lang genoeg om veilig te zijn"
   },
   "pastePrivateKey": {
-    "message": "",
-    "description": ""
+    "message": "Plak hier uw privésleutelstring:",
+    "description": "Voor het importeren van een account vanaf een privésleutel"
   },
   "pasteSeed": {
-    "message": ""
+    "message": "Plak je back-up woorden hier!"
   },
   "personalAddressDetected": {
     "message": "Persoonlijk adres gedetecteerd. Voer het tokencontractadres in."
   },
   "pleaseReviewTransaction": {
-    "message": ""
+    "message": "Controleer uw transactie."
   },
   "popularTokens": {
     "message": ""
@@ -622,38 +622,38 @@
     "message": "Privacybeleid"
   },
   "privateKey": {
-    "message": "",
-    "description": ""
+    "message": "Prive sleutel",
+    "description": "selecteer dit type bestand om te gebruiken om een ​​account te importeren"
   },
   "privateKeyWarning": {
-    "message": ""
+    "message": "Waarschuwing: open deze sleutel nooit. Iedereen met uw privésleutels kan stelen van alle items in uw account."
   },
   "privateNetwork": {
-    "message": ""
+    "message": "Prive netwerk"
   },
   "qrCode": {
-    "message": ""
+    "message": "QR-code weergeven"
   },
   "readdToken": {
-    "message": ""
+    "message": "U kunt dit token in de toekomst weer toevoegen door naar \"Token toevoegen\" te gaan in het menu met accountopties."
   },
   "readMore": {
-    "message": ""
+    "message": "Lees hier meer."
   },
   "readMore2": {
     "message": "Lees verder."
   },
   "receive": {
-    "message": ""
+    "message": "Te ontvangen"
   },
   "recipientAddress": {
-    "message": ""
+    "message": "Geadresseerde adres"
   },
   "refundAddress": {
-    "message": ""
+    "message": "Uw teruggave adres"
   },
   "rejected": {
-    "message": ""
+    "message": "Verworpen"
   },
   "resetAccount": {
     "message": "Account opnieuw instellen"
@@ -665,10 +665,10 @@
     "message": ""
   },
   "required": {
-    "message": ""
+    "message": "Verplicht"
   },
   "retryWithMoreGas": {
-    "message": ""
+    "message": "Probeer hier opnieuw met een hogere gasprijs"
   },
   "walletSeed": {
     "message": ""
@@ -680,13 +680,13 @@
     "message": "Zorg dat je back-up woorden niet op een openbare plaats bekijkt! Deze woorden kunnen worden gebruikt om al uw accounts opnieuw te genereren (en dus uw account te stelen)."
   },
   "revert": {
-    "message": ""
+    "message": "terugkeren"
   },
   "rinkeby": {
-    "message": ""
+    "message": "DEXON testnetwerk"
   },
   "ropsten": {
-    "message": ""
+    "message": "Ropsten testnetwerk"
   },
   "currentRpc": {
     "message": ""
@@ -707,11 +707,11 @@
     "message": ""
   },
   "sampleAccountName": {
-    "message": "",
-    "description": ""
+    "message": "Bijv. Mijn nieuwe account",
+    "description": "Help de gebruiker begrip te ontwikkelen van het toevoegen van een door mensen leesbare naam aan zijn of haar account"
   },
   "save": {
-    "message": ""
+    "message": "Opslaan"
   },
   "reprice_title": {
     "message": ""
@@ -720,8 +720,8 @@
     "message": ""
   },
   "saveAsFile": {
-    "message": "",
-    "description": ""
+    "message": "Sla op als bestand",
+    "description": "Account export proces"
   },
   "saveSeedAsFile": {
     "message": "Bewaar back-up woorden als bestand"
@@ -745,19 +745,19 @@
     "message": "selecteer valuta"
   },
   "selectService": {
-    "message": ""
+    "message": "Selecteer Service"
   },
   "selectType": {
     "message": "Selecteer type"
   },
   "send": {
-    "message": ""
+    "message": "Sturen"
   },
   "sendDEX": {
     "message": "Verzend DEX"
   },
   "sendTokens": {
-    "message": ""
+    "message": "Stuur tokens"
   },
   "onlySendToDexonAddress": {
     "message": ""
@@ -766,46 +766,46 @@
     "message": ""
   },
   "sendTokensAnywhere": {
-    "message": ""
+    "message": "Stuur tokens naar iedereen met een Dexon-account"
   },
   "settings": {
-    "message": ""
+    "message": "instellingen"
   },
   "info": {
     "message": ""
   },
   "shapeshiftBuy": {
-    "message": ""
+    "message": "Koop met Shapeshift"
   },
   "showPrivateKeys": {
-    "message": ""
+    "message": "Privésleutels weergeven"
   },
   "showQRCode": {
-    "message": ""
+    "message": "QR-code weergeven"
   },
   "sign": {
-    "message": ""
+    "message": "Teken"
   },
   "signed": {
     "message": ""
   },
   "signMessage": {
-    "message": ""
+    "message": "Teken bericht"
   },
   "signNotice": {
-    "message": ""
+    "message": "Het ondertekenen van dit bericht kan hebben \ngevaarlijke bijwerkingen. Meld alleen berichten van \nsites die u volledig vertrouwt met uw volledige account.\n Deze gevaarlijke methode wordt in een toekomstige versie verwijderd."
   },
   "sigRequest": {
-    "message": ""
+    "message": "Ondertekeningsverzoek"
   },
   "sigRequested": {
-    "message": ""
+    "message": "Handtekening aangevraagd"
   },
   "spaceBetween": {
     "message": "er kan alleen een spatie tussen woorden zijn"
   },
   "status": {
-    "message": ""
+    "message": "staat"
   },
   "stateLogs": {
     "message": "Staatslogboeken"
@@ -817,7 +817,7 @@
     "message": ""
   },
   "submit": {
-    "message": ""
+    "message": "voorleggen"
   },
   "submitted": {
     "message": ""
@@ -829,23 +829,23 @@
     "message": "Het symbool moet tussen 0 en 12 tekens lang zijn."
   },
   "takesTooLong": {
-    "message": ""
+    "message": "Duurt te lang?"
   },
   "terms": {
     "message": "Gebruiksvoorwaarden"
   },
   "testFaucet": {
-    "message": ""
+    "message": "Test de kraan"
   },
   "testnet": {
     "message": ""
   },
   "to": {
-    "message": ""
+    "message": "Naar"
   },
   "toDEXviaShapeShift": {
-    "message": "",
-    "description": ""
+    "message": "$1 tot DEX via ShapeShift",
+    "description": "systeem zal het aanbetalingstype invullen bij het begin van het bericht"
   },
   "tokenAddress": {
     "message": "Token-adres"
@@ -854,7 +854,7 @@
     "message": "Token is al toegevoegd."
   },
   "tokenBalance": {
-    "message": ""
+    "message": "Uw tokensaldo is:"
   },
   "tokenSelection": {
     "message": "Zoek naar tokens of selecteer uit onze lijst met populaire tokens."
@@ -866,7 +866,7 @@
     "message": "Houd de tokens bij die je hebt gekocht met je DekuSan-account. Als je tokens met een ander account hebt gekocht, worden die tokens hier niet weergegeven."
   },
   "total": {
-    "message": ""
+    "message": "Totaal"
   },
   "transactions": {
     "message": "transacties"
@@ -875,54 +875,54 @@
     "message": ""
   },
   "transactionMemo": {
-    "message": ""
+    "message": "Transactiememo (optioneel)"
   },
   "transactionNumber": {
-    "message": ""
+    "message": "Transactie nummer"
   },
   "transfers": {
-    "message": ""
+    "message": "transfers"
   },
   "troubleTokenBalances": {
-    "message": "",
-    "description": ""
+    "message": "We hadden problemen bij het laden van uw tokenbalansen. Je kunt ze bekijken",
+    "description": "Gevolgd door een link (hier) om tegensaldi te bekijken"
   },
   "twelveWords": {
     "message": "Deze 12 woorden zijn de enige manier om uw DekuSan-accounts te herstellen.\nBewaar ze ergens veilig en geheim."
   },
   "typePassword": {
-    "message": ""
+    "message": "Typ uw wachtwoord"
   },
   "uiWelcome": {
-    "message": ""
+    "message": "Welkom bij de nieuwe gebruikersinterface (bèta)"
   },
   "uiWelcomeMessage": {
-    "message": ""
+    "message": "U gebruikt nu de nieuwe gebruikersinterface van DekuSan. Kijk rond, probeer nieuwe functies uit zoals het verzenden van tokens en laat ons weten of u problemen ondervindt."
   },
   "unapproved": {
     "message": ""
   },
   "unavailable": {
-    "message": ""
+    "message": "Niet beschikbaar"
   },
   "unknown": {
-    "message": ""
+    "message": "Onbekend"
   },
   "unknownNetwork": {
-    "message": ""
+    "message": "Onbekend privénetwerk"
   },
   "unknownNetworkId": {
-    "message": ""
+    "message": "Onbekende netwerk-ID"
   },
   "uriErrorMsg": {
     "message": "Voor URI's is het juiste HTTP \/ HTTPS-voorvoegsel vereist."
   },
   "usaOnly": {
-    "message": "",
-    "description": ""
+    "message": "Alleen in de VS.",
+    "description": "Het gebruik van deze uitwisseling is beperkt tot mensen in de VS."
   },
   "usedByClients": {
-    "message": ""
+    "message": "Gebruikt door verschillende klanten"
   },
   "useOldUI": {
     "message": "Gebruik de oude gebruikersinterface"
@@ -934,13 +934,13 @@
     "message": "Vault gemaakt"
   },
   "viewAccount": {
-    "message": ""
+    "message": "Bekijk account"
   },
   "visitWebSite": {
     "message": "Bezoek onze website"
   },
   "warning": {
-    "message": ""
+    "message": "Waarschuwing"
   },
   "welcome": {
     "message": "Welkom bij MetaMask"
@@ -949,13 +949,13 @@
     "message": "Welkom bij DekuSan Beta"
   },
   "whatsThis": {
-    "message": ""
+    "message": "Wat is dit?"
   },
   "yourSigRequested": {
-    "message": ""
+    "message": "Uw handtekening wordt aangevraagd"
   },
   "youSign": {
-    "message": ""
+    "message": "U ondertekent"
   },
   "aboutDekuSan": {
     "message": ""

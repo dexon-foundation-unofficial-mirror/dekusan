@@ -45,167 +45,167 @@
     "message": "Níže uvedená doména se pokouší požádat o přístup k API Ethereum, aby mohla komunikovat s blokádou Ethereum. Před schválením přístupu Ethereum vždy zkontrolujte, zda jste na správném místě."
   },
   "accept": {
-    "message": ""
+    "message": "Přijmout"
   },
   "account": {
-    "message": ""
+    "message": "Účet"
   },
   "accountDetails": {
-    "message": ""
+    "message": "Detaily účtu"
   },
   "accountName": {
-    "message": ""
+    "message": "Název účtu"
   },
   "address": {
-    "message": ""
+    "message": "Adresa"
   },
   "addCustomToken": {
     "message": "Přidat vlastní token"
   },
   "addToken": {
-    "message": ""
+    "message": "Přidat token"
   },
   "addTokens": {
     "message": "Přidat tokeny"
   },
   "amount": {
-    "message": ""
+    "message": "Částka"
   },
   "amountPlusGas": {
-    "message": ""
+    "message": "Částka + palivo"
   },
   "appDescription": {
-    "message": "",
-    "description": ""
+    "message": "DEXON rozšíření prohlížeče",
+    "description": "The description of the application"
   },
   "appName": {
-    "message": "",
-    "description": ""
+    "message": "DekuSan",
+    "description": "The name of the application"
   },
   "approved": {
     "message": "Schváleno"
   },
   "attemptingConnect": {
-    "message": ""
+    "message": "Pokouším se připojit k blockchainu."
   },
   "attributions": {
     "message": "Zásluhy"
   },
   "available": {
-    "message": ""
+    "message": "Dostupné"
   },
   "back": {
-    "message": ""
+    "message": "Zpět"
   },
   "balance": {
-    "message": ""
+    "message": "Zůstatek:"
   },
   "balances": {
     "message": "Zůstatek tokenu"
   },
   "balanceIsInsufficientGas": {
-    "message": ""
+    "message": "Nedostatek prostředků pro aktuální množství paliva"
   },
   "beta": {
-    "message": ""
+    "message": "BETA"
   },
   "betweenMinAndMax": {
-    "message": "",
-    "description": ""
+    "message": "musí být větší nebo roven $1 a menší nebo roven $2.",
+    "description": "helper for inputting hex as decimal input"
   },
   "blockiesIdenticon": {
     "message": "Použít Blockies Identicon"
   },
   "borrowDharma": {
-    "message": ""
+    "message": "Pújčit si přes Dharma (Beta)"
   },
   "builtInCalifornia": {
     "message": "DekuSan je navržen a vytvořen v Kalifornii."
   },
   "buy": {
-    "message": ""
+    "message": "Koupit"
   },
   "buyCoinbase": {
-    "message": ""
+    "message": "Nákup na Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": ""
+    "message": "Coinbase je světově nejoblíbenější místo k nákupu a prodeji bitcoinu, dexonea nebo litecoinu."
   },
   "ok": {
     "message": "Ok"
   },
   "cancel": {
-    "message": ""
+    "message": "Zrušit"
   },
   "classicInterface": {
     "message": "Použít klasické rozhraní"
   },
   "clickCopy": {
-    "message": ""
+    "message": "Kliknutím zkopírovat"
   },
   "confirm": {
-    "message": ""
+    "message": "Potvrdit"
   },
   "confirmed": {
     "message": "Potvrzeno"
   },
   "confirmContract": {
-    "message": ""
+    "message": "Potvrdit kontrakt"
   },
   "confirmPassword": {
-    "message": ""
+    "message": "Potvrdit heslo"
   },
   "confirmTransaction": {
-    "message": ""
+    "message": "Potvrdit transakci"
   },
   "continue": {
     "message": "Pokračovat"
   },
   "continueToCoinbase": {
-    "message": ""
+    "message": "Přejít na Coinbase"
   },
   "contractDeployment": {
-    "message": ""
+    "message": "Nasazení kontraktu"
   },
   "conversionProgress": {
-    "message": ""
+    "message": "Provádí se převod"
   },
   "copiedButton": {
-    "message": ""
+    "message": "Zkopírováno"
   },
   "copiedClipboard": {
-    "message": ""
+    "message": "Zkopírováno do schránky"
   },
   "copiedExclamation": {
-    "message": ""
+    "message": "Zkopírováno!"
   },
   "copiedSafe": {
     "message": "Zkopíroval jsem to na bezpečné místo"
   },
   "copy": {
-    "message": ""
+    "message": "Kopírovat"
   },
   "copyToClipboard": {
-    "message": ""
+    "message": "Kopírovat do schránky"
   },
   "copyButton": {
-    "message": ""
+    "message": " Kopírovat "
   },
   "copyPrivateKey": {
-    "message": ""
+    "message": "Toto je váš privátní klíč (kliknutím zkopírujte)"
   },
   "create": {
-    "message": ""
+    "message": "Vytvořit"
   },
   "createAccount": {
-    "message": ""
+    "message": "Vytvořit účet"
   },
   "createDen": {
-    "message": ""
+    "message": "Vytvořit"
   },
   "crypto": {
-    "message": "",
-    "description": ""
+    "message": "Krypto",
+    "description": "Exchange type (cryptocurrencies)"
   },
   "currentConversion": {
     "message": "Aktuální převod"
@@ -214,16 +214,16 @@
     "message": "Aktuální síť"
   },
   "customGas": {
-    "message": ""
+    "message": "Nastavit palivo"
   },
   "customToken": {
     "message": "Vlastní token"
   },
   "customize": {
-    "message": ""
+    "message": "Nastavit"
   },
   "customRPC": {
-    "message": ""
+    "message": "Vlastní RPC"
   },
   "decimalsMustZerotoTen": {
     "message": "Desetinných míst musí být od 0 do 36."
@@ -232,50 +232,50 @@
     "message": "Počet desetinných míst přesnosti"
   },
   "defaultNetwork": {
-    "message": ""
+    "message": "Výchozí síť pro DEXové transakce je Main Net."
   },
   "denExplainer": {
-    "message": ""
+    "message": "Váš DEN je heslem šifrované uložiště v DekuSanu."
   },
   "deposit": {
-    "message": ""
+    "message": "Vklad"
   },
   "depositBTC": {
-    "message": ""
+    "message": "Vložte BTC na níže uvedenou adresu:"
   },
   "depositCoin": {
-    "message": "",
-    "description": ""
+    "message": "Vložte $1 na níže uvedenou adresu",
+    "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
   "depositDEX": {
-    "message": ""
+    "message": "Vložit DEX"
   },
   "depositFiat": {
-    "message": ""
+    "message": "Vklad s fiat měnou"
   },
   "depositFromAccount": {
-    "message": ""
+    "message": "Vložte z jiného účtu"
   },
   "depositShapeShift": {
-    "message": ""
+    "message": "Vklad přes ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": ""
+    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit DEX a vložit ho přímo do peněženky DekuSan. Bez založení účtu."
   },
   "details": {
-    "message": ""
+    "message": "Podrobnosti"
   },
   "directDeposit": {
-    "message": ""
+    "message": "Přímý vklad"
   },
   "directDepositDex": {
-    "message": ""
+    "message": "Vložit DEX přímo"
   },
   "directDepositDexExplainer": {
-    "message": ""
+    "message": "Pokud už vlastníte nějaký DEX, nejrychleji ho dostanete do peněženky přímým vkladem."
   },
   "done": {
-    "message": ""
+    "message": "Hotovo"
   },
   "downloadStateLogs": {
     "message": "Stáhnout stavové protokoly"
@@ -284,19 +284,19 @@
     "message": "Zrušeno"
   },
   "edit": {
-    "message": ""
+    "message": "Upravit"
   },
   "editAccountName": {
-    "message": ""
+    "message": "Upravit název účtu"
   },
   "emailUs": {
     "message": "Napište nám e-mail!"
   },
   "encryptNewDen": {
-    "message": ""
+    "message": "Zašifrujte svůj nový DEN"
   },
   "enterPassword": {
-    "message": ""
+    "message": "Zadejte heslo"
   },
   "enterPasswordConfirm": {
     "message": "Zadejte heslo k potvrzení"
@@ -308,126 +308,126 @@
     "message": "Hesla nejsou stejná"
   },
   "dexscanView": {
-    "message": ""
+    "message": "Prohlédněte si účet na DexScan"
   },
   "exchangeRate": {
-    "message": ""
+    "message": "Směnný kurz"
   },
   "exportPrivateKey": {
-    "message": ""
+    "message": "Exportovat privátní klíč"
   },
   "exportPrivateKeyWarning": {
-    "message": ""
+    "message": "Exportujte privátní klíč na vlastní riziko."
   },
   "failed": {
-    "message": ""
+    "message": "Neúspěšné"
   },
   "fiat": {
-    "message": "",
-    "description": ""
+    "message": "FIAT",
+    "description": "Exchange type"
   },
   "fileImportFail": {
-    "message": "",
-    "description": ""
+    "message": "Import souboru nefunguje? Klikněte sem!",
+    "description": "Helps user import their account from a JSON file"
   },
   "followTwitter": {
     "message": "Sledujte nás na Twitteru"
   },
   "from": {
-    "message": ""
+    "message": "Od"
   },
   "fromToSame": {
     "message": "Adresy odesílatele a příjemce nemohou být stejné"
   },
   "fromShapeShift": {
-    "message": ""
+    "message": "Z ShapeShift"
   },
   "gas": {
-    "message": "",
-    "description": ""
+    "message": "Palivo",
+    "description": "Short indication of gas cost"
   },
   "gasFee": {
-    "message": ""
+    "message": "Poplatek za palivo"
   },
   "gasLimit": {
-    "message": ""
+    "message": "Limit paliva"
   },
   "gasLimitCalculation": {
-    "message": ""
+    "message": "Počítáme doporučený limit paliva na základě úspěšnosti v síti."
   },
   "gasLimitRequired": {
-    "message": ""
+    "message": "Limit paliva je povinný"
   },
   "gasLimitTooLow": {
-    "message": ""
+    "message": "Limit paliva musí být alespoň 21000"
   },
   "generatingSeed": {
     "message": "Generuji klíčovou frázi..."
   },
   "gasPrice": {
-    "message": ""
+    "message": "Cena paliva (GWEI)"
   },
   "gasPriceCalculation": {
-    "message": ""
+    "message": "Počítáme doporučenou cenu paliva na základě úspěšnosti v síti."
   },
   "gasPriceRequired": {
-    "message": ""
+    "message": "Cena paliva je povinná"
   },
   "getDex": {
-    "message": ""
+    "message": "Získejte DEX"
   },
   "getDexFromFaucet": {
-    "message": "",
-    "description": ""
+    "message": "Získejte DEX z faucetu za $1.",
+    "description": "Displays network name for DEX faucet"
   },
   "greaterThanMin": {
-    "message": "",
-    "description": ""
+    "message": "musí být větší nebo roven $1.",
+    "description": "helper for inputting hex as decimal input"
   },
   "here": {
-    "message": "",
-    "description": ""
+    "message": "zde",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
   },
   "hereList": {
     "message": "Tady je seznam!!!!"
   },
   "hide": {
-    "message": ""
+    "message": "Skrýt"
   },
   "hideToken": {
-    "message": ""
+    "message": "Skrýt token"
   },
   "hideTokenPrompt": {
-    "message": ""
+    "message": "Skrýt token?"
   },
   "howToDeposit": {
-    "message": ""
+    "message": "Jakým způsobem chcete vložit DEX?"
   },
   "holdDex": {
     "message": "Dovoluje vám držet dexon a tokeny a slouží jako most k decentralizovaným aplikacím."
   },
   "import": {
-    "message": "",
-    "description": ""
+    "message": "Import",
+    "description": "Button to import an account from a selected file"
   },
   "importAccount": {
-    "message": ""
+    "message": "Import účtu"
   },
   "importAccountMsg": {
     "message": "Importované účty nebudou spojeny s vaší původní DekuSanovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "importAnAccount": {
-    "message": ""
+    "message": "Import účtu"
   },
   "importDen": {
-    "message": ""
+    "message": "Import existujícího DEN"
   },
   "imported": {
-    "message": "",
-    "description": ""
+    "message": "Importováno",
+    "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infoHelp": {
-    "message": ""
+    "message": "Informace a nápověda"
   },
   "insufficientFunds": {
     "message": "Nedostatek finančních prostředků."
@@ -436,19 +436,19 @@
     "message": "Nedostatek tokenů."
   },
   "invalidAddress": {
-    "message": ""
+    "message": "Neplatná adresa"
   },
   "invalidAddressRecipient": {
     "message": "Adresa příjemce je neplatná"
   },
   "invalidGasParams": {
-    "message": ""
+    "message": "Neplatná parametry paliva"
   },
   "invalidInput": {
-    "message": ""
+    "message": "Neplatný vstup."
   },
   "invalidRequest": {
-    "message": ""
+    "message": "Neplatný požadavek"
   },
   "invalidRPC": {
     "message": "Neplatné RPC URI"
@@ -457,14 +457,14 @@
     "message": "Něco se pokazilo. Prosím, ujistěte se, že váš JSON soubor má správný formát."
   },
   "jsonFile": {
-    "message": "",
-    "description": ""
+    "message": "JSON soubor",
+    "description": "format for importing an account"
   },
   "keepTrackTokens": {
     "message": "Udržujte si záznamy o tokenech, které jste koupili s účtem v DekuSanu."
   },
   "kovan": {
-    "message": ""
+    "message": "Kovan Test Network"
   },
   "knowledgeDataBase": {
     "message": "Navštivte naši Knowledge Base"
@@ -476,8 +476,8 @@
     "message": "Zjistěte více."
   },
   "lessThanMax": {
-    "message": "",
-    "description": ""
+    "message": "musí být menší nebo roven $1.",
+    "description": "helper for inputting hex as decimal input"
   },
   "likeToAddTokens": {
     "message": "Chcete přidat tyto tokeny?"
@@ -486,134 +486,134 @@
     "message": "Odkazy"
   },
   "limit": {
-    "message": ""
+    "message": "Limit"
   },
   "loading": {
-    "message": ""
+    "message": "Načítám..."
   },
   "loadingTokens": {
-    "message": ""
+    "message": "Načítám tokeny..."
   },
   "localhost": {
-    "message": ""
+    "message": "Localhost 8545"
   },
   "login": {
     "message": "Přihlásit"
   },
   "logout": {
-    "message": ""
+    "message": "Odhlásit"
   },
   "loose": {
-    "message": ""
+    "message": "Nevázané"
   },
   "loweCaseWords": {
     "message": "slova klíčové fráze mají pouze malá písmena"
   },
   "mainnet": {
-    "message": ""
+    "message": "Main DEXON Network"
   },
   "message": {
-    "message": ""
+    "message": "Zpráva"
   },
   "dekusanDescription": {
     "message": "DekuSan je bezpečný osobní trezor pro Dexon."
   },
   "min": {
-    "message": ""
+    "message": "Minimum"
   },
   "myAccounts": {
-    "message": ""
+    "message": "Moje účty"
   },
   "mustSelectOne": {
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needDexInWallet": {
-    "message": ""
+    "message": "Potřebujete DEX v peněžence, abyste mohli pomocí DekuSanu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
-    "message": "",
-    "description": ""
+    "message": "Musíte zvolit soubor k importu.",
+    "description": "User is important an account and needs to add a file to continue"
   },
   "needImportPassword": {
-    "message": "",
-    "description": ""
+    "message": "Musíte zadat heslo pro zvolený soubor.",
+    "description": "Password and file needed to import an account"
   },
   "negativeDex": {
     "message": "Nelze odeslat zápornou částku DEX."
   },
   "networks": {
-    "message": ""
+    "message": "Sítě"
   },
   "newAccount": {
-    "message": ""
+    "message": "Nový účet"
   },
   "newAccountNumberName": {
-    "message": "",
-    "description": ""
+    "message": "Účet $1",
+    "description": "Default name of next account to be created on create account screen"
   },
   "newContract": {
-    "message": ""
+    "message": "Nový kontrakt"
   },
   "newPassword": {
-    "message": ""
+    "message": "Nové heslo (min 8 znaků)"
   },
   "newRecipient": {
-    "message": ""
+    "message": "Nový příjemce"
   },
   "newRPC": {
     "message": "Nová RPC URL"
   },
   "next": {
-    "message": ""
+    "message": "Další"
   },
   "noAddressForName": {
-    "message": ""
+    "message": "Pro toto jméno nebyla nastavena žádná adresa."
   },
   "noDeposits": {
-    "message": ""
+    "message": "Žádný vklad"
   },
   "noTransactionHistory": {
-    "message": ""
+    "message": "Žádná historie transakcí."
   },
   "noTransactions": {
-    "message": ""
+    "message": "Žádné transakce"
   },
   "notStarted": {
-    "message": ""
+    "message": "Nezačalo"
   },
   "oldUI": {
-    "message": ""
+    "message": "Staré rozhraní"
   },
   "oldUIMessage": {
-    "message": ""
+    "message": "Vrátili jste se ke starému rozhraní. Můžete přepnout na nové rozhraní v nastavení v pravém horním menu."
   },
   "or": {
-    "message": "",
-    "description": ""
+    "message": "nebo",
+    "description": "choice between creating or importing a new account"
   },
   "passwordCorrect": {
     "message": "Ujistěte se, že je vaše heslo správně."
   },
   "passwordMismatch": {
-    "message": "",
-    "description": ""
+    "message": "hesla nesouhlasí",
+    "description": "in password creation process, the two new password fields did not match"
   },
   "passwordShort": {
-    "message": "",
-    "description": ""
+    "message": "heslo je krátké",
+    "description": "in password creation process, the password is not long enough to be secure"
   },
   "pastePrivateKey": {
-    "message": "",
-    "description": ""
+    "message": "Vložte zde svůj privátní klíč:",
+    "description": "For importing an account from a private key"
   },
   "pasteSeed": {
-    "message": ""
+    "message": "Svou klíčovou frázi vložte zde!"
   },
   "personalAddressDetected": {
     "message": "Detekována osobní adresa. Zadejte adresu kontraktu tokenu."
   },
   "pleaseReviewTransaction": {
-    "message": ""
+    "message": "Zkontrolujte si transakci."
   },
   "popularTokens": {
     "message": "Oblíbené tokeny"
@@ -622,38 +622,38 @@
     "message": "Zásady ochrany osobních údajů"
   },
   "privateKey": {
-    "message": "",
-    "description": ""
+    "message": "Privátní klíč",
+    "description": "select this type of file to use to import an account"
   },
   "privateKeyWarning": {
-    "message": ""
+    "message": "Upozornění: Nikdy nezveřejněte tento klíč. Kdokoli může s vaším privátním klíčem odcizit vaše aktiva z účtu."
   },
   "privateNetwork": {
-    "message": ""
+    "message": "Soukromá síť"
   },
   "qrCode": {
-    "message": ""
+    "message": "Ukázat QR kód"
   },
   "readdToken": {
-    "message": ""
+    "message": "Tento token můžete v budoucnu přidat zpět s „Přidat token“ v nastavení účtu."
   },
   "readMore": {
-    "message": ""
+    "message": "Přečtěte si více zde."
   },
   "readMore2": {
     "message": "Přečtěte si více."
   },
   "receive": {
-    "message": ""
+    "message": "Obrdžet"
   },
   "recipientAddress": {
-    "message": ""
+    "message": "Adresa příjemce"
   },
   "refundAddress": {
-    "message": ""
+    "message": "Adresa pro vrácení peněz"
   },
   "rejected": {
-    "message": ""
+    "message": "Odmítnuto"
   },
   "resetAccount": {
     "message": "Resetovat účet"
@@ -665,10 +665,10 @@
     "message": "Obnovit trezor"
   },
   "required": {
-    "message": ""
+    "message": "Povinné"
   },
   "retryWithMoreGas": {
-    "message": ""
+    "message": "Opakujte s vyšší cenou paliva"
   },
   "walletSeed": {
     "message": "Klíčová fráze peněženky"
@@ -680,13 +680,13 @@
     "message": "Nebnovujte slova klíčové fráze na veřejnosti! Tato slova mohou být použita k odcizení veškerých vyašich účtů."
   },
   "revert": {
-    "message": ""
+    "message": "Zvrátit"
   },
   "rinkeby": {
-    "message": ""
+    "message": "DEXON Test Network"
   },
   "ropsten": {
-    "message": ""
+    "message": "Ropsten Test Network"
   },
   "currentRpc": {
     "message": "Současné RPC"
@@ -707,11 +707,11 @@
     "message": "Připojuji se k neznámé síti"
   },
   "sampleAccountName": {
-    "message": "",
-    "description": ""
+    "message": "Např. můj nový účet",
+    "description": "Help user understand concept of adding a human-readable name to their account"
   },
   "save": {
-    "message": ""
+    "message": "Uložit"
   },
   "reprice_title": {
     "message": "Změnit cenu transakce"
@@ -720,8 +720,8 @@
     "message": "Navyšte cenu paliva ve snaze k přepsání a urychlení vyší transakce"
   },
   "saveAsFile": {
-    "message": "",
-    "description": ""
+    "message": "Uložit do souboru",
+    "description": "Account export process"
   },
   "saveSeedAsFile": {
     "message": "Uložit slova klíčové fráze do souboru"
@@ -745,19 +745,19 @@
     "message": "Vybrat měnu"
   },
   "selectService": {
-    "message": ""
+    "message": "Vybrat službu"
   },
   "selectType": {
     "message": "Vybrat typ"
   },
   "send": {
-    "message": ""
+    "message": "Odeslat"
   },
   "sendDEX": {
     "message": "Odeslat DEX"
   },
   "sendTokens": {
-    "message": ""
+    "message": "Odeslat tokeny"
   },
   "onlySendToDexonAddress": {
     "message": "Posílejte jen DEX na DEXON adresu."
@@ -766,46 +766,46 @@
     "message": "Hledat tokeny"
   },
   "sendTokensAnywhere": {
-    "message": ""
+    "message": "Posílejte tokeny komukoli s DEXON účtem"
   },
   "settings": {
-    "message": ""
+    "message": "Nastavení"
   },
   "info": {
     "message": "Informace"
   },
   "shapeshiftBuy": {
-    "message": ""
+    "message": "Nakoupit na ShapeShift"
   },
   "showPrivateKeys": {
-    "message": ""
+    "message": "Zobrazit privátní klíče"
   },
   "showQRCode": {
-    "message": ""
+    "message": "Zobrazit QR kód"
   },
   "sign": {
-    "message": ""
+    "message": "Podepsat"
   },
   "signed": {
     "message": "Podepsáno"
   },
   "signMessage": {
-    "message": ""
+    "message": "Podepsat zprávu"
   },
   "signNotice": {
-    "message": ""
+    "message": "Podepsání zprávy může mít \nnebezpečný vedlejší učinek. Podepisujte zprávy pouze ze \nstránek, kterým plně důvěřujete celým svým účtem.\n Tato nebezpečná metoda bude odebrána v budoucí verzi. "
   },
   "sigRequest": {
-    "message": ""
+    "message": "Požadavek podpisu"
   },
   "sigRequested": {
-    "message": ""
+    "message": "Požádáno o podpis"
   },
   "spaceBetween": {
     "message": "mezi slovy může být pouze mezera"
   },
   "status": {
-    "message": ""
+    "message": "Stav"
   },
   "stateLogs": {
     "message": "Stavové protokoly"
@@ -817,7 +817,7 @@
     "message": "Chyba během získávání stavových protokolů."
   },
   "submit": {
-    "message": ""
+    "message": "Odeslat"
   },
   "submitted": {
     "message": "Odesláno"
@@ -829,23 +829,23 @@
     "message": "Symbol musí být mezi 0 a 12 znaky."
   },
   "takesTooLong": {
-    "message": ""
+    "message": "Trvá to dlouho?"
   },
   "terms": {
     "message": "Podmínky použití"
   },
   "testFaucet": {
-    "message": ""
+    "message": "Testovací faucet"
   },
   "testnet": {
     "message": "DEXON Test Network"
   },
   "to": {
-    "message": ""
+    "message": "Komu"
   },
   "toDEXviaShapeShift": {
-    "message": "",
-    "description": ""
+    "message": "$1 na DEX přes ShapeShift",
+    "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {
     "message": "Adresa tokenu"
@@ -854,7 +854,7 @@
     "message": "Token byl už přidán."
   },
   "tokenBalance": {
-    "message": ""
+    "message": "Váš zůstatek tokenu je:"
   },
   "tokenSelection": {
     "message": "Vyhledejte token nebo je vyberte z našeho seznamu oblíbených tokenů."
@@ -866,7 +866,7 @@
     "message": "Mějte přehled o tokenech, které jste koupili s účtem DekuSanu. Pokud jste koupili tokeny s jiným účtem, tyto tokeny se zde nezobrazí."
   },
   "total": {
-    "message": ""
+    "message": "Celkem"
   },
   "transactions": {
     "message": "transakce"
@@ -875,54 +875,54 @@
     "message": "Chyba transakce. Vyhozena výjimka v kódu kontraktu."
   },
   "transactionMemo": {
-    "message": ""
+    "message": "Poznámka transakce (nepovinné)"
   },
   "transactionNumber": {
-    "message": ""
+    "message": "Číslo transakce"
   },
   "transfers": {
-    "message": ""
+    "message": "Převody"
   },
   "troubleTokenBalances": {
-    "message": "",
-    "description": ""
+    "message": "Měli jsme problém s načtením vašich tokenových zůstatků. Můžete je vidět ",
+    "description": "Followed by a link (here) to view token balances"
   },
   "twelveWords": {
     "message": "Těchto 12 slov je jedinou možností, jak obnovit DekuSan účet. \nUložte je na bezpečné a neveřejné místo."
   },
   "typePassword": {
-    "message": ""
+    "message": "Zadejte své heslo"
   },
   "uiWelcome": {
-    "message": ""
+    "message": "Vítejte v novém rozhraní (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": ""
+    "message": "Používáte nyní nové rozhraní DekuSanu. Rozhlédněte se kolem, vyzkoušejte nové funkce, jako jsou zasílání tokenů, a dejte nám vědět, pokud narazíte na problém."
   },
   "unapproved": {
     "message": "Neschváleno"
   },
   "unavailable": {
-    "message": ""
+    "message": "Nedostupné"
   },
   "unknown": {
-    "message": ""
+    "message": "Neznámé"
   },
   "unknownNetwork": {
-    "message": ""
+    "message": "Neznámá soukromá síť"
   },
   "unknownNetworkId": {
-    "message": ""
+    "message": "Neznámé ID sítě"
   },
   "uriErrorMsg": {
     "message": "URI vyžadují korektní HTTP\/HTTPS prefix."
   },
   "usaOnly": {
-    "message": "",
-    "description": ""
+    "message": "jen v USA",
+    "description": "Using this exchange is limited to people inside the USA"
   },
   "usedByClients": {
-    "message": ""
+    "message": "Používána různými klienty"
   },
   "useOldUI": {
     "message": "Použijte staré rozhraní"
@@ -934,25 +934,25 @@
     "message": "Trezor vytvořen"
   },
   "viewAccount": {
-    "message": ""
+    "message": "Zobrazit účet"
   },
   "visitWebSite": {
     "message": "Navštivte naši stránku"
   },
   "warning": {
-    "message": ""
+    "message": "Varování"
   },
   "welcomeBeta": {
     "message": "Vítejte v DekuSan Beta"
   },
   "whatsThis": {
-    "message": ""
+    "message": "Co to je?"
   },
   "yourSigRequested": {
-    "message": ""
+    "message": "Je vyžadován váš podpis"
   },
   "youSign": {
-    "message": ""
+    "message": "Podepisujete"
   },
   "aboutDekuSan": {
     "message": ""

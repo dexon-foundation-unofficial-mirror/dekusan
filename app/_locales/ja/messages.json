@@ -45,167 +45,167 @@
     "message": "下記のドメインは、Ethereumブロックチェーンとやり取りできるようにEthereum APIへのアクセスをリクエストしようとしています。 Web3アクセスを承認する前に、正しいサイトにいることを常に確認してください。"
   },
   "accept": {
-    "message": ""
+    "message": "承認"
   },
   "account": {
-    "message": ""
+    "message": "アカウント"
   },
   "accountDetails": {
-    "message": ""
+    "message": "アカウント詳細"
   },
   "accountName": {
-    "message": ""
+    "message": "アカウント名"
   },
   "address": {
-    "message": ""
+    "message": "アドレス"
   },
   "addCustomToken": {
     "message": "カスタムトークンを追加"
   },
   "addToken": {
-    "message": ""
+    "message": "トークンを追加"
   },
   "addTokens": {
     "message": "トークンを追加"
   },
   "amount": {
-    "message": ""
+    "message": "金額"
   },
   "amountPlusGas": {
-    "message": ""
+    "message": "金額 + ガス"
   },
   "appDescription": {
-    "message": "",
-    "description": ""
+    "message": "Dexonのブラウザ・エクステンション",
+    "description": "The description of the application"
   },
   "appName": {
-    "message": "",
-    "description": ""
+    "message": "DekuSan",
+    "description": "The name of the application"
   },
   "approved": {
     "message": ""
   },
   "attemptingConnect": {
-    "message": ""
+    "message": "ブロックチェーンに接続中"
   },
   "attributions": {
     "message": ""
   },
   "available": {
-    "message": ""
+    "message": "有効"
   },
   "back": {
-    "message": ""
+    "message": "戻る"
   },
   "balance": {
-    "message": ""
+    "message": "残高:"
   },
   "balances": {
     "message": "トークン残高"
   },
   "balanceIsInsufficientGas": {
-    "message": ""
+    "message": "現在のガス総量に対して残高が不足しています"
   },
   "beta": {
-    "message": ""
+    "message": "ベータ版"
   },
   "betweenMinAndMax": {
-    "message": "",
-    "description": ""
+    "message": " $1以上 $2以下にして下さい。",
+    "description": "helper for inputting hex as decimal input"
   },
   "blockiesIdenticon": {
     "message": "Blockies Identicon を使用"
   },
   "borrowDharma": {
-    "message": ""
+    "message": "Dharmaで借りる(ベータ版)"
   },
   "builtInCalifornia": {
     "message": ""
   },
   "buy": {
-    "message": ""
+    "message": "購入"
   },
   "buyCoinbase": {
-    "message": ""
+    "message": "Coinbaseのサイトで購入"
   },
   "buyCoinbaseExplainer": {
-    "message": ""
+    "message": "DEXONを購入できます。Coinbaseは、世界的なBitcoin、Dexon、そしてLitecoinの取引所です。"
   },
   "ok": {
     "message": ""
   },
   "cancel": {
-    "message": ""
+    "message": "キャンセル"
   },
   "classicInterface": {
     "message": "旧インタフェイスを使用"
   },
   "clickCopy": {
-    "message": ""
+    "message": "クリックしてコピー"
   },
   "confirm": {
-    "message": ""
+    "message": "確認"
   },
   "confirmed": {
     "message": ""
   },
   "confirmContract": {
-    "message": ""
+    "message": "コントラクトの確認"
   },
   "confirmPassword": {
-    "message": ""
+    "message": "パスワードの確認"
   },
   "confirmTransaction": {
-    "message": ""
+    "message": "トランザクションの確認"
   },
   "continue": {
     "message": "続行"
   },
   "continueToCoinbase": {
-    "message": ""
+    "message": "Coinbaseを開く"
   },
   "contractDeployment": {
-    "message": ""
+    "message": "コントラクトのデプロイ"
   },
   "conversionProgress": {
-    "message": ""
+    "message": "変換中"
   },
   "copiedButton": {
-    "message": ""
+    "message": "コピー完了"
   },
   "copiedClipboard": {
-    "message": ""
+    "message": "クリップボードへコピー済み"
   },
   "copiedExclamation": {
-    "message": ""
+    "message": "コピー完了!"
   },
   "copiedSafe": {
     "message": ""
   },
   "copy": {
-    "message": ""
+    "message": "コピー"
   },
   "copyToClipboard": {
-    "message": ""
+    "message": "クリップボードへコピー"
   },
   "copyButton": {
-    "message": ""
+    "message": " コピー "
   },
   "copyPrivateKey": {
-    "message": ""
+    "message": "これはあなたの秘密鍵です(クリックでコピー)"
   },
   "create": {
-    "message": ""
+    "message": "作成"
   },
   "createAccount": {
-    "message": ""
+    "message": "アカウント作成"
   },
   "createDen": {
-    "message": ""
+    "message": "作成"
   },
   "crypto": {
-    "message": "",
-    "description": ""
+    "message": "暗号通貨",
+    "description": "Exchange type (cryptocurrencies)"
   },
   "currentConversion": {
     "message": "基軸通貨"
@@ -214,16 +214,16 @@
     "message": ""
   },
   "customGas": {
-    "message": ""
+    "message": "ガスのカスタマイズ"
   },
   "customToken": {
     "message": "カスタムトークン"
   },
   "customize": {
-    "message": ""
+    "message": "カスタマイズ"
   },
   "customRPC": {
-    "message": ""
+    "message": "カスタムRPC"
   },
   "decimalsMustZerotoTen": {
     "message": ""
@@ -232,50 +232,50 @@
     "message": "小数点桁数"
   },
   "defaultNetwork": {
-    "message": ""
+    "message": "デフォルトのDEXON送受信ネットワークはメインネットです。"
   },
   "denExplainer": {
-    "message": ""
+    "message": "DENとは、あなたのパスワードが暗号化されたDekuSan内のストレージです。"
   },
   "deposit": {
-    "message": ""
+    "message": "振込"
   },
   "depositBTC": {
-    "message": ""
+    "message": "BTCを下記のアドレスへ振込んでください:"
   },
   "depositCoin": {
-    "message": "",
-    "description": ""
+    "message": "$1を下記のアドレスへ振込んでください",
+    "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
   "depositDEX": {
-    "message": ""
+    "message": "DEXONを振込"
   },
   "depositFiat": {
-    "message": ""
+    "message": "法定通貨でデポジット"
   },
   "depositFromAccount": {
-    "message": ""
+    "message": "別のアカウントから入金"
   },
   "depositShapeShift": {
-    "message": ""
+    "message": "ShapeShiftで交換"
   },
   "depositShapeShiftExplainer": {
-    "message": ""
+    "message": "他の暗号通貨とDEXONを交換して、DekuSanのウォレットへ入金できます。アカウント作成は不要です。"
   },
   "details": {
-    "message": ""
+    "message": "詳細"
   },
   "directDeposit": {
-    "message": ""
+    "message": "ダイレクトデポジット"
   },
   "directDepositDex": {
-    "message": ""
+    "message": "DEXONを直接入金"
   },
   "directDepositDexExplainer": {
-    "message": ""
+    "message": "既にDEXONをお持ちなら、DekuSanの新しいウォレットにDEXONを送信することができます。"
   },
   "done": {
-    "message": ""
+    "message": "完了"
   },
   "downloadStateLogs": {
     "message": ""
@@ -284,19 +284,19 @@
     "message": ""
   },
   "edit": {
-    "message": ""
+    "message": "編集"
   },
   "editAccountName": {
-    "message": ""
+    "message": "アカウント名を編集"
   },
   "emailUs": {
     "message": ""
   },
   "encryptNewDen": {
-    "message": ""
+    "message": "新しいDENを暗号化する"
   },
   "enterPassword": {
-    "message": ""
+    "message": "パスワードを入力"
   },
   "enterPasswordConfirm": {
     "message": ""
@@ -308,126 +308,126 @@
     "message": ""
   },
   "dexscanView": {
-    "message": ""
+    "message": "DEXONscanでアカウントを確認"
   },
   "exchangeRate": {
-    "message": ""
+    "message": "交換レート"
   },
   "exportPrivateKey": {
-    "message": ""
+    "message": "秘密鍵のエクスポート"
   },
   "exportPrivateKeyWarning": {
-    "message": ""
+    "message": "あなた自身の責任で秘密鍵をエクスポート"
   },
   "failed": {
-    "message": ""
+    "message": "失敗"
   },
   "fiat": {
-    "message": "",
-    "description": ""
+    "message": "法定通貨",
+    "description": "Exchange type"
   },
   "fileImportFail": {
-    "message": "",
-    "description": ""
+    "message": "ファイルがインポートされなければ、ここをクリック!",
+    "description": "Helps user import their account from a JSON file"
   },
   "followTwitter": {
     "message": ""
   },
   "from": {
-    "message": ""
+    "message": "送信元"
   },
   "fromToSame": {
     "message": ""
   },
   "fromShapeShift": {
-    "message": ""
+    "message": "ShapeShiftから"
   },
   "gas": {
-    "message": "",
-    "description": ""
+    "message": "ガス",
+    "description": "Short indication of gas cost"
   },
   "gasFee": {
-    "message": ""
+    "message": "ガス料金"
   },
   "gasLimit": {
-    "message": ""
+    "message": "ガスリミット"
   },
   "gasLimitCalculation": {
-    "message": ""
+    "message": "ネットワークの成功率を基にして、ガスリミットを提案しています。"
   },
   "gasLimitRequired": {
-    "message": ""
+    "message": "必要ガスリミット"
   },
   "gasLimitTooLow": {
-    "message": ""
+    "message": "ガスリミットは最低21000です。"
   },
   "generatingSeed": {
     "message": ""
   },
   "gasPrice": {
-    "message": ""
+    "message": "ガスプライス (GWEI)"
   },
   "gasPriceCalculation": {
-    "message": ""
+    "message": "ネットワークの成功率を基にして、ガスプライスを提案しています。"
   },
   "gasPriceRequired": {
-    "message": ""
+    "message": "必要ガスプライス"
   },
   "getDex": {
-    "message": ""
+    "message": "DEXONを取得する"
   },
   "getDexFromFaucet": {
-    "message": "",
-    "description": ""
+    "message": "フォーセットで $1のDEXONを得ることができます。",
+    "description": "Displays network name for DEX faucet"
   },
   "greaterThanMin": {
-    "message": "",
-    "description": ""
+    "message": " $1以上にして下さい。",
+    "description": "helper for inputting hex as decimal input"
   },
   "here": {
-    "message": "",
-    "description": ""
+    "message": "ここ",
+    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
   },
   "hereList": {
     "message": ""
   },
   "hide": {
-    "message": ""
+    "message": "隠す"
   },
   "hideToken": {
-    "message": ""
+    "message": "トークンを隠す"
   },
   "hideTokenPrompt": {
-    "message": ""
+    "message": "トークンを隠しますか?"
   },
   "howToDeposit": {
-    "message": ""
+    "message": "どのようにDEXONをデポジットしますか?"
   },
   "holdDex": {
     "message": ""
   },
   "import": {
-    "message": "",
-    "description": ""
+    "message": "追加",
+    "description": "Button to import an account from a selected file"
   },
   "importAccount": {
-    "message": ""
+    "message": "アカウントのインポート"
   },
   "importAccountMsg": {
     "message": "追加したアカウントはDekuSanのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
   },
   "importAnAccount": {
-    "message": ""
+    "message": "アカウントをインポート"
   },
   "importDen": {
-    "message": ""
+    "message": "既存のDENをインポート"
   },
   "imported": {
-    "message": "",
-    "description": ""
+    "message": "インポート完了",
+    "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infoHelp": {
-    "message": ""
+    "message": "情報とヘルプ"
   },
   "insufficientFunds": {
     "message": "残高不足"
@@ -436,19 +436,19 @@
     "message": ""
   },
   "invalidAddress": {
-    "message": ""
+    "message": "アドレスが無効です。"
   },
   "invalidAddressRecipient": {
     "message": ""
   },
   "invalidGasParams": {
-    "message": ""
+    "message": "ガスのパラメーターが無効です。"
   },
   "invalidInput": {
-    "message": ""
+    "message": "インプットが無効です。"
   },
   "invalidRequest": {
-    "message": ""
+    "message": "リクエストが無効です。"
   },
   "invalidRPC": {
     "message": ""
@@ -457,14 +457,14 @@
     "message": ""
   },
   "jsonFile": {
-    "message": "",
-    "description": ""
+    "message": "JSONファイル",
+    "description": "format for importing an account"
   },
   "keepTrackTokens": {
     "message": "DekuSanアカウントで入手したトークンを検索できます。"
   },
   "kovan": {
-    "message": ""
+    "message": "Kovanテストネットワーク"
   },
   "knowledgeDataBase": {
     "message": ""
@@ -476,8 +476,8 @@
     "message": "詳細"
   },
   "lessThanMax": {
-    "message": "",
-    "description": ""
+    "message": " $1以下にして下さい。",
+    "description": "helper for inputting hex as decimal input"
   },
   "likeToAddTokens": {
     "message": "トークンを追加しますか?"
@@ -486,134 +486,134 @@
     "message": "リンク"
   },
   "limit": {
-    "message": ""
+    "message": "リミット"
   },
   "loading": {
-    "message": ""
+    "message": "ロード中..."
   },
   "loadingTokens": {
-    "message": ""
+    "message": "トークンをロード中..."
   },
   "localhost": {
-    "message": ""
+    "message": "Localhost 8545"
   },
   "login": {
     "message": "ログイン"
   },
   "logout": {
-    "message": ""
+    "message": "ログアウト"
   },
   "loose": {
-    "message": ""
+    "message": "外部秘密鍵"
   },
   "loweCaseWords": {
     "message": ""
   },
   "mainnet": {
-    "message": ""
+    "message": "Dexonメインネットワーク"
   },
   "message": {
-    "message": ""
+    "message": "メッセージ"
   },
   "dekusanDescription": {
     "message": ""
   },
   "min": {
-    "message": ""
+    "message": "ミニマム"
   },
   "myAccounts": {
-    "message": ""
+    "message": "マイアカウント"
   },
   "mustSelectOne": {
     "message": "一つ以上のトークンを選択してください。"
   },
   "needDexInWallet": {
-    "message": ""
+    "message": "DekuSanで分散型アプリケーションを使用するためには、このウォレットにDEXONが必要です。"
   },
   "needImportFile": {
-    "message": "",
-    "description": ""
+    "message": "インポートするファイルを選択してください。",
+    "description": "User is important an account and needs to add a file to continue"
   },
   "needImportPassword": {
-    "message": "",
-    "description": ""
+    "message": "選択したファイルのパスワードを入力してください。",
+    "description": "Password and file needed to import an account"
   },
   "negativeDex": {
     "message": ""
   },
   "networks": {
-    "message": ""
+    "message": "ネットワーク"
   },
   "newAccount": {
-    "message": ""
+    "message": "新規アカウント"
   },
   "newAccountNumberName": {
-    "message": "",
-    "description": ""
+    "message": "アカウント $1",
+    "description": "Default name of next account to be created on create account screen"
   },
   "newContract": {
-    "message": ""
+    "message": "新規コントラクト"
   },
   "newPassword": {
-    "message": ""
+    "message": "新規パスワード(最低8文字)"
   },
   "newRecipient": {
-    "message": ""
+    "message": "新規受取人"
   },
   "newRPC": {
     "message": "新しいRPCのURLを追加"
   },
   "next": {
-    "message": ""
+    "message": "次へ"
   },
   "noAddressForName": {
-    "message": ""
+    "message": "この名前にはアドレスが設定されていません。"
   },
   "noDeposits": {
-    "message": ""
+    "message": "振込みがありません。"
   },
   "noTransactionHistory": {
-    "message": ""
+    "message": "トランザクション履歴がありません。"
   },
   "noTransactions": {
-    "message": ""
+    "message": "トランザクションがありません。"
   },
   "notStarted": {
-    "message": ""
+    "message": "スタートしていません。"
   },
   "oldUI": {
-    "message": ""
+    "message": "旧UI"
   },
   "oldUIMessage": {
-    "message": ""
+    "message": "旧UIを表示しています。右上のドロップダウンメニューのオプションより、新UIへ切り替えが可能です。"
   },
   "or": {
-    "message": "",
-    "description": ""
+    "message": "または",
+    "description": "choice between creating or importing a new account"
   },
   "passwordCorrect": {
     "message": ""
   },
   "passwordMismatch": {
-    "message": "",
-    "description": ""
+    "message": "パスワードが一致しません。",
+    "description": "in password creation process, the two new password fields did not match"
   },
   "passwordShort": {
-    "message": "",
-    "description": ""
+    "message": "パスワードが短すぎます。",
+    "description": "in password creation process, the password is not long enough to be secure"
   },
   "pastePrivateKey": {
-    "message": "",
-    "description": ""
+    "message": "秘密鍵をここにペーストして下さい:",
+    "description": "For importing an account from a private key"
   },
   "pasteSeed": {
-    "message": ""
+    "message": "パスフレーズをここにペーストして下さい!"
   },
   "personalAddressDetected": {
     "message": ""
   },
   "pleaseReviewTransaction": {
-    "message": ""
+    "message": "トランザクションを確認して下さい。"
   },
   "popularTokens": {
     "message": "人気のトークン"
@@ -622,38 +622,38 @@
     "message": "プライバシーポリシー"
   },
   "privateKey": {
-    "message": "",
-    "description": ""
+    "message": "秘密鍵",
+    "description": "select this type of file to use to import an account"
   },
   "privateKeyWarning": {
-    "message": ""
+    "message": "警告: この鍵は絶対に公開しないで下さい。公開すると、誰でもあなたのアカウント内の資産を盗むことができてしまいます。"
   },
   "privateNetwork": {
-    "message": ""
+    "message": "プライベート・ネットワーク"
   },
   "qrCode": {
-    "message": ""
+    "message": "QRコードを表示"
   },
   "readdToken": {
-    "message": ""
+    "message": "アカウントのオプションメニューから「トークンを追加」すれば、将来このトークンを追加し直すことができます。"
   },
   "readMore": {
-    "message": ""
+    "message": "もっと読む"
   },
   "readMore2": {
     "message": ""
   },
   "receive": {
-    "message": ""
+    "message": "受取"
   },
   "recipientAddress": {
-    "message": ""
+    "message": "受取人アドレス"
   },
   "refundAddress": {
-    "message": ""
+    "message": "受取アドレス"
   },
   "rejected": {
-    "message": ""
+    "message": "拒否されました"
   },
   "resetAccount": {
     "message": "アカウントをリセット"
@@ -665,10 +665,10 @@
     "message": "ウォレットを復元する"
   },
   "required": {
-    "message": ""
+    "message": "必要です。"
   },
   "retryWithMoreGas": {
-    "message": ""
+    "message": "より高いガスプライスで再度試して下さい。"
   },
   "walletSeed": {
     "message": "ウォレットのパスフレーズ"
@@ -680,13 +680,13 @@
     "message": ""
   },
   "revert": {
-    "message": ""
+    "message": "元に戻す"
   },
   "rinkeby": {
-    "message": ""
+    "message": "DEXONテストネットワーク"
   },
   "ropsten": {
-    "message": ""
+    "message": "Ropstenテストネットワーク"
   },
   "currentRpc": {
     "message": ""
@@ -707,11 +707,11 @@
     "message": ""
   },
   "sampleAccountName": {
-    "message": "",
-    "description": ""
+    "message": "例.新しいマイアカウント",
+    "description": "Help user understand concept of adding a human-readable name to their account"
   },
   "save": {
-    "message": ""
+    "message": "保存"
   },
   "reprice_title": {
     "message": ""
@@ -720,8 +720,8 @@
     "message": ""
   },
   "saveAsFile": {
-    "message": "",
-    "description": ""
+    "message": "ファイルとして保存",
+    "description": "Account export process"
   },
   "saveSeedAsFile": {
     "message": ""
@@ -745,19 +745,19 @@
     "message": "通貨を選択"
   },
   "selectService": {
-    "message": ""
+    "message": "サービスを選択"
   },
   "selectType": {
     "message": "キーの種類"
   },
   "send": {
-    "message": ""
+    "message": "送信"
   },
   "sendDEX": {
     "message": "DEXの送信"
   },
   "sendTokens": {
-    "message": ""
+    "message": "トークンを送信"
   },
   "onlySendToDexonAddress": {
     "message": "DEX はイーサリウムアカウントのみに送信できます。"
@@ -766,46 +766,46 @@
     "message": "トークンの検索"
   },
   "sendTokensAnywhere": {
-    "message": ""
+    "message": "イーサリアムアカウントを持っている人にトークンを送る"
   },
   "settings": {
-    "message": ""
+    "message": "設定"
   },
   "info": {
     "message": "情報"
   },
   "shapeshiftBuy": {
-    "message": ""
+    "message": "Shapeshiftで交換"
   },
   "showPrivateKeys": {
-    "message": ""
+    "message": "秘密鍵を表示"
   },
   "showQRCode": {
-    "message": ""
+    "message": "QRコードを表示"
   },
   "sign": {
-    "message": ""
+    "message": "署名"
   },
   "signed": {
     "message": ""
   },
   "signMessage": {
-    "message": ""
+    "message": "メッセージに署名"
   },
   "signNotice": {
-    "message": ""
+    "message": "このメッセージへの署名は危険となる可能性があります。\n完全に信頼するサイトからのメッセージのみ、\nあなたのアカウントで署名して下さい。今後のバージョンでは、\nこの危険なメソッドは削除される予定です。"
   },
   "sigRequest": {
-    "message": ""
+    "message": "署名リクエスト"
   },
   "sigRequested": {
-    "message": ""
+    "message": "署名がリクエストされました"
   },
   "spaceBetween": {
     "message": ""
   },
   "status": {
-    "message": ""
+    "message": "ステータス"
   },
   "stateLogs": {
     "message": ""
@@ -817,7 +817,7 @@
     "message": ""
   },
   "submit": {
-    "message": ""
+    "message": "送信"
   },
   "submitted": {
     "message": ""
@@ -829,23 +829,23 @@
     "message": ""
   },
   "takesTooLong": {
-    "message": ""
+    "message": "送信に時間がかかりますか?"
   },
   "terms": {
     "message": "利用規約"
   },
   "testFaucet": {
-    "message": ""
+    "message": "Faucetをテスト"
   },
   "testnet": {
     "message": ""
   },
   "to": {
-    "message": ""
+    "message": "送信先"
   },
   "toDEXviaShapeShift": {
-    "message": "",
-    "description": ""
+    "message": "ShapeShiftで $1をDEXにする",
+    "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {
     "message": "トークンアドレス"
@@ -854,7 +854,7 @@
     "message": ""
   },
   "tokenBalance": {
-    "message": ""
+    "message": "あなたのトークン残高:"
   },
   "tokenSelection": {
     "message": "トークンを検索、またはリストから選択してください。"
@@ -866,7 +866,7 @@
     "message": "DekuSanのアカウントで取得したアカウントのみ追加できます。他のアカウントを使用して取得したトークンは、カスタムトークンを使用してください。"
   },
   "total": {
-    "message": ""
+    "message": "合計"
   },
   "transactions": {
     "message": "トランザクション"
@@ -875,54 +875,54 @@
     "message": ""
   },
   "transactionMemo": {
-    "message": ""
+    "message": "トランザクションメモ (オプション)"
   },
   "transactionNumber": {
-    "message": ""
+    "message": "トランザクション番号"
   },
   "transfers": {
-    "message": ""
+    "message": "トランスファー"
   },
   "troubleTokenBalances": {
-    "message": "",
-    "description": ""
+    "message": "トークン残高を取得できません。こちらでご確認ください。",
+    "description": "Followed by a link (here) to view token balances"
   },
   "twelveWords": {
     "message": ""
   },
   "typePassword": {
-    "message": ""
+    "message": "パスワードの入力"
   },
   "uiWelcome": {
-    "message": ""
+    "message": "新UIへようこそ! (ベータ版)"
   },
   "uiWelcomeMessage": {
-    "message": ""
+    "message": "現在、DekuSan の新しいUIをお使いになっています。トークン送信など、新たな機能を試してみましょう! 何か問題があればご報告ください。"
   },
   "unapproved": {
     "message": ""
   },
   "unavailable": {
-    "message": ""
+    "message": "有効ではありません。"
   },
   "unknown": {
-    "message": ""
+    "message": "不明"
   },
   "unknownNetwork": {
-    "message": ""
+    "message": "不明なプライベートネットワーク"
   },
   "unknownNetworkId": {
-    "message": ""
+    "message": "不明なネットワークID"
   },
   "uriErrorMsg": {
     "message": ""
   },
   "usaOnly": {
-    "message": "",
-    "description": ""
+    "message": "米国居住者のみ",
+    "description": "Using this exchange is limited to people inside the USA"
   },
   "usedByClients": {
-    "message": ""
+    "message": "様々なクライアントによって使用されています。"
   },
   "useOldUI": {
     "message": "旧UIに切り替え"
@@ -934,13 +934,13 @@
     "message": ""
   },
   "viewAccount": {
-    "message": ""
+    "message": "アカウントを見る"
   },
   "visitWebSite": {
     "message": ""
   },
   "warning": {
-    "message": ""
+    "message": "警告"
   },
   "welcome": {
     "message": "MetaMask ベータ版へようこそ!"
@@ -949,13 +949,13 @@
     "message": "DekuSan ベータ版へようこそ!"
   },
   "whatsThis": {
-    "message": ""
+    "message": "この機能について"
   },
   "yourSigRequested": {
-    "message": ""
+    "message": "あなたの署名がリクエストされています。"
   },
   "youSign": {
-    "message": ""
+    "message": "署名しています。"
   },
   "aboutDekuSan": {
     "message": ""

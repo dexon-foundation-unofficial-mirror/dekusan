@@ -1,0 +1,1324 @@
+{
+  "accept": {
+    "message": ""
+  },
+  "account": {
+    "message": ""
+  },
+  "accountDetails": {
+    "message": ""
+  },
+  "accountName": {
+    "message": ""
+  },
+  "address": {
+    "message": ""
+  },
+  "addCustomToken": {
+    "message": ""
+  },
+  "addToken": {
+    "message": ""
+  },
+  "addTokens": {
+    "message": ""
+  },
+  "amount": {
+    "message": ""
+  },
+  "amountPlusGas": {
+    "message": ""
+  },
+  "appDescription": {
+    "message": "DEXON Browser Extension",
+    "description": ""
+  },
+  "appName": {
+    "message": "DekuSan",
+    "description": ""
+  },
+  "approved": {
+    "message": ""
+  },
+  "attemptingConnect": {
+    "message": ""
+  },
+  "attributions": {
+    "message": ""
+  },
+  "available": {
+    "message": ""
+  },
+  "back": {
+    "message": ""
+  },
+  "balance": {
+    "message": ""
+  },
+  "balances": {
+    "message": ""
+  },
+  "balanceIsInsufficientGas": {
+    "message": ""
+  },
+  "beta": {
+    "message": ""
+  },
+  "betweenMinAndMax": {
+    "message": "",
+    "description": ""
+  },
+  "blockiesIdenticon": {
+    "message": ""
+  },
+  "borrowDharma": {
+    "message": ""
+  },
+  "builtInCalifornia": {
+    "message": ""
+  },
+  "buy": {
+    "message": ""
+  },
+  "buyCoinbase": {
+    "message": ""
+  },
+  "buyCoinbaseExplainer": {
+    "message": ""
+  },
+  "ok": {
+    "message": ""
+  },
+  "cancel": {
+    "message": ""
+  },
+  "classicInterface": {
+    "message": ""
+  },
+  "clickCopy": {
+    "message": ""
+  },
+  "confirm": {
+    "message": ""
+  },
+  "confirmed": {
+    "message": ""
+  },
+  "confirmContract": {
+    "message": ""
+  },
+  "confirmPassword": {
+    "message": ""
+  },
+  "confirmTransaction": {
+    "message": ""
+  },
+  "continue": {
+    "message": ""
+  },
+  "continueToCoinbase": {
+    "message": ""
+  },
+  "contractDeployment": {
+    "message": ""
+  },
+  "conversionProgress": {
+    "message": ""
+  },
+  "copiedButton": {
+    "message": ""
+  },
+  "copiedClipboard": {
+    "message": ""
+  },
+  "copiedExclamation": {
+    "message": ""
+  },
+  "copiedSafe": {
+    "message": ""
+  },
+  "copy": {
+    "message": ""
+  },
+  "copyToClipboard": {
+    "message": ""
+  },
+  "copyButton": {
+    "message": ""
+  },
+  "copyPrivateKey": {
+    "message": ""
+  },
+  "create": {
+    "message": ""
+  },
+  "createAccount": {
+    "message": ""
+  },
+  "createDen": {
+    "message": ""
+  },
+  "crypto": {
+    "message": "",
+    "description": ""
+  },
+  "currentConversion": {
+    "message": ""
+  },
+  "currentNetwork": {
+    "message": ""
+  },
+  "customGas": {
+    "message": ""
+  },
+  "customToken": {
+    "message": ""
+  },
+  "customize": {
+    "message": ""
+  },
+  "customRPC": {
+    "message": ""
+  },
+  "decimalsMustZerotoTen": {
+    "message": ""
+  },
+  "decimal": {
+    "message": ""
+  },
+  "defaultNetwork": {
+    "message": ""
+  },
+  "denExplainer": {
+    "message": ""
+  },
+  "deposit": {
+    "message": ""
+  },
+  "depositBTC": {
+    "message": ""
+  },
+  "depositCoin": {
+    "message": "",
+    "description": ""
+  },
+  "depositDEX": {
+    "message": ""
+  },
+  "depositFiat": {
+    "message": ""
+  },
+  "depositFromAccount": {
+    "message": ""
+  },
+  "depositShapeShift": {
+    "message": ""
+  },
+  "depositShapeShiftExplainer": {
+    "message": ""
+  },
+  "details": {
+    "message": ""
+  },
+  "directDeposit": {
+    "message": ""
+  },
+  "directDepositDex": {
+    "message": ""
+  },
+  "directDepositDexExplainer": {
+    "message": ""
+  },
+  "done": {
+    "message": ""
+  },
+  "downloadStateLogs": {
+    "message": ""
+  },
+  "dropped": {
+    "message": ""
+  },
+  "edit": {
+    "message": ""
+  },
+  "editAccountName": {
+    "message": ""
+  },
+  "emailUs": {
+    "message": ""
+  },
+  "encryptNewDen": {
+    "message": ""
+  },
+  "enterPassword": {
+    "message": ""
+  },
+  "enterPasswordConfirm": {
+    "message": ""
+  },
+  "passwordNotLongEnough": {
+    "message": ""
+  },
+  "passwordsDontMatch": {
+    "message": ""
+  },
+  "dexscanView": {
+    "message": ""
+  },
+  "exchangeRate": {
+    "message": ""
+  },
+  "exportPrivateKey": {
+    "message": ""
+  },
+  "exportPrivateKeyWarning": {
+    "message": ""
+  },
+  "failed": {
+    "message": ""
+  },
+  "fiat": {
+    "message": "",
+    "description": ""
+  },
+  "fileImportFail": {
+    "message": "",
+    "description": ""
+  },
+  "followTwitter": {
+    "message": ""
+  },
+  "from": {
+    "message": ""
+  },
+  "fromToSame": {
+    "message": ""
+  },
+  "fromShapeShift": {
+    "message": ""
+  },
+  "gas": {
+    "message": "",
+    "description": ""
+  },
+  "gasFee": {
+    "message": ""
+  },
+  "gasLimit": {
+    "message": ""
+  },
+  "gasLimitCalculation": {
+    "message": ""
+  },
+  "gasLimitRequired": {
+    "message": ""
+  },
+  "gasLimitTooLow": {
+    "message": ""
+  },
+  "generatingSeed": {
+    "message": ""
+  },
+  "gasPrice": {
+    "message": ""
+  },
+  "gasPriceCalculation": {
+    "message": ""
+  },
+  "gasPriceRequired": {
+    "message": ""
+  },
+  "getDex": {
+    "message": ""
+  },
+  "getDexFromFaucet": {
+    "message": "",
+    "description": ""
+  },
+  "greaterThanMin": {
+    "message": "",
+    "description": ""
+  },
+  "here": {
+    "message": "",
+    "description": ""
+  },
+  "hereList": {
+    "message": ""
+  },
+  "hide": {
+    "message": ""
+  },
+  "hideToken": {
+    "message": ""
+  },
+  "hideTokenPrompt": {
+    "message": ""
+  },
+  "howToDeposit": {
+    "message": ""
+  },
+  "holdDex": {
+    "message": ""
+  },
+  "import": {
+    "message": "",
+    "description": ""
+  },
+  "importAccount": {
+    "message": ""
+  },
+  "importAccountMsg": {
+    "message": ""
+  },
+  "importAnAccount": {
+    "message": ""
+  },
+  "importDen": {
+    "message": ""
+  },
+  "imported": {
+    "message": "",
+    "description": ""
+  },
+  "infoHelp": {
+    "message": ""
+  },
+  "insufficientFunds": {
+    "message": ""
+  },
+  "insufficientTokens": {
+    "message": ""
+  },
+  "invalidAddress": {
+    "message": ""
+  },
+  "invalidAddressRecipient": {
+    "message": ""
+  },
+  "invalidGasParams": {
+    "message": ""
+  },
+  "invalidInput": {
+    "message": ""
+  },
+  "invalidRequest": {
+    "message": ""
+  },
+  "invalidRPC": {
+    "message": ""
+  },
+  "jsonFail": {
+    "message": ""
+  },
+  "jsonFile": {
+    "message": "",
+    "description": ""
+  },
+  "keepTrackTokens": {
+    "message": ""
+  },
+  "kovan": {
+    "message": ""
+  },
+  "knowledgeDataBase": {
+    "message": ""
+  },
+  "max": {
+    "message": ""
+  },
+  "learnMore": {
+    "message": ""
+  },
+  "lessThanMax": {
+    "message": "",
+    "description": ""
+  },
+  "likeToAddTokens": {
+    "message": ""
+  },
+  "links": {
+    "message": ""
+  },
+  "limit": {
+    "message": ""
+  },
+  "loading": {
+    "message": ""
+  },
+  "loadingTokens": {
+    "message": ""
+  },
+  "localhost": {
+    "message": ""
+  },
+  "login": {
+    "message": ""
+  },
+  "logout": {
+    "message": ""
+  },
+  "loose": {
+    "message": ""
+  },
+  "loweCaseWords": {
+    "message": ""
+  },
+  "mainnet": {
+    "message": ""
+  },
+  "message": {
+    "message": ""
+  },
+  "dekusanDescription": {
+    "message": ""
+  },
+  "min": {
+    "message": ""
+  },
+  "myAccounts": {
+    "message": ""
+  },
+  "mustSelectOne": {
+    "message": ""
+  },
+  "needDexInWallet": {
+    "message": ""
+  },
+  "needImportFile": {
+    "message": "",
+    "description": ""
+  },
+  "needImportPassword": {
+    "message": "",
+    "description": ""
+  },
+  "negativeDex": {
+    "message": ""
+  },
+  "networks": {
+    "message": ""
+  },
+  "newAccount": {
+    "message": ""
+  },
+  "newAccountNumberName": {
+    "message": "",
+    "description": ""
+  },
+  "newContract": {
+    "message": ""
+  },
+  "newPassword": {
+    "message": ""
+  },
+  "newRecipient": {
+    "message": ""
+  },
+  "newRPC": {
+    "message": ""
+  },
+  "next": {
+    "message": ""
+  },
+  "noAddressForName": {
+    "message": ""
+  },
+  "noDeposits": {
+    "message": ""
+  },
+  "noTransactionHistory": {
+    "message": ""
+  },
+  "noTransactions": {
+    "message": ""
+  },
+  "notStarted": {
+    "message": ""
+  },
+  "oldUI": {
+    "message": ""
+  },
+  "oldUIMessage": {
+    "message": ""
+  },
+  "or": {
+    "message": "",
+    "description": ""
+  },
+  "passwordCorrect": {
+    "message": ""
+  },
+  "passwordMismatch": {
+    "message": "",
+    "description": ""
+  },
+  "passwordShort": {
+    "message": "",
+    "description": ""
+  },
+  "pastePrivateKey": {
+    "message": "",
+    "description": ""
+  },
+  "pasteSeed": {
+    "message": ""
+  },
+  "personalAddressDetected": {
+    "message": ""
+  },
+  "pleaseReviewTransaction": {
+    "message": ""
+  },
+  "popularTokens": {
+    "message": ""
+  },
+  "privacyMsg": {
+    "message": ""
+  },
+  "privateKey": {
+    "message": "",
+    "description": ""
+  },
+  "privateKeyWarning": {
+    "message": ""
+  },
+  "privateNetwork": {
+    "message": ""
+  },
+  "qrCode": {
+    "message": ""
+  },
+  "readdToken": {
+    "message": ""
+  },
+  "readMore": {
+    "message": ""
+  },
+  "readMore2": {
+    "message": ""
+  },
+  "receive": {
+    "message": ""
+  },
+  "recipientAddress": {
+    "message": ""
+  },
+  "refundAddress": {
+    "message": ""
+  },
+  "rejected": {
+    "message": ""
+  },
+  "resetAccount": {
+    "message": ""
+  },
+  "restoreFromSeed": {
+    "message": ""
+  },
+  "restoreVault": {
+    "message": ""
+  },
+  "required": {
+    "message": ""
+  },
+  "retryWithMoreGas": {
+    "message": ""
+  },
+  "walletSeed": {
+    "message": ""
+  },
+  "revealSeedWords": {
+    "message": ""
+  },
+  "revealSeedWordsWarning": {
+    "message": ""
+  },
+  "revert": {
+    "message": ""
+  },
+  "rinkeby": {
+    "message": ""
+  },
+  "ropsten": {
+    "message": ""
+  },
+  "currentRpc": {
+    "message": ""
+  },
+  "connectingToMainnet": {
+    "message": ""
+  },
+  "connectingToRopsten": {
+    "message": ""
+  },
+  "connectingToKovan": {
+    "message": ""
+  },
+  "connectingToTestnet": {
+    "message": ""
+  },
+  "connectingToUnknown": {
+    "message": ""
+  },
+  "sampleAccountName": {
+    "message": "",
+    "description": ""
+  },
+  "save": {
+    "message": ""
+  },
+  "reprice_title": {
+    "message": ""
+  },
+  "reprice_subtitle": {
+    "message": ""
+  },
+  "saveAsFile": {
+    "message": "",
+    "description": ""
+  },
+  "saveSeedAsFile": {
+    "message": ""
+  },
+  "search": {
+    "message": ""
+  },
+  "secretPhrase": {
+    "message": ""
+  },
+  "newPassword8Chars": {
+    "message": ""
+  },
+  "seedPhraseReq": {
+    "message": ""
+  },
+  "select": {
+    "message": ""
+  },
+  "selectCurrency": {
+    "message": ""
+  },
+  "selectService": {
+    "message": ""
+  },
+  "selectType": {
+    "message": ""
+  },
+  "send": {
+    "message": ""
+  },
+  "sendDEX": {
+    "message": ""
+  },
+  "sendTokens": {
+    "message": ""
+  },
+  "onlySendToDexonAddress": {
+    "message": ""
+  },
+  "searchTokens": {
+    "message": ""
+  },
+  "sendTokensAnywhere": {
+    "message": ""
+  },
+  "settings": {
+    "message": ""
+  },
+  "info": {
+    "message": ""
+  },
+  "shapeshiftBuy": {
+    "message": ""
+  },
+  "showPrivateKeys": {
+    "message": ""
+  },
+  "showQRCode": {
+    "message": ""
+  },
+  "sign": {
+    "message": ""
+  },
+  "signed": {
+    "message": ""
+  },
+  "signMessage": {
+    "message": ""
+  },
+  "signNotice": {
+    "message": ""
+  },
+  "sigRequest": {
+    "message": ""
+  },
+  "sigRequested": {
+    "message": ""
+  },
+  "spaceBetween": {
+    "message": ""
+  },
+  "status": {
+    "message": ""
+  },
+  "stateLogs": {
+    "message": ""
+  },
+  "stateLogsDescription": {
+    "message": ""
+  },
+  "stateLogError": {
+    "message": ""
+  },
+  "submit": {
+    "message": ""
+  },
+  "submitted": {
+    "message": ""
+  },
+  "supportCenter": {
+    "message": ""
+  },
+  "symbolBetweenZeroTen": {
+    "message": ""
+  },
+  "takesTooLong": {
+    "message": ""
+  },
+  "terms": {
+    "message": ""
+  },
+  "testFaucet": {
+    "message": ""
+  },
+  "testnet": {
+    "message": ""
+  },
+  "to": {
+    "message": ""
+  },
+  "toDEXviaShapeShift": {
+    "message": "",
+    "description": ""
+  },
+  "tokenAddress": {
+    "message": ""
+  },
+  "tokenAlreadyAdded": {
+    "message": ""
+  },
+  "tokenBalance": {
+    "message": ""
+  },
+  "tokenSelection": {
+    "message": ""
+  },
+  "tokenSymbol": {
+    "message": ""
+  },
+  "tokenWarning1": {
+    "message": ""
+  },
+  "total": {
+    "message": ""
+  },
+  "transactions": {
+    "message": ""
+  },
+  "transactionError": {
+    "message": ""
+  },
+  "transactionMemo": {
+    "message": ""
+  },
+  "transactionNumber": {
+    "message": ""
+  },
+  "transfers": {
+    "message": ""
+  },
+  "troubleTokenBalances": {
+    "message": "",
+    "description": ""
+  },
+  "twelveWords": {
+    "message": ""
+  },
+  "typePassword": {
+    "message": ""
+  },
+  "uiWelcome": {
+    "message": ""
+  },
+  "uiWelcomeMessage": {
+    "message": ""
+  },
+  "unapproved": {
+    "message": ""
+  },
+  "unavailable": {
+    "message": ""
+  },
+  "unknown": {
+    "message": ""
+  },
+  "unknownNetwork": {
+    "message": ""
+  },
+  "unknownNetworkId": {
+    "message": ""
+  },
+  "uriErrorMsg": {
+    "message": ""
+  },
+  "usaOnly": {
+    "message": "",
+    "description": ""
+  },
+  "usedByClients": {
+    "message": ""
+  },
+  "useOldUI": {
+    "message": ""
+  },
+  "validFileImport": {
+    "message": ""
+  },
+  "vaultCreated": {
+    "message": ""
+  },
+  "viewAccount": {
+    "message": ""
+  },
+  "visitWebSite": {
+    "message": ""
+  },
+  "warning": {
+    "message": ""
+  },
+  "welcomeBeta": {
+    "message": ""
+  },
+  "whatsThis": {
+    "message": ""
+  },
+  "yourSigRequested": {
+    "message": ""
+  },
+  "youSign": {
+    "message": ""
+  },
+  "aboutDekuSan": {
+    "message": ""
+  },
+  "accessingYourCamera": {
+    "message": ""
+  },
+  "accountOptions": {
+    "message": ""
+  },
+  "accountSelectionRequired": {
+    "message": ""
+  },
+  "activityLog": {
+    "message": ""
+  },
+  "addSuggestedTokens": {
+    "message": ""
+  },
+  "addAcquiredTokens": {
+    "message": ""
+  },
+  "approve": {
+    "message": ""
+  },
+  "attemptToCancel": {
+    "message": ""
+  },
+  "attemptToCancelDescription": {
+    "message": ""
+  },
+  "browserNotSupported": {
+    "message": ""
+  },
+  "bytes": {
+    "message": ""
+  },
+  "cancelAttempt": {
+    "message": ""
+  },
+  "cancellationGasFee": {
+    "message": ""
+  },
+  "cancelN": {
+    "message": ""
+  },
+  "clickToAdd": {
+    "message": ""
+  },
+  "close": {
+    "message": ""
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": ""
+  },
+  "connectHardwareWallet": {
+    "message": ""
+  },
+  "connect": {
+    "message": ""
+  },
+  "connecting": {
+    "message": ""
+  },
+  "connectToLedger": {
+    "message": ""
+  },
+  "connectToTrezor": {
+    "message": ""
+  },
+  "copyAddress": {
+    "message": ""
+  },
+  "currentLanguage": {
+    "message": ""
+  },
+  "downloadGoogleChrome": {
+    "message": ""
+  },
+  "dontHaveAHardwareWallet": {
+    "message": ""
+  },
+  "editingTransaction": {
+    "message": ""
+  },
+  "ensNameNotFound": {
+    "message": ""
+  },
+  "enterPasswordContinue": {
+    "message": ""
+  },
+  "dex": {
+    "message": ""
+  },
+  "expandView": {
+    "message": ""
+  },
+  "forgetDevice": {
+    "message": ""
+  },
+  "functionType": {
+    "message": ""
+  },
+  "gasUsed": {
+    "message": ""
+  },
+  "generatingTransaction": {
+    "message": ""
+  },
+  "getHelp": {
+    "message": ""
+  },
+  "hardware": {
+    "message": ""
+  },
+  "hardwareWalletConnected": {
+    "message": ""
+  },
+  "hardwareWallets": {
+    "message": ""
+  },
+  "hardwareWalletsMsg": {
+    "message": ""
+  },
+  "havingTroubleConnecting": {
+    "message": ""
+  },
+  "hexData": {
+    "message": ""
+  },
+  "history": {
+    "message": ""
+  },
+  "importUsingSeed": {
+    "message": ""
+  },
+  "initialTransactionConfirmed": {
+    "message": ""
+  },
+  "invalidSeedPhrase": {
+    "message": ""
+  },
+  "ledgerAccountRestriction": {
+    "message": ""
+  },
+  "menu": {
+    "message": ""
+  },
+  "dekusanSeedWords": {
+    "message": ""
+  },
+  "dekusanVersion": {
+    "message": ""
+  },
+  "missingYourTokens": {
+    "message": ""
+  },
+  "nevermind": {
+    "message": ""
+  },
+  "noConversionRateAvailable": {
+    "message": ""
+  },
+  "notFound": {
+    "message": ""
+  },
+  "noWebcamFoundTitle": {
+    "message": ""
+  },
+  "noWebcamFound": {
+    "message": ""
+  },
+  "onlySendTokensToAccountAddress": {
+    "message": "",
+    "description": ""
+  },
+  "openInTab": {
+    "message": ""
+  },
+  "orderOneHere": {
+    "message": ""
+  },
+  "origin": {
+    "message": ""
+  },
+  "outgoing": {
+    "message": ""
+  },
+  "parameters": {
+    "message": ""
+  },
+  "password": {
+    "message": ""
+  },
+  "pending": {
+    "message": ""
+  },
+  "prev": {
+    "message": ""
+  },
+  "primaryCurrencySetting": {
+    "message": ""
+  },
+  "primaryCurrencySettingDescription": {
+    "message": ""
+  },
+  "queue": {
+    "message": ""
+  },
+  "reject": {
+    "message": ""
+  },
+  "rejectAll": {
+    "message": ""
+  },
+  "rejectTxsN": {
+    "message": ""
+  },
+  "rejectTxsDescription": {
+    "message": ""
+  },
+  "reset": {
+    "message": ""
+  },
+  "resetAccountDescription": {
+    "message": ""
+  },
+  "restoreAccountWithSeed": {
+    "message": ""
+  },
+  "restore": {
+    "message": ""
+  },
+  "revealSeedWordsTitle": {
+    "message": ""
+  },
+  "revealSeedWordsDescription": {
+    "message": ""
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": ""
+  },
+  "remove": {
+    "message": ""
+  },
+  "removeAccount": {
+    "message": ""
+  },
+  "removeAccountDescription": {
+    "message": ""
+  },
+  "readyToConnect": {
+    "message": ""
+  },
+  "rpc": {
+    "message": ""
+  },
+  "saveAsCsvFile": {
+    "message": ""
+  },
+  "scanInstructions": {
+    "message": ""
+  },
+  "scanQrCode": {
+    "message": ""
+  },
+  "searchResults": {
+    "message": ""
+  },
+  "selectLocale": {
+    "message": ""
+  },
+  "sentDexon": {
+    "message": ""
+  },
+  "sentTokens": {
+    "message": ""
+  },
+  "separateEachWord": {
+    "message": ""
+  },
+  "selectAnAddress": {
+    "message": ""
+  },
+  "selectAnAccount": {
+    "message": ""
+  },
+  "selectAnAccountHelp": {
+    "message": ""
+  },
+  "selectHdPath": {
+    "message": ""
+  },
+  "selectPathHelp": {
+    "message": ""
+  },
+  "showHexData": {
+    "message": ""
+  },
+  "showHexDataDescription": {
+    "message": ""
+  },
+  "signatureRequest": {
+    "message": ""
+  },
+  "speedUp": {
+    "message": ""
+  },
+  "speedUpTitle": {
+    "message": ""
+  },
+  "speedUpSubtitle": {
+    "message": ""
+  },
+  "step1HardwareWallet": {
+    "message": ""
+  },
+  "step1HardwareWalletMsg": {
+    "message": ""
+  },
+  "step2HardwareWallet": {
+    "message": ""
+  },
+  "step2HardwareWalletMsg": {
+    "message": ""
+  },
+  "step3HardwareWallet": {
+    "message": ""
+  },
+  "step3HardwareWalletMsg": {
+    "message": ""
+  },
+  "token": {
+    "message": ""
+  },
+  "transaction": {
+    "message": ""
+  },
+  "transactionConfirmed": {
+    "message": ""
+  },
+  "transactionCreated": {
+    "message": ""
+  },
+  "transactionWithNonce": {
+    "message": ""
+  },
+  "transactionDropped": {
+    "message": ""
+  },
+  "transactionSubmitted": {
+    "message": ""
+  },
+  "transactionUpdated": {
+    "message": ""
+  },
+  "transactionUpdatedGas": {
+    "message": ""
+  },
+  "transfer": {
+    "message": ""
+  },
+  "transferFrom": {
+    "message": ""
+  },
+  "trezorHardwareWallet": {
+    "message": ""
+  },
+  "tryAgain": {
+    "message": ""
+  },
+  "units": {
+    "message": ""
+  },
+  "unknownFunction": {
+    "message": ""
+  },
+  "unknownQrCode": {
+    "message": ""
+  },
+  "unknownCameraErrorTitle": {
+    "message": ""
+  },
+  "unknownCameraError": {
+    "message": ""
+  },
+  "unlock": {
+    "message": ""
+  },
+  "unlockMessage": {
+    "message": ""
+  },
+  "updatedWithDate": {
+    "message": ""
+  },
+  "viewOnDexScan": {
+    "message": ""
+  },
+  "welcomeBack": {
+    "message": ""
+  },
+  "yesLetsTry": {
+    "message": ""
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": ""
+  },
+  "yourPrivateSeedPhrase": {
+    "message": ""
+  },
+  "connectingToRinkeby": {
+    "message": ""
+  }
+}
