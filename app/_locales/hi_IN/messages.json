@@ -14,26 +14,20 @@
   "address": {
     "message": ""
   },
-  "advancedOptions": {
-    "message": "Advanced Options"
-  },
   "addCustomToken": {
-    "message": "Add custom token"
+    "message": "कस्टम टोकन जोड़ें"
   },
   "addToken": {
     "message": ""
   },
   "addTokens": {
-    "message": "Add Tokens"
+    "message": "टोकनों को जोड़ें"
   },
   "amount": {
     "message": ""
   },
   "amountPlusGas": {
     "message": ""
-  },
-  "amountPlusTxFee": {
-    "message": "Amount + TX Fee"
   },
   "appDescription": {
     "message": "",
@@ -44,19 +38,16 @@
     "description": ""
   },
   "approved": {
-    "message": "Approved"
+    "message": ""
   },
   "attemptingConnect": {
     "message": ""
   },
   "attributions": {
-    "message": "Attributions"
+    "message": "एट्रिब्यूशन"
   },
   "available": {
     "message": ""
-  },
-  "average": {
-    "message": "Average"
   },
   "back": {
     "message": ""
@@ -65,13 +56,10 @@
     "message": ""
   },
   "balances": {
-    "message": "Token balance(s)"
+    "message": "आपके उपलब्ध बैलेंस"
   },
   "balanceIsInsufficientGas": {
     "message": ""
-  },
-  "basic": {
-    "message": "Basic"
   },
   "beta": {
     "message": ""
@@ -81,13 +69,13 @@
     "description": ""
   },
   "blockiesIdenticon": {
-    "message": "Use Blockies Identicon"
+    "message": "ब्लॉकीज पहचान का उपयोग करें"
   },
   "borrowDharma": {
     "message": ""
   },
   "builtInCalifornia": {
-    "message": "DekuSan is designed and built in California."
+    "message": "मेटामास्क कैलिफ़ोर्निया में डिज़ाइन और बनाया गया है।"
   },
   "buy": {
     "message": ""
@@ -99,13 +87,13 @@
     "message": ""
   },
   "ok": {
-    "message": "Ok"
+    "message": ""
   },
   "cancel": {
     "message": ""
   },
   "classicInterface": {
-    "message": "Use classic interface"
+    "message": "क्लासिक इंटरफ़ेस का उपयोग क"
   },
   "clickCopy": {
     "message": ""
@@ -114,7 +102,7 @@
     "message": ""
   },
   "confirmed": {
-    "message": "Confirmed"
+    "message": ""
   },
   "confirmContract": {
     "message": ""
@@ -126,7 +114,7 @@
     "message": ""
   },
   "continue": {
-    "message": "Continue"
+    "message": "जारी रखें"
   },
   "continueToCoinbase": {
     "message": ""
@@ -147,7 +135,7 @@
     "message": ""
   },
   "copiedSafe": {
-    "message": "I've copied it somewhere safe"
+    "message": "मैंने इसे कहीं सुरक्षित कॉपी कर दिया है"
   },
   "copy": {
     "message": ""
@@ -175,19 +163,16 @@
     "description": ""
   },
   "currentConversion": {
-    "message": "Current Conversion"
+    "message": "वर्तमान रूपांतरण"
   },
   "currentNetwork": {
-    "message": "Current Network"
+    "message": "वर्तमान नेटवर्क"
   },
   "customGas": {
     "message": ""
   },
-  "customGasSubTitle": {
-    "message": "Increasing fee may decrease processing times, but it is not guaranteed."
-  },
   "customToken": {
-    "message": "Custom Token"
+    "message": ""
   },
   "customize": {
     "message": ""
@@ -196,10 +181,10 @@
     "message": ""
   },
   "decimalsMustZerotoTen": {
-    "message": "Decimals must be at least 0, and not over 36."
+    "message": "दशमलव कम से कम 0 होनी चाहिए, और 36 से अधिक नहीं होनी चाहिए।"
   },
   "decimal": {
-    "message": "Decimals of Precision"
+    "message": "दशमलव परिशुद्धता"
   },
   "defaultNetwork": {
     "message": ""
@@ -248,10 +233,10 @@
     "message": ""
   },
   "downloadStateLogs": {
-    "message": "Download State Logs"
+    "message": "राज्य लॉग डाउनलोड करें"
   },
   "dropped": {
-    "message": "Dropped"
+    "message": ""
   },
   "edit": {
     "message": ""
@@ -260,7 +245,7 @@
     "message": ""
   },
   "emailUs": {
-    "message": "Email us!"
+    "message": "हमें ईमेल करें!"
   },
   "encryptNewDen": {
     "message": ""
@@ -269,13 +254,13 @@
     "message": ""
   },
   "enterPasswordConfirm": {
-    "message": "Enter your password to confirm"
+    "message": "पुष्टि करने के लिए अपना पासवर्ड दर्ज करें"
   },
   "passwordNotLongEnough": {
-    "message": "Password not long enough"
+    "message": ""
   },
   "passwordsDontMatch": {
-    "message": "Passwords Don't Match"
+    "message": ""
   },
   "dexscanView": {
     "message": ""
@@ -292,15 +277,6 @@
   "failed": {
     "message": ""
   },
-  "fast": {
-    "message": "Fast"
-  },
-  "fastest": {
-    "message": "Fastest"
-  },
-  "feeChartTitle": {
-    "message": "Live Transaction Fee Predictions"
-  },
   "fiat": {
     "message": "",
     "description": ""
@@ -310,13 +286,13 @@
     "description": ""
   },
   "followTwitter": {
-    "message": "Follow us on Twitter"
+    "message": "हमें ट्विटर पर अनुसरण करें"
   },
   "from": {
     "message": ""
   },
   "fromToSame": {
-    "message": "From and To address cannot be the same"
+    "message": "से और पता करने के लिए समान नहीं हो सकता"
   },
   "fromShapeShift": {
     "message": ""
@@ -341,13 +317,10 @@
     "message": ""
   },
   "generatingSeed": {
-    "message": "Generating Seed..."
+    "message": "सृजन  बीज उत्पन्न ... उत्पन्न ...उत्पन्न..."
   },
   "gasPrice": {
     "message": ""
-  },
-  "gasPriceNoDenom": {
-    "message": "Gas Price"
   },
   "gasPriceCalculation": {
     "message": ""
@@ -371,7 +344,7 @@
     "description": ""
   },
   "hereList": {
-    "message": "Here's a list!!!!"
+    "message": "यहां एक सूची है !!!!"
   },
   "hide": {
     "message": ""
@@ -386,7 +359,7 @@
     "message": ""
   },
   "holdDex": {
-    "message": "It allows you to hold dexon & tokens, and serves as your bridge to decentralized applications."
+    "message": "यह आपको आकाश और टोकन रखने की अनुमति देता है, और विकेंद्रीकृत अनुप्रयोगों के लिए आपके पुल के रूप में कार्य करता है।"
   },
   "import": {
     "message": "",
@@ -396,7 +369,7 @@
     "message": ""
   },
   "importAccountMsg": {
-    "message": " Imported accounts will not be associated with your originally created DekuSan account seedphrase. Learn more about imported accounts "
+    "message": "आयात किए गए खाते आपके मूल रूप से बनाए गए मेटामास्क अकाउंट सीडफ्रेज से संबद्ध नहीं होंगे। आयात किए गए खातों के बारे में और जानें"
   },
   "importAnAccount": {
     "message": ""
@@ -412,16 +385,16 @@
     "message": ""
   },
   "insufficientFunds": {
-    "message": "Insufficient funds."
+    "message": "अपर्याप्त धन"
   },
   "insufficientTokens": {
-    "message": "Insufficient tokens."
+    "message": "अपर्याप्त टोकन।"
   },
   "invalidAddress": {
     "message": ""
   },
   "invalidAddressRecipient": {
-    "message": "Recipient address is invalid"
+    "message": "प्राप्तकर्ता का पता अमान्य है"
   },
   "invalidGasParams": {
     "message": ""
@@ -433,39 +406,39 @@
     "message": ""
   },
   "invalidRPC": {
-    "message": "Invalid RPC URL"
+    "message": "अमान्य RPC कै URI"
   },
   "jsonFail": {
-    "message": "Something went wrong. Please make sure your JSON file is properly formatted."
+    "message": "कुछ गलत हो गया। कृपया सुनिश्चित करें कि आपकी JSON फ़ाइल ठीक से फ़ॉर्मेट की गई है।"
   },
   "jsonFile": {
     "message": "",
     "description": ""
   },
   "keepTrackTokens": {
-    "message": "Keep track of the tokens you’ve bought with your DekuSan account."
+    "message": ""
   },
   "kovan": {
     "message": ""
   },
   "knowledgeDataBase": {
-    "message": "Visit our Knowledge Base"
+    "message": "हमारे नॉलेज बेस पर जाएं"
   },
   "max": {
-    "message": "Max"
+    "message": ""
   },
   "learnMore": {
-    "message": "Learn more"
+    "message": ""
   },
   "lessThanMax": {
     "message": "",
     "description": ""
   },
   "likeToAddTokens": {
-    "message": "Would you like to add these tokens?"
+    "message": "क्या आप इन टोकनों को जोड़ना चाहते हैं?"
   },
   "links": {
-    "message": "Links"
+    "message": ""
   },
   "limit": {
     "message": ""
@@ -480,7 +453,7 @@
     "message": ""
   },
   "login": {
-    "message": "Log In"
+    "message": "लॉग इन करें"
   },
   "logout": {
     "message": ""
@@ -489,7 +462,7 @@
     "message": ""
   },
   "loweCaseWords": {
-    "message": "seed words only have lowercase characters"
+    "message": "बीज शब्द में केवल लोअरकेस वर्ण होते हैं"
   },
   "mainnet": {
     "message": ""
@@ -498,19 +471,16 @@
     "message": ""
   },
   "dekusanDescription": {
-    "message": "DekuSan is a secure identity vault for Dexon."
+    "message": "मेटामास्क इथीरियम के लिए एक सुरक्षित पहचान वॉल्ट है।"
   },
   "min": {
     "message": ""
-  },
-  "minutesShorthand": {
-    "message": "Min"
   },
   "myAccounts": {
     "message": ""
   },
   "mustSelectOne": {
-    "message": "Must select at least 1 token."
+    "message": "कम से कम 1 टोकन का चयन करना आवश्यक है।"
   },
   "needDexInWallet": {
     "message": ""
@@ -524,7 +494,7 @@
     "description": ""
   },
   "negativeDex": {
-    "message": "Can not send negative amounts of DEX."
+    "message": "ईटीएच की नकारात्मक मात्रा नहीं भेज सकते हैं।."
   },
   "networks": {
     "message": ""
@@ -545,32 +515,8 @@
   "newRecipient": {
     "message": ""
   },
-  "newNetwork": {
-    "message": "New Network"
-  },
-  "rpcURL": {
-    "message": "New RPC URL"
-  },
-  "showAdvancedOptions": {
-    "message": "Show Advanced Options"
-  },
-  "hideAdvancedOptions": {
-    "message": "Hide Advanced Options"
-  },
-  "optionalChainId": {
-    "message": "ChainID (optional)"
-  },
-  "optionalSymbol": {
-    "message": "Symbol (optional)"
-  },
-  "optionalNickname": {
-    "message": "Nickname (optional)"
-  },
-  "newTotal": {
-    "message": "New Total"
-  },
-  "newTransactionFee": {
-    "message": "New Transaction Fee"
+  "newRPC": {
+    "message": "नया RPC URL"
   },
   "next": {
     "message": ""
@@ -590,9 +536,6 @@
   "notStarted": {
     "message": ""
   },
-  "ofTextNofM": {
-    "message": "of"
-  },
   "oldUI": {
     "message": ""
   },
@@ -604,7 +547,7 @@
     "description": ""
   },
   "passwordCorrect": {
-    "message": "Please make sure your password is correct."
+    "message": "कृपया सुनिश्चित करें कि आपका पासवर्ड सही है।"
   },
   "passwordMismatch": {
     "message": "",
@@ -622,16 +565,16 @@
     "message": ""
   },
   "personalAddressDetected": {
-    "message": "Personal address detected. Input the token contract address."
+    "message": "व्यक्तिगत पता मिला। टोकन अनुबंध का पता इनपुट।"
   },
   "pleaseReviewTransaction": {
     "message": ""
   },
   "popularTokens": {
-    "message": "Popular Tokens"
+    "message": ""
   },
   "privacyMsg": {
-    "message": "Privacy Policy"
+    "message": "गोपनीयता नीति"
   },
   "privateKey": {
     "message": "",
@@ -653,7 +596,7 @@
     "message": ""
   },
   "readMore2": {
-    "message": "Read more."
+    "message": "हां - और पढ़ें।"
   },
   "receive": {
     "message": ""
@@ -668,13 +611,13 @@
     "message": ""
   },
   "resetAccount": {
-    "message": "Reset Account"
+    "message": "खाता रीसेट करें"
   },
   "restoreFromSeed": {
-    "message": "Restore account?"
+    "message": "बीज वाक्यांश से पुनर्स्थापित करें"
   },
   "restoreVault": {
-    "message": "Restore Vault"
+    "message": ""
   },
   "required": {
     "message": ""
@@ -683,13 +626,13 @@
     "message": ""
   },
   "walletSeed": {
-    "message": "Wallet Seed"
+    "message": ""
   },
   "revealSeedWords": {
-    "message": "Reveal Seed Words"
+    "message": "बीज शब्द प्रकट करें"
   },
   "revealSeedWordsWarning": {
-    "message": "These words can be used to steal all your accounts."
+    "message": "किसी सार्वजनिक स्थान पर अपने बीज के शब्द ठीक नहीं करें! ये शब्द आपके सभी खातों को चोरी करने के लिए उपयोग किए जा सकते हैं।"
   },
   "revert": {
     "message": ""
@@ -701,10 +644,10 @@
     "message": ""
   },
   "currentRpc": {
-    "message": "Current RPC"
+    "message": ""
   },
   "connectingToMainnet": {
-    "message": "Connecting to Main DEXON Network"
+    "message": ""
   },
   "connectingToRopsten": {
     "message": ""
@@ -713,10 +656,10 @@
     "message": ""
   },
   "connectingToTestnet": {
-    "message": "Connecting to DEXON Test Network"
+    "message": ""
   },
   "connectingToUnknown": {
-    "message": "Connecting to Unknown Network"
+    "message": ""
   },
   "sampleAccountName": {
     "message": "",
@@ -736,46 +679,46 @@
     "description": ""
   },
   "saveSeedAsFile": {
-    "message": "Save Seed Words As File"
+    "message": "सेड वर्ड्स - फाईल्स सेव करें"
   },
   "search": {
-    "message": "Search"
+    "message": "खोज करें"
   },
   "secretPhrase": {
-    "message": "Enter your secret twelve word phrase here to restore your vault."
+    "message": "अपनी गुप्त बारह शब्द वाक्यांश यहाँ अपनी तिजोरी को पुनर्स्थापित करने के लिए दर्ज करें।"
   },
   "newPassword8Chars": {
-    "message": "New Password (min 8 chars)"
+    "message": ""
   },
   "seedPhraseReq": {
-    "message": "Seed phrases are 12 words long"
+    "message": "बीज वाक्यांश 12 शब्द लंबा हैं"
   },
   "select": {
-    "message": "Select"
+    "message": "चुनें"
   },
   "selectCurrency": {
-    "message": "Select Currency"
+    "message": "मुद्रा चुनें"
   },
   "selectService": {
     "message": ""
   },
   "selectType": {
-    "message": "Select Type"
+    "message": "प्रकार चुनें"
   },
   "send": {
     "message": ""
   },
   "sendDEX": {
-    "message": "Send DEX"
+    "message": "भेजें DEX"
   },
   "sendTokens": {
     "message": ""
   },
   "onlySendToDexonAddress": {
-    "message": "Only send DEX to a DEXON address."
+    "message": ""
   },
   "searchTokens": {
-    "message": "Search Tokens"
+    "message": ""
   },
   "sendTokensAnywhere": {
     "message": ""
@@ -784,7 +727,7 @@
     "message": ""
   },
   "info": {
-    "message": "Info"
+    "message": ""
   },
   "shapeshiftBuy": {
     "message": ""
@@ -799,7 +742,7 @@
     "message": ""
   },
   "signed": {
-    "message": "Signed"
+    "message": ""
   },
   "signMessage": {
     "message": ""
@@ -814,43 +757,43 @@
     "message": ""
   },
   "spaceBetween": {
-    "message": "there can only be a space between words"
+    "message": "केवल शब्दों के बीच एक स्थान हो सकता है"
   },
   "status": {
     "message": ""
   },
   "stateLogs": {
-    "message": "State Logs"
+    "message": "स्थिति संदेश"
   },
   "stateLogsDescription": {
-    "message": "State logs contain your public account addresses and sent transactions."
+    "message": "स्थिति संदेश में आपका सार्वजनिक खाता, पतों और भेजे गए लेनदेन, होते हैं।"
   },
   "stateLogError": {
-    "message": "Error in retrieving state logs."
+    "message": ""
   },
   "submit": {
     "message": ""
   },
   "submitted": {
-    "message": "Submitted"
+    "message": ""
   },
   "supportCenter": {
-    "message": "Visit our Support Center"
+    "message": "हमारे सहायता केंद्र पर जाएं"
   },
-  "symbolBetweenZeroTwelve": {
-    "message": "Symbol must be between 0 and 12 characters."
+  "symbolBetweenZeroTen": {
+    "message": "प्रतीक 0 और 10 अक्षरों के बीच होना चाहिए"
   },
   "takesTooLong": {
     "message": ""
   },
   "terms": {
-    "message": "Terms of Use"
+    "message": "उपयोग की शर्तें"
   },
   "testFaucet": {
     "message": ""
   },
   "testnet": {
-    "message": "DEXON Test Network"
+    "message": ""
   },
   "to": {
     "message": ""
@@ -860,37 +803,31 @@
     "description": ""
   },
   "tokenAddress": {
-    "message": "Token Address"
+    "message": "टोकन पता"
   },
   "tokenAlreadyAdded": {
-    "message": "Token has already been added."
+    "message": "टोकन पहले ही जोड़ा जा चुका है।"
   },
   "tokenBalance": {
     "message": ""
   },
   "tokenSelection": {
-    "message": "Search for tokens or select from our list of popular tokens."
+    "message": "टोकन के लिए खोजें या हमारी लोकप्रिय टॉकेन्स की सूची से चुनें।"
   },
   "tokenSymbol": {
-    "message": "Token Symbol"
+    "message": "टोकन प्रतीक"
   },
   "tokenWarning1": {
-    "message": "Keep track of the tokens you’ve bought with your DekuSan account. If you bought tokens using a different account, those tokens will not appear here."
+    "message": "अपने मेटामास्क अकाउंट से खरीदे गए टोकनों का नज़र रखें। अगर आप किसी अलग खाते का उपयोग कर टोकन खरीदे हैं, तो ये टोकन यहां दिखाई नहीं देंगे।"
   },
   "total": {
     "message": ""
   },
   "transactions": {
-    "message": "transactions"
+    "message": "लेनदेन"
   },
   "transactionError": {
-    "message": "Transaction Error. Exception thrown in contract code."
-  },
-  "transactionErrorNoContract": {
-    "message": "Trying to call a function on a non-contract address."
-  },
-  "transactionFee": {
-    "message": "Transaction Fee"
+    "message": ""
   },
   "transactionMemo": {
     "message": ""
@@ -906,7 +843,7 @@
     "description": ""
   },
   "twelveWords": {
-    "message": "These 12 words are the only way to restore your DekuSan accounts.\nSave them somewhere safe and secret."
+    "message": "ये 12 शब्द आपके मेटामास्क खातों को पुनर्स्थापित करने का एकमात्र तरीका है। \n उन्हें कहीं सुरक्षित और गुप्त रूप से सहेजें।"
   },
   "typePassword": {
     "message": ""
@@ -918,7 +855,7 @@
     "message": ""
   },
   "unapproved": {
-    "message": "Unapproved"
+    "message": ""
   },
   "unavailable": {
     "message": ""
@@ -933,7 +870,7 @@
     "message": ""
   },
   "uriErrorMsg": {
-    "message": "URIs require the appropriate HTTP\/HTTPS prefix."
+    "message": "URI-यूआरआई को उपयुक्त HTTP \/ HTTPS उपसर्ग की आवश्यकता होती है।"
   },
   "usaOnly": {
     "message": "",
@@ -943,25 +880,25 @@
     "message": ""
   },
   "useOldUI": {
-    "message": "Use old UI"
+    "message": "पुराने UI का उपयोग करें"
   },
   "validFileImport": {
-    "message": "You must select a valid file to import."
+    "message": "आयात करने के लिए आपको एक वैध फ़ाइल चुननी होगी।"
   },
   "vaultCreated": {
-    "message": "Vault Created"
+    "message": "वॉल्ट बनाया गया"
   },
   "viewAccount": {
     "message": ""
   },
   "visitWebSite": {
-    "message": "Visit our web site"
+    "message": "हमारी वेब साइट पर जाएं"
   },
   "warning": {
     "message": ""
   },
   "welcomeBeta": {
-    "message": "Welcome to DekuSan Beta"
+    "message": "मेटामास्क बीटा में आपका स्वागत है"
   },
   "whatsThis": {
     "message": ""
@@ -973,413 +910,413 @@
     "message": ""
   },
   "aboutDekuSan": {
-    "message": "DekuSan is the official DEXON browser extension, forked from MetaMask, by DEXON Foundation."
+    "message": ""
   },
   "accessingYourCamera": {
-    "message": "Accessing your camera..."
+    "message": ""
   },
   "accountOptions": {
-    "message": "Account Options"
+    "message": ""
   },
   "accountSelectionRequired": {
-    "message": "You need to select an account!"
+    "message": ""
   },
   "activityLog": {
-    "message": "activity log"
+    "message": ""
   },
   "addSuggestedTokens": {
-    "message": "Add Suggested Tokens"
+    "message": ""
   },
   "addAcquiredTokens": {
-    "message": "Add the tokens you've acquired using DekuSan"
+    "message": ""
   },
   "approve": {
-    "message": "Approve"
+    "message": ""
   },
   "attemptToCancel": {
-    "message": "Attempt to Cancel?"
+    "message": ""
   },
   "attemptToCancelDescription": {
-    "message": "Submitting this attempt does not guarantee your original transaction will be cancelled. If the cancellation attempt is successful, you will be charged the transaction fee above."
+    "message": ""
   },
   "browserNotSupported": {
-    "message": "Your Browser is not supported..."
+    "message": ""
   },
   "bytes": {
-    "message": "Bytes"
+    "message": ""
   },
   "cancelAttempt": {
-    "message": "Cancel Attempt"
+    "message": ""
   },
   "cancellationGasFee": {
-    "message": "Cancellation Gas Fee"
+    "message": ""
   },
   "cancelN": {
-    "message": "Cancel all $1 transactions"
+    "message": ""
   },
   "clickToAdd": {
-    "message": "Click on $1 to add them to your account"
+    "message": ""
   },
   "close": {
-    "message": "Close"
+    "message": ""
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "You need to use DekuSan on Google Chrome in order to connect to your Hardware Wallet."
+    "message": ""
   },
   "connectHardwareWallet": {
-    "message": "Connect Hardware Wallet"
+    "message": ""
   },
   "connect": {
-    "message": "Connect"
+    "message": ""
   },
   "connecting": {
-    "message": "Connecting..."
+    "message": ""
   },
   "connectToLedger": {
-    "message": "Connect to Ledger"
+    "message": ""
   },
   "connectToTrezor": {
-    "message": "Connect to Trezor"
+    "message": ""
   },
   "copyAddress": {
-    "message": "Copy address to clipboard"
+    "message": ""
   },
   "currentLanguage": {
-    "message": "Current Language"
+    "message": ""
   },
   "downloadGoogleChrome": {
-    "message": "Download Google Chrome"
+    "message": ""
   },
   "dontHaveAHardwareWallet": {
-    "message": "Don’t have a hardware wallet?"
+    "message": ""
   },
   "editingTransaction": {
-    "message": "Make changes to your transaction"
+    "message": ""
   },
   "ensNameNotFound": {
-    "message": "ENS name not found"
+    "message": ""
   },
   "enterPasswordContinue": {
-    "message": "Enter password to continue"
+    "message": ""
   },
   "dex": {
-    "message": "DEX"
+    "message": ""
   },
   "expandView": {
-    "message": "Expand View"
+    "message": ""
   },
   "forgetDevice": {
-    "message": "Forget this device"
+    "message": ""
   },
   "functionType": {
-    "message": "Function Type"
+    "message": ""
   },
   "gasUsed": {
-    "message": "Gas Used"
+    "message": ""
   },
   "generatingTransaction": {
-    "message": "Generating transaction"
+    "message": ""
   },
   "getHelp": {
-    "message": "Get Help."
+    "message": ""
   },
   "hardware": {
-    "message": "hardware"
+    "message": ""
   },
   "hardwareWalletConnected": {
-    "message": "Hardware wallet connected"
+    "message": ""
   },
   "hardwareWallets": {
-    "message": "Connect a hardware wallet"
+    "message": ""
   },
   "hardwareWalletsMsg": {
-    "message": "Select a hardware wallet you'd like to use with DekuSan"
+    "message": ""
   },
   "havingTroubleConnecting": {
-    "message": "Having trouble connecting?"
+    "message": ""
   },
   "hexData": {
-    "message": "Hex Data"
+    "message": ""
   },
   "history": {
-    "message": "History"
+    "message": ""
   },
   "importUsingSeed": {
-    "message": "Import using account seed phrase"
+    "message": ""
   },
   "initialTransactionConfirmed": {
-    "message": "Your initial transaction was confirmed by the network. Click OK to go back."
+    "message": ""
   },
   "invalidSeedPhrase": {
-    "message": "Invalid seed phrase"
+    "message": ""
   },
   "ledgerAccountRestriction": {
-    "message": "You need to make use your last account before you can add a new one."
+    "message": ""
   },
   "menu": {
-    "message": "Menu"
+    "message": ""
   },
   "dekusanSeedWords": {
-    "message": "DekuSan Seed Words"
+    "message": ""
   },
   "dekusanVersion": {
-    "message": "DekuSan Version"
+    "message": ""
   },
   "missingYourTokens": {
-    "message": "Don't see your tokens?"
+    "message": ""
   },
   "nevermind": {
-    "message": "Nevermind"
+    "message": ""
   },
   "noConversionRateAvailable": {
-    "message": "No Conversion Rate Available"
+    "message": ""
   },
   "notFound": {
-    "message": "Not Found"
+    "message": ""
   },
   "noWebcamFoundTitle": {
-    "message": "Webcam not found"
+    "message": ""
   },
   "noWebcamFound": {
-    "message": "Your computer's webcam was not found. Please try again."
+    "message": ""
   },
   "onlySendTokensToAccountAddress": {
-    "message": "Only send $1 to a DEXON account address.",
-    "description": "displays token symbol"
+    "message": "",
+    "description": ""
   },
   "openInTab": {
-    "message": "Open in tab"
+    "message": ""
   },
   "orderOneHere": {
-    "message": "Order a Trezor or Ledger and keep your funds in cold storage"
+    "message": ""
   },
   "origin": {
-    "message": "Origin"
+    "message": ""
   },
   "outgoing": {
-    "message": "Outgoing"
+    "message": ""
   },
   "parameters": {
-    "message": "Parameters"
+    "message": ""
   },
   "password": {
-    "message": "Password"
+    "message": ""
   },
   "pending": {
-    "message": "pending"
+    "message": ""
   },
   "prev": {
-    "message": "Prev"
+    "message": ""
   },
   "primaryCurrencySetting": {
-    "message": "Primary Currency"
+    "message": ""
   },
   "primaryCurrencySettingDescription": {
-    "message": "Select DEX to prioritize displaying values in DEX. Select Fiat to prioritize displaying values in your selected currency."
+    "message": ""
   },
   "queue": {
-    "message": "Queue"
+    "message": ""
   },
   "reject": {
-    "message": "Reject"
+    "message": ""
   },
   "rejectAll": {
-    "message": "Reject All"
+    "message": ""
   },
   "rejectTxsN": {
-    "message": "Reject $1 transactions"
+    "message": ""
   },
   "rejectTxsDescription": {
-    "message": "You are about to batch reject $1 transactions."
+    "message": ""
   },
   "reset": {
-    "message": "Reset"
+    "message": ""
   },
   "resetAccountDescription": {
-    "message": "Resetting your account will clear your transaction history."
+    "message": ""
   },
   "restoreAccountWithSeed": {
-    "message": "Restore your Account with Seed Phrase"
+    "message": ""
   },
   "restore": {
-    "message": "Restore"
+    "message": ""
   },
   "revealSeedWordsTitle": {
-    "message": "Seed Phrase"
+    "message": ""
   },
   "revealSeedWordsDescription": {
-    "message": "If you ever change browsers or move computers, you will need this seed phrase to access your accounts. Save them somewhere safe and secret."
+    "message": ""
   },
   "revealSeedWordsWarningTitle": {
-    "message": "DO NOT share this phrase with anyone!"
+    "message": ""
   },
   "remove": {
-    "message": "remove"
+    "message": ""
   },
   "removeAccount": {
-    "message": "Remove account"
+    "message": ""
   },
   "removeAccountDescription": {
-    "message": "This account will be removed from your wallet. Please make sure you have the original seed phrase or private key for this imported account before continuing. You can import or create accounts again from the account drop-down. "
+    "message": ""
   },
   "readyToConnect": {
-    "message": "Ready to Connect?"
+    "message": ""
   },
   "rpc": {
-    "message": "Custom RPC"
+    "message": ""
   },
   "saveAsCsvFile": {
-    "message": "Save as CSV File"
+    "message": ""
   },
   "scanInstructions": {
-    "message": "Place the QR code in front of your camera"
+    "message": ""
   },
   "scanQrCode": {
-    "message": "Scan QR Code"
+    "message": ""
   },
   "searchResults": {
-    "message": "Search Results"
+    "message": ""
   },
   "selectLocale": {
-    "message": "Select Locale"
+    "message": ""
   },
   "sentDexon": {
-    "message": "Sent DEXON"
+    "message": ""
   },
   "sentTokens": {
-    "message": "sent tokens"
+    "message": ""
   },
   "separateEachWord": {
-    "message": "Separate each word with a single space"
+    "message": ""
   },
   "selectAnAddress": {
-    "message": "Select an Address"
+    "message": ""
   },
   "selectAnAccount": {
-    "message": "Select an Account"
+    "message": ""
   },
   "selectAnAccountHelp": {
-    "message": "Select the account to view in DekuSan"
+    "message": ""
   },
   "selectHdPath": {
-    "message": "Select HD Path"
+    "message": ""
   },
   "selectPathHelp": {
-    "message": "If you don't see your existing Ledger accounts below, try switching paths to \"Legacy (MEW \/ MyCrypto)\""
+    "message": ""
   },
   "showHexData": {
-    "message": "Show Hex Data"
+    "message": ""
   },
   "showHexDataDescription": {
-    "message": "Select this to show the hex data field on the send screen"
+    "message": ""
   },
   "signatureRequest": {
-    "message": "Signature Request"
+    "message": ""
   },
   "speedUp": {
-    "message": "speed up"
+    "message": ""
   },
   "speedUpTitle": {
-    "message": "Speed Up Transaction"
+    "message": ""
   },
   "speedUpSubtitle": {
-    "message": "Increase your gas price to attempt to overwrite and speed up your transaction"
+    "message": ""
   },
   "step1HardwareWallet": {
-    "message": "1. Connect Hardware Wallet"
+    "message": ""
   },
   "step1HardwareWalletMsg": {
-    "message": "Connect your hardware wallet directly to your computer."
+    "message": ""
   },
   "step2HardwareWallet": {
-    "message": "2. Select an Account"
+    "message": ""
   },
   "step2HardwareWalletMsg": {
-    "message": "Select the account you want to view. You can only choose one at a time."
+    "message": ""
   },
   "step3HardwareWallet": {
-    "message": "3. Start using dApps and more!"
+    "message": ""
   },
   "step3HardwareWalletMsg": {
-    "message": "Use your hardware account like you would with any DEXON account. Log in to dApps, send DEX, buy and store ERC20 tokens and Non-Fungible tokens like CryptoKitties."
+    "message": ""
   },
   "token": {
-    "message": "Token"
+    "message": ""
   },
   "transaction": {
-    "message": "transaction"
+    "message": ""
   },
   "transactionConfirmed": {
-    "message": "Transaction confirmed on $2."
+    "message": ""
   },
   "transactionCreated": {
-    "message": "Transaction created with a value of $1 on $2."
+    "message": ""
   },
   "transactionWithNonce": {
-    "message": "Transaction $1"
+    "message": ""
   },
   "transactionDropped": {
-    "message": "Transaction dropped on $2."
+    "message": ""
   },
   "transactionSubmitted": {
-    "message": "Transaction submitted on $2."
+    "message": ""
   },
   "transactionUpdated": {
-    "message": "Transaction updated on $2."
+    "message": ""
   },
   "transactionUpdatedGas": {
-    "message": "Transaction updated with a gas price of $1 on $2."
+    "message": ""
   },
   "transfer": {
-    "message": "Transfer"
+    "message": ""
   },
   "transferFrom": {
-    "message": "Transfer From"
+    "message": ""
   },
   "trezorHardwareWallet": {
-    "message": "TREZOR Hardware Wallet"
+    "message": ""
   },
   "tryAgain": {
-    "message": "Try again"
+    "message": ""
   },
   "units": {
-    "message": "units"
+    "message": ""
   },
   "unknownFunction": {
-    "message": "Unknown Function"
+    "message": ""
   },
   "unknownQrCode": {
-    "message": "Error: We couldn't identify that QR code"
+    "message": ""
   },
   "unknownCameraErrorTitle": {
-    "message": "Ooops! Something went wrong...."
+    "message": ""
   },
   "unknownCameraError": {
-    "message": "There was an error while trying to access your camera. Please try again..."
+    "message": ""
   },
   "unlock": {
-    "message": "Unlock"
+    "message": ""
   },
   "unlockMessage": {
-    "message": "The decentralized web awaits"
+    "message": ""
   },
   "updatedWithDate": {
-    "message": "Updated $1"
+    "message": ""
   },
   "viewOnDexScan": {
-    "message": "View on DEXscan"
+    "message": ""
   },
   "welcomeBack": {
-    "message": "Welcome Back!"
+    "message": ""
   },
   "yesLetsTry": {
-    "message": "Yes, let's try"
+    "message": ""
   },
   "youNeedToAllowCameraAccess": {
-    "message": "You need to allow camera access to use this feature."
+    "message": ""
   },
   "yourPrivateSeedPhrase": {
-    "message": "Your private seed phrase"
+    "message": ""
   },
   "connectingToRinkeby": {
     "message": ""

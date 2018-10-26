@@ -12,7 +12,10 @@ module.exports = createJsonRpcClient
 function createJsonRpcClient ({ rpcUrl }) {
   const fetchMiddleware = createFetchMiddleware({ rpcUrl })
   const blockProvider = providerFromMiddleware(fetchMiddleware)
-  const blockTracker = new BlockTracker({ provider: blockProvider })
+  const blockTracker = new BlockTracker({
+    provider: blockProvider,
+    pollingInterval: 1000,
+  })
 
   const networkMiddleware = mergeMiddleware([
     createBlockRefRewriteMiddleware({ blockTracker }),

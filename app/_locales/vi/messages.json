@@ -56,11 +56,17 @@
   "accountName": {
     "message": "Tên tài khoản"
   },
+  "address": {
+    "message": "Địa chỉ"
+  },
+  "addCustomToken": {
+    "message": ""
+  },
   "addToken": {
     "message": "Thêm mã Token"
   },
-  "address": {
-    "message": "Địa chỉ"
+  "addTokens": {
+    "message": ""
   },
   "amount": {
     "message": "Số lượng"
@@ -69,15 +75,21 @@
     "message": "Số lượng + Gas"
   },
   "appDescription": {
-    "description": "Mô tả phần mềm",
-    "message": "Tính năng DEXON cho trình duyệt"
+    "message": "Tính năng DEXON cho trình duyệt",
+    "description": "Mô tả phần mềm"
   },
   "appName": {
-    "description": "Tên phần mềm",
-    "message": "DekuSan"
+    "message": "DekuSan",
+    "description": "Tên phần mềm"
+  },
+  "approved": {
+    "message": ""
   },
   "attemptingConnect": {
     "message": "Đang kết nối đến blockchain."
+  },
+  "attributions": {
+    "message": ""
   },
   "available": {
     "message": "Có sẵn"
@@ -88,6 +100,9 @@
   "balance": {
     "message": "Số dư:"
   },
+  "balances": {
+    "message": ""
+  },
   "balanceIsInsufficientGas": {
     "message": "Số dư không đủ để thanh toán tổng tiền gas hiện tại"
   },
@@ -95,11 +110,17 @@
     "message": "Bản thử nghiệm Beta"
   },
   "betweenMinAndMax": {
-    "description": "trợ giúp để nhập hex dưới dạng số thập phân",
-    "message": "phải nhiều hơn hoặc bằng $1 và ít hơn hoặc bằng $2."
+    "message": "phải nhiều hơn hoặc bằng $1 và ít hơn hoặc bằng $2.",
+    "description": "trợ giúp để nhập hex dưới dạng số thập phân"
+  },
+  "blockiesIdenticon": {
+    "message": ""
   },
   "borrowDharma": {
     "message": "Vay Dharma (thử nghiệm)"
+  },
+  "builtInCalifornia": {
+    "message": ""
   },
   "buy": {
     "message": "Mua"
@@ -110,14 +131,23 @@
   "buyCoinbaseExplainer": {
     "message": "Coinbase là dịch vụ ví điện tử thông dụng nhất thế giới để mua bán Bitcoin, Dexon, và Litecoin"
   },
+  "ok": {
+    "message": ""
+  },
   "cancel": {
     "message": "Hủy"
+  },
+  "classicInterface": {
+    "message": ""
   },
   "clickCopy": {
     "message": "Nhấp vào để sao chép"
   },
   "confirm": {
     "message": "Xác nhận"
+  },
+  "confirmed": {
+    "message": ""
   },
   "confirmContract": {
     "message": "Xác nhận hợp đồng"
@@ -127,6 +157,9 @@
   },
   "confirmTransaction": {
     "message": "Xác nhận giao dịch"
+  },
+  "continue": {
+    "message": ""
   },
   "continueToCoinbase": {
     "message": "Tiếp tục đến Coinbase"
@@ -146,17 +179,20 @@
   "copiedExclamation": {
     "message": "Đã sao chép!"
   },
+  "copiedSafe": {
+    "message": ""
+  },
   "copy": {
     "message": "Sao chép"
+  },
+  "copyToClipboard": {
+    "message": "Đã sao chép vào clipboard"
   },
   "copyButton": {
     "message": "Sao chép"
   },
   "copyPrivateKey": {
     "message": "Đây là Khoá Bí Mật của bạn (nhấp vào để sao chép)"
-  },
-  "copyToClipboard": {
-    "message": "Đã sao chép vào clipboard"
   },
   "create": {
     "message": "Tạo"
@@ -168,38 +204,50 @@
     "message": "Tạo"
   },
   "crypto": {
-    "description": "Hình thức giao dịch (tiền điện tử)",
-    "message": "Tiền điện tử"
+    "message": "Tiền điện tử",
+    "description": "Hình thức giao dịch (tiền điện tử)"
+  },
+  "currentConversion": {
+    "message": ""
+  },
+  "currentNetwork": {
+    "message": ""
   },
   "customGas": {
     "message": "Tùy chỉnh gas"
   },
-  "customRPC": {
-    "message": "Tùy chỉnh RPC"
+  "customToken": {
+    "message": ""
   },
   "customize": {
     "message": "Tùy chỉnh"
   },
+  "customRPC": {
+    "message": "Tùy chỉnh RPC"
+  },
+  "decimalsMustZerotoTen": {
+    "message": ""
+  },
+  "decimal": {
+    "message": ""
+  },
   "defaultNetwork": {
-    "message": "Mạng lưới mặc định dùng cho các giao dịch DEX là Main Net (tiền ETH thật)."
+    "message": "Mạng lưới mặc định dùng cho các giao dịch DEX là Main Net (tiền DEX thật)."
   },
   "denExplainer": {
     "message": "Số DEN của bạn là mật khẩu đã được mã hóa và lưu trữ trong DekuSan"
   },
   "deposit": {
-    "message": "Ký gửi/nạp tiền"
+    "message": "Ký gửi\/nạp tiền"
   },
   "depositBTC": {
     "message": "Ký gửi BTC đến địa chỉ sau:"
   },
   "depositCoin": {
-    "description": "Báo cho người dùng biết đồng tiền nào họ đã chọn để ký gửi với ShapeShift",
-    "message": "Ký gửi $1 đến địa chỉ sau:"
+    "message": "Ký gửi $1 đến địa chỉ sau:",
+    "description": "Báo cho người dùng biết đồng tiền nào họ đã chọn để ký gửi với ShapeShift"
   },
-  "depositEth": {
-    "message": "Ký gửi Eth"
-  },
-  "depositDex": {
+  "depositDEX": {
     "message": "Ký gửi DEX"
   },
   "depositFiat": {
@@ -220,14 +268,20 @@
   "directDeposit": {
     "message": "Ký gửi trực tiếp"
   },
-  "directDepositEther": {
+  "directDepositDex": {
     "message": "Ký gửi DEX trực tiếp"
   },
-  "directDepositEtherExplainer": {
+  "directDepositDexExplainer": {
     "message": "Nếu bạn đã có sẵn vài DEX, cách nhanh nhất để thêm DEX vào ví tiền mới của bạn là bằng ký gửi trực tiếp."
   },
   "done": {
     "message": "Hoàn tất"
+  },
+  "downloadStateLogs": {
+    "message": ""
+  },
+  "dropped": {
+    "message": ""
   },
   "edit": {
     "message": "Chỉnh sửa"
@@ -235,14 +289,26 @@
   "editAccountName": {
     "message": "Chỉnh sửa tên tài khoản"
   },
+  "emailUs": {
+    "message": ""
+  },
   "encryptNewDen": {
     "message": "Mã hóa số DEN mới của bạn"
   },
   "enterPassword": {
     "message": "Nhập mật khẩu"
   },
-  "etherscanView": {
-    "message": "Xem tài khoản trên DEXscan"
+  "enterPasswordConfirm": {
+    "message": ""
+  },
+  "passwordNotLongEnough": {
+    "message": ""
+  },
+  "passwordsDontMatch": {
+    "message": ""
+  },
+  "dexscanView": {
+    "message": "Xem tài khoản trên DexScan"
   },
   "exchangeRate": {
     "message": "Tỷ giá"
@@ -257,22 +323,28 @@
     "message": "Không thành công"
   },
   "fiat": {
-    "description": "Hình thức giao dịch",
-    "message": "FIAT"
+    "message": "FIAT",
+    "description": "Hình thức giao dịch"
   },
   "fileImportFail": {
-    "description": "Giúp người dùng nhập tài khoản từ tập tin JSON",
-    "message": "Tập tin đã nhập không hoạt động? Nhấp vào đây!"
+    "message": "Tập tin đã nhập không hoạt động? Nhấp vào đây!",
+    "description": "Giúp người dùng nhập tài khoản từ tập tin JSON"
+  },
+  "followTwitter": {
+    "message": ""
   },
   "from": {
     "message": "Từ"
+  },
+  "fromToSame": {
+    "message": ""
   },
   "fromShapeShift": {
     "message": "Từ ShapeShift"
   },
   "gas": {
-    "description": "Viết tắt của giá ga",
-    "message": "Ga"
+    "message": "Ga",
+    "description": "Viết tắt của giá ga"
   },
   "gasFee": {
     "message": "Tiền ga"
@@ -289,6 +361,9 @@
   "gasLimitTooLow": {
     "message": "Hạn mức ga phải đạt tối thiểu 21000"
   },
+  "generatingSeed": {
+    "message": ""
+  },
   "gasPrice": {
     "message": "Giá ga (GWEI)"
   },
@@ -298,20 +373,23 @@
   "gasPriceRequired": {
     "message": "Giá ga được yêu cầu"
   },
-  "getEther": {
+  "getDex": {
     "message": "Lấy DEX"
   },
-  "getEtherFromFaucet": {
-    "description": "Hiển thị tên mạng cho vòi DEX",
-    "message": "Lấy DEX từ vòi với giá $1"
+  "getDexFromFaucet": {
+    "message": "Lấy DEX từ vòi với giá $1",
+    "description": "Hiển thị tên mạng cho vòi DEX"
   },
   "greaterThanMin": {
-    "description": "trợ giúp để nhập hex dưới dạng số thập phân",
-    "message": "phải nhiều hơn hoặc bằng $1"
+    "message": "phải nhiều hơn hoặc bằng $1",
+    "description": "trợ giúp để nhập hex dưới dạng số thập phân"
   },
   "here": {
-    "description": "như trong -Nhấp vào đây để xem thêm thông tin- (dùng với các số dư token có vấn đề)",
-    "message": "tại đây"
+    "message": "tại đây",
+    "description": "như trong -Nhấp vào đây để xem thêm thông tin- (dùng với các số dư token có vấn đề)"
+  },
+  "hereList": {
+    "message": ""
   },
   "hide": {
     "message": "Ẩn"
@@ -325,12 +403,18 @@
   "howToDeposit": {
     "message": "Bạn muốn ký gửi DEX bằng cách nào?"
   },
+  "holdDex": {
+    "message": ""
+  },
   "import": {
-    "description": "Nút để nhập tài khoản từ một tập tin đã chọn",
-    "message": "Nhập"
+    "message": "Nhập",
+    "description": "Nút để nhập tài khoản từ một tập tin đã chọn"
   },
   "importAccount": {
     "message": "Nhập tài khoản"
+  },
+  "importAccountMsg": {
+    "message": ""
   },
   "importAnAccount": {
     "message": "Nhập một tài khoản"
@@ -339,14 +423,23 @@
     "message": "Nhập mã DEN hiện hành"
   },
   "imported": {
-    "description": "Trạng thái hiển thị cho một tài khoản đã được tải toàn bộ vào chùm chìa khóa",
-    "message": "Đã nhập"
+    "message": "Đã nhập",
+    "description": "Trạng thái hiển thị cho một tài khoản đã được tải toàn bộ vào chùm chìa khóa"
   },
   "infoHelp": {
     "message": "Thông tin & Trợ giúp"
   },
+  "insufficientFunds": {
+    "message": ""
+  },
+  "insufficientTokens": {
+    "message": ""
+  },
   "invalidAddress": {
     "message": "Địa chỉ không hợp lệ"
+  },
+  "invalidAddressRecipient": {
+    "message": ""
   },
   "invalidGasParams": {
     "message": "Thông số ga không hợp lệ"
@@ -357,16 +450,40 @@
   "invalidRequest": {
     "message": "Yêu cầu không hợp lệ"
   },
+  "invalidRPC": {
+    "message": ""
+  },
+  "jsonFail": {
+    "message": ""
+  },
   "jsonFile": {
-    "description": "định dạng để nhập tài khoản",
-    "message": "Tập tin JSON"
+    "message": "Tập tin JSON",
+    "description": "định dạng để nhập tài khoản"
+  },
+  "keepTrackTokens": {
+    "message": ""
   },
   "kovan": {
     "message": "Mạng thử nghiệm Kovan"
   },
+  "knowledgeDataBase": {
+    "message": ""
+  },
+  "max": {
+    "message": ""
+  },
+  "learnMore": {
+    "message": ""
+  },
   "lessThanMax": {
-    "description": "trợ giúp để nhập hex dưới dạng số thập phân",
-    "message": "phải ít hơn hoặc bằng $1."
+    "message": "phải ít hơn hoặc bằng $1.",
+    "description": "trợ giúp để nhập hex dưới dạng số thập phân"
+  },
+  "likeToAddTokens": {
+    "message": ""
+  },
+  "links": {
+    "message": ""
   },
   "limit": {
     "message": "Giới hạn"
@@ -380,17 +497,26 @@
   "localhost": {
     "message": "Localhost 8545"
   },
+  "login": {
+    "message": ""
+  },
   "logout": {
     "message": "Thoát"
   },
   "loose": {
     "message": "Nới lỏng"
   },
+  "loweCaseWords": {
+    "message": ""
+  },
   "mainnet": {
-    "message": "Mạng DEXON MainNet (tiền ETH thật)"
+    "message": "Mạng DEXON MainNet (tiền DEX thật)"
   },
   "message": {
     "message": "Tin nhắn"
+  },
+  "dekusanDescription": {
+    "message": ""
   },
   "min": {
     "message": "Tối thiểu"
@@ -398,16 +524,22 @@
   "myAccounts": {
     "message": "Tài khoản của tôi"
   },
-  "needEtherInWallet": {
+  "mustSelectOne": {
+    "message": ""
+  },
+  "needDexInWallet": {
     "message": "Để tương tác với các ứng dụng phân tán bằng DekuSan, bạn sẽ phải cần có DEX trong ví của bạn."
   },
   "needImportFile": {
-    "description": "Người dùng đang nhập một tài khoản và cần thêm tập tin để tiếp tục",
-    "message": "Bạn phải chọn một tập tin để nhập."
+    "message": "Bạn phải chọn một tập tin để nhập.",
+    "description": "Người dùng đang nhập một tài khoản và cần thêm tập tin để tiếp tục"
   },
   "needImportPassword": {
-    "description": "Mật khẩu và tập tin cần thiết để nhập một tài khoản",
-    "message": "Bạn phải điền mật khẩu cho tập tin đã chọn."
+    "message": "Bạn phải điền mật khẩu cho tập tin đã chọn.",
+    "description": "Mật khẩu và tập tin cần thiết để nhập một tài khoản"
+  },
+  "negativeDex": {
+    "message": ""
   },
   "networks": {
     "message": "Các mạng lưới"
@@ -416,8 +548,8 @@
     "message": "Tài khoản mới"
   },
   "newAccountNumberName": {
-    "description": "Tên mặc định của tài khoản tiếp theo để tạo trên màn hình tài khoản",
-    "message": "Tài khoản $1"
+    "message": "Tài khoản $1",
+    "description": "Tên mặc định của tài khoản tiếp theo để tạo trên màn hình tài khoản"
   },
   "newContract": {
     "message": "Hợp đồng mới"
@@ -427,6 +559,9 @@
   },
   "newRecipient": {
     "message": "Người nhận mới"
+  },
+  "newRPC": {
+    "message": ""
   },
   "next": {
     "message": "Kế tiếp"
@@ -453,30 +588,42 @@
     "message": "Bạn vừa quay về giao diện cũ. Bạn có thể chuyển đổi sang giao diện mới bằng tùy chọn trong menu ở góc phải trên cùng."
   },
   "or": {
-    "description": "lựa chọn giữa tạo hay nhập một tài khoản mới",
-    "message": "hoặc"
+    "message": "hoặc",
+    "description": "lựa chọn giữa tạo hay nhập một tài khoản mới"
+  },
+  "passwordCorrect": {
+    "message": ""
   },
   "passwordMismatch": {
-    "description": "trong quá trình tạo mật khẩu, hai trường mật khẩu mới không khớp",
-    "message": "mật khẩu không khớp"
+    "message": "mật khẩu không khớp",
+    "description": "trong quá trình tạo mật khẩu, hai trường mật khẩu mới không khớp"
   },
   "passwordShort": {
-    "description": "trong quá trình tạo mật khẩu, mật khẩu không đủ dài để đảm bảo an toàn",
-    "message": "mật khẩu không đủ dài"
+    "message": "mật khẩu không đủ dài",
+    "description": "trong quá trình tạo mật khẩu, mật khẩu không đủ dài để đảm bảo an toàn"
   },
   "pastePrivateKey": {
-    "description": "Dùng cho việc nhập tài khoản từ một khóa cá nhân",
-    "message": "Dán dãy khóa cá nhân của bạn tại đây:"
+    "message": "Dán dãy khóa cá nhân của bạn tại đây:",
+    "description": "Dùng cho việc nhập tài khoản từ một khóa cá nhân"
   },
   "pasteSeed": {
     "message": "Dán Mật Khẩu Sinh Khoá (seed phrase) của bạn tại đây!"
   },
+  "personalAddressDetected": {
+    "message": ""
+  },
   "pleaseReviewTransaction": {
     "message": "Vui lòng xem lại giao dịch của bạn."
   },
+  "popularTokens": {
+    "message": ""
+  },
+  "privacyMsg": {
+    "message": ""
+  },
   "privateKey": {
-    "description": "chọn định dạng tập tin này để nhập một tài khoản",
-    "message": "Khóa Bí Mật"
+    "message": "Khóa Bí Mật",
+    "description": "chọn định dạng tập tin này để nhập một tài khoản"
   },
   "privateKeyWarning": {
     "message": "Cảnh báo: Không bao giờ được tiết lộ khóa này. Bất kỳ ai có Khóa Bí Mật của bạn đều có thể đánh cắp tài sản được giữ trong tài khoản của bạn."
@@ -487,11 +634,14 @@
   "qrCode": {
     "message": "Hiển thị mã QR"
   },
+  "readdToken": {
+    "message": "Bạn có thể thêm trở lại mã token này bằng cách nhấn \"Thêm mã token\" trong menu tùy chọn trong tài khoản của bạn."
+  },
   "readMore": {
     "message": "Đọc thêm tại đây."
   },
-  "readdToken": {
-    "message": "Bạn có thể thêm trở lại mã token này bằng cách nhấn \"Thêm mã token\" trong menu tùy chọn trong tài khoản của bạn."
+  "readMore2": {
+    "message": ""
   },
   "receive": {
     "message": "Nhận"
@@ -503,13 +653,31 @@
     "message": "Địa chỉ hoàn trả lại của bạn"
   },
   "rejected": {
-    "message": "Không chấp thuận/Bị từ chối"
+    "message": "Không chấp thuận\/Bị từ chối"
+  },
+  "resetAccount": {
+    "message": ""
+  },
+  "restoreFromSeed": {
+    "message": ""
+  },
+  "restoreVault": {
+    "message": ""
   },
   "required": {
     "message": "Yêu cầu"
   },
   "retryWithMoreGas": {
     "message": "Thử lại với một giá ga cao hơn tại đây"
+  },
+  "walletSeed": {
+    "message": ""
+  },
+  "revealSeedWords": {
+    "message": ""
+  },
+  "revealSeedWordsWarning": {
+    "message": ""
   },
   "revert": {
     "message": "Chuyển lại"
@@ -520,31 +688,91 @@
   "ropsten": {
     "message": "Mạng thử nghiệm Ropsten"
   },
+  "currentRpc": {
+    "message": ""
+  },
+  "connectingToMainnet": {
+    "message": ""
+  },
+  "connectingToRopsten": {
+    "message": ""
+  },
+  "connectingToKovan": {
+    "message": ""
+  },
+  "connectingToTestnet": {
+    "message": ""
+  },
+  "connectingToUnknown": {
+    "message": ""
+  },
   "sampleAccountName": {
-    "description": "Giúp người dùng hiểu khái niệm thêm một cái tên có thể đọc được vào tài khoản của họ",
-    "message": "Ví dụ, Tài khoản mới của tôi"
+    "message": "Ví dụ, Tài khoản mới của tôi",
+    "description": "Giúp người dùng hiểu khái niệm thêm một cái tên có thể đọc được vào tài khoản của họ"
   },
   "save": {
     "message": "Lưu"
   },
+  "reprice_title": {
+    "message": ""
+  },
+  "reprice_subtitle": {
+    "message": ""
+  },
   "saveAsFile": {
-    "description": "Quá trình xuất tài khoản",
-    "message": "Lưu lại dưới dạng tập tin"
+    "message": "Lưu lại dưới dạng tập tin",
+    "description": "Quá trình xuất tài khoản"
+  },
+  "saveSeedAsFile": {
+    "message": ""
+  },
+  "search": {
+    "message": ""
+  },
+  "secretPhrase": {
+    "message": ""
+  },
+  "newPassword8Chars": {
+    "message": ""
+  },
+  "seedPhraseReq": {
+    "message": ""
+  },
+  "select": {
+    "message": ""
+  },
+  "selectCurrency": {
+    "message": ""
   },
   "selectService": {
     "message": "Chọn dịch vụ"
   },
+  "selectType": {
+    "message": ""
+  },
   "send": {
     "message": "Gửi"
   },
+  "sendDEX": {
+    "message": ""
+  },
   "sendTokens": {
     "message": "Gửi mã token"
+  },
+  "onlySendToDexonAddress": {
+    "message": ""
+  },
+  "searchTokens": {
+    "message": ""
   },
   "sendTokensAnywhere": {
     "message": "Gửi mã token đến bất kỳ ai có tài khoản Dexon"
   },
   "settings": {
     "message": "Cài đặt"
+  },
+  "info": {
+    "message": ""
   },
   "shapeshiftBuy": {
     "message": "Mua với ShapeShift"
@@ -555,14 +783,11 @@
   "showQRCode": {
     "message": "Hiển thị mã QR"
   },
-  "sigRequest": {
-    "message": "Yêu cầu chữ ký"
-  },
-  "sigRequested": {
-    "message": "Đã yêu cầu chữ ký"
-  },
   "sign": {
     "message": "Ký nhận"
+  },
+  "signed": {
+    "message": ""
   },
   "signMessage": {
     "message": "Ký nhận tin nhắn"
@@ -570,30 +795,84 @@
   "signNotice": {
     "message": "Ký nhận vào tin nhắn này có thể gây nguy hiểm. Chỉ nên ký nhận tin nhắn từ những nguồn bạn hoàn toàn tin tưởng có thể dùng với tài khoản của bạn. Cách thức nguy hiểm này sẽ bị xóa trong phiên bản sắp tới."
   },
+  "sigRequest": {
+    "message": "Yêu cầu chữ ký"
+  },
+  "sigRequested": {
+    "message": "Đã yêu cầu chữ ký"
+  },
+  "spaceBetween": {
+    "message": ""
+  },
   "status": {
     "message": "Trạng thái"
+  },
+  "stateLogs": {
+    "message": ""
+  },
+  "stateLogsDescription": {
+    "message": ""
+  },
+  "stateLogError": {
+    "message": ""
   },
   "submit": {
     "message": "Gửi đi"
   },
+  "submitted": {
+    "message": ""
+  },
+  "supportCenter": {
+    "message": ""
+  },
+  "symbolBetweenZeroTen": {
+    "message": ""
+  },
   "takesTooLong": {
     "message": "Chờ quá lâu?"
   },
+  "terms": {
+    "message": ""
+  },
   "testFaucet": {
-    "message": "Vòi nhận tiền ETH ảo để thử nghiệm"
+    "message": "Vòi nhận tiền DEX ảo để thử nghiệm"
+  },
+  "testnet": {
+    "message": ""
   },
   "to": {
     "message": "Đến"
   },
-  "toETHviaShapeShift": {
-    "description": "hệ thống sẽ điền vào loại tiền gửi khi bắt đầu tin nhắn",
-    "message": "$1 thành ETH qua ShapeShift"
+  "toDEXviaShapeShift": {
+    "message": "$1 thành DEX qua ShapeShift",
+    "description": "hệ thống sẽ điền vào loại tiền gửi khi bắt đầu tin nhắn"
+  },
+  "tokenAddress": {
+    "message": ""
+  },
+  "tokenAlreadyAdded": {
+    "message": ""
   },
   "tokenBalance": {
     "message": "Số dư token của bạn là:"
   },
+  "tokenSelection": {
+    "message": ""
+  },
+  "tokenSymbol": {
+    "message": ""
+  },
+  "tokenWarning1": {
+    "message": ""
+  },
   "total": {
     "message": "Tổng cộng"
+  },
+  "transactions": {
+    "message": ""
+  },
+  "transactionError": {
+    "message": ""
   },
   "transactionMemo": {
     "message": "Ghi nhớ giao dịch (tùy chọn)"
@@ -605,8 +884,11 @@
     "message": "Các giao dịch"
   },
   "troubleTokenBalances": {
-    "description": "Kèm theo một đường link (tại đây) để xem số dư token.",
-    "message": "Chúng tôi gặp sự cố khi tải số dư token của bạn. Xin vui lòng xem lại"
+    "message": "Chúng tôi gặp sự cố khi tải số dư token của bạn. Xin vui lòng xem lại",
+    "description": "Kèm theo một đường link (tại đây) để xem số dư token."
+  },
+  "twelveWords": {
+    "message": ""
   },
   "typePassword": {
     "message": "Điền mật khẩu của bạn"
@@ -616,6 +898,9 @@
   },
   "uiWelcomeMessage": {
     "message": "Bạn đang sử dụng giao diện mới của DekuSan. Chúng tôi khuyến khích bạn thử nghiệm và khám phá các tính năng mới như gửi token, và nếu bạn có gặp phải vấn đề gì khó khăn, xin hãy liên hệ ngay để chúng tôi có thể giúp đỡ bạn."
+  },
+  "unapproved": {
+    "message": ""
   },
   "unavailable": {
     "message": "Không có sẵn"
@@ -629,26 +914,456 @@
   "unknownNetworkId": {
     "message": "ID không xác định"
   },
+  "uriErrorMsg": {
+    "message": ""
+  },
   "usaOnly": {
-    "description": "Việc sử dụng hệ thống giao dịch này chỉ giới hạn cho người dùng ở Mỹ",
-    "message": "Chỉ áp dụng cho người dùng ở Mỹ"
+    "message": "Chỉ áp dụng cho người dùng ở Mỹ",
+    "description": "Việc sử dụng hệ thống giao dịch này chỉ giới hạn cho người dùng ở Mỹ"
   },
   "usedByClients": {
     "message": "Được sử dụng bởi nhiều khách hàng khác nhau"
   },
+  "useOldUI": {
+    "message": ""
+  },
+  "validFileImport": {
+    "message": ""
+  },
+  "vaultCreated": {
+    "message": ""
+  },
   "viewAccount": {
     "message": "Xem tài khoản"
+  },
+  "visitWebSite": {
+    "message": ""
   },
   "warning": {
     "message": "Cảnh báo"
   },
+  "welcomeBeta": {
+    "message": ""
+  },
   "whatsThis": {
     "message": "Đây là gì?"
+  },
+  "yourSigRequested": {
+    "message": "Chữ ký của bạn đang được yêu cầu"
   },
   "youSign": {
     "message": "Bạn đang ký nhận"
   },
-  "yourSigRequested": {
-    "message": "Chữ ký của bạn đang được yêu cầu"
-   }
+  "aboutDekuSan": {
+    "message": ""
+  },
+  "accessingYourCamera": {
+    "message": ""
+  },
+  "accountOptions": {
+    "message": ""
+  },
+  "accountSelectionRequired": {
+    "message": ""
+  },
+  "activityLog": {
+    "message": ""
+  },
+  "addSuggestedTokens": {
+    "message": ""
+  },
+  "addAcquiredTokens": {
+    "message": ""
+  },
+  "approve": {
+    "message": ""
+  },
+  "attemptToCancel": {
+    "message": ""
+  },
+  "attemptToCancelDescription": {
+    "message": ""
+  },
+  "browserNotSupported": {
+    "message": ""
+  },
+  "bytes": {
+    "message": ""
+  },
+  "cancelAttempt": {
+    "message": ""
+  },
+  "cancellationGasFee": {
+    "message": ""
+  },
+  "cancelN": {
+    "message": ""
+  },
+  "clickToAdd": {
+    "message": ""
+  },
+  "close": {
+    "message": ""
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": ""
+  },
+  "connectHardwareWallet": {
+    "message": ""
+  },
+  "connect": {
+    "message": ""
+  },
+  "connecting": {
+    "message": ""
+  },
+  "connectToLedger": {
+    "message": ""
+  },
+  "connectToTrezor": {
+    "message": ""
+  },
+  "copyAddress": {
+    "message": ""
+  },
+  "currentLanguage": {
+    "message": ""
+  },
+  "downloadGoogleChrome": {
+    "message": ""
+  },
+  "dontHaveAHardwareWallet": {
+    "message": ""
+  },
+  "editingTransaction": {
+    "message": ""
+  },
+  "ensNameNotFound": {
+    "message": ""
+  },
+  "enterPasswordContinue": {
+    "message": ""
+  },
+  "dex": {
+    "message": ""
+  },
+  "expandView": {
+    "message": ""
+  },
+  "forgetDevice": {
+    "message": ""
+  },
+  "functionType": {
+    "message": ""
+  },
+  "gasUsed": {
+    "message": ""
+  },
+  "generatingTransaction": {
+    "message": ""
+  },
+  "getHelp": {
+    "message": ""
+  },
+  "hardware": {
+    "message": ""
+  },
+  "hardwareWalletConnected": {
+    "message": ""
+  },
+  "hardwareWallets": {
+    "message": ""
+  },
+  "hardwareWalletsMsg": {
+    "message": ""
+  },
+  "havingTroubleConnecting": {
+    "message": ""
+  },
+  "hexData": {
+    "message": ""
+  },
+  "history": {
+    "message": ""
+  },
+  "importUsingSeed": {
+    "message": ""
+  },
+  "initialTransactionConfirmed": {
+    "message": ""
+  },
+  "invalidSeedPhrase": {
+    "message": ""
+  },
+  "ledgerAccountRestriction": {
+    "message": ""
+  },
+  "menu": {
+    "message": ""
+  },
+  "dekusanSeedWords": {
+    "message": ""
+  },
+  "dekusanVersion": {
+    "message": ""
+  },
+  "missingYourTokens": {
+    "message": ""
+  },
+  "nevermind": {
+    "message": ""
+  },
+  "noConversionRateAvailable": {
+    "message": ""
+  },
+  "notFound": {
+    "message": ""
+  },
+  "noWebcamFoundTitle": {
+    "message": ""
+  },
+  "noWebcamFound": {
+    "message": ""
+  },
+  "onlySendTokensToAccountAddress": {
+    "message": "",
+    "description": ""
+  },
+  "openInTab": {
+    "message": ""
+  },
+  "orderOneHere": {
+    "message": ""
+  },
+  "origin": {
+    "message": ""
+  },
+  "outgoing": {
+    "message": ""
+  },
+  "parameters": {
+    "message": ""
+  },
+  "password": {
+    "message": ""
+  },
+  "pending": {
+    "message": ""
+  },
+  "prev": {
+    "message": ""
+  },
+  "primaryCurrencySetting": {
+    "message": ""
+  },
+  "primaryCurrencySettingDescription": {
+    "message": ""
+  },
+  "queue": {
+    "message": ""
+  },
+  "reject": {
+    "message": ""
+  },
+  "rejectAll": {
+    "message": ""
+  },
+  "rejectTxsN": {
+    "message": ""
+  },
+  "rejectTxsDescription": {
+    "message": ""
+  },
+  "reset": {
+    "message": ""
+  },
+  "resetAccountDescription": {
+    "message": ""
+  },
+  "restoreAccountWithSeed": {
+    "message": ""
+  },
+  "restore": {
+    "message": ""
+  },
+  "revealSeedWordsTitle": {
+    "message": ""
+  },
+  "revealSeedWordsDescription": {
+    "message": ""
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": ""
+  },
+  "remove": {
+    "message": ""
+  },
+  "removeAccount": {
+    "message": ""
+  },
+  "removeAccountDescription": {
+    "message": ""
+  },
+  "readyToConnect": {
+    "message": ""
+  },
+  "rpc": {
+    "message": ""
+  },
+  "saveAsCsvFile": {
+    "message": ""
+  },
+  "scanInstructions": {
+    "message": ""
+  },
+  "scanQrCode": {
+    "message": ""
+  },
+  "searchResults": {
+    "message": ""
+  },
+  "selectLocale": {
+    "message": ""
+  },
+  "sentDexon": {
+    "message": ""
+  },
+  "sentTokens": {
+    "message": ""
+  },
+  "separateEachWord": {
+    "message": ""
+  },
+  "selectAnAddress": {
+    "message": ""
+  },
+  "selectAnAccount": {
+    "message": ""
+  },
+  "selectAnAccountHelp": {
+    "message": ""
+  },
+  "selectHdPath": {
+    "message": ""
+  },
+  "selectPathHelp": {
+    "message": ""
+  },
+  "showHexData": {
+    "message": ""
+  },
+  "showHexDataDescription": {
+    "message": ""
+  },
+  "signatureRequest": {
+    "message": ""
+  },
+  "speedUp": {
+    "message": ""
+  },
+  "speedUpTitle": {
+    "message": ""
+  },
+  "speedUpSubtitle": {
+    "message": ""
+  },
+  "step1HardwareWallet": {
+    "message": ""
+  },
+  "step1HardwareWalletMsg": {
+    "message": ""
+  },
+  "step2HardwareWallet": {
+    "message": ""
+  },
+  "step2HardwareWalletMsg": {
+    "message": ""
+  },
+  "step3HardwareWallet": {
+    "message": ""
+  },
+  "step3HardwareWalletMsg": {
+    "message": ""
+  },
+  "token": {
+    "message": ""
+  },
+  "transaction": {
+    "message": ""
+  },
+  "transactionConfirmed": {
+    "message": ""
+  },
+  "transactionCreated": {
+    "message": ""
+  },
+  "transactionWithNonce": {
+    "message": ""
+  },
+  "transactionDropped": {
+    "message": ""
+  },
+  "transactionSubmitted": {
+    "message": ""
+  },
+  "transactionUpdated": {
+    "message": ""
+  },
+  "transactionUpdatedGas": {
+    "message": ""
+  },
+  "transfer": {
+    "message": ""
+  },
+  "transferFrom": {
+    "message": ""
+  },
+  "trezorHardwareWallet": {
+    "message": ""
+  },
+  "tryAgain": {
+    "message": ""
+  },
+  "units": {
+    "message": ""
+  },
+  "unknownFunction": {
+    "message": ""
+  },
+  "unknownQrCode": {
+    "message": ""
+  },
+  "unknownCameraErrorTitle": {
+    "message": ""
+  },
+  "unknownCameraError": {
+    "message": ""
+  },
+  "unlock": {
+    "message": ""
+  },
+  "unlockMessage": {
+    "message": ""
+  },
+  "updatedWithDate": {
+    "message": ""
+  },
+  "viewOnDexScan": {
+    "message": ""
+  },
+  "welcomeBack": {
+    "message": ""
+  },
+  "yesLetsTry": {
+    "message": ""
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": ""
+  },
+  "yourPrivateSeedPhrase": {
+    "message": ""
+  },
+  "connectingToRinkeby": {
+    "message": ""
+  }
 }

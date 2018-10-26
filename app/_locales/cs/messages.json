@@ -45,167 +45,167 @@
     "message": "Níže uvedená doména se pokouší požádat o přístup k API Ethereum, aby mohla komunikovat s blokádou Ethereum. Před schválením přístupu Ethereum vždy zkontrolujte, zda jste na správném místě."
   },
   "accept": {
-    "message": "Přijmout"
+    "message": ""
   },
   "account": {
-    "message": "Účet"
+    "message": ""
   },
   "accountDetails": {
-    "message": "Detaily účtu"
+    "message": ""
   },
   "accountName": {
-    "message": "Název účtu"
+    "message": ""
   },
   "address": {
-    "message": "Adresa"
+    "message": ""
   },
   "addCustomToken": {
     "message": "Přidat vlastní token"
   },
   "addToken": {
-    "message": "Přidat token"
+    "message": ""
   },
   "addTokens": {
     "message": "Přidat tokeny"
   },
   "amount": {
-    "message": "Částka"
+    "message": ""
   },
   "amountPlusGas": {
-    "message": "Částka + palivo"
+    "message": ""
   },
   "appDescription": {
-    "message": "DEXON rozšíření prohlížeče",
-    "description": "The description of the application"
+    "message": "",
+    "description": ""
   },
   "appName": {
-    "message": "DekuSan",
-    "description": "The name of the application"
+    "message": "",
+    "description": ""
   },
   "approved": {
     "message": "Schváleno"
   },
   "attemptingConnect": {
-    "message": "Pokouším se připojit k blockchainu."
+    "message": ""
   },
   "attributions": {
     "message": "Zásluhy"
   },
   "available": {
-    "message": "Dostupné"
+    "message": ""
   },
   "back": {
-    "message": "Zpět"
+    "message": ""
   },
   "balance": {
-    "message": "Zůstatek:"
+    "message": ""
   },
   "balances": {
     "message": "Zůstatek tokenu"
   },
   "balanceIsInsufficientGas": {
-    "message": "Nedostatek prostředků pro aktuální množství paliva"
+    "message": ""
   },
   "beta": {
-    "message": "BETA"
+    "message": ""
   },
   "betweenMinAndMax": {
-    "message": "musí být větší nebo roven $1 a menší nebo roven $2.",
-    "description": "helper for inputting hex as decimal input"
+    "message": "",
+    "description": ""
   },
   "blockiesIdenticon": {
     "message": "Použít Blockies Identicon"
   },
   "borrowDharma": {
-    "message": "Pújčit si přes Dharma (Beta)"
+    "message": ""
   },
   "builtInCalifornia": {
     "message": "DekuSan je navržen a vytvořen v Kalifornii."
   },
   "buy": {
-    "message": "Koupit"
+    "message": ""
   },
   "buyCoinbase": {
-    "message": "Nákup na Coinbase"
+    "message": ""
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase je světově nejoblíbenější místo k nákupu a prodeji bitcoinu, etherea nebo litecoinu."
+    "message": ""
   },
   "ok": {
     "message": "Ok"
   },
   "cancel": {
-    "message": "Zrušit"
+    "message": ""
   },
   "classicInterface": {
     "message": "Použít klasické rozhraní"
   },
   "clickCopy": {
-    "message": "Kliknutím zkopírovat"
+    "message": ""
   },
   "confirm": {
-    "message": "Potvrdit"
+    "message": ""
   },
   "confirmed": {
     "message": "Potvrzeno"
   },
   "confirmContract": {
-    "message": "Potvrdit kontrakt"
+    "message": ""
   },
   "confirmPassword": {
-    "message": "Potvrdit heslo"
+    "message": ""
   },
   "confirmTransaction": {
-    "message": "Potvrdit transakci"
+    "message": ""
   },
   "continue": {
     "message": "Pokračovat"
   },
   "continueToCoinbase": {
-    "message": "Přejít na Coinbase"
+    "message": ""
   },
   "contractDeployment": {
-    "message": "Nasazení kontraktu"
+    "message": ""
   },
   "conversionProgress": {
-    "message": "Provádí se převod"
+    "message": ""
   },
   "copiedButton": {
-    "message": "Zkopírováno"
+    "message": ""
   },
   "copiedClipboard": {
-    "message": "Zkopírováno do schránky"
+    "message": ""
   },
   "copiedExclamation": {
-    "message": "Zkopírováno!"
+    "message": ""
   },
   "copiedSafe": {
     "message": "Zkopíroval jsem to na bezpečné místo"
   },
   "copy": {
-    "message": "Kopírovat"
+    "message": ""
   },
   "copyToClipboard": {
-    "message": "Kopírovat do schránky"
+    "message": ""
   },
   "copyButton": {
-    "message": " Kopírovat "
+    "message": ""
   },
   "copyPrivateKey": {
-    "message": "Toto je váš privátní klíč (kliknutím zkopírujte)"
+    "message": ""
   },
   "create": {
-    "message": "Vytvořit"
+    "message": ""
   },
   "createAccount": {
-    "message": "Vytvořit účet"
+    "message": ""
   },
   "createDen": {
-    "message": "Vytvořit"
+    "message": ""
   },
   "crypto": {
-    "message": "Krypto",
-    "description": "Exchange type (cryptocurrencies)"
+    "message": "",
+    "description": ""
   },
   "currentConversion": {
     "message": "Aktuální převod"
@@ -214,16 +214,16 @@
     "message": "Aktuální síť"
   },
   "customGas": {
-    "message": "Nastavit palivo"
+    "message": ""
   },
   "customToken": {
     "message": "Vlastní token"
   },
   "customize": {
-    "message": "Nastavit"
+    "message": ""
   },
   "customRPC": {
-    "message": "Vlastní RPC"
+    "message": ""
   },
   "decimalsMustZerotoTen": {
     "message": "Desetinných míst musí být od 0 do 36."
@@ -232,53 +232,50 @@
     "message": "Počet desetinných míst přesnosti"
   },
   "defaultNetwork": {
-    "message": "Výchozí síť pro DEXové transakce je Main Net."
+    "message": ""
   },
   "denExplainer": {
-    "message": "Váš DEN je heslem šifrované uložiště v DekuSanu."
+    "message": ""
   },
   "deposit": {
-    "message": "Vklad"
+    "message": ""
   },
   "depositBTC": {
-    "message": "Vložte BTC na níže uvedenou adresu:"
+    "message": ""
   },
   "depositCoin": {
-    "message": "Vložte $1 na níže uvedenou adresu",
-    "description": "Tells the user what coin they have selected to deposit with shapeshift"
+    "message": "",
+    "description": ""
   },
-  "depositEth": {
-    "message": "Vložit Eth"
-  },
-  "depositDex": {
-    "message": "Vložit DEX"
+  "depositDEX": {
+    "message": ""
   },
   "depositFiat": {
-    "message": "Vklad s fiat měnou"
+    "message": ""
   },
   "depositFromAccount": {
-    "message": "Vložte z jiného účtu"
+    "message": ""
   },
   "depositShapeShift": {
-    "message": "Vklad přes ShapeShift"
+    "message": ""
   },
   "depositShapeShiftExplainer": {
-    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit DEX a vložit ho přímo do peněženky DekuSan. Bez založení účtu."
+    "message": ""
   },
   "details": {
-    "message": "Podrobnosti"
+    "message": ""
   },
   "directDeposit": {
-    "message": "Přímý vklad"
+    "message": ""
   },
-  "directDepositEther": {
-    "message": "Vložit DEX přímo"
+  "directDepositDex": {
+    "message": ""
   },
-  "directDepositEtherExplainer": {
-    "message": "Pokud už vlastníte nějaký DEX, nejrychleji ho dostanete do peněženky přímým vkladem."
+  "directDepositDexExplainer": {
+    "message": ""
   },
   "done": {
-    "message": "Hotovo"
+    "message": ""
   },
   "downloadStateLogs": {
     "message": "Stáhnout stavové protokoly"
@@ -287,19 +284,19 @@
     "message": "Zrušeno"
   },
   "edit": {
-    "message": "Upravit"
+    "message": ""
   },
   "editAccountName": {
-    "message": "Upravit název účtu"
+    "message": ""
   },
   "emailUs": {
     "message": "Napište nám e-mail!"
   },
   "encryptNewDen": {
-    "message": "Zašifrujte svůj nový DEN"
+    "message": ""
   },
   "enterPassword": {
-    "message": "Zadejte heslo"
+    "message": ""
   },
   "enterPasswordConfirm": {
     "message": "Zadejte heslo k potvrzení"
@@ -310,127 +307,127 @@
   "passwordsDontMatch": {
     "message": "Hesla nejsou stejná"
   },
-  "etherscanView": {
-    "message": "Prohlédněte si účet na DEXscan"
+  "dexscanView": {
+    "message": ""
   },
   "exchangeRate": {
-    "message": "Směnný kurz"
+    "message": ""
   },
   "exportPrivateKey": {
-    "message": "Exportovat privátní klíč"
+    "message": ""
   },
   "exportPrivateKeyWarning": {
-    "message": "Exportujte privátní klíč na vlastní riziko."
+    "message": ""
   },
   "failed": {
-    "message": "Neúspěšné"
+    "message": ""
   },
   "fiat": {
-    "message": "FIAT",
-    "description": "Exchange type"
+    "message": "",
+    "description": ""
   },
   "fileImportFail": {
-    "message": "Import souboru nefunguje? Klikněte sem!",
-    "description": "Helps user import their account from a JSON file"
+    "message": "",
+    "description": ""
   },
   "followTwitter": {
     "message": "Sledujte nás na Twitteru"
   },
   "from": {
-    "message": "Od"
+    "message": ""
   },
   "fromToSame": {
     "message": "Adresy odesílatele a příjemce nemohou být stejné"
   },
   "fromShapeShift": {
-    "message": "Z ShapeShift"
+    "message": ""
   },
   "gas": {
-    "message": "Palivo",
-    "description": "Short indication of gas cost"
+    "message": "",
+    "description": ""
   },
   "gasFee": {
-    "message": "Poplatek za palivo"
+    "message": ""
   },
   "gasLimit": {
-    "message": "Limit paliva"
+    "message": ""
   },
   "gasLimitCalculation": {
-    "message": "Počítáme doporučený limit paliva na základě úspěšnosti v síti."
+    "message": ""
   },
   "gasLimitRequired": {
-    "message": "Limit paliva je povinný"
+    "message": ""
   },
   "gasLimitTooLow": {
-    "message": "Limit paliva musí být alespoň 21000"
+    "message": ""
   },
   "generatingSeed": {
     "message": "Generuji klíčovou frázi..."
   },
   "gasPrice": {
-    "message": "Cena paliva (GWEI)"
+    "message": ""
   },
   "gasPriceCalculation": {
-    "message": "Počítáme doporučenou cenu paliva na základě úspěšnosti v síti."
+    "message": ""
   },
   "gasPriceRequired": {
-    "message": "Cena paliva je povinná"
+    "message": ""
   },
-  "getEther": {
-    "message": "Získejte DEX"
+  "getDex": {
+    "message": ""
   },
-  "getEtherFromFaucet": {
-    "message": "Získejte DEX z faucetu za $1.",
-    "description": "Displays network name for DEX faucet"
+  "getDexFromFaucet": {
+    "message": "",
+    "description": ""
   },
   "greaterThanMin": {
-    "message": "musí být větší nebo roven $1.",
-    "description": "helper for inputting hex as decimal input"
+    "message": "",
+    "description": ""
   },
   "here": {
-    "message": "zde",
-    "description": "as in -click here- for more information (goes with troubleTokenBalances)"
+    "message": "",
+    "description": ""
   },
   "hereList": {
     "message": "Tady je seznam!!!!"
   },
   "hide": {
-    "message": "Skrýt"
+    "message": ""
   },
   "hideToken": {
-    "message": "Skrýt token"
+    "message": ""
   },
   "hideTokenPrompt": {
-    "message": "Skrýt token?"
+    "message": ""
   },
   "howToDeposit": {
-    "message": "Jakým způsobem chcete vložit DEX?"
+    "message": ""
   },
-  "holdEther": {
-    "message": "Dovoluje vám držet ether a tokeny a slouží jako most k decentralizovaným aplikacím."
+  "holdDex": {
+    "message": "Dovoluje vám držet dexon a tokeny a slouží jako most k decentralizovaným aplikacím."
   },
   "import": {
-    "message": "Import",
-    "description": "Button to import an account from a selected file"
+    "message": "",
+    "description": ""
   },
   "importAccount": {
-    "message": "Import účtu"
+    "message": ""
   },
   "importAccountMsg": {
-    "message":"Importované účty nebudou spojeny s vaší původní DekuSanovou klíčovou frází. Zjistěte více o importovaných účtech "
+    "message": "Importované účty nebudou spojeny s vaší původní DekuSanovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "importAnAccount": {
-    "message": "Import účtu"
+    "message": ""
   },
   "importDen": {
-    "message": "Import existujícího DEN"
+    "message": ""
   },
   "imported": {
-    "message": "Importováno",
-    "description": "status showing that an account has been fully loaded into the keyring"
+    "message": "",
+    "description": ""
   },
   "infoHelp": {
-    "message": "Informace a nápověda"
+    "message": ""
   },
   "insufficientFunds": {
     "message": "Nedostatek finančních prostředků."
@@ -439,19 +436,19 @@
     "message": "Nedostatek tokenů."
   },
   "invalidAddress": {
-    "message": "Neplatná adresa"
+    "message": ""
   },
   "invalidAddressRecipient": {
     "message": "Adresa příjemce je neplatná"
   },
   "invalidGasParams": {
-    "message": "Neplatná parametry paliva"
+    "message": ""
   },
   "invalidInput": {
-    "message": "Neplatný vstup."
+    "message": ""
   },
   "invalidRequest": {
-    "message": "Neplatný požadavek"
+    "message": ""
   },
   "invalidRPC": {
     "message": "Neplatné RPC URI"
@@ -460,14 +457,14 @@
     "message": "Něco se pokazilo. Prosím, ujistěte se, že váš JSON soubor má správný formát."
   },
   "jsonFile": {
-    "message": "JSON soubor",
-    "description": "format for importing an account"
+    "message": "",
+    "description": ""
   },
   "keepTrackTokens": {
     "message": "Udržujte si záznamy o tokenech, které jste koupili s účtem v DekuSanu."
   },
   "kovan": {
-    "message": "Kovan Test Network"
+    "message": ""
   },
   "knowledgeDataBase": {
     "message": "Navštivte naši Knowledge Base"
@@ -479,8 +476,8 @@
     "message": "Zjistěte více."
   },
   "lessThanMax": {
-    "message": "musí být menší nebo roven $1.",
-    "description": "helper for inputting hex as decimal input"
+    "message": "",
+    "description": ""
   },
   "likeToAddTokens": {
     "message": "Chcete přidat tyto tokeny?"
@@ -489,134 +486,134 @@
     "message": "Odkazy"
   },
   "limit": {
-    "message": "Limit"
+    "message": ""
   },
   "loading": {
-    "message": "Načítám..."
+    "message": ""
   },
   "loadingTokens": {
-    "message": "Načítám tokeny..."
+    "message": ""
   },
   "localhost": {
-    "message": "Localhost 8545"
+    "message": ""
   },
   "login": {
     "message": "Přihlásit"
   },
   "logout": {
-    "message": "Odhlásit"
+    "message": ""
   },
   "loose": {
-    "message": "Nevázané"
+    "message": ""
   },
   "loweCaseWords": {
     "message": "slova klíčové fráze mají pouze malá písmena"
   },
   "mainnet": {
-    "message": "Main DEXON Network"
+    "message": ""
   },
   "message": {
-    "message": "Zpráva"
+    "message": ""
   },
-  "metamaskDescription": {
+  "dekusanDescription": {
     "message": "DekuSan je bezpečný osobní trezor pro Dexon."
   },
   "min": {
-    "message": "Minimum"
+    "message": ""
   },
   "myAccounts": {
-    "message": "Moje účty"
+    "message": ""
   },
   "mustSelectOne": {
     "message": "Musíte zvolit aspoň 1 token."
   },
-  "needEtherInWallet": {
-    "message": "Potřebujete DEX v peněžence, abyste mohli pomocí DekuSanu interagovat s decentralizovanými aplikacemi."
+  "needDexInWallet": {
+    "message": ""
   },
   "needImportFile": {
-    "message": "Musíte zvolit soubor k importu.",
-    "description": "User is important an account and needs to add a file to continue"
+    "message": "",
+    "description": ""
   },
   "needImportPassword": {
-    "message": "Musíte zadat heslo pro zvolený soubor.",
-    "description": "Password and file needed to import an account"
+    "message": "",
+    "description": ""
   },
-  "negativeETH": {
-    "message": "Nelze odeslat zápornou částku ETH."
+  "negativeDex": {
+    "message": "Nelze odeslat zápornou částku DEX."
   },
   "networks": {
-    "message": "Sítě"
+    "message": ""
   },
   "newAccount": {
-    "message": "Nový účet"
+    "message": ""
   },
   "newAccountNumberName": {
-    "message": "Účet $1",
-    "description": "Default name of next account to be created on create account screen"
+    "message": "",
+    "description": ""
   },
   "newContract": {
-    "message": "Nový kontrakt"
+    "message": ""
   },
   "newPassword": {
-    "message": "Nové heslo (min 8 znaků)"
+    "message": ""
   },
   "newRecipient": {
-    "message": "Nový příjemce"
+    "message": ""
   },
   "newRPC": {
     "message": "Nová RPC URL"
   },
   "next": {
-    "message": "Další"
+    "message": ""
   },
   "noAddressForName": {
-    "message": "Pro toto jméno nebyla nastavena žádná adresa."
+    "message": ""
   },
   "noDeposits": {
-    "message": "Žádný vklad"
+    "message": ""
   },
   "noTransactionHistory": {
-    "message": "Žádná historie transakcí."
+    "message": ""
   },
   "noTransactions": {
-    "message": "Žádné transakce"
+    "message": ""
   },
   "notStarted": {
-    "message": "Nezačalo"
+    "message": ""
   },
   "oldUI": {
-    "message": "Staré rozhraní"
+    "message": ""
   },
   "oldUIMessage": {
-    "message": "Vrátili jste se ke starému rozhraní. Můžete přepnout na nové rozhraní v nastavení v pravém horním menu."
+    "message": ""
   },
   "or": {
-    "message": "nebo",
-    "description": "choice between creating or importing a new account"
+    "message": "",
+    "description": ""
   },
   "passwordCorrect": {
     "message": "Ujistěte se, že je vaše heslo správně."
   },
   "passwordMismatch": {
-    "message": "hesla nesouhlasí",
-    "description": "in password creation process, the two new password fields did not match"
+    "message": "",
+    "description": ""
   },
   "passwordShort": {
-    "message": "heslo je krátké",
-    "description": "in password creation process, the password is not long enough to be secure"
+    "message": "",
+    "description": ""
   },
   "pastePrivateKey": {
-    "message": "Vložte zde svůj privátní klíč:",
-    "description": "For importing an account from a private key"
+    "message": "",
+    "description": ""
   },
   "pasteSeed": {
-    "message": "Svou klíčovou frázi vložte zde!"
+    "message": ""
   },
   "personalAddressDetected": {
     "message": "Detekována osobní adresa. Zadejte adresu kontraktu tokenu."
   },
   "pleaseReviewTransaction": {
-    "message": "Zkontrolujte si transakci."
+    "message": ""
   },
   "popularTokens": {
     "message": "Oblíbené tokeny"
@@ -625,38 +622,38 @@
     "message": "Zásady ochrany osobních údajů"
   },
   "privateKey": {
-    "message": "Privátní klíč",
-    "description": "select this type of file to use to import an account"
+    "message": "",
+    "description": ""
   },
   "privateKeyWarning": {
-    "message": "Upozornění: Nikdy nezveřejněte tento klíč. Kdokoli může s vaším privátním klíčem odcizit vaše aktiva z účtu."
+    "message": ""
   },
   "privateNetwork": {
-    "message": "Soukromá síť"
+    "message": ""
   },
   "qrCode": {
-    "message": "Ukázat QR kód"
+    "message": ""
   },
   "readdToken": {
-    "message": "Tento token můžete v budoucnu přidat zpět s „Přidat token“ v nastavení účtu."
+    "message": ""
   },
   "readMore": {
-    "message": "Přečtěte si více zde."
+    "message": ""
   },
   "readMore2": {
     "message": "Přečtěte si více."
   },
   "receive": {
-    "message": "Obrdžet"
+    "message": ""
   },
   "recipientAddress": {
-    "message": "Adresa příjemce"
+    "message": ""
   },
   "refundAddress": {
-    "message": "Adresa pro vrácení peněz"
+    "message": ""
   },
   "rejected": {
-    "message": "Odmítnuto"
+    "message": ""
   },
   "resetAccount": {
     "message": "Resetovat účet"
@@ -668,10 +665,10 @@
     "message": "Obnovit trezor"
   },
   "required": {
-    "message": "Povinné"
+    "message": ""
   },
   "retryWithMoreGas": {
-    "message": "Opakujte s vyšší cenou paliva"
+    "message": ""
   },
   "walletSeed": {
     "message": "Klíčová fráze peněženky"
@@ -683,13 +680,13 @@
     "message": "Nebnovujte slova klíčové fráze na veřejnosti! Tato slova mohou být použita k odcizení veškerých vyašich účtů."
   },
   "revert": {
-    "message": "Zvrátit"
+    "message": ""
   },
   "rinkeby": {
-    "message": "DEXON Test Network"
+    "message": ""
   },
   "ropsten": {
-    "message": "Ropsten Test Network"
+    "message": ""
   },
   "currentRpc": {
     "message": "Současné RPC"
@@ -710,11 +707,11 @@
     "message": "Připojuji se k neznámé síti"
   },
   "sampleAccountName": {
-    "message": "Např. můj nový účet",
-    "description": "Help user understand concept of adding a human-readable name to their account"
+    "message": "",
+    "description": ""
   },
   "save": {
-    "message": "Uložit"
+    "message": ""
   },
   "reprice_title": {
     "message": "Změnit cenu transakce"
@@ -723,8 +720,8 @@
     "message": "Navyšte cenu paliva ve snaze k přepsání a urychlení vyší transakce"
   },
   "saveAsFile": {
-    "message": "Uložit do souboru",
-    "description": "Account export process"
+    "message": "",
+    "description": ""
   },
   "saveSeedAsFile": {
     "message": "Uložit slova klíčové fráze do souboru"
@@ -748,67 +745,67 @@
     "message": "Vybrat měnu"
   },
   "selectService": {
-    "message": "Vybrat službu"
+    "message": ""
   },
   "selectType": {
     "message": "Vybrat typ"
   },
   "send": {
-    "message": "Odeslat"
+    "message": ""
   },
   "sendDEX": {
-    "message": "Odeslat ETH"
+    "message": "Odeslat DEX"
   },
   "sendTokens": {
-    "message": "Odeslat tokeny"
+    "message": ""
   },
   "onlySendToDexonAddress": {
-    "message": "Posílejte jen ETH na DEXON adresu."
+    "message": "Posílejte jen DEX na DEXON adresu."
   },
   "searchTokens": {
     "message": "Hledat tokeny"
   },
   "sendTokensAnywhere": {
-    "message": "Posílejte tokeny komukoli s DEXON účtem"
+    "message": ""
   },
   "settings": {
-    "message": "Nastavení"
+    "message": ""
   },
   "info": {
     "message": "Informace"
   },
   "shapeshiftBuy": {
-    "message": "Nakoupit na ShapeShift"
+    "message": ""
   },
   "showPrivateKeys": {
-    "message": "Zobrazit privátní klíče"
+    "message": ""
   },
   "showQRCode": {
-    "message": "Zobrazit QR kód"
+    "message": ""
   },
   "sign": {
-    "message": "Podepsat"
+    "message": ""
   },
   "signed": {
     "message": "Podepsáno"
   },
   "signMessage": {
-    "message": "Podepsat zprávu"
+    "message": ""
   },
   "signNotice": {
-    "message": "Podepsání zprávy může mít \nnebezpečný vedlejší učinek. Podepisujte zprávy pouze ze \nstránek, kterým plně důvěřujete celým svým účtem.\n Tato nebezpečná metoda bude odebrána v budoucí verzi. "
+    "message": ""
   },
   "sigRequest": {
-    "message": "Požadavek podpisu"
+    "message": ""
   },
   "sigRequested": {
-    "message": "Požádáno o podpis"
+    "message": ""
   },
   "spaceBetween": {
     "message": "mezi slovy může být pouze mezera"
   },
   "status": {
-    "message": "Stav"
+    "message": ""
   },
   "stateLogs": {
     "message": "Stavové protokoly"
@@ -820,7 +817,7 @@
     "message": "Chyba během získávání stavových protokolů."
   },
   "submit": {
-    "message": "Odeslat"
+    "message": ""
   },
   "submitted": {
     "message": "Odesláno"
@@ -832,23 +829,23 @@
     "message": "Symbol musí být mezi 0 a 12 znaky."
   },
   "takesTooLong": {
-    "message": "Trvá to dlouho?"
+    "message": ""
   },
   "terms": {
     "message": "Podmínky použití"
   },
   "testFaucet": {
-    "message": "Testovací faucet"
+    "message": ""
   },
   "testnet": {
     "message": "DEXON Test Network"
   },
   "to": {
-    "message": "Komu"
+    "message": ""
   },
-  "toETHviaShapeShift": {
-    "message": "$1 na ETH přes ShapeShift",
-    "description": "system will fill in deposit type in start of message"
+  "toDEXviaShapeShift": {
+    "message": "",
+    "description": ""
   },
   "tokenAddress": {
     "message": "Adresa tokenu"
@@ -857,7 +854,7 @@
     "message": "Token byl už přidán."
   },
   "tokenBalance": {
-    "message": "Váš zůstatek tokenu je:"
+    "message": ""
   },
   "tokenSelection": {
     "message": "Vyhledejte token nebo je vyberte z našeho seznamu oblíbených tokenů."
@@ -869,7 +866,7 @@
     "message": "Mějte přehled o tokenech, které jste koupili s účtem DekuSanu. Pokud jste koupili tokeny s jiným účtem, tyto tokeny se zde nezobrazí."
   },
   "total": {
-    "message": "Celkem"
+    "message": ""
   },
   "transactions": {
     "message": "transakce"
@@ -878,54 +875,54 @@
     "message": "Chyba transakce. Vyhozena výjimka v kódu kontraktu."
   },
   "transactionMemo": {
-    "message": "Poznámka transakce (nepovinné)"
+    "message": ""
   },
   "transactionNumber": {
-    "message": "Číslo transakce"
+    "message": ""
   },
   "transfers": {
-    "message": "Převody"
+    "message": ""
   },
   "troubleTokenBalances": {
-    "message": "Měli jsme problém s načtením vašich tokenových zůstatků. Můžete je vidět ",
-    "description": "Followed by a link (here) to view token balances"
+    "message": "",
+    "description": ""
   },
   "twelveWords": {
     "message": "Těchto 12 slov je jedinou možností, jak obnovit DekuSan účet. \nUložte je na bezpečné a neveřejné místo."
   },
   "typePassword": {
-    "message": "Zadejte své heslo"
+    "message": ""
   },
   "uiWelcome": {
-    "message": "Vítejte v novém rozhraní (Beta)"
+    "message": ""
   },
   "uiWelcomeMessage": {
-    "message": "Používáte nyní nové rozhraní DekuSanu. Rozhlédněte se kolem, vyzkoušejte nové funkce, jako jsou zasílání tokenů, a dejte nám vědět, pokud narazíte na problém."
+    "message": ""
   },
   "unapproved": {
     "message": "Neschváleno"
   },
   "unavailable": {
-    "message": "Nedostupné"
+    "message": ""
   },
   "unknown": {
-    "message": "Neznámé"
+    "message": ""
   },
   "unknownNetwork": {
-    "message": "Neznámá soukromá síť"
+    "message": ""
   },
   "unknownNetworkId": {
-    "message": "Neznámé ID sítě"
+    "message": ""
   },
   "uriErrorMsg": {
-    "message": "URI vyžadují korektní HTTP/HTTPS prefix."
+    "message": "URI vyžadují korektní HTTP\/HTTPS prefix."
   },
   "usaOnly": {
-    "message": "jen v USA",
-    "description": "Using this exchange is limited to people inside the USA"
+    "message": "",
+    "description": ""
   },
   "usedByClients": {
-    "message": "Používána různými klienty"
+    "message": ""
   },
   "useOldUI": {
     "message": "Použijte staré rozhraní"
@@ -937,24 +934,436 @@
     "message": "Trezor vytvořen"
   },
   "viewAccount": {
-    "message": "Zobrazit účet"
+    "message": ""
   },
   "visitWebSite": {
     "message": "Navštivte naši stránku"
   },
   "warning": {
-    "message": "Varování"
+    "message": ""
   },
   "welcomeBeta": {
     "message": "Vítejte v DekuSan Beta"
   },
   "whatsThis": {
-    "message": "Co to je?"
+    "message": ""
   },
   "yourSigRequested": {
-    "message": "Je vyžadován váš podpis"
+    "message": ""
   },
   "youSign": {
-    "message": "Podepisujete"
+    "message": ""
+  },
+  "aboutDekuSan": {
+    "message": ""
+  },
+  "accessingYourCamera": {
+    "message": ""
+  },
+  "accountOptions": {
+    "message": ""
+  },
+  "accountSelectionRequired": {
+    "message": ""
+  },
+  "activityLog": {
+    "message": ""
+  },
+  "addSuggestedTokens": {
+    "message": ""
+  },
+  "addAcquiredTokens": {
+    "message": ""
+  },
+  "approve": {
+    "message": ""
+  },
+  "attemptToCancel": {
+    "message": ""
+  },
+  "attemptToCancelDescription": {
+    "message": ""
+  },
+  "browserNotSupported": {
+    "message": ""
+  },
+  "bytes": {
+    "message": ""
+  },
+  "cancelAttempt": {
+    "message": ""
+  },
+  "cancellationGasFee": {
+    "message": ""
+  },
+  "cancelN": {
+    "message": ""
+  },
+  "clickToAdd": {
+    "message": ""
+  },
+  "close": {
+    "message": ""
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": ""
+  },
+  "connectHardwareWallet": {
+    "message": ""
+  },
+  "connect": {
+    "message": ""
+  },
+  "connecting": {
+    "message": ""
+  },
+  "connectToLedger": {
+    "message": ""
+  },
+  "connectToTrezor": {
+    "message": ""
+  },
+  "copyAddress": {
+    "message": ""
+  },
+  "currentLanguage": {
+    "message": ""
+  },
+  "downloadGoogleChrome": {
+    "message": ""
+  },
+  "dontHaveAHardwareWallet": {
+    "message": ""
+  },
+  "editingTransaction": {
+    "message": ""
+  },
+  "ensNameNotFound": {
+    "message": ""
+  },
+  "enterPasswordContinue": {
+    "message": ""
+  },
+  "dex": {
+    "message": ""
+  },
+  "expandView": {
+    "message": ""
+  },
+  "forgetDevice": {
+    "message": ""
+  },
+  "functionType": {
+    "message": ""
+  },
+  "gasUsed": {
+    "message": ""
+  },
+  "generatingTransaction": {
+    "message": ""
+  },
+  "getHelp": {
+    "message": ""
+  },
+  "hardware": {
+    "message": ""
+  },
+  "hardwareWalletConnected": {
+    "message": ""
+  },
+  "hardwareWallets": {
+    "message": ""
+  },
+  "hardwareWalletsMsg": {
+    "message": ""
+  },
+  "havingTroubleConnecting": {
+    "message": ""
+  },
+  "hexData": {
+    "message": ""
+  },
+  "history": {
+    "message": ""
+  },
+  "importUsingSeed": {
+    "message": ""
+  },
+  "initialTransactionConfirmed": {
+    "message": ""
+  },
+  "invalidSeedPhrase": {
+    "message": ""
+  },
+  "ledgerAccountRestriction": {
+    "message": ""
+  },
+  "menu": {
+    "message": ""
+  },
+  "dekusanSeedWords": {
+    "message": ""
+  },
+  "dekusanVersion": {
+    "message": ""
+  },
+  "missingYourTokens": {
+    "message": ""
+  },
+  "nevermind": {
+    "message": ""
+  },
+  "noConversionRateAvailable": {
+    "message": ""
+  },
+  "notFound": {
+    "message": ""
+  },
+  "noWebcamFoundTitle": {
+    "message": ""
+  },
+  "noWebcamFound": {
+    "message": ""
+  },
+  "onlySendTokensToAccountAddress": {
+    "message": "",
+    "description": ""
+  },
+  "openInTab": {
+    "message": ""
+  },
+  "orderOneHere": {
+    "message": ""
+  },
+  "origin": {
+    "message": ""
+  },
+  "outgoing": {
+    "message": ""
+  },
+  "parameters": {
+    "message": ""
+  },
+  "password": {
+    "message": ""
+  },
+  "pending": {
+    "message": ""
+  },
+  "prev": {
+    "message": ""
+  },
+  "primaryCurrencySetting": {
+    "message": ""
+  },
+  "primaryCurrencySettingDescription": {
+    "message": ""
+  },
+  "queue": {
+    "message": ""
+  },
+  "reject": {
+    "message": ""
+  },
+  "rejectAll": {
+    "message": ""
+  },
+  "rejectTxsN": {
+    "message": ""
+  },
+  "rejectTxsDescription": {
+    "message": ""
+  },
+  "reset": {
+    "message": ""
+  },
+  "resetAccountDescription": {
+    "message": ""
+  },
+  "restoreAccountWithSeed": {
+    "message": ""
+  },
+  "restore": {
+    "message": ""
+  },
+  "revealSeedWordsTitle": {
+    "message": ""
+  },
+  "revealSeedWordsDescription": {
+    "message": ""
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": ""
+  },
+  "remove": {
+    "message": ""
+  },
+  "removeAccount": {
+    "message": ""
+  },
+  "removeAccountDescription": {
+    "message": ""
+  },
+  "readyToConnect": {
+    "message": ""
+  },
+  "rpc": {
+    "message": ""
+  },
+  "saveAsCsvFile": {
+    "message": ""
+  },
+  "scanInstructions": {
+    "message": ""
+  },
+  "scanQrCode": {
+    "message": ""
+  },
+  "searchResults": {
+    "message": ""
+  },
+  "selectLocale": {
+    "message": ""
+  },
+  "sentDexon": {
+    "message": ""
+  },
+  "sentTokens": {
+    "message": ""
+  },
+  "separateEachWord": {
+    "message": ""
+  },
+  "selectAnAddress": {
+    "message": ""
+  },
+  "selectAnAccount": {
+    "message": ""
+  },
+  "selectAnAccountHelp": {
+    "message": ""
+  },
+  "selectHdPath": {
+    "message": ""
+  },
+  "selectPathHelp": {
+    "message": ""
+  },
+  "showHexData": {
+    "message": ""
+  },
+  "showHexDataDescription": {
+    "message": ""
+  },
+  "signatureRequest": {
+    "message": ""
+  },
+  "speedUp": {
+    "message": ""
+  },
+  "speedUpTitle": {
+    "message": ""
+  },
+  "speedUpSubtitle": {
+    "message": ""
+  },
+  "step1HardwareWallet": {
+    "message": ""
+  },
+  "step1HardwareWalletMsg": {
+    "message": ""
+  },
+  "step2HardwareWallet": {
+    "message": ""
+  },
+  "step2HardwareWalletMsg": {
+    "message": ""
+  },
+  "step3HardwareWallet": {
+    "message": ""
+  },
+  "step3HardwareWalletMsg": {
+    "message": ""
+  },
+  "token": {
+    "message": ""
+  },
+  "transaction": {
+    "message": ""
+  },
+  "transactionConfirmed": {
+    "message": ""
+  },
+  "transactionCreated": {
+    "message": ""
+  },
+  "transactionWithNonce": {
+    "message": ""
+  },
+  "transactionDropped": {
+    "message": ""
+  },
+  "transactionSubmitted": {
+    "message": ""
+  },
+  "transactionUpdated": {
+    "message": ""
+  },
+  "transactionUpdatedGas": {
+    "message": ""
+  },
+  "transfer": {
+    "message": ""
+  },
+  "transferFrom": {
+    "message": ""
+  },
+  "trezorHardwareWallet": {
+    "message": ""
+  },
+  "tryAgain": {
+    "message": ""
+  },
+  "units": {
+    "message": ""
+  },
+  "unknownFunction": {
+    "message": ""
+  },
+  "unknownQrCode": {
+    "message": ""
+  },
+  "unknownCameraErrorTitle": {
+    "message": ""
+  },
+  "unknownCameraError": {
+    "message": ""
+  },
+  "unlock": {
+    "message": ""
+  },
+  "unlockMessage": {
+    "message": ""
+  },
+  "updatedWithDate": {
+    "message": ""
+  },
+  "viewOnDexScan": {
+    "message": ""
+  },
+  "welcomeBack": {
+    "message": ""
+  },
+  "yesLetsTry": {
+    "message": ""
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": ""
+  },
+  "yourPrivateSeedPhrase": {
+    "message": ""
+  },
+  "connectingToRinkeby": {
+    "message": ""
   }
 }

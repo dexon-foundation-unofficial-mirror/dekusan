@@ -94,11 +94,16 @@
     "message": "DekuSan",
     "description": "The name of the application"
   },
+<<<<<<< HEAD:app/_locales/sl/messages.json
   "approve": {
     "message": "Potrdi"
   },
   "approved": {
     "message": "Potrjeno"
+=======
+  "approved": {
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "attemptingConnect": {
     "message": "Povezovanje z verigo blokov ..."
@@ -153,7 +158,10 @@
     "message": "Kupi na Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase je najpopularnejši načun za kupovanje in prodajo bitcoinov, ethereuma, in litecoina."
+    "message": "Coinbase je najpopularnejši načun za kupovanje in prodajo bitcoinov, dexona, in litecoina."
+  },
+  "ok": {
+    "message": ""
   },
   "bytes": {
     "message": "Bajti"
@@ -192,7 +200,11 @@
     "message": "Potrdi"
   },
   "confirmed": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Potrjeno"
+=======
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "confirmContract": {
     "message": "Potrdi pogodbo"
@@ -301,7 +313,11 @@
     "message": "Prilagodi gas"
   },
   "customToken": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Žeton po meri"
+=======
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "customize": {
     "message": "Prilagodi"
@@ -331,11 +347,8 @@
     "message": "Vplačajte vaš $1 na spodnji naslov",
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
-  "depositEth": {
-    "message": "Vplačilo ETH"
-  },
-  "depositDex": {
-    "message": "Vplačilo ethera"
+  "depositDEX": {
+    "message": "Vplačilo dexona"
   },
   "depositFiat": {
     "message": "Vplačilo s klasičnimi valutami"
@@ -347,7 +360,7 @@
     "message": "Vplačilo z ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Če imate druge kriptovalute, lahko vpačate ether neposredno v DekuSan. Brez računov."
+    "message": "Če imate druge kriptovalute, lahko vpačate dexon neposredno v DekuSan. Brez računov."
   },
   "details": {
     "message": "Podrobnosti"
@@ -355,11 +368,16 @@
   "directDeposit": {
     "message": "Neposredno vplačilo"
   },
+<<<<<<< HEAD:app/_locales/sl/messages.json
   "directDepositEther": {
     "message": "Neposredno vplačilo ehera"
+=======
+  "directDepositDex": {
+    "message": "Direktno vplačilo ehera"
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
-  "directDepositEtherExplainer": {
-    "message": "Če že imate ether, ga lahko najhitreje dobite v DekuSan z direktnim vplačilom."
+  "directDepositDexExplainer": {
+    "message": "Če že imate dexon, ga lahko najhitreje dobite v DekuSan z direktnim vplačilom."
   },
   "done": {
     "message": "Končano"
@@ -375,6 +393,9 @@
   },
   "dropped": {
     "message": "Izpusti"
+  },
+  "dropped": {
+    "message": ""
   },
   "edit": {
     "message": "Uredi"
@@ -400,6 +421,7 @@
   "enterPasswordConfirm": {
     "message": "Potrdite geslo"
   },
+<<<<<<< HEAD:app/_locales/sl/messages.json
   "enterPasswordContinue": {
     "message": "Za nadaljevanje vnesite geslo"
   },
@@ -408,6 +430,16 @@
   },
   "etherscanView": {
     "message": "Poglejte račun na DEXscan"
+=======
+  "passwordNotLongEnough": {
+    "message": ""
+  },
+  "passwordsDontMatch": {
+    "message": ""
+  },
+  "dexscanView": {
+    "message": "Poglejte račun na DexScan"
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "exchangeRate": {
     "message": "Menjalni tečaj"
@@ -484,14 +516,19 @@
   "gasPriceRequired": {
     "message": "Gas price je zahtevan"
   },
+<<<<<<< HEAD:app/_locales/sl/messages.json
   "generatingTransaction": {
     "message": "Ustvarjanje transakcije"
   },
   "getEther": {
     "message": "Pridobi Ether"
+=======
+  "getDex": {
+    "message": "Pridobite dexon"
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
-  "getEtherFromFaucet": {
-    "message": "Pridobite ether iz fauceta za $1",
+  "getDexFromFaucet": {
+    "message": "Pridobite dexon iz fauceta za $1",
     "description": "Displays network name for DEX faucet"
   },
   "getHelp": {
@@ -539,10 +576,17 @@
     "message": "Zgodovina"
   },
   "howToDeposit": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Kako želite vplačati Ether?"
   },
   "holdEther": {
     "message": "Omogoča vam shranjevanje ethra in žetonov ter povezovanje decentraliziranih aplikacij."
+=======
+    "message": "Kako želite vplačati dexon?"
+  },
+  "holdDex": {
+    "message": "Omogoča vam, da imate eter in žetone in služi kot most za decentralizirane aplikacije."
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "import": {
     "message": "Uvoz",
@@ -611,7 +655,11 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Sledite žetonom, ki ste jih pridobili z MetaMask."
+=======
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "kovan": {
     "message": "Testno omrežje Kovan"
@@ -620,6 +668,7 @@
     "message": "Obiščite našo pomoč"
   },
   "max": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Max"
   },
   "learnMore": {
@@ -627,6 +676,12 @@
   },
   "ledgerAccountRestriction": {
     "message": "Za dodajanje novega računa morate uporabiti zadnji račun."
+=======
+    "message": ""
+  },
+  "learnMore": {
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "lessThanMax": {
     "message": "mora biti manjši ali enak $1.",
@@ -636,7 +691,11 @@
     "message": "Želite dodati te žetone?"
   },
   "links": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Povezave"
+=======
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "limit": {
     "message": "Meja"
@@ -671,7 +730,7 @@
   "message": {
     "message": "Sporočilo"
   },
-  "metamaskDescription": {
+  "dekusanDescription": {
     "message": "DekuSan je varen identitetni sklad za Dexon."
   },
   "metamaskSeedWords": {
@@ -692,7 +751,7 @@
   "mustSelectOne": {
     "message": "Izbran mora biti vsaj 1 žeton."
   },
-  "needEtherInWallet": {
+  "needDexInWallet": {
     "message": "Za interakcijo z decentraliziranimi aplikacijami, ki uporabljajo DekuSan, boste v svoji denarnici potrebovali eter."
   },
   "needImportFile": {
@@ -703,8 +762,13 @@
     "message": "Za izbrano datoteko morate vnesti geslo.",
     "description": "Password and file needed to import an account"
   },
+<<<<<<< HEAD:app/_locales/sl/messages.json
   "negativeETH": {
     "message": "Negativnih zneskov ETH ni mogoče poslati."
+=======
+  "negativeDex": {
+    "message": "Ni mogoče poslati negativne vsote DEX."
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "networks": {
     "message": "Omrežja"
@@ -862,6 +926,9 @@
   "primaryCurrencySettingDescription": {
     "message": "Izberite Native za prikaz vrednosti v privzeti valuti verige (npr. ETH). Izberite Klasične za prikaz vrednosti v izbrani klasični valuti."
   },
+  "popularTokens": {
+    "message": ""
+  },
   "privacyMsg": {
     "message": "Zasebnost"
   },
@@ -932,6 +999,9 @@
   "restoreAccountWithSeed": {
     "message": "Obnovi račun z seed phrase"
   },
+  "restoreVault": {
+    "message": ""
+  },
   "required": {
     "message": "Zahtevano"
   },
@@ -940,6 +1010,9 @@
   },
   "restore": {
     "message": "Obnovi"
+  },
+  "walletSeed": {
+    "message": ""
   },
   "revealSeedWords": {
     "message": "Razkrij seed words"
@@ -977,8 +1050,28 @@
   "ropsten": {
     "message": "Testno omrežje Ropsten"
   },
+<<<<<<< HEAD:app/_locales/sl/messages.json
   "rpc": {
     "message": "RPC po meri"
+=======
+  "currentRpc": {
+    "message": ""
+  },
+  "connectingToMainnet": {
+    "message": ""
+  },
+  "connectingToRopsten": {
+    "message": ""
+  },
+  "connectingToKovan": {
+    "message": ""
+  },
+  "connectingToTestnet": {
+    "message": ""
+  },
+  "connectingToUnknown": {
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "sampleAccountName": {
     "message": "npr. Moj račun",
@@ -987,8 +1080,16 @@
   "save": {
     "message": "Shrani"
   },
+<<<<<<< HEAD:app/_locales/sl/messages.json
   "saveAsCsvFile": {
     "message": "Shrani kot CSV datoteko"
+=======
+  "reprice_title": {
+    "message": ""
+  },
+  "reprice_subtitle": {
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "saveAsFile": {
     "message": "Shrani kot datoteko",
@@ -1012,6 +1113,9 @@
   "secretPhrase": {
     "message": "Vnesite vaših dvanajst besed za obnovitev vaših računov."
   },
+  "newPassword8Chars": {
+    "message": ""
+  },
   "seedPhraseReq": {
     "message": "Seed phrase mora biti dolg 12 besed"
   },
@@ -1034,11 +1138,12 @@
     "message": "Pošlji"
   },
   "sendDEX": {
-    "message": "Pošlji ETH"
+    "message": "Pošlji DEX"
   },
   "sendTokens": {
     "message": "Pošlji žetone"
   },
+<<<<<<< HEAD:app/_locales/sl/messages.json
   "sentEther": {
     "message": "poslani ether"
   },
@@ -1065,12 +1170,22 @@
   },
   "selectPathHelp": {
     "message": "Če obstoječih Ledger ne vidite, poskusite izbrati \"Legacy (MEW / MyCrypto)\""
+=======
+  "onlySendToDexonAddress": {
+    "message": ""
+  },
+  "searchTokens": {
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "sendTokensAnywhere": {
     "message": "Pošljite žetone vsem, ki imajo DEXON račun"
   },
   "settings": {
     "message": "Nastavitve"
+  },
+  "info": {
+    "message": ""
   },
   "shapeshiftBuy": {
     "message": "Kupi z Shapeshift"
@@ -1090,11 +1205,16 @@
   "sign": {
     "message": "Podpiši"
   },
+<<<<<<< HEAD:app/_locales/sl/messages.json
   "signatureRequest": {
     "message": "Zahteva za podpis"
   },
   "signed": {
     "message": "Podpisano"
+=======
+  "signed": {
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "signMessage": {
     "message": "Podpiši sporočilo"
@@ -1150,11 +1270,18 @@
   "step3HardwareWalletMsg": {
     "message": "Uporabite strojno denarnico kot katerikoli drug Ethereum račun. Prijavite se v dApps, pošljite Ether in ERC20 žetone in žetone kot CryptoKitties."
   },
+  "stateLogError": {
+    "message": ""
+  },
   "submit": {
     "message": "Potrdi"
   },
   "submitted": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Potrjeno"
+=======
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "supportCenter": {
     "message": "Obiščite naše središče za podporo"
@@ -1171,11 +1298,14 @@
   "testFaucet": {
     "message": "Testni faucet"
   },
+  "testnet": {
+    "message": ""
+  },
   "to": {
     "message": "Za"
   },
-  "toETHviaShapeShift": {
-    "message": "$1 v ETH prek ShapeShift",
+  "toDEXviaShapeShift": {
+    "message": "$1 v DEX prek ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1233,7 +1363,11 @@
     "message": "transakcije"
   },
   "transactionError": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Napaka pri transakciji. Izjema sprožena v kodi pogodbe."
+=======
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "transactionMemo": {
     "message": "Opomba transakcije (nezahtevano)"
@@ -1272,6 +1406,9 @@
   "uiWelcomeMessage": {
     "message": "Zdaj uporabljate novi DekuSan uporabniški vmesnik. Razglejte se, preizkusite nove funkcije, kot so pošiljanje žetonov, in nas obvestite, če imate kakšne težave."
   },
+  "unapproved": {
+    "message": ""
+  },
   "unavailable": {
     "message": "Ni na voljo"
   },
@@ -1309,7 +1446,11 @@
     "message": "Posodobljeno $1"
   },
   "uriErrorMsg": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "URI zahtevajo ustrezno HTTP/HTTPS predpono."
+=======
+    "message": "URI-ji zahtevajo ustrezno HTTP\/HTTPS predpono."
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "usaOnly": {
     "message": "Samo za ZDA",
@@ -1358,9 +1499,425 @@
     "message": "Zahtevan je bil vaš podpis"
   },
   "youSign": {
+<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Podpisali boste"
   },
   "yourPrivateSeedPhrase": {
     "message": "Vaš zasebni seed phrase"
+=======
+    "message": "Podpisani ste"
+  },
+  "aboutDekuSan": {
+    "message": ""
+  },
+  "accessingYourCamera": {
+    "message": ""
+  },
+  "accountOptions": {
+    "message": ""
+  },
+  "accountSelectionRequired": {
+    "message": ""
+  },
+  "activityLog": {
+    "message": ""
+  },
+  "addSuggestedTokens": {
+    "message": ""
+  },
+  "addAcquiredTokens": {
+    "message": ""
+  },
+  "approve": {
+    "message": ""
+  },
+  "attemptToCancel": {
+    "message": ""
+  },
+  "attemptToCancelDescription": {
+    "message": ""
+  },
+  "browserNotSupported": {
+    "message": ""
+  },
+  "bytes": {
+    "message": ""
+  },
+  "cancelAttempt": {
+    "message": ""
+  },
+  "cancellationGasFee": {
+    "message": ""
+  },
+  "cancelN": {
+    "message": ""
+  },
+  "clickToAdd": {
+    "message": ""
+  },
+  "close": {
+    "message": ""
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": ""
+  },
+  "connectHardwareWallet": {
+    "message": ""
+  },
+  "connect": {
+    "message": ""
+  },
+  "connecting": {
+    "message": ""
+  },
+  "connectToLedger": {
+    "message": ""
+  },
+  "connectToTrezor": {
+    "message": ""
+  },
+  "copyAddress": {
+    "message": ""
+  },
+  "currentLanguage": {
+    "message": ""
+  },
+  "downloadGoogleChrome": {
+    "message": ""
+  },
+  "dontHaveAHardwareWallet": {
+    "message": ""
+  },
+  "editingTransaction": {
+    "message": ""
+  },
+  "ensNameNotFound": {
+    "message": ""
+  },
+  "enterPasswordContinue": {
+    "message": ""
+  },
+  "dex": {
+    "message": ""
+  },
+  "expandView": {
+    "message": ""
+  },
+  "forgetDevice": {
+    "message": ""
+  },
+  "functionType": {
+    "message": ""
+  },
+  "gasUsed": {
+    "message": ""
+  },
+  "generatingTransaction": {
+    "message": ""
+  },
+  "getHelp": {
+    "message": ""
+  },
+  "hardware": {
+    "message": ""
+  },
+  "hardwareWalletConnected": {
+    "message": ""
+  },
+  "hardwareWallets": {
+    "message": ""
+  },
+  "hardwareWalletsMsg": {
+    "message": ""
+  },
+  "havingTroubleConnecting": {
+    "message": ""
+  },
+  "hexData": {
+    "message": ""
+  },
+  "history": {
+    "message": ""
+  },
+  "importUsingSeed": {
+    "message": ""
+  },
+  "initialTransactionConfirmed": {
+    "message": ""
+  },
+  "invalidSeedPhrase": {
+    "message": ""
+  },
+  "ledgerAccountRestriction": {
+    "message": ""
+  },
+  "menu": {
+    "message": ""
+  },
+  "dekusanSeedWords": {
+    "message": ""
+  },
+  "dekusanVersion": {
+    "message": ""
+  },
+  "missingYourTokens": {
+    "message": ""
+  },
+  "nevermind": {
+    "message": ""
+  },
+  "noConversionRateAvailable": {
+    "message": ""
+  },
+  "notFound": {
+    "message": ""
+  },
+  "noWebcamFoundTitle": {
+    "message": ""
+  },
+  "noWebcamFound": {
+    "message": ""
+  },
+  "onlySendTokensToAccountAddress": {
+    "message": "",
+    "description": ""
+  },
+  "openInTab": {
+    "message": ""
+  },
+  "orderOneHere": {
+    "message": ""
+  },
+  "origin": {
+    "message": ""
+  },
+  "outgoing": {
+    "message": ""
+  },
+  "parameters": {
+    "message": ""
+  },
+  "password": {
+    "message": ""
+  },
+  "pending": {
+    "message": ""
+  },
+  "prev": {
+    "message": ""
+  },
+  "primaryCurrencySetting": {
+    "message": ""
+  },
+  "primaryCurrencySettingDescription": {
+    "message": ""
+  },
+  "queue": {
+    "message": ""
+  },
+  "reject": {
+    "message": ""
+  },
+  "rejectAll": {
+    "message": ""
+  },
+  "rejectTxsN": {
+    "message": ""
+  },
+  "rejectTxsDescription": {
+    "message": ""
+  },
+  "reset": {
+    "message": ""
+  },
+  "resetAccountDescription": {
+    "message": ""
+  },
+  "restoreAccountWithSeed": {
+    "message": ""
+  },
+  "restore": {
+    "message": ""
+  },
+  "revealSeedWordsTitle": {
+    "message": ""
+  },
+  "revealSeedWordsDescription": {
+    "message": ""
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": ""
+  },
+  "remove": {
+    "message": ""
+  },
+  "removeAccount": {
+    "message": ""
+  },
+  "removeAccountDescription": {
+    "message": ""
+  },
+  "readyToConnect": {
+    "message": ""
+  },
+  "rpc": {
+    "message": ""
+  },
+  "saveAsCsvFile": {
+    "message": ""
+  },
+  "scanInstructions": {
+    "message": ""
+  },
+  "scanQrCode": {
+    "message": ""
+  },
+  "searchResults": {
+    "message": ""
+  },
+  "selectLocale": {
+    "message": ""
+  },
+  "sentDexon": {
+    "message": ""
+  },
+  "sentTokens": {
+    "message": ""
+  },
+  "separateEachWord": {
+    "message": ""
+  },
+  "selectAnAddress": {
+    "message": ""
+  },
+  "selectAnAccount": {
+    "message": ""
+  },
+  "selectAnAccountHelp": {
+    "message": ""
+  },
+  "selectHdPath": {
+    "message": ""
+  },
+  "selectPathHelp": {
+    "message": ""
+  },
+  "showHexData": {
+    "message": ""
+  },
+  "showHexDataDescription": {
+    "message": ""
+  },
+  "signatureRequest": {
+    "message": ""
+  },
+  "speedUp": {
+    "message": ""
+  },
+  "speedUpTitle": {
+    "message": ""
+  },
+  "speedUpSubtitle": {
+    "message": ""
+  },
+  "step1HardwareWallet": {
+    "message": ""
+  },
+  "step1HardwareWalletMsg": {
+    "message": ""
+  },
+  "step2HardwareWallet": {
+    "message": ""
+  },
+  "step2HardwareWalletMsg": {
+    "message": ""
+  },
+  "step3HardwareWallet": {
+    "message": ""
+  },
+  "step3HardwareWalletMsg": {
+    "message": ""
+  },
+  "token": {
+    "message": ""
+  },
+  "transaction": {
+    "message": ""
+  },
+  "transactionConfirmed": {
+    "message": ""
+  },
+  "transactionCreated": {
+    "message": ""
+  },
+  "transactionWithNonce": {
+    "message": ""
+  },
+  "transactionDropped": {
+    "message": ""
+  },
+  "transactionSubmitted": {
+    "message": ""
+  },
+  "transactionUpdated": {
+    "message": ""
+  },
+  "transactionUpdatedGas": {
+    "message": ""
+  },
+  "transfer": {
+    "message": ""
+  },
+  "transferFrom": {
+    "message": ""
+  },
+  "trezorHardwareWallet": {
+    "message": ""
+  },
+  "tryAgain": {
+    "message": ""
+  },
+  "units": {
+    "message": ""
+  },
+  "unknownFunction": {
+    "message": ""
+  },
+  "unknownQrCode": {
+    "message": ""
+  },
+  "unknownCameraErrorTitle": {
+    "message": ""
+  },
+  "unknownCameraError": {
+    "message": ""
+  },
+  "unlock": {
+    "message": ""
+  },
+  "unlockMessage": {
+    "message": ""
+  },
+  "updatedWithDate": {
+    "message": ""
+  },
+  "viewOnDexScan": {
+    "message": ""
+  },
+  "welcomeBack": {
+    "message": ""
+  },
+  "yesLetsTry": {
+    "message": ""
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": ""
+  },
+  "yourPrivateSeedPhrase": {
+    "message": ""
+  },
+  "connectingToRinkeby": {
+    "message": ""
+>>>>>>> Update translations:app/_locales/sl_SI/messages.json
   }
 }

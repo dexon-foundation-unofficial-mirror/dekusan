@@ -24,7 +24,7 @@ const TOKEN_TRANSFER_FUNCTION_SIGNATURE = '0xa9059cbb'
 
 const INSUFFICIENT_FUNDS_ERROR = 'insufficientFunds'
 const INSUFFICIENT_TOKENS_ERROR = 'insufficientTokens'
-const NEGATIVE_ETH_ERROR = 'negativeETH'
+const NEGATIVE_ETH_ERROR = 'negativeDex'
 const INVALID_RECIPIENT_ADDRESS_ERROR = 'invalidAddressRecipient'
 const REQUIRED_ERROR = 'required'
 

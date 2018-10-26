@@ -68,9 +68,6 @@
   "addTokens": {
     "message": "添加代币"
   },
-  "addAcquiredTokens": {
-    "message": "在Metamask上添加已用的代币"
-  },
   "amount": {
     "message": "数量"
   },
@@ -146,9 +143,6 @@
   "clickCopy": {
     "message": "点击复制"
   },
-  "close": {
-    "message": "关闭"
-  },
   "confirm": {
     "message": "确认"
   },
@@ -163,9 +157,6 @@
   },
   "confirmTransaction": {
     "message": "确认交易"
-  },
-  "connectHardwareWallet": {
-    "message": "链接硬件钱包"
   },
   "continue": {
     "message": "继续"
@@ -256,10 +247,7 @@
     "message": "将你的 $1 存入到下面的地址",
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
-  "depositEth": {
-    "message": "存入 Eth"
-  },
-  "depositDex": {
+  "depositDEX": {
     "message": "存入 DEX"
   },
   "depositFiat": {
@@ -280,10 +268,10 @@
   "directDeposit": {
     "message": "直接存入"
   },
-  "directDepositEther": {
+  "directDepositDex": {
     "message": "直接存入 DEX"
   },
-  "directDepositEtherExplainer": {
+  "directDepositDexExplainer": {
     "message": "如果你已经有了一些 DEX，通过直接转入是你的新钱包获取 DEX 的最快捷方式。"
   },
   "done": {
@@ -313,17 +301,14 @@
   "enterPasswordConfirm": {
     "message": "请输入密码以确认"
   },
-  "enterPasswordContinue": {
-    "message": "请输入密码以继续"
-  },
   "passwordNotLongEnough": {
     "message": "密码长度不足"
   },
   "passwordsDontMatch": {
     "message": "密码不匹配"
   },
-  "etherscanView": {
-    "message": "在 DEXscan 上查看账户"
+  "dexscanView": {
+    "message": "在 DexScan 上查看账户"
   },
   "exchangeRate": {
     "message": "兑换比率"
@@ -388,13 +373,10 @@
   "gasPriceRequired": {
     "message": "Gas Price 必填"
   },
-  "generatingTransaction": {
-    "message": "生成 交易"
-  },
-  "getEther": {
+  "getDex": {
     "message": "获取 DEX"
   },
-  "getEtherFromFaucet": {
+  "getDexFromFaucet": {
     "message": "从水管获取$1网络的 DEX",
     "description": "Displays network name for DEX faucet"
   },
@@ -421,8 +403,8 @@
   "howToDeposit": {
     "message": "你想怎样转入 DEX？"
   },
-  "holdEther": {
-    "message": "它允许你保存ether和代币，并作为你使用Dapp的桥梁."
+  "holdDex": {
+    "message": "它允许你保存dexon和代币，并作为你使用Dapp的桥梁."
   },
   "import": {
     "message": "导入",
@@ -432,7 +414,7 @@
     "message": "导入账户"
   },
   "importAccountMsg": {
-    "message":" Imported accounts will not be associated with your originally created DekuSan account seedphrase. Learn more about imported accounts "
+    "message": " Imported accounts will not be associated with your originally created DekuSan account seedphrase. Learn more about imported accounts "
   },
   "importAnAccount": {
     "message": "导入一个账户"
@@ -533,11 +515,8 @@
   "message": {
     "message": "消息"
   },
-  "metamaskDescription": {
+  "dekusanDescription": {
     "message": "DekuSan is a secure identity vault for Dexon."
-  },
-  "metamaskSeedWords": {
-    "message": "DekuSan 助记词"
   },
   "min": {
     "message": "最小"
@@ -548,7 +527,7 @@
   "mustSelectOne": {
     "message": "至少选择一种代币."
   },
-  "needEtherInWallet": {
+  "needDexInWallet": {
     "message": "使用 DekuSan 与 DAPP 交互，需要你的钱包里有 DEX。"
   },
   "needImportFile": {
@@ -559,8 +538,8 @@
     "message": "必须为已选择的文件输入密码。",
     "description": "Password and file needed to import an account"
   },
-  "negativeETH": {
-    "message": "Can not send negative amounts of ETH."
+  "negativeDex": {
+    "message": "Can not send negative amounts of DEX."
   },
   "networks": {
     "message": "网络"
@@ -611,9 +590,6 @@
   "or": {
     "message": "或",
     "description": "choice between creating or importing a new account"
-  },
-  "password": {
-    "message": "密码"
   },
   "passwordCorrect": {
     "message": "Please make sure your password is correct."
@@ -700,15 +676,6 @@
   "revealSeedWords": {
     "message": "显示助记词"
   },
-  "revealSeedWordsTitle": {
-    "message": "助记词"
-  },
-  "revealSeedWordsDescription": {
-    "message": "如果您更换浏览器或计算机，则需要使用此助记词访问您的帐户。请将它们保存在安全秘密的地方。"
-  },
-  "revealSeedWordsWarningTitle": {
-    "message": "不要对任何人展示助记词！"
-  },
   "revealSeedWordsWarning": {
     "message": "助记词可以用来窃取您的所有帐户."
   },
@@ -752,9 +719,6 @@
   "reprice_subtitle": {
     "message": "提高 GAS 价格尝试覆盖并加速交易"
   },
-  "saveAsCsvFile": {
-    "message": "另存为CSV文件"
-  },
   "saveAsFile": {
     "message": "保存文件",
     "description": "Account export process"
@@ -764,9 +728,6 @@
   },
   "search": {
     "message": "搜索"
-  },
-  "searchResults": {
-    "message": "搜索结果"
   },
   "secretPhrase": {
     "message": "输入12位助记词以恢复金库."
@@ -793,13 +754,13 @@
     "message": "发送"
   },
   "sendDEX": {
-    "message": "发送 ETH"
+    "message": "发送 DEX"
   },
   "sendTokens": {
     "message": "发送 代币"
   },
   "onlySendToDexonAddress": {
-    "message": "只发送 ETH 给一个以太坊地址"
+    "message": "只发送 DEX 给一个以太坊地址"
   },
   "searchTokens": {
     "message": "搜索代币"
@@ -882,8 +843,8 @@
   "to": {
     "message": "至"
   },
-  "toETHviaShapeShift": {
-    "message": "$1 ETH 通过 ShapeShift",
+  "toDEXviaShapeShift": {
+    "message": "$1 DEX 通过 ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {
@@ -954,7 +915,7 @@
     "message": "未知网络ID"
   },
   "uriErrorMsg": {
-    "message": "URIs require the appropriate HTTP/HTTPS prefix."
+    "message": "URIs require the appropriate HTTP\/HTTPS prefix."
   },
   "usaOnly": {
     "message": "只限于美国",
@@ -993,7 +954,416 @@
   "youSign": {
     "message": "正在签名"
   },
+  "aboutDekuSan": {
+    "message": ""
+  },
+  "accessingYourCamera": {
+    "message": ""
+  },
+  "accountOptions": {
+    "message": ""
+  },
+  "accountSelectionRequired": {
+    "message": ""
+  },
+  "activityLog": {
+    "message": ""
+  },
+  "addSuggestedTokens": {
+    "message": ""
+  },
+  "addAcquiredTokens": {
+    "message": "在 DekuSan 上添加已用的代币"
+  },
+  "approve": {
+    "message": ""
+  },
+  "attemptToCancel": {
+    "message": ""
+  },
+  "attemptToCancelDescription": {
+    "message": ""
+  },
+  "browserNotSupported": {
+    "message": ""
+  },
+  "bytes": {
+    "message": ""
+  },
+  "cancelAttempt": {
+    "message": ""
+  },
+  "cancellationGasFee": {
+    "message": ""
+  },
+  "cancelN": {
+    "message": ""
+  },
+  "clickToAdd": {
+    "message": ""
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": ""
+  },
+  "connectHardwareWallet": {
+    "message": "链接硬件钱包"
+  },
+  "connect": {
+    "message": ""
+  },
+  "connecting": {
+    "message": ""
+  },
+  "connectToLedger": {
+    "message": ""
+  },
+  "connectToTrezor": {
+    "message": ""
+  },
+  "copyAddress": {
+    "message": ""
+  },
+  "currentLanguage": {
+    "message": ""
+  },
+  "downloadGoogleChrome": {
+    "message": ""
+  },
+  "dontHaveAHardwareWallet": {
+    "message": ""
+  },
+  "editingTransaction": {
+    "message": ""
+  },
+  "ensNameNotFound": {
+    "message": ""
+  },
+  "enterPasswordContinue": {
+    "message": "请输入密码以继续"
+  },
+  "dex": {
+    "message": ""
+  },
+  "expandView": {
+    "message": ""
+  },
+  "forgetDevice": {
+    "message": ""
+  },
+  "functionType": {
+    "message": ""
+  },
+  "gasUsed": {
+    "message": ""
+  },
+  "generatingTransaction": {
+    "message": "生成 交易"
+  },
+  "getHelp": {
+    "message": ""
+  },
+  "hardware": {
+    "message": ""
+  },
+  "hardwareWalletConnected": {
+    "message": ""
+  },
+  "hardwareWallets": {
+    "message": ""
+  },
+  "hardwareWalletsMsg": {
+    "message": ""
+  },
+  "havingTroubleConnecting": {
+    "message": ""
+  },
+  "hexData": {
+    "message": ""
+  },
+  "history": {
+    "message": ""
+  },
+  "importUsingSeed": {
+    "message": ""
+  },
+  "initialTransactionConfirmed": {
+    "message": ""
+  },
+  "invalidSeedPhrase": {
+    "message": ""
+  },
+  "ledgerAccountRestriction": {
+    "message": ""
+  },
+  "menu": {
+    "message": ""
+  },
+  "dekusanSeedWords": {
+    "message": "DekuSan 助记词"
+  },
+  "dekusanVersion": {
+    "message": ""
+  },
+  "missingYourTokens": {
+    "message": ""
+  },
+  "nevermind": {
+    "message": ""
+  },
+  "noConversionRateAvailable": {
+    "message": ""
+  },
+  "notFound": {
+    "message": ""
+  },
+  "noWebcamFoundTitle": {
+    "message": ""
+  },
+  "noWebcamFound": {
+    "message": ""
+  },
+  "onlySendTokensToAccountAddress": {
+    "message": "",
+    "description": ""
+  },
+  "openInTab": {
+    "message": ""
+  },
+  "orderOneHere": {
+    "message": ""
+  },
+  "origin": {
+    "message": ""
+  },
+  "outgoing": {
+    "message": ""
+  },
+  "parameters": {
+    "message": ""
+  },
+  "password": {
+    "message": "密码"
+  },
+  "pending": {
+    "message": ""
+  },
+  "prev": {
+    "message": ""
+  },
+  "primaryCurrencySetting": {
+    "message": ""
+  },
+  "primaryCurrencySettingDescription": {
+    "message": ""
+  },
+  "queue": {
+    "message": ""
+  },
+  "reject": {
+    "message": ""
+  },
+  "rejectAll": {
+    "message": ""
+  },
+  "rejectTxsN": {
+    "message": ""
+  },
+  "rejectTxsDescription": {
+    "message": ""
+  },
+  "reset": {
+    "message": ""
+  },
+  "resetAccountDescription": {
+    "message": ""
+  },
+  "restoreAccountWithSeed": {
+    "message": ""
+  },
+  "restore": {
+    "message": ""
+  },
+  "revealSeedWordsTitle": {
+    "message": "助记词"
+  },
+  "revealSeedWordsDescription": {
+    "message": "如果您更换浏览器或计算机，则需要使用此助记词访问您的帐户。请将它们保存在安全秘密的地方。"
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "不要对任何人展示助记词！"
+  },
+  "remove": {
+    "message": ""
+  },
+  "removeAccount": {
+    "message": ""
+  },
+  "removeAccountDescription": {
+    "message": ""
+  },
+  "readyToConnect": {
+    "message": ""
+  },
+  "rpc": {
+    "message": ""
+  },
+  "saveAsCsvFile": {
+    "message": "另存为CSV文件"
+  },
+  "scanInstructions": {
+    "message": ""
+  },
+  "scanQrCode": {
+    "message": ""
+  },
+  "searchResults": {
+    "message": "搜索结果"
+  },
+  "selectLocale": {
+    "message": ""
+  },
+  "sentDexon": {
+    "message": ""
+  },
+  "sentTokens": {
+    "message": ""
+  },
+  "separateEachWord": {
+    "message": ""
+  },
+  "selectAnAddress": {
+    "message": ""
+  },
+  "selectAnAccount": {
+    "message": ""
+  },
+  "selectAnAccountHelp": {
+    "message": ""
+  },
+  "selectHdPath": {
+    "message": ""
+  },
+  "selectPathHelp": {
+    "message": ""
+  },
+  "showHexData": {
+    "message": ""
+  },
+  "showHexDataDescription": {
+    "message": ""
+  },
+  "signatureRequest": {
+    "message": ""
+  },
+  "speedUp": {
+    "message": ""
+  },
+  "speedUpTitle": {
+    "message": ""
+  },
+  "speedUpSubtitle": {
+    "message": ""
+  },
+  "step1HardwareWallet": {
+    "message": ""
+  },
+  "step1HardwareWalletMsg": {
+    "message": ""
+  },
+  "step2HardwareWallet": {
+    "message": ""
+  },
+  "step2HardwareWalletMsg": {
+    "message": ""
+  },
+  "step3HardwareWallet": {
+    "message": ""
+  },
+  "step3HardwareWalletMsg": {
+    "message": ""
+  },
+  "token": {
+    "message": ""
+  },
+  "transaction": {
+    "message": ""
+  },
+  "transactionConfirmed": {
+    "message": ""
+  },
+  "transactionCreated": {
+    "message": ""
+  },
+  "transactionWithNonce": {
+    "message": ""
+  },
+  "transactionDropped": {
+    "message": ""
+  },
+  "transactionSubmitted": {
+    "message": ""
+  },
+  "transactionUpdated": {
+    "message": ""
+  },
+  "transactionUpdatedGas": {
+    "message": ""
+  },
+  "transfer": {
+    "message": ""
+  },
+  "transferFrom": {
+    "message": ""
+  },
+  "trezorHardwareWallet": {
+    "message": ""
+  },
+  "tryAgain": {
+    "message": ""
+  },
+  "units": {
+    "message": ""
+  },
+  "unknownFunction": {
+    "message": ""
+  },
+  "unknownQrCode": {
+    "message": ""
+  },
+  "unknownCameraErrorTitle": {
+    "message": ""
+  },
+  "unknownCameraError": {
+    "message": ""
+  },
+  "unlock": {
+    "message": ""
+  },
+  "unlockMessage": {
+    "message": ""
+  },
+  "updatedWithDate": {
+    "message": ""
+  },
+  "viewOnDexScan": {
+    "message": ""
+  },
+  "welcomeBack": {
+    "message": ""
+  },
+  "yesLetsTry": {
+    "message": ""
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": ""
+  },
   "yourPrivateSeedPhrase": {
     "message": "你的私有助记词"
+  },
+  "connectingToRinkeby": {
+    "message": ""
   }
 }

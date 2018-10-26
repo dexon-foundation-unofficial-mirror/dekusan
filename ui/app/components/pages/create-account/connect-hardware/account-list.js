@@ -107,7 +107,7 @@ class AccountList extends Component {
                     {
                     href: genAccountLink(a.address, this.props.network),
                     target: '_blank',
-                    title: this.context.t('etherscanView'),
+                    title: this.context.t('dexscanView'),
                     },
                     h('img', { src: 'images/popout.svg' })
                 ),

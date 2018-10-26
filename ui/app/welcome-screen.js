@@ -52,9 +52,9 @@ class WelcomeScreen extends Component {
 
           h('div.welcome-screen__info__header', this.context.t('welcome')),
 
-          h('div.welcome-screen__info__copy', this.context.t('metamaskDescription')),
+          h('div.welcome-screen__info__copy', this.context.t('dekusanDescription')),
 
-          h('div.welcome-screen__info__copy', this.context.t('holdEther')),
+          h('div.welcome-screen__info__copy', this.context.t('holdDex')),
 
           h('button.welcome-screen__button', {
             onClick: this.initiateAccountCreation,

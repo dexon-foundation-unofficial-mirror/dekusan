@@ -42,8 +42,8 @@ function DepositEtherModal (props, context) {
   Component.call(this)
 
   // need to set after i18n locale has loaded
-  DIRECT_DEPOSIT_ROW_TITLE = context.t('directDepositEther')
-  DIRECT_DEPOSIT_ROW_TEXT = context.t('directDepositEtherExplainer')
+  DIRECT_DEPOSIT_ROW_TITLE = context.t('directDepositDex')
+  DIRECT_DEPOSIT_ROW_TEXT = context.t('directDepositDexExplainer')
   FAUCET_ROW_TITLE = context.t('testFaucet')
 
   this.state = {
@@ -59,7 +59,7 @@ module.exports = connect(mapStateToProps, mapDispatchToProps)(DepositEtherModal)
 
 
 DepositEtherModal.prototype.facuetRowText = function (networkName) {
-  return this.context.t('getEtherFromFaucet', [networkName])
+  return this.context.t('getDexFromFaucet', [networkName])
 }
 
 DepositEtherModal.prototype.renderRow = function ({
@@ -124,10 +124,10 @@ DepositEtherModal.prototype.render = function () {
 
     h('div.page-container__header', [
 
-      h('div.page-container__title', [this.context.t('depositDex')]),
+      h('div.page-container__title', [this.context.t('depositDEX')]),
 
       h('div.page-container__subtitle', [
-        this.context.t('needEtherInWallet'),
+        this.context.t('needDexInWallet'),
       ]),
 
       h('div.page-container__header-close', {
@@ -159,7 +159,7 @@ DepositEtherModal.prototype.render = function () {
           logo: h('i.fa.fa-tint.fa-2x'),
           title: FAUCET_ROW_TITLE,
           text: this.facuetRowText(networkName),
-          buttonLabel: this.context.t('getEther'),
+          buttonLabel: this.context.t('getDex'),
           onButtonClick: () => toFaucet(network),
           hide: !isTestNetwork || buyingWithShapeshift,
         }),

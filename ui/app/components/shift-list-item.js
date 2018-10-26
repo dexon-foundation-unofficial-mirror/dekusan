@@ -141,7 +141,7 @@ ShiftListItem.prototype.renderInfo = function () {
             color: '#ABA9AA',
             width: '100%',
           },
-        }, this.context.t('toETHviaShapeShift', [props.depositType])),
+        }, this.context.t('toDEXviaShapeShift', [props.depositType])),
         h('div', this.context.t('noDeposits')),
         h('div', {
           style: {
@@ -164,7 +164,7 @@ ShiftListItem.prototype.renderInfo = function () {
             color: '#ABA9AA',
             width: '100%',
           },
-        }, this.context.t('toETHviaShapeShift', [props.depositType])),
+        }, this.context.t('toDEXviaShapeShift', [props.depositType])),
         h('div', this.context.t('conversionProgress')),
         h('div', {
           style: {

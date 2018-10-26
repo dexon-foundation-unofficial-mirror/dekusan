@@ -247,10 +247,7 @@
     "message": "உங்கள் முகவரிக்கு $ 1 ஐ கீழே உள்ளிடவும்",
     "description": "சேபஷிபிட் உடன் வைப்புக்குத் தேர்ந்தெடுக்கப்பட்ட நாணயத்தை பயனரிடம் கூறுகிறார்"
   },
-  "depositEth": {
-    "message": "வைப்புத்தொகை எது "
-  },
-  "depositDex": {
+  "depositDEX": {
     "message": "வைப்புத்தொகை எதிர் "
   },
   "depositFiat": {
@@ -271,10 +268,10 @@
   "directDeposit": {
     "message": "நேரடி வைப்பு"
   },
-  "directDepositEther": {
+  "directDepositDex": {
     "message": "நேரடியாக வைப்புத்தொகை"
   },
-  "directDepositEtherExplainer": {
+  "directDepositDexExplainer": {
     "message": "நீங்கள் ஏற்கனவே ஏதெர் இருந்தால், நேரடி வைப்பு மூலம் உங்கள் புதிய பணப்பையில் ஈத்தர் பெற விரைவான வழி."
   },
   "done": {
@@ -310,8 +307,8 @@
   "passwordsDontMatch": {
     "message": "கடவுச்சொற்கள் பொருந்தாதே"
   },
-  "etherscanView": {
-    "message": "Etherscan கணக்கைப் பார்க்கவும்"
+  "dexscanView": {
+    "message": "DEXONscan கணக்கைப் பார்க்கவும்"
   },
   "exchangeRate": {
     "message": "மாற்று விகிதம்"
@@ -376,10 +373,10 @@
   "gasPriceRequired": {
     "message": "எரிவாயு விலை தேவைப்படுகிறது"
   },
-  "getEther": {
+  "getDex": {
     "message": "ஈத்தர் கிடைக்கும்"
   },
-  "getEtherFromFaucet": {
+  "getDexFromFaucet": {
     "message": "$ 1 க்கு ஒரு குழாய் இருந்து ஈதர் கிடைக்கும்$1",
     "description": "ஈத்தர் குழாய் ஐந்து பிணைய பெயர் காட்டுகிறது"
   },
@@ -406,7 +403,7 @@
   "howToDeposit": {
     "message": "எப்படி ஈத்தர் வைப்பது?"
   },
-  "holdEther": {
+  "holdDex": {
     "message": "இது நீங்கள் ஈத்தர் மற்றும் டோக்கன்களை வைத்திருக்க உதவுகிறது, மற்றும் பரவலாக்கப்பட்ட பயன்பாடுகளுக்கு உங்கள் பாலமாக செயல்படுகிறது."
   },
   "import": {
@@ -518,7 +515,7 @@
   "message": {
     "message": "செய்தி"
   },
-  "metamaskDescription": {
+  "dekusanDescription": {
     "message": "மேடமஸ்க் என்பது ஒரு பாதுகாப்பான அடையாள வால்ட் எதெரியும்"
   },
   "min": {
@@ -530,7 +527,7 @@
   "mustSelectOne": {
     "message": "குறைந்தது 1 டோக்கனை தேர்ந்தெடுக்க வேண்டும்."
   },
-  "needEtherInWallet": {
+  "needDexInWallet": {
     "message": "மேடமஸ்க் ஐ பயன்படுத்தி பரவலாக்கப்பட்ட பயன்பாடுகளுடன் தொடர்பு கொள்ள, உங்கள் பணப்பரிமாற்றத்தில் ஈதர் தேவை."
   },
   "needImportFile": {
@@ -541,8 +538,8 @@
     "message": "நீங்கள் தேர்ந்தெடுத்த கோப்புக்கு ஒரு கடவுச்சொல்லை உள்ளிட வேண்டும்.",
     "description": "ஒரு கணக்கை இறக்குமதி செய்ய கடவுச்சொல் மற்றும் கோப்பு தேவை"
   },
-  "negativeETH": {
-    "message": "ETH எதிர்மறை அளவுகளை அனுப்ப முடியாது."
+  "negativeDex": {
+    "message": "DEX எதிர்மறை அளவுகளை அனுப்ப முடியாது."
   },
   "networks": {
     "message": "நெட்வொர்க்ஸ்"
@@ -757,13 +754,13 @@
     "message": "அனுப்பு"
   },
   "sendDEX": {
-    "message": "ETH ஐ அனுப்பு"
+    "message": "DEX ஐ அனுப்பு"
   },
   "sendTokens": {
     "message": "டோக்கன்களை அனுப்பவும்"
   },
   "onlySendToDexonAddress": {
-    "message": "ETH ஐ ஒரு எதரியும் முகவரிக்கு மட்டும் அனுப்பவும்."
+    "message": "DEX ஐ ஒரு எதரியும் முகவரிக்கு மட்டும் அனுப்பவும்."
   },
   "searchTokens": {
     "message": "தேடல் டோக்கன்ஸ்"
@@ -840,11 +837,14 @@
   "testFaucet": {
     "message": "சோதனை குழாய்"
   },
+  "testnet": {
+    "message": ""
+  },
   "to": {
     "message": "பெறுநர்"
   },
-  "toETHviaShapeShift": {
-    "message": "$ 1 முதல் ETH வரை வடிவம்",
+  "toDEXviaShapeShift": {
+    "message": "$ 1 முதல் DEX வரை வடிவம்",
     "description": "செய்தி தொடக்கத்தில் வைப்பு வகைகளில் நிரப்பப்படும்"
   },
   "tokenAddress": {
@@ -915,7 +915,7 @@
     "message": "தெரியாத நெட்வொர்க் ஐடி"
   },
   "uriErrorMsg": {
-    "message": "URI கள் சரியான HTTP / HTTPS முன்னொட்டு தேவை."
+    "message": "URI கள் சரியான HTTP \/ HTTPS முன்னொட்டு தேவை."
   },
   "usaOnly": {
     "message": "அமெரிக்கா மட்டும்",
@@ -953,5 +953,417 @@
   },
   "youSign": {
     "message": "நீங்கள் கையெழுத்திடுகிறீர்கள்"
+  },
+  "aboutDekuSan": {
+    "message": ""
+  },
+  "accessingYourCamera": {
+    "message": ""
+  },
+  "accountOptions": {
+    "message": ""
+  },
+  "accountSelectionRequired": {
+    "message": ""
+  },
+  "activityLog": {
+    "message": ""
+  },
+  "addSuggestedTokens": {
+    "message": ""
+  },
+  "addAcquiredTokens": {
+    "message": ""
+  },
+  "approve": {
+    "message": ""
+  },
+  "attemptToCancel": {
+    "message": ""
+  },
+  "attemptToCancelDescription": {
+    "message": ""
+  },
+  "browserNotSupported": {
+    "message": ""
+  },
+  "bytes": {
+    "message": ""
+  },
+  "cancelAttempt": {
+    "message": ""
+  },
+  "cancellationGasFee": {
+    "message": ""
+  },
+  "cancelN": {
+    "message": ""
+  },
+  "clickToAdd": {
+    "message": ""
+  },
+  "close": {
+    "message": ""
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": ""
+  },
+  "connectHardwareWallet": {
+    "message": ""
+  },
+  "connect": {
+    "message": ""
+  },
+  "connecting": {
+    "message": ""
+  },
+  "connectToLedger": {
+    "message": ""
+  },
+  "connectToTrezor": {
+    "message": ""
+  },
+  "copyAddress": {
+    "message": ""
+  },
+  "currentLanguage": {
+    "message": ""
+  },
+  "downloadGoogleChrome": {
+    "message": ""
+  },
+  "dontHaveAHardwareWallet": {
+    "message": ""
+  },
+  "editingTransaction": {
+    "message": ""
+  },
+  "ensNameNotFound": {
+    "message": ""
+  },
+  "enterPasswordContinue": {
+    "message": ""
+  },
+  "dex": {
+    "message": ""
+  },
+  "expandView": {
+    "message": ""
+  },
+  "forgetDevice": {
+    "message": ""
+  },
+  "functionType": {
+    "message": ""
+  },
+  "gasUsed": {
+    "message": ""
+  },
+  "generatingTransaction": {
+    "message": ""
+  },
+  "getHelp": {
+    "message": ""
+  },
+  "hardware": {
+    "message": ""
+  },
+  "hardwareWalletConnected": {
+    "message": ""
+  },
+  "hardwareWallets": {
+    "message": ""
+  },
+  "hardwareWalletsMsg": {
+    "message": ""
+  },
+  "havingTroubleConnecting": {
+    "message": ""
+  },
+  "hexData": {
+    "message": ""
+  },
+  "history": {
+    "message": ""
+  },
+  "importUsingSeed": {
+    "message": ""
+  },
+  "initialTransactionConfirmed": {
+    "message": ""
+  },
+  "invalidSeedPhrase": {
+    "message": ""
+  },
+  "ledgerAccountRestriction": {
+    "message": ""
+  },
+  "menu": {
+    "message": ""
+  },
+  "dekusanSeedWords": {
+    "message": ""
+  },
+  "dekusanVersion": {
+    "message": ""
+  },
+  "missingYourTokens": {
+    "message": ""
+  },
+  "nevermind": {
+    "message": ""
+  },
+  "noConversionRateAvailable": {
+    "message": ""
+  },
+  "notFound": {
+    "message": ""
+  },
+  "noWebcamFoundTitle": {
+    "message": ""
+  },
+  "noWebcamFound": {
+    "message": ""
+  },
+  "onlySendTokensToAccountAddress": {
+    "message": "",
+    "description": ""
+  },
+  "openInTab": {
+    "message": ""
+  },
+  "orderOneHere": {
+    "message": ""
+  },
+  "origin": {
+    "message": ""
+  },
+  "outgoing": {
+    "message": ""
+  },
+  "parameters": {
+    "message": ""
+  },
+  "password": {
+    "message": ""
+  },
+  "pending": {
+    "message": ""
+  },
+  "prev": {
+    "message": ""
+  },
+  "primaryCurrencySetting": {
+    "message": ""
+  },
+  "primaryCurrencySettingDescription": {
+    "message": ""
+  },
+  "queue": {
+    "message": ""
+  },
+  "reject": {
+    "message": ""
+  },
+  "rejectAll": {
+    "message": ""
+  },
+  "rejectTxsN": {
+    "message": ""
+  },
+  "rejectTxsDescription": {
+    "message": ""
+  },
+  "reset": {
+    "message": ""
+  },
+  "resetAccountDescription": {
+    "message": ""
+  },
+  "restoreAccountWithSeed": {
+    "message": ""
+  },
+  "restore": {
+    "message": ""
+  },
+  "revealSeedWordsTitle": {
+    "message": ""
+  },
+  "revealSeedWordsDescription": {
+    "message": ""
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": ""
+  },
+  "remove": {
+    "message": ""
+  },
+  "removeAccount": {
+    "message": ""
+  },
+  "removeAccountDescription": {
+    "message": ""
+  },
+  "readyToConnect": {
+    "message": ""
+  },
+  "rpc": {
+    "message": ""
+  },
+  "saveAsCsvFile": {
+    "message": ""
+  },
+  "scanInstructions": {
+    "message": ""
+  },
+  "scanQrCode": {
+    "message": ""
+  },
+  "searchResults": {
+    "message": ""
+  },
+  "selectLocale": {
+    "message": ""
+  },
+  "sentDexon": {
+    "message": ""
+  },
+  "sentTokens": {
+    "message": ""
+  },
+  "separateEachWord": {
+    "message": ""
+  },
+  "selectAnAddress": {
+    "message": ""
+  },
+  "selectAnAccount": {
+    "message": ""
+  },
+  "selectAnAccountHelp": {
+    "message": ""
+  },
+  "selectHdPath": {
+    "message": ""
+  },
+  "selectPathHelp": {
+    "message": ""
+  },
+  "showHexData": {
+    "message": ""
+  },
+  "showHexDataDescription": {
+    "message": ""
+  },
+  "signatureRequest": {
+    "message": ""
+  },
+  "speedUp": {
+    "message": ""
+  },
+  "speedUpTitle": {
+    "message": ""
+  },
+  "speedUpSubtitle": {
+    "message": ""
+  },
+  "step1HardwareWallet": {
+    "message": ""
+  },
+  "step1HardwareWalletMsg": {
+    "message": ""
+  },
+  "step2HardwareWallet": {
+    "message": ""
+  },
+  "step2HardwareWalletMsg": {
+    "message": ""
+  },
+  "step3HardwareWallet": {
+    "message": ""
+  },
+  "step3HardwareWalletMsg": {
+    "message": ""
+  },
+  "token": {
+    "message": ""
+  },
+  "transaction": {
+    "message": ""
+  },
+  "transactionConfirmed": {
+    "message": ""
+  },
+  "transactionCreated": {
+    "message": ""
+  },
+  "transactionWithNonce": {
+    "message": ""
+  },
+  "transactionDropped": {
+    "message": ""
+  },
+  "transactionSubmitted": {
+    "message": ""
+  },
+  "transactionUpdated": {
+    "message": ""
+  },
+  "transactionUpdatedGas": {
+    "message": ""
+  },
+  "transfer": {
+    "message": ""
+  },
+  "transferFrom": {
+    "message": ""
+  },
+  "trezorHardwareWallet": {
+    "message": ""
+  },
+  "tryAgain": {
+    "message": ""
+  },
+  "units": {
+    "message": ""
+  },
+  "unknownFunction": {
+    "message": ""
+  },
+  "unknownQrCode": {
+    "message": ""
+  },
+  "unknownCameraErrorTitle": {
+    "message": ""
+  },
+  "unknownCameraError": {
+    "message": ""
+  },
+  "unlock": {
+    "message": ""
+  },
+  "unlockMessage": {
+    "message": ""
+  },
+  "updatedWithDate": {
+    "message": ""
+  },
+  "viewOnDexScan": {
+    "message": ""
+  },
+  "welcomeBack": {
+    "message": ""
+  },
+  "yesLetsTry": {
+    "message": ""
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": ""
+  },
+  "yourPrivateSeedPhrase": {
+    "message": ""
+  },
+  "connectingToRinkeby": {
+    "message": ""
   }
 }

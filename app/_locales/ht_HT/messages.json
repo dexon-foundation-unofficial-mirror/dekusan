@@ -1,4 +1,43 @@
 {
+  "privacyMode": {
+    "message": "Mòd Privacy"
+  },
+  "privacyModeDescription": {
+    "message": "Sou sit entènèt yo dwe mande aksè pou wè enfòmasyon kont ou."
+  },
+  "exposeAccounts": {
+    "message": "Ekspoze Kont"
+  },
+  "exposeDescription": {
+    "message": "Ekspoze kont sou sitwèb aktyèl la. Itil pou dapps eritaj."
+  },
+  "confirmExpose": {
+    "message": "Èske ou sèten ou vle ekspoze kont ou sou sit entènèt aktyèl la?"
+  },
+  "confirmClear": {
+    "message": "Èske ou sèten ou vle klè sitwèb apwouve?"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "Done sou sit wèb apwouve yo te klarifye avèk siksè."
+  },
+  "approvalData": {
+    "message": "Done sou vi prive"
+  },
+  "approvalDataDescription": {
+    "message": "Done sou vi prive klè pou tout sit entènèt yo dwe mande aksè pou wè enfòmasyon kont ankò."
+  },
+  "clearApprovalData": {
+    "message": "Klè Done sou vi prive"
+  },
+  "providerAPIRequest": {
+    "message": "Ethereum API Mande"
+  },
+  "reviewProviderRequest": {
+    "message": "Tanpri revize sa API demann Ethereum."
+  },
+  "providerRequestInfo": {
+    "message": "Domèn ki nan lis anba a ap mande pou jwenn aksè a blòkchou Ethereum ak pou wè kont ou ye kounye a. Toujou double tcheke ke ou sou sit ki kòrèk la anvan apwouve aksè."
+  },
   "accept": {
     "message": ""
   },
@@ -14,26 +53,20 @@
   "address": {
     "message": ""
   },
-  "advancedOptions": {
-    "message": "Advanced Options"
-  },
   "addCustomToken": {
-    "message": "Add custom token"
+    "message": "Ajoute token"
   },
   "addToken": {
     "message": ""
   },
   "addTokens": {
-    "message": "Add Tokens"
+    "message": "Ajoute Token"
   },
   "amount": {
     "message": ""
   },
   "amountPlusGas": {
     "message": ""
-  },
-  "amountPlusTxFee": {
-    "message": "Amount + TX Fee"
   },
   "appDescription": {
     "message": "",
@@ -44,19 +77,16 @@
     "description": ""
   },
   "approved": {
-    "message": "Approved"
+    "message": "Apwouve"
   },
   "attemptingConnect": {
     "message": ""
   },
   "attributions": {
-    "message": "Attributions"
+    "message": "Atribisyon"
   },
   "available": {
     "message": ""
-  },
-  "average": {
-    "message": "Average"
   },
   "back": {
     "message": ""
@@ -65,13 +95,10 @@
     "message": ""
   },
   "balances": {
-    "message": "Token balance(s)"
+    "message": "Balans Token"
   },
   "balanceIsInsufficientGas": {
     "message": ""
-  },
-  "basic": {
-    "message": "Basic"
   },
   "beta": {
     "message": ""
@@ -81,13 +108,13 @@
     "description": ""
   },
   "blockiesIdenticon": {
-    "message": "Use Blockies Identicon"
+    "message": "Itilize Blockies Identicon"
   },
   "borrowDharma": {
     "message": ""
   },
   "builtInCalifornia": {
-    "message": "DekuSan is designed and built in California."
+    "message": "DekuSan fèt e bati nan California."
   },
   "buy": {
     "message": ""
@@ -99,13 +126,13 @@
     "message": ""
   },
   "ok": {
-    "message": "Ok"
+    "message": "Oke"
   },
   "cancel": {
     "message": ""
   },
   "classicInterface": {
-    "message": "Use classic interface"
+    "message": "Sèvi ak fas klasik la"
   },
   "clickCopy": {
     "message": ""
@@ -114,7 +141,7 @@
     "message": ""
   },
   "confirmed": {
-    "message": "Confirmed"
+    "message": "Konfime"
   },
   "confirmContract": {
     "message": ""
@@ -126,7 +153,7 @@
     "message": ""
   },
   "continue": {
-    "message": "Continue"
+    "message": "Kontinye"
   },
   "continueToCoinbase": {
     "message": ""
@@ -147,7 +174,7 @@
     "message": ""
   },
   "copiedSafe": {
-    "message": "I've copied it somewhere safe"
+    "message": "Mwen te kopye li yon kote ki san danje"
   },
   "copy": {
     "message": ""
@@ -175,19 +202,16 @@
     "description": ""
   },
   "currentConversion": {
-    "message": "Current Conversion"
+    "message": "Konvèsyon aktyèl"
   },
   "currentNetwork": {
-    "message": "Current Network"
+    "message": "Rezo aktyèl"
   },
   "customGas": {
     "message": ""
   },
-  "customGasSubTitle": {
-    "message": "Increasing fee may decrease processing times, but it is not guaranteed."
-  },
   "customToken": {
-    "message": "Custom Token"
+    "message": "Koutim Token"
   },
   "customize": {
     "message": ""
@@ -196,10 +220,10 @@
     "message": ""
   },
   "decimalsMustZerotoTen": {
-    "message": "Decimals must be at least 0, and not over 36."
+    "message": "Desimal yo dwe omwen 0, epi pa dwe plis pase 36."
   },
   "decimal": {
-    "message": "Decimals of Precision"
+    "message": "Presizyon desimal la"
   },
   "defaultNetwork": {
     "message": ""
@@ -248,10 +272,10 @@
     "message": ""
   },
   "downloadStateLogs": {
-    "message": "Download State Logs"
+    "message": "Telechaje State Logs"
   },
   "dropped": {
-    "message": "Dropped"
+    "message": "Tonbe"
   },
   "edit": {
     "message": ""
@@ -260,7 +284,7 @@
     "message": ""
   },
   "emailUs": {
-    "message": "Email us!"
+    "message": "Imèl nou!"
   },
   "encryptNewDen": {
     "message": ""
@@ -269,13 +293,13 @@
     "message": ""
   },
   "enterPasswordConfirm": {
-    "message": "Enter your password to confirm"
+    "message": "Antre nan modpas ou a konfime"
   },
   "passwordNotLongEnough": {
-    "message": "Password not long enough"
+    "message": "Modpas la pa ase"
   },
   "passwordsDontMatch": {
-    "message": "Passwords Don't Match"
+    "message": "Modpas Pa Koresponn ak"
   },
   "dexscanView": {
     "message": ""
@@ -292,15 +316,6 @@
   "failed": {
     "message": ""
   },
-  "fast": {
-    "message": "Fast"
-  },
-  "fastest": {
-    "message": "Fastest"
-  },
-  "feeChartTitle": {
-    "message": "Live Transaction Fee Predictions"
-  },
   "fiat": {
     "message": "",
     "description": ""
@@ -310,13 +325,13 @@
     "description": ""
   },
   "followTwitter": {
-    "message": "Follow us on Twitter"
+    "message": "Swiv nou sou Twitter"
   },
   "from": {
     "message": ""
   },
   "fromToSame": {
-    "message": "From and To address cannot be the same"
+    "message": "Adrès orijinal le ak sa ou resevwa pake menm"
   },
   "fromShapeShift": {
     "message": ""
@@ -341,13 +356,10 @@
     "message": ""
   },
   "generatingSeed": {
-    "message": "Generating Seed..."
+    "message": "Génération Seed..."
   },
   "gasPrice": {
     "message": ""
-  },
-  "gasPriceNoDenom": {
-    "message": "Gas Price"
   },
   "gasPriceCalculation": {
     "message": ""
@@ -371,7 +383,7 @@
     "description": ""
   },
   "hereList": {
-    "message": "Here's a list!!!!"
+    "message": "Isit la nan yon lis !!!!"
   },
   "hide": {
     "message": ""
@@ -386,7 +398,7 @@
     "message": ""
   },
   "holdDex": {
-    "message": "It allows you to hold dexon & tokens, and serves as your bridge to decentralized applications."
+    "message": "Li pèmèt ou kenbe dexon & tokens, epi sèvi kòm on pon pou desantralize aplikasyon."
   },
   "import": {
     "message": "",
@@ -396,7 +408,7 @@
     "message": ""
   },
   "importAccountMsg": {
-    "message": " Imported accounts will not be associated with your originally created DekuSan account seedphrase. Learn more about imported accounts "
+    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont DekuSan seed fraz. Aprann plis sou kont enpòte "
   },
   "importAnAccount": {
     "message": ""
@@ -412,16 +424,16 @@
     "message": ""
   },
   "insufficientFunds": {
-    "message": "Insufficient funds."
+    "message": "Lajan ensifizan."
   },
   "insufficientTokens": {
-    "message": "Insufficient tokens."
+    "message": "Tokens pa valab."
   },
   "invalidAddress": {
     "message": ""
   },
   "invalidAddressRecipient": {
-    "message": "Recipient address is invalid"
+    "message": "Moun ki resevwa adrès la pa valab"
   },
   "invalidGasParams": {
     "message": ""
@@ -433,39 +445,39 @@
     "message": ""
   },
   "invalidRPC": {
-    "message": "Invalid RPC URL"
+    "message": "RPC URI pa valab"
   },
   "jsonFail": {
-    "message": "Something went wrong. Please make sure your JSON file is properly formatted."
+    "message": "Yon bagay ale mal. Tanpri, asire w ke dosye JSON ou an byen fòmate."
   },
   "jsonFile": {
     "message": "",
     "description": ""
   },
   "keepTrackTokens": {
-    "message": "Keep track of the tokens you’ve bought with your DekuSan account."
+    "message": "Gade tokens yo ou te achte ak kont DekuSan ou."
   },
   "kovan": {
     "message": ""
   },
   "knowledgeDataBase": {
-    "message": "Visit our Knowledge Base"
+    "message": "Vizite baz nou an"
   },
   "max": {
-    "message": "Max"
+    "message": "Maksimòm"
   },
   "learnMore": {
-    "message": "Learn more"
+    "message": "Aprann plis"
   },
   "lessThanMax": {
     "message": "",
     "description": ""
   },
   "likeToAddTokens": {
-    "message": "Would you like to add these tokens?"
+    "message": "Èske ou ta renmen ajoute sa nan tokens?"
   },
   "links": {
-    "message": "Links"
+    "message": "Lyen"
   },
   "limit": {
     "message": ""
@@ -480,7 +492,7 @@
     "message": ""
   },
   "login": {
-    "message": "Log In"
+    "message": "Ouvri"
   },
   "logout": {
     "message": ""
@@ -489,7 +501,7 @@
     "message": ""
   },
   "loweCaseWords": {
-    "message": "seed words only have lowercase characters"
+    "message": "seed mo sèlman gen karaktè miniskil"
   },
   "mainnet": {
     "message": ""
@@ -498,19 +510,16 @@
     "message": ""
   },
   "dekusanDescription": {
-    "message": "DekuSan is a secure identity vault for Dexon."
+    "message": "DekuSan sekirize idantite pou DEXeum."
   },
   "min": {
     "message": ""
-  },
-  "minutesShorthand": {
-    "message": "Min"
   },
   "myAccounts": {
     "message": ""
   },
   "mustSelectOne": {
-    "message": "Must select at least 1 token."
+    "message": "Ou dwe chwazi omwen 1 token."
   },
   "needDexInWallet": {
     "message": ""
@@ -524,7 +533,7 @@
     "description": ""
   },
   "negativeDex": {
-    "message": "Can not send negative amounts of DEX."
+    "message": "Pa ka voye kantite lajan negatif DEX."
   },
   "networks": {
     "message": ""
@@ -545,32 +554,8 @@
   "newRecipient": {
     "message": ""
   },
-  "newNetwork": {
-    "message": "New Network"
-  },
-  "rpcURL": {
-    "message": "New RPC URL"
-  },
-  "showAdvancedOptions": {
-    "message": "Show Advanced Options"
-  },
-  "hideAdvancedOptions": {
-    "message": "Hide Advanced Options"
-  },
-  "optionalChainId": {
-    "message": "ChainID (optional)"
-  },
-  "optionalSymbol": {
-    "message": "Symbol (optional)"
-  },
-  "optionalNickname": {
-    "message": "Nickname (optional)"
-  },
-  "newTotal": {
-    "message": "New Total"
-  },
-  "newTransactionFee": {
-    "message": "New Transaction Fee"
+  "newRPC": {
+    "message": "Nouvo RPC URL"
   },
   "next": {
     "message": ""
@@ -590,9 +575,6 @@
   "notStarted": {
     "message": ""
   },
-  "ofTextNofM": {
-    "message": "of"
-  },
   "oldUI": {
     "message": ""
   },
@@ -604,7 +586,7 @@
     "description": ""
   },
   "passwordCorrect": {
-    "message": "Please make sure your password is correct."
+    "message": "Tanpri asire ke modpas ou kòrèk."
   },
   "passwordMismatch": {
     "message": "",
@@ -622,16 +604,16 @@
     "message": ""
   },
   "personalAddressDetected": {
-    "message": "Personal address detected. Input the token contract address."
+    "message": "Adrès pèsonèl detekte. Antre adrès kontra token la."
   },
   "pleaseReviewTransaction": {
     "message": ""
   },
   "popularTokens": {
-    "message": "Popular Tokens"
+    "message": "Popilè Tokens"
   },
   "privacyMsg": {
-    "message": "Privacy Policy"
+    "message": "Règleman sou enfòmasyon prive"
   },
   "privateKey": {
     "message": "",
@@ -653,7 +635,7 @@
     "message": ""
   },
   "readMore2": {
-    "message": "Read more."
+    "message": "Li plis isit la."
   },
   "receive": {
     "message": ""
@@ -668,13 +650,13 @@
     "message": ""
   },
   "resetAccount": {
-    "message": "Reset Account"
+    "message": "Repwograme Kont"
   },
   "restoreFromSeed": {
-    "message": "Restore account?"
+    "message": "Restore kont?"
   },
   "restoreVault": {
-    "message": "Restore Vault"
+    "message": "Retabli kazye"
   },
   "required": {
     "message": ""
@@ -686,10 +668,10 @@
     "message": "Wallet Seed"
   },
   "revealSeedWords": {
-    "message": "Reveal Seed Words"
+    "message": "Revele Seed Mo Yo"
   },
   "revealSeedWordsWarning": {
-    "message": "These words can be used to steal all your accounts."
+    "message": "Yo ka itilize mo sa pou vòlè kont ou."
   },
   "revert": {
     "message": ""
@@ -701,22 +683,22 @@
     "message": ""
   },
   "currentRpc": {
-    "message": "Current RPC"
+    "message": "Kounya RPC"
   },
   "connectingToMainnet": {
-    "message": "Connecting to Main DEXON Network"
+    "message": "Konekte ak Main (Prensipal) DEXeum Rezo a"
   },
   "connectingToRopsten": {
-    "message": ""
+    "message": "Konekte ak Ropsten Tès Rezo a"
   },
   "connectingToKovan": {
-    "message": ""
+    "message": "Konekte nan Kovan Tès Rezo a"
   },
   "connectingToTestnet": {
-    "message": "Connecting to DEXON Test Network"
+    "message": "Konekte nan DEXON Tès Rezo a"
   },
   "connectingToUnknown": {
-    "message": "Connecting to Unknown Network"
+    "message": "Konekte nan rezo enkoni"
   },
   "sampleAccountName": {
     "message": "",
@@ -736,46 +718,46 @@
     "description": ""
   },
   "saveSeedAsFile": {
-    "message": "Save Seed Words As File"
+    "message": "Sove pawòl seed kòm dosye"
   },
   "search": {
-    "message": "Search"
+    "message": "Rechèch"
   },
   "secretPhrase": {
-    "message": "Enter your secret twelve word phrase here to restore your vault."
+    "message": "Antre fraz sekrè douz mo ou a pou w restore kòf ou a."
   },
   "newPassword8Chars": {
-    "message": "New Password (min 8 chars)"
+    "message": "Nouvo modpas (pou pi pit 8)"
   },
   "seedPhraseReq": {
-    "message": "Seed phrases are 12 words long"
+    "message": "Seed fraz yo se 12 long mo"
   },
   "select": {
-    "message": "Select"
+    "message": "Chwazi"
   },
   "selectCurrency": {
-    "message": "Select Currency"
+    "message": "Chwazi Lajan"
   },
   "selectService": {
     "message": ""
   },
   "selectType": {
-    "message": "Select Type"
+    "message": "Chwazi Kalite"
   },
   "send": {
     "message": ""
   },
   "sendDEX": {
-    "message": "Send DEX"
+    "message": "Voye DEX"
   },
   "sendTokens": {
     "message": ""
   },
   "onlySendToDexonAddress": {
-    "message": "Only send DEX to a DEXON address."
+    "message": "Sèlman voye DEX nan yon adrès DEXeum."
   },
   "searchTokens": {
-    "message": "Search Tokens"
+    "message": "Rechèch Tokens"
   },
   "sendTokensAnywhere": {
     "message": ""
@@ -784,7 +766,7 @@
     "message": ""
   },
   "info": {
-    "message": "Info"
+    "message": "Enfòmasyon"
   },
   "shapeshiftBuy": {
     "message": ""
@@ -799,7 +781,7 @@
     "message": ""
   },
   "signed": {
-    "message": "Signed"
+    "message": "Te Siyen"
   },
   "signMessage": {
     "message": ""
@@ -814,7 +796,7 @@
     "message": ""
   },
   "spaceBetween": {
-    "message": "there can only be a space between words"
+    "message": "ka gen sèlman yon espas ant mo yo"
   },
   "status": {
     "message": ""
@@ -823,34 +805,34 @@
     "message": "State Logs"
   },
   "stateLogsDescription": {
-    "message": "State logs contain your public account addresses and sent transactions."
+    "message": "State logs gen adrès kont piblik ou yo epi tranzaksyon ou te voye yo."
   },
   "stateLogError": {
-    "message": "Error in retrieving state logs."
+    "message": "Erè nan retwouve State Logs yo."
   },
   "submit": {
     "message": ""
   },
   "submitted": {
-    "message": "Submitted"
+    "message": "Te Soumèt"
   },
   "supportCenter": {
-    "message": "Visit our Support Center"
+    "message": "Vizite Sant Sipò Nou"
   },
-  "symbolBetweenZeroTwelve": {
-    "message": "Symbol must be between 0 and 12 characters."
+  "symbolBetweenZeroTen": {
+    "message": "Senbòl yo dwe ant 0 ak 10 karaktè."
   },
   "takesTooLong": {
     "message": ""
   },
   "terms": {
-    "message": "Terms of Use"
+    "message": "Tèm pou itilize"
   },
   "testFaucet": {
     "message": ""
   },
   "testnet": {
-    "message": "DEXON Test Network"
+    "message": ""
   },
   "to": {
     "message": ""
@@ -860,37 +842,31 @@
     "description": ""
   },
   "tokenAddress": {
-    "message": "Token Address"
+    "message": "Adrès Token"
   },
   "tokenAlreadyAdded": {
-    "message": "Token has already been added."
+    "message": "Ou te deja ajoute token."
   },
   "tokenBalance": {
     "message": ""
   },
   "tokenSelection": {
-    "message": "Search for tokens or select from our list of popular tokens."
+    "message": "Chache Tokens oswa chwazi nan lis Tokens popilè nou an."
   },
   "tokenSymbol": {
-    "message": "Token Symbol"
+    "message": "Token Senbòl"
   },
   "tokenWarning1": {
-    "message": "Keep track of the tokens you’ve bought with your DekuSan account. If you bought tokens using a different account, those tokens will not appear here."
+    "message": "Kenbe tras token yo ou te achte ak kont DekuSan ou. Si ou te achte tokens pandan wap itilize yon kont diferan tokens sa yo pa pral parèt la."
   },
   "total": {
     "message": ""
   },
   "transactions": {
-    "message": "transactions"
+    "message": "tranzaksyon yo"
   },
   "transactionError": {
-    "message": "Transaction Error. Exception thrown in contract code."
-  },
-  "transactionErrorNoContract": {
-    "message": "Trying to call a function on a non-contract address."
-  },
-  "transactionFee": {
-    "message": "Transaction Fee"
+    "message": "Erè tranzaksyon. Eksepsyon jete nan kòd kontra."
   },
   "transactionMemo": {
     "message": ""
@@ -906,7 +882,7 @@
     "description": ""
   },
   "twelveWords": {
-    "message": "These 12 words are the only way to restore your DekuSan accounts.\nSave them somewhere safe and secret."
+    "message": "12 mo sa yo se sèl fason pou retabli kont DekuSan ou yo. \nKenbe yo yon kote ki an sekirite ak sekrè."
   },
   "typePassword": {
     "message": ""
@@ -918,7 +894,7 @@
     "message": ""
   },
   "unapproved": {
-    "message": "Unapproved"
+    "message": "Pa apwouve"
   },
   "unavailable": {
     "message": ""
@@ -933,7 +909,7 @@
     "message": ""
   },
   "uriErrorMsg": {
-    "message": "URIs require the appropriate HTTP\/HTTPS prefix."
+    "message": "URIs mande pou apwopriye prefiks HTTP \/ HTTPS a."
   },
   "usaOnly": {
     "message": "",
@@ -943,25 +919,25 @@
     "message": ""
   },
   "useOldUI": {
-    "message": "Use old UI"
+    "message": "Itilizasyon ansyen UI (itilizatè koòdone)"
   },
   "validFileImport": {
-    "message": "You must select a valid file to import."
+    "message": "Ou dwe chwazi yon dosye ki valab pou enpòte."
   },
   "vaultCreated": {
-    "message": "Vault Created"
+    "message": "Kòf Kreye"
   },
   "viewAccount": {
     "message": ""
   },
   "visitWebSite": {
-    "message": "Visit our web site"
+    "message": "Vizite sit entènèt nou an"
   },
   "warning": {
     "message": ""
   },
   "welcomeBeta": {
-    "message": "Welcome to DekuSan Beta"
+    "message": "Byenveni nan DekuSan Beta"
   },
   "whatsThis": {
     "message": ""
@@ -973,413 +949,413 @@
     "message": ""
   },
   "aboutDekuSan": {
-    "message": "DekuSan is the official DEXON browser extension, forked from MetaMask, by DEXON Foundation."
+    "message": ""
   },
   "accessingYourCamera": {
-    "message": "Accessing your camera..."
+    "message": "Aksè a Kamera"
   },
   "accountOptions": {
-    "message": "Account Options"
+    "message": ""
   },
   "accountSelectionRequired": {
-    "message": "You need to select an account!"
+    "message": "Ou bezwen chwazi yon kont!"
   },
   "activityLog": {
-    "message": "activity log"
+    "message": "aktivite ki fèt"
   },
   "addSuggestedTokens": {
-    "message": "Add Suggested Tokens"
+    "message": "Ajoute Token Yo Sikjere W"
   },
   "addAcquiredTokens": {
-    "message": "Add the tokens you've acquired using DekuSan"
+    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk DekuSan"
   },
   "approve": {
-    "message": "Approve"
+    "message": "Apwouve"
   },
   "attemptToCancel": {
-    "message": "Attempt to Cancel?"
+    "message": ""
   },
   "attemptToCancelDescription": {
-    "message": "Submitting this attempt does not guarantee your original transaction will be cancelled. If the cancellation attempt is successful, you will be charged the transaction fee above."
+    "message": ""
   },
   "browserNotSupported": {
-    "message": "Your Browser is not supported..."
+    "message": "Navigatè ou a pa sipòte..."
   },
   "bytes": {
     "message": "Bytes"
   },
   "cancelAttempt": {
-    "message": "Cancel Attempt"
+    "message": ""
   },
   "cancellationGasFee": {
-    "message": "Cancellation Gas Fee"
+    "message": ""
   },
   "cancelN": {
-    "message": "Cancel all $1 transactions"
+    "message": ""
   },
   "clickToAdd": {
-    "message": "Click on $1 to add them to your account"
+    "message": ""
   },
   "close": {
-    "message": "Close"
+    "message": "Fèmen"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "You need to use DekuSan on Google Chrome in order to connect to your Hardware Wallet."
+    "message": "Ou bezwen sèvi ak DekuSan sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
   },
   "connectHardwareWallet": {
-    "message": "Connect Hardware Wallet"
+    "message": "Konekte Hardware Wallet"
   },
   "connect": {
-    "message": "Connect"
+    "message": "Konekte"
   },
   "connecting": {
-    "message": "Connecting..."
+    "message": "Koneksyon..."
   },
   "connectToLedger": {
-    "message": "Connect to Ledger"
+    "message": "Konekte ak Ledger"
   },
   "connectToTrezor": {
-    "message": "Connect to Trezor"
+    "message": "Konekte ak Trezor"
   },
   "copyAddress": {
-    "message": "Copy address to clipboard"
+    "message": "Kopi adrès clipboard"
   },
   "currentLanguage": {
-    "message": "Current Language"
+    "message": ""
   },
   "downloadGoogleChrome": {
-    "message": "Download Google Chrome"
+    "message": "Telechaje Google Chrome"
   },
   "dontHaveAHardwareWallet": {
-    "message": "Don’t have a hardware wallet?"
+    "message": "Pa gen yon materyèl bous?"
   },
   "editingTransaction": {
-    "message": "Make changes to your transaction"
+    "message": "Fè chanjman nan tranzaksyon ou"
   },
   "ensNameNotFound": {
-    "message": "ENS name not found"
+    "message": "Nou pa jwenn non ENS ou a"
   },
   "enterPasswordContinue": {
-    "message": "Enter password to continue"
+    "message": "Mete modpas pou kontinye"
   },
   "dex": {
-    "message": "DEX"
+    "message": ""
   },
   "expandView": {
-    "message": "Expand View"
+    "message": ""
   },
   "forgetDevice": {
-    "message": "Forget this device"
+    "message": "Bliye aparèy sa a"
   },
   "functionType": {
-    "message": "Function Type"
+    "message": "Kalite Fonksyon"
   },
   "gasUsed": {
-    "message": "Gas Used"
+    "message": ""
   },
   "generatingTransaction": {
-    "message": "Generating transaction"
+    "message": "Tranzaksyon kap fè"
   },
   "getHelp": {
-    "message": "Get Help."
+    "message": "Jwenn èd."
   },
   "hardware": {
     "message": "hardware"
   },
   "hardwareWalletConnected": {
-    "message": "Hardware wallet connected"
+    "message": "Hardware Wallet konekte"
   },
   "hardwareWallets": {
-    "message": "Connect a hardware wallet"
+    "message": "Hardware Wallet konekte"
   },
   "hardwareWalletsMsg": {
-    "message": "Select a hardware wallet you'd like to use with DekuSan"
+    "message": "Chwazi yon Hardware Wallet ou ta renmen itilize ak DekuSan"
   },
   "havingTroubleConnecting": {
-    "message": "Having trouble connecting?"
+    "message": "Èske w gen pwoblèm pou konekte?"
   },
   "hexData": {
     "message": "Hex Data"
   },
   "history": {
-    "message": "History"
+    "message": "Istwa"
   },
   "importUsingSeed": {
-    "message": "Import using account seed phrase"
+    "message": "Pòte lè sèvi avèk seed fraz"
   },
   "initialTransactionConfirmed": {
-    "message": "Your initial transaction was confirmed by the network. Click OK to go back."
+    "message": "Premye tranzaksyon ou konfime sou rezo a. Klike sou OK pou tounen."
   },
   "invalidSeedPhrase": {
-    "message": "Invalid seed phrase"
+    "message": "Seed fraz pa valab"
   },
   "ledgerAccountRestriction": {
-    "message": "You need to make use your last account before you can add a new one."
+    "message": "Ou bezwen sèvi ak dènye kont ou anvan ou ka ajoute yon nouvo."
   },
   "menu": {
-    "message": "Menu"
+    "message": "Opsyon"
   },
   "dekusanSeedWords": {
-    "message": "DekuSan Seed Words"
+    "message": "DekuSan Seed Mo"
   },
   "dekusanVersion": {
-    "message": "DekuSan Version"
+    "message": ""
   },
   "missingYourTokens": {
-    "message": "Don't see your tokens?"
+    "message": ""
   },
   "nevermind": {
-    "message": "Nevermind"
+    "message": "Pa pwoblèm"
   },
   "noConversionRateAvailable": {
-    "message": "No Conversion Rate Available"
+    "message": "Pa gen okenn Konvèsyon Disponib"
   },
   "notFound": {
-    "message": "Not Found"
+    "message": "Pa jwenn"
   },
   "noWebcamFoundTitle": {
-    "message": "Webcam not found"
+    "message": "Pa jwenn webcam"
   },
   "noWebcamFound": {
-    "message": "Your computer's webcam was not found. Please try again."
+    "message": "Nou pakay jwenn webcam òdinatè ou. Tanpri eseye ankò."
   },
   "onlySendTokensToAccountAddress": {
-    "message": "Only send $1 to a DEXON account address.",
+    "message": "Sèlman voye $ 1 nan yon adrès kont DEXeum.",
     "description": "displays token symbol"
   },
   "openInTab": {
-    "message": "Open in tab"
+    "message": "Louvri nan etikèt"
   },
   "orderOneHere": {
-    "message": "Order a Trezor or Ledger and keep your funds in cold storage"
+    "message": "Mete nan lòd on Trezor oswa Ledger epi kenbe lajan ou nan yon stòk frèt."
   },
   "origin": {
-    "message": "Origin"
+    "message": "Orijin"
   },
   "outgoing": {
-    "message": "Outgoing"
+    "message": "Ap kite"
   },
   "parameters": {
-    "message": "Parameters"
+    "message": "Paramèt"
   },
   "password": {
-    "message": "Password"
+    "message": "Modpas"
   },
   "pending": {
-    "message": "pending"
+    "message": "l ap mache"
   },
   "prev": {
-    "message": "Prev"
+    "message": "Avan"
   },
   "primaryCurrencySetting": {
-    "message": "Primary Currency"
+    "message": ""
   },
   "primaryCurrencySettingDescription": {
-    "message": "Select DEX to prioritize displaying values in DEX. Select Fiat to prioritize displaying values in your selected currency."
+    "message": ""
   },
   "queue": {
     "message": "Queue"
   },
   "reject": {
-    "message": "Reject"
+    "message": ""
   },
   "rejectAll": {
-    "message": "Reject All"
+    "message": ""
   },
   "rejectTxsN": {
-    "message": "Reject $1 transactions"
+    "message": ""
   },
   "rejectTxsDescription": {
-    "message": "You are about to batch reject $1 transactions."
+    "message": ""
   },
   "reset": {
-    "message": "Reset"
+    "message": "Repwograme"
   },
   "resetAccountDescription": {
-    "message": "Resetting your account will clear your transaction history."
+    "message": "Repwograme kont a netwaye tranzaksyon ou yo."
   },
   "restoreAccountWithSeed": {
-    "message": "Restore your Account with Seed Phrase"
+    "message": "Retabli kont ou avèk yo Seed Fraz"
   },
   "restore": {
-    "message": "Restore"
+    "message": "Retabli"
   },
   "revealSeedWordsTitle": {
-    "message": "Seed Phrase"
+    "message": "Seed Fraz"
   },
   "revealSeedWordsDescription": {
-    "message": "If you ever change browsers or move computers, you will need this seed phrase to access your accounts. Save them somewhere safe and secret."
+    "message": "Si ou pa janm chanje navigatè ou deplase òdinatè, ou pral bezwen fraz seed la pou ka gen aksè a kont ou. Sere yo on kote an sekirite e an sekrè."
   },
   "revealSeedWordsWarningTitle": {
-    "message": "DO NOT share this phrase with anyone!"
+    "message": "PA pataje fraz sa a avèk nenpòt moun!"
   },
   "remove": {
-    "message": "remove"
+    "message": "retire"
   },
   "removeAccount": {
-    "message": "Remove account"
+    "message": "Retire kont"
   },
   "removeAccountDescription": {
-    "message": "This account will be removed from your wallet. Please make sure you have the original seed phrase or private key for this imported account before continuing. You can import or create accounts again from the account drop-down. "
+    "message": "Kont sa a pral retire nan Wallet ou. Tanpri, asire ou ke ou gen orijinal fraz seed la oubyen kle prive pou rantre kont lan avan ou kontinye. Oubyen ou ka rantre kont ou ankò apati kont \"drop-down\" ou an."
   },
   "readyToConnect": {
-    "message": "Ready to Connect?"
+    "message": "Pare pou konekte?"
   },
   "rpc": {
-    "message": "Custom RPC"
+    "message": "Koutim RPC"
   },
   "saveAsCsvFile": {
-    "message": "Save as CSV File"
+    "message": "Sove kòm dosye CSV"
   },
   "scanInstructions": {
-    "message": "Place the QR code in front of your camera"
+    "message": "Mete kòd QR la devan kamera ou"
   },
   "scanQrCode": {
-    "message": "Scan QR Code"
+    "message": "Enspeksyon QR Kòd"
   },
   "searchResults": {
-    "message": "Search Results"
+    "message": "Rezilta rechèch"
   },
   "selectLocale": {
-    "message": "Select Locale"
+    "message": ""
   },
   "sentDexon": {
-    "message": "Sent DEXON"
+    "message": "Voye dexon"
   },
   "sentTokens": {
-    "message": "sent tokens"
+    "message": "tokens deja voye"
   },
   "separateEachWord": {
-    "message": "Separate each word with a single space"
+    "message": "Separe chak mo ak yon sèl espas"
   },
   "selectAnAddress": {
-    "message": "Select an Address"
+    "message": "Chwazi yon adrès"
   },
   "selectAnAccount": {
-    "message": "Select an Account"
+    "message": "Chwazi yon kont"
   },
   "selectAnAccountHelp": {
-    "message": "Select the account to view in DekuSan"
+    "message": "Chwazi kont pou wè nan DekuSan"
   },
   "selectHdPath": {
-    "message": "Select HD Path"
+    "message": "Chwazi chemen HD"
   },
   "selectPathHelp": {
-    "message": "If you don't see your existing Ledger accounts below, try switching paths to \"Legacy (MEW \/ MyCrypto)\""
+    "message": "Si ou pa wè kont Ledger ou te genyen an anba a, eseye chanje chemen an \"Eritaj (MEW \/ MyCrypto)\""
   },
   "showHexData": {
-    "message": "Show Hex Data"
+    "message": "Montre Hex Data"
   },
   "showHexDataDescription": {
-    "message": "Select this to show the hex data field on the send screen"
+    "message": "Pran sa pouw ka montre chan entèfas hex data a"
   },
   "signatureRequest": {
-    "message": "Signature Request"
+    "message": "Siyati Mande"
   },
   "speedUp": {
-    "message": "speed up"
+    "message": "pi vit"
   },
   "speedUpTitle": {
-    "message": "Speed Up Transaction"
+    "message": "Monte vitès tranzaksyon"
   },
   "speedUpSubtitle": {
-    "message": "Increase your gas price to attempt to overwrite and speed up your transaction"
+    "message": "Ogmante pri gaz ou pou eseye efase tranzaksyon ou pi vit"
   },
   "step1HardwareWallet": {
-    "message": "1. Connect Hardware Wallet"
+    "message": "1. Konekte Materyèl bous"
   },
   "step1HardwareWalletMsg": {
-    "message": "Connect your hardware wallet directly to your computer."
+    "message": "Konekte materyèl bous ou dirèkteman nan òdinatè ou."
   },
   "step2HardwareWallet": {
-    "message": "2. Select an Account"
+    "message": "2. Chwazi yon kont"
   },
   "step2HardwareWalletMsg": {
-    "message": "Select the account you want to view. You can only choose one at a time."
+    "message": "Chwazi kont ou vle wè a. Ou ka chwazi youn sèlman nan yon moman."
   },
   "step3HardwareWallet": {
-    "message": "3. Start using dApps and more!"
+    "message": "3. Kòmanse itilize dApps ak plis ankò!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Use your hardware account like you would with any DEXON account. Log in to dApps, send DEX, buy and store ERC20 tokens and Non-Fungible tokens like CryptoKitties."
+    "message": "Sèvi ak kont materyèl ou menm jan ou t ap fè pou kont DEXum. Ouvri sesyon an nan dApps, voye DEX, achte ak stòke ERC20 tokens ak e ki pake chanje tokens tankou CryptoKitties."
   },
   "token": {
     "message": "Token"
   },
   "transaction": {
-    "message": "transaction"
+    "message": ""
   },
   "transactionConfirmed": {
-    "message": "Transaction confirmed on $2."
+    "message": "Tranzaksyon ou te konfime pou $2."
   },
   "transactionCreated": {
-    "message": "Transaction created with a value of $1 on $2."
+    "message": "Tranzaksyon ou te kreye avèk on valè de $1 pou $2."
   },
   "transactionWithNonce": {
-    "message": "Transaction $1"
+    "message": ""
   },
   "transactionDropped": {
-    "message": "Transaction dropped on $2."
+    "message": "Tranzaksyon ou te tonbe a $2."
   },
   "transactionSubmitted": {
-    "message": "Transaction submitted on $2."
+    "message": "Tranzaksyon ou te soumèt a $2."
   },
   "transactionUpdated": {
-    "message": "Transaction updated on $2."
+    "message": "Tranzaksyon ou te aktyalize a $2."
   },
   "transactionUpdatedGas": {
-    "message": "Transaction updated with a gas price of $1 on $2."
+    "message": "Tranzaksyon ou te aktyalize avèk on pri gaz de $1 a $2."
   },
   "transfer": {
-    "message": "Transfer"
+    "message": "Transfè"
   },
   "transferFrom": {
-    "message": "Transfer From"
+    "message": ""
   },
   "trezorHardwareWallet": {
-    "message": "TREZOR Hardware Wallet"
+    "message": "TREZOR Materyèl Bous"
   },
   "tryAgain": {
-    "message": "Try again"
+    "message": "Eseye anko"
   },
   "units": {
-    "message": "units"
+    "message": "inite yo"
   },
   "unknownFunction": {
-    "message": "Unknown Function"
+    "message": "Fonksyon enkoni"
   },
   "unknownQrCode": {
-    "message": "Error: We couldn't identify that QR code"
+    "message": "Erè: Nou pa t kapab idantifye QR kòd sa"
   },
   "unknownCameraErrorTitle": {
-    "message": "Ooops! Something went wrong...."
+    "message": "Ooops! Yon bagay te ale mal...."
   },
   "unknownCameraError": {
-    "message": "There was an error while trying to access your camera. Please try again..."
+    "message": "Te gen yon erè pandan y ap eseye jwenn aksè nan kamera ou. Tanpri eseye ankò..."
   },
   "unlock": {
-    "message": "Unlock"
+    "message": "Debloke"
   },
   "unlockMessage": {
-    "message": "The decentralized web awaits"
+    "message": "Entènèt desantralize a ap tann"
   },
   "updatedWithDate": {
-    "message": "Updated $1"
+    "message": ""
   },
   "viewOnDexScan": {
-    "message": "View on DEXscan"
+    "message": "Wè sou DexScan"
   },
   "welcomeBack": {
-    "message": "Welcome Back!"
+    "message": "Bon retou!"
   },
   "yesLetsTry": {
-    "message": "Yes, let's try"
+    "message": ""
   },
   "youNeedToAllowCameraAccess": {
-    "message": "You need to allow camera access to use this feature."
+    "message": "Ou bezwen bay kamera aksè pou sèvi ak fonksyon sa."
   },
   "yourPrivateSeedPhrase": {
-    "message": "Your private seed phrase"
+    "message": "Seed fraz prive ou a"
   },
   "connectingToRinkeby": {
     "message": ""

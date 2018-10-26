@@ -2,9 +2,6 @@
   "accept": {
     "message": "Akceptacja"
   },
-  "accessingYourCamera": {
-    "message": "Uruchamianie kamery..."
-  },
   "account": {
     "message": "Konto"
   },
@@ -13,9 +10,6 @@
   },
   "accountName": {
     "message": "Nazwa konta"
-  },
-  "accountSelectionRequired": {
-    "message": "Należy wybrać konto!"
   },
   "address": {
     "message": "Adres"
@@ -29,12 +23,6 @@
   "addTokens": {
     "message": "Dodaj tokeny"
   },
-  "addSuggestedTokens": {
-    "message": "Dodaj sugerowane tokeny."
-  },
-  "addAcquiredTokens": {
-    "message": "Dodaj tokeny pozyskane przy pomocy MetaMask"
-  },
   "amount": {
     "message": "Ilość"
   },
@@ -42,15 +30,12 @@
     "message": "Ilość + gaz"
   },
   "appDescription": {
-    "message": "Wtyczka przeglądarki do Ethereum",
+    "message": "Wtyczka przeglądarki do DEXON",
     "description": "Opis aplikacji"
   },
   "appName": {
     "message": "MetaMask",
     "description": "Nazwa aplikacji"
-  },
-  "approve": {
-    "message": "Zatwierdź"
   },
   "approved": {
     "message": "Zatwierdzone"
@@ -89,9 +74,6 @@
   "borrowDharma": {
     "message": "Pożycz z Dharma (Beta)"
   },
-  "browserNotSupported": {
-    "message": "Twoja przeglądarka nie jest obsługiwana..."
-  },
   "builtInCalifornia": {
     "message": "MetaMask został zaprojektowany i stworzony w Kaliforni."
   },
@@ -102,10 +84,7 @@
     "message": "Kup na Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase to najpopularniejszy sposób na kupno i sprzedaż Bitcoin, Ethereum i Litecoin."
-  },
-  "bytes": {
-    "message": "Bajty"
+    "message": "Coinbase to najpopularniejszy sposób na kupno i sprzedaż Bitcoin, DEXON i Litecoin."
   },
   "ok": {
     "message": "Ok"
@@ -119,6 +98,7 @@
   "clickCopy": {
     "message": "Kliknij żeby skopiować"
   },
+<<<<<<< HEAD
   "clickToAdd": {
     "message": "Przycisnij $1, aby dodać go do swojego konta"
   },
@@ -128,6 +108,8 @@
   "chromeRequiredForHardwareWallets": {
     "message": "Żeby połączyć się z portfelem sprzętowym, należy uruchomić MetaMask z przeglądarką Google Chrome."
   },
+=======
+>>>>>>> Update translations
   "confirm": {
     "message": "Potwierdź"
   },
@@ -142,21 +124,6 @@
   },
   "confirmTransaction": {
     "message": "Potwierdź transakcję"
-  },
-  "connectHardwareWallet": {
-    "message": "Podłącz portfel sprzętowy"
-  },
-  "connect": {
-    "message": "Połącz"
-  },
-  "connecting": {
-    "message": "Łączenie..."
-  },
-  "connectToLedger": {
-    "message": "Połącz z Ledger"
-  },
-  "connectToTrezor": {
-    "message": "Połącz z Trezor"
   },
   "continue": {
     "message": "Kontynuuj"
@@ -184,12 +151,6 @@
   },
   "copy": {
     "message": "Skopiuj"
-  },
-  "copyContractAddress": {
-    "message": "Skopiuj adres kontaktowy"
-  },
-  "copyAddress": {
-    "message": "Skopiuj adres do schowka"
   },
   "copyToClipboard": {
     "message": "Skopiuj do schowka"
@@ -253,11 +214,8 @@
     "message": "Zdeponuj $1 na poniższy adres",
     "description": "Pokazuje użytkownikowi jakie waluty wybrał do zdeponowania w ShapeShift"
   },
-  "depositEth": {
-    "message": "Zdeponuj Eth"
-  },
-  "depositEther": {
-    "message": "Zdeponuj Eter"
+  "depositDEX": {
+    "message": "Zdeponuj DEX"
   },
   "depositFiat": {
     "message": "Zdeponuj w Fiat"
@@ -277,23 +235,17 @@
   "directDeposit": {
     "message": "Bezpośredni depozyt"
   },
-  "directDepositEther": {
+  "directDepositDex": {
     "message": "Zdeponuj Eter bezpośrednio"
   },
-  "directDepositEtherExplainer": {
+  "directDepositDexExplainer": {
     "message": "Jeśli już masz Eter, najszybciej umieścisz go w swoim nowym portfelu przy pomocy bezpośredniego depozytu."
   },
   "done": {
     "message": "Gotowe"
   },
-  "downloadGoogleChrome": {
-    "message": "Ściągnij Google Chrome"
-  },
   "downloadStateLogs": {
     "message": "Załaduj logi stanów"
-  },
-  "dontHaveAHardwareWallet": {
-    "message": "Nie masz portfela sprzętowego?"
   },
   "dropped": {
     "message": "Odrzucone"
@@ -304,17 +256,11 @@
   "editAccountName": {
     "message": "Edytuj nazwę konta"
   },
-  "editingTransaction": {
-    "message": "Dokonaj zmian w swojej transakcji"
-  },
   "emailUs": {
     "message": "Napisz do nas!"
   },
   "encryptNewDen": {
     "message": "Zaszyfruj swój nowy DEN"
-  },
-  "ensNameNotFound": {
-    "message": "Nie znaleziono nazwy ENS"
   },
   "enterPassword": {
     "message": "Wpisz hasło"
@@ -322,20 +268,14 @@
   "enterPasswordConfirm": {
     "message": "Wpisz hasło żeby potwierdzić"
   },
-  "enterPasswordContinue": {
-    "message": "Podaj hasło żeby kontynuować"
-  },
-  "parameters": {
-    "message": "Parametry"
-  },
   "passwordNotLongEnough": {
     "message": "Hasło jest za krótkie"
   },
   "passwordsDontMatch": {
     "message": "Hasła są niezgodne"
   },
-  "etherscanView": {
-    "message": "Zobacz konto na Etherscan"
+  "dexscanView": {
+    "message": "Zobacz konto na DEXONscan"
   },
   "exchangeRate": {
     "message": "Kurs wymiany"
@@ -363,9 +303,6 @@
   "followTwitter": {
     "message": "Śledź nas na Twitterze"
   },
-  "forgetDevice": {
-    "message": "Usuń to urządzenie."
-  },
   "from": {
     "message": "Z"
   },
@@ -374,9 +311,6 @@
   },
   "fromShapeShift": {
     "message": "Z ShapeShift"
-  },
-  "functionType": {
-    "message": "Typ funkcji"
   },
   "gas": {
     "message": "Gaz",
@@ -409,37 +343,16 @@
   "gasPriceRequired": {
     "message": "Wymagana cena gazu"
   },
-  "generatingTransaction": {
-    "message": "Generowanie transakcji"
-  },
-  "getEther": {
+  "getDex": {
     "message": "Zdobądź Eter"
   },
-  "getEtherFromFaucet": {
+  "getDexFromFaucet": {
     "message": "Zdobądź Eter ze źródła za $1",
     "description": "Wyświetla nazwę sieci dla źródła Eteru"
-  },
-  "getHelp": {
-    "message": "Po pomoc."
   },
   "greaterThanMin": {
     "message": "musi być większe lub równe $1.",
     "description": "pomoc przy wpisywaniu hex jako dane dziesiętne"
-  },
-  "hardware": {
-    "message": "sprzęt"
-  },
-  "hardwareWalletConnected": {
-    "message": "Podłączono sprzętowy portfel"
-  },
-  "hardwareWallets": {
-    "message": "Podłącz sprzętowy portfel"
-  },
-  "hardwareWalletsMsg": {
-    "message": "Wybierz portfel sprzętowy, którego chcesz użyć z MetaMaskiem"
-  },
-  "havingTroubleConnecting": {
-    "message": "Problem z połączeniem?"
   },
   "here": {
     "message": "tutaj",
@@ -447,9 +360,6 @@
   },
   "hereList": {
     "message": "Oto lista!!!"
-  },
-  "hexData": {
-    "message": "Dane Hex"
   },
   "hide": {
     "message": "Schowaj"
@@ -460,13 +370,10 @@
   "hideTokenPrompt": {
     "message": "Schować token?"
   },
-  "history": {
-    "message": "Historia"
-  },
   "howToDeposit": {
     "message": "Jak chcesz zdeponować Eter?"
   },
-  "holdEther": {
+  "holdDex": {
     "message": "Umożliwia przechowywanie eteru i tokenów oraz służy jako łącznik do zdecentralizowanych aplikacji."
   },
   "import": {
@@ -489,14 +396,8 @@
     "message": "Zaimportowane",
     "description": "status pokazujący, że konto zostało w pełni załadowane na keyring"
   },
-  "importUsingSeed": {
-    "message": "Importuj przy pomocy frazy seed konta"
-  },
   "infoHelp": {
     "message": "Info & pomoc"
-  },
-  "initialTransactionConfirmed": {
-    "message": "Twoja transakcja została potwierdzona w sieci. Kliknij OK żeby wrócić."
   },
   "insufficientFunds": {
     "message": "Niewystarczające środki."
@@ -522,9 +423,6 @@
   "invalidRPC": {
     "message": "Nieprawidłowe RPC URI"
   },
-  "invalidSeedPhrase": {
-    "message": "Nieprawidłowa fraza seed"
-  },
   "jsonFail": {
     "message": "Coś poszło nie tak. Upewnij się, że plik JSON jest prawidłowo sformatowany."
   },
@@ -546,9 +444,6 @@
   },
   "learnMore": {
     "message": "Dowiedz się więcej"
-  },
-  "ledgerAccountRestriction": {
-    "message": "Musisz użyć swojego poprzedniego konta zanim dodasz kolejne."
   },
   "lessThanMax": {
     "message": "musi być mniejsze lub równe $1.",
@@ -585,19 +480,13 @@
     "message": "słowa seed mogą być pisane wyłącznie małymi literami"
   },
   "mainnet": {
-    "message": "Główna sieć Ethereum"
-  },
-  "menu": {
-    "message": "Menu"
+    "message": "Główna sieć DEXON"
   },
   "message": {
     "message": "Wiadomość"
   },
-  "metamaskDescription": {
-    "message": "MetaMask to bezpieczny portfel dla Ethereum."
-  },
-  "metamaskSeedWords": {
-    "message": "Słowa Seed MetaMask"
+  "dekusanDescription": {
+    "message": "MetaMask to bezpieczny portfel dla DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -611,7 +500,7 @@
   "mustSelectOne": {
     "message": "Należy wybrać co najmniej 1 token."
   },
-  "needEtherInWallet": {
+  "needDexInWallet": {
     "message": "Żeby skorzystać ze zdecentraliowanych aplikacji (dApps) przy pomocy MetaMask, potrzebujesz Eteru w swoim portfelu."
   },
   "needImportFile": {
@@ -622,14 +511,11 @@
     "message": "Musisz podać hasło dla wybranego pliku.",
     "description": "Hasło i plik niezbędne do zaimportowania konta"
   },
-  "negativeETH": {
-    "message": "Nie można wysłać ujemnych ilości ETH."
+  "negativeDex": {
+    "message": "Nie można wysłać ujemnych ilości DEX."
   },
   "networks": {
     "message": "Sieci"
-  },
-  "nevermind": {
-    "message": "Nie ważne"
   },
   "newAccount": {
     "message": "Nowe konto"
@@ -659,26 +545,14 @@
   "noDeposits": {
     "message": "Brak otrzymanych depozytów"
   },
-  "noConversionRateAvailable": {
-    "message": "Brak kursu waluty"
-  },
   "noTransactionHistory": {
     "message": "Brak historii transakcji."
   },
   "noTransactions": {
     "message": "Nie ma transakcji"
   },
-  "notFound": {
-    "message": "Nie znaleziono"
-  },
   "notStarted": {
     "message": "Nie rozpoczęto"
-  },
-  "noWebcamFoundTitle": {
-    "message": "Nie znaleziono kamery"
-  },
-  "noWebcamFound": {
-    "message": "Twoja kamera nie została znaleziona. Spróbuj ponownie."
   },
   "oldUI": {
     "message": "Stary interfejs"
@@ -686,18 +560,9 @@
   "oldUIMessage": {
     "message": "Wróciłeś do starego interfejsu. Możesz włączyć nowy interfejs przez opcje w rozwijanym menu w prawym górnym rogu."
   },
-  "openInTab": {
-    "message": "Otwórz w zakładce"
-  },
   "or": {
     "message": "lub",
     "description": "wybór między tworzeniem i importowaniem nowego konta"
-  },
-  "origin": {
-    "message": "Pochodzenie"
-  },
-  "password": {
-    "message": "Hasło"
   },
   "passwordCorrect": {
     "message": "Upewnij się, że Twoje hasło jest poprawne."
@@ -717,9 +582,6 @@
   "pasteSeed": {
     "message": "Tutaj wklej swoją frazę seed!"
   },
-  "pending": {
-    "message": "oczekiwanie"
-  },
   "personalAddressDetected": {
     "message": "Wykryto osobisty adres. Wprowadź adres kontraktu tokenów."
   },
@@ -728,9 +590,6 @@
   },
   "popularTokens": {
     "message": "Popularne tokeny"
-  },
-  "prev": {
-    "message": "Poprzednie"
   },
   "privacyMsg": {
     "message": "Polityka prywatności"
@@ -747,9 +606,6 @@
   },
   "qrCode": {
     "message": "Pokaż kod QR"
-  },
-  "queue": {
-    "message": "Kolejka"
   },
   "readdToken": {
     "message": "Możesz później ponownie dodać ten token poprzez \"Dodaj token\" w opcjach menu swojego konta."
@@ -772,23 +628,14 @@
   "rejected": {
     "message": "Odrzucone"
   },
-  "reset": {
-    "message": "Reset"
-  },
   "resetAccount": {
     "message": "Resetuj konto"
-  },
-  "resetAccountDescription": {
-    "message": "Zresetowanie konta wyczyści Twoją historię transakcji."
   },
   "restoreFromSeed": {
     "message": "Przywrócić konto?"
   },
   "restoreVault": {
     "message": "Przywróć schowek"
-  },
-  "restoreAccountWithSeed": {
-    "message": "Przywróć konto frazą seed"
   },
   "required": {
     "message": "Wymagane"
@@ -799,20 +646,8 @@
   "walletSeed": {
     "message": "Seed portfela"
   },
-  "restore": {
-    "message": "Przywróć"
-  },
   "revealSeedWords": {
     "message": "Pokaż słowa seed"
-  },
-  "revealSeedWordsTitle": {
-    "message": "Fraza seed"
-  },
-  "revealSeedWordsDescription": {
-    "message": "Jeśli kiedyś zmienisz przeglądarkę lub komputer, będziesz potrzebować tej frazy seed, żeby dostać się do swoich kont. Zapisz ją w bezpiecznym miejscu."
-  },
-  "revealSeedWordsWarningTitle": {
-    "message": "NIE pokazuj tej frazy nikomu!"
   },
   "revealSeedWordsWarning": {
     "message": "Te słowa mogą być użyte żeby ukraść Twoje konta."
@@ -820,32 +655,17 @@
   "revert": {
     "message": "Wycofaj"
   },
-  "remove": {
-    "message": "usuń"
-  },
-  "removeAccount": {
-    "message": "Usuń konto"
-  },
-  "removeAccountDescription": {
-    "message": "To konto będzie usunięte z Twojego portfela. Zanim przejdziesz dalej, upewnij się, że masz frazę seed i klucz prywatny do tego importowanego konta. Możesz później importować lub utworzyć nowe konta z rozwijanego menu kont. "
-  },
-  "readyToConnect": {
-    "message": "Gotowy na połączenie?"
-  },
   "rinkeby": {
     "message": "Sieć testowa Rinkeby"
   },
   "ropsten": {
     "message": "Sieć testowa Ropsten"
   },
-  "rpc": {
-    "message": "Indywidualne RPC"
-  },
   "currentRpc": {
     "message": "Obecne RPC"
   },
   "connectingToMainnet": {
-    "message": "Łączenie z główną siecią Ethereum"
+    "message": "Łączenie z główną siecią DEXON"
   },
   "connectingToRopsten": {
     "message": "Łączenie z siecią testową Ropsten"
@@ -853,8 +673,8 @@
   "connectingToKovan": {
     "message": "Łączenie z siecią testową Kovan"
   },
-  "connectingToRinkeby": {
-    "message": "Łączenie z siecią testową Rinkeby"
+  "connectingToTestnet": {
+    "message": ""
   },
   "connectingToUnknown": {
     "message": "Łączenie z nieznaną siecią"
@@ -866,14 +686,11 @@
   "save": {
     "message": "Zapisz"
   },
-  "speedUpTitle": {
-    "message": "Przyspiesz transakcję"
+  "reprice_title": {
+    "message": ""
   },
-  "speedUpSubtitle": {
-    "message": "Zwiększ cenę gazu żeby nadpisać i przyspieszyć transakcję"
-  },
-  "saveAsCsvFile": {
-    "message": "Zapisz jako plik CSV"
+  "reprice_subtitle": {
+    "message": ""
   },
   "saveAsFile": {
     "message": "Zapisz jako",
@@ -885,17 +702,8 @@
   "search": {
     "message": "Szukaj"
   },
-  "searchResults": {
-    "message": "Wyniki wyszukiwania"
-  },
   "secretPhrase": {
     "message": "Żeby otworzyć schowek, wpisz tutaj swoją frazę dwunastu słów."
-  },
-  "showHexData": {
-    "message": "Pokaż dane hex"
-  },
-  "showHexDataDescription": {
-    "message": "Wybierz to żeby pokazać pole danych hex na ekranie wysyłania"
   },
   "newPassword8Chars": {
     "message": "Nowe hasło (min. 8 znaków)"
@@ -919,83 +727,25 @@
     "message": "Wyślij"
   },
   "sendDEX": {
-    "message": "Wyślij ETH"
+    "message": "Wyślij DEX"
   },
   "sendTokens": {
     "message": "Wyślij tokeny"
   },
-  "sentDexon": {
-    "message": "wyślij eter"
-  },
-  "sentTokens": {
-    "message": "wysłane tokeny"
-  },
-  "separateEachWord": {
-    "message": "Oddziel słowa pojedynczą spacją"
-  },
   "onlySendToDexonAddress": {
-    "message": "Na adres Ethereum wysyłaj tylko ETH."
-  },
-  "onlySendTokensToAccountAddress": {
-    "message": "Wyślij tylko $1 na adres konta Ethereum.",
-    "description": "wyświetla symbol tokena"
-  },
-  "orderOneHere": {
-    "message": "Zamów Trezor lub Ledger i trzymaj swoje środki w portfelu sprzętowym."
-  },
-  "outgoing": {
-    "message": "Wychodzące"
+    "message": "Na adres DEXON wysyłaj tylko DEX."
   },
   "searchTokens": {
     "message": "Szukaj tokenów"
   },
-  "selectAnAddress": {
-    "message": "Wybierz adres"
-  },
-  "selectAnAccount": {
-    "message": "Wybierz konto"
-  },
-  "selectAnAccountHelp": {
-    "message": "Wybierz konto do przeglądania w MetaMask"
-  },
-  "selectHdPath": {
-    "message": "Wybierz ścieżkę HD"
-  },
-  "selectPathHelp": {
-    "message": "Jeśli nie widzisz poniżej swoich kont Ledger, spróbuj przełączyć się na \"Legacy (MEW / MyCrypto)\""
-  },
   "sendTokensAnywhere": {
-    "message": "Wyślij tokeny do kogoś z adresem Ethereum"
+    "message": "Wyślij tokeny do kogoś z adresem DEXON"
   },
   "settings": {
     "message": "Ustawienia"
   },
-  "step1HardwareWallet": {
-    "message": "1. Podłącz portfel sprzętowy"
-  },
-  "step1HardwareWalletMsg": {
-    "message": "Połącz swój portfel sprzętowy z komputerem."
-  },
-  "step2HardwareWallet": {
-    "message": "2. Wybierz konto"
-  },
-  "step2HardwareWalletMsg": {
-    "message": "Wybierz konto, które chcesz przeglądać. Możesz wybrać tylko jedno konto w danym momencie."
-  },
-  "step3HardwareWallet": {
-    "message": "3. Zacznij używać dystrybuowanych aplikacji (dApps) i wiele więcej!"
-  },
-  "step3HardwareWalletMsg": {
-    "message": "Używaj swojego konta sprzętowego tak, jak używasz jakiegokolwiek konta z Ethereum. Loguj się do dystrybuowanych aplikacji (dApps), wysyłaj Eth, kupuj i przechowaj tokeny ERC20 i niewymienne tokeny, jak np. CryptoKitties."
-  },
   "info": {
     "message": "Info"
-  },
-  "scanInstructions": {
-    "message": "Umieść kod QR na wprost kamery"
-  },
-  "scanQrCode": {
-    "message": "Skanuj kod QR"
   },
   "shapeshiftBuy": {
     "message": "Kup w ShapeShift"
@@ -1008,9 +758,6 @@
   },
   "sign": {
     "message": "Podpisz"
-  },
-  "signatureRequest": {
-    "message": "Prośba o podpis"
   },
   "signed": {
     "message": "Podpisane"
@@ -1061,17 +808,17 @@
     "message": "Regulamin"
   },
   "testFaucet": {
-    "message": "Źródło testowego ETH"
+    "message": "Źródło testowego DEX"
+  },
+  "testnet": {
+    "message": ""
   },
   "to": {
     "message": "Do"
   },
-  "toETHviaShapeShift": {
-    "message": "$1 na ETH przez ShapeShift",
+  "toDEXviaShapeShift": {
+    "message": "$1 na DEX przez ShapeShift",
     "description": "system uzupełni typ depozytu na początku wiadomości"
-  },
-  "token": {
-    "message": "Token"
   },
   "tokenAddress": {
     "message": "Adres tokena"
@@ -1106,21 +853,12 @@
   "transactionNumber": {
     "message": "Numer transakcji"
   },
-  "transfer": {
-    "message": "Przelew"
-  },
   "transfers": {
     "message": "Przelewy"
-  },
-  "trezorHardwareWallet": {
-    "message": "Sprzętowy portfel TREZOR"
   },
   "troubleTokenBalances": {
     "message": "Wystąpił problem z załadowaniem informacji o Twoich tokenach. Można je zobaczyć ",
     "description": "Z linkiem (tutaj) do informacji o stanie tokenów"
-  },
-  "tryAgain": {
-    "message": "Spróbuj ponownie"
   },
   "twelveWords": {
     "message": "Tych 12 słów to jedyny sposób, żeby odzyskać konta w MetaMasku. Zapisz je w bezpiecznym miejscu."
@@ -1143,32 +881,14 @@
   "unknown": {
     "message": "Nieznane"
   },
-  "unknownFunction": {
-    "message": "Nieznana funkcja"
-  },
   "unknownNetwork": {
     "message": "Nieznana sieć prywatna"
   },
   "unknownNetworkId": {
     "message": "Nieznane sieciowe ID"
   },
-  "unknownQrCode": {
-    "message": "Błąd: nie mogliśmy odczytać tego kodu QR"
-  },
-  "unknownCameraErrorTitle": {
-    "message": "Ups! Coś poszło nie tak..."
-  },
-  "unknownCameraError": {
-    "message": "Podczas łączenia się z kamerą wystąpił błąd. Spróbuj ponownie..."
-  },
-  "unlock": {
-    "message": "Odblokuj"
-  },
-  "unlockMessage": {
-    "message": "Zdecentralizowana sieć oczekuje"
-  },
   "uriErrorMsg": {
-    "message": "URI wymaga prawidłowego prefiksu HTTP/HTTPS."
+    "message": "URI wymaga prawidłowego prefiksu HTTP\/HTTPS."
   },
   "usaOnly": {
     "message": "Tylko USA",
@@ -1189,26 +909,25 @@
   "viewAccount": {
     "message": "Zobacz konto"
   },
-  "viewOnDexScan": {
-    "message": "Zobacz na Etherscan"
-  },
   "visitWebSite": {
     "message": "Odwiedź naszą stronę"
   },
   "warning": {
     "message": "Uwaga"
   },
+<<<<<<< HEAD
   "welcomeBack": {
     "message": "Witaj z powrotem!"
   },
   "welcome": {
     "message": "Witaj w MetaMask"
+=======
+  "welcomeBeta": {
+    "message": "Witaj w MetaMask Beta"
+>>>>>>> Update translations
   },
   "whatsThis": {
     "message": "Co to jest?"
-  },
-  "youNeedToAllowCameraAccess": {
-    "message": "Żeby użyć tej opcji należy podłączyć kamerę"
   },
   "yourSigRequested": {
     "message": "Twój podpis jest wymagany"
@@ -1216,7 +935,416 @@
   "youSign": {
     "message": "Podpisujesz"
   },
+  "aboutDekuSan": {
+    "message": ""
+  },
+  "accessingYourCamera": {
+    "message": "Uruchamianie kamery..."
+  },
+  "accountOptions": {
+    "message": ""
+  },
+  "accountSelectionRequired": {
+    "message": "Należy wybrać konto!"
+  },
+  "activityLog": {
+    "message": ""
+  },
+  "addSuggestedTokens": {
+    "message": "Dodaj sugerowane tokeny."
+  },
+  "addAcquiredTokens": {
+    "message": "Dodaj tokeny pozyskane przy pomocy MetaMask"
+  },
+  "approve": {
+    "message": "Zatwierdź"
+  },
+  "attemptToCancel": {
+    "message": ""
+  },
+  "attemptToCancelDescription": {
+    "message": ""
+  },
+  "browserNotSupported": {
+    "message": "Twoja przeglądarka nie jest obsługiwana..."
+  },
+  "bytes": {
+    "message": "Bajty"
+  },
+  "cancelAttempt": {
+    "message": ""
+  },
+  "cancellationGasFee": {
+    "message": ""
+  },
+  "cancelN": {
+    "message": ""
+  },
+  "clickToAdd": {
+    "message": ""
+  },
+  "close": {
+    "message": "Zamknij"
+  },
+  "chromeRequiredForHardwareWallets": {
+    "message": "Żeby połączyć się z portfelem sprzętowym, należy uruchomić MetaMask z przeglądarką Google Chrome."
+  },
+  "connectHardwareWallet": {
+    "message": "Podłącz portfel sprzętowy"
+  },
+  "connect": {
+    "message": "Połącz"
+  },
+  "connecting": {
+    "message": "Łączenie..."
+  },
+  "connectToLedger": {
+    "message": "Połącz z Ledger"
+  },
+  "connectToTrezor": {
+    "message": "Połącz z Trezor"
+  },
+  "copyAddress": {
+    "message": "Skopiuj adres do schowka"
+  },
+  "currentLanguage": {
+    "message": ""
+  },
+  "downloadGoogleChrome": {
+    "message": "Ściągnij Google Chrome"
+  },
+  "dontHaveAHardwareWallet": {
+    "message": "Nie masz portfela sprzętowego?"
+  },
+  "editingTransaction": {
+    "message": "Dokonaj zmian w swojej transakcji"
+  },
+  "ensNameNotFound": {
+    "message": "Nie znaleziono nazwy ENS"
+  },
+  "enterPasswordContinue": {
+    "message": "Podaj hasło żeby kontynuować"
+  },
+  "dex": {
+    "message": ""
+  },
+  "expandView": {
+    "message": ""
+  },
+  "forgetDevice": {
+    "message": "Usuń to urządzenie."
+  },
+  "functionType": {
+    "message": "Typ funkcji"
+  },
+  "gasUsed": {
+    "message": ""
+  },
+  "generatingTransaction": {
+    "message": "Generowanie transakcji"
+  },
+  "getHelp": {
+    "message": "Po pomoc."
+  },
+  "hardware": {
+    "message": "sprzęt"
+  },
+  "hardwareWalletConnected": {
+    "message": "Podłączono sprzętowy portfel"
+  },
+  "hardwareWallets": {
+    "message": "Podłącz sprzętowy portfel"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Wybierz portfel sprzętowy, którego chcesz użyć z MetaMaskiem"
+  },
+  "havingTroubleConnecting": {
+    "message": "Problem z połączeniem?"
+  },
+  "hexData": {
+    "message": "Dane Hex"
+  },
+  "history": {
+    "message": "Historia"
+  },
+  "importUsingSeed": {
+    "message": "Importuj przy pomocy frazy seed konta"
+  },
+  "initialTransactionConfirmed": {
+    "message": "Twoja transakcja została potwierdzona w sieci. Kliknij OK żeby wrócić."
+  },
+  "invalidSeedPhrase": {
+    "message": "Nieprawidłowa fraza seed"
+  },
+  "ledgerAccountRestriction": {
+    "message": "Musisz użyć swojego poprzedniego konta zanim dodasz kolejne."
+  },
+  "menu": {
+    "message": "Menu"
+  },
+  "dekusanSeedWords": {
+    "message": "Słowa Seed MetaMask"
+  },
+  "dekusanVersion": {
+    "message": ""
+  },
+  "missingYourTokens": {
+    "message": ""
+  },
+  "nevermind": {
+    "message": "Nie ważne"
+  },
+  "noConversionRateAvailable": {
+    "message": "Brak kursu waluty"
+  },
+  "notFound": {
+    "message": "Nie znaleziono"
+  },
+  "noWebcamFoundTitle": {
+    "message": "Nie znaleziono kamery"
+  },
+  "noWebcamFound": {
+    "message": "Twoja kamera nie została znaleziona. Spróbuj ponownie."
+  },
+  "onlySendTokensToAccountAddress": {
+    "message": "Wyślij tylko $1 na adres konta DEXON.",
+    "description": "wyświetla symbol tokena"
+  },
+  "openInTab": {
+    "message": "Otwórz w zakładce"
+  },
+  "orderOneHere": {
+    "message": "Zamów Trezor lub Ledger i trzymaj swoje środki w portfelu sprzętowym."
+  },
+  "origin": {
+    "message": "Pochodzenie"
+  },
+  "outgoing": {
+    "message": "Wychodzące"
+  },
+  "parameters": {
+    "message": "Parametry"
+  },
+  "password": {
+    "message": "Hasło"
+  },
+  "pending": {
+    "message": "oczekiwanie"
+  },
+  "prev": {
+    "message": "Poprzednie"
+  },
+  "primaryCurrencySetting": {
+    "message": ""
+  },
+  "primaryCurrencySettingDescription": {
+    "message": ""
+  },
+  "queue": {
+    "message": "Kolejka"
+  },
+  "reject": {
+    "message": ""
+  },
+  "rejectAll": {
+    "message": ""
+  },
+  "rejectTxsN": {
+    "message": ""
+  },
+  "rejectTxsDescription": {
+    "message": ""
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "resetAccountDescription": {
+    "message": "Zresetowanie konta wyczyści Twoją historię transakcji."
+  },
+  "restoreAccountWithSeed": {
+    "message": "Przywróć konto frazą seed"
+  },
+  "restore": {
+    "message": "Przywróć"
+  },
+  "revealSeedWordsTitle": {
+    "message": "Fraza seed"
+  },
+  "revealSeedWordsDescription": {
+    "message": "Jeśli kiedyś zmienisz przeglądarkę lub komputer, będziesz potrzebować tej frazy seed, żeby dostać się do swoich kont. Zapisz ją w bezpiecznym miejscu."
+  },
+  "revealSeedWordsWarningTitle": {
+    "message": "NIE pokazuj tej frazy nikomu!"
+  },
+  "remove": {
+    "message": "usuń"
+  },
+  "removeAccount": {
+    "message": "Usuń konto"
+  },
+  "removeAccountDescription": {
+    "message": "To konto będzie usunięte z Twojego portfela. Zanim przejdziesz dalej, upewnij się, że masz frazę seed i klucz prywatny do tego importowanego konta. Możesz później importować lub utworzyć nowe konta z rozwijanego menu kont. "
+  },
+  "readyToConnect": {
+    "message": "Gotowy na połączenie?"
+  },
+  "rpc": {
+    "message": "Indywidualne RPC"
+  },
+  "saveAsCsvFile": {
+    "message": "Zapisz jako plik CSV"
+  },
+  "scanInstructions": {
+    "message": "Umieść kod QR na wprost kamery"
+  },
+  "scanQrCode": {
+    "message": "Skanuj kod QR"
+  },
+  "searchResults": {
+    "message": "Wyniki wyszukiwania"
+  },
+  "selectLocale": {
+    "message": ""
+  },
+  "sentDexon": {
+    "message": "wyślij eter"
+  },
+  "sentTokens": {
+    "message": "wysłane tokeny"
+  },
+  "separateEachWord": {
+    "message": "Oddziel słowa pojedynczą spacją"
+  },
+  "selectAnAddress": {
+    "message": "Wybierz adres"
+  },
+  "selectAnAccount": {
+    "message": "Wybierz konto"
+  },
+  "selectAnAccountHelp": {
+    "message": "Wybierz konto do przeglądania w MetaMask"
+  },
+  "selectHdPath": {
+    "message": "Wybierz ścieżkę HD"
+  },
+  "selectPathHelp": {
+    "message": "Jeśli nie widzisz poniżej swoich kont Ledger, spróbuj przełączyć się na \"Legacy (MEW \/ MyCrypto)\""
+  },
+  "showHexData": {
+    "message": "Pokaż dane hex"
+  },
+  "showHexDataDescription": {
+    "message": "Wybierz to żeby pokazać pole danych hex na ekranie wysyłania"
+  },
+  "signatureRequest": {
+    "message": "Prośba o podpis"
+  },
+  "speedUp": {
+    "message": ""
+  },
+  "speedUpTitle": {
+    "message": "Przyspiesz transakcję"
+  },
+  "speedUpSubtitle": {
+    "message": "Zwiększ cenę gazu żeby nadpisać i przyspieszyć transakcję"
+  },
+  "step1HardwareWallet": {
+    "message": "1. Podłącz portfel sprzętowy"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Połącz swój portfel sprzętowy z komputerem."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Wybierz konto"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Wybierz konto, które chcesz przeglądać. Możesz wybrać tylko jedno konto w danym momencie."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Zacznij używać dystrybuowanych aplikacji (dApps) i wiele więcej!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Używaj swojego konta sprzętowego tak, jak używasz jakiegokolwiek konta z DEXON. Loguj się do dystrybuowanych aplikacji (dApps), wysyłaj DEX, kupuj i przechowaj tokeny ERC20 i niewymienne tokeny, jak np. CryptoKitties."
+  },
+  "token": {
+    "message": "Token"
+  },
+  "transaction": {
+    "message": ""
+  },
+  "transactionConfirmed": {
+    "message": ""
+  },
+  "transactionCreated": {
+    "message": ""
+  },
+  "transactionWithNonce": {
+    "message": ""
+  },
+  "transactionDropped": {
+    "message": ""
+  },
+  "transactionSubmitted": {
+    "message": ""
+  },
+  "transactionUpdated": {
+    "message": ""
+  },
+  "transactionUpdatedGas": {
+    "message": ""
+  },
+  "transfer": {
+    "message": "Przelew"
+  },
+  "transferFrom": {
+    "message": ""
+  },
+  "trezorHardwareWallet": {
+    "message": "Sprzętowy portfel TREZOR"
+  },
+  "tryAgain": {
+    "message": "Spróbuj ponownie"
+  },
+  "units": {
+    "message": ""
+  },
+  "unknownFunction": {
+    "message": "Nieznana funkcja"
+  },
+  "unknownQrCode": {
+    "message": "Błąd: nie mogliśmy odczytać tego kodu QR"
+  },
+  "unknownCameraErrorTitle": {
+    "message": "Ups! Coś poszło nie tak..."
+  },
+  "unknownCameraError": {
+    "message": "Podczas łączenia się z kamerą wystąpił błąd. Spróbuj ponownie..."
+  },
+  "unlock": {
+    "message": "Odblokuj"
+  },
+  "unlockMessage": {
+    "message": "Zdecentralizowana sieć oczekuje"
+  },
+  "updatedWithDate": {
+    "message": ""
+  },
+  "viewOnDexScan": {
+    "message": "Zobacz na DEXONscan"
+  },
+  "welcomeBack": {
+    "message": "Witaj z powrotem!"
+  },
+  "yesLetsTry": {
+    "message": ""
+  },
+  "youNeedToAllowCameraAccess": {
+    "message": "Żeby użyć tej opcji należy podłączyć kamerę"
+  },
   "yourPrivateSeedPhrase": {
     "message": "Twoja prywatna fraza seed"
+  },
+  "connectingToRinkeby": {
+    "message": "Łączenie z siecią testową Rinkeby"
   }
 }
