@@ -221,9 +221,7 @@ $wallet-view-bg: $muddy-gray;
   }
 
   .main-container-wrapper {
-    flex: 1;
-    min-height: 0;
-    width: 100%;
+    height: calc(100% - 60px);
   }
 }
 
@@ -263,7 +261,7 @@ $wallet-view-bg: $muddy-gray;
   justify-content: space-between;
 
   @media screen and (max-width: 575px) {
-    height: 100%;
+    flex: 1 0 auto;
   }
 
   @media screen and (min-width: 576px) {
