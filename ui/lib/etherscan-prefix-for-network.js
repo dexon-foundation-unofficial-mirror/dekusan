@@ -18,7 +18,7 @@ module.exports = function (network) {
       prefix = 'kovan.'
       break
     default:
-      prefix = ''
+      prefix = 'testnet.'
   }
   return prefix
 }
