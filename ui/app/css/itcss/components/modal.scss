@@ -641,7 +641,8 @@
     align-items: center;
 
     @media screen and (max-width: 575px) {
-      height: 0;
+      height: 100%;
+      padding: 0 10px;
     }
 
     .shapeshift-form-wrapper {
@@ -667,7 +668,7 @@
   }
 
   &__logo {
-    height: 60px;
+    height: 120px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -728,7 +729,6 @@
 
       @media screen and (max-width: 575px) {
         width: 100%;
-        max-height: 6rem;
         padding-bottom: 20px;
       }
     }
@@ -747,11 +747,12 @@
 
     &__description {
       color: $white;
-      padding-bottom: 20px;
-      align-self: flex-start;
+      flex: 1;
 
-      @media screen and (min-width: 575px) {
-        width: 15rem;
+      @media screen and (max-width: 575px) {
+        align-self: flex-start;
+        text-align: center;
+        padding-bottom: 20px;
       }
 
       &__title {

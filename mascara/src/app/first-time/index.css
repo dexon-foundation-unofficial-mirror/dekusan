@@ -124,7 +124,7 @@
   .buy-ether {
     display: flex;
     flex-flow: column nowrap;
-    width: calc(100vw - 80px);
+    width: calc(100vw - 48px);
   }
 
   .create-password__title,
