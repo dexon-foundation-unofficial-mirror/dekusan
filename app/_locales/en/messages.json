@@ -278,7 +278,7 @@
     "message": "Passwords Don't Match"
   },
   "dexscanView": {
-    "message": "View account on DEXscan"
+    "message": "View account on DexScan"
   },
   "exchangeRate": {
     "message": "Exchange Rate"
@@ -1367,7 +1367,7 @@
     "message": "Updated $1"
   },
   "viewOnDexScan": {
-    "message": "View on DEXscan"
+    "message": "View on DexScan"
   },
   "welcomeBack": {
     "message": "Welcome Back!"
