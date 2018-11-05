@@ -138,7 +138,7 @@ Notwithstanding the parties' decision to resolve all disputes through arbitratio
 
 ### 13.6 30-Day Right to Opt Out ###
 
-You have the right to opt-out and not be bound by the arbitration and class action waiver provisions set forth above by sending written notice of your decision to opt-out to the following address: DekuSan ℅ ConsenSys, 49 Bogart Street, Brooklyn NY 11206 and via email at support@metamask.io. The notice must be sent within 30 days of September 6, 2016 or your first use of the Service, whichever is later, otherwise you shall be bound to arbitrate disputes in accordance with the terms of those paragraphs. If you opt-out of these arbitration provisions, DekuSan also will not be bound by them.
+You have the right to opt-out and not be bound by the arbitration and class action waiver provisions set forth above by sending written notice of your decision to opt-out to the following address: DekuSan ℅ COBINHOOD, 39F, Taipei 101, Taiwan and via email at support@dexon.org. The notice must be sent within 30 days of September 6, 2016 or your first use of the Service, whichever is later, otherwise you shall be bound to arbitrate disputes in accordance with the terms of those paragraphs. If you opt-out of these arbitration provisions, DekuSan also will not be bound by them.
 
 ### 13.7 Changes to This Section ###
 
@@ -168,7 +168,7 @@ The section titles in the Terms are for convenience only and have no legal or co
 
 ### 14.5 Communications ###
 
-Users with questions, complaints or claims with respect to the Service may contact us using the relevant contact information set forth above and at communications@metamask.io.
+Users with questions, complaints or claims with respect to the Service may contact us using the relevant contact information set forth above and at support@dexon.org.
 
 ## 15 Related Links ##
 
