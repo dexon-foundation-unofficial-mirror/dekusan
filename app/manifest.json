@@ -44,7 +44,8 @@
     {
       "matches": [
         "https://*.dexscan.org/*",
-        "https://*.dexon.org/*"
+        "https://*.dexon.org/*",
+        "https://deversi.netlify.com/*"
       ],
       "js": [
         "contentscript.js"
