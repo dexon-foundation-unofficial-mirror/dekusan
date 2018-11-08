@@ -43,9 +43,8 @@
   "content_scripts": [
     {
       "matches": [
-        "file://*/*",
-        "http://*/*",
-        "https://*/*"
+        "https://*.dexscan.org/*",
+        "https://*.dexon.org/*"
       ],
       "js": [
         "contentscript.js"
