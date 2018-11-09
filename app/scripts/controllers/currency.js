@@ -29,7 +29,7 @@ class CurrencyController {
       currentCurrency: 'usd',
       conversionRate: 0,
       conversionDate: 'N/A',
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'DEX',
     }, opts.initState)
     this.store = new ObservableStore(initState)
   }
@@ -135,8 +135,8 @@ class CurrencyController {
       nativeCurrency = this.getNativeCurrency()
       // select api
       let apiUrl
-      if (nativeCurrency === 'ETH') {
-        // ETH
+      if (nativeCurrency === 'DEX') {
+        // DEX
         apiUrl = `https://api.infura.io/v1/ticker/eth${currentCurrency.toLowerCase()}`
       } else {
        // ETC
@@ -161,8 +161,8 @@ class CurrencyController {
         return
       }
       // set conversion rate
-      if (nativeCurrency === 'ETH') {
-        // ETH
+      if (nativeCurrency === 'DEX') {
+        // DEX
         this.setConversionRate(Number(parsedResponse.bid))
         this.setConversionDate(Number(parsedResponse.timestamp))
       } else {
@@ -176,12 +176,8 @@ class CurrencyController {
         }
       }
     } catch (err) {
-<<<<<<< HEAD
       // reset current conversion rate
-      log.warn(`MetaMask - Failed to query currency conversion:`, nativeCurrency, currentCurrency, err)
-=======
-      log.warn(`DekuSan - Failed to query currency conversion:`, currentCurrency, err)
->>>>>>> Complete onboarding flow
+      log.warn(`DekuSan - Failed to query currency conversion:`, nativeCurrency, currentCurrency, err)
       this.setConversionRate(0)
       this.setConversionDate('N/A')
       // throw error

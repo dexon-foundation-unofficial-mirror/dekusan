@@ -442,11 +442,7 @@ export default class SettingsTab extends PureComponent {
                   htmlFor="native-primary-currency"
                   className="settings-tab__radio-label"
                 >
-<<<<<<< HEAD
                   { nativeCurrency }
-=======
-                  { t('dex') }
->>>>>>> Update translations
                 </label>
               </div>
               <div className="settings-tab__radio-button">
