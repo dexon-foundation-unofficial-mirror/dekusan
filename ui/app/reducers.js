@@ -5,7 +5,7 @@ const copyToClipboard = require('copy-to-clipboard')
 //
 // Sub-Reducers take in the complete state and return their sub-state
 //
-const reduceMetamask = require('./reducers/metamask')
+const reduceDekusan = require('./reducers/dekusan')
 const reduceApp = require('./reducers/app')
 const reduceLocale = require('./reducers/locale')
 const reduceSend = require('./ducks/send.duck').default
@@ -28,7 +28,7 @@ function rootReducer (state, action) {
   // DekuSan
   //
 
-  state.metamask = reduceMetamask(state, action)
+  state.dekusan = reduceDekusan(state, action)
 
   //
   // AppState

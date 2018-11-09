@@ -29,7 +29,7 @@ describe('SET_SELECTED_ACCOUNT', function () {
 describe('SHOW_ACCOUNT_DETAIL', function () {
   it('updates metamask state', function () {
     var initialState = {
-      metamask: {
+      dekusan: {
         selectedAddress: 'foo',
       },
     }
@@ -42,6 +42,6 @@ describe('SHOW_ACCOUNT_DETAIL', function () {
     freeze(action)
 
     var resultingState = reducers(initialState, action)
-    assert.equal(resultingState.metamask.selectedAddress, action.value)
+    assert.equal(resultingstate.dekusan.selectedAddress, action.value)
   })
 })

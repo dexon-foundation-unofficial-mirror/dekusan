@@ -1,9 +1,9 @@
 {
-  "metamask": {
+  "dekusan": {
     "isInitialized": false,
     "isUnlocked": false,
     "currentDomain": "example.com",
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
     "identities": {},
     "unconfTxs": {},
     "currentCurrency": "USD",

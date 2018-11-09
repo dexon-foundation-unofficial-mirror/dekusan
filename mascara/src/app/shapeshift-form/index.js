@@ -207,7 +207,7 @@ export class ShapeShiftForm extends Component {
 }
 
 export default connect(
-  ({ metamask: { coinOptions, tokenExchangeRates, selectedAddress } }) => ({
+  ({ dekusan: { coinOptions, tokenExchangeRates, selectedAddress } }) => ({
     coinOptions, tokenExchangeRates, selectedAddress,
   }),
   dispatch => ({

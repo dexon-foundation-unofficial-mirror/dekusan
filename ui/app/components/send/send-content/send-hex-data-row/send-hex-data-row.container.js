@@ -8,7 +8,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(SendHexDataRow)
 
 function mapStateToProps (state) {
   return {
-    data: state.metamask.send.data,
+    data: state.dekusan.send.data,
   }
 }
 

@@ -11,7 +11,7 @@ const {
 import UnlockPage from './unlock-page.component'
 
 const mapStateToProps = state => {
-  const { metamask: { isUnlocked } } = state
+  const { dekusan: { isUnlocked } } = state
   return {
     isUnlocked,
   }

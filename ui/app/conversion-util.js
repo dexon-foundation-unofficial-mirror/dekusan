@@ -46,8 +46,8 @@ const decToBigNumberViaString = n => R.pipe(String, toBigNumber['dec'])
 
 // Setter Maps
 const toBigNumber = {
-  hex: n => new BigNumber(stripHexPrefix(n), 16),
-  dec: n => new BigNumber(String(n), 10),
+  hex: n => new BigNumber(stripHexPrefix(n || '0x0'), 16),
+  dec: n => new BigNumber(String(n || 0), 10),
   BN: n => new BigNumber(n.toString(16), 16),
 }
 const toNormalizedDenomination = {

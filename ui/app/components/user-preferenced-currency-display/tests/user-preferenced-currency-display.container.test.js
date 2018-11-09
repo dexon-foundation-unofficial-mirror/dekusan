@@ -17,8 +17,7 @@ describe('UserPreferencedCurrencyDisplay container', () => {
   describe('mapStateToProps()', () => {
     it('should return the correct props', () => {
       const mockState = {
-        metamask: {
-          nativeCurrency: 'ETH',
+        dekusan: {
           preferences: {
             useNativeCurrencyAsPrimaryCurrency: true,
           },

@@ -29,7 +29,7 @@ const casedContractMap = Object.keys(contractMap).reduce((acc, base) => {
 
 const mapStateToProps = (state, props) => {
   const { toAddress: propsToAddress } = props
-  const { confirmTransaction, metamask, gas } = state
+  const { confirmTransaction, dekusan, gas } = state
   const {
     ethTransactionAmount,
     ethTransactionFee,
@@ -58,7 +58,7 @@ const mapStateToProps = (state, props) => {
     assetImages,
     network,
     unapprovedTxs,
-  } = metamask
+  } = dekusan
   const assetImage = assetImages[txParamsToAddress]
 
   const {
@@ -79,7 +79,7 @@ const mapStateToProps = (state, props) => {
   const transactionStatus = transaction ? transaction.status : ''
 
   const currentNetworkUnapprovedTxs = R.filter(
-    ({ metamaskNetworkId }) => metamaskNetworkId === network,
+    ({ dekusanNetworkId }) => dekusanNetworkId === network,
     unapprovedTxs,
   )
   const unapprovedTxCount = valuesFor(currentNetworkUnapprovedTxs).length

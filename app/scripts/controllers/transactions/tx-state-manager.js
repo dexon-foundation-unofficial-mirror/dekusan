@@ -49,7 +49,7 @@ class TransactionStateManager extends EventEmitter {
       id: createId(),
       time: (new Date()).getTime(),
       status: 'unapproved',
-      metamaskNetworkId: this.getNetwork(),
+      dekusanNetworkId: this.getNetwork(),
       loadingDefaults: true,
     }, opts)
   }
@@ -60,7 +60,7 @@ class TransactionStateManager extends EventEmitter {
   getTxList () {
     const network = this.getNetwork()
     const fullTxList = this.getFullTxList()
-    return fullTxList.filter((txMeta) => txMeta.metamaskNetworkId === network)
+    return fullTxList.filter((txMeta) => txMeta.dekusanNetworkId === network)
   }
 
   /**
@@ -384,7 +384,7 @@ class TransactionStateManager extends EventEmitter {
     const network = this.getNetwork()
 
     // Filter out the ones from the current account and network
-    const otherAccountTxs = txs.filter((txMeta) => !(txMeta.txParams.from === address && txMeta.metamaskNetworkId === network))
+    const otherAccountTxs = txs.filter((txMeta) => !(txMeta.txParams.from === address && txMeta.dekusanNetworkId === network))
 
     // Update state
     this._saveTxList(otherAccountTxs)

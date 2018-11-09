@@ -16,7 +16,7 @@ describe('TransactionActivityLog container', () => {
   describe('mapStateToProps()', () => {
     it('should return the correct props', () => {
       const mockState = {
-        metamask: {
+        dekusan: {
           conversionRate: 280.45,
           nativeCurrency: 'ETH',
         },

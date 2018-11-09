@@ -1,8 +1,8 @@
 {
-  "metamask": {
+  "dekusan": {
     "isInitialized": true,
     "isUnlocked": true,
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
     "identities": {
       "0xac39b311dceb2a4b2f5d8461c1cdaf756f4f7ae9": {
         "address": "0xac39b311dceb2a4b2f5d8461c1cdaf756f4f7ae9",
@@ -30,12 +30,12 @@
           "data": "0x606060405234610000575b60da806100186000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630dbe671f14603c575b6000565b3460005760466088565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16815600a165627a7a72305820a99dfa6091771f518dd1ae8d1ee347bae3304dffd98fd24b1b99a8380bc60a750029",
           "gas": "0x1af75",
           "metamaskId": 7992944905869041,
-          "metamaskNetworkId": "3"
+          "dekusanNetworkId": "3"
         },
         "time": 1482279685589,
         "status": "unconfirmed",
         "gasMultiplier": 1,
-        "metamaskNetworkId": "3",
+        "dekusanNetworkId": "3",
         "gasLimitSpecified": true,
         "estimatedGas": "0x1af75",
         "simulationFails": true
@@ -81,12 +81,12 @@
           "data": "0x606060405234610000575b60da806100186000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630dbe671f14603c575b6000565b3460005760466088565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16815600a165627a7a72305820a99dfa6091771f518dd1ae8d1ee347bae3304dffd98fd24b1b99a8380bc60a750029",
           "gas": "0x1af75",
           "metamaskId": 7992944905869041,
-          "metamaskNetworkId": "3"
+          "dekusanNetworkId": "3"
         },
         "time": 1482279685589,
         "status": "unconfirmed",
         "gasMultiplier": 1,
-        "metamaskNetworkId": "3",
+        "dekusanNetworkId": "3",
         "gasLimitSpecified": true,
         "estimatedGas": "0x1af75",
         "simulationFails": true

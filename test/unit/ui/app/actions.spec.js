@@ -631,7 +631,7 @@ describe('Actions', () => {
     })
 
     it('', () => {
-      const store = mockStore({ metamask: devState })
+      const store = mockStore({ dekusan: devState })
 
       addNewAccountSpy = sinon.spy(background, 'addNewAccount')
 
@@ -892,7 +892,7 @@ describe('Actions', () => {
     })
 
     it('calls setSelectedAddress in background', () => {
-      const store = mockStore({ metamask: devState })
+      const store = mockStore({ dekusan: devState })
 
       store.dispatch(actions.setSelectedAddress('0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc'))
       assert(setSelectedAddressSpy.calledOnce)

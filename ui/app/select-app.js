@@ -11,9 +11,9 @@ const I18nProvider = require('./i18n-provider')
 function mapStateToProps (state) {
   return {
     autoAdd: autoAddToBetaUI(state),
-    isUnlocked: state.metamask.isUnlocked,
-    isMascara: state.metamask.isMascara,
-    shouldUseNewUi: true,
+    isUnlocked: state.dekusan.isUnlocked,
+    isMascara: state.dekusan.isMascara,
+    firstTime: Object.keys(state.dekusan.identities).length === 0,
   }
 }
 

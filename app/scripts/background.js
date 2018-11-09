@@ -82,7 +82,7 @@ setupMetamaskMeshMetrics()
  * @property {number} id - An internally unique tx identifier.
  * @property {number} time - Time the tx was first suggested, in unix epoch time (ms).
  * @property {string} status - The current transaction status (unapproved, signed, submitted, dropped, failed, rejected), as defined in `tx-state-manager.js`.
- * @property {string} metamaskNetworkId - The transaction's network ID, used for EIP-155 compliance.
+ * @property {string} dekusanNetworkId - The transaction's network ID, used for EIP-155 compliance.
  * @property {boolean} loadingDefaults - TODO: Document
  * @property {Object} txParams - The tx params as passed to the network provider.
  * @property {Object[]} history - A history of mutations to this TransactionMeta object.
@@ -97,7 +97,7 @@ setupMetamaskMeshMetrics()
  */
 
 /**
- * The data emitted from the DekuSanController.store EventEmitter, also used to initialize the DekuSanController. Available in UI on React state as state.metamask.
+ * The data emitted from the DekuSanController.store EventEmitter, also used to initialize the DekuSanController. Available in UI on React state as state.dekusan.
  * @typedef DekuSanState
  * @property {boolean} isInitialized - Whether the first vault has been created.
  * @property {boolean} isUnlocked - Whether the vault is currently decrypted and accounts are available for selection.

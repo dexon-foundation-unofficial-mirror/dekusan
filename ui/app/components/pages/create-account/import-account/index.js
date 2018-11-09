@@ -46,7 +46,7 @@ AccountImportSubview.prototype.render = function () {
           },
           onClick: () => {
             global.platform.openWindow({
-              url: 'https://metamask.zendesk.com/hc/en-us/articles/360015289932',
+              url: 'https://github.com/dexon-foundation/wiki/wiki',
             })
           },
         }, this.context.t('here')),

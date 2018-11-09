@@ -5,19 +5,19 @@ const { getEnvironmentType } = require('../../../app/scripts/lib/util')
 const { ENVIRONMENT_TYPE_POPUP } = require('../../../app/scripts/lib/enums')
 const { TESTNET } = require('../../../app/scripts/controllers/network/enums')
 
-module.exports = reduceMetamask
+module.exports = reduceDekusan
 
-function reduceMetamask (state, action) {
+function reduceDekusan (state, action) {
   let newState
 
   // clone + defaults
-  var metamaskState = extend({
+  var dekusanState = extend({
     isInitialized: false,
     isUnlocked: false,
     isAccountMenuOpen: false,
     isMascara: window.platform instanceof MetamascaraPlatform,
     isPopup: getEnvironmentType(window.location.href) === ENVIRONMENT_TYPE_POPUP,
-    rpcTarget: 'https://rawtestrpc.metamask.io/',
+    rpcTarget: 'https://api-testnet.dexon.org/v1/network/rpc/',
     identities: {},
     unapprovedTxs: {},
     noActiveNotices: true,
@@ -54,51 +54,51 @@ function reduceMetamask (state, action) {
     preferences: {
       useNativeCurrencyAsPrimaryCurrency: true,
     },
-  }, state.metamask)
+  }, state.dekusan)
 
   switch (action.type) {
 
     case actions.SHOW_ACCOUNTS_PAGE:
-      newState = extend(metamaskState, {
+      newState = extend(dekusanState, {
         isRevealingSeedWords: false,
       })
       delete newState.seedWords
       return newState
 
     case actions.SHOW_NOTICE:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         noActiveNotices: false,
         nextUnreadNotice: action.value,
       })
 
     case actions.CLEAR_NOTICES:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         noActiveNotices: true,
         nextUnreadNotice: undefined,
       })
 
     case actions.UPDATE_METAMASK_STATE:
-      return extend(metamaskState, action.value)
+      return extend(dekusanState, action.value)
 
     case actions.UNLOCK_METAMASK:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         isUnlocked: true,
         isInitialized: true,
         selectedAddress: action.value,
       })
 
     case actions.LOCK_METAMASK:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         isUnlocked: false,
       })
 
     case actions.SET_RPC_LIST:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         frequentRpcList: action.value,
       })
 
     case actions.SET_RPC_TARGET:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         provider: {
           type: 'rpc',
           rpcTarget: action.value,
@@ -106,7 +106,7 @@ function reduceMetamask (state, action) {
       })
 
     case actions.SET_PROVIDER_TYPE:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         provider: {
           type: action.value,
         },
@@ -114,39 +114,39 @@ function reduceMetamask (state, action) {
 
     case actions.COMPLETED_TX:
       var stringId = String(action.id)
-      newState = extend(metamaskState, {
+      newState = extend(dekusanState, {
         unapprovedTxs: {},
         unapprovedMsgs: {},
       })
-      for (const id in metamaskState.unapprovedTxs) {
+      for (const id in dekusanState.unapprovedTxs) {
         if (id !== stringId) {
-          newState.unapprovedTxs[id] = metamaskState.unapprovedTxs[id]
+          newState.unapprovedTxs[id] = dekusanState.unapprovedTxs[id]
         }
       }
-      for (const id in metamaskState.unapprovedMsgs) {
+      for (const id in dekusanState.unapprovedMsgs) {
         if (id !== stringId) {
-          newState.unapprovedMsgs[id] = metamaskState.unapprovedMsgs[id]
+          newState.unapprovedMsgs[id] = dekusanState.unapprovedMsgs[id]
         }
       }
       return newState
 
     case actions.EDIT_TX:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           editingTransactionId: action.value,
         },
       })
 
 
     case actions.SHOW_NEW_VAULT_SEED:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         isRevealingSeedWords: true,
         seedWords: action.value,
       })
 
     case actions.CLEAR_SEED_WORD_CACHE:
-      newState = extend(metamaskState, {
+      newState = extend(dekusanState, {
         isUnlocked: true,
         isInitialized: true,
         selectedAddress: action.value,
@@ -155,7 +155,7 @@ function reduceMetamask (state, action) {
       return newState
 
     case actions.SHOW_ACCOUNT_DETAIL:
-      newState = extend(metamaskState, {
+      newState = extend(dekusanState, {
         isUnlocked: true,
         isInitialized: true,
         selectedAddress: action.value,
@@ -164,7 +164,7 @@ function reduceMetamask (state, action) {
       return newState
 
     case actions.SET_SELECTED_TOKEN:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         selectedTokenAddress: action.value,
       })
 
@@ -172,119 +172,119 @@ function reduceMetamask (state, action) {
       const account = action.value.account
       const name = action.value.label
       const id = {}
-      id[account] = extend(metamaskState.identities[account], { name })
-      const identities = extend(metamaskState.identities, id)
-      return extend(metamaskState, { identities })
+      id[account] = extend(dekusanState.identities[account], { name })
+      const identities = extend(dekusanState.identities, id)
+      return extend(dekusanState, { identities })
 
     case actions.SET_CURRENT_FIAT:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         currentCurrency: action.value.currentCurrency,
         conversionRate: action.value.conversionRate,
         conversionDate: action.value.conversionDate,
       })
 
     case actions.UPDATE_TOKENS:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         tokens: action.newTokens,
       })
 
     // metamask.send
     case actions.UPDATE_GAS_LIMIT:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           gasLimit: action.value,
         },
       })
 
     case actions.UPDATE_GAS_PRICE:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           gasPrice: action.value,
         },
       })
 
     case actions.TOGGLE_ACCOUNT_MENU:
-      return extend(metamaskState, {
-        isAccountMenuOpen: !metamaskState.isAccountMenuOpen,
+      return extend(dekusanState, {
+        isAccountMenuOpen: !dekusanState.isAccountMenuOpen,
       })
 
     case actions.UPDATE_GAS_TOTAL:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           gasTotal: action.value,
         },
       })
 
     case actions.UPDATE_SEND_TOKEN_BALANCE:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           tokenBalance: action.value,
         },
       })
 
     case actions.UPDATE_SEND_HEX_DATA:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           data: action.value,
         },
       })
 
     case actions.UPDATE_SEND_FROM:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           from: action.value,
         },
       })
 
     case actions.UPDATE_SEND_TO:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           to: action.value.to,
           toNickname: action.value.nickname,
         },
       })
 
     case actions.UPDATE_SEND_AMOUNT:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           amount: action.value,
         },
       })
 
     case actions.UPDATE_SEND_MEMO:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           memo: action.value,
         },
       })
 
     case actions.UPDATE_MAX_MODE:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           maxModeOn: action.value,
         },
       })
 
     case actions.UPDATE_SEND:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
-          ...metamaskState.send,
+          ...dekusanState.send,
           ...action.value,
         },
       })
 
     case actions.CLEAR_SEND:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         send: {
           gasLimit: null,
           gasPrice: null,
@@ -304,7 +304,7 @@ function reduceMetamask (state, action) {
 
     case actions.UPDATE_TRANSACTION_PARAMS:
       const { id: txId, value } = action
-      let { selectedAddressTxList } = metamaskState
+      let { selectedAddressTxList } = dekusanState
       selectedAddressTxList = selectedAddressTxList.map(tx => {
         if (tx.id === txId) {
           tx.txParams = value
@@ -312,73 +312,73 @@ function reduceMetamask (state, action) {
         return tx
       })
 
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         selectedAddressTxList,
       })
 
     case actions.PAIR_UPDATE:
       const { value: { marketinfo: pairMarketInfo } } = action
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         tokenExchangeRates: {
-          ...metamaskState.tokenExchangeRates,
+          ...dekusanState.tokenExchangeRates,
           [pairMarketInfo.pair]: pairMarketInfo,
         },
       })
 
     case actions.SHAPESHIFT_SUBVIEW:
       const { value: { marketinfo: ssMarketInfo, coinOptions } } = action
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         tokenExchangeRates: {
-          ...metamaskState.tokenExchangeRates,
+          ...dekusanState.tokenExchangeRates,
           [ssMarketInfo.pair]: ssMarketInfo,
         },
         coinOptions,
       })
 
     case actions.SET_USE_BLOCKIE:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         useBlockie: action.value,
       })
 
     case actions.UPDATE_FEATURE_FLAGS:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         featureFlags: action.value,
       })
 
     case actions.UPDATE_NETWORK_ENDPOINT_TYPE:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         networkEndpointType: action.value,
       })
 
     case actions.CLOSE_WELCOME_SCREEN:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         welcomeScreenSeen: true,
       })
 
     case actions.SET_CURRENT_LOCALE:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         currentLocale: action.value,
       })
 
     case actions.SET_PENDING_TOKENS:
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         pendingTokens: { ...action.payload },
       })
 
     case actions.CLEAR_PENDING_TOKENS: {
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         pendingTokens: {},
       })
     }
 
     case actions.UPDATE_PREFERENCES: {
-      return extend(metamaskState, {
+      return extend(dekusanState, {
         preferences: { ...action.payload },
       })
     }
 
     default:
-      return metamaskState
+      return dekusanState
 
   }
 }

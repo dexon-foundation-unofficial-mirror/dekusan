@@ -19,7 +19,7 @@ MetamaskRoute.propTypes = {
 }
 
 const mapStateToProps = state => {
-  const { metamask: { isMascara } } = state
+  const { dekusan: { isMascara } } = state
   return {
     isMascara,
   }

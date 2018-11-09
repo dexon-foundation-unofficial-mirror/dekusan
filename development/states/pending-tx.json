@@ -1,9 +1,9 @@
 {
-  "metamask": {
+  "dekusan": {
     "isInitialized": true,
     "isUnlocked": true,
     "isMascara": false,
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
     "identities": {
       "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825": {
         "address": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -37,7 +37,7 @@
         "id": 3516145537630216,
         "time": 1512615655535,
         "status": "submitted",
-        "metamaskNetworkId": "1",
+        "dekusanNetworkId": "1",
         "txParams": {
           "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
           "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -55,7 +55,7 @@
             "id": 3516145537630216,
             "time": 1512615655535,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "dekusanNetworkId": "1",
             "txParams": {
               "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
               "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -193,7 +193,7 @@
         "id": 3516145537630211,
         "time": 1512613432658,
         "status": "confirmed",
-        "metamaskNetworkId": "1",
+        "dekusanNetworkId": "1",
         "txParams": {
           "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
           "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -211,7 +211,7 @@
             "id": 3516145537630211,
             "time": 1512613432658,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "dekusanNetworkId": "1",
             "txParams": {
               "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
               "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -357,7 +357,7 @@
         "id": 3516145537630210,
         "time": 1512612826136,
         "status": "confirmed",
-        "metamaskNetworkId": "1",
+        "dekusanNetworkId": "1",
         "txParams": {
           "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
           "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -375,7 +375,7 @@
             "id": 3516145537630210,
             "time": 1512612826136,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "dekusanNetworkId": "1",
             "txParams": {
               "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
               "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -521,7 +521,7 @@
         "id": 3516145537630209,
         "time": 1512612809252,
         "status": "failed",
-        "metamaskNetworkId": "1",
+        "dekusanNetworkId": "1",
         "txParams": {
           "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
           "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -539,7 +539,7 @@
             "id": 3516145537630209,
             "time": 1512612809252,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "dekusanNetworkId": "1",
             "txParams": {
               "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
               "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",

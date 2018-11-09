@@ -12,7 +12,7 @@ describe('Selectors', function () {
     let state
     beforeEach(function () {
       state = {
-        metamask: {
+        dekusan: {
           accounts: {
             '0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc': {
               'balance': '0x0',
@@ -65,7 +65,7 @@ describe('Selectors', function () {
 
     beforeEach(function () {
       missingTokenRate = {
-        metamask: {
+        dekusan: {
           'contractExchangeRates': {},
         },
       }

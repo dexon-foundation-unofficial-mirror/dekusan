@@ -225,7 +225,7 @@ ConnectHardwareForm.propTypes = {
 
 const mapStateToProps = state => {
   const {
-    metamask: { network, selectedAddress, identities = {} },
+    dekusan: { network, selectedAddress, identities = {} },
   } = state
   const accounts = getMetaMaskAccounts(state)
   const numberOfExistingAccounts = Object.keys(identities).length

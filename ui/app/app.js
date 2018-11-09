@@ -29,7 +29,6 @@ const AddTokenPage = require('./components/pages/add-token')
 const ConfirmAddTokenPage = require('./components/pages/confirm-add-token')
 const ConfirmAddSuggestedTokenPage = require('./components/pages/confirm-add-suggested-token')
 const CreateAccountPage = require('./components/pages/create-account')
-const NoticeScreen = require('./components/pages/notice')
 
 const Loading = require('./components/loading-screen')
 const NetworkDropdown = require('./components/dropdowns/network-dropdown')
@@ -61,7 +60,6 @@ const {
   SEND_ROUTE,
   CONFIRM_TRANSACTION_ROUTE,
   INITIALIZE_ROUTE,
-  NOTICE_ROUTE,
 } = require('./routes')
 
 class App extends Component {
@@ -83,7 +81,6 @@ class App extends Component {
         h(Initialized, { path: RESTORE_VAULT_ROUTE, exact, component: RestoreVaultPage }),
         h(Authenticated, { path: REVEAL_SEED_ROUTE, exact, component: RevealSeedConfirmation }),
         h(Authenticated, { path: SETTINGS_ROUTE, component: Settings }),
-        h(Authenticated, { path: NOTICE_ROUTE, exact, component: NoticeScreen }),
         h(Authenticated, {
           path: `${CONFIRM_TRANSACTION_ROUTE}/:id?`,
           component: ConfirmTransaction,
@@ -274,7 +271,7 @@ App.propTypes = {
 }
 
 function mapStateToProps (state) {
-  const { appState, metamask } = state
+  const { appState, dekusan } = state
   const {
     networkDropdownOpen,
     sidebar,
@@ -299,7 +296,7 @@ function mapStateToProps (state) {
     unapprovedMsgCount,
     unapprovedPersonalMsgCount,
     unapprovedTypedMessagesCount,
-  } = metamask
+  } = dekusan
   const selected = address || Object.keys(accounts)[0]
 
   return {
@@ -312,33 +309,34 @@ function mapStateToProps (state) {
     loadingMessage,
     noActiveNotices,
     isInitialized,
-    isUnlocked: state.metamask.isUnlocked,
-    selectedAddress: state.metamask.selectedAddress,
+    isUnlocked: state.dekusan.isUnlocked,
+    selectedAddress: state.dekusan.selectedAddress,
     currentView: state.appState.currentView,
     activeAddress: state.appState.activeAddress,
     transForward: state.appState.transForward,
-    isMascara: state.metamask.isMascara,
+    isMascara: state.dekusan.isMascara,
     isOnboarding: Boolean(!noActiveNotices || seedWords || !isInitialized),
-    isPopup: state.metamask.isPopup,
-    seedWords: state.metamask.seedWords,
     submittedPendingTransactions: submittedPendingTransactionsSelector(state),
+    isPopup: state.dekusan.isPopup,
+    seedWords: state.dekusan.seedWords,
     unapprovedTxs,
-    unapprovedMsgs: state.metamask.unapprovedMsgs,
+    unapprovedMsgs: state.dekusan.unapprovedMsgs,
     unapprovedMsgCount,
     unapprovedPersonalMsgCount,
     unapprovedTypedMessagesCount,
     menuOpen: state.appState.menuOpen,
-    network: state.metamask.network,
-    provider: state.metamask.provider,
+    network: state.dekusan.network,
+    provider: state.dekusan.provider,
     forgottenPassword: state.appState.forgottenPassword,
     nextUnreadNotice,
     lostAccounts,
-    frequentRpcListDetail: state.metamask.frequentRpcListDetail || [],
-    currentCurrency: state.metamask.currentCurrency,
+    frequentRpcListDetail: state.dekusan.frequentRpcListDetail || [],
+    currentCurrency: state.dekusan.currentCurrency,
+    frequentRpcList: state.dekusan.frequentRpcList || [],
     isMouseUser: state.appState.isMouseUser,
-    isRevealingSeedWords: state.metamask.isRevealingSeedWords,
+    isRevealingSeedWords: state.dekusan.isRevealingSeedWords,
     Qr: state.appState.Qr,
-    welcomeScreenSeen: state.metamask.welcomeScreenSeen,
+    welcomeScreenSeen: state.dekusan.welcomeScreenSeen,
 
     // state needed to get account dropdown temporarily rendering from app bar
     identities,

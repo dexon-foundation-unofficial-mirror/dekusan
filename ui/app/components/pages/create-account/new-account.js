@@ -73,7 +73,7 @@ NewAccountCreateForm.propTypes = {
 }
 
 const mapStateToProps = state => {
-  const { metamask: { network, selectedAddress, identities = {} } } = state
+  const { dekusan: { network, selectedAddress, identities = {} } } = state
   const numberOfExistingAccounts = Object.keys(identities).length
 
   return {

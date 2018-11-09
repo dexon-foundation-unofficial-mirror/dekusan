@@ -7,7 +7,7 @@ import Identicon from '../identicon.component'
 
 describe('Identicon', () => {
   const state = {
-    metamask: {
+    dekusan: {
       useBlockie: false,
     },
   }

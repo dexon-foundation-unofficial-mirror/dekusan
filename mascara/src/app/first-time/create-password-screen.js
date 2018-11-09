@@ -195,8 +195,8 @@ class CreatePasswordScreen extends Component {
   }
 }
 
-const mapStateToProps = ({ metamask, appState }) => {
-  const { isInitialized, isUnlocked, isMascara, noActiveNotices } = metamask
+const mapStateToProps = ({ dekusan, appState }) => {
+  const { isInitialized, isUnlocked, isMascara, noActiveNotices } = dekusan
   const { isLoading } = appState
 
   return {

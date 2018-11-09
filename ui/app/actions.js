@@ -646,7 +646,7 @@ function navigateToNewAccountScreen () {
 function addNewAccount () {
   log.debug(`background.addNewAccount`)
   return (dispatch, getState) => {
-    const oldIdentities = getState().metamask.identities
+    const oldIdentities = getState().dekusan.identities
     dispatch(actions.showLoadingIndication())
     return new Promise((resolve, reject) => {
       background.addNewAccount((err, { identities: newIdentities}) => {

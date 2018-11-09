@@ -278,8 +278,8 @@ describe('DekuSanController', function () {
     })
 
     it('changes metamask controller selected address', function () {
-      const metamaskState = metamaskController.getState()
-      assert.equal(metamaskState.selectedAddress, address)
+      const dekusanState = metamaskController.getState()
+      assert.equal(dekusanState.selectedAddress, address)
     })
   })
 
@@ -538,10 +538,10 @@ describe('DekuSanController', function () {
       getNetworkstub.returns(42)
 
       metamaskController.txController.txStateManager._saveTxList([
-        createTxMeta({ id: 1, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {from: '0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc'} }),
-        createTxMeta({ id: 1, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {from: '0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc'} }),
-        createTxMeta({ id: 2, status: 'rejected', metamaskNetworkId: 32 }),
-        createTxMeta({ id: 3, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams: {from: '0xB09d8505E1F4EF1CeA089D47094f5DD3464083d4'} }),
+        createTxMeta({ id: 1, status: 'unapproved', dekusanNetworkId: currentNetworkId, txParams: {from: '0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc'} }),
+        createTxMeta({ id: 1, status: 'unapproved', dekusanNetworkId: currentNetworkId, txParams: {from: '0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc'} }),
+        createTxMeta({ id: 2, status: 'rejected', dekusanNetworkId: 32 }),
+        createTxMeta({ id: 3, status: 'submitted', dekusanNetworkId: currentNetworkId, txParams: {from: '0xB09d8505E1F4EF1CeA089D47094f5DD3464083d4'} }),
       ])
     })
 

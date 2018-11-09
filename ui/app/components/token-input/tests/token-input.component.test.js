@@ -25,7 +25,7 @@ describe('TokenInput Component', () => {
 
     it('should render properly with a token', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -59,7 +59,7 @@ describe('TokenInput Component', () => {
 
     it('should render properly with a token and selectedTokenExchangeRate', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -93,7 +93,7 @@ describe('TokenInput Component', () => {
 
     it('should render properly with a token value for ETH', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -127,7 +127,7 @@ describe('TokenInput Component', () => {
 
     it('should render properly with a token value for fiat', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -172,7 +172,7 @@ describe('TokenInput Component', () => {
 
     it('should call onChange and onBlur on input changes with the hex value for ETH', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -220,7 +220,7 @@ describe('TokenInput Component', () => {
 
     it('should call onChange and onBlur on input changes with the hex value for fiat', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -269,7 +269,7 @@ describe('TokenInput Component', () => {
 
     it('should change the state and pass in a new decimalValue when props.value changes', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },

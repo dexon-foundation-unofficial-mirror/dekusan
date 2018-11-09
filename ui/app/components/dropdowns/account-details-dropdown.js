@@ -17,8 +17,8 @@ module.exports = connect(mapStateToProps, mapDispatchToProps)(AccountDetailsDrop
 function mapStateToProps (state) {
   return {
     selectedIdentity: getSelectedIdentity(state),
-    network: state.metamask.network,
-    keyrings: state.metamask.keyrings,
+    network: state.dekusan.network,
+    keyrings: state.dekusan.keyrings,
   }
 }
 
@@ -63,7 +63,7 @@ AccountDetailsDropdown.prototype.render = function () {
     return kr.accounts.includes(address)
   })
 
-  const isRemovable = keyring.type !== 'HD Key Tree'
+  const isRemovable = keyring && keyring.type !== 'HD Key Tree'
 
   return h(Menu, { className: 'account-details-dropdown', isShowing: true }, [
     h(CloseArea, {

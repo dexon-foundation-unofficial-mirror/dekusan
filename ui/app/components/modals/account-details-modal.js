@@ -14,9 +14,9 @@ import Button from '../button'
 
 function mapStateToProps (state) {
   return {
-    network: state.metamask.network,
+    network: state.dekusan.network,
     selectedIdentity: getSelectedIdentity(state),
-    keyrings: state.metamask.keyrings,
+    keyrings: state.dekusan.keyrings,
   }
 }
 

@@ -3,7 +3,7 @@ import CurrencyInput from './currency-input.component'
 import { DEX } from '../../constants/common'
 
 const mapStateToProps = state => {
-  const { metamask: { nativeCurrency, currentCurrency, conversionRate } } = state
+  const { dekusan: { nativeCurrency, currentCurrency, conversionRate } } = state
 
   return {
     nativeCurrency,

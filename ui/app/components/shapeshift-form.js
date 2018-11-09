@@ -16,7 +16,7 @@ function mapStateToProps (state) {
     coinOptions,
     tokenExchangeRates,
     selectedAddress,
-  } = state.metamask
+  } = state.dekusan
   const { warning } = state.appState
 
   return {

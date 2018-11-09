@@ -8,7 +8,6 @@ const actions = require('../../../../actions')
 const FileInput = require('react-simple-file-input').default
 const { DEFAULT_ROUTE } = require('../../../../routes')
 const { getMetaMaskAccounts } = require('../../../../selectors')
-const HELP_LINK = 'https://support.metamask.io/kb/article/7-importing-accounts'
 import Button from '../../../button'
 
 class JsonImportSubview extends Component {

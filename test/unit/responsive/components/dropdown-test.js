@@ -9,7 +9,7 @@ const { createMockStore } = require('redux-test-utils')
 const { mountWithStore } = require('../../../lib/render-helpers')
 
 const mockState = {
-  metamask: {
+  dekusan: {
   },
 }
 

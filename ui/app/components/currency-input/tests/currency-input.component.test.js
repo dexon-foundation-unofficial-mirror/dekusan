@@ -21,7 +21,7 @@ describe('CurrencyInput Component', () => {
 
     it('should render properly with a suffix', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           nativeCurrency: 'ETH',
           currentCurrency: 'usd',
           conversionRate: 231.06,
@@ -46,7 +46,7 @@ describe('CurrencyInput Component', () => {
 
     it('should render properly with an ETH value', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           nativeCurrency: 'ETH',
           currentCurrency: 'usd',
           conversionRate: 231.06,
@@ -78,7 +78,7 @@ describe('CurrencyInput Component', () => {
 
     it('should render properly with a fiat value', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           nativeCurrency: 'ETH',
           currentCurrency: 'usd',
           conversionRate: 231.06,
@@ -121,7 +121,7 @@ describe('CurrencyInput Component', () => {
 
     it('should call onChange and onBlur on input changes with the hex value for ETH', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           nativeCurrency: 'ETH',
           currentCurrency: 'usd',
           conversionRate: 231.06,
@@ -167,7 +167,7 @@ describe('CurrencyInput Component', () => {
 
     it('should call onChange and onBlur on input changes with the hex value for fiat', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           nativeCurrency: 'ETH',
           currentCurrency: 'usd',
           conversionRate: 231.06,
@@ -214,7 +214,7 @@ describe('CurrencyInput Component', () => {
 
     it('should change the state and pass in a new decimalValue when props.value changes', () => {
       const mockStore = {
-        metamask: {
+        dekusan: {
           nativeCurrency: 'ETH',
           currentCurrency: 'usd',
           conversionRate: 231.06,

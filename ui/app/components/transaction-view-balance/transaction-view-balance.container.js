@@ -13,7 +13,7 @@ import { showModal } from '../../actions'
 
 const mapStateToProps = state => {
   const selectedAddress = getSelectedAddress(state)
-  const { metamask: { network } } = state
+  const { dekusan: { network } } = state
   const accounts = getMetaMaskAccounts(state)
   const account = accounts[selectedAddress]
   const { balance } = account

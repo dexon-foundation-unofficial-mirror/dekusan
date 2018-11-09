@@ -56,9 +56,9 @@ describe('Transaction Controller', function () {
   describe('#getUnapprovedTxCount', function () {
     it('should return the number of unapproved txs', function () {
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 2, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 3, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 1, status: 'unapproved', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 2, status: 'unapproved', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 3, status: 'unapproved', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
       ])
       const unapprovedTxCount = txController.getUnapprovedTxCount()
       assert.equal(unapprovedTxCount, 3, 'should be 3')
@@ -68,9 +68,9 @@ describe('Transaction Controller', function () {
   describe('#getPendingTxCount', function () {
     it('should return the number of pending txs', function () {
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 2, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 3, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 1, status: 'submitted', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 2, status: 'submitted', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 3, status: 'submitted', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
       ])
       const pendingTxCount = txController.getPendingTxCount()
       assert.equal(pendingTxCount, 3, 'should be 3')
@@ -86,15 +86,15 @@ describe('Transaction Controller', function () {
         'to': '0xc684832530fcbddae4b4230a47e991ddcec2831d',
       }
       txController.txStateManager._saveTxList([
-        {id: 0, status: 'confirmed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 1, status: 'confirmed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 2, status: 'confirmed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 3, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 4, status: 'rejected', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 5, status: 'approved', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 6, status: 'signed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 7, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 8, status: 'failed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 0, status: 'confirmed', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 1, status: 'confirmed', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 2, status: 'confirmed', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 3, status: 'unapproved', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 4, status: 'rejected', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 5, status: 'approved', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 6, status: 'signed', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 7, status: 'submitted', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 8, status: 'failed', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
       ])
     })
 
@@ -114,7 +114,7 @@ describe('Transaction Controller', function () {
       txMeta = {
         status: 'unapproved',
         id: 1,
-        metamaskNetworkId: currentNetworkId,
+        dekusanNetworkId: currentNetworkId,
         txParams,
         history: [{}],
       }
@@ -178,7 +178,7 @@ describe('Transaction Controller', function () {
       .then((txMeta) => {
         assert(('id' in txMeta), 'should have a id')
         assert(('time' in txMeta), 'should have a time stamp')
-        assert(('metamaskNetworkId' in txMeta), 'should have a metamaskNetworkId')
+        assert(('dekusanNetworkId' in txMeta), 'should have a dekusanNetworkId')
         assert(('txParams' in txMeta), 'should have a txParams')
         assert(('history' in txMeta), 'should have a history')
 
@@ -254,7 +254,7 @@ describe('Transaction Controller', function () {
       const txMeta = {
         id: '1',
         status: 'unapproved',
-        metamaskNetworkId: currentNetworkId,
+        dekusanNetworkId: currentNetworkId,
         txParams: {},
       }
 
@@ -285,7 +285,7 @@ describe('Transaction Controller', function () {
       txMeta = {
         id: '1',
         status: 'unapproved',
-        metamaskNetworkId: currentNetworkId,
+        dekusanNetworkId: currentNetworkId,
         txParams: {
           nonce: originalValue,
           gas: originalValue,
@@ -327,7 +327,7 @@ describe('Transaction Controller', function () {
 
   describe('#sign replay-protected tx', function () {
     it('prepares a tx with the chainId set', function (done) {
-      txController.addTx({ id: '1', status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {} }, noop)
+      txController.addTx({ id: '1', status: 'unapproved', dekusanNetworkId: currentNetworkId, txParams: {} }, noop)
       txController.signTransaction('1').then((rawTx) => {
         const ethTx = new EthTx(ethUtil.toBuffer(rawTx))
         assert.equal(ethTx.getChainId(), currentNetworkId)
@@ -349,7 +349,7 @@ describe('Transaction Controller', function () {
           gas: '0x7b0d',
           nonce: '0x4b',
         },
-        metamaskNetworkId: currentNetworkId,
+        dekusanNetworkId: currentNetworkId,
       }
     })
     it('should update and approve transactions', async () => {
@@ -371,13 +371,13 @@ describe('Transaction Controller', function () {
   describe('#cancelTransaction', function () {
     beforeEach(function () {
       txController.txStateManager._saveTxList([
-        { id: 0, status: 'unapproved', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 1, status: 'rejected', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 2, status: 'approved', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 3, status: 'signed', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 4, status: 'submitted', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 5, status: 'confirmed', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 6, status: 'failed', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
+        { id: 0, status: 'unapproved', txParams: {}, dekusanNetworkId: currentNetworkId, history: [{}] },
+        { id: 1, status: 'rejected', txParams: {}, dekusanNetworkId: currentNetworkId, history: [{}] },
+        { id: 2, status: 'approved', txParams: {}, dekusanNetworkId: currentNetworkId, history: [{}] },
+        { id: 3, status: 'signed', txParams: {}, dekusanNetworkId: currentNetworkId, history: [{}] },
+        { id: 4, status: 'submitted', txParams: {}, dekusanNetworkId: currentNetworkId, history: [{}] },
+        { id: 5, status: 'confirmed', txParams: {}, dekusanNetworkId: currentNetworkId, history: [{}] },
+        { id: 6, status: 'failed', txParams: {}, dekusanNetworkId: currentNetworkId, history: [{}] },
       ])
     })
 
@@ -413,7 +413,7 @@ describe('Transaction Controller', function () {
         gasPrice: '0xa',
       }
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
+        { id: 1, status: 'submitted', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
       ])
 
       expectedTxParams = Object.assign({}, txParams, { gasPrice: '0xb'})
@@ -467,7 +467,7 @@ describe('Transaction Controller', function () {
         id: 1,
         status: 'unapproved',
         txParams: {},
-        metamaskNetworkId: currentNetworkId,
+        dekusanNetworkId: currentNetworkId,
       }
       providerResultStub.eth_sendRawTransaction = hash
     })
@@ -492,7 +492,7 @@ describe('Transaction Controller', function () {
         data: '0x0',
       }
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
+        { id: 1, status: 'submitted', dekusanNetworkId: currentNetworkId, txParams, history: [{}] },
       ])
       txController.retryTransaction(1)
       .then((txMeta) => {
@@ -511,13 +511,13 @@ describe('Transaction Controller', function () {
   describe('#_markNonceDuplicatesDropped', function () {
     it('should mark all nonce duplicates as dropped without marking the confirmed transaction as dropped', function () {
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'confirmed', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 2, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 3, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 4, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 5, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 6, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 7, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 1, status: 'confirmed', dekusanNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 2, status: 'submitted', dekusanNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 3, status: 'submitted', dekusanNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 4, status: 'submitted', dekusanNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 5, status: 'submitted', dekusanNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 6, status: 'submitted', dekusanNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 7, status: 'submitted', dekusanNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
       ])
       txController._markNonceDuplicatesDropped(1)
       const confirmedTx = txController.txStateManager.getTx(1)
@@ -531,13 +531,13 @@ describe('Transaction Controller', function () {
   describe('#getPendingTransactions', function () {
     beforeEach(function () {
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {} },
-        { id: 2, status: 'rejected', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 3, status: 'approved', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 4, status: 'signed', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 5, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 6, status: 'confirmed', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 7, status: 'failed', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 1, status: 'unapproved', dekusanNetworkId: currentNetworkId, txParams: {} },
+        { id: 2, status: 'rejected', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 3, status: 'approved', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 4, status: 'signed', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 5, status: 'submitted', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 6, status: 'confirmed', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 7, status: 'failed', dekusanNetworkId: currentNetworkId, txParams: {}, history: [{}] },
       ])
     })
     it('should show only submitted and approved transactions as pending transasction', function () {

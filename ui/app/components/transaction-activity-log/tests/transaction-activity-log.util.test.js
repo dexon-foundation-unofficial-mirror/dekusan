@@ -151,7 +151,7 @@ describe('getActivities', () => {
         {
           id: 5559712943815343,
           loadingDefaults: true,
-          metamaskNetworkId: '3',
+          dekusanNetworkId: '3',
           status: 'unapproved',
           time: 1535507561452,
           txParams: {

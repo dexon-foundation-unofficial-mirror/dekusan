@@ -128,7 +128,7 @@ describe('send selectors', () => {
 
     it('should return the eth conversion rate if no token is selected', () => {
       const editedMockState = {
-        metamask: Object.assign({}, mockState.metamask, { selectedTokenAddress: null }),
+        dekusan: Object.assign({}, mockstate.dekusan, { selectedTokenAddress: null }),
       }
       assert.equal(
         getAmountConversionRate(editedMockState),
@@ -314,7 +314,7 @@ describe('send selectors', () => {
         symbol: 'JKL',
       }
       const editedMockState = {
-        metamask: Object.assign({}, mockState.metamask, {
+        dekusan: Object.assign({}, mockstate.dekusan, {
           selectedTokenAddress: null,
           send: {
             token: mockSendToken,
@@ -337,9 +337,9 @@ describe('send selectors', () => {
     })
 
     it('should return null if no token is selected', () => {
-      const modifiedMetamaskState = Object.assign({}, mockState.metamask, { selectedTokenAddress: false })
+      const modifiedMetamaskState = Object.assign({}, mockstate.dekusan, { selectedTokenAddress: false })
       assert.equal(
-        getSelectedTokenContract(Object.assign({}, mockState, { metamask: modifiedMetamaskState })),
+        getSelectedTokenContract(Object.assign({}, mockState, { dekusan: modifiedMetamaskState })),
         null
       )
     })
@@ -421,7 +421,7 @@ describe('send selectors', () => {
 
     it('should get the selected account balance if the send.from does not exist', () => {
       const editedMockState = {
-        metamask: Object.assign({}, mockState.metamask, {
+        dekusan: Object.assign({}, mockstate.dekusan, {
           send: {
             from: null,
           },
@@ -447,7 +447,7 @@ describe('send selectors', () => {
 
     it('should return the current account with send ether info if send.from does not exist', () => {
       const editedMockState = {
-        metamask: Object.assign({}, mockState.metamask, {
+        dekusan: Object.assign({}, mockstate.dekusan, {
           send: {
             from: null,
           },
@@ -554,13 +554,13 @@ describe('send selectors', () => {
             time: 1487363153561,
             status: 'unapproved',
             gasMultiplier: 1,
-            metamaskNetworkId: '3',
+            dekusanNetworkId: '3',
             txParams: {
               from: '0xc5b8dbac4c1d3f152cdeb400e2313f309c410acb',
               to: '0x18a3462427bcc9133bb46e88bcbe39cd7ef0e761',
               value: '0xde0b6b3a7640000',
               metamaskId: 4768706228115573,
-              metamaskNetworkId: '3',
+              dekusanNetworkId: '3',
               gas: '0x5209',
             },
             gasLimitSpecified: false,
@@ -599,8 +599,8 @@ describe('send selectors', () => {
     })
 
     it('should return all transactions if no token is selected', () => {
-      const modifiedMetamaskState = Object.assign({}, mockState.metamask, { selectedTokenAddress: false })
-      const modifiedState = Object.assign({}, mockState, { metamask: modifiedMetamaskState })
+      const modifiedMetamaskState = Object.assign({}, mockstate.dekusan, { selectedTokenAddress: false })
+      const modifiedState = Object.assign({}, mockState, { dekusan: modifiedMetamaskState })
       assert.deepEqual(
         transactionsSelector(modifiedState),
         [
@@ -649,8 +649,8 @@ describe('send selectors', () => {
     })
 
     it('should return shapeshift transactions if current network is 1', () => {
-      const modifiedMetamaskState = Object.assign({}, mockState.metamask, { selectedTokenAddress: false, network: '1' })
-      const modifiedState = Object.assign({}, mockState, { metamask: modifiedMetamaskState })
+      const modifiedMetamaskState = Object.assign({}, mockstate.dekusan, { selectedTokenAddress: false, network: '1' })
+      const modifiedState = Object.assign({}, mockState, { dekusan: modifiedMetamaskState })
       assert.deepEqual(
         transactionsSelector(modifiedState),
         [

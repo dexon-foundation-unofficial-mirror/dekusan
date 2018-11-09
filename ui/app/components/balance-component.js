@@ -14,8 +14,8 @@ module.exports = connect(mapStateToProps)(BalanceComponent)
 
 function mapStateToProps (state) {
   const accounts = getMetaMaskAccounts(state)
-  const network = state.metamask.network
-  const selectedAddress = state.metamask.selectedAddress || Object.keys(accounts)[0]
+  const network = state.dekusan.network
+  const selectedAddress = state.dekusan.selectedAddress || Object.keys(accounts)[0]
   const account = accounts[selectedAddress]
 
   return {

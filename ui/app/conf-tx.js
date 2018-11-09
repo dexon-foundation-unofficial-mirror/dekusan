@@ -20,34 +20,34 @@ module.exports = compose(
 )(ConfirmTxScreen)
 
 function mapStateToProps (state) {
-  const { metamask } = state
+  const { dekusan } = state
   const {
     unapprovedMsgCount,
     unapprovedPersonalMsgCount,
     unapprovedTypedMessagesCount,
-  } = metamask
+  } = dekusan
 
   return {
-    identities: state.metamask.identities,
+    identities: state.dekusan.identities,
     accounts: getMetaMaskAccounts(state),
-    selectedAddress: state.metamask.selectedAddress,
-    unapprovedTxs: state.metamask.unapprovedTxs,
-    unapprovedMsgs: state.metamask.unapprovedMsgs,
-    unapprovedPersonalMsgs: state.metamask.unapprovedPersonalMsgs,
-    unapprovedTypedMessages: state.metamask.unapprovedTypedMessages,
+    selectedAddress: state.dekusan.selectedAddress,
+    unapprovedTxs: state.dekusan.unapprovedTxs,
+    unapprovedMsgs: state.dekusan.unapprovedMsgs,
+    unapprovedPersonalMsgs: state.dekusan.unapprovedPersonalMsgs,
+    unapprovedTypedMessages: state.dekusan.unapprovedTypedMessages,
     index: state.appState.currentView.context,
     warning: state.appState.warning,
-    network: state.metamask.network,
-    provider: state.metamask.provider,
-    conversionRate: state.metamask.conversionRate,
-    currentCurrency: state.metamask.currentCurrency,
-    blockGasLimit: state.metamask.currentBlockGasLimit,
-    computedBalances: state.metamask.computedBalances,
+    network: state.dekusan.network,
+    provider: state.dekusan.provider,
+    conversionRate: state.dekusan.conversionRate,
+    currentCurrency: state.dekusan.currentCurrency,
+    blockGasLimit: state.dekusan.currentBlockGasLimit,
+    computedBalances: state.dekusan.computedBalances,
     unapprovedMsgCount,
     unapprovedPersonalMsgCount,
     unapprovedTypedMessagesCount,
-    send: state.metamask.send,
-    selectedAddressTxList: state.metamask.selectedAddressTxList,
+    send: state.dekusan.send,
+    selectedAddressTxList: state.dekusan.selectedAddressTxList,
   }
 }
 

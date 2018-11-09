@@ -38,10 +38,10 @@ function AccountMenu () { Component.call(this) }
 
 function mapStateToProps (state) {
   return {
-    selectedAddress: state.metamask.selectedAddress,
-    isAccountMenuOpen: state.metamask.isAccountMenuOpen,
-    keyrings: state.metamask.keyrings,
-    identities: state.metamask.identities,
+    selectedAddress: state.dekusan.selectedAddress,
+    isAccountMenuOpen: state.dekusan.isAccountMenuOpen,
+    keyrings: state.dekusan.keyrings,
+    identities: state.dekusan.identities,
     accounts: getMetaMaskAccounts(state),
   }
 }

@@ -7,7 +7,7 @@ const AddTokenScreen = require('../../../old-ui/app/add-token')
 describe('Add Token Screen', function () {
   let addTokenComponent, store, component
   const mockState = {
-    metamask: {
+    dekusan: {
       identities: {
         '0x7d3517b0d011698406d6e0aed8453f0be2697926': {
           'address': '0x7d3517b0d011698406d6e0aed8453f0be2697926',

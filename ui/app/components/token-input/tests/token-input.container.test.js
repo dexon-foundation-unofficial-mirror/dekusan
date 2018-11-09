@@ -17,7 +17,7 @@ describe('TokenInput container', () => {
   describe('mapStateToProps()', () => {
     it('should return the correct props when send is empty', () => {
       const mockState = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           tokens: [
             {
@@ -45,7 +45,7 @@ describe('TokenInput container', () => {
 
     it('should return the correct props when selectedTokenAddress is not found and send is populated', () => {
       const mockState = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           tokens: [
             {
@@ -73,7 +73,7 @@ describe('TokenInput container', () => {
 
     it('should return the correct props when contractExchangeRates is populated', () => {
       const mockState = {
-        metamask: {
+        dekusan: {
           currentCurrency: 'usd',
           tokens: [
             {

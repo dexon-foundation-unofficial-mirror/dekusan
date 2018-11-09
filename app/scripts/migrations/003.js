@@ -1,6 +1,6 @@
 const version = 3
 const oldTestRpc = 'https://rawtestrpc.metamask.io/'
-const newTestRpc = 'https://testrpc.metamask.io/'
+const newTestRpc = 'https://api-testnet.dexon.org/v1/network/rpc/'
 
 const clone = require('clone')
 

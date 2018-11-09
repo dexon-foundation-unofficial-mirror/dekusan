@@ -39,12 +39,12 @@ function transformState (state) {
 
       const confirmedTxs = txList.filter((tx) => tx.status === 'confirmed')
       .filter((tx) => tx.txParams.from === txMeta.txParams.from)
-      .filter((tx) => tx.metamaskNetworkId.from === txMeta.metamaskNetworkId.from)
+      .filter((tx) => tx.dekusanNetworkId.from === txMeta.dekusanNetworkId.from)
       const highestConfirmedNonce = getHighestNonce(confirmedTxs)
 
       const pendingTxs = txList.filter((tx) => tx.status === 'submitted')
       .filter((tx) => tx.txParams.from === txMeta.txParams.from)
-      .filter((tx) => tx.metamaskNetworkId.from === txMeta.metamaskNetworkId.from)
+      .filter((tx) => tx.dekusanNetworkId.from === txMeta.dekusanNetworkId.from)
       const highestContinuousNonce = getHighestContinuousFrom(pendingTxs, highestConfirmedNonce)
 
       const maxNonce = Math.max(highestContinuousNonce, highestConfirmedNonce)

@@ -41,21 +41,21 @@ const selectors = {
 module.exports = selectors
 
 function getSelectedAddress (state) {
-  const selectedAddress = state.metamask.selectedAddress || Object.keys(getMetaMaskAccounts(state))[0]
+  const selectedAddress = state.dekusan.selectedAddress || Object.keys(getMetaMaskAccounts(state))[0]
 
   return selectedAddress
 }
 
 function getSelectedIdentity (state) {
   const selectedAddress = getSelectedAddress(state)
-  const identities = state.metamask.identities
+  const identities = state.dekusan.identities
 
   return identities[selectedAddress]
 }
 
 function getMetaMaskAccounts (state) {
-  const currentAccounts = state.metamask.accounts
-  const cachedBalances = state.metamask.cachedBalances
+  const currentAccounts = state.dekusan.accounts
+  const cachedBalances = state.dekusan.cachedBalances
   const selectedAccounts = {}
 
   Object.keys(currentAccounts).forEach(accountID => {
@@ -80,49 +80,49 @@ function getSelectedAccount (state) {
 }
 
 function getSelectedToken (state) {
-  const tokens = state.metamask.tokens || []
-  const selectedTokenAddress = state.metamask.selectedTokenAddress
+  const tokens = state.dekusan.tokens || []
+  const selectedTokenAddress = state.dekusan.selectedTokenAddress
   const selectedToken = tokens.filter(({ address }) => address === selectedTokenAddress)[0]
-  const sendToken = state.metamask.send.token
+  const sendToken = state.dekusan.send.token
 
   return selectedToken || sendToken || null
 }
 
 function getSelectedTokenExchangeRate (state) {
-  const contractExchangeRates = state.metamask.contractExchangeRates
+  const contractExchangeRates = state.dekusan.contractExchangeRates
   const selectedToken = getSelectedToken(state) || {}
   const { address } = selectedToken
   return contractExchangeRates[address] || 0
 }
 
 function getSelectedTokenAssetImage (state) {
-  const assetImages = state.metamask.assetImages || {}
+  const assetImages = state.dekusan.assetImages || {}
   const selectedToken = getSelectedToken(state) || {}
   const { address } = selectedToken
   return assetImages[address]
 }
 
 function getAssetImages (state) {
-  const assetImages = state.metamask.assetImages || {}
+  const assetImages = state.dekusan.assetImages || {}
   return assetImages
 }
 
 function getTokenExchangeRate (state, address) {
-  const contractExchangeRates = state.metamask.contractExchangeRates
+  const contractExchangeRates = state.dekusan.contractExchangeRates
   return contractExchangeRates[address] || 0
 }
 
 function conversionRateSelector (state) {
-  return state.metamask.conversionRate
+  return state.dekusan.conversionRate
 }
 
 function getAddressBook (state) {
-  return state.metamask.addressBook
+  return state.dekusan.addressBook
 }
 
 function accountsWithSendEtherInfoSelector (state) {
   const accounts = getMetaMaskAccounts(state)
-  const { identities } = state.metamask
+  const { identities } = state.dekusan
 
   const accountsWithSendEtherInfo = Object.entries(accounts).map(([key, account]) => {
     return Object.assign({}, account, identities[key])
@@ -147,27 +147,27 @@ function getGasIsLoading (state) {
 }
 
 function getForceGasMin (state) {
-  return state.metamask.send.forceGasMin
+  return state.dekusan.send.forceGasMin
 }
 
 function getSendFrom (state) {
-  return state.metamask.send.from
+  return state.dekusan.send.from
 }
 
 function getSendAmount (state) {
-  return state.metamask.send.amount
+  return state.dekusan.send.amount
 }
 
 function getSendMaxModeState (state) {
-  return state.metamask.send.maxModeOn
+  return state.dekusan.send.maxModeOn
 }
 
 function getCurrentCurrency (state) {
-  return state.metamask.currentCurrency
+  return state.dekusan.currentCurrency
 }
 
 function getNativeCurrency (state) {
-  return state.metamask.nativeCurrency
+  return state.dekusan.nativeCurrency
 }
 
 function getSelectedTokenToFiatRate (state) {
@@ -195,22 +195,22 @@ function autoAddToBetaUI (state) {
   const autoAddAccountsThreshold = 2
   const autoAddTokensThreshold = 1
 
-  const numberOfTransactions = state.metamask.selectedAddressTxList.length
+  const numberOfTransactions = state.dekusan.selectedAddressTxList.length
   const numberOfAccounts = Object.keys(getMetaMaskAccounts(state)).length
-  const numberOfTokensAdded = state.metamask.tokens.length
+  const numberOfTokensAdded = state.dekusan.tokens.length
 
   const userPassesThreshold = (numberOfTransactions > autoAddTransactionThreshold) &&
     (numberOfAccounts > autoAddAccountsThreshold) &&
     (numberOfTokensAdded > autoAddTokensThreshold)
-  const userIsNotInBeta = !state.metamask.featureFlags.betaUI
+  const userIsNotInBeta = !state.dekusan.featureFlags.betaUI
 
   return userIsNotInBeta && userPassesThreshold
 }
 
 function getShouldUseNewUi (state) {
-  const isAlreadyUsingBetaUi = state.metamask.featureFlags.betaUI
-  const isMascara = state.metamask.isMascara
-  const isFreshInstall = Object.keys(state.metamask.identities).length === 0
+  const isAlreadyUsingBetaUi = state.dekusan.featureFlags.betaUI
+  const isMascara = state.dekusan.isMascara
+  const isFreshInstall = Object.keys(state.dekusan.identities).length === 0
   return isAlreadyUsingBetaUi || isMascara || isFreshInstall
 }
 
@@ -219,18 +219,18 @@ function getCurrentViewContext (state) {
   return currentView.context
 }
 
-function getTotalUnapprovedCount ({ metamask }) {
+function getTotalUnapprovedCount ({ dekusan }) {
   const {
     unapprovedTxs = {},
     unapprovedMsgCount,
     unapprovedPersonalMsgCount,
     unapprovedTypedMessagesCount,
-  } = metamask
+  } = dekusan
 
   return Object.keys(unapprovedTxs).length + unapprovedMsgCount + unapprovedPersonalMsgCount +
     unapprovedTypedMessagesCount
 }
 
-function preferencesSelector ({ metamask }) {
-  return metamask.preferences
+function preferencesSelector ({ dekusan }) {
+  return dekusan.preferences
 }

@@ -16,7 +16,7 @@ import {
 import { preferencesSelector } from '../../../../selectors'
 
 const mapStateToProps = state => {
-  const { appState: { warning }, metamask } = state
+  const { appState: { warning }, dekusan } = state
   const {
     currentCurrency,
     conversionDate,
@@ -29,7 +29,7 @@ const mapStateToProps = state => {
     provider = {},
     isMascara,
     currentLocale,
-  } = metamask
+  } = dekusan
   const { useNativeCurrencyAsPrimaryCurrency } = preferencesSelector(state)
 
   return {

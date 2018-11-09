@@ -36,7 +36,7 @@ export default class SettingsTab extends PureComponent {
   }
 
   static propTypes = {
-    metamask: PropTypes.object,
+    dekusan: PropTypes.object,
     setUseBlockie: PropTypes.func,
     setHexDataFeatureFlag: PropTypes.func,
     setPrivacyMode: PropTypes.func,

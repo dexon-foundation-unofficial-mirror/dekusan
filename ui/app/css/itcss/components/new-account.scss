@@ -4,6 +4,7 @@
   border: 2px solid $geyser;
   border-radius: 4px;
   z-index: 25;
+  overflow-y: auto;
 
   &__header {
     display: flex;
@@ -553,7 +554,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding: 30px;
+  padding: 30px 20px;
 
   &__input-label {
     color: $dim-gray;

@@ -6,7 +6,7 @@ import { removeAccount } from '../../../actions'
 
 const mapStateToProps = state => {
   return {
-    network: state.metamask.network,
+    network: state.dekusan.network,
   }
 }
 

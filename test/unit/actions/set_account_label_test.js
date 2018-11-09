@@ -6,9 +6,9 @@ const actions = require(path.join(__dirname, '..', '..', '..', 'ui', 'app', 'act
 const reducers = require(path.join(__dirname, '..', '..', '..', 'ui', 'app', 'reducers.js'))
 
 describe('SET_ACCOUNT_LABEL', function () {
-  it('updates the state.metamask.identities[:i].name property of the state to the action.value.label', function () {
+  it('updates the state.dekusan.identities[:i].name property of the state to the action.value.label', function () {
     const initialState = {
-      metamask: {
+      dekusan: {
         identities: {
           foo: {
             name: 'bar',
@@ -28,7 +28,7 @@ describe('SET_ACCOUNT_LABEL', function () {
     freeze(action)
 
     const resultingState = reducers(initialState, action)
-    assert.equal(resultingState.metamask.identities.foo.name, action.value.label)
+    assert.equal(resultingstate.dekusan.identities.foo.name, action.value.label)
   })
 })
 

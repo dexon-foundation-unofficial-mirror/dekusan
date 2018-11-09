@@ -8,7 +8,7 @@ describe('amount-max-button selectors', () => {
   describe('getMaxModeOn()', () => {
     it('should', () => {
       const state = {
-        metamask: {
+        dekusan: {
           send: {
             maxModeOn: null,
           },

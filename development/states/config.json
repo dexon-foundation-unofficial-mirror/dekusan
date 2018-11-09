@@ -1,12 +1,12 @@
 {
-  "metamask": {
+  "dekusan": {
     "currentCurrency": "USD",
     "conversionRate": 11.06608791,
     "conversionDate": 1470421024,
     "isInitialized": true,
     "isUnlocked": true,
     "currentDomain": "example.com",
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
     "identities": {
       "0x5f11b68b7d41633e74c6b18d8b8d147da52aedd6": {
         "name": "Wallet 1",

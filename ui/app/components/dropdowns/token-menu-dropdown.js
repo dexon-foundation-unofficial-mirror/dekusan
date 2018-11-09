@@ -15,7 +15,7 @@ module.exports = connect(mapStateToProps, mapDispatchToProps)(TokenMenuDropdown)
 
 function mapStateToProps (state) {
   return {
-    network: state.metamask.network,
+    network: state.dekusan.network,
   }
 }
 

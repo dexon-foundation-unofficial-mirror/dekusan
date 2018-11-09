@@ -3,8 +3,8 @@ import AddToken from './add-token.component'
 
 const { setPendingTokens, clearPendingTokens } = require('../../../actions')
 
-const mapStateToProps = ({ metamask }) => {
-  const { identities, tokens, pendingTokens } = metamask
+const mapStateToProps = ({ dekusan }) => {
+  const { identities, tokens, pendingTokens } = dekusan
   return {
     identities,
     tokens,

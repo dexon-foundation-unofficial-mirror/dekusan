@@ -65,7 +65,7 @@ class WelcomeScreen extends Component {
   }
 }
 
-const mapStateToProps = ({ metamask: { welcomeScreenSeen } }) => {
+const mapStateToProps = ({ dekusan: { welcomeScreenSeen } }) => {
   return {
     welcomeScreenSeen,
   }

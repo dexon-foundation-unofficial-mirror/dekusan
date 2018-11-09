@@ -8,7 +8,7 @@ export default class InfoTab extends PureComponent {
 
   static propTypes = {
     tab: PropTypes.string,
-    metamask: PropTypes.object,
+    dekusan: PropTypes.object,
     setCurrentCurrency: PropTypes.func,
     setRpcTarget: PropTypes.func,
     displayWarning: PropTypes.func,
@@ -32,7 +32,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://dexon.org/dekusan/privacy.html"
+            href="https://github.com/dexon-foundation/dekusan/blob/develop/docs/privacy.md"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://dexon.org/dekusan/terms.html"
+            href="https://github.com/dexon-foundation/dekusan/blob/develop/docs/terms-of-use.md"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,7 +52,7 @@ export default class InfoTab extends PureComponent {
             </span>
           </a>
         </div>
-        <div className="info-tab__link-item">
+        {/* <div className="info-tab__link-item">
           <a
             href="https://metamask.io/attributions.html"
             target="_blank"
@@ -62,9 +62,9 @@ export default class InfoTab extends PureComponent {
               { t('attributions') }
             </span>
           </a>
-        </div>
+        </div> */}
         <hr className="info-tab__separator" />
-        <div className="info-tab__link-item">
+        {/* <div className="info-tab__link-item">
           <a
             href="https://dexon.org"
             target="_blank"
@@ -74,7 +74,7 @@ export default class InfoTab extends PureComponent {
               { t('supportCenter') }
             </span>
           </a>
-        </div>
+        </div> */}
         <div className="info-tab__link-item">
           <a
             href="https://dexon.org/"

@@ -15,28 +15,28 @@ function launchMetamaskUi (opts, cb) {
   var accountManager = opts.accountManager
   actions._setBackgroundConnection(accountManager)
   // check if we are unlocked first
-  accountManager.getState(function (err, metamaskState) {
+  accountManager.getState(function (err, dekusanState) {
     if (err) return cb(err)
-    startApp(metamaskState, accountManager, opts)
+    startApp(dekusanState, accountManager, opts)
       .then((store) => {
         cb(null, store)
       })
   })
 }
 
-async function startApp (metamaskState, accountManager, opts) {
+async function startApp (dekusanState, accountManager, opts) {
   // parse opts
-  if (!metamaskState.featureFlags) metamaskState.featureFlags = {}
+  if (!dekusanState.featureFlags) dekusanState.featureFlags = {}
 
-  const currentLocaleMessages = metamaskState.currentLocale
-    ? await fetchLocale(metamaskState.currentLocale)
+  const currentLocaleMessages = dekusanState.currentLocale
+    ? await fetchLocale(dekusanState.currentLocale)
     : {}
   const enLocaleMessages = await fetchLocale('en')
 
   const store = configureStore({
 
-    // metamaskState represents the cross-tab state
-    metamask: metamaskState,
+    // dekusanState represents the cross-tab state
+    dekusan: dekusanState,
 
     // appState represents the current tab's popup state
     appState: {},
@@ -51,7 +51,7 @@ async function startApp (metamaskState, accountManager, opts) {
   })
 
   // if unconfirmed txs, start on txConf page
-  const unapprovedTxsAll = txHelper(metamaskState.unapprovedTxs, metamaskState.unapprovedMsgs, metamaskState.unapprovedPersonalMsgs, metamaskState.unapprovedTypedMessages, metamaskState.network)
+  const unapprovedTxsAll = txHelper(dekusanState.unapprovedTxs, dekusanState.unapprovedMsgs, dekusanState.unapprovedPersonalMsgs, dekusanState.unapprovedTypedMessages, dekusanState.network)
   const numberOfUnapprivedTx = unapprovedTxsAll.length
   if (numberOfUnapprivedTx > 0) {
     store.dispatch(actions.showConfTxPage({
@@ -59,8 +59,8 @@ async function startApp (metamaskState, accountManager, opts) {
     }))
   }
 
-  accountManager.on('update', function (metamaskState) {
-    store.dispatch(actions.updateMetamaskState(metamaskState))
+  accountManager.on('update', function (dekusanState) {
+    store.dispatch(actions.updateMetamaskState(dekusanState))
   })
 
   // global dekusan api - used by tooling

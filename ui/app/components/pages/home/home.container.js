@@ -5,14 +5,14 @@ import { withRouter } from 'react-router-dom'
 import { unconfirmedTransactionsCountSelector } from '../../../selectors/confirm-transaction'
 
 const mapStateToProps = state => {
-  const { metamask, appState } = state
+  const { dekusan, appState } = state
   const {
     noActiveNotices,
     lostAccounts,
     seedWords,
     suggestedTokens,
     providerRequests,
-  } = metamask
+  } = dekusan
   const { forgottenPassword } = appState
 
   return {

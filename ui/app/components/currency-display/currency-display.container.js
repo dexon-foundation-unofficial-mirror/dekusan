@@ -3,7 +3,7 @@ import CurrencyDisplay from './currency-display.component'
 import { getValueFromWeiHex, formatCurrency } from '../../helpers/confirm-transaction/util'
 
 const mapStateToProps = state => {
-  const { metamask: { nativeCurrency, currentCurrency, conversionRate } } = state
+  const { dekusan: { nativeCurrency, currentCurrency, conversionRate } } = state
 
   return {
     currentCurrency,

@@ -1,9 +1,9 @@
 {
-  "metamask": {
+  "dekusan": {
     "isInitialized": true,
     "isUnlocked": true,
     "currentDomain": "example.com",
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
     "identities": {
       "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825": {
         "name": "Wallet 1",
@@ -43,7 +43,7 @@
           "gas": "0xf4240",
           "origin": "tokenfactory.surge.sh",
           "metamaskId": 1470676748243181,
-          "metamaskNetworkId": "2"
+          "dekusanNetworkId": "2"
         },
         "time": 1470676748243,
         "status": "confirmed",
@@ -62,7 +62,7 @@
           "gasLimit": "0x5ce40",
           "origin": "www.etherfaces.com",
           "metamaskId": 1470682363931487,
-          "metamaskNetworkId": "1"
+          "dekusanNetworkId": "1"
         },
         "time": 1470682363931,
         "status": "confirmed",
@@ -82,7 +82,7 @@
           "gasLimit": "0x2fc7720",
           "origin": "www.etherfaces.com",
           "metamaskId": 1470682617417416,
-          "metamaskNetworkId": "1"
+          "dekusanNetworkId": "1"
         },
         "time": 1470682617417,
         "status": "confirmed",
@@ -102,7 +102,7 @@
           "gasLimit": "0x2fc7720",
           "origin": "www.etherfaces.com",
           "metamaskId": 1470682742887332,
-          "metamaskNetworkId": "1"
+          "dekusanNetworkId": "1"
         },
         "time": 1470682742887,
         "status": "confirmed",
@@ -119,7 +119,7 @@
           "gas": "0xf4240",
           "origin": "tokenfactory.surge.sh",
           "metamaskId": 1470692493483229,
-          "metamaskNetworkId": "1"
+          "dekusanNetworkId": "1"
         },
         "time": 1470692493483,
         "status": "confirmed",
@@ -134,7 +134,7 @@
           "value": "0x2",
           "origin": "localhost",
           "metamaskId": 1470962599348486,
-          "metamaskNetworkId": "1"
+          "dekusanNetworkId": "1"
         },
         "time": 1470962599348,
         "status": "rejected",
@@ -149,7 +149,7 @@
           "value": "0x2",
           "origin": "localhost",
           "metamaskId": 1470963263070463,
-          "metamaskNetworkId": "1"
+          "dekusanNetworkId": "1"
         },
         "time": 1470963263070,
         "status": "rejected",

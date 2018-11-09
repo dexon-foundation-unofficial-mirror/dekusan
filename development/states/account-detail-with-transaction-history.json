@@ -1,12 +1,12 @@
 {
-  "metamask": {
+  "dekusan": {
     "currentCurrency": "USD",
     "conversionRate": 11.06608791,
     "conversionDate": 1470421024,
     "isInitialized": true,
     "isUnlocked": true,
     "currentDomain": "example.com",
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
     "identities": {
       "0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc": {
         "name": "Wallet 1",
@@ -64,7 +64,7 @@
           "value": "0x66c899104aa57038000",
           "origin": "thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com",
           "metamaskId": 1467921503489592,
-          "metamaskNetworkId": "2"
+          "dekusanNetworkId": "2"
         },
         "time": 1467921503489,
         "status": "rejected",
@@ -78,7 +78,7 @@
           "value": "0x0",
           "origin": "thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com",
           "metamaskId": 1467923203344608,
-          "metamaskNetworkId": "2"
+          "dekusanNetworkId": "2"
         },
         "time": 1467923203344,
         "status": "confirmed",
@@ -93,7 +93,7 @@
           "value": "0x66c899104aa57038000",
           "origin": "thelongestdomainnameintheworldandthensomeandthensomemoreandmore.com",
           "metamaskId": 1467921503489592,
-          "metamaskNetworkId": "2"
+          "dekusanNetworkId": "2"
         },
         "time": 1467921503489,
         "status": "confirmed",

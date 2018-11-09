@@ -16,7 +16,7 @@ Initialized.propTypes = {
 }
 
 const mapStateToProps = state => {
-  const { metamask: { isInitialized } } = state
+  const { dekusan: { isInitialized } } = state
   return {
     isInitialized,
   }

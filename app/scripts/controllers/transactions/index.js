@@ -190,7 +190,7 @@ class TransactionController extends EventEmitter {
 
     try {
       // check whether recipient account is blacklisted
-      recipientBlacklistChecker.checkAccount(txMeta.metamaskNetworkId, normalizedTxParams.to)
+      recipientBlacklistChecker.checkAccount(txMeta.dekusanNetworkId, normalizedTxParams.to)
       // add default tx params
       txMeta = await this.addTxGasDefaults(txMeta)
     } catch (error) {
@@ -619,7 +619,7 @@ class TransactionController extends EventEmitter {
     const unapprovedTxs = this.txStateManager.getUnapprovedTxList()
     const selectedAddressTxList = this.txStateManager.getFilteredTxList({
       from: this.getSelectedAddress(),
-      metamaskNetworkId: this.getNetwork(),
+      dekusanNetworkId: this.getNetwork(),
     })
     this.memStore.updateState({ unapprovedTxs, selectedAddressTxList })
   }

@@ -1,8 +1,8 @@
 {
-  "metamask": {
+  "dekusan": {
     "isInitialized": true,
     "isUnlocked": true,
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
     "identities": {
       "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825": {
         "address": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -31,13 +31,13 @@
         "time": 1487363153561,
         "status": "unapproved",
         "gasMultiplier": 1,
-        "metamaskNetworkId": "3",
+        "dekusanNetworkId": "3",
         "txParams": {
           "from": "0xc5b8dbac4c1d3f152cdeb400e2313f309c410acb",
           "to": "0x18a3462427bcc9133bb46e88bcbe39cd7ef0e761",
           "value": "0xde0b6b3a7640000",
           "metamaskId": 4768706228115573,
-          "metamaskNetworkId": "3",
+          "dekusanNetworkId": "3",
           "gas": "0x5209"
         },
         "gasLimitSpecified": false,
@@ -99,13 +99,13 @@
         "time": 1487271497135,
         "status": "confirmed",
         "gasMultiplier": 1,
-        "metamaskNetworkId": "3",
+        "dekusanNetworkId": "3",
         "txParams": {
           "from": "0xc5b8dbac4c1d3f152cdeb400e2313f309c410acb",
           "to": "0xc5b8dbac4c1d3f152cdeb400e2313f309c410acb",
           "value": "0x38d7ea4c68000",
           "metamaskId": 3870222542191014,
-          "metamaskNetworkId": "3",
+          "dekusanNetworkId": "3",
           "gas": "0x5209",
           "gasPrice": "0x458d0be6b8",
           "nonce": "0x0",
@@ -123,13 +123,13 @@
         "time": 1487271512355,
         "status": "confirmed",
         "gasMultiplier": 1,
-        "metamaskNetworkId": "3",
+        "dekusanNetworkId": "3",
         "txParams": {
           "from": "0xc5b8dbac4c1d3f152cdeb400e2313f309c410acb",
           "to": "0xc5b8dbac4c1d3f152cdeb400e2313f309c410acb",
           "value": "0x0",
           "metamaskId": 3870222542191015,
-          "metamaskNetworkId": "3",
+          "dekusanNetworkId": "3",
           "gas": "0x5209",
           "nonce": "0x01",
           "gasPrice": "0x458d0be6b8",
@@ -147,13 +147,13 @@
         "time": 1487363153561,
         "status": "unapproved",
         "gasMultiplier": 1,
-        "metamaskNetworkId": "3",
+        "dekusanNetworkId": "3",
         "txParams": {
           "from": "0xc5b8dbac4c1d3f152cdeb400e2313f309c410acb",
           "to": "0x18a3462427bcc9133bb46e88bcbe39cd7ef0e761",
           "value": "0xde0b6b3a7640000",
           "metamaskId": 4768706228115573,
-          "metamaskNetworkId": "3",
+          "dekusanNetworkId": "3",
           "gas": "0x5209"
         },
         "gasLimitSpecified": false,

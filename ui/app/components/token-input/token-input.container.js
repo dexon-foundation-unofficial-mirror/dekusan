@@ -3,7 +3,7 @@ import TokenInput from './token-input.component'
 import { getSelectedToken, getSelectedTokenExchangeRate } from '../../selectors'
 
 const mapStateToProps = state => {
-  const { metamask: { currentCurrency } } = state
+  const { dekusan: { currentCurrency } } = state
 
   return {
     currentCurrency,

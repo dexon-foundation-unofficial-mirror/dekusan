@@ -1,8 +1,8 @@
 {
-  "metamask": {
+  "dekusan": {
     "isInitialized": true,
     "isUnlocked": true,
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
     "identities": {
       "0xa06599bd35921cfb5b71b4be3869740385b0b306": {
         "address": "0xa06599bd35921cfb5b71b4be3869740385b0b306",
@@ -15,13 +15,13 @@
         "time": 1487662234127,
         "status": "unapproved",
         "gasMultiplier": 1,
-        "metamaskNetworkId": "3",
+        "dekusanNetworkId": "3",
         "txParams": {
           "from": "0xa06599bd35921cfb5b71b4be3869740385b0b306",
           "to": "0x18a3462427bcc9133bb46e88bcbe39cd7ef0e761",
           "value": "0xde0b6b3a7640000",
           "metamaskId": 1188547363326880,
-          "metamaskNetworkId": "3",
+          "dekusanNetworkId": "3",
           "gas": "0x5209"
         },
         "gasLimitSpecified": false,
@@ -51,13 +51,13 @@
         "time": 1487662234127,
         "status": "unapproved",
         "gasMultiplier": 1,
-        "metamaskNetworkId": "3",
+        "dekusanNetworkId": "3",
         "txParams": {
           "from": "0xa06599bd35921cfb5b71b4be3869740385b0b306",
           "to": "0x18a3462427bcc9133bb46e88bcbe39cd7ef0e761",
           "value": "0xde0b6b3a7640000",
           "metamaskId": 1188547363326880,
-          "metamaskNetworkId": "3",
+          "dekusanNetworkId": "3",
           "gas": "0x5209"
         },
         "gasLimitSpecified": false,

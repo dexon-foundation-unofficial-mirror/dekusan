@@ -107,8 +107,8 @@ class NoticeScreen extends Component {
   }
 }
 
-const mapStateToProps = ({ metamask, appState }) => {
-  const { selectedAddress, nextUnreadNotice, noActiveNotices } = metamask
+const mapStateToProps = ({ dekusan, appState }) => {
+  const { selectedAddress, nextUnreadNotice, noActiveNotices } = dekusan
   const { isLoading } = appState
 
   return {

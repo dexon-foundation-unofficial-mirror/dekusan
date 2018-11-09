@@ -459,8 +459,8 @@ const mapDispatchToProps = (dispatch) => {
 
 function mapStateToProps (state) {
   return {
-    ticker: state.metamask.ticker,
-    keyrings: state.metamask.keyrings,
+    ticker: state.dekusan.ticker,
+    keyrings: state.dekusan.keyrings,
     sidebarOpen: state.appState.sidebar.isOpen,
   }
 }

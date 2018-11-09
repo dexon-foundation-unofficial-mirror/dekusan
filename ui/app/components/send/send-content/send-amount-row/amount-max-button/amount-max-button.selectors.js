@@ -5,5 +5,5 @@ const selectors = {
 module.exports = selectors
 
 function getMaxModeOn (state) {
-  return state.metamask.send.maxModeOn
+  return state.dekusan.send.maxModeOn
 }

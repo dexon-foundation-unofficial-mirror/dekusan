@@ -67,7 +67,7 @@ class FirstTimeFlow extends Component {
   }
 }
 
-const mapStateToProps = ({ metamask }) => {
+const mapStateToProps = ({ dekusan }) => {
   const {
     isInitialized,
     seedWords,
@@ -78,7 +78,7 @@ const mapStateToProps = ({ metamask }) => {
     isUnlocked,
     welcomeScreenSeen,
     isPopup,
-  } = metamask
+  } = dekusan
 
   return {
     isMascara,

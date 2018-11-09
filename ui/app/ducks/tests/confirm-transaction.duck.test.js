@@ -509,7 +509,7 @@ describe('Confirm Transaction Duck', () => {
 
     it('updates txData and gas on an existing transaction in confirmTransaction', () => {
       const mockState = {
-        metamask: {
+        dekusan: {
           conversionRate: 468.58,
           currentCurrency: 'usd',
         },
@@ -536,7 +536,7 @@ describe('Confirm Transaction Duck', () => {
             history: [],
             id: 2603411941761054,
             loadingDefaults: false,
-            metamaskNetworkId: '3',
+            dekusanNetworkId: '3',
             origin: 'faucet.metamask.io',
             simpleSend: true,
             status: 'unapproved',
@@ -570,7 +570,7 @@ describe('Confirm Transaction Duck', () => {
         history: [],
         id: 2603411941761054,
         loadingDefaults: false,
-        metamaskNetworkId: '3',
+        dekusanNetworkId: '3',
         origin: 'faucet.metamask.io',
         simpleSend: true,
         status: 'unapproved',
@@ -584,7 +584,7 @@ describe('Confirm Transaction Duck', () => {
         },
       }
       const mockState = {
-        metamask: {
+        dekusan: {
           conversionRate: 468.58,
           currentCurrency: 'usd',
         },
@@ -632,7 +632,7 @@ describe('Confirm Transaction Duck', () => {
 
     it('updates confirmTransaction transaction', done => {
       const mockState = {
-        metamask: {
+        dekusan: {
           conversionRate: 468.58,
           currentCurrency: 'usd',
           network: '3',
@@ -644,7 +644,7 @@ describe('Confirm Transaction Duck', () => {
               history: [],
               id: 2603411941761054,
               loadingDefaults: false,
-              metamaskNetworkId: '3',
+              dekusanNetworkId: '3',
               origin: 'faucet.metamask.io',
               simpleSend: true,
               status: 'unapproved',

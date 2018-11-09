@@ -24,7 +24,7 @@ Authenticated.propTypes = {
 }
 
 const mapStateToProps = state => {
-  const { metamask: { isUnlocked, isInitialized } } = state
+  const { dekusan: { isUnlocked, isInitialized } } = state
   return {
     isUnlocked,
     isInitialized,

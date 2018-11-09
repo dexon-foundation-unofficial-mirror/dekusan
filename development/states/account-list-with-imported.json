@@ -1,8 +1,8 @@
 {
-  "metamask": {
+  "dekusan": {
     "isInitialized": true,
     "isUnlocked": true,
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
     "identities": {
       "0x58bda1f9d87dc7d2bcc6f7c2513efc9d03fca683": {
         "address": "0x58bda1f9d87dc7d2bcc6f7c2513efc9d03fca683",

@@ -147,7 +147,7 @@ class ConfirmSeedScreen extends Component {
 export default compose(
   withRouter,
   connect(
-    ({ metamask: { selectedAddress, seedWords }, appState: { isLoading } }) => ({
+    ({ dekusan: { selectedAddress, seedWords }, appState: { isLoading } }) => ({
       seedWords,
       isLoading,
       address: selectedAddress,
