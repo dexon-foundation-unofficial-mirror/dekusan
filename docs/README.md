@@ -11,3 +11,6 @@
 - [How to manage notices that appear when the app starts up](./notices.md)
 - [How to port DekuSan to a new platform](./porting_to_new_environment.md)
 - [How to generate a visualization of this repository's development](./development-visualization.md)
+
+- [Privacy Policy](./privacy.md)
+- [Terms of Use](./terms-of-use.md)
