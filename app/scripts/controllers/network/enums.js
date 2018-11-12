@@ -6,7 +6,7 @@ const TESTNET = 'testnet'
 const LOCALHOST = 'localhost'
 
 const MAINNET_CODE = 1
-const TESTNET_CODE = 237
+const TESTNET_CODE = 238
 const ROPSTEN_CODE = 3
 const RINKEYBY_CODE = 4
 const KOVAN_CODE = 42
@@ -17,7 +17,7 @@ const KOVAN_DISPLAY_NAME = 'Kovan'
 const MAINNET_DISPLAY_NAME = 'Main DEXON Network'
 const TESTNET_DISPLAY_NAME = 'DEXON Test Network'
 
-const TESTNET_RPC_URL = 'http://testnet.dexon.org:8545'
+const TESTNET_RPC_URL = 'https://api-testnet.dexscan.org/v1/network/rpc'
 
 module.exports = {
   ROPSTEN,

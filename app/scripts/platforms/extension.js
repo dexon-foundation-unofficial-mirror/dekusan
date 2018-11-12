@@ -77,7 +77,7 @@ class ExtensionPlatform {
     const nonce = parseInt(txMeta.txParams.nonce, 16)
 
     const title = 'Confirmed transaction'
-    const message = `Transaction ${nonce} confirmed! View on DexScan`
+    const message = `Transaction ${nonce} confirmed! View on DEXSCAN`
     this._showNotification(title, message, url)
   }
 

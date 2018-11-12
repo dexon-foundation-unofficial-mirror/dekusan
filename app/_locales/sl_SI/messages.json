@@ -94,16 +94,11 @@
     "message": "DekuSan",
     "description": "The name of the application"
   },
-<<<<<<< HEAD:app/_locales/sl/messages.json
   "approve": {
     "message": "Potrdi"
   },
   "approved": {
     "message": "Potrjeno"
-=======
-  "approved": {
-    "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "attemptingConnect": {
     "message": "Povezovanje z verigo blokov ..."
@@ -200,11 +195,7 @@
     "message": "Potrdi"
   },
   "confirmed": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Potrjeno"
-=======
-    "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "confirmContract": {
     "message": "Potrdi pogodbo"
@@ -313,11 +304,7 @@
     "message": "Prilagodi gas"
   },
   "customToken": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Žeton po meri"
-=======
-    "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "customize": {
     "message": "Prilagodi"
@@ -368,13 +355,8 @@
   "directDeposit": {
     "message": "Neposredno vplačilo"
   },
-<<<<<<< HEAD:app/_locales/sl/messages.json
-  "directDepositEther": {
-    "message": "Neposredno vplačilo ehera"
-=======
   "directDepositDex": {
     "message": "Direktno vplačilo ehera"
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "directDepositDexExplainer": {
     "message": "Če že imate dexon, ga lahko najhitreje dobite v DekuSan z direktnim vplačilom."
@@ -421,7 +403,6 @@
   "enterPasswordConfirm": {
     "message": "Potrdite geslo"
   },
-<<<<<<< HEAD:app/_locales/sl/messages.json
   "enterPasswordContinue": {
     "message": "Za nadaljevanje vnesite geslo"
   },
@@ -430,7 +411,7 @@
   },
   "etherscanView": {
     "message": "Poglejte račun na DEXscan"
-=======
+  },
   "passwordNotLongEnough": {
     "message": ""
   },
@@ -438,8 +419,7 @@
     "message": ""
   },
   "dexscanView": {
-    "message": "Poglejte račun na DexScan"
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
+    "message": "Poglejte račun na DEXSCAN"
   },
   "exchangeRate": {
     "message": "Menjalni tečaj"
@@ -516,16 +496,8 @@
   "gasPriceRequired": {
     "message": "Gas price je zahtevan"
   },
-<<<<<<< HEAD:app/_locales/sl/messages.json
-  "generatingTransaction": {
-    "message": "Ustvarjanje transakcije"
-  },
-  "getEther": {
-    "message": "Pridobi Ether"
-=======
   "getDex": {
     "message": "Pridobite dexon"
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "getDexFromFaucet": {
     "message": "Pridobite dexon iz fauceta za $1",
@@ -576,17 +548,10 @@
     "message": "Zgodovina"
   },
   "howToDeposit": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
-    "message": "Kako želite vplačati Ether?"
-  },
-  "holdEther": {
-    "message": "Omogoča vam shranjevanje ethra in žetonov ter povezovanje decentraliziranih aplikacij."
-=======
     "message": "Kako želite vplačati dexon?"
   },
   "holdDex": {
     "message": "Omogoča vam, da imate eter in žetone in služi kot most za decentralizirane aplikacije."
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "import": {
     "message": "Uvoz",
@@ -655,11 +620,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
-    "message": "Sledite žetonom, ki ste jih pridobili z MetaMask."
-=======
     "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "kovan": {
     "message": "Testno omrežje Kovan"
@@ -668,20 +629,10 @@
     "message": "Obiščite našo pomoč"
   },
   "max": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
-    "message": "Max"
-  },
-  "learnMore": {
-    "message": "Preberite več"
-  },
-  "ledgerAccountRestriction": {
-    "message": "Za dodajanje novega računa morate uporabiti zadnji račun."
-=======
     "message": ""
   },
   "learnMore": {
     "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "lessThanMax": {
     "message": "mora biti manjši ali enak $1.",
@@ -691,11 +642,7 @@
     "message": "Želite dodati te žetone?"
   },
   "links": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Povezave"
-=======
-    "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "limit": {
     "message": "Meja"
@@ -762,13 +709,8 @@
     "message": "Za izbrano datoteko morate vnesti geslo.",
     "description": "Password and file needed to import an account"
   },
-<<<<<<< HEAD:app/_locales/sl/messages.json
-  "negativeETH": {
-    "message": "Negativnih zneskov ETH ni mogoče poslati."
-=======
   "negativeDex": {
     "message": "Ni mogoče poslati negativne vsote DEX."
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "networks": {
     "message": "Omrežja"
@@ -1050,10 +992,6 @@
   "ropsten": {
     "message": "Testno omrežje Ropsten"
   },
-<<<<<<< HEAD:app/_locales/sl/messages.json
-  "rpc": {
-    "message": "RPC po meri"
-=======
   "currentRpc": {
     "message": ""
   },
@@ -1071,7 +1009,6 @@
   },
   "connectingToUnknown": {
     "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "sampleAccountName": {
     "message": "npr. Moj račun",
@@ -1080,16 +1017,11 @@
   "save": {
     "message": "Shrani"
   },
-<<<<<<< HEAD:app/_locales/sl/messages.json
-  "saveAsCsvFile": {
-    "message": "Shrani kot CSV datoteko"
-=======
   "reprice_title": {
     "message": ""
   },
   "reprice_subtitle": {
     "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "saveAsFile": {
     "message": "Shrani kot datoteko",
@@ -1143,40 +1075,11 @@
   "sendTokens": {
     "message": "Pošlji žetone"
   },
-<<<<<<< HEAD:app/_locales/sl/messages.json
-  "sentEther": {
-    "message": "poslani ether"
-  },
-  "sentTokens": {
-    "message": "poslani žetoni"
-  },
-  "separateEachWord": {
-    "message": "Vsako besedo ločite z enim presledkom"
-  },
-  "searchTokens": {
-    "message": "Iskanje žetonov"
-  },
-  "selectAnAddress": {
-    "message": "Izberi naslov"
-  },
-  "selectAnAccount": {
-    "message": "Izberi račun"
-  },
-  "selectAnAccountHelp": {
-    "message": "Izberi račun za prikaz v MetaMask"
-  },
-  "selectHdPath": {
-    "message": "Izberi HD Path"
-  },
-  "selectPathHelp": {
-    "message": "Če obstoječih Ledger ne vidite, poskusite izbrati \"Legacy (MEW / MyCrypto)\""
-=======
   "onlySendToDexonAddress": {
     "message": ""
   },
   "searchTokens": {
     "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "sendTokensAnywhere": {
     "message": "Pošljite žetone vsem, ki imajo DEXON račun"
@@ -1205,16 +1108,8 @@
   "sign": {
     "message": "Podpiši"
   },
-<<<<<<< HEAD:app/_locales/sl/messages.json
-  "signatureRequest": {
-    "message": "Zahteva za podpis"
-  },
-  "signed": {
-    "message": "Podpisano"
-=======
   "signed": {
     "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "signMessage": {
     "message": "Podpiši sporočilo"
@@ -1277,11 +1172,7 @@
     "message": "Potrdi"
   },
   "submitted": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
-    "message": "Potrjeno"
-=======
     "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "supportCenter": {
     "message": "Obiščite naše središče za podporo"
@@ -1363,11 +1254,7 @@
     "message": "transakcije"
   },
   "transactionError": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
     "message": "Napaka pri transakciji. Izjema sprožena v kodi pogodbe."
-=======
-    "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "transactionMemo": {
     "message": "Opomba transakcije (nezahtevano)"
@@ -1446,11 +1333,7 @@
     "message": "Posodobljeno $1"
   },
   "uriErrorMsg": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
-    "message": "URI zahtevajo ustrezno HTTP/HTTPS predpono."
-=======
     "message": "URI-ji zahtevajo ustrezno HTTP\/HTTPS predpono."
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   },
   "usaOnly": {
     "message": "Samo za ZDA",
@@ -1499,12 +1382,6 @@
     "message": "Zahtevan je bil vaš podpis"
   },
   "youSign": {
-<<<<<<< HEAD:app/_locales/sl/messages.json
-    "message": "Podpisali boste"
-  },
-  "yourPrivateSeedPhrase": {
-    "message": "Vaš zasebni seed phrase"
-=======
     "message": "Podpisani ste"
   },
   "aboutDekuSan": {
@@ -1918,6 +1795,5 @@
   },
   "connectingToRinkeby": {
     "message": ""
->>>>>>> Update translations:app/_locales/sl_SI/messages.json
   }
 }

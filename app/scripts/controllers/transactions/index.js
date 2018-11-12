@@ -112,7 +112,7 @@ class TransactionController extends EventEmitter {
     const getChainId = parseInt(networkState)
     if (Number.isNaN(getChainId)) {
        // default to DEXON testnet
-      return 237
+      return 238
     } else {
       return getChainId
     }

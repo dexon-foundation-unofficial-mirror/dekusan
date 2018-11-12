@@ -6,7 +6,7 @@ module.exports = function (address, network) {
       link = `https://dexscan.org/address/${address}`
       break
     case 2: // test net
-    case 237: // test net
+    case 238: // test net
     default:
       link = `https://testnet.dexscan.org/address/${address}`
       break

@@ -6,7 +6,7 @@ module.exports = function (txHash, network) {
       link = `https://dexscan.org/transaction/${txHash}`
       break
     case 2: // test net
-    case 237: // test net
+    case 238: // test net
     default:
       link = `https://testnet.dexscan.org/transaction/${txHash}`
       break
