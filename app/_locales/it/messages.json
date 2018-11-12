@@ -513,7 +513,7 @@
     "message": "Messaggio"
   },
   "dekusanDescription": {
-    "message": "DekuSan è una cassaforte sicura per identità su Dexon."
+    "message": "DekuSan è una cassaforte sicura per identità su DEXON."
   },
   "min": {
     "message": "Minimo"
@@ -763,7 +763,7 @@
     "message": "Cerca Tokens"
   },
   "sendTokensAnywhere": {
-    "message": "Invia Tokens a chiunque abbia un account Dexon"
+    "message": "Invia Tokens a chiunque abbia un account DEXON"
   },
   "settings": {
     "message": "Impostazioni"

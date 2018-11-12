@@ -75,7 +75,7 @@
     "message": "Cantidad + Gas"
   },
   "appDescription": {
-    "message": "Extensión del navegador para Dexon",
+    "message": "Extensión del navegador para DEXON",
     "description": "La descripción de la aplicación"
   },
   "appName": {
@@ -516,7 +516,7 @@
     "message": "Mensaje"
   },
   "dekusanDescription": {
-    "message": "DekuSan es una identidad segura en Dexon"
+    "message": "DekuSan es una identidad segura en DEXON"
   },
   "min": {
     "message": "Mínimo"
@@ -760,13 +760,13 @@
     "message": "Enviar tokens"
   },
   "onlySendToDexonAddress": {
-    "message": "Sólo envía a una dirección de Dexon"
+    "message": "Sólo envía a una dirección de DEXON"
   },
   "searchTokens": {
     "message": ""
   },
   "sendTokensAnywhere": {
-    "message": "Enviar tokens a cualquiera con una cuenta de Dexon"
+    "message": "Enviar tokens a cualquiera con una cuenta de DEXON"
   },
   "settings": {
     "message": "Configuración"

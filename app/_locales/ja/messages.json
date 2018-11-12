@@ -75,7 +75,7 @@
     "message": "金額 + ガス"
   },
   "appDescription": {
-    "message": "Dexonのブラウザ・エクステンション",
+    "message": "DEXON のブラウザ・エクステンション",
     "description": "The description of the application"
   },
   "appName": {
@@ -510,7 +510,7 @@
     "message": ""
   },
   "mainnet": {
-    "message": "Dexonメインネットワーク"
+    "message": "DEXON メインネットワーク"
   },
   "message": {
     "message": "メッセージ"

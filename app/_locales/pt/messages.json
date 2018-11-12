@@ -75,7 +75,7 @@
     "message": "Valor + Gas"
   },
   "appDescription": {
-    "message": "Extensão para o browser de Dexon",
+    "message": "Extensão para o browser de DEXON",
     "description": "A descrição da aplicação"
   },
   "appName": {
@@ -129,7 +129,7 @@
     "message": "Comprar no Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase é a forma mais conhecida para comprar e vender Bitcoin, Dexon, e Litecoin."
+    "message": "Coinbase é a forma mais conhecida para comprar e vender Bitcoin, Ethereum, e Litecoin."
   },
   "ok": {
     "message": ""
@@ -510,13 +510,13 @@
     "message": "palavras da seed apenas têm caracteres minúsculos"
   },
   "mainnet": {
-    "message": "Rede Principal de Dexon"
+    "message": "Rede Principal de DEXON"
   },
   "message": {
     "message": "Mensagem"
   },
   "dekusanDescription": {
-    "message": "O DekuSan é um lugar seguro para guardar a sua identidade em em Dexon."
+    "message": "O DekuSan é um lugar seguro para guardar a sua identidade em em DEXON."
   },
   "min": {
     "message": "Mínimo"
@@ -766,7 +766,7 @@
     "message": ""
   },
   "sendTokensAnywhere": {
-    "message": "Enviar Tokens para qualquer pessoa com uma conta Dexon"
+    "message": "Enviar Tokens para qualquer pessoa com uma conta DEXON"
   },
   "settings": {
     "message": "Definições"

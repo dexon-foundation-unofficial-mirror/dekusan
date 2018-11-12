@@ -96,7 +96,7 @@
     "message": "Buy on Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase is the world’s most popular way to buy and sell Bitcoin, Dexon, and Litecoin."
+    "message": "Coinbase is the world’s most popular way to buy and sell Bitcoin, Ethereum, and Litecoin."
   },
   "ok": {
     "message": "Ok"
@@ -498,7 +498,7 @@
     "message": "Message"
   },
   "dekusanDescription": {
-    "message": "DekuSan is a secure identity vault for Dexon."
+    "message": "DekuSan is a secure identity vault for DEXON."
   },
   "min": {
     "message": "Minimum"

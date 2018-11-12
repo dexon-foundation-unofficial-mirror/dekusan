@@ -129,7 +129,7 @@
     "message": "Mua trên Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase là dịch vụ ví điện tử thông dụng nhất thế giới để mua bán Bitcoin, Dexon, và Litecoin"
+    "message": "Coinbase là dịch vụ ví điện tử thông dụng nhất thế giới để mua bán Bitcoin, Ethereum, và Litecoin"
   },
   "ok": {
     "message": ""
@@ -766,7 +766,7 @@
     "message": ""
   },
   "sendTokensAnywhere": {
-    "message": "Gửi mã token đến bất kỳ ai có tài khoản Dexon"
+    "message": "Gửi mã token đến bất kỳ ai có tài khoản DEXON"
   },
   "settings": {
     "message": "Cài đặt"

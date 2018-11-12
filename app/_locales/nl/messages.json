@@ -510,13 +510,13 @@
     "message": "back-up woorden hebben alleen kleine letters"
   },
   "mainnet": {
-    "message": "belangrijkste Dexon-netwerk"
+    "message": "belangrijkste DEXON-netwerk"
   },
   "message": {
     "message": "Bericht"
   },
   "dekusanDescription": {
-    "message": "DekuSan is een veilige identiteitskluis voor Dexon."
+    "message": "DekuSan is een veilige identiteitskluis voor DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -766,7 +766,7 @@
     "message": ""
   },
   "sendTokensAnywhere": {
-    "message": "Stuur tokens naar iedereen met een Dexon-account"
+    "message": "Stuur tokens naar iedereen met een DEXON-account"
   },
   "settings": {
     "message": "instellingen"

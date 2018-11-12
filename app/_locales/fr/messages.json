@@ -504,7 +504,7 @@
     "message": "Les mots seed n'ont que des caractères en minuscules"
   },
   "mainnet": {
-    "message": "Réseau principal Dexon"
+    "message": "Réseau principal DEXON"
   },
   "message": {
     "message": "Message"
@@ -760,7 +760,7 @@
     "message": "Rechercher des jetons"
   },
   "sendTokensAnywhere": {
-    "message": "Envoyer des jetons à toute personne possédant un compte Dexon"
+    "message": "Envoyer des jetons à toute personne possédant un compte DEXON"
   },
   "settings": {
     "message": "Paramètres"

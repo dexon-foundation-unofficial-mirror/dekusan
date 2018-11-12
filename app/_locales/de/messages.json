@@ -516,7 +516,7 @@
     "message": "Nachricht"
   },
   "dekusanDescription": {
-    "message": "DekuSan ist ein sicherer Identitätssafe für Dexon."
+    "message": "DekuSan ist ein sicherer Identitätssafe für DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -766,7 +766,7 @@
     "message": ""
   },
   "sendTokensAnywhere": {
-    "message": "Token zu einer beliebigen Person mit einem Dexonaccount senden"
+    "message": "Token zu einer beliebigen Person mit einem DEXON account senden"
   },
   "settings": {
     "message": "Einstellungen"

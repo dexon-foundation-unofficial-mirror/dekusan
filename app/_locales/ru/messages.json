@@ -75,7 +75,7 @@
     "message": "Сумма + газ"
   },
   "appDescription": {
-    "message": "Расширение браузера для Dexon",
+    "message": "Расширение браузера для DEXON",
     "description": "The description of the application"
   },
   "appName": {
@@ -510,13 +510,13 @@
     "message": "ключевая фраза может содержать только символы нижнего регистра"
   },
   "mainnet": {
-    "message": "Основная сеть Dexon"
+    "message": "Основная сеть DEXON"
   },
   "message": {
     "message": "Сообщение"
   },
   "dekusanDescription": {
-    "message": "DekuSan – безопасный кошелек для Dexon."
+    "message": "DekuSan – безопасный кошелек для DEXON."
   },
   "min": {
     "message": "Минимум"
@@ -692,7 +692,7 @@
     "message": "Current RPC"
   },
   "connectingToMainnet": {
-    "message": "Соединение с основной сетью Dexon"
+    "message": "Соединение с основной сетью DEXON"
   },
   "connectingToRopsten": {
     "message": "Соединение с тестовой сетью Ropsten"
@@ -766,7 +766,7 @@
     "message": "Поиск токенов"
   },
   "sendTokensAnywhere": {
-    "message": "Отправить токены любому, у кого есть счет Dexon"
+    "message": "Отправить токены любому, у кого есть счет DEXON"
   },
   "settings": {
     "message": "Настройки"
