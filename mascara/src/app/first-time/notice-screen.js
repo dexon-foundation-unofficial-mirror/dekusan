@@ -4,7 +4,6 @@ import Markdown from 'react-markdown'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import { compose } from 'recompose'
-import debounce from 'lodash.debounce'
 import { markNoticeRead } from '../../../../ui/app/actions'
 import { INITIALIZE_BACKUP_PHRASE_ROUTE } from '../../../../ui/app/routes'
 import LoadingScreen from './loading-screen'
@@ -57,15 +56,15 @@ class NoticeScreen extends Component {
       })
   }
 
-  onScroll = debounce(() => {
+  onScroll = () => {
     if (this.state.atBottom) return
 
     const target = document.querySelector('.tou__body')
     const {scrollTop, offsetHeight, scrollHeight} = target
-    const atBottom = scrollTop + offsetHeight >= scrollHeight
+    const atBottom = scrollTop + offsetHeight + 100 >= scrollHeight
 
     this.setState({atBottom: atBottom})
-  }, 25)
+  }
 
   render () {
     const {
