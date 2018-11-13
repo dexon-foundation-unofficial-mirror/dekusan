@@ -119,7 +119,7 @@ class Notice extends Component {
         h('div.markdown', {
           onScroll: (e) => {
             var object = e.currentTarget
-            if (object.offsetHeight + object.scrollTop + 100 >= object.scrollHeight) {
+            if ((object.offsetHeight * 2) + object.scrollTop >= object.scrollHeight) {
               this.setState({ disclaimerDisabled: false })
             }
           },
