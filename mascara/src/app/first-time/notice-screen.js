@@ -60,6 +60,9 @@ class NoticeScreen extends Component {
     if (this.state.atBottom) return
 
     const target = document.querySelector('.tou__body')
+
+    if (!target) return
+
     const {scrollTop, offsetHeight, scrollHeight} = target
     const atBottom = scrollTop + offsetHeight + 100 >= scrollHeight
 
