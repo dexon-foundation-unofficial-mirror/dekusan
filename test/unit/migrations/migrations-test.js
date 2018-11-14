@@ -85,11 +85,6 @@ describe('wallet1 is migrated successfully', () => {
 
       vault9 = ninthResult
       return migration10.migrate(ninthResult)
-    }).then((tenthResult) => {
-      assert.equal(tenthResult.data.shapeShiftTxList, null, 'old shapeShiftTxList should not exist')
-      assert.equal(tenthResult.data.ShapeShiftController.shapeShiftTxList[0].transaction, vault9.data.shapeShiftTxList[0].transaction)
-
-      return migration11.migrate(tenthResult)
     }).then((eleventhResult) => {
       assert.equal(eleventhResult.data.isDisclaimerConfirmed, null, 'isDisclaimerConfirmed should not exist')
       assert.equal(eleventhResult.data.TOSHash, null, 'TOSHash should not exist')

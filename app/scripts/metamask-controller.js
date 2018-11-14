@@ -398,6 +398,8 @@ module.exports = class MetamaskController extends EventEmitter {
       placeSeedWords: this.placeSeedWords.bind(this),
       verifySeedPhrase: nodeify(this.verifySeedPhrase, this),
       clearSeedWordCache: this.clearSeedWordCache.bind(this),
+      resetNetwork: nodeify(this.resetNetwork, this),
+      updateAllBalances: nodeify(this.updateAllBalances, this),
       resetAccount: nodeify(this.resetAccount, this),
       removeAccount: nodeify(this.removeAccount, this),
       importAccountWithStrategy: nodeify(this.importAccountWithStrategy, this),
@@ -554,6 +556,10 @@ module.exports = class MetamaskController extends EventEmitter {
       releaseLock()
       throw err
     }
+  }
+
+  async updateAllBalances () {
+    await this.balancesController.updateAllBalances()
   }
 
   /**
@@ -822,6 +828,10 @@ module.exports = class MetamaskController extends EventEmitter {
   clearSeedWordCache (cb) {
     this.preferencesController.setSeedWords(null)
     cb(null, this.preferencesController.getSelectedAddress())
+  }
+
+  async resetNetwork () {
+    this.networkController.resetConnection()
   }
 
   /**

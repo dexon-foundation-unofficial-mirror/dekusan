@@ -64,6 +64,10 @@ const {
 
 class App extends Component {
   componentWillMount () {
+    // TEMP: hard reset network everytime app launches
+    this.props.dispatch(actions.resetNetwork())
+    this.props.dispatch(actions.updateAllBalances())
+
     const { currentCurrency, setCurrentCurrencyToUSD } = this.props
 
     if (!currentCurrency) {

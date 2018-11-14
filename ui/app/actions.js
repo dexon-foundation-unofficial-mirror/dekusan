@@ -94,6 +94,8 @@ var actions = {
   unlockHardwareWalletAccount,
   NEW_ACCOUNT_SCREEN: 'NEW_ACCOUNT_SCREEN',
   navigateToNewAccountScreen,
+  resetNetwork,
+  updateAllBalances,
   resetAccount,
   removeAccount,
   showNewVaultSeed: showNewVaultSeed,
@@ -556,6 +558,42 @@ function requestRevealSeedWords (password) {
       dispatch(actions.displayWarning(error.message))
       throw new Error(error.message)
     }
+  }
+}
+
+function resetNetwork () {
+  return dispatch => {
+    dispatch(actions.showLoadingIndication())
+
+    return new Promise((resolve, reject) => {
+      background.resetNetwork((err) => {
+        dispatch(actions.hideLoadingIndication())
+        if (err) {
+          dispatch(actions.displayWarning(err.message))
+          return reject(err)
+        }
+
+        log.info('Network reset')
+      })
+    })
+  }
+}
+
+function updateAllBalances () {
+  return dispatch => {
+    dispatch(actions.showLoadingIndication())
+
+    return new Promise((resolve, reject) => {
+      background.updateAllBalances((err) => {
+        dispatch(actions.hideLoadingIndication())
+        if (err) {
+          dispatch(actions.displayWarning(err.message))
+          return reject(err)
+        }
+
+        log.info('All balances updated')
+      })
+    })
   }
 }
 
