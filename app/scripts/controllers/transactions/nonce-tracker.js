@@ -54,9 +54,9 @@ class NonceTracker {
       // evaluate multiple nextNonce strategies
       const nonceDetails = {}
       const networkNonceResult = await this._getNetworkNextNonce(address)
-      const highestLocallyConfirmed = this._getHighestLocallyConfirmed(address)
       const nextNetworkNonce = networkNonceResult.nonce
-      const highestSuggested = Math.max(nextNetworkNonce, highestLocallyConfirmed)
+      const highestLocallyConfirmed = nextNetworkNonce
+      const highestSuggested = nextNetworkNonce
 
       const pendingTxs = this.getPendingTransactions(address)
       const localNonceResult = this._getHighestContinuousFrom(pendingTxs, highestSuggested) || 0
@@ -69,7 +69,7 @@ class NonceTracker {
       nonceDetails.local = localNonceResult
       nonceDetails.network = networkNonceResult
 
-      const nextNonce = Math.max(networkNonceResult.nonce, localNonceResult.nonce)
+      const nextNonce = networkNonceResult.nonce
       assert(Number.isInteger(nextNonce), `nonce-tracker - nextNonce is not an integer - got: (${typeof nextNonce}) "${nextNonce}"`)
 
       // return nonce and release cb
