@@ -45,7 +45,6 @@
       "matches": [
         "https://*.dexscan.org/*",
         "https://*.dexon.org/*",
-        "https://deversi.netlify.com/*",
         "https://deversi.online/*",
         "http://localhost:3000/*",
         "http://localhost:8080/*"
