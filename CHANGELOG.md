@@ -1205,6 +1205,8 @@ Made seed word restoring BIP44 compatible.
 Added the ability to restore accounts from seed words.
 ## Current Master
 
+## 1.0.16 Tue Nov 27 2018
+
 ## 1.0.15 Thu Nov 22 2018
 
 ## 1.0.14 Wed Nov 21 2018
