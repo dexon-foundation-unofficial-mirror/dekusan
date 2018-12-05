@@ -7,7 +7,7 @@ const getPreferredLocales = extension.i18n ? promisify(
   { errorFirst: false }
 ) : async () => []
 
-const existingLocaleCodes = allLocales.map(locale => locale.code.toLowerCase().replace('_', '-'))
+const existingLocaleCodes = allLocales.map(locale => locale.code)
 
 /**
  * Returns a preferred language code, based on settings within the user's browser. If we have no translations for the
