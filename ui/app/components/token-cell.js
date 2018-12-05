@@ -156,7 +156,7 @@ function navigateTo (url) {
 
 function etherscanLinkFor (tokenAddress, address, network) {
   const prefix = prefixForNetwork(network)
-  return `https://${prefix}dexscan.org/address/${tokenAddress}?a=${address}`
+  return `https://${prefix}dexscan.app/address/${tokenAddress}?a=${address}`
 }
 
 function tokenFactoryFor (tokenAddress) {
