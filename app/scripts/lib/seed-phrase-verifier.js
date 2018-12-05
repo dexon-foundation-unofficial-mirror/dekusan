@@ -1,5 +1,6 @@
-const KeyringController = require('eth-keyring-controller')
+const KeyringController = require('@dexon-foundation/dexon-keyring-controller')
 const log = require('loglevel')
+const hdPathString = `m/44'/237'/0'/0`
 
 const seedPhraseVerifier = {
 
@@ -29,6 +30,7 @@ const seedPhraseVerifier = {
       const opts = {
         mnemonic: seedWords,
         numberOfAccounts: createdAccounts.length,
+        hdPath: hdPathString,
       }
 
       const keyring = new Keyring(opts)
