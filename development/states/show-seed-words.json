@@ -3,7 +3,7 @@
     "isInitialized": false,
     "isUnlocked": true,
     "currentDomain": "example.com",
-    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
+    "rpcTarget": "http://testnet.dexon.org:8545/",
     "identities": {
       "0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc": {
         "name": "Wallet 1",

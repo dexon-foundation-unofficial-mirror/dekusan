@@ -41,7 +41,7 @@ function getProvider (type) {
     case 'mainnet':
       return 'https://mainnet.infura.io/'
     case 'testnet':
-      return 'https://api-testnet.dexscan.app/v1/network/rpc'
+      return 'http://testnet.dexon.org:8545/'
     default:
       return 'http://localhost:8545/'
   }

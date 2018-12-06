@@ -3,7 +3,7 @@ module.exports = {
     'isInitialized': true,
     'isUnlocked': true,
     'featureFlags': {'betaUI': true, 'sendHexData': true},
-    'rpcTarget': 'https://api-testnet.dexon.org/v1/network/rpc/',
+    'rpcTarget': 'http://testnet.dexon.org:8545/',
     'identities': {
       '0xfdea65c8e26263f6d9a1b5de9555d2931a33b825': {
         'address': '0xfdea65c8e26263f6d9a1b5de9555d2931a33b825',

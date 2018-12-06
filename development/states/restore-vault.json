@@ -3,7 +3,7 @@
     "isInitialized": false,
     "isUnlocked": false,
     "currentDomain": "example.com",
-    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
+    "rpcTarget": "http://testnet.dexon.org:8545/",
     "identities": {},
     "unconfTxs": {},
     "currentCurrency": "USD",

@@ -2,7 +2,7 @@
   "dekusan": {
     "isInitialized": true,
     "isUnlocked": true,
-    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
+    "rpcTarget": "http://testnet.dexon.org:8545/",
     "identities": {
       "0x0abdd95cafcabec9b3e99dcd09fc4b441037cb80": {
         "name": "Wallet 1",

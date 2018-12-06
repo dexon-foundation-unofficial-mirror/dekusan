@@ -6,7 +6,7 @@
     "isInitialized": true,
     "isUnlocked": true,
     "currentDomain": "example.com",
-    "rpcTarget": "https://api-testnet.dexon.org/v1/network/rpc/",
+    "rpcTarget": "http://testnet.dexon.org:8545/",
     "shapeShiftTxList":[
       {
         "depositAddress": "1L8BJCR6KHkCiVceDqibt7zJscqPpH7pFw",
