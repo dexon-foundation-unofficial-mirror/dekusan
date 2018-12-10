@@ -199,9 +199,6 @@
   "depositEth": {
     "message": "I-deposito ang Eth"
   },
-  "depositDex": {
-    "message": "I-deposito ang DEX"
-  },
   "depositFiat": {
     "message": "I-deposito ang Fiat"
   },

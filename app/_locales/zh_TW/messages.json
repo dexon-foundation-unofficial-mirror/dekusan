@@ -1358,7 +1358,7 @@
     "message": "請查看此DEXON API請求。"
   },
   "providerRequestInfo": {
-    "message": "下面列出的域正在嘗試請求訪問DEXON API，以便它可以與以太坊區塊鏈進行交互。在批准DEXON訪問之前，請務必仔細檢查您是否在正確的站點上。"
+    "message": "下面列出的域正在嘗試請求訪問DEXON API，以便它可以與DEXON區塊鏈進行交互。在批准DEXON訪問之前，請務必仔細檢查您是否在正確的站點上。"
   },
   "symbolBetweenZeroTwelve": {
     "message": "代號必須介於 0 到 12 字元間."
@@ -1388,7 +1388,7 @@
     "message": ""
   },
   "connectRequest": {
-    "message": ""
+    "message": "連接請求"
   },
   "customGasSubTitle": {
     "message": ""
@@ -1540,9 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": ""
-  },
-  "depositDex": {
     "message": ""
   }
 }

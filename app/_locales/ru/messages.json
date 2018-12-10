@@ -1541,8 +1541,5 @@
   },
   "welcome": {
     "message": "Добро пожаловать в MetaMask"
-  },
-  "depositDex": {
-    "message": ""
   }
 }

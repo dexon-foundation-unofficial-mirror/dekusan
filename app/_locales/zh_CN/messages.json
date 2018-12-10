@@ -187,7 +187,7 @@
     "message": "精确小数点"
   },
   "defaultNetwork": {
-    "message": "默认以太坊交易网络为主网。"
+    "message": "默认DEXON交易网络为主网。"
   },
   "denExplainer": {
     "message": "你的 DEN 是存储在 DekuSan 中的已加密密码。"
@@ -465,7 +465,7 @@
     "message": "助记词只有小写字符"
   },
   "mainnet": {
-    "message": "以太坊主网络"
+    "message": "DEXON主网络"
   },
   "message": {
     "message": "消息"
@@ -647,7 +647,7 @@
     "message": "当前 RPC"
   },
   "connectingToMainnet": {
-    "message": "正在连接到以太坊主网"
+    "message": "正在连接到DEXON主网"
   },
   "connectingToRopsten": {
     "message": "正在连接到Ropsten测试网络"
@@ -715,13 +715,13 @@
     "message": "发送 代币"
   },
   "onlySendToDexonAddress": {
-    "message": "只发送 DEX 给一个以太坊地址"
+    "message": "只发送 DEX 给一个DEXON地址"
   },
   "searchTokens": {
     "message": "搜索代币"
   },
   "sendTokensAnywhere": {
-    "message": "将代币发送给拥有以太坊地址的任何人"
+    "message": "将代币发送给拥有DEXON地址的任何人"
   },
   "settings": {
     "message": "设置"
@@ -1358,7 +1358,7 @@
     "message": "请查看此DEXON API请求。"
   },
   "providerRequestInfo": {
-    "message": "下面列出的域正在尝试请求访问DEXON API，以便它可以与以太坊区块链进行交互。在批准DEXON访问之前，请务必仔细检查您是否在正确的站点上。"
+    "message": "下面列出的域正在尝试请求访问DEXON API，以便它可以与DEXON区块链进行交互。在批准DEXON访问之前，请务必仔细检查您是否在正确的站点上。"
   },
   "symbolBetweenZeroTwelve": {
     "message": "符号应该有0-12个字符."
@@ -1540,9 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": ""
-  },
-  "depositDex": {
     "message": ""
   }
 }
