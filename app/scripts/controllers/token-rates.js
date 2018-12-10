@@ -47,8 +47,6 @@ class TokenRatesController {
   }
 
   /**
-<<<<<<< HEAD
-=======
    * Fetches a token exchange rate by address
    *
    * @param {String} address - Token contract address
@@ -59,13 +57,12 @@ class TokenRatesController {
       const json = await response.json()
       return json && json.length ? json[0].averagePrice : 0
     } catch (error) {
-      warn(`DekuSan - TokenRatesController exchange rate fetch failed for ${address}.`, error)
+      log.warn(`DekuSan - TokenRatesController exchange rate fetch failed for ${address}.`, error)
       return 0
     }
   }
 
   /**
->>>>>>> Complete onboarding flow
    * @type {Number}
    */
   set interval (interval) {

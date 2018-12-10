@@ -98,18 +98,6 @@
   "clickCopy": {
     "message": "Kliknij żeby skopiować"
   },
-<<<<<<< HEAD
-  "clickToAdd": {
-    "message": "Przycisnij $1, aby dodać go do swojego konta"
-  },
-  "close": {
-    "message": "Zamknij"
-  },
-  "chromeRequiredForHardwareWallets": {
-    "message": "Żeby połączyć się z portfelem sprzętowym, należy uruchomić MetaMask z przeglądarką Google Chrome."
-  },
-=======
->>>>>>> Update translations
   "confirm": {
     "message": "Potwierdź"
   },
@@ -915,16 +903,8 @@
   "warning": {
     "message": "Uwaga"
   },
-<<<<<<< HEAD
-  "welcomeBack": {
-    "message": "Witaj z powrotem!"
-  },
-  "welcome": {
-    "message": "Witaj w MetaMask"
-=======
   "welcomeBeta": {
     "message": "Witaj w MetaMask Beta"
->>>>>>> Update translations
   },
   "whatsThis": {
     "message": "Co to jest?"

@@ -28,7 +28,7 @@ async function start () {
     const state = window.getCleanAppState()
     // remove unnecessary data
     delete state.localeMessages
-    delete state.metamask.recentBlocks
+    delete state.dekusan.recentBlocks
     // return state to be added to request
     return state
   }
@@ -46,29 +46,7 @@ async function start () {
   const container = document.getElementById('app-content')
   startPopup({ container, connectionStream }, (err, store) => {
     if (err) return displayCriticalError(err)
-<<<<<<< HEAD
-
-    const state = store.getState()
-    let betaUIState = Boolean(state.featureFlags && state.featureFlags.betaUI)
-    const useBetaCss = getShouldUseNewUi(state)
-
-    let css = useBetaCss ? NewMetaMaskUiCss() : OldMetaMaskUiCss()
-    let deleteInjectedCss = injectCss(css)
-    let newBetaUIState
-
-    store.subscribe(() => {
-      const state = store.getState()
-      newBetaUIState = state.metamask.featureFlags.betaUI
-      if (newBetaUIState !== betaUIState) {
-        deleteInjectedCss()
-        betaUIState = newBetaUIState
-        css = betaUIState ? NewMetaMaskUiCss() : OldMetaMaskUiCss()
-        deleteInjectedCss = injectCss(css)
-      }
-    })
-=======
     injectCss(NewMetaMaskUiCss())
->>>>>>> Complete onboarding flow
   })
 
 

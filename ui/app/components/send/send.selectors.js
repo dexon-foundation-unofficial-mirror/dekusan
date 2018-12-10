@@ -76,9 +76,9 @@ function accountsWithSendEtherInfoSelector (state) {
 //   const autoAddAccountsThreshold = 2
 //   const autoAddTokensThreshold = 1
 
-//   const numberOfTransactions = state.metamask.selectedAddressTxList.length
+//   const numberOfTransactions = state.dekusan.selectedAddressTxList.length
 //   const numberOfAccounts = Object.keys(getMetaMaskAccounts(state)).length
-//   const numberOfTokensAdded = state.metamask.tokens.length
+//   const numberOfTokensAdded = state.dekusan.tokens.length
 
 //   const userPassesThreshold = (numberOfTransactions > autoAddTransactionThreshold) &&
 //     (numberOfAccounts > autoAddAccountsThreshold) &&
@@ -118,7 +118,7 @@ function getCurrentCurrency (state) {
 }
 
 function getNativeCurrency (state) {
-  return state.metamask.nativeCurrency
+  return state.dekusan.nativeCurrency
 }
 
 function getCurrentNetwork (state) {

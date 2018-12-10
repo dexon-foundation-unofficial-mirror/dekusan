@@ -12,7 +12,7 @@ const FiatValue = require('./fiat-value.js')
 module.exports = connect(mapStateToProps)(EthBalanceComponent)
 function mapStateToProps (state) {
   return {
-    ticker: state.metamask.ticker,
+    ticker: state.dekusan.ticker,
   }
 }
 

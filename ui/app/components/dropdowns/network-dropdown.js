@@ -26,7 +26,7 @@ function mapStateToProps (state) {
     provider: state.dekusan.provider,
     frequentRpcListDetail: state.dekusan.frequentRpcListDetail || [],
     networkDropdownOpen: state.appState.networkDropdownOpen,
-    network: state.metamask.network,
+    network: state.dekusan.network,
   }
 }
 

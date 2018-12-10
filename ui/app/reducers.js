@@ -62,7 +62,7 @@ window.getCleanAppState = function () {
   state.version = global.platform.getVersion()
   state.browser = window.navigator.userAgent
   // ensure seedWords are not included
-  if (state.metamask) delete state.metamask.seedWords
+  if (state.dekusan) delete state.dekusan.seedWords
   if (state.appState.currentView) delete state.appState.currentView.seedWords
   return state
 }

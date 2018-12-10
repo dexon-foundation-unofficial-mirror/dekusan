@@ -45,7 +45,7 @@ proxyquire('../gas-modal-page-container.container.js', {
   '../../../ducks/confirm-transaction.duck': confirmTransactionActionSpies,
   '../../../ducks/send.duck': sendActionSpies,
   '../../../selectors.js': {
-    getCurrentEthBalance: (state) => state.metamask.balance || '0x0',
+    getCurrentEthBalance: (state) => state.dekusan.balance || '0x0',
   },
 })
 
@@ -138,7 +138,7 @@ describe('gas-modal-page-container container', () => {
         { mockState: baseMockState, expectedResult: baseExpectedResult, mockOwnProps: baseMockOwnProps },
         {
           mockState: Object.assign({}, baseMockState, {
-            metamask: { ...baseMockState.metamask, balance: '0xfffffffffffffffffffff' },
+            dekusan: { ...baseMockState.dekusan, balance: '0xfffffffffffffffffffff' },
           }),
           expectedResult: Object.assign({}, baseExpectedResult, { insufficientBalance: false }),
           mockOwnProps: baseMockOwnProps,

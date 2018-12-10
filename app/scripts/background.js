@@ -196,22 +196,14 @@ async function loadStateFromPersistence () {
       // we were able to recover (though it might be old)
       versionedData = diskStoreState
       const vaultStructure = getObjStructure(versionedData)
-<<<<<<< HEAD
-      sentry.captureMessage('MetaMask - Empty vault found - recovered from diskStore', {
-=======
-      raven.captureMessage('DekuSan - Empty vault found - recovered from diskStore', {
->>>>>>> Complete onboarding flow
+      sentry.captureMessage('DekuSan - Empty vault found - recovered from diskStore', {
         // "extra" key is required by Sentry
         extra: { vaultStructure },
       })
     } else {
       // unable to recover, clear state
       versionedData = migrator.generateInitialState(firstTimeState)
-<<<<<<< HEAD
-      sentry.captureMessage('MetaMask - Empty vault found - unable to recover')
-=======
-      raven.captureMessage('DekuSan - Empty vault found - unable to recover')
->>>>>>> Complete onboarding flow
+      sentry.captureMessage('DekuSan - Empty vault found - unable to recover')
     }
   }
 
@@ -364,15 +356,11 @@ function setupController (initState, initLangCode) {
     const processName = remotePort.name
     const isDekuSanInternalProcess = metamaskInternalProcessHash[processName]
 
-<<<<<<< HEAD
     if (metamaskBlacklistedPorts.includes(remotePort.name)) {
       return false
     }
 
-    if (isMetaMaskInternalProcess) {
-=======
     if (isDekuSanInternalProcess) {
->>>>>>> Complete onboarding flow
       const portStream = new PortStream(remotePort)
       // communication with popup
       controller.isClientOpen = true

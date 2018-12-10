@@ -7,7 +7,7 @@
 - [#5860](https://github.com/MetaMask/metamask-extension/pull/5860): Fixed an infinite spinner bug.
 - [#5875](https://github.com/MetaMask/metamask-extension/pull/5875): Update phishing warning copy
 - [#5863](https://github.com/MetaMask/metamask-extension/pull/5863): bugfix: normalize contract addresss when fetching exchange rates
-- [#5843](https://github.com/MetaMask/metamask-extension/pull/5843): Use selector for state.metamask.accounts in all cases.
+- [#5843](https://github.com/MetaMask/metamask-extension/pull/5843): Use selector for state.dekusan.accounts in all cases.
 
 ## 5.0.4 Thu Nov 29 2018
 

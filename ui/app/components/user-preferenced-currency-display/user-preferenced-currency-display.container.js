@@ -8,7 +8,7 @@ const mapStateToProps = (state, ownProps) => {
 
   return {
     useNativeCurrencyAsPrimaryCurrency,
-    nativeCurrency: state.metamask.nativeCurrency,
+    nativeCurrency: state.dekusan.nativeCurrency,
   }
 }
 

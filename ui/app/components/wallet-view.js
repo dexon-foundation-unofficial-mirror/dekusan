@@ -37,17 +37,10 @@ function mapStateToProps (state) {
   return {
     network: state.dekusan.network,
     sidebarOpen: state.appState.sidebar.isOpen,
-<<<<<<< HEAD
-    identities: state.metamask.identities,
-    accounts: selectors.getMetaMaskAccounts(state),
-    tokens: state.metamask.tokens,
-    keyrings: state.metamask.keyrings,
-=======
     identities: state.dekusan.identities,
-    accounts: state.dekusan.accounts,
+    accounts: selectors.getMetaMaskAccounts(state),
     tokens: state.dekusan.tokens,
     keyrings: state.dekusan.keyrings,
->>>>>>> Fix UI bugs
     selectedAddress: selectors.getSelectedAddress(state),
     selectedAccount: selectors.getSelectedAccount(state),
     selectedTokenAddress: state.dekusan.selectedTokenAddress,

@@ -473,7 +473,7 @@ describe('App State', () => {
       },
     }
     const oldState = {
-      metamask: {...metamaskState.metamask, ...txs},
+      dekusan: { ...metamaskState.dekusan, ...txs},
     }
     const state = reduceApp(oldState, {
       type: actions.SHOW_CONF_TX_PAGE,
