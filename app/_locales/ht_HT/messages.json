@@ -1,43 +1,4 @@
 {
-  "privacyMode": {
-    "message": "Mòd Privacy"
-  },
-  "privacyModeDescription": {
-    "message": "Sou sit entènèt yo dwe mande aksè pou wè enfòmasyon kont ou."
-  },
-  "exposeAccounts": {
-    "message": "Ekspoze Kont"
-  },
-  "exposeDescription": {
-    "message": "Ekspoze kont sou sitwèb aktyèl la. Itil pou dapps eritaj."
-  },
-  "confirmExpose": {
-    "message": "Èske ou sèten ou vle ekspoze kont ou sou sit entènèt aktyèl la?"
-  },
-  "confirmClear": {
-    "message": "Èske ou sèten ou vle klè sitwèb apwouve?"
-  },
-  "clearApprovalDataSuccess": {
-    "message": "Done sou sit wèb apwouve yo te klarifye avèk siksè."
-  },
-  "approvalData": {
-    "message": "Done sou vi prive"
-  },
-  "approvalDataDescription": {
-    "message": "Done sou vi prive klè pou tout sit entènèt yo dwe mande aksè pou wè enfòmasyon kont ankò."
-  },
-  "clearApprovalData": {
-    "message": "Klè Done sou vi prive"
-  },
-  "providerAPIRequest": {
-    "message": "Ethereum API Mande"
-  },
-  "reviewProviderRequest": {
-    "message": "Tanpri revize sa API demann Ethereum."
-  },
-  "providerRequestInfo": {
-    "message": "Domèn ki nan lis anba a ap mande pou jwenn aksè a blòkchou Ethereum ak pou wè kont ou ye kounye a. Toujou double tcheke ke ou sou sit ki kòrèk la anvan apwouve aksè."
-  },
   "accept": {
     "message": "Aksepte"
   },
@@ -302,7 +263,7 @@
     "message": "Modpas Pa Koresponn ak"
   },
   "dexscanView": {
-    "message": "Gade kont sou DEXSCAN"
+    "message": "Gade kont sou DexScan"
   },
   "exchangeRate": {
     "message": "Chanje to"
@@ -1343,7 +1304,7 @@
     "message": ""
   },
   "viewOnDexScan": {
-    "message": "Wè sou DEXSCAN"
+    "message": "Wè sou DexScan"
   },
   "welcomeBack": {
     "message": "Bon retou!"
@@ -1358,6 +1319,230 @@
     "message": "Seed fraz prive ou a"
   },
   "connectingToRinkeby": {
+    "message": ""
+  },
+  "privacyMode": {
+    "message": "Mòd Privacy"
+  },
+  "privacyModeDescription": {
+    "message": "Sou sit entènèt yo dwe mande aksè pou wè enfòmasyon kont ou."
+  },
+  "exposeAccounts": {
+    "message": "Ekspoze Kont"
+  },
+  "exposeDescription": {
+    "message": "Ekspoze kont sou sitwèb aktyèl la. Itil pou dapps eritaj."
+  },
+  "confirmExpose": {
+    "message": "Èske ou sèten ou vle ekspoze kont ou sou sit entènèt aktyèl la?"
+  },
+  "confirmClear": {
+    "message": "Èske ou sèten ou vle klè sitwèb apwouve?"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "Done sou sit wèb apwouve yo te klarifye avèk siksè."
+  },
+  "approvalData": {
+    "message": "Done sou vi prive"
+  },
+  "approvalDataDescription": {
+    "message": "Done sou vi prive klè pou tout sit entènèt yo dwe mande aksè pou wè enfòmasyon kont ankò."
+  },
+  "clearApprovalData": {
+    "message": "Klè Done sou vi prive"
+  },
+  "providerAPIRequest": {
+    "message": "DEXON API Mande"
+  },
+  "reviewProviderRequest": {
+    "message": "Tanpri revize sa API demann DEXON."
+  },
+  "providerRequestInfo": {
+    "message": "Domèn ki nan lis anba a ap mande pou jwenn aksè a blòkchou DEXON ak pou wè kont ou ye kounye a. Toujou double tcheke ke ou sou sit ki kòrèk la anvan apwouve aksè."
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": ""
+  },
+  "contractInteraction": {
+    "message": ""
+  },
+  "providerRequest": {
+    "message": ""
+  },
+  "advancedOptions": {
+    "message": ""
+  },
+  "advanced": {
+    "message": ""
+  },
+  "amountPlusTxFee": {
+    "message": ""
+  },
+  "average": {
+    "message": ""
+  },
+  "basic": {
+    "message": ""
+  },
+  "cancelled": {
+    "message": ""
+  },
+  "connectRequest": {
+    "message": ""
+  },
+  "customGasSubTitle": {
+    "message": ""
+  },
+  "depositEth": {
+    "message": ""
+  },
+  "depositEther": {
+    "message": ""
+  },
+  "directDepositEther": {
+    "message": ""
+  },
+  "directDepositEtherExplainer": {
+    "message": ""
+  },
+  "eth": {
+    "message": ""
+  },
+  "etherscanView": {
+    "message": ""
+  },
+  "fast": {
+    "message": ""
+  },
+  "fastest": {
+    "message": ""
+  },
+  "feeChartTitle": {
+    "message": ""
+  },
+  "gasPriceNoDenom": {
+    "message": ""
+  },
+  "getEther": {
+    "message": ""
+  },
+  "getEtherFromFaucet": {
+    "message": "",
+    "description": ""
+  },
+  "holdEther": {
+    "message": ""
+  },
+  "metamaskDescription": {
+    "message": ""
+  },
+  "metamaskSeedWords": {
+    "message": ""
+  },
+  "metamaskVersion": {
+    "message": ""
+  },
+  "minutesShorthand": {
+    "message": ""
+  },
+  "needEtherInWallet": {
+    "message": ""
+  },
+  "negativeETH": {
+    "message": ""
+  },
+  "newNetwork": {
+    "message": ""
+  },
+  "rpcURL": {
+    "message": ""
+  },
+  "showAdvancedOptions": {
+    "message": ""
+  },
+  "hideAdvancedOptions": {
+    "message": ""
+  },
+  "optionalChainId": {
+    "message": ""
+  },
+  "optionalSymbol": {
+    "message": ""
+  },
+  "optionalNickname": {
+    "message": ""
+  },
+  "newTotal": {
+    "message": ""
+  },
+  "newTransactionFee": {
+    "message": ""
+  },
+  "ofTextNofM": {
+    "message": ""
+  },
+  "onlySendToEtherAddress": {
+    "message": ""
+  },
+  "originalTotal": {
+    "message": ""
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": ""
+  },
+  "slow": {
+    "message": ""
+  },
+  "secondsShorthand": {
+    "message": ""
+  },
+  "sendAmount": {
+    "message": ""
+  },
+  "sendETH": {
+    "message": ""
+  },
+  "sentEther": {
+    "message": ""
+  },
+  "speedUpCancellation": {
+    "message": ""
+  },
+  "speedUpTransaction": {
+    "message": ""
+  },
+  "toETHviaShapeShift": {
+    "message": "",
+    "description": ""
+  },
+  "transactionResubmitted": {
+    "message": ""
+  },
+  "transactionErrored": {
+    "message": ""
+  },
+  "transactionCancelAttempted": {
+    "message": ""
+  },
+  "transactionCancelSuccess": {
+    "message": ""
+  },
+  "transactionErrorNoContract": {
+    "message": ""
+  },
+  "transactionFee": {
+    "message": ""
+  },
+  "transactionTime": {
+    "message": ""
+  },
+  "viewOnEtherscan": {
+    "message": ""
+  },
+  "welcome": {
+    "message": ""
+  },
+  "depositDex": {
     "message": ""
   }
 }

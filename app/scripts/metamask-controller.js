@@ -870,7 +870,7 @@ module.exports = class MetamaskController extends EventEmitter {
   /**
    * Imports an account with the specified import strategy.
    * These are defined in app/scripts/account-import-strategies
-   * Each strategy represents a different way of serializing an Ethereum key pair.
+   * Each strategy represents a different way of serializing an DEXON key pair.
    *
    * @param  {string} strategy - A unique identifier for an account import strategy.
    * @param  {any} args - The data required by that strategy to import an account.
@@ -1476,7 +1476,7 @@ module.exports = class MetamaskController extends EventEmitter {
       this.currencyController.setCurrentCurrency(currencyCode)
       this.currencyController.updateConversionRate()
       const data = {
-        nativeCurrency: ticker || 'ETH',
+        nativeCurrency: ticker || 'DEX',
         conversionRate: this.currencyController.getConversionRate(),
         currentCurrency: this.currencyController.getCurrentCurrency(),
         conversionDate: this.currencyController.getConversionDate(),
@@ -1514,13 +1514,13 @@ module.exports = class MetamaskController extends EventEmitter {
 
   /**
    * A method for selecting a custom URL for an ethereum RPC provider.
-   * @param {string} rpcTarget - A URL for a valid Ethereum RPC API.
+   * @param {string} rpcTarget - A URL for a valid DEXON RPC API.
    * @param {number} chainId - The chainId of the selected network.
    * @param {string} ticker - The ticker symbol of the selected network.
    * @param {string} nickname - Optional nickname of the selected network.
    * @returns {Promise<String>} - The RPC Target URL confirmed.
    */
-  async setCustomRpc (rpcTarget, chainId, ticker = 'ETH', nickname = '') {
+  async setCustomRpc(rpcTarget, chainId, ticker = 'DEX', nickname = '') {
     this.networkController.setRpcTarget(rpcTarget, chainId, ticker, nickname)
     await this.preferencesController.addToFrequentRpcList(rpcTarget, chainId, ticker, nickname)
     return rpcTarget

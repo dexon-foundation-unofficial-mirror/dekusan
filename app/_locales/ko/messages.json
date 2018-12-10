@@ -1,46 +1,4 @@
 {
-  "privacyMode": {
-    "message": "개인 정보 보호 모드"
-  },
-  "privacyModeDescription": {
-    "message": "웹 사이트는 계정 정보를 볼 수있는 액세스 권한을 요청해야합니다."
-  },
-  "exposeAccounts": {
-    "message": "계정 노출"
-  },
-  "exposeDescription": {
-    "message": "계정을 현재 웹 사이트에 노출하십시오. 기존 dapps에 유용합니다."
-  },
-  "confirmExpose": {
-    "message": "계정을 현재 웹 사이트에 공개 하시겠습니까?"
-  },
-  "confirmClear": {
-    "message": "승인 된 웹 사이트를 삭제 하시겠습니까?"
-  },
-  "clearApprovalDataSuccess": {
-    "message": "승인 된 웹 사이트 데이터가 성공적으로 삭제되었습니다."
-  },
-  "approvalData": {
-    "message": "승인 데이터"
-  },
-  "approvalDataDescription": {
-    "message": "승인 된 웹 사이트 데이터를 삭제하여 모든 사이트에서 승인을 다시 요청해야합니다."
-  },
-  "clearApprovalData": {
-    "message": "승인 데이터 삭제"
-  },
-  "reject": {
-    "message": "받지 않다"
-  },
-  "providerAPIRequest": {
-    "message": "Web3 API 요청"
-  },
-  "reviewProviderRequest": {
-    "message": "이 Ethereum API 요청을 검토하십시오."
-  },
-  "providerRequestInfo": {
-    "message": "아래 나열된 도메인은 Web3 API에 대한 액세스를 요청하여 Ethereum 블록 체인과 상호 작용할 수 있습니다. Ethereum 액세스를 승인하기 전에 항상 올바른 사이트에 있는지 다시 확인하십시오."
-  },
   "accept": {
     "message": "수락"
   },
@@ -822,8 +780,8 @@
   "supportCenter": {
     "message": "지원 센터에 방문하기"
   },
-  "symbolBetweenZeroTwelve": {
-    "message": "심볼은 0에서 12개 사이의 문자여야 합니다."
+  "symbolBetweenZeroTen": {
+    "message": "심볼은 0에서 10개 사이의 문자여야 합니다."
   },
   "takesTooLong": {
     "message": "너무 오래 걸리나요?"
@@ -939,7 +897,7 @@
   "warning": {
     "message": "경고"
   },
-  "welcome": {
+  "welcomeBeta": {
     "message": "메타마스크 Beta에 오신 것을 환영합니다"
   },
   "whatsThis": {
@@ -1362,5 +1320,229 @@
   },
   "connectingToRinkeby": {
     "message": "Rinkeby 테스트넷 접속 중"
+  },
+  "privacyMode": {
+    "message": "개인 정보 보호 모드"
+  },
+  "privacyModeDescription": {
+    "message": "웹 사이트는 계정 정보를 볼 수있는 액세스 권한을 요청해야합니다."
+  },
+  "exposeAccounts": {
+    "message": "계정 노출"
+  },
+  "exposeDescription": {
+    "message": "계정을 현재 웹 사이트에 노출하십시오. 기존 dapps에 유용합니다."
+  },
+  "confirmExpose": {
+    "message": "계정을 현재 웹 사이트에 공개 하시겠습니까?"
+  },
+  "confirmClear": {
+    "message": "승인 된 웹 사이트를 삭제 하시겠습니까?"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "승인 된 웹 사이트 데이터가 성공적으로 삭제되었습니다."
+  },
+  "approvalData": {
+    "message": "승인 데이터"
+  },
+  "approvalDataDescription": {
+    "message": "승인 된 웹 사이트 데이터를 삭제하여 모든 사이트에서 승인을 다시 요청해야합니다."
+  },
+  "clearApprovalData": {
+    "message": "승인 데이터 삭제"
+  },
+  "providerAPIRequest": {
+    "message": "Web3 API 요청"
+  },
+  "reviewProviderRequest": {
+    "message": "이 DEXON API 요청을 검토하십시오."
+  },
+  "providerRequestInfo": {
+    "message": "아래 나열된 도메인은 Web3 API에 대한 액세스를 요청하여 DEXON 블록 체인과 상호 작용할 수 있습니다. DEXON 액세스를 승인하기 전에 항상 올바른 사이트에 있는지 다시 확인하십시오."
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "심볼은 0에서 12개 사이의 문자여야 합니다."
+  },
+  "contractInteraction": {
+    "message": ""
+  },
+  "providerRequest": {
+    "message": ""
+  },
+  "advancedOptions": {
+    "message": ""
+  },
+  "advanced": {
+    "message": ""
+  },
+  "amountPlusTxFee": {
+    "message": ""
+  },
+  "average": {
+    "message": ""
+  },
+  "basic": {
+    "message": ""
+  },
+  "cancelled": {
+    "message": ""
+  },
+  "connectRequest": {
+    "message": ""
+  },
+  "customGasSubTitle": {
+    "message": ""
+  },
+  "depositEth": {
+    "message": ""
+  },
+  "depositEther": {
+    "message": ""
+  },
+  "directDepositEther": {
+    "message": ""
+  },
+  "directDepositEtherExplainer": {
+    "message": ""
+  },
+  "eth": {
+    "message": ""
+  },
+  "etherscanView": {
+    "message": ""
+  },
+  "fast": {
+    "message": ""
+  },
+  "fastest": {
+    "message": ""
+  },
+  "feeChartTitle": {
+    "message": ""
+  },
+  "gasPriceNoDenom": {
+    "message": ""
+  },
+  "getEther": {
+    "message": ""
+  },
+  "getEtherFromFaucet": {
+    "message": "",
+    "description": ""
+  },
+  "holdEther": {
+    "message": ""
+  },
+  "metamaskDescription": {
+    "message": ""
+  },
+  "metamaskSeedWords": {
+    "message": ""
+  },
+  "metamaskVersion": {
+    "message": ""
+  },
+  "minutesShorthand": {
+    "message": ""
+  },
+  "needEtherInWallet": {
+    "message": ""
+  },
+  "negativeETH": {
+    "message": ""
+  },
+  "newNetwork": {
+    "message": ""
+  },
+  "rpcURL": {
+    "message": ""
+  },
+  "showAdvancedOptions": {
+    "message": ""
+  },
+  "hideAdvancedOptions": {
+    "message": ""
+  },
+  "optionalChainId": {
+    "message": ""
+  },
+  "optionalSymbol": {
+    "message": ""
+  },
+  "optionalNickname": {
+    "message": ""
+  },
+  "newTotal": {
+    "message": ""
+  },
+  "newTransactionFee": {
+    "message": ""
+  },
+  "ofTextNofM": {
+    "message": ""
+  },
+  "onlySendToEtherAddress": {
+    "message": ""
+  },
+  "originalTotal": {
+    "message": ""
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": ""
+  },
+  "slow": {
+    "message": ""
+  },
+  "secondsShorthand": {
+    "message": ""
+  },
+  "sendAmount": {
+    "message": ""
+  },
+  "sendETH": {
+    "message": ""
+  },
+  "sentEther": {
+    "message": ""
+  },
+  "speedUpCancellation": {
+    "message": ""
+  },
+  "speedUpTransaction": {
+    "message": ""
+  },
+  "toETHviaShapeShift": {
+    "message": "",
+    "description": ""
+  },
+  "transactionResubmitted": {
+    "message": ""
+  },
+  "transactionErrored": {
+    "message": ""
+  },
+  "transactionCancelAttempted": {
+    "message": ""
+  },
+  "transactionCancelSuccess": {
+    "message": ""
+  },
+  "transactionErrorNoContract": {
+    "message": ""
+  },
+  "transactionFee": {
+    "message": ""
+  },
+  "transactionTime": {
+    "message": ""
+  },
+  "viewOnEtherscan": {
+    "message": ""
+  },
+  "welcome": {
+    "message": "메타마스크 Beta에 오신 것을 환영합니다"
+  },
+  "depositDex": {
+    "message": ""
   }
 }

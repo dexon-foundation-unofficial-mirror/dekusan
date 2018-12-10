@@ -124,7 +124,7 @@ function listenForProviderRequest () {
   window.addEventListener('message', ({ source, data }) => {
     if (source !== window || !data || !data.type) { return }
     switch (data.type) {
-      case 'ETHEREUM_ENABLE_PROVIDER':
+      case 'DEXON_ENABLE_PROVIDER':
         extension.runtime.sendMessage({
           action: 'init-provider-request',
           force: data.force,
@@ -133,13 +133,13 @@ function listenForProviderRequest () {
           siteTitle: getSiteName(source),
         })
         break
-      case 'ETHEREUM_IS_APPROVED':
+      case 'DEXON_IS_APPROVED':
         extension.runtime.sendMessage({
           action: 'init-is-approved',
           origin: source.location.hostname,
         })
         break
-      case 'METAMASK_IS_UNLOCKED':
+      case 'DEKUSAN_IS_UNLOCKED':
         extension.runtime.sendMessage({
           action: 'init-is-unlocked',
         })
@@ -151,14 +151,14 @@ function listenForProviderRequest () {
     switch (action) {
       case 'approve-provider-request':
         isEnabled = true
-        window.postMessage({ type: 'ethereumprovider', selectedAddress }, '*')
+        window.postMessage({ type: 'dexonprovider', selectedAddress }, '*')
         break
       case 'approve-legacy-provider-request':
         isEnabled = true
-        window.postMessage({ type: 'ethereumproviderlegacy', selectedAddress }, '*')
+        window.postMessage({ type: 'dexonproviderlegacy', selectedAddress }, '*')
         break
       case 'reject-provider-request':
-        window.postMessage({ type: 'ethereumprovider', error: 'User rejected provider access' }, '*')
+        window.postMessage({ type: 'dexonprovider', error: 'User rejected provider access' }, '*')
         break
       case 'answer-is-approved':
         window.postMessage({ type: 'ethereumisapproved', isApproved, caching }, '*')
@@ -168,7 +168,7 @@ function listenForProviderRequest () {
         break
       case 'metamask-set-locked':
         isEnabled = false
-        window.postMessage({ type: 'metamasksetlocked' }, '*')
+        window.postMessage({ type: 'dekusansetlocked' }, '*')
         break
     }
   })

@@ -39,10 +39,10 @@
     "message": "Kahilingan sa Web3 API"
   },
   "reviewProviderRequest": {
-    "message": "Mangyaring suriin ang kahilingan sa Ethereum API na ito."
+    "message": "Mangyaring suriin ang kahilingan sa DEXON API na ito."
   },
   "providerRequestInfo": {
-    "message": "Ang domain na nakalista sa ibaba ay sinusubukang humiling ng access sa Ethereum API upang maaari itong makipag-ugnayan sa Ethereum blockchain. Laging i-double check na ikaw ay nasa tamang site bago aprubahan ang Ethereum access."
+    "message": "Ang domain na nakalista sa ibaba ay sinusubukang humiling ng access sa DEXON API upang maaari itong makipag-ugnayan sa DEXON blockchain. Laging i-double check na ikaw ay nasa tamang site bago aprubahan ang DEXON access."
   },
   "accept": {
     "message": "Tanggapin"

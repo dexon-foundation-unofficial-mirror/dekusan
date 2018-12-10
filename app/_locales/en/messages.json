@@ -14,9 +14,6 @@
   "address": {
     "message": "Address"
   },
-  "advancedOptions": {
-    "message": "Advanced Options"
-  },
   "addCustomToken": {
     "message": "Add custom token"
   },
@@ -31,9 +28,6 @@
   },
   "amountPlusGas": {
     "message": "Amount + Gas"
-  },
-  "amountPlusTxFee": {
-    "message": "Amount + TX Fee"
   },
   "appDescription": {
     "message": "DEXON Browser Extension",
@@ -55,9 +49,6 @@
   "available": {
     "message": "Available"
   },
-  "average": {
-    "message": "Average"
-  },
   "back": {
     "message": "Back"
   },
@@ -69,9 +60,6 @@
   },
   "balanceIsInsufficientGas": {
     "message": "Insufficient balance for current gas total"
-  },
-  "basic": {
-    "message": "Basic"
   },
   "beta": {
     "message": "BETA"
@@ -96,7 +84,7 @@
     "message": "Buy on Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase is the world’s most popular way to buy and sell Bitcoin, Ethereum, and Litecoin."
+    "message": "Coinbase is the world’s most popular way to buy and sell Bitcoin, Dexon, and Litecoin."
   },
   "ok": {
     "message": "Ok"
@@ -182,9 +170,6 @@
   },
   "customGas": {
     "message": "Customize Gas"
-  },
-  "customGasSubTitle": {
-    "message": "Increasing fee may decrease processing times, but it is not guaranteed."
   },
   "customToken": {
     "message": "Custom Token"
@@ -278,7 +263,7 @@
     "message": "Passwords Don't Match"
   },
   "dexscanView": {
-    "message": "View account on DEXSCAN"
+    "message": "View account on DEXscan"
   },
   "exchangeRate": {
     "message": "Exchange Rate"
@@ -291,15 +276,6 @@
   },
   "failed": {
     "message": "Failed"
-  },
-  "fast": {
-    "message": "Fast"
-  },
-  "fastest": {
-    "message": "Fastest"
-  },
-  "feeChartTitle": {
-    "message": "Live Transaction Fee Predictions"
   },
   "fiat": {
     "message": "Fiat",
@@ -345,9 +321,6 @@
   },
   "gasPrice": {
     "message": "Gas Price (GWEI)"
-  },
-  "gasPriceNoDenom": {
-    "message": "Gas Price"
   },
   "gasPriceCalculation": {
     "message": "We calculate the suggested gas prices based on network success rates."
@@ -498,13 +471,10 @@
     "message": "Message"
   },
   "dekusanDescription": {
-    "message": "DekuSan is a secure identity vault for DEXON."
+    "message": "DekuSan is a secure identity vault for Dexon."
   },
   "min": {
     "message": "Minimum"
-  },
-  "minutesShorthand": {
-    "message": "Min"
   },
   "myAccounts": {
     "message": "My Accounts"
@@ -545,32 +515,8 @@
   "newRecipient": {
     "message": "New Recipient"
   },
-  "newNetwork": {
-    "message": "New Network"
-  },
-  "rpcURL": {
+  "newRPC": {
     "message": "New RPC URL"
-  },
-  "showAdvancedOptions": {
-    "message": "Show Advanced Options"
-  },
-  "hideAdvancedOptions": {
-    "message": "Hide Advanced Options"
-  },
-  "optionalChainId": {
-    "message": "ChainID (optional)"
-  },
-  "optionalSymbol": {
-    "message": "Symbol (optional)"
-  },
-  "optionalNickname": {
-    "message": "Nickname (optional)"
-  },
-  "newTotal": {
-    "message": "New Total"
-  },
-  "newTransactionFee": {
-    "message": "New Transaction Fee"
   },
   "next": {
     "message": "Next"
@@ -589,9 +535,6 @@
   },
   "notStarted": {
     "message": "Not Started"
-  },
-  "ofTextNofM": {
-    "message": "of"
   },
   "oldUI": {
     "message": "Old UI"
@@ -837,8 +780,8 @@
   "supportCenter": {
     "message": "Visit our Support Center"
   },
-  "symbolBetweenZeroTwelve": {
-    "message": "Symbol must be between 0 and 12 characters."
+  "symbolBetweenZeroTen": {
+    "message": "Symbol must be between 0 and 10 characters."
   },
   "takesTooLong": {
     "message": "Taking too long?"
@@ -885,12 +828,6 @@
   },
   "transactionError": {
     "message": "Transaction Error. Exception thrown in contract code."
-  },
-  "transactionErrorNoContract": {
-    "message": "Trying to call a function on a non-contract address."
-  },
-  "transactionFee": {
-    "message": "Transaction Fee"
   },
   "transactionMemo": {
     "message": "Transaction memo (optional)"
@@ -1367,7 +1304,7 @@
     "message": "Updated $1"
   },
   "viewOnDexScan": {
-    "message": "View on DEXSCAN"
+    "message": "View on DEXscan"
   },
   "welcomeBack": {
     "message": "Welcome Back!"
@@ -1382,6 +1319,230 @@
     "message": "Your private seed phrase"
   },
   "connectingToRinkeby": {
+    "message": ""
+  },
+  "privacyMode": {
+    "message": "Privacy Mode"
+  },
+  "privacyModeDescription": {
+    "message": "Websites must request access to view your account information."
+  },
+  "exposeAccounts": {
+    "message": "Expose Accounts"
+  },
+  "exposeDescription": {
+    "message": "Expose accounts to the current website. Useful for legacy dapps."
+  },
+  "confirmExpose": {
+    "message": "Are you sure you want to expose your accounts to the current website?"
+  },
+  "confirmClear": {
+    "message": "Are you sure you want to clear approved websites?"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "Approved website data cleared successfully."
+  },
+  "approvalData": {
+    "message": "Privacy Data"
+  },
+  "approvalDataDescription": {
+    "message": "Clear privacy data so all websites must request access to view account information again."
+  },
+  "clearApprovalData": {
+    "message": "Clear Privacy Data"
+  },
+  "providerAPIRequest": {
+    "message": ""
+  },
+  "reviewProviderRequest": {
+    "message": ""
+  },
+  "providerRequestInfo": {
+    "message": "This site is requesting access to view your current account address. Always make sure you trust the sites you interact with."
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Symbol must be between 0 and 12 characters."
+  },
+  "contractInteraction": {
+    "message": "Contract Interaction"
+  },
+  "providerRequest": {
+    "message": "$1 would like to connect to your account"
+  },
+  "advancedOptions": {
+    "message": "Advanced Options"
+  },
+  "advanced": {
+    "message": "Advanced"
+  },
+  "amountPlusTxFee": {
+    "message": "Amount + TX Fee"
+  },
+  "average": {
+    "message": "Average"
+  },
+  "basic": {
+    "message": "Basic"
+  },
+  "cancelled": {
+    "message": "Cancelled"
+  },
+  "connectRequest": {
+    "message": "Connect Request"
+  },
+  "customGasSubTitle": {
+    "message": "Increasing fee may decrease processing times, but it is not guaranteed."
+  },
+  "depositEth": {
+    "message": "Deposit Eth"
+  },
+  "depositEther": {
+    "message": "Deposit Ether"
+  },
+  "directDepositEther": {
+    "message": "Directly Deposit Ether"
+  },
+  "directDepositEtherExplainer": {
+    "message": "If you already have some Ether, the quickest way to get Ether in your new wallet by direct deposit."
+  },
+  "eth": {
+    "message": "ETH"
+  },
+  "etherscanView": {
+    "message": "View account on Etherscan"
+  },
+  "fast": {
+    "message": "Fast"
+  },
+  "fastest": {
+    "message": "Fastest"
+  },
+  "feeChartTitle": {
+    "message": "Live Transaction Fee Predictions"
+  },
+  "gasPriceNoDenom": {
+    "message": "Gas Price"
+  },
+  "getEther": {
+    "message": "Get Ether"
+  },
+  "getEtherFromFaucet": {
+    "message": "Get Ether from a faucet for the $1",
+    "description": "Displays network name for Ether faucet"
+  },
+  "holdEther": {
+    "message": "It allows you to hold ether & tokens, and serves as your bridge to decentralized applications."
+  },
+  "metamaskDescription": {
+    "message": "MetaMask is a secure identity vault for DEXON."
+  },
+  "metamaskSeedWords": {
+    "message": "MetaMask Seed Words"
+  },
+  "metamaskVersion": {
+    "message": "MetaMask Version"
+  },
+  "minutesShorthand": {
+    "message": "Min"
+  },
+  "needEtherInWallet": {
+    "message": "To interact with decentralized applications using MetaMask, you’ll need Ether in your wallet."
+  },
+  "negativeETH": {
+    "message": "Can not send negative amounts of ETH."
+  },
+  "newNetwork": {
+    "message": "New Network"
+  },
+  "rpcURL": {
+    "message": "New RPC URL"
+  },
+  "showAdvancedOptions": {
+    "message": "Show Advanced Options"
+  },
+  "hideAdvancedOptions": {
+    "message": "Hide Advanced Options"
+  },
+  "optionalChainId": {
+    "message": "ChainID (optional)"
+  },
+  "optionalSymbol": {
+    "message": "Symbol (optional)"
+  },
+  "optionalNickname": {
+    "message": "Nickname (optional)"
+  },
+  "newTotal": {
+    "message": "New Total"
+  },
+  "newTransactionFee": {
+    "message": "New Transaction Fee"
+  },
+  "ofTextNofM": {
+    "message": "of"
+  },
+  "onlySendToEtherAddress": {
+    "message": "Only send ETH to an DEXON address."
+  },
+  "originalTotal": {
+    "message": "Original Total"
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": "requests waiting to be acknowledged"
+  },
+  "slow": {
+    "message": "Slow"
+  },
+  "secondsShorthand": {
+    "message": "Sec"
+  },
+  "sendAmount": {
+    "message": "Send Amount"
+  },
+  "sendETH": {
+    "message": "Send ETH"
+  },
+  "sentEther": {
+    "message": "sent ether"
+  },
+  "speedUpCancellation": {
+    "message": "Speed up this cancellation"
+  },
+  "speedUpTransaction": {
+    "message": "Speed up this transaction"
+  },
+  "toETHviaShapeShift": {
+    "message": "$1 to ETH via ShapeShift",
+    "description": "system will fill in deposit type in start of message"
+  },
+  "transactionResubmitted": {
+    "message": "Transaction resubmitted with gas fee increased to $1 at $2"
+  },
+  "transactionErrored": {
+    "message": "Transaction encountered an error."
+  },
+  "transactionCancelAttempted": {
+    "message": "Transaction cancel attempted with gas fee of $1 at $2"
+  },
+  "transactionCancelSuccess": {
+    "message": "Transaction successfully cancelled at $2"
+  },
+  "transactionErrorNoContract": {
+    "message": "Trying to call a function on a non-contract address."
+  },
+  "transactionFee": {
+    "message": "Transaction Fee"
+  },
+  "transactionTime": {
+    "message": "Transaction Time"
+  },
+  "viewOnEtherscan": {
+    "message": "View on Etherscan"
+  },
+  "welcome": {
+    "message": "Welcome to MetaMask"
+  },
+  "depositDex": {
     "message": ""
   }
 }

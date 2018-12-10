@@ -1,46 +1,4 @@
 {
-  "privacyMode": {
-    "message": "隱私模式"
-  },
-  "privacyModeDescription": {
-    "message": "網站必須請求訪問權限才能查看您的帳戶信息。"
-  },
-  "exposeAccounts": {
-    "message": "公開賬戶"
-  },
-  "exposeDescription": {
-    "message": "將帳戶公開給當前網站。對傳統dapps很有用。"
-  },
-  "confirmExpose": {
-    "message": "您確定要將帳戶公開到當前網站嗎？"
-  },
-  "confirmClear": {
-    "message": "您確定要清除已批准的網站嗎？"
-  },
-  "clearApprovalDataSuccess": {
-    "message": "已批准的網站數據已成功清除。"
-  },
-  "approvalData": {
-    "message": "審批數據"
-  },
-  "approvalDataDescription": {
-    "message": "清除已批准的網站數據，以便所有網站都必須再次申請"
-  },
-  "clearApprovalData": {
-    "message": "清除批准數據"
-  },
-  "providerAPIRequest": {
-    "message": "Web3 API請求"
-  },
-  "reviewProviderRequest": {
-    "message": "請查看此Ethereum API請求。"
-  },
-  "providerRequestInfo": {
-    "message": "下面列出的域正在嘗試請求訪問Ethereum API，以便它可以與以太坊區塊鏈進行交互。在批准Ethereum訪問之前，請務必仔細檢查您是否在正確的站點上。"
-  },
-  "aboutDekuSan": {
-    "message": "DekuSan 是 DEXON Foundation 官方開發的 DEXON 瀏覽器擴充插件。"
-  },
   "accept": {
     "message": "接受"
   },
@@ -305,7 +263,7 @@
     "message": "您所輸入的密碼不一致"
   },
   "dexscanView": {
-    "message": "在 DEXSCAN 上查看帳戶"
+    "message": "在 DexScan 上查看帳戶"
   },
   "exchangeRate": {
     "message": "匯率"
@@ -513,7 +471,7 @@
     "message": "訊息"
   },
   "dekusanDescription": {
-    "message": "DekuSan 是 DEXON 的安全身份識別金庫."
+    "message": "DekuSan 是Dexon的安全身份識別金庫."
   },
   "min": {
     "message": "最小"
@@ -822,8 +780,8 @@
   "supportCenter": {
     "message": "造訪我們的協助中心"
   },
-  "symbolBetweenZeroTwelve": {
-    "message": "代號必須介於 0 到 12 字元間."
+  "symbolBetweenZeroTen": {
+    "message": "代號必須介於 0 到 10 字元間."
   },
   "takesTooLong": {
     "message": "花費太長時間？"
@@ -1361,6 +1319,230 @@
     "message": ""
   },
   "connectingToRinkeby": {
+    "message": ""
+  },
+  "privacyMode": {
+    "message": "隱私模式"
+  },
+  "privacyModeDescription": {
+    "message": "網站必須請求訪問權限才能查看您的帳戶信息。"
+  },
+  "exposeAccounts": {
+    "message": "公開賬戶"
+  },
+  "exposeDescription": {
+    "message": "將帳戶公開給當前網站。對傳統dapps很有用。"
+  },
+  "confirmExpose": {
+    "message": "您確定要將帳戶公開到當前網站嗎？"
+  },
+  "confirmClear": {
+    "message": "您確定要清除已批准的網站嗎？"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "已批准的網站數據已成功清除。"
+  },
+  "approvalData": {
+    "message": "審批數據"
+  },
+  "approvalDataDescription": {
+    "message": "清除已批准的網站數據，以便所有網站都必須再次申請"
+  },
+  "clearApprovalData": {
+    "message": "清除批准數據"
+  },
+  "providerAPIRequest": {
+    "message": "Web3 API請求"
+  },
+  "reviewProviderRequest": {
+    "message": "請查看此DEXON API請求。"
+  },
+  "providerRequestInfo": {
+    "message": "下面列出的域正在嘗試請求訪問DEXON API，以便它可以與以太坊區塊鏈進行交互。在批准DEXON訪問之前，請務必仔細檢查您是否在正確的站點上。"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "代號必須介於 0 到 12 字元間."
+  },
+  "contractInteraction": {
+    "message": ""
+  },
+  "providerRequest": {
+    "message": ""
+  },
+  "advancedOptions": {
+    "message": ""
+  },
+  "advanced": {
+    "message": ""
+  },
+  "amountPlusTxFee": {
+    "message": ""
+  },
+  "average": {
+    "message": ""
+  },
+  "basic": {
+    "message": ""
+  },
+  "cancelled": {
+    "message": ""
+  },
+  "connectRequest": {
+    "message": ""
+  },
+  "customGasSubTitle": {
+    "message": ""
+  },
+  "depositEth": {
+    "message": ""
+  },
+  "depositEther": {
+    "message": ""
+  },
+  "directDepositEther": {
+    "message": ""
+  },
+  "directDepositEtherExplainer": {
+    "message": ""
+  },
+  "eth": {
+    "message": ""
+  },
+  "etherscanView": {
+    "message": ""
+  },
+  "fast": {
+    "message": ""
+  },
+  "fastest": {
+    "message": ""
+  },
+  "feeChartTitle": {
+    "message": ""
+  },
+  "gasPriceNoDenom": {
+    "message": ""
+  },
+  "getEther": {
+    "message": ""
+  },
+  "getEtherFromFaucet": {
+    "message": "",
+    "description": ""
+  },
+  "holdEther": {
+    "message": ""
+  },
+  "metamaskDescription": {
+    "message": ""
+  },
+  "metamaskSeedWords": {
+    "message": ""
+  },
+  "metamaskVersion": {
+    "message": ""
+  },
+  "minutesShorthand": {
+    "message": ""
+  },
+  "needEtherInWallet": {
+    "message": ""
+  },
+  "negativeETH": {
+    "message": ""
+  },
+  "newNetwork": {
+    "message": ""
+  },
+  "rpcURL": {
+    "message": ""
+  },
+  "showAdvancedOptions": {
+    "message": ""
+  },
+  "hideAdvancedOptions": {
+    "message": ""
+  },
+  "optionalChainId": {
+    "message": ""
+  },
+  "optionalSymbol": {
+    "message": ""
+  },
+  "optionalNickname": {
+    "message": ""
+  },
+  "newTotal": {
+    "message": ""
+  },
+  "newTransactionFee": {
+    "message": ""
+  },
+  "ofTextNofM": {
+    "message": ""
+  },
+  "onlySendToEtherAddress": {
+    "message": ""
+  },
+  "originalTotal": {
+    "message": ""
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": ""
+  },
+  "slow": {
+    "message": ""
+  },
+  "secondsShorthand": {
+    "message": ""
+  },
+  "sendAmount": {
+    "message": ""
+  },
+  "sendETH": {
+    "message": ""
+  },
+  "sentEther": {
+    "message": ""
+  },
+  "speedUpCancellation": {
+    "message": ""
+  },
+  "speedUpTransaction": {
+    "message": ""
+  },
+  "toETHviaShapeShift": {
+    "message": "",
+    "description": ""
+  },
+  "transactionResubmitted": {
+    "message": ""
+  },
+  "transactionErrored": {
+    "message": ""
+  },
+  "transactionCancelAttempted": {
+    "message": ""
+  },
+  "transactionCancelSuccess": {
+    "message": ""
+  },
+  "transactionErrorNoContract": {
+    "message": ""
+  },
+  "transactionFee": {
+    "message": ""
+  },
+  "transactionTime": {
+    "message": ""
+  },
+  "viewOnEtherscan": {
+    "message": ""
+  },
+  "welcome": {
+    "message": ""
+  },
+  "depositDex": {
     "message": ""
   }
 }

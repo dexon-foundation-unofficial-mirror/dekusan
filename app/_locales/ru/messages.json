@@ -1,49 +1,4 @@
 {
-  "privacyMode": {
-    "message": "Режим конфиденциальности"
-  },
-  "privacyModeDescription": {
-    "message": "Веб-сайты должны запрашивать доступ для просмотра информации об учетной записи."
-  },
-  "exposeAccounts": {
-    "message": "Открыть счета"
-  },
-  "exposeDescription": {
-    "message": "Выводить счета на текущий веб-сайт. Полезно для старых dapps."
-  },
-  "confirmExpose": {
-    "message": "Вы уверены, что хотите открыть свои аккаунты на текущем веб-сайте?"
-  },
-  "confirmClear": {
-    "message": "Вы уверены, что хотите очистить утвержденные веб-сайты?Tem certeza de que deseja limpar sites aprovados?"
-  },
-  "clearApprovalDataSuccess": {
-    "message": "Утвержденные данные веб-сайта успешно удалены."
-  },
-  "approvalData": {
-    "message": "Данные об утверждении"
-  },
-  "approvalDataDescription": {
-    "message": "Очистите утвержденные данные веб-сайта, чтобы все сайты снова запросили подтверждение."
-  },
-  "clearApprovalData": {
-    "message": "Четкие данные об утверждении"
-  },
-  "approve": {
-    "message": "Одобрить"
-  },
-  "reject": {
-    "message": "Отклонить"
-  },
-  "providerAPIRequest": {
-    "message": "Запрос API Web3"
-  },
-  "reviewProviderRequest": {
-    "message": "Просмотрите этот запрос API Ethereum."
-  },
-  "providerRequestInfo": {
-    "message": "Домен, указанный ниже, пытается запросить доступ к API-интерфейсу Ethereum, чтобы он мог взаимодействовать с блокчейном Ethereum. Всегда проверяйте, что вы находитесь на правильном сайте, прежде чем одобрять доступ к веб-сайту."
-  },
   "accept": {
     "message": "Принять"
   },
@@ -75,7 +30,7 @@
     "message": "Сумма + газ"
   },
   "appDescription": {
-    "message": "Расширение браузера для DEXON",
+    "message": "Расширение браузера для Dexon",
     "description": "The description of the application"
   },
   "appName": {
@@ -308,7 +263,7 @@
     "message": ""
   },
   "dexscanView": {
-    "message": "Просмотреть счет на DEXSCAN"
+    "message": "Просмотреть счет на DexScan"
   },
   "exchangeRate": {
     "message": "Обменный курс"
@@ -510,13 +465,13 @@
     "message": "ключевая фраза может содержать только символы нижнего регистра"
   },
   "mainnet": {
-    "message": "Основная сеть DEXON"
+    "message": "Основная сеть Dexon"
   },
   "message": {
     "message": "Сообщение"
   },
   "dekusanDescription": {
-    "message": "DekuSan – безопасный кошелек для DEXON."
+    "message": "DekuSan – безопасный кошелек для Dexon."
   },
   "min": {
     "message": "Минимум"
@@ -692,7 +647,7 @@
     "message": "Current RPC"
   },
   "connectingToMainnet": {
-    "message": "Соединение с основной сетью DEXON"
+    "message": "Соединение с основной сетью Dexon"
   },
   "connectingToRopsten": {
     "message": "Соединение с тестовой сетью Ropsten"
@@ -766,7 +721,7 @@
     "message": "Поиск токенов"
   },
   "sendTokensAnywhere": {
-    "message": "Отправить токены любому, у кого есть счет DEXON"
+    "message": "Отправить токены любому, у кого есть счет Dexon"
   },
   "settings": {
     "message": "Настройки"
@@ -825,8 +780,8 @@
   "supportCenter": {
     "message": "Перейти в наш Центр поддержки"
   },
-  "symbolBetweenZeroTwelve": {
-    "message": "Символ должен быть от 0 до 12 символов."
+  "symbolBetweenZeroTen": {
+    "message": "Символ должен быть от 0 до 10 символов."
   },
   "takesTooLong": {
     "message": "Слишком долго?"
@@ -941,9 +896,6 @@
   },
   "warning": {
     "message": "Предупреждение"
-  },
-  "welcome": {
-    "message": "Добро пожаловать в MetaMask"
   },
   "welcomeBeta": {
     "message": "Добро пожаловать в DekuSan Beta"
@@ -1367,6 +1319,230 @@
     "message": ""
   },
   "connectingToRinkeby": {
+    "message": ""
+  },
+  "privacyMode": {
+    "message": "Режим конфиденциальности"
+  },
+  "privacyModeDescription": {
+    "message": "Веб-сайты должны запрашивать доступ для просмотра информации об учетной записи."
+  },
+  "exposeAccounts": {
+    "message": "Открыть счета"
+  },
+  "exposeDescription": {
+    "message": "Выводить счета на текущий веб-сайт. Полезно для старых dapps."
+  },
+  "confirmExpose": {
+    "message": "Вы уверены, что хотите открыть свои аккаунты на текущем веб-сайте?"
+  },
+  "confirmClear": {
+    "message": "Вы уверены, что хотите очистить утвержденные веб-сайты?Tem certeza de que deseja limpar sites aprovados?"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "Утвержденные данные веб-сайта успешно удалены."
+  },
+  "approvalData": {
+    "message": "Данные об утверждении"
+  },
+  "approvalDataDescription": {
+    "message": "Очистите утвержденные данные веб-сайта, чтобы все сайты снова запросили подтверждение."
+  },
+  "clearApprovalData": {
+    "message": "Четкие данные об утверждении"
+  },
+  "providerAPIRequest": {
+    "message": "Запрос API Web3"
+  },
+  "reviewProviderRequest": {
+    "message": "Просмотрите этот запрос API DEXON."
+  },
+  "providerRequestInfo": {
+    "message": "Домен, указанный ниже, пытается запросить доступ к API-интерфейсу DEXON, чтобы он мог взаимодействовать с блокчейном DEXON. Всегда проверяйте, что вы находитесь на правильном сайте, прежде чем одобрять доступ к веб-сайту."
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Символ должен быть от 0 до 12 символов."
+  },
+  "contractInteraction": {
+    "message": ""
+  },
+  "providerRequest": {
+    "message": ""
+  },
+  "advancedOptions": {
+    "message": ""
+  },
+  "advanced": {
+    "message": ""
+  },
+  "amountPlusTxFee": {
+    "message": ""
+  },
+  "average": {
+    "message": ""
+  },
+  "basic": {
+    "message": ""
+  },
+  "cancelled": {
+    "message": ""
+  },
+  "connectRequest": {
+    "message": ""
+  },
+  "customGasSubTitle": {
+    "message": ""
+  },
+  "depositEth": {
+    "message": ""
+  },
+  "depositEther": {
+    "message": ""
+  },
+  "directDepositEther": {
+    "message": ""
+  },
+  "directDepositEtherExplainer": {
+    "message": ""
+  },
+  "eth": {
+    "message": ""
+  },
+  "etherscanView": {
+    "message": ""
+  },
+  "fast": {
+    "message": ""
+  },
+  "fastest": {
+    "message": ""
+  },
+  "feeChartTitle": {
+    "message": ""
+  },
+  "gasPriceNoDenom": {
+    "message": ""
+  },
+  "getEther": {
+    "message": ""
+  },
+  "getEtherFromFaucet": {
+    "message": "",
+    "description": ""
+  },
+  "holdEther": {
+    "message": ""
+  },
+  "metamaskDescription": {
+    "message": ""
+  },
+  "metamaskSeedWords": {
+    "message": ""
+  },
+  "metamaskVersion": {
+    "message": ""
+  },
+  "minutesShorthand": {
+    "message": ""
+  },
+  "needEtherInWallet": {
+    "message": ""
+  },
+  "negativeETH": {
+    "message": ""
+  },
+  "newNetwork": {
+    "message": ""
+  },
+  "rpcURL": {
+    "message": ""
+  },
+  "showAdvancedOptions": {
+    "message": ""
+  },
+  "hideAdvancedOptions": {
+    "message": ""
+  },
+  "optionalChainId": {
+    "message": ""
+  },
+  "optionalSymbol": {
+    "message": ""
+  },
+  "optionalNickname": {
+    "message": ""
+  },
+  "newTotal": {
+    "message": ""
+  },
+  "newTransactionFee": {
+    "message": ""
+  },
+  "ofTextNofM": {
+    "message": ""
+  },
+  "onlySendToEtherAddress": {
+    "message": ""
+  },
+  "originalTotal": {
+    "message": ""
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": ""
+  },
+  "slow": {
+    "message": ""
+  },
+  "secondsShorthand": {
+    "message": ""
+  },
+  "sendAmount": {
+    "message": ""
+  },
+  "sendETH": {
+    "message": ""
+  },
+  "sentEther": {
+    "message": ""
+  },
+  "speedUpCancellation": {
+    "message": ""
+  },
+  "speedUpTransaction": {
+    "message": ""
+  },
+  "toETHviaShapeShift": {
+    "message": "",
+    "description": ""
+  },
+  "transactionResubmitted": {
+    "message": ""
+  },
+  "transactionErrored": {
+    "message": ""
+  },
+  "transactionCancelAttempted": {
+    "message": ""
+  },
+  "transactionCancelSuccess": {
+    "message": ""
+  },
+  "transactionErrorNoContract": {
+    "message": ""
+  },
+  "transactionFee": {
+    "message": ""
+  },
+  "transactionTime": {
+    "message": ""
+  },
+  "viewOnEtherscan": {
+    "message": ""
+  },
+  "welcome": {
+    "message": "Добро пожаловать в MetaMask"
+  },
+  "depositDex": {
     "message": ""
   }
 }

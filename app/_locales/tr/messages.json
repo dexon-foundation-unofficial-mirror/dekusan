@@ -84,7 +84,7 @@
     "message": "Coinbase'de satın al"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase Bitcoin, Ethereum, and Litecoin alıp satmanın dünyadaki en popüler yolu"
+    "message": "Coinbase Bitcoin, Dexon, and Litecoin alıp satmanın dünyadaki en popüler yolu"
   },
   "ok": {
     "message": "Tamam"
@@ -263,7 +263,7 @@
     "message": "Parolalar eşleşmiyor"
   },
   "dexscanView": {
-    "message": "Hesabı DEXSCAN üzerinde izle"
+    "message": "Hesabı DexScan üzerinde izle"
   },
   "exchangeRate": {
     "message": "Döviz kuru"
@@ -1319,6 +1319,230 @@
     "message": ""
   },
   "connectingToRinkeby": {
+    "message": ""
+  },
+  "privacyMode": {
+    "message": ""
+  },
+  "privacyModeDescription": {
+    "message": ""
+  },
+  "exposeAccounts": {
+    "message": ""
+  },
+  "exposeDescription": {
+    "message": ""
+  },
+  "confirmExpose": {
+    "message": ""
+  },
+  "confirmClear": {
+    "message": ""
+  },
+  "clearApprovalDataSuccess": {
+    "message": ""
+  },
+  "approvalData": {
+    "message": ""
+  },
+  "approvalDataDescription": {
+    "message": ""
+  },
+  "clearApprovalData": {
+    "message": ""
+  },
+  "providerAPIRequest": {
+    "message": ""
+  },
+  "reviewProviderRequest": {
+    "message": ""
+  },
+  "providerRequestInfo": {
+    "message": ""
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": ""
+  },
+  "contractInteraction": {
+    "message": ""
+  },
+  "providerRequest": {
+    "message": ""
+  },
+  "advancedOptions": {
+    "message": ""
+  },
+  "advanced": {
+    "message": ""
+  },
+  "amountPlusTxFee": {
+    "message": ""
+  },
+  "average": {
+    "message": ""
+  },
+  "basic": {
+    "message": ""
+  },
+  "cancelled": {
+    "message": ""
+  },
+  "connectRequest": {
+    "message": ""
+  },
+  "customGasSubTitle": {
+    "message": ""
+  },
+  "depositEth": {
+    "message": ""
+  },
+  "depositEther": {
+    "message": ""
+  },
+  "directDepositEther": {
+    "message": ""
+  },
+  "directDepositEtherExplainer": {
+    "message": ""
+  },
+  "eth": {
+    "message": ""
+  },
+  "etherscanView": {
+    "message": ""
+  },
+  "fast": {
+    "message": ""
+  },
+  "fastest": {
+    "message": ""
+  },
+  "feeChartTitle": {
+    "message": ""
+  },
+  "gasPriceNoDenom": {
+    "message": ""
+  },
+  "getEther": {
+    "message": ""
+  },
+  "getEtherFromFaucet": {
+    "message": "",
+    "description": ""
+  },
+  "holdEther": {
+    "message": ""
+  },
+  "metamaskDescription": {
+    "message": ""
+  },
+  "metamaskSeedWords": {
+    "message": ""
+  },
+  "metamaskVersion": {
+    "message": ""
+  },
+  "minutesShorthand": {
+    "message": ""
+  },
+  "needEtherInWallet": {
+    "message": ""
+  },
+  "negativeETH": {
+    "message": ""
+  },
+  "newNetwork": {
+    "message": ""
+  },
+  "rpcURL": {
+    "message": ""
+  },
+  "showAdvancedOptions": {
+    "message": ""
+  },
+  "hideAdvancedOptions": {
+    "message": ""
+  },
+  "optionalChainId": {
+    "message": ""
+  },
+  "optionalSymbol": {
+    "message": ""
+  },
+  "optionalNickname": {
+    "message": ""
+  },
+  "newTotal": {
+    "message": ""
+  },
+  "newTransactionFee": {
+    "message": ""
+  },
+  "ofTextNofM": {
+    "message": ""
+  },
+  "onlySendToEtherAddress": {
+    "message": ""
+  },
+  "originalTotal": {
+    "message": ""
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": ""
+  },
+  "slow": {
+    "message": ""
+  },
+  "secondsShorthand": {
+    "message": ""
+  },
+  "sendAmount": {
+    "message": ""
+  },
+  "sendETH": {
+    "message": ""
+  },
+  "sentEther": {
+    "message": ""
+  },
+  "speedUpCancellation": {
+    "message": ""
+  },
+  "speedUpTransaction": {
+    "message": ""
+  },
+  "toETHviaShapeShift": {
+    "message": "",
+    "description": ""
+  },
+  "transactionResubmitted": {
+    "message": ""
+  },
+  "transactionErrored": {
+    "message": ""
+  },
+  "transactionCancelAttempted": {
+    "message": ""
+  },
+  "transactionCancelSuccess": {
+    "message": ""
+  },
+  "transactionErrorNoContract": {
+    "message": ""
+  },
+  "transactionFee": {
+    "message": ""
+  },
+  "transactionTime": {
+    "message": ""
+  },
+  "viewOnEtherscan": {
+    "message": ""
+  },
+  "welcome": {
+    "message": ""
+  },
+  "depositDex": {
     "message": ""
   }
 }

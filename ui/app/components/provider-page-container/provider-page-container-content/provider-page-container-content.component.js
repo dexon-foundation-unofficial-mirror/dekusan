@@ -22,7 +22,7 @@ export default class ProviderPageContainerContent extends PureComponent {
         <section>
           {siteImage ? (
             <img
-              className="provider-approval-visual__identicon"
+              className="provider-approval-visual__identicon provider-approval-visual__siteicon"
               src={siteImage}
             />
           ) : (
@@ -64,12 +64,9 @@ export default class ProviderPageContainerContent extends PureComponent {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t('learnMore')}.
+              {t('learnMore')}
             </a>
           </p>
-        </section>
-        <section className="secure-badge">
-          <img src="/images/mm-secure.svg" />
         </section>
       </div>
     )

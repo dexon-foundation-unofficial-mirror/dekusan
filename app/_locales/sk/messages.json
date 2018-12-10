@@ -36,13 +36,13 @@
     "message": "Odmítnout"
   },
   "providerAPIRequest": {
-    "message": "Požadavek API Ethereum"
+    "message": "Požadavek API DEXON"
   },
   "reviewProviderRequest": {
-    "message": "Přečtěte si prosím tuto žádost API Ethereum."
+    "message": "Přečtěte si prosím tuto žádost API DEXON."
   },
   "providerRequestInfo": {
-    "message": "Níže uvedená doména se pokouší požádat o přístup k API Ethereum, aby mohla komunikovat s blokádou Ethereum. Před schválením přístupu Ethereum vždy zkontrolujte, zda jste na správném místě."
+    "message": "Níže uvedená doména se pokouší požádat o přístup k API DEXON, aby mohla komunikovat s blokádou DEXON. Před schválením přístupu DEXON vždy zkontrolujte, zda jste na správném místě."
   },
   "accept": {
     "message": "Přijmout"
@@ -75,7 +75,7 @@
     "message": "Částka + palivo"
   },
   "appDescription": {
-    "message": "Ethereum rozšíření prohlížeče",
+    "message": "DEXON rozšíření prohlížeče",
     "description": "The description of the application"
   },
   "appName": {
@@ -513,13 +513,13 @@
     "message": "slova klíčové fráze mají pouze malá písmena"
   },
   "mainnet": {
-    "message": "Main Ethereum Network"
+    "message": "Main DEXON Network"
   },
   "message": {
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "MetaMask je bezpečný osobní trezor pro Ethereum."
+    "message": "MetaMask je bezpečný osobní trezor pro DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -695,7 +695,7 @@
     "message": "Současné RPC"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main Ethereum Network"
+    "message": "Připojuji se k Main DEXON Network"
   },
   "connectingToRopsten": {
     "message": "Připojuji se k Ropsten Test Network"
@@ -763,13 +763,13 @@
     "message": "Odeslat tokeny"
   },
   "onlySendToEtherAddress": {
-    "message": "Posílejte jen ETH na Ethereum adresu."
+    "message": "Posílejte jen ETH na DEXON adresu."
   },
   "searchTokens": {
     "message": "Hledat tokeny"
   },
   "sendTokensAnywhere": {
-    "message": "Posílejte tokeny komukoli s Ethereum účtem"
+    "message": "Posílejte tokeny komukoli s DEXON účtem"
   },
   "settings": {
     "message": "Nastavení"

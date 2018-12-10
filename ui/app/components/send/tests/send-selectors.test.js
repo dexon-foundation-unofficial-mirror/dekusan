@@ -183,7 +183,7 @@ describe('send selectors', () => {
     it('should return the ticker symbol of the selected network', () => {
       assert.equal(
         getNativeCurrency(mockState),
-        'ETH'
+        'DEX'
       )
     })
   })

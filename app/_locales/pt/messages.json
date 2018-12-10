@@ -1,49 +1,4 @@
 {
-  "privacyMode": {
-    "message": "Modo de privacidade"
-  },
-  "privacyModeDescription": {
-    "message": "Os sites devem solicitar acesso para visualizar as informações da sua conta."
-  },
-  "exposeAccounts": {
-    "message": "Expor contas"
-  },
-  "exposeDescription": {
-    "message": "Exponha contas ao site atual. Útil para dapps herdados."
-  },
-  "confirmExpose": {
-    "message": "Tem certeza de que deseja expor suas contas ao site atual?"
-  },
-  "confirmClear": {
-    "message": "Tem certeza de que deseja limpar sites aprovados?"
-  },
-  "clearApprovalDataSuccess": {
-    "message": "Dados aprovados do website foram limpos com sucesso."
-  },
-  "approvalData": {
-    "message": "Dados de aprovação"
-  },
-  "approvalDataDescription": {
-    "message": "Limpe os dados aprovados do website para que todos os sites solicitem aprovação novamente."
-  },
-  "clearApprovalData": {
-    "message": "Limpar dados de aprovação"
-  },
-  "approve": {
-    "message": "Aprovar"
-  },
-  "reject": {
-    "message": "Rejeitar"
-  },
-  "providerAPIRequest": {
-    "message": "Solicitação de API do Web3"
-  },
-  "reviewProviderRequest": {
-    "message": "Por favor, revise esta solicitação da API da Ethereum."
-  },
-  "providerRequestInfo": {
-    "message": "O domínio listado abaixo está tentando solicitar acesso à API Ethereum para que ele possa interagir com o blockchain Ethereum. Sempre verifique se você está no site correto antes de aprovar o acesso à Ethereum."
-  },
   "accept": {
     "message": "Aceitar"
   },
@@ -75,7 +30,7 @@
     "message": "Valor + Gas"
   },
   "appDescription": {
-    "message": "Extensão para o browser de DEXON",
+    "message": "Extensão para o browser de Dexon",
     "description": "A descrição da aplicação"
   },
   "appName": {
@@ -129,7 +84,7 @@
     "message": "Comprar no Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase é a forma mais conhecida para comprar e vender Bitcoin, Ethereum, e Litecoin."
+    "message": "Coinbase é a forma mais conhecida para comprar e vender Bitcoin, Dexon, e Litecoin."
   },
   "ok": {
     "message": ""
@@ -308,7 +263,7 @@
     "message": ""
   },
   "dexscanView": {
-    "message": "Ver conta no DEXSCAN"
+    "message": "Ver conta no DexScan"
   },
   "exchangeRate": {
     "message": "Taxa de Câmbio"
@@ -510,13 +465,13 @@
     "message": "palavras da seed apenas têm caracteres minúsculos"
   },
   "mainnet": {
-    "message": "Rede Principal de DEXON"
+    "message": "Rede Principal de Dexon"
   },
   "message": {
     "message": "Mensagem"
   },
   "dekusanDescription": {
-    "message": "O DekuSan é um lugar seguro para guardar a sua identidade em em DEXON."
+    "message": "O DekuSan é um lugar seguro para guardar a sua identidade em em Dexon."
   },
   "min": {
     "message": "Mínimo"
@@ -766,7 +721,7 @@
     "message": ""
   },
   "sendTokensAnywhere": {
-    "message": "Enviar Tokens para qualquer pessoa com uma conta DEXON"
+    "message": "Enviar Tokens para qualquer pessoa com uma conta Dexon"
   },
   "settings": {
     "message": "Definições"
@@ -825,8 +780,8 @@
   "supportCenter": {
     "message": "Visitar o nosso Centro de Suporte"
   },
-  "symbolBetweenZeroTwelve": {
-    "message": "Símbolo deve conter entre 0 e 12 characters."
+  "symbolBetweenZeroTen": {
+    "message": "Símbolo deve conter entre 0 e 10 characters."
   },
   "takesTooLong": {
     "message": "A demorar muito?"
@@ -941,9 +896,6 @@
   },
   "warning": {
     "message": "Aviso"
-  },
-  "welcome": {
-    "message": "Bem-vindo ao MetaMask"
   },
   "welcomeBeta": {
     "message": "Bem-vindo ao DekuSan Beta"
@@ -1367,6 +1319,230 @@
     "message": ""
   },
   "connectingToRinkeby": {
+    "message": ""
+  },
+  "privacyMode": {
+    "message": "Modo de privacidade"
+  },
+  "privacyModeDescription": {
+    "message": "Os sites devem solicitar acesso para visualizar as informações da sua conta."
+  },
+  "exposeAccounts": {
+    "message": "Expor contas"
+  },
+  "exposeDescription": {
+    "message": "Exponha contas ao site atual. Útil para dapps herdados."
+  },
+  "confirmExpose": {
+    "message": "Tem certeza de que deseja expor suas contas ao site atual?"
+  },
+  "confirmClear": {
+    "message": "Tem certeza de que deseja limpar sites aprovados?"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "Dados aprovados do website foram limpos com sucesso."
+  },
+  "approvalData": {
+    "message": "Dados de aprovação"
+  },
+  "approvalDataDescription": {
+    "message": "Limpe os dados aprovados do website para que todos os sites solicitem aprovação novamente."
+  },
+  "clearApprovalData": {
+    "message": "Limpar dados de aprovação"
+  },
+  "providerAPIRequest": {
+    "message": "Solicitação de API do Web3"
+  },
+  "reviewProviderRequest": {
+    "message": "Por favor, revise esta solicitação da API da DEXON."
+  },
+  "providerRequestInfo": {
+    "message": "O domínio listado abaixo está tentando solicitar acesso à API DEXON para que ele possa interagir com o blockchain DEXON. Sempre verifique se você está no site correto antes de aprovar o acesso à DEXON."
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Símbolo deve conter entre 0 e 12 characters."
+  },
+  "contractInteraction": {
+    "message": ""
+  },
+  "providerRequest": {
+    "message": ""
+  },
+  "advancedOptions": {
+    "message": ""
+  },
+  "advanced": {
+    "message": ""
+  },
+  "amountPlusTxFee": {
+    "message": ""
+  },
+  "average": {
+    "message": ""
+  },
+  "basic": {
+    "message": ""
+  },
+  "cancelled": {
+    "message": ""
+  },
+  "connectRequest": {
+    "message": ""
+  },
+  "customGasSubTitle": {
+    "message": ""
+  },
+  "depositEth": {
+    "message": ""
+  },
+  "depositEther": {
+    "message": ""
+  },
+  "directDepositEther": {
+    "message": ""
+  },
+  "directDepositEtherExplainer": {
+    "message": ""
+  },
+  "eth": {
+    "message": ""
+  },
+  "etherscanView": {
+    "message": ""
+  },
+  "fast": {
+    "message": ""
+  },
+  "fastest": {
+    "message": ""
+  },
+  "feeChartTitle": {
+    "message": ""
+  },
+  "gasPriceNoDenom": {
+    "message": ""
+  },
+  "getEther": {
+    "message": ""
+  },
+  "getEtherFromFaucet": {
+    "message": "",
+    "description": ""
+  },
+  "holdEther": {
+    "message": ""
+  },
+  "metamaskDescription": {
+    "message": ""
+  },
+  "metamaskSeedWords": {
+    "message": ""
+  },
+  "metamaskVersion": {
+    "message": ""
+  },
+  "minutesShorthand": {
+    "message": ""
+  },
+  "needEtherInWallet": {
+    "message": ""
+  },
+  "negativeETH": {
+    "message": ""
+  },
+  "newNetwork": {
+    "message": ""
+  },
+  "rpcURL": {
+    "message": ""
+  },
+  "showAdvancedOptions": {
+    "message": ""
+  },
+  "hideAdvancedOptions": {
+    "message": ""
+  },
+  "optionalChainId": {
+    "message": ""
+  },
+  "optionalSymbol": {
+    "message": ""
+  },
+  "optionalNickname": {
+    "message": ""
+  },
+  "newTotal": {
+    "message": ""
+  },
+  "newTransactionFee": {
+    "message": ""
+  },
+  "ofTextNofM": {
+    "message": ""
+  },
+  "onlySendToEtherAddress": {
+    "message": ""
+  },
+  "originalTotal": {
+    "message": ""
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": ""
+  },
+  "slow": {
+    "message": ""
+  },
+  "secondsShorthand": {
+    "message": ""
+  },
+  "sendAmount": {
+    "message": ""
+  },
+  "sendETH": {
+    "message": ""
+  },
+  "sentEther": {
+    "message": ""
+  },
+  "speedUpCancellation": {
+    "message": ""
+  },
+  "speedUpTransaction": {
+    "message": ""
+  },
+  "toETHviaShapeShift": {
+    "message": "",
+    "description": ""
+  },
+  "transactionResubmitted": {
+    "message": ""
+  },
+  "transactionErrored": {
+    "message": ""
+  },
+  "transactionCancelAttempted": {
+    "message": ""
+  },
+  "transactionCancelSuccess": {
+    "message": ""
+  },
+  "transactionErrorNoContract": {
+    "message": ""
+  },
+  "transactionFee": {
+    "message": ""
+  },
+  "transactionTime": {
+    "message": ""
+  },
+  "viewOnEtherscan": {
+    "message": ""
+  },
+  "welcome": {
+    "message": "Bem-vindo ao MetaMask"
+  },
+  "depositDex": {
     "message": ""
   }
 }

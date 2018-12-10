@@ -48,9 +48,9 @@ export default class SendGasRow extends Component {
               showCheck={false}
               {...gasPriceButtonGroupProps}
             />
-            <div className="advanced-gas-options-btn" onClick={() => showCustomizeGasModal()}>
+            {/* <div className="advanced-gas-options-btn" onClick={() => showCustomizeGasModal()}>
               { this.context.t('advancedOptions') }
-            </div>
+            </div> */}
           </div>
         : <GasFeeDisplay
             conversionRate={conversionRate}

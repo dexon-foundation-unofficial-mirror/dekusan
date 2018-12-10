@@ -113,7 +113,7 @@
     },
     "ticker": "ETH",
     "currentCurrency": "usd",
-    "nativeCurrency": "ETH",
+    "nativeCurrency": "DEX",
     "conversionRate": 556.12,
     "addressBook": [
       {

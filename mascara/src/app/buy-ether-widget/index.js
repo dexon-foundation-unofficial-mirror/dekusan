@@ -94,7 +94,7 @@ class BuyEtherWidget extends Component {
       <div className="buy-ether__action-content-wrapper">
         <div>{this.renderCoinbaseLogo()}</div>
         <div className="buy-ether__body-text">Coinbase is the world’s most popular way to buy and sell bitcoin, ethereum, and litecoin.</div>
-        <a className="first-time-flow__link buy-ether__faq-link">What is Ethereum?</a>
+        <a className="first-time-flow__link buy-ether__faq-link">What is DEXON?</a>
         <div className="buy-ether__buttons">
           <button
             className="first-time-flow__button"

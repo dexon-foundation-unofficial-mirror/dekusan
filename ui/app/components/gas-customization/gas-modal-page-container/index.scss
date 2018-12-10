@@ -1,5 +1,5 @@
-@import './advanced-tab-content/index';
-@import './basic-tab-content/index';
+@import "./advanced-tab-content/index";
+@import "./basic-tab-content/index";
 
 .gas-modal-page-container {
   .page-container {
@@ -70,8 +70,8 @@
       }
 
       &--selected {
-        color: $curious-blue;
-        border-bottom: 2px solid $curious-blue;
+        color: $dexon-purple;
+        border-bottom: 2px solid $dexon-purple;
       }
     }
   }
@@ -85,7 +85,6 @@
   &__basic-tab {
     height: 219px;
   }
-
 
   &__info-row, &__info-row--fade {
     width: 100%;

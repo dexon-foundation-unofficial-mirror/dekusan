@@ -22,7 +22,8 @@
     height: 130px;
   }
 
-  .button-group__button, .button-group__button--active {
+  .button-group__button,
+  .button-group__button--active {
     height: 130px;
     max-width: 108px;
     font-size: 12px;
@@ -32,7 +33,7 @@
     padding-top: 17px;
     border-radius: 4px;
     border: 2px solid $spindle;
-    background: $white;
+    background: $dark-gray;
     color: $scorpion;
 
     div {
@@ -49,14 +50,14 @@
   }
 
   .button-group__button--active {
-    border: 2px solid $curious-blue;
+    border: 2px solid $dexon-purple;
     color: $scorpion;
 
     i {
       &:last-child {
         display: flex;
-        color: $curious-blue;
-        margin-top: 8px
+        color: $dexon-purple;
+        margin-top: 8px;
       }
     }
   }
@@ -65,7 +66,6 @@
 .gas-price-button-group--small {
   display: flex;
   justify-content: stretch;
-  max-width: 260px;
 
   &__button-fiat-price {
     font-size: 13px;
@@ -99,10 +99,11 @@
     height: 78px;
   }
 
-  .button-group__button, .button-group__button--active {
+  .button-group__button,
+  .button-group__button--active {
     height: 78px;
-    background: white;
-    color: $scorpion;
+    background: $dark-gray;
+    color: $dim-gray;
     padding-top: 9px;
     padding-left: 8.5px;
 
@@ -126,13 +127,13 @@
 
   .button-group__button--active {
     color: $white;
-    background: $dodger-blue;
+    background: $geyser;
 
     i {
       &:last-child {
         display: flex;
-        color: $curious-blue;
-        margin-top: 10px
+        color: $dexon-purple;
+        margin-top: 10px;
       }
     }
   }
@@ -177,7 +178,8 @@
     color: $black;
   }
 
-  .button-group__button, .button-group__button--active {
+  .button-group__button,
+  .button-group__button--active {
     height: 78px;
     background: white;
     color: #2A4055;
@@ -189,7 +191,7 @@
 
     div {
       display: flex;
-      flex-flow: column;;
+      flex-flow: column;
       align-items: flex-start;
       justify-content: flex-start;
       position: relative;
@@ -210,7 +212,7 @@
 
   .button-group__button--active {
     background: #F7FCFF;
-    border: 2px solid #2C8BDC;
+    border: 2px solid $dexon-purple;
 
     .button-check-wrapper {
       height: 16px;
@@ -228,7 +230,7 @@
 
     i {
       display: flex;
-      color: $curious-blue;
+      color: $dexon-purple;
       font-size: 12px;
     }
   }

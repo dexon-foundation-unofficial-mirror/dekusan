@@ -1,49 +1,4 @@
 {
-  "privacyMode": {
-    "message": "Chế độ riêng tư"
-  },
-  "privacyModeDescription": {
-    "message": "Trang web phải yêu cầu quyền truy cập để xem thông tin tài khoản của bạn."
-  },
-  "exposeAccounts": {
-    "message": "Hiển thị tài khoản"
-  },
-  "exposeDescription": {
-    "message": "Hiển thị tài khoản cho trang web hiện tại. Hữu ích cho các ứng dụng cũ."
-  },
-  "confirmExpose": {
-    "message": "Bạn có chắc chắn muốn hiển thị tài khoản của mình cho trang web hiện tại không?"
-  },
-  "confirmClear": {
-    "message": "Bạn có chắc chắn muốn xóa các trang web được phê duyệt không?"
-  },
-  "clearApprovalDataSuccess": {
-    "message": "Đã xóa thành công dữ liệu trang web được phê duyệt."
-  },
-  "approvalData": {
-    "message": "Dữ liệu phê duyệt"
-  },
-  "approvalDataDescription": {
-    "message": "Xóa dữ liệu trang web được phê duyệt để tất cả các trang web phải yêu cầu phê duyệt lại."
-  },
-  "clearApprovalData": {
-    "message": "Xóa dữ liệu phê duyệt"
-  },
-  "approve": {
-    "message": "Phê duyệt"
-  },
-  "reject": {
-    "message": "Từ chối"
-  },
-  "providerAPIRequest": {
-    "message": "Yêu cầu API Web3"
-  },
-  "reviewProviderRequest": {
-    "message": "Vui lòng xem lại yêu cầu API Ethereum này."
-  },
-  "providerRequestInfo": {
-    "message": "Miền được liệt kê bên dưới đang cố gắng yêu cầu quyền truy cập vào API Ethereum để nó có thể tương tác với chuỗi khối Ethereum. Luôn kiểm tra kỹ xem bạn có đang ở đúng trang web trước khi phê duyệt quyền truy cập Ethereum hay không."
-  },
   "accept": {
     "message": "Chấp nhận"
   },
@@ -129,7 +84,7 @@
     "message": "Mua trên Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase là dịch vụ ví điện tử thông dụng nhất thế giới để mua bán Bitcoin, Ethereum, và Litecoin"
+    "message": "Coinbase là dịch vụ ví điện tử thông dụng nhất thế giới để mua bán Bitcoin, Dexon, và Litecoin"
   },
   "ok": {
     "message": ""
@@ -308,7 +263,7 @@
     "message": ""
   },
   "dexscanView": {
-    "message": "Xem tài khoản trên DEXSCAN"
+    "message": "Xem tài khoản trên DexScan"
   },
   "exchangeRate": {
     "message": "Tỷ giá"
@@ -766,7 +721,7 @@
     "message": ""
   },
   "sendTokensAnywhere": {
-    "message": "Gửi mã token đến bất kỳ ai có tài khoản DEXON"
+    "message": "Gửi mã token đến bất kỳ ai có tài khoản Dexon"
   },
   "settings": {
     "message": "Cài đặt"
@@ -1364,6 +1319,230 @@
     "message": ""
   },
   "connectingToRinkeby": {
+    "message": ""
+  },
+  "privacyMode": {
+    "message": "Chế độ riêng tư"
+  },
+  "privacyModeDescription": {
+    "message": "Trang web phải yêu cầu quyền truy cập để xem thông tin tài khoản của bạn."
+  },
+  "exposeAccounts": {
+    "message": "Hiển thị tài khoản"
+  },
+  "exposeDescription": {
+    "message": "Hiển thị tài khoản cho trang web hiện tại. Hữu ích cho các ứng dụng cũ."
+  },
+  "confirmExpose": {
+    "message": "Bạn có chắc chắn muốn hiển thị tài khoản của mình cho trang web hiện tại không?"
+  },
+  "confirmClear": {
+    "message": "Bạn có chắc chắn muốn xóa các trang web được phê duyệt không?"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "Đã xóa thành công dữ liệu trang web được phê duyệt."
+  },
+  "approvalData": {
+    "message": "Dữ liệu phê duyệt"
+  },
+  "approvalDataDescription": {
+    "message": "Xóa dữ liệu trang web được phê duyệt để tất cả các trang web phải yêu cầu phê duyệt lại."
+  },
+  "clearApprovalData": {
+    "message": "Xóa dữ liệu phê duyệt"
+  },
+  "providerAPIRequest": {
+    "message": "Yêu cầu API Web3"
+  },
+  "reviewProviderRequest": {
+    "message": "Vui lòng xem lại yêu cầu API DEXON này."
+  },
+  "providerRequestInfo": {
+    "message": "Miền được liệt kê bên dưới đang cố gắng yêu cầu quyền truy cập vào API DEXON để nó có thể tương tác với chuỗi khối DEXON. Luôn kiểm tra kỹ xem bạn có đang ở đúng trang web trước khi phê duyệt quyền truy cập DEXON hay không."
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": ""
+  },
+  "contractInteraction": {
+    "message": ""
+  },
+  "providerRequest": {
+    "message": ""
+  },
+  "advancedOptions": {
+    "message": ""
+  },
+  "advanced": {
+    "message": ""
+  },
+  "amountPlusTxFee": {
+    "message": ""
+  },
+  "average": {
+    "message": ""
+  },
+  "basic": {
+    "message": ""
+  },
+  "cancelled": {
+    "message": ""
+  },
+  "connectRequest": {
+    "message": ""
+  },
+  "customGasSubTitle": {
+    "message": ""
+  },
+  "depositEth": {
+    "message": ""
+  },
+  "depositEther": {
+    "message": ""
+  },
+  "directDepositEther": {
+    "message": ""
+  },
+  "directDepositEtherExplainer": {
+    "message": ""
+  },
+  "eth": {
+    "message": ""
+  },
+  "etherscanView": {
+    "message": ""
+  },
+  "fast": {
+    "message": ""
+  },
+  "fastest": {
+    "message": ""
+  },
+  "feeChartTitle": {
+    "message": ""
+  },
+  "gasPriceNoDenom": {
+    "message": ""
+  },
+  "getEther": {
+    "message": ""
+  },
+  "getEtherFromFaucet": {
+    "message": "",
+    "description": ""
+  },
+  "holdEther": {
+    "message": ""
+  },
+  "metamaskDescription": {
+    "message": ""
+  },
+  "metamaskSeedWords": {
+    "message": ""
+  },
+  "metamaskVersion": {
+    "message": ""
+  },
+  "minutesShorthand": {
+    "message": ""
+  },
+  "needEtherInWallet": {
+    "message": ""
+  },
+  "negativeETH": {
+    "message": ""
+  },
+  "newNetwork": {
+    "message": ""
+  },
+  "rpcURL": {
+    "message": ""
+  },
+  "showAdvancedOptions": {
+    "message": ""
+  },
+  "hideAdvancedOptions": {
+    "message": ""
+  },
+  "optionalChainId": {
+    "message": ""
+  },
+  "optionalSymbol": {
+    "message": ""
+  },
+  "optionalNickname": {
+    "message": ""
+  },
+  "newTotal": {
+    "message": ""
+  },
+  "newTransactionFee": {
+    "message": ""
+  },
+  "ofTextNofM": {
+    "message": ""
+  },
+  "onlySendToEtherAddress": {
+    "message": ""
+  },
+  "originalTotal": {
+    "message": ""
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": ""
+  },
+  "slow": {
+    "message": ""
+  },
+  "secondsShorthand": {
+    "message": ""
+  },
+  "sendAmount": {
+    "message": ""
+  },
+  "sendETH": {
+    "message": ""
+  },
+  "sentEther": {
+    "message": ""
+  },
+  "speedUpCancellation": {
+    "message": ""
+  },
+  "speedUpTransaction": {
+    "message": ""
+  },
+  "toETHviaShapeShift": {
+    "message": "",
+    "description": ""
+  },
+  "transactionResubmitted": {
+    "message": ""
+  },
+  "transactionErrored": {
+    "message": ""
+  },
+  "transactionCancelAttempted": {
+    "message": ""
+  },
+  "transactionCancelSuccess": {
+    "message": ""
+  },
+  "transactionErrorNoContract": {
+    "message": ""
+  },
+  "transactionFee": {
+    "message": ""
+  },
+  "transactionTime": {
+    "message": ""
+  },
+  "viewOnEtherscan": {
+    "message": ""
+  },
+  "welcome": {
+    "message": ""
+  },
+  "depositDex": {
     "message": ""
   }
 }

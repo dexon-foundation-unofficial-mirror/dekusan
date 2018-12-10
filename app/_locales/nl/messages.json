@@ -1,49 +1,4 @@
 {
-  "privacyMode": {
-    "message": "Privacy-modus"
-  },
-  "privacyModeDescription": {
-    "message": "Websites moeten toegang vragen om uw accountgegevens te bekijken."
-  },
-  "exposeAccounts": {
-    "message": "Expose Accounts"
-  },
-  "exposeDescription": {
-    "message": "Stel accounts vrij op de huidige website. Handig voor legacy dapps."
-  },
-  "confirmExpose": {
-    "message": "Weet u zeker dat u uw accounts wilt weergeven aan de huidige website?"
-  },
-  "confirmClear": {
-    "message": "Weet je zeker dat je goedgekeurde websites wilt wissen?"
-  },
-  "clearApprovalDataSuccess": {
-    "message": "Goedgekeurde websitegegevens zijn met succes gewist."
-  },
-  "approvalData": {
-    "message": "Goedkeuringsgegevens"
-  },
-  "approvalDataDescription": {
-    "message": "Goedgekeurde websitegegevens wissen zodat alle sites opnieuw goedkeuring moeten aanvragen."
-  },
-  "clearApprovalData": {
-    "message": "Gegevens over goedkeuring wissen"
-  },
-  "approve": {
-    "message": "Goedkeuren"
-  },
-  "reject": {
-    "message": "Afwijzen"
-  },
-  "providerAPIRequest": {
-    "message": "Web3 API-aanvraag"
-  },
-  "reviewProviderRequest": {
-    "message": "Bekijk deze Ethereum API-aanvraag."
-  },
-  "providerRequestInfo": {
-    "message": "Het onderstaande domein probeert toegang tot de Ethereum API te vragen zodat deze kan communiceren met de Ethereum-blockchain. Controleer altijd eerst of u op de juiste site bent voordat u Ethereum-toegang goedkeurt."
-  },
   "accept": {
     "message": "Aanvaarden"
   },
@@ -308,7 +263,7 @@
     "message": ""
   },
   "dexscanView": {
-    "message": "Bekijk account op DEXSCAN"
+    "message": "Bekijk account op DexScan"
   },
   "exchangeRate": {
     "message": "Wisselkoers"
@@ -510,13 +465,13 @@
     "message": "back-up woorden hebben alleen kleine letters"
   },
   "mainnet": {
-    "message": "belangrijkste DEXON-netwerk"
+    "message": "belangrijkste Dexon-netwerk"
   },
   "message": {
     "message": "Bericht"
   },
   "dekusanDescription": {
-    "message": "DekuSan is een veilige identiteitskluis voor DEXON."
+    "message": "DekuSan is een veilige identiteitskluis voor Dexon."
   },
   "min": {
     "message": "Minimum"
@@ -766,7 +721,7 @@
     "message": ""
   },
   "sendTokensAnywhere": {
-    "message": "Stuur tokens naar iedereen met een DEXON-account"
+    "message": "Stuur tokens naar iedereen met een Dexon-account"
   },
   "settings": {
     "message": "instellingen"
@@ -825,8 +780,8 @@
   "supportCenter": {
     "message": "Bezoek ons ​​ondersteuningscentrum"
   },
-  "symbolBetweenZeroTwelve": {
-    "message": "Het symbool moet tussen 0 en 12 tekens lang zijn."
+  "symbolBetweenZeroTen": {
+    "message": "Het symbool moet tussen 0 en 10 tekens lang zijn."
   },
   "takesTooLong": {
     "message": "Duurt te lang?"
@@ -941,9 +896,6 @@
   },
   "warning": {
     "message": "Waarschuwing"
-  },
-  "welcome": {
-    "message": "Welkom bij MetaMask"
   },
   "welcomeBeta": {
     "message": "Welkom bij DekuSan Beta"
@@ -1367,6 +1319,230 @@
     "message": ""
   },
   "connectingToRinkeby": {
+    "message": ""
+  },
+  "privacyMode": {
+    "message": "Privacy-modus"
+  },
+  "privacyModeDescription": {
+    "message": "Websites moeten toegang vragen om uw accountgegevens te bekijken."
+  },
+  "exposeAccounts": {
+    "message": "Expose Accounts"
+  },
+  "exposeDescription": {
+    "message": "Stel accounts vrij op de huidige website. Handig voor legacy dapps."
+  },
+  "confirmExpose": {
+    "message": "Weet u zeker dat u uw accounts wilt weergeven aan de huidige website?"
+  },
+  "confirmClear": {
+    "message": "Weet je zeker dat je goedgekeurde websites wilt wissen?"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "Goedgekeurde websitegegevens zijn met succes gewist."
+  },
+  "approvalData": {
+    "message": "Goedkeuringsgegevens"
+  },
+  "approvalDataDescription": {
+    "message": "Goedgekeurde websitegegevens wissen zodat alle sites opnieuw goedkeuring moeten aanvragen."
+  },
+  "clearApprovalData": {
+    "message": "Gegevens over goedkeuring wissen"
+  },
+  "providerAPIRequest": {
+    "message": "Web3 API-aanvraag"
+  },
+  "reviewProviderRequest": {
+    "message": "Bekijk deze DEXON API-aanvraag."
+  },
+  "providerRequestInfo": {
+    "message": "Het onderstaande domein probeert toegang tot de DEXON API te vragen zodat deze kan communiceren met de DEXON-blockchain. Controleer altijd eerst of u op de juiste site bent voordat u DEXON-toegang goedkeurt."
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "Het symbool moet tussen 0 en 12 tekens lang zijn."
+  },
+  "contractInteraction": {
+    "message": ""
+  },
+  "providerRequest": {
+    "message": ""
+  },
+  "advancedOptions": {
+    "message": ""
+  },
+  "advanced": {
+    "message": ""
+  },
+  "amountPlusTxFee": {
+    "message": ""
+  },
+  "average": {
+    "message": ""
+  },
+  "basic": {
+    "message": ""
+  },
+  "cancelled": {
+    "message": ""
+  },
+  "connectRequest": {
+    "message": ""
+  },
+  "customGasSubTitle": {
+    "message": ""
+  },
+  "depositEth": {
+    "message": ""
+  },
+  "depositEther": {
+    "message": ""
+  },
+  "directDepositEther": {
+    "message": ""
+  },
+  "directDepositEtherExplainer": {
+    "message": ""
+  },
+  "eth": {
+    "message": ""
+  },
+  "etherscanView": {
+    "message": ""
+  },
+  "fast": {
+    "message": ""
+  },
+  "fastest": {
+    "message": ""
+  },
+  "feeChartTitle": {
+    "message": ""
+  },
+  "gasPriceNoDenom": {
+    "message": ""
+  },
+  "getEther": {
+    "message": ""
+  },
+  "getEtherFromFaucet": {
+    "message": "",
+    "description": ""
+  },
+  "holdEther": {
+    "message": ""
+  },
+  "metamaskDescription": {
+    "message": ""
+  },
+  "metamaskSeedWords": {
+    "message": ""
+  },
+  "metamaskVersion": {
+    "message": ""
+  },
+  "minutesShorthand": {
+    "message": ""
+  },
+  "needEtherInWallet": {
+    "message": ""
+  },
+  "negativeETH": {
+    "message": ""
+  },
+  "newNetwork": {
+    "message": ""
+  },
+  "rpcURL": {
+    "message": ""
+  },
+  "showAdvancedOptions": {
+    "message": ""
+  },
+  "hideAdvancedOptions": {
+    "message": ""
+  },
+  "optionalChainId": {
+    "message": ""
+  },
+  "optionalSymbol": {
+    "message": ""
+  },
+  "optionalNickname": {
+    "message": ""
+  },
+  "newTotal": {
+    "message": ""
+  },
+  "newTransactionFee": {
+    "message": ""
+  },
+  "ofTextNofM": {
+    "message": ""
+  },
+  "onlySendToEtherAddress": {
+    "message": ""
+  },
+  "originalTotal": {
+    "message": ""
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": ""
+  },
+  "slow": {
+    "message": ""
+  },
+  "secondsShorthand": {
+    "message": ""
+  },
+  "sendAmount": {
+    "message": ""
+  },
+  "sendETH": {
+    "message": ""
+  },
+  "sentEther": {
+    "message": ""
+  },
+  "speedUpCancellation": {
+    "message": ""
+  },
+  "speedUpTransaction": {
+    "message": ""
+  },
+  "toETHviaShapeShift": {
+    "message": "",
+    "description": ""
+  },
+  "transactionResubmitted": {
+    "message": ""
+  },
+  "transactionErrored": {
+    "message": ""
+  },
+  "transactionCancelAttempted": {
+    "message": ""
+  },
+  "transactionCancelSuccess": {
+    "message": ""
+  },
+  "transactionErrorNoContract": {
+    "message": ""
+  },
+  "transactionFee": {
+    "message": ""
+  },
+  "transactionTime": {
+    "message": ""
+  },
+  "viewOnEtherscan": {
+    "message": ""
+  },
+  "welcome": {
+    "message": "Welkom bij MetaMask"
+  },
+  "depositDex": {
     "message": ""
   }
 }

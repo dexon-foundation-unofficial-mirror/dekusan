@@ -39,10 +39,10 @@ var inpageProvider = new DekuSanInpageProvider(dekusanStream)
 inpageProvider.setMaxListeners(100)
 
 // set up a listener for when MetaMask is locked
-onMessage('metamasksetlocked', () => { isEnabled = false })
+onMessage('dekusansetlocked', () => { isEnabled = false })
 
 // set up a listener for privacy mode responses
-onMessage('ethereumproviderlegacy', ({ data: { selectedAddress } }) => {
+onMessage('dexonproviderlegacy', ({ data: { selectedAddress } }) => {
   isEnabled = true
   setTimeout(() => {
     inpageProvider.publicConfigStore.updateState({ selectedAddress })
@@ -72,8 +72,8 @@ inpageProvider.enable = function ({ force } = {}) {
         })
       }
     }
-    onMessage('ethereumprovider', providerHandle, true)
-    window.postMessage({ type: 'ETHEREUM_ENABLE_PROVIDER', force }, '*')
+    onMessage('dexonprovider', providerHandle, true)
+    window.postMessage({ type: 'DEXON_ENABLE_PROVIDER', force }, '*')
   })
 }
 
@@ -103,7 +103,7 @@ inpageProvider._dekusan = new Proxy({
         }
       }
       onMessage('ethereumisapproved', isApprovedHandle, true)
-      window.postMessage({ type: 'ETHEREUM_IS_APPROVED' }, '*')
+      window.postMessage({ type: 'DEXON_IS_APPROVED' }, '*')
     })
   },
 
@@ -118,7 +118,7 @@ inpageProvider._dekusan = new Proxy({
         resolve(!!isUnlocked)
       }
       onMessage('metamaskisunlocked', isUnlockedHandle, true)
-      window.postMessage({ type: 'METAMASK_IS_UNLOCKED' }, '*')
+      window.postMessage({ type: 'DEKUSAN_IS_UNLOCKED' }, '*')
     })
   },
 }, {

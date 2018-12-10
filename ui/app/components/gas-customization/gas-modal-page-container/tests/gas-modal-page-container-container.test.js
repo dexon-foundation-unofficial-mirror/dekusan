@@ -63,7 +63,7 @@ describe('gas-modal-page-container container', () => {
             },
           },
         },
-        metamask: {
+        dekusan: {
           send: {
             gasLimit: '16',
             gasPrice: '32',

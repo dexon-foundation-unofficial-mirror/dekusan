@@ -931,7 +931,7 @@
     "message": ""
   },
   "approve": {
-    "message": ""
+    "message": "मंजूर"
   },
   "attemptToCancel": {
     "message": ""
@@ -1118,7 +1118,7 @@
     "message": ""
   },
   "reject": {
-    "message": ""
+    "message": "अस्वीकार"
   },
   "rejectAll": {
     "message": ""
@@ -1320,5 +1320,229 @@
   },
   "connectingToRinkeby": {
     "message": ""
+  },
+  "privacyMode": {
+    "message": "गोपनीयता मोड"
+  },
+  "privacyModeDescription": {
+    "message": "वेबसाइटों को आपकी खाता जानकारी देखने के लिए पहुंच का अनुरोध करना होगा।"
+  },
+  "exposeAccounts": {
+    "message": "खातों का पर्दाफाश करें"
+  },
+  "exposeDescription": {
+    "message": "मौजूदा वेबसाइट पर खातों का पर्दाफाश करें। विरासत डैप्स के लिए उपयोगी।"
+  },
+  "confirmExpose": {
+    "message": "क्या आप वाकई अपने खातों को वर्तमान वेबसाइट पर बेनकाब करना चाहते हैं?"
+  },
+  "confirmClear": {
+    "message": "क्या आप वाकई अनुमोदित वेबसाइटों को साफ़ करना चाहते हैं?"
+  },
+  "clearApprovalDataSuccess": {
+    "message": "स्वीकृत वेबसाइट डेटा सफलतापूर्वक मंजूरी दे दी।"
+  },
+  "approvalData": {
+    "message": "स्वीकृति डेटा"
+  },
+  "approvalDataDescription": {
+    "message": "अनुमोदित वेबसाइट डेटा साफ़ करें ताकि सभी साइटों को फिर से अनुमोदन का अनुरोध करना होगा।"
+  },
+  "clearApprovalData": {
+    "message": "अनुमोदन डेटा साफ़ करें"
+  },
+  "providerAPIRequest": {
+    "message": "वेब 3 एपीआई अनुरोध"
+  },
+  "reviewProviderRequest": {
+    "message": "कृपया इस वेब 3 एपीआई अनुरोध की समीक्षा करें।"
+  },
+  "providerRequestInfo": {
+    "message": "नीचे सूचीबद्ध डोमेन वेब 3 एपीआई तक पहुंच का अनुरोध करने का प्रयास कर रहा है ताकि यह एथेरियम ब्लॉकचेन से बातचीत कर सके। वेब 3 एक्सेस को मंजूरी देने से पहले हमेशा सही जांच करें कि आप सही साइट पर हैं।"
+  },
+  "symbolBetweenZeroTwelve": {
+    "message": "प्रतीक 0 और 12 अक्षरों के बीच होना चाहिए"
+  },
+  "contractInteraction": {
+    "message": ""
+  },
+  "providerRequest": {
+    "message": ""
+  },
+  "advancedOptions": {
+    "message": ""
+  },
+  "advanced": {
+    "message": ""
+  },
+  "amountPlusTxFee": {
+    "message": ""
+  },
+  "average": {
+    "message": ""
+  },
+  "basic": {
+    "message": ""
+  },
+  "cancelled": {
+    "message": ""
+  },
+  "connectRequest": {
+    "message": ""
+  },
+  "customGasSubTitle": {
+    "message": ""
+  },
+  "depositEth": {
+    "message": "Eth जमाआर्थ"
+  },
+  "depositEther": {
+    "message": ""
+  },
+  "directDepositEther": {
+    "message": "सीधे ईथर जमा करें"
+  },
+  "directDepositEtherExplainer": {
+    "message": "यदि आपके पास पहले से कुछ ईथर है, तो सीधे जमा द्वारा अपने नए बटुए में ईथर प्राप्त करने का तेज़ तरीका है।"
+  },
+  "eth": {
+    "message": ""
+  },
+  "etherscanView": {
+    "message": "ईथरस्कैन पर खाता देखें"
+  },
+  "fast": {
+    "message": ""
+  },
+  "fastest": {
+    "message": ""
+  },
+  "feeChartTitle": {
+    "message": ""
+  },
+  "gasPriceNoDenom": {
+    "message": ""
+  },
+  "getEther": {
+    "message": "ईथर प्राप्त करें"
+  },
+  "getEtherFromFaucet": {
+    "message": "$1 के लिए एक नल से ईथर प्राप्त करें",
+    "description": "ईथर नल के लिए नेटवर्क नाम प्रदर्शित करता है"
+  },
+  "holdEther": {
+    "message": "यह आपको आकाश और टोकन रखने की अनुमति देता है, और विकेंद्रीकृत अनुप्रयोगों के लिए आपके पुल के रूप में कार्य करता है।"
+  },
+  "metamaskDescription": {
+    "message": "मेटामास्क इथीरियम के लिए एक सुरक्षित पहचान वॉल्ट है।"
+  },
+  "metamaskSeedWords": {
+    "message": ""
+  },
+  "metamaskVersion": {
+    "message": ""
+  },
+  "minutesShorthand": {
+    "message": ""
+  },
+  "needEtherInWallet": {
+    "message": "मेटामास्क का उपयोग करने वाले विकेन्द्रीकृत अनुप्रयोगों के साथ बातचीत करने के लिए, आपको अपने वॉलेट में ईथर की आवश्यकता होगी।"
+  },
+  "negativeETH": {
+    "message": "ईटीएच की नकारात्मक मात्रा नहीं भेज सकते हैं।."
+  },
+  "newNetwork": {
+    "message": ""
+  },
+  "rpcURL": {
+    "message": ""
+  },
+  "showAdvancedOptions": {
+    "message": ""
+  },
+  "hideAdvancedOptions": {
+    "message": ""
+  },
+  "optionalChainId": {
+    "message": ""
+  },
+  "optionalSymbol": {
+    "message": ""
+  },
+  "optionalNickname": {
+    "message": ""
+  },
+  "newTotal": {
+    "message": ""
+  },
+  "newTransactionFee": {
+    "message": ""
+  },
+  "ofTextNofM": {
+    "message": ""
+  },
+  "onlySendToEtherAddress": {
+    "message": ""
+  },
+  "originalTotal": {
+    "message": ""
+  },
+  "requestsAwaitingAcknowledgement": {
+    "message": ""
+  },
+  "slow": {
+    "message": ""
+  },
+  "secondsShorthand": {
+    "message": ""
+  },
+  "sendAmount": {
+    "message": ""
+  },
+  "sendETH": {
+    "message": ""
+  },
+  "sentEther": {
+    "message": ""
+  },
+  "speedUpCancellation": {
+    "message": ""
+  },
+  "speedUpTransaction": {
+    "message": ""
+  },
+  "toETHviaShapeShift": {
+    "message": "शैपशैफ्ट द्वारा $1 से ETH में जमा",
+    "description": "संदेश की शुरुआत में जमा प्रकार भर जाएगा"
+  },
+  "transactionResubmitted": {
+    "message": ""
+  },
+  "transactionErrored": {
+    "message": ""
+  },
+  "transactionCancelAttempted": {
+    "message": ""
+  },
+  "transactionCancelSuccess": {
+    "message": ""
+  },
+  "transactionErrorNoContract": {
+    "message": ""
+  },
+  "transactionFee": {
+    "message": ""
+  },
+  "transactionTime": {
+    "message": ""
+  },
+  "viewOnEtherscan": {
+    "message": ""
+  },
+  "welcome": {
+    "message": "मेटामास्क बीटा में आपका स्वागत है"
+  },
+  "depositDex": {
+    "message": "जमा - DEX"
   }
 }

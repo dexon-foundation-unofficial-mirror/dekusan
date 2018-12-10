@@ -1,7 +1,7 @@
 const ObservableStore = require('obs-store')
 
 /**
- * A controller that services user-approved requests for a full Ethereum provider API
+ * A controller that services user-approved requests for a full DEXON provider API
  */
 class ProviderApprovalController {
   /**
@@ -47,7 +47,7 @@ class ProviderApprovalController {
   }
 
   /**
-   * Called when a tab requests access to a full Ethereum provider API
+   * Called when a tab requests access to a full DEXON provider API
    *
    * @param {string} origin - Origin of the window requesting full provider access
    * @param {string} siteTitle - The title of the document requesting full provider access
@@ -99,7 +99,7 @@ class ProviderApprovalController {
   }
 
   /**
-   * Called when a user approves access to a full Ethereum provider API
+   * Called when a user approves access to a full DEXON provider API
    *
    * @param {string} origin - Origin of the target window to approve provider access
    */
@@ -117,7 +117,7 @@ class ProviderApprovalController {
   }
 
   /**
-   * Called when a tab rejects access to a full Ethereum provider API
+   * Called when a tab rejects access to a full DEXON provider API
    *
    * @param {string} origin - Origin of the target window to reject provider access
    */

@@ -13,7 +13,7 @@ const mapStateToProps = state => {
 }
 
 const mergeProps = (stateProps, dispatchProps, ownProps) => {
-  const { nativeCurrency, currentCurrency, conversionRate, ...restStateProps } = stateProps
+  const { nativeCurrency, currentCurrency, /* conversionRate, */ ...restStateProps } = stateProps
   const {
     value,
     numberOfDecimals = 2,
@@ -31,7 +31,8 @@ const mergeProps = (stateProps, dispatchProps, ownProps) => {
     getValueFromWeiHex({
       value,
       fromCurrency: nativeCurrency,
-      toCurrency, conversionRate,
+      toCurrency,
+      conversionRate: 0,
       numberOfDecimals,
       toDenomination: denomination,
     }),
