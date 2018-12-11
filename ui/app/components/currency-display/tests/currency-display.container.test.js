@@ -69,18 +69,18 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x1193461d01595930',
-            currency: 'DEX',
+            currency: 'DXN',
             numberOfDecimals: 3,
           },
           result: {
             displayValue: '1.266',
-            suffix: 'DEX',
+            suffix: 'DXN',
           },
         },
         {
           props: {
             value: '0x1193461d01595930',
-            currency: 'DEX',
+            currency: 'DXN',
             numberOfDecimals: 3,
             hideLabel: true,
           },
@@ -93,7 +93,7 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x3b9aca00',
-            currency: 'DEX',
+            currency: 'DXN',
             denomination: 'GWEI',
             hideLabel: true,
           },
@@ -106,7 +106,7 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x3b9aca00',
-            currency: 'DEX',
+            currency: 'DXN',
             denomination: 'WEI',
             hideLabel: true,
           },
@@ -119,7 +119,7 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x3b9aca00',
-            currency: 'DEX',
+            currency: 'DXN',
             numberOfDecimals: 100,
             hideLabel: true,
           },

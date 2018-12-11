@@ -228,7 +228,7 @@ export default class SettingsTab extends PureComponent {
     )
   }
 
-  validateRpc (newRpc, chainId, ticker = 'DEX', nickname) {
+  validateRpc (newRpc, chainId, ticker = 'DXN', nickname) {
     const { setRpcTarget, displayWarning } = this.props
 
     if (validUrl.isWebUri(newRpc)) {

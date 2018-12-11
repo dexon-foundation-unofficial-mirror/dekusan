@@ -1925,7 +1925,7 @@ function updateProviderType (type) {
   }
 }
 
-function setRpcTarget (newRpc, chainId, ticker = 'DEX', nickname = '') {
+function setRpcTarget (newRpc, chainId, ticker = 'DXN', nickname = '') {
   return (dispatch) => {
     log.debug(`background.setRpcTarget: ${newRpc} ${chainId} ${ticker} ${nickname}`)
     background.setCustomRpc(newRpc, chainId, ticker, nickname, (err, result) => {

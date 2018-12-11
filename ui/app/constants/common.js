@@ -1,5 +1,5 @@
 export const ETH = 'ETH'
-export const DEX = 'DEX'
+export const DXN = 'DXN'
 export const GWEI = 'GWEI'
 export const WEI = 'WEI'
 

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { PRIMARY, SECONDARY, DEX } from '../../constants/common'
+import { PRIMARY, SECONDARY, DXN } from '../../constants/common'
 import CurrencyDisplay from '../currency-display'
 
 export default class UserPreferencedCurrencyDisplay extends PureComponent {
@@ -27,7 +27,7 @@ export default class UserPreferencedCurrencyDisplay extends PureComponent {
   renderEthLogo () {
     const { currency, showEthLogo, ethLogoHeight = 12 } = this.props
 
-    return currency === DEX && showEthLogo && (
+    return currency === DXN && showEthLogo && (
       <img
         src="/images/dexon-invert.svg"
         height={ethLogoHeight}

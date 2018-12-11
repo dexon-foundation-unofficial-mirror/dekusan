@@ -202,7 +202,7 @@
     "message": "உங்கள் முகவரிக்கு $ 1 ஐ கீழே உள்ளிடவும்",
     "description": "சேபஷிபிட் உடன் வைப்புக்குத் தேர்ந்தெடுக்கப்பட்ட நாணயத்தை பயனரிடம் கூறுகிறார்"
   },
-  "depositDEX": {
+  "depositDXN": {
     "message": "வைப்புத்தொகை எதிர் "
   },
   "depositFiat": {
@@ -494,7 +494,7 @@
     "description": "ஒரு கணக்கை இறக்குமதி செய்ய கடவுச்சொல் மற்றும் கோப்பு தேவை"
   },
   "negativeDex": {
-    "message": "DEX எதிர்மறை அளவுகளை அனுப்ப முடியாது."
+    "message": "DXN எதிர்மறை அளவுகளை அனுப்ப முடியாது."
   },
   "networks": {
     "message": "நெட்வொர்க்ஸ்"
@@ -708,14 +708,14 @@
   "send": {
     "message": "அனுப்பு"
   },
-  "sendDEX": {
-    "message": "DEX ஐ அனுப்பு"
+  "sendDXN": {
+    "message": "DXN ஐ அனுப்பு"
   },
   "sendTokens": {
     "message": "டோக்கன்களை அனுப்பவும்"
   },
   "onlySendToDexonAddress": {
-    "message": "DEX ஐ ஒரு எதரியும் முகவரிக்கு மட்டும் அனுப்பவும்."
+    "message": "DXN ஐ ஒரு எதரியும் முகவரிக்கு மட்டும் அனுப்பவும்."
   },
   "searchTokens": {
     "message": "தேடல் டோக்கன்ஸ்"
@@ -799,7 +799,7 @@
     "message": "பெறுநர்"
   },
   "toDEXviaShapeShift": {
-    "message": "$ 1 முதல் DEX வரை வடிவம்",
+    "message": "$ 1 முதல் DXN வரை வடிவம்",
     "description": "செய்தி தொடக்கத்தில் வைப்பு வகைகளில் நிரப்பப்படும்"
   },
   "tokenAddress": {

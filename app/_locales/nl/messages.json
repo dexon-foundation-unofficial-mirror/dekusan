@@ -202,8 +202,8 @@
     "message": "Stort uw $1 op het onderstaande adres",
     "description": "Laat de gebruiker weten welk muntje ze hebben geselecteerd om te deponeren met shapeshift"
   },
-  "depositDEX": {
-    "message": "Stort DEX"
+  "depositDXN": {
+    "message": "Stort DXN"
   },
   "depositFiat": {
     "message": "Stort met Fiat"
@@ -215,7 +215,7 @@
     "message": "Stort met ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Als u andere cryptocurrencies bezit, kunt u DEX direct in uw DekuSan-portemonnee ruilen en storten. Geen account nodig."
+    "message": "Als u andere cryptocurrencies bezit, kunt u DXN direct in uw DekuSan-portemonnee ruilen en storten. Geen account nodig."
   },
   "details": {
     "message": "Details"
@@ -224,10 +224,10 @@
     "message": "Directe storting"
   },
   "directDepositDex": {
-    "message": "Directe DEX storten"
+    "message": "Directe DXN storten"
   },
   "directDepositDexExplainer": {
-    "message": "Als je al wat DEX hebt, de snelste manier om DEX in je nieuwe portemonnee te krijgen door een directe storting."
+    "message": "Als je al wat DXN hebt, de snelste manier om DXN in je nieuwe portemonnee te krijgen door een directe storting."
   },
   "done": {
     "message": "Gedaan"
@@ -329,10 +329,10 @@
     "message": "Gasprijs vereist"
   },
   "getDex": {
-    "message": "Krijg DEX"
+    "message": "Krijg DXN"
   },
   "getDexFromFaucet": {
-    "message": "Haal DEX uit een kraan voor de $1",
+    "message": "Haal DXN uit een kraan voor de $1",
     "description": "Geeft de netwerknaam voor DEX-kraan weer"
   },
   "greaterThanMin": {
@@ -356,7 +356,7 @@
     "message": "Token verbergen?"
   },
   "howToDeposit": {
-    "message": "Hoe zou je DEX willen deponeren?"
+    "message": "Hoe zou je DXN willen deponeren?"
   },
   "holdDex": {
     "message": "Hiermee kunt u dexon & tokens bewaren en dient u als brug naar gedecentraliseerde applicaties."
@@ -471,7 +471,7 @@
     "message": "Bericht"
   },
   "dekusanDescription": {
-    "message": "DekuSan is een veilige identiteitskluis voor Dexon."
+    "message": "DekuSan is een veilige identiteitskluis voor DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -483,7 +483,7 @@
     "message": "Moet ten minste één token selecteren."
   },
   "needDexInWallet": {
-    "message": "Om te communiceren met gedecentraliseerde applicaties met DekuSan, heb je DEX nodig in je portemonnee."
+    "message": "Om te communiceren met gedecentraliseerde applicaties met DekuSan, heb je DXN nodig in je portemonnee."
   },
   "needImportFile": {
     "message": "U moet een bestand selecteren om te importeren.",
@@ -494,7 +494,7 @@
     "description": "Wachtwoord en bestand nodig om een ​​account te importeren"
   },
   "negativeDex": {
-    "message": "Kan geen negatieve hoeveelheden DEX verzenden."
+    "message": "Kan geen negatieve hoeveelheden DXN verzenden."
   },
   "networks": {
     "message": "netwerken"
@@ -708,8 +708,8 @@
   "send": {
     "message": "Sturen"
   },
-  "sendDEX": {
-    "message": "Verzend DEX"
+  "sendDXN": {
+    "message": "Verzend DXN"
   },
   "sendTokens": {
     "message": "Stuur tokens"
@@ -799,7 +799,7 @@
     "message": "Naar"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 tot DEX via ShapeShift",
+    "message": "$1 tot DXN via ShapeShift",
     "description": "systeem zal het aanbetalingstype invullen bij het begin van het bericht"
   },
   "tokenAddress": {
@@ -1540,6 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "Welkom bij MetaMask"
+    "message": "Welkom bij DekuSan"
   }
 }

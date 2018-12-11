@@ -19,7 +19,7 @@ function getTitleKey (state) {
   } else if (isToken) {
     return 'sendTokens'
   } else {
-    return 'sendDEX'
+    return 'sendDXN'
   }
 }
 

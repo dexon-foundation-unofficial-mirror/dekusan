@@ -1476,7 +1476,7 @@ module.exports = class MetamaskController extends EventEmitter {
       this.currencyController.setCurrentCurrency(currencyCode)
       this.currencyController.updateConversionRate()
       const data = {
-        nativeCurrency: ticker || 'DEX',
+        nativeCurrency: ticker || 'DXN',
         conversionRate: this.currencyController.getConversionRate(),
         currentCurrency: this.currencyController.getCurrentCurrency(),
         conversionDate: this.currencyController.getConversionDate(),
@@ -1520,7 +1520,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * @param {string} nickname - Optional nickname of the selected network.
    * @returns {Promise<String>} - The RPC Target URL confirmed.
    */
-  async setCustomRpc(rpcTarget, chainId, ticker = 'DEX', nickname = '') {
+  async setCustomRpc(rpcTarget, chainId, ticker = 'DXN', nickname = '') {
     this.networkController.setRpcTarget(rpcTarget, chainId, ticker, nickname)
     await this.preferencesController.addToFrequentRpcList(rpcTarget, chainId, ticker, nickname)
     return rpcTarget

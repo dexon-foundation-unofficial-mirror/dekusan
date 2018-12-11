@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import UnitInput from '../unit-input'
 import CurrencyDisplay from '../currency-display'
 import { getValueFromWeiHex, getWeiHexFromDecimalValue } from '../../helpers/conversions.util'
-import { DEX } from '../../constants/common'
+import { DXN } from '../../constants/common'
 
 /**
  * Component that allows user to enter currency values as a number, and props receive a converted
@@ -52,7 +52,7 @@ export default class CurrencyInput extends PureComponent {
         value: hexValue, toCurrency: currentCurrency, conversionRate, numberOfDecimals: 2,
       })
       : getValueFromWeiHex({
-        value: hexValue, toCurrency: DEX, numberOfDecimals: 6,
+        value: hexValue, toCurrency: DXN, numberOfDecimals: 6,
       })
 
     return Number(decimalValueString) || 0
@@ -66,7 +66,7 @@ export default class CurrencyInput extends PureComponent {
         value: decimalValue, fromCurrency, conversionRate, invertConversionRate: true,
       })
       : getWeiHexFromDecimalValue({
-        value: decimalValue, fromCurrency: DEX, fromDenomination: DEX, conversionRate,
+        value: decimalValue, fromCurrency: DXN, fromDenomination: DXN, conversionRate,
       })
 
     this.setState({ hexValue, decimalValue })
@@ -84,7 +84,7 @@ export default class CurrencyInput extends PureComponent {
 
     if (useFiat) {
       // Display DEX
-      currency = DEX
+      currency = DXN
       numberOfDecimals = 6
     } else {
       // Display Fiat

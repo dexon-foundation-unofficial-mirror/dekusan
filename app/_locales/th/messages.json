@@ -202,7 +202,7 @@
     "message": "ฝาก $1 ของคุณไปที่แอดเดรสด้านล่างนี้:",
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
-  "depositDEX": {
+  "depositDXN": {
     "message": "การฝากอีเธอร์"
   },
   "depositFiat": {
@@ -333,7 +333,7 @@
   },
   "getDexFromFaucet": {
     "message": "รับอีเธอร์ที่ปล่อยจาก $1",
-    "description": "Displays network name for DEX faucet"
+    "description": "Displays network name for DXN faucet"
   },
   "greaterThanMin": {
     "message": "ต้องมากกว่าหรือเท่ากับ $1.",
@@ -708,7 +708,7 @@
   "send": {
     "message": "ส่ง"
   },
-  "sendDEX": {
+  "sendDXN": {
     "message": "ส่งอีเธอร์"
   },
   "sendTokens": {
@@ -1540,6 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "ยินดีต้อนรับสู่ MetaMask เบต้า"
+    "message": "ยินดีต้อนรับสู่ DekuSan เบต้า"
   }
 }

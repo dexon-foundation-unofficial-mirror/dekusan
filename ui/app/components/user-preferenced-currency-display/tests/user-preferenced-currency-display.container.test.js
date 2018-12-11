@@ -46,7 +46,7 @@ describe('UserPreferencedCurrencyDisplay container', () => {
           },
           result: {
             nativeCurrency: 'ETH',
-            currency: 'DEX',
+            currency: 'DXN',
             numberOfDecimals: 6,
             prefix: undefined,
           },
@@ -96,7 +96,7 @@ describe('UserPreferencedCurrencyDisplay container', () => {
             prefix: 'b',
           },
           result: {
-            currency: 'DEX',
+            currency: 'DXN',
             numberOfDecimals: 3,
             prefix: 'b',
           },

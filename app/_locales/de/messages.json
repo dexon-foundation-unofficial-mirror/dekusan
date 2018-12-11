@@ -187,7 +187,7 @@
     "message": "Dezimalangabe der Präzision"
   },
   "defaultNetwork": {
-    "message": "Das Standardnetzwerk für DEX Transaktionen ist das Main Net."
+    "message": "Das Standardnetzwerk für DXN Transaktionen ist das Main Net."
   },
   "denExplainer": {
     "message": "Dein DEN ist dein passwortverschlüsselter Speicher innerhalb von DekuSan."
@@ -202,7 +202,7 @@
     "message": "Zahle deine $1 in die unten stehende Adresse ein",
     "description": "Teilt dem Benutzer mit welchen Token er beim Einzahlen mit Shapeshift ausgewählt hat"
   },
-  "depositDEX": {
+  "depositDXN": {
     "message": "DEXON einzahlen"
   },
   "depositFiat": {
@@ -224,10 +224,10 @@
     "message": "Sofortige Einzahlung"
   },
   "directDepositDex": {
-    "message": "Sofort DEX einzahlen"
+    "message": "Sofort DXN einzahlen"
   },
   "directDepositDexExplainer": {
-    "message": "Wenn du bereits DEX besitzt, ist die sofortige Einzahlung die schnellste Methode DEX in deine neue Wallet zu bekommen."
+    "message": "Wenn du bereits DXN besitzt, ist die sofortige Einzahlung die schnellste Methode DXN in deine neue Wallet zu bekommen."
   },
   "done": {
     "message": "Fertig"
@@ -333,7 +333,7 @@
   },
   "getDexFromFaucet": {
     "message": "DEXON für $1 vom Faucet holen",
-    "description": "Zeigt den Netzwerknamen für den DEX Faucet an"
+    "description": "Zeigt den Netzwerknamen für den DXN Faucet an"
   },
   "greaterThanMin": {
     "message": "Muss größer oder gleich $1 sein.",
@@ -356,7 +356,7 @@
     "message": "Token ausblenden?"
   },
   "howToDeposit": {
-    "message": "Wie möchtest du DEX einzahlen?"
+    "message": "Wie möchtest du DXN einzahlen?"
   },
   "holdDex": {
     "message": "Es erlaubt dir dexon & Token zu halten und dient dir als Verbindung zu dezentralisierten Applikationen."
@@ -471,7 +471,7 @@
     "message": "Nachricht"
   },
   "dekusanDescription": {
-    "message": "DekuSan ist ein sicherer Identitätssafe für Dexon."
+    "message": "DekuSan ist ein sicherer Identitätssafe für DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -483,7 +483,7 @@
     "message": "Du musst mindestens 1 Token auswählen."
   },
   "needDexInWallet": {
-    "message": "Um dezentralisierte Applikationen mit DekuSan verwenden zu können, benötigst du DEX in deiner Wallet."
+    "message": "Um dezentralisierte Applikationen mit DekuSan verwenden zu können, benötigst du DXN in deiner Wallet."
   },
   "needImportFile": {
     "message": "Für den Import musst du eine Datei auswählen.",
@@ -494,7 +494,7 @@
     "description": "Passwort und Datei sind notwendig um einen Account zu importieren"
   },
   "negativeDex": {
-    "message": "Negative DEX Beträge können nicht versendet werden."
+    "message": "Negative DXN Beträge können nicht versendet werden."
   },
   "networks": {
     "message": "Netzwerke"
@@ -708,14 +708,14 @@
   "send": {
     "message": "Senden"
   },
-  "sendDEX": {
-    "message": "DEX senden"
+  "sendDXN": {
+    "message": "DXN senden"
   },
   "sendTokens": {
     "message": "Token senden"
   },
   "onlySendToDexonAddress": {
-    "message": "DEX unbedingt nur zu einer DEXON Adresse senden."
+    "message": "DXN unbedingt nur zu einer DEXON Adresse senden."
   },
   "searchTokens": {
     "message": ""
@@ -799,7 +799,7 @@
     "message": "An"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 an DEX via ShapeShift",
+    "message": "$1 an DXN via ShapeShift",
     "description": "Das System wird den Einzahlungstyp im Beginn der Nachricht eintragen"
   },
   "tokenAddress": {

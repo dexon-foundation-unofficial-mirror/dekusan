@@ -202,7 +202,7 @@
     "message": "Vplačajte $1 na spodnji naslov",
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
-  "depositDEX": {
+  "depositDXN": {
     "message": "Vplačilo dexona"
   },
   "depositFiat": {
@@ -333,7 +333,7 @@
   },
   "getDexFromFaucet": {
     "message": "Pridobite dexon iz fauceta za $1",
-    "description": "Displays network name for DEX faucet"
+    "description": "Displays network name for DXN faucet"
   },
   "greaterThanMin": {
     "message": "mora biti višji ali enak $1.",
@@ -471,7 +471,7 @@
     "message": "Sporočilo"
   },
   "dekusanDescription": {
-    "message": "DekuSan je varen identitetni sklad za Dexon."
+    "message": "DekuSan je varen identitetni sklad za DEXON."
   },
   "min": {
     "message": "Najmanj"
@@ -494,7 +494,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeDex": {
-    "message": "Ni mogoče poslati negativne vsote DEX."
+    "message": "Ni mogoče poslati negativne vsote DXN."
   },
   "networks": {
     "message": "Omrežja"
@@ -708,8 +708,8 @@
   "send": {
     "message": "Pošlji"
   },
-  "sendDEX": {
-    "message": "Pošlji DEX"
+  "sendDXN": {
+    "message": "Pošlji DXN"
   },
   "sendTokens": {
     "message": "Pošlji žetone"
@@ -799,7 +799,7 @@
     "message": "Za"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 v DEX prek ShapeShift",
+    "message": "$1 v DXN prek ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {
@@ -1409,7 +1409,7 @@
     "message": "ETH"
   },
   "etherscanView": {
-    "message": "Poglejte račun na DEXscan"
+    "message": "Poglejte račun na DEXSCAN"
   },
   "fast": {
     "message": ""

@@ -202,8 +202,8 @@
     "message": "Vložte $1 na níže uvedenou adresu",
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
-  "depositDEX": {
-    "message": "Vložit DEX"
+  "depositDXN": {
+    "message": "Vložit DXN"
   },
   "depositFiat": {
     "message": "Vklad s fiat měnou"
@@ -215,7 +215,7 @@
     "message": "Vklad přes ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit DEX a vložit ho přímo do peněženky DekuSan. Bez založení účtu."
+    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit DXN a vložit ho přímo do peněženky DekuSan. Bez založení účtu."
   },
   "details": {
     "message": "Podrobnosti"
@@ -224,10 +224,10 @@
     "message": "Přímý vklad"
   },
   "directDepositDex": {
-    "message": "Vložit DEX přímo"
+    "message": "Vložit DXN přímo"
   },
   "directDepositDexExplainer": {
-    "message": "Pokud už vlastníte nějaký DEX, nejrychleji ho dostanete do peněženky přímým vkladem."
+    "message": "Pokud už vlastníte nějaký DXN, nejrychleji ho dostanete do peněženky přímým vkladem."
   },
   "done": {
     "message": "Hotovo"
@@ -329,11 +329,11 @@
     "message": "Cena paliva je povinná"
   },
   "getDex": {
-    "message": "Získejte DEX"
+    "message": "Získejte DXN"
   },
   "getDexFromFaucet": {
-    "message": "Získejte DEX z faucetu za $1.",
-    "description": "Displays network name for DEX faucet"
+    "message": "Získejte DXN z faucetu za $1.",
+    "description": "Displays network name for DXN faucet"
   },
   "greaterThanMin": {
     "message": "musí být větší nebo roven $1.",
@@ -356,7 +356,7 @@
     "message": "Skrýt token?"
   },
   "howToDeposit": {
-    "message": "Jakým způsobem chcete vložit DEX?"
+    "message": "Jakým způsobem chcete vložit DXN?"
   },
   "holdDex": {
     "message": "Dovoluje vám držet dexon a tokeny a slouží jako most k decentralizovaným aplikacím."
@@ -471,7 +471,7 @@
     "message": "Zpráva"
   },
   "dekusanDescription": {
-    "message": "DekuSan je bezpečný osobní trezor pro Dexon."
+    "message": "DekuSan je bezpečný osobní trezor pro DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -483,7 +483,7 @@
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needDexInWallet": {
-    "message": "Potřebujete DEX v peněžence, abyste mohli pomocí DekuSanu interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete DXN v peněžence, abyste mohli pomocí DekuSanu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",
@@ -494,7 +494,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeDex": {
-    "message": "Nelze odeslat zápornou částku DEX."
+    "message": "Nelze odeslat zápornou částku DXN."
   },
   "networks": {
     "message": "Sítě"
@@ -708,14 +708,14 @@
   "send": {
     "message": "Odeslat"
   },
-  "sendDEX": {
-    "message": "Odeslat DEX"
+  "sendDXN": {
+    "message": "Odeslat DXN"
   },
   "sendTokens": {
     "message": "Odeslat tokeny"
   },
   "onlySendToDexonAddress": {
-    "message": "Posílejte jen DEX na DEXON adresu."
+    "message": "Posílejte jen DXN na DEXON adresu."
   },
   "searchTokens": {
     "message": "Hledat tokeny"
@@ -799,7 +799,7 @@
     "message": "Komu"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 na DEX přes ShapeShift",
+    "message": "$1 na DXN přes ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {

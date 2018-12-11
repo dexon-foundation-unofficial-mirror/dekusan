@@ -202,7 +202,7 @@
     "message": "$1'nızı aşağıdaki adrese yatırın",
     "description": "Kullanıcıya hangi jetonu seçtiyse onu yatırmasını shapeshift ile söyler."
   },
-  "depositDEX": {
+  "depositDXN": {
     "message": "DEXON yatır"
   },
   "depositFiat": {
@@ -215,7 +215,7 @@
     "message": "ShapeShift ile yatır"
   },
   "depositShapeShiftExplainer": {
-    "message": "Eğer başka kripto paralara sahipseniz, DekuSan cüzdanınıza direk olarak DEX yatırabilirsiniz. Hesaba gerek yoktur."
+    "message": "Eğer başka kripto paralara sahipseniz, DekuSan cüzdanınıza direk olarak DXN yatırabilirsiniz. Hesaba gerek yoktur."
   },
   "details": {
     "message": "Ayrıntılar"
@@ -224,10 +224,10 @@
     "message": "Direk Yatırma"
   },
   "directDepositDex": {
-    "message": "Direk DEX Yatırma"
+    "message": "Direk DXN Yatırma"
   },
   "directDepositDexExplainer": {
-    "message": "Eğer çoktan DEXiniz varsa, yeni hesabınıza DEX aktarmanın en kolay yolu direk yatırmadır."
+    "message": "Eğer çoktan DEXiniz varsa, yeni hesabınıza DXN aktarmanın en kolay yolu direk yatırmadır."
   },
   "done": {
     "message": "Bitti"
@@ -332,7 +332,7 @@
     "message": "DEXON Al"
   },
   "getDexFromFaucet": {
-    "message": "Musluktan $1 karşılığı DEX alın",
+    "message": "Musluktan $1 karşılığı DXN alın",
     "description": "DEXON musluğunun ağ ismini gösterir"
   },
   "greaterThanMin": {
@@ -483,7 +483,7 @@
     "message": "En az bir jeton seçilmeli"
   },
   "needDexInWallet": {
-    "message": "DekuSan kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda DEX bulunmalıdır."
+    "message": "DekuSan kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda DXN bulunmalıdır."
   },
   "needImportFile": {
     "message": "Almak için bir dosya seçmelisiniz.",
@@ -494,7 +494,7 @@
     "description": "Hesap almak için parola ve dosya gerekiyor."
   },
   "negativeDex": {
-    "message": "Negatif DEX miktarları gönderilemez."
+    "message": "Negatif DXN miktarları gönderilemez."
   },
   "networks": {
     "message": "Ağlar"
@@ -708,14 +708,14 @@
   "send": {
     "message": "Gönder"
   },
-  "sendDEX": {
-    "message": "DEX Gönder"
+  "sendDXN": {
+    "message": "DXN Gönder"
   },
   "sendTokens": {
     "message": "Jeton Gönder"
   },
   "onlySendToDexonAddress": {
-    "message": "DEXON adresine sadece DEX gönder."
+    "message": "DEXON adresine sadece DXN gönder."
   },
   "searchTokens": {
     "message": "Jeton ara"
@@ -799,7 +799,7 @@
     "message": "Kime"
   },
   "toDEXviaShapeShift": {
-    "message": "ShapeShift üstünden $1'dan DEX'e",
+    "message": "ShapeShift üstünden $1'dan DXN'e",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {

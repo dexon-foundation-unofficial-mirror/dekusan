@@ -181,7 +181,7 @@
     "message": "Custom RPC"
   },
   "defaultNetwork": {
-    "message": "Ang default network para sa DEX transactions ay ang Main Net."
+    "message": "Ang default network para sa DXN transactions ay ang Main Net."
   },
   "denExplainer": {
     "message": "Ang iyong DEN ang nagsisilbing password-encrypted storage mo sa loob ng DekuSan."
@@ -209,7 +209,7 @@
     "message": "I-deposito gamit ang ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Kung ikaw ay nagmamay-ari ng iba pang cryptocurrencies, pwede kang mag-trade at mag-deposito ng DEX diretso sa iyong DekuSan wallet. Hindi mo na kailangan ng account."
+    "message": "Kung ikaw ay nagmamay-ari ng iba pang cryptocurrencies, pwede kang mag-trade at mag-deposito ng DXN diretso sa iyong DekuSan wallet. Hindi mo na kailangan ng account."
   },
   "details": {
     "message": "Detalye"
@@ -218,10 +218,10 @@
     "message": "Direktang Deposito"
   },
   "directDepositEther": {
-    "message": "Direktang I-deposito ang DEX"
+    "message": "Direktang I-deposito ang DXN"
   },
   "directDepositEtherExplainer": {
-    "message": "Kung ika ay mayroon nang DEX, ang pinakamabilis na paraan upang makuha ang DEX sa iyong bagong wallet ay sa pamamagitan ng direktang deposito."
+    "message": "Kung ika ay mayroon nang DXN, ang pinakamabilis na paraan upang makuha ang DXN sa iyong bagong wallet ay sa pamamagitan ng direktang deposito."
   },
   "done": {
     "message": "Tapos na"
@@ -239,7 +239,7 @@
     "message": "I-enter ang password"
   },
   "etherscanView": {
-    "message": "Tingnan ang account sa DEXscan"
+    "message": "Tingnan ang account sa DEXSCAN"
   },
   "exchangeRate": {
     "message": "Exchange Rate"
@@ -296,11 +296,11 @@
     "message": "Kailangan ang Gas Price"
   },
   "getEther": {
-    "message": "Kumuha ng DEX"
+    "message": "Kumuha ng DXN"
   },
   "getEtherFromFaucet": {
-    "message": "Kumuha ng DEX mula sa faucet para sa $1",
-    "description": "Ipinapakita ang pangalan ng network para sa DEX faucet"
+    "message": "Kumuha ng DXN mula sa faucet para sa $1",
+    "description": "Ipinapakita ang pangalan ng network para sa DXN faucet"
   },
   "greaterThanMin": {
     "message": "dapat mas malaki o katumbas ng $1.",
@@ -320,7 +320,7 @@
     "message": "Itago ang Token?"
   },
   "howToDeposit": {
-    "message": "Paano mo gustong mag-deposito ng DEX?"
+    "message": "Paano mo gustong mag-deposito ng DXN?"
   },
   "import": {
     "message": "I-import",
@@ -396,7 +396,7 @@
     "message": "Aking mga Account"
   },
   "needEtherInWallet": {
-    "message": "Upang makipag-ugnayan sa decentralized applications gamit ang DekuSan, kakailanganin mo ng DEX sa iyong wallet."
+    "message": "Upang makipag-ugnayan sa decentralized applications gamit ang DekuSan, kakailanganin mo ng DXN sa iyong wallet."
   },
   "needImportFile": {
     "message": "Dapat kang pumili ng file para i-import.",

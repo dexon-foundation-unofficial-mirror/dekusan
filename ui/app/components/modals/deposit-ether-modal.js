@@ -124,7 +124,7 @@ DepositEtherModal.prototype.render = function () {
 
     h('div.page-container__header', [
 
-      h('div.page-container__title', [this.context.t('depositDEX')]),
+      h('div.page-container__title', [this.context.t('depositDXN')]),
 
       h('div.page-container__subtitle', [
         this.context.t('needDexInWallet'),

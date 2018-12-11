@@ -187,7 +187,7 @@
     "message": "Количество десятичных разрядов"
   },
   "defaultNetwork": {
-    "message": "Основная сеть DEXON – это сеть по умолчанию для DEX транзакций."
+    "message": "Основная сеть DEXON – это сеть по умолчанию для DXN транзакций."
   },
   "denExplainer": {
     "message": "DEN – это зашифрованное паролем хранилище внутри DekuSan."
@@ -202,8 +202,8 @@
     "message": "Отправьте ваш $1 на адрес ниже",
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
-  "depositDEX": {
-    "message": "Пополнить DEX"
+  "depositDXN": {
+    "message": "Пополнить DXN"
   },
   "depositFiat": {
     "message": "Пополнить деньгами"
@@ -215,7 +215,7 @@
     "message": "Пополнить через ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Если у вас есть другие криптовалюты, вы можете торговать и пополнять DEX напрямую в ваш DekuSan кошелек. Нет необходимости в счете."
+    "message": "Если у вас есть другие криптовалюты, вы можете торговать и пополнять DXN напрямую в ваш DekuSan кошелек. Нет необходимости в счете."
   },
   "details": {
     "message": "Детали"
@@ -224,10 +224,10 @@
     "message": "Прямое пополнение"
   },
   "directDepositDex": {
-    "message": "Прямое пополнение DEX"
+    "message": "Прямое пополнение DXN"
   },
   "directDepositDexExplainer": {
-    "message": "Если у вас уже есть DEX, то самый быстрый способ получить DEX в ваш новый кошелек – это прямое пополнение."
+    "message": "Если у вас уже есть DXN, то самый быстрый способ получить DXN в ваш новый кошелек – это прямое пополнение."
   },
   "done": {
     "message": "Готово"
@@ -329,11 +329,11 @@
     "message": "Установите стоимость газа"
   },
   "getDex": {
-    "message": "Получить DEX"
+    "message": "Получить DXN"
   },
   "getDexFromFaucet": {
-    "message": "Получить DEX из крана для $1",
-    "description": "Displays network name for DEX faucet"
+    "message": "Получить DXN из крана для $1",
+    "description": "Displays network name for DXN faucet"
   },
   "greaterThanMin": {
     "message": "должно быть больше или равно $1.",
@@ -356,7 +356,7 @@
     "message": "Скрыть токен?"
   },
   "howToDeposit": {
-    "message": "Как бы вы хотели пополнить DEX?"
+    "message": "Как бы вы хотели пополнить DXN?"
   },
   "holdDex": {
     "message": "Позволяет вам хранить dexon и токены и служит в качестве моста в децентрализированные приложения."
@@ -471,7 +471,7 @@
     "message": "Сообщение"
   },
   "dekusanDescription": {
-    "message": "DekuSan – безопасный кошелек для Dexon."
+    "message": "DekuSan – безопасный кошелек для DEXON."
   },
   "min": {
     "message": "Минимум"
@@ -483,7 +483,7 @@
     "message": "Необходимо выбрать как минимум 1 токен."
   },
   "needDexInWallet": {
-    "message": "Для взаимодействия с децентрализованными приложениями с помощью DekuSan нужен DEX в вашем кошельке."
+    "message": "Для взаимодействия с децентрализованными приложениями с помощью DekuSan нужен DXN в вашем кошельке."
   },
   "needImportFile": {
     "message": "Вы должны выбрать файл для импорта.",
@@ -494,7 +494,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeDex": {
-    "message": "Невозможно отправить отрицательную сумму DEX."
+    "message": "Невозможно отправить отрицательную сумму DXN."
   },
   "networks": {
     "message": "Сети"
@@ -708,14 +708,14 @@
   "send": {
     "message": "Отправить"
   },
-  "sendDEX": {
-    "message": "Отправить DEX"
+  "sendDXN": {
+    "message": "Отправить DXN"
   },
   "sendTokens": {
     "message": "Отправить токены"
   },
   "onlySendToDexonAddress": {
-    "message": "Отправляйте DEX только на DEXON адреса."
+    "message": "Отправляйте DXN только на DEXON адреса."
   },
   "searchTokens": {
     "message": "Поиск токенов"
@@ -799,7 +799,7 @@
     "message": "Получатель"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 в DEX через ShapeShift",
+    "message": "$1 в DXN через ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {
@@ -1540,6 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "Добро пожаловать в MetaMask"
+    "message": "Добро пожаловать в DekuSan"
   }
 }

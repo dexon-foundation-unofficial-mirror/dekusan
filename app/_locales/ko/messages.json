@@ -202,7 +202,7 @@
     "message": "다음 주소로 $1 만큼 입금해주세요.",
     "description": "사용자에게 shapeshift에서 어떤 코인을 선택해 입금했는지 알려줍니다"
   },
-  "depositDEX": {
+  "depositDXN": {
     "message": "이더리움 입금하기"
   },
   "depositFiat": {
@@ -708,8 +708,8 @@
   "send": {
     "message": "전송"
   },
-  "sendDEX": {
-    "message": "DEX 보내기"
+  "sendDXN": {
+    "message": "DXN 보내기"
   },
   "sendTokens": {
     "message": "토큰 전송"

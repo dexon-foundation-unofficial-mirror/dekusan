@@ -187,7 +187,7 @@
     "message": "Presizyon desimal la"
   },
   "defaultNetwork": {
-    "message": "Dfo rezo a pou tranzaksyon DEX se Mainnet."
+    "message": "Dfo rezo a pou tranzaksyon DXN se Mainnet."
   },
   "denExplainer": {
     "message": "DEN ou se depo modpas avèk chif ou nan DekuSan."
@@ -202,8 +202,8 @@
     "message": "Depoze $1 ou nan adrès ki anba a",
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
-  "depositDEX": {
-    "message": "Depo DEX"
+  "depositDXN": {
+    "message": "Depo DXN"
   },
   "depositFiat": {
     "message": "Depo ak Fiat"
@@ -215,7 +215,7 @@
     "message": "Depo avèk ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Si ou posede lòt cryptocurrencies, ou ka chanje ak depo DEX dirèkteman nan Wallet DekuSan ou. Pa gen kont ki nesesè."
+    "message": "Si ou posede lòt cryptocurrencies, ou ka chanje ak depo DXN dirèkteman nan Wallet DekuSan ou. Pa gen kont ki nesesè."
   },
   "details": {
     "message": "Detay yo"
@@ -224,10 +224,10 @@
     "message": "Depo Dirèk"
   },
   "directDepositDex": {
-    "message": "Dirèkteman Depo DEX"
+    "message": "Dirèkteman Depo DXN"
   },
   "directDepositDexExplainer": {
-    "message": "Si ou deja gen kèk DEX, fason ki pi rapid yo ka resevwa DEX nan nouvo Wallet ou pa depo dirèk."
+    "message": "Si ou deja gen kèk DXN, fason ki pi rapid yo ka resevwa DXN nan nouvo Wallet ou pa depo dirèk."
   },
   "done": {
     "message": "Fini"
@@ -329,11 +329,11 @@
     "message": "Pri Gaz la Egzije"
   },
   "getDex": {
-    "message": "Jwenn DEX"
+    "message": "Jwenn DXN"
   },
   "getDexFromFaucet": {
-    "message": "Jwenn DEX nan yon tiyo pou $1 la",
-    "description": "Displays network name for DEX faucet"
+    "message": "Jwenn DXN nan yon tiyo pou $1 la",
+    "description": "Displays network name for DXN faucet"
   },
   "greaterThanMin": {
     "message": "dwe pi gran pase oswa egal a $ 1.",
@@ -356,7 +356,7 @@
     "message": "Kache Token?"
   },
   "howToDeposit": {
-    "message": "Ki jan ou ta renmen depo DEX?"
+    "message": "Ki jan ou ta renmen depo DXN?"
   },
   "holdDex": {
     "message": "Li pèmèt ou kenbe dexon & tokens, epi sèvi kòm on pon pou desantralize aplikasyon."
@@ -483,7 +483,7 @@
     "message": "Ou dwe chwazi omwen 1 token."
   },
   "needDexInWallet": {
-    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize DekuSan, ou pral bezwen DEX nan Wallet ou."
+    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize DekuSan, ou pral bezwen DXN nan Wallet ou."
   },
   "needImportFile": {
     "message": "Ou dwe chwazi yon dosye pou enpòte.",
@@ -494,7 +494,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeDex": {
-    "message": "Pa ka voye kantite lajan negatif DEX."
+    "message": "Pa ka voye kantite lajan negatif DXN."
   },
   "networks": {
     "message": "Rezo"
@@ -708,14 +708,14 @@
   "send": {
     "message": "Voye"
   },
-  "sendDEX": {
-    "message": "Voye DEX"
+  "sendDXN": {
+    "message": "Voye DXN"
   },
   "sendTokens": {
     "message": "Voye Tokens"
   },
   "onlySendToDexonAddress": {
-    "message": "Sèlman voye DEX nan yon adrès DEXeum."
+    "message": "Sèlman voye DXN nan yon adrès DEXeum."
   },
   "searchTokens": {
     "message": "Rechèch Tokens"
@@ -799,7 +799,7 @@
     "message": "Pou"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 pou DEX pa ShapeShift",
+    "message": "$1 pou DXN pa ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {
@@ -1238,7 +1238,7 @@
     "message": "3. Kòmanse itilize dApps ak plis ankò!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Sèvi ak kont materyèl ou menm jan ou t ap fè pou kont DEXum. Ouvri sesyon an nan dApps, voye DEX, achte ak stòke ERC20 tokens ak e ki pake chanje tokens tankou CryptoKitties."
+    "message": "Sèvi ak kont materyèl ou menm jan ou t ap fè pou kont DEXum. Ouvri sesyon an nan dApps, voye DXN, achte ak stòke ERC20 tokens ak e ki pake chanje tokens tankou CryptoKitties."
   },
   "token": {
     "message": "Token"

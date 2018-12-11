@@ -35,7 +35,7 @@ const defaultProviderConfig = {
 }
 
 const defaultNetworkConfig = {
-  ticker: 'DEX',
+  ticker: 'DXN',
 }
 
 module.exports = class NetworkController extends EventEmitter {
@@ -123,7 +123,7 @@ module.exports = class NetworkController extends EventEmitter {
     })
   }
 
-  setRpcTarget (rpcTarget, chainId, ticker = 'DEX', nickname = '') {
+  setRpcTarget (rpcTarget, chainId, ticker = 'DXN', nickname = '') {
     const providerConfig = {
       type: 'rpc',
       rpcTarget,
@@ -186,7 +186,7 @@ module.exports = class NetworkController extends EventEmitter {
     this._setNetworkClient(networkClient)
     // setup networkConfig
     var settings = {
-      ticker: 'DEX',
+      ticker: 'DXN',
     }
     this.networkConfig.putState(settings)
   }
@@ -210,7 +210,7 @@ module.exports = class NetworkController extends EventEmitter {
     networks.networkList['rpc'] = {
       chainId: chainId,
       rpcUrl,
-      ticker: ticker || 'DEX',
+      ticker: ticker || 'DXN',
       nickname,
     }
     // setup networkConfig

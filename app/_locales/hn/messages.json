@@ -684,7 +684,7 @@
   "send": {
     "message": "भेजें"
   },
-  "sendDEX": {
+  "sendDXN": {
     "message": "भेजें ETH"
   },
   "sendTokens": {

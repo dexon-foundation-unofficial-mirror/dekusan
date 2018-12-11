@@ -304,7 +304,7 @@ class AddToken extends Component {
     return (
       <PageContainer
         title={this.context.t('addTokens')}
-        tabsComponent={this.renderTabs()}
+        contentComponent={this.renderCustomTokenForm()}
         onSubmit={() => this.handleNext()}
         disabled={this.hasError() || !this.hasSelected()}
         onCancel={() => {
@@ -313,6 +313,19 @@ class AddToken extends Component {
         }}
       />
     )
+
+    // return (
+    //   <PageContainer
+    //     title={this.context.t('addTokens')}
+    //     tabsComponent={this.renderTabs()}
+    //     onSubmit={() => this.handleNext()}
+    //     disabled={this.hasError() || !this.hasSelected()}
+    //     onCancel={() => {
+    //       clearPendingTokens()
+    //       history.push(DEFAULT_ROUTE)
+    //     }}
+    //   />
+    // )
   }
 }
 

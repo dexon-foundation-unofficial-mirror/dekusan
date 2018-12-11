@@ -202,7 +202,7 @@
     "message": "$1を下記のアドレスへ振込んでください",
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
-  "depositDEX": {
+  "depositDXN": {
     "message": "DEXONを振込"
   },
   "depositFiat": {
@@ -333,7 +333,7 @@
   },
   "getDexFromFaucet": {
     "message": "フォーセットで $1のDEXONを得ることができます。",
-    "description": "Displays network name for DEX faucet"
+    "description": "Displays network name for DXN faucet"
   },
   "greaterThanMin": {
     "message": " $1以上にして下さい。",
@@ -708,14 +708,14 @@
   "send": {
     "message": "送信"
   },
-  "sendDEX": {
+  "sendDXN": {
     "message": "DEXの送信"
   },
   "sendTokens": {
     "message": "トークンを送信"
   },
   "onlySendToDexonAddress": {
-    "message": "DEX はイーサリウムアカウントのみに送信できます。"
+    "message": "DXN はイーサリウムアカウントのみに送信できます。"
   },
   "searchTokens": {
     "message": "トークンの検索"
@@ -1540,6 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "MetaMask ベータ版へようこそ!"
+    "message": "DekuSan ベータ版へようこそ!"
   }
 }

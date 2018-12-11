@@ -5,7 +5,7 @@ import TransactionBreakdownRow from './transaction-breakdown-row'
 import CurrencyDisplay from '../currency-display'
 import UserPreferencedCurrencyDisplay from '../user-preferenced-currency-display'
 import HexToDecimal from '../hex-to-decimal'
-import { DEX, GWEI, PRIMARY, SECONDARY } from '../../constants/common'
+import { DXN, GWEI, PRIMARY, SECONDARY } from '../../constants/common'
 import { getHexGasTotal } from '../../helpers/confirm-transaction/util'
 import { sumHexes } from '../../helpers/transactions.util'
 
@@ -86,7 +86,7 @@ export default class TransactionBreakdown extends PureComponent {
             />
             <UserPreferencedCurrencyDisplay
               className="transaction-breakdown__value"
-              currency={DEX}
+              currency={DXN}
               denomination={GWEI}
               value={gasPrice}
               hideLabel

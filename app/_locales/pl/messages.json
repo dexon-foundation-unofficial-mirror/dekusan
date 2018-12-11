@@ -75,7 +75,7 @@
     "message": "Pożycz z Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "MetaMask został zaprojektowany i stworzony w Kaliforni."
+    "message": "DekuSan został zaprojektowany i stworzony w Kaliforni."
   },
   "buy": {
     "message": "Kup"
@@ -190,7 +190,7 @@
     "message": "Domyślna sieć dla Eteru to Main Net."
   },
   "denExplainer": {
-    "message": "Twój DEN to chroniony hasłem schowek w MetaMasku."
+    "message": "Twój DEN to chroniony hasłem schowek w DekuSanu."
   },
   "deposit": {
     "message": "Zdeponuj"
@@ -202,8 +202,8 @@
     "message": "Zdeponuj $1 na poniższy adres",
     "description": "Pokazuje użytkownikowi jakie waluty wybrał do zdeponowania w ShapeShift"
   },
-  "depositDEX": {
-    "message": "Zdeponuj DEX"
+  "depositDXN": {
+    "message": "Zdeponuj DXN"
   },
   "depositFiat": {
     "message": "Zdeponuj w Fiat"
@@ -215,7 +215,7 @@
     "message": "Zdeponuj przez ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Jeśli posiadasz inne kryptowaluty, możesz nimi handlować i deponować Eter bezpośrednio do swojego portfela MetaMask. Nie trzeba żadnego konta."
+    "message": "Jeśli posiadasz inne kryptowaluty, możesz nimi handlować i deponować Eter bezpośrednio do swojego portfela DekuSan. Nie trzeba żadnego konta."
   },
   "details": {
     "message": "Szczegóły"
@@ -369,7 +369,7 @@
     "message": "Importuj konto"
   },
   "importAccountMsg": {
-    "message": " Importowane konta nie będą powiązane z Twoją pierwotną frazą seed MetaMask. Dowiedz się więcej o importowaniu kont "
+    "message": " Importowane konta nie będą powiązane z Twoją pierwotną frazą seed DekuSan. Dowiedz się więcej o importowaniu kont "
   },
   "importAnAccount": {
     "message": "Importuj konto"
@@ -416,7 +416,7 @@
     "description": "formatuj do importowania konta"
   },
   "keepTrackTokens": {
-    "message": "Monitoruj stan tokenów kupionych przy pomocy konta MetaMask."
+    "message": "Monitoruj stan tokenów kupionych przy pomocy konta DekuSan."
   },
   "kovan": {
     "message": "Sieć testowa Kovan"
@@ -471,7 +471,7 @@
     "message": "Wiadomość"
   },
   "dekusanDescription": {
-    "message": "MetaMask to bezpieczny portfel dla DEXON."
+    "message": "DekuSan to bezpieczny portfel dla DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -483,7 +483,7 @@
     "message": "Należy wybrać co najmniej 1 token."
   },
   "needDexInWallet": {
-    "message": "Żeby skorzystać ze zdecentraliowanych aplikacji (dApps) przy pomocy MetaMask, potrzebujesz Eteru w swoim portfelu."
+    "message": "Żeby skorzystać ze zdecentraliowanych aplikacji (dApps) przy pomocy DekuSan, potrzebujesz Eteru w swoim portfelu."
   },
   "needImportFile": {
     "message": "Musisz wybrać plik do zaimportowania.",
@@ -494,7 +494,7 @@
     "description": "Hasło i plik niezbędne do zaimportowania konta"
   },
   "negativeDex": {
-    "message": "Nie można wysłać ujemnych ilości DEX."
+    "message": "Nie można wysłać ujemnych ilości DXN."
   },
   "networks": {
     "message": "Sieci"
@@ -708,14 +708,14 @@
   "send": {
     "message": "Wyślij"
   },
-  "sendDEX": {
-    "message": "Wyślij DEX"
+  "sendDXN": {
+    "message": "Wyślij DXN"
   },
   "sendTokens": {
     "message": "Wyślij tokeny"
   },
   "onlySendToDexonAddress": {
-    "message": "Na adres DEXON wysyłaj tylko DEX."
+    "message": "Na adres DEXON wysyłaj tylko DXN."
   },
   "searchTokens": {
     "message": "Szukaj tokenów"
@@ -790,7 +790,7 @@
     "message": "Regulamin"
   },
   "testFaucet": {
-    "message": "Źródło testowego DEX"
+    "message": "Źródło testowego DXN"
   },
   "testnet": {
     "message": ""
@@ -799,7 +799,7 @@
     "message": "Do"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 na DEX przez ShapeShift",
+    "message": "$1 na DXN przez ShapeShift",
     "description": "system uzupełni typ depozytu na początku wiadomości"
   },
   "tokenAddress": {
@@ -818,7 +818,7 @@
     "message": "Symbol tokena"
   },
   "tokenWarning1": {
-    "message": "Monitoruj stan tokenów kupionych przy pomocy konta MetaMask. Jeśli masz tokeny kupione przy pomocy innych kont, nie pojawią się tutaj."
+    "message": "Monitoruj stan tokenów kupionych przy pomocy konta DekuSan. Jeśli masz tokeny kupione przy pomocy innych kont, nie pojawią się tutaj."
   },
   "total": {
     "message": "Suma"
@@ -843,7 +843,7 @@
     "description": "Z linkiem (tutaj) do informacji o stanie tokenów"
   },
   "twelveWords": {
-    "message": "Tych 12 słów to jedyny sposób, żeby odzyskać konta w MetaMasku. Zapisz je w bezpiecznym miejscu."
+    "message": "Tych 12 słów to jedyny sposób, żeby odzyskać konta w DekuSanu. Zapisz je w bezpiecznym miejscu."
   },
   "typePassword": {
     "message": "Wpisz hasło"
@@ -852,7 +852,7 @@
     "message": "Witamy w nowym interfejsie (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Używasz teraz nowego interfejsu MetaMask."
+    "message": "Używasz teraz nowego interfejsu DekuSan."
   },
   "unapproved": {
     "message": "Niezatwierdzone"
@@ -898,7 +898,7 @@
     "message": "Uwaga"
   },
   "welcomeBeta": {
-    "message": "Witaj w MetaMask Beta"
+    "message": "Witaj w DekuSan Beta"
   },
   "whatsThis": {
     "message": "Co to jest?"
@@ -928,7 +928,7 @@
     "message": "Dodaj sugerowane tokeny."
   },
   "addAcquiredTokens": {
-    "message": "Dodaj tokeny pozyskane przy pomocy MetaMask"
+    "message": "Dodaj tokeny pozyskane przy pomocy DekuSan"
   },
   "approve": {
     "message": "Zatwierdź"
@@ -961,7 +961,7 @@
     "message": "Zamknij"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Żeby połączyć się z portfelem sprzętowym, należy uruchomić MetaMask z przeglądarką Google Chrome."
+    "message": "Żeby połączyć się z portfelem sprzętowym, należy uruchomić DekuSan z przeglądarką Google Chrome."
   },
   "connectHardwareWallet": {
     "message": "Podłącz portfel sprzętowy"
@@ -1030,7 +1030,7 @@
     "message": "Podłącz sprzętowy portfel"
   },
   "hardwareWalletsMsg": {
-    "message": "Wybierz portfel sprzętowy, którego chcesz użyć z MetaMaskiem"
+    "message": "Wybierz portfel sprzętowy, którego chcesz użyć z DekuSaniem"
   },
   "havingTroubleConnecting": {
     "message": "Problem z połączeniem?"
@@ -1057,7 +1057,7 @@
     "message": "Menu"
   },
   "dekusanSeedWords": {
-    "message": "Słowa Seed MetaMask"
+    "message": "Słowa Seed DekuSan"
   },
   "dekusanVersion": {
     "message": ""
@@ -1196,7 +1196,7 @@
     "message": "Wybierz konto"
   },
   "selectAnAccountHelp": {
-    "message": "Wybierz konto do przeglądania w MetaMask"
+    "message": "Wybierz konto do przeglądania w DekuSan"
   },
   "selectHdPath": {
     "message": "Wybierz ścieżkę HD"
@@ -1238,7 +1238,7 @@
     "message": "3. Zacznij używać dystrybuowanych aplikacji (dApps) i wiele więcej!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Używaj swojego konta sprzętowego tak, jak używasz jakiegokolwiek konta z DEXON. Loguj się do dystrybuowanych aplikacji (dApps), wysyłaj DEX, kupuj i przechowaj tokeny ERC20 i niewymienne tokeny, jak np. CryptoKitties."
+    "message": "Używaj swojego konta sprzętowego tak, jak używasz jakiegokolwiek konta z DEXON. Loguj się do dystrybuowanych aplikacji (dApps), wysyłaj DXN, kupuj i przechowaj tokeny ERC20 i niewymienne tokeny, jak np. CryptoKitties."
   },
   "token": {
     "message": "Token"
@@ -1433,13 +1433,13 @@
   "holdEther": {
     "message": ""
   },
-  "metamaskDescription": {
+  "DekuSanDescription": {
     "message": ""
   },
-  "metamaskSeedWords": {
+  "DekuSanSeedWords": {
     "message": ""
   },
-  "metamaskVersion": {
+  "DekuSanVersion": {
     "message": ""
   },
   "minutesShorthand": {

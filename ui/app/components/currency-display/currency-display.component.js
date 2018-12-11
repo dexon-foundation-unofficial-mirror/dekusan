@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import { ETH, DEX, GWEI } from '../../constants/common'
+import { ETH, DXN, GWEI } from '../../constants/common'
 
 export default class CurrencyDisplay extends PureComponent {
   static propTypes = {
@@ -12,7 +12,7 @@ export default class CurrencyDisplay extends PureComponent {
     style: PropTypes.object,
     suffix: PropTypes.string,
     // Used in container
-    currency: PropTypes.oneOf([ETH, DEX]),
+    currency: PropTypes.oneOf([ETH, DXN]),
     denomination: PropTypes.oneOf([GWEI]),
     value: PropTypes.string,
     numberOfDecimals: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),

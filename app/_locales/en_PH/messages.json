@@ -202,7 +202,7 @@
     "message": "",
     "description": ""
   },
-  "depositDEX": {
+  "depositDXN": {
     "message": ""
   },
   "depositFiat": {
@@ -708,7 +708,7 @@
   "send": {
     "message": ""
   },
-  "sendDEX": {
+  "sendDXN": {
     "message": ""
   },
   "sendTokens": {

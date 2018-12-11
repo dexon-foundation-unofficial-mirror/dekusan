@@ -28,7 +28,7 @@ class TokenRatesController {
   async updateExchangeRates () {
     if (!this.isActive) { return }
     const contractExchangeRates = {}
-    const nativeCurrency = this.currency ? this.currency.getState().nativeCurrency.toUpperCase() : 'DEX'
+    const nativeCurrency = this.currency ? this.currency.getState().nativeCurrency.toUpperCase() : 'DXN'
     const pairs = this._tokens.map(token => `pairs[]=${token.address}/${nativeCurrency}`)
     const query = pairs.join('&')
     if (this._tokens.length > 0) {
@@ -40,7 +40,7 @@ class TokenRatesController {
           contractExchangeRates[normalizeAddress(address)] = typeof price === 'number' ? price : 0
         })
       } catch (error) {
-        log.warn(`MetaMask - TokenRatesController exchange rate fetch failed.`, error)
+        log.warn(`DekuSan - TokenRatesController exchange rate fetch failed.`, error)
       }
     }
     this.store.putState({ contractExchangeRates })

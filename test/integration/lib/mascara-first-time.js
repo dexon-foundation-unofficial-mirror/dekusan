@@ -66,8 +66,8 @@ async function runFirstTimeUsageTest (assert, done) {
   ;(await findAsync(app, '.first-time-flow__button')).click()
 
   // Deposit Ether Screen
-  const depositDEXTitle = (await findAsync(app, '.page-container__title'))[0]
-  assert.equal(depositDEXTitle.textContent, 'Deposit Ether', 'deposit ether screen')
+  const depositDXNTitle = (await findAsync(app, '.page-container__title'))[0]
+  assert.equal(depositDXNTitle.textContent, 'Deposit Ether', 'deposit ether screen')
   ;(await findAsync(app, '.page-container__header-close')).click()
 
   const menu = (await findAsync(app, '.account-menu__icon'))[0]

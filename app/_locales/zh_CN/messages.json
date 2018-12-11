@@ -202,8 +202,8 @@
     "message": "将你的 $1 存入到下面的地址",
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
-  "depositDEX": {
-    "message": "存入 DEX"
+  "depositDXN": {
+    "message": "存入 DXN"
   },
   "depositFiat": {
     "message": "从 Fiat 存入"
@@ -215,7 +215,7 @@
     "message": "从 ShapeShift 存入"
   },
   "depositShapeShiftExplainer": {
-    "message": "如果你拥有其他加密货币，你可以直接交易并存入 DEX 到你的 DekuSan 钱包。 不需要帐户。"
+    "message": "如果你拥有其他加密货币，你可以直接交易并存入 DXN 到你的 DekuSan 钱包。 不需要帐户。"
   },
   "details": {
     "message": "详情"
@@ -224,10 +224,10 @@
     "message": "直接存入"
   },
   "directDepositDex": {
-    "message": "直接存入 DEX"
+    "message": "直接存入 DXN"
   },
   "directDepositDexExplainer": {
-    "message": "如果你已经有了一些 DEX，通过直接转入是你的新钱包获取 DEX 的最快捷方式。"
+    "message": "如果你已经有了一些 DEX，通过直接转入是你的新钱包获取 DXN 的最快捷方式。"
   },
   "done": {
     "message": "完成"
@@ -329,11 +329,11 @@
     "message": "Gas Price 必填"
   },
   "getDex": {
-    "message": "获取 DEX"
+    "message": "获取 DXN"
   },
   "getDexFromFaucet": {
-    "message": "从水管获取$1网络的 DEX",
-    "description": "Displays network name for DEX faucet"
+    "message": "从水管获取$1网络的 DXN",
+    "description": "Displays network name for DXN faucet"
   },
   "greaterThanMin": {
     "message": "必须要大于等于 $1。",
@@ -471,7 +471,7 @@
     "message": "消息"
   },
   "dekusanDescription": {
-    "message": "DekuSan is a secure identity vault for Dexon."
+    "message": "DekuSan is a secure identity vault for DEXON."
   },
   "min": {
     "message": "最小"
@@ -494,7 +494,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeDex": {
-    "message": "Can not send negative amounts of DEX."
+    "message": "Can not send negative amounts of DXN."
   },
   "networks": {
     "message": "网络"
@@ -708,14 +708,14 @@
   "send": {
     "message": "发送"
   },
-  "sendDEX": {
-    "message": "发送 DEX"
+  "sendDXN": {
+    "message": "发送 DXN"
   },
   "sendTokens": {
     "message": "发送 代币"
   },
   "onlySendToDexonAddress": {
-    "message": "只发送 DEX 给一个DEXON地址"
+    "message": "只发送 DXN 给一个DEXON地址"
   },
   "searchTokens": {
     "message": "搜索代币"
@@ -799,7 +799,7 @@
     "message": "至"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 DEX 通过 ShapeShift",
+    "message": "$1 DXN 通过 ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {

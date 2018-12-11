@@ -9,7 +9,7 @@ import {
   roundExponential,
 } from '../../../helpers/confirm-transaction/util'
 import { getWeiHexFromDecimalValue } from '../../../helpers/conversions.util'
-import { DEX, PRIMARY } from '../../../constants/common'
+import { DXN, PRIMARY } from '../../../constants/common'
 
 export default class ConfirmTokenTransactionBase extends Component {
   static contextTypes = {
@@ -45,8 +45,8 @@ export default class ConfirmTokenTransactionBase extends Component {
     const decimalEthValue = (tokenAmount * contractExchangeRate) || 0
     const hexWeiValue = getWeiHexFromDecimalValue({
       value: decimalEthValue,
-      fromCurrency: DEX,
-      fromDenomination: DEX,
+      fromCurrency: DXN,
+      fromDenomination: DXN,
     })
 
     return typeof contractExchangeRate === 'undefined'

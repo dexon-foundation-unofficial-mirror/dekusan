@@ -187,7 +187,7 @@
     "message": "Precisione Decimali"
   },
   "defaultNetwork": {
-    "message": "La rete predefinita per transazioni in DEX è la Rete DEXON Principale."
+    "message": "La rete predefinita per transazioni in DXN è la Rete DEXON Principale."
   },
   "denExplainer": {
     "message": "Il DEN è il tuo archivio crittato con password dentro DekuSan."
@@ -202,8 +202,8 @@
     "message": "Deposita $1 all'indirizzo sotto",
     "description": "Dice all'utente quale moneta ha selezionato per depositare con Shapeshift"
   },
-  "depositDEX": {
-    "message": "Deposita DEX"
+  "depositDXN": {
+    "message": "Deposita DXN"
   },
   "depositFiat": {
     "message": "Deposita con moneta Fiat"
@@ -215,7 +215,7 @@
     "message": "Deposita con ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Se possiedi altre criptomonete, puoi scambiare e depositare DEX direttamente nel tuo portafoglio DekuSan. Nessun account richiesto."
+    "message": "Se possiedi altre criptomonete, puoi scambiare e depositare DXN direttamente nel tuo portafoglio DekuSan. Nessun account richiesto."
   },
   "details": {
     "message": "Dettagli"
@@ -224,10 +224,10 @@
     "message": "Deposito Diretto"
   },
   "directDepositDex": {
-    "message": "Deposita Direttamente DEX"
+    "message": "Deposita Direttamente DXN"
   },
   "directDepositDexExplainer": {
-    "message": "Se possiedi già degli DEX, questa è la via più veloce per aggiungere DEX al tuo portafoglio con un deposito diretto."
+    "message": "Se possiedi già degli DXN, questa è la via più veloce per aggiungere DXN al tuo portafoglio con un deposito diretto."
   },
   "done": {
     "message": "Finito"
@@ -329,11 +329,11 @@
     "message": "Prezzo Gas Richiesto"
   },
   "getDex": {
-    "message": "Ottieni DEX"
+    "message": "Ottieni DXN"
   },
   "getDexFromFaucet": {
-    "message": "Ottieni Get DEX da un faucet per $1",
-    "description": "Visualizza il nome della rete per il faucet DEX"
+    "message": "Ottieni Get DXN da un faucet per $1",
+    "description": "Visualizza il nome della rete per il faucet DXN"
   },
   "greaterThanMin": {
     "message": "deve essere maggiore o uguale a $1.",
@@ -356,7 +356,7 @@
     "message": "Nascondi Token?"
   },
   "howToDeposit": {
-    "message": "Come vuoi depositare DEX?"
+    "message": "Come vuoi depositare DXN?"
   },
   "holdDex": {
     "message": "Ti permette di tenere dexon & token, e serve da ponte per le applicazioni decentralizzate."
@@ -416,7 +416,7 @@
     "description": "formato per importare un account"
   },
   "keepTrackTokens": {
-    "message": "Tieni traccia dei tokens che hai acquistato con il tuo account MetaMask."
+    "message": "Tieni traccia dei tokens che hai acquistato con il tuo account DekuSan."
   },
   "kovan": {
     "message": "Rete di test Kovan"
@@ -471,7 +471,7 @@
     "message": "Messaggio"
   },
   "dekusanDescription": {
-    "message": "DekuSan è una cassaforte sicura per identità su Dexon."
+    "message": "DekuSan è una cassaforte sicura per identità su DEXON."
   },
   "min": {
     "message": "Minimo"
@@ -483,7 +483,7 @@
     "message": "Devi selezionare almeno un token."
   },
   "needDexInWallet": {
-    "message": "Per interagire con applicazioni decentralizzate con DekuSan, devi possedere DEX nel tuo portafoglio."
+    "message": "Per interagire con applicazioni decentralizzate con DekuSan, devi possedere DXN nel tuo portafoglio."
   },
   "needImportFile": {
     "message": "Devi selezionare un file da importare.",
@@ -494,7 +494,7 @@
     "description": "Password e file necessari per importare un account"
   },
   "negativeDex": {
-    "message": "Non puoi inviare una quantità di DEX negativa."
+    "message": "Non puoi inviare una quantità di DXN negativa."
   },
   "networks": {
     "message": "Reti"
@@ -708,14 +708,14 @@
   "send": {
     "message": "Invia"
   },
-  "sendDEX": {
-    "message": "Invia DEX"
+  "sendDXN": {
+    "message": "Invia DXN"
   },
   "sendTokens": {
     "message": "Invia Tokens"
   },
   "onlySendToDexonAddress": {
-    "message": "Invia DEX solamente ad un account DEXON."
+    "message": "Invia DXN solamente ad un account DEXON."
   },
   "searchTokens": {
     "message": "Cerca Tokens"
@@ -799,7 +799,7 @@
     "message": "A"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 a DEX via ShapeShift",
+    "message": "$1 a DXN via ShapeShift",
     "description": "il sistema riempirà il tipo di deposito all'inizio del messaggio"
   },
   "tokenAddress": {
@@ -928,7 +928,7 @@
     "message": "Aggiungi Token Suggeriti"
   },
   "addAcquiredTokens": {
-    "message": "Aggiungi i token che hai acquistato usando MetaMask"
+    "message": "Aggiungi i token che hai acquistato usando DekuSan"
   },
   "approve": {
     "message": "Approva"
@@ -961,7 +961,7 @@
     "message": "Chiudi"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Devi usare MetaMask con Google Chrome per connettere il tuo Portafoglio Hardware"
+    "message": "Devi usare DekuSan con Google Chrome per connettere il tuo Portafoglio Hardware"
   },
   "connectHardwareWallet": {
     "message": "Connetti Portafoglio Hardware"
@@ -1030,7 +1030,7 @@
     "message": "Connetti portafoglio hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selezione un portafoglio hardware che vuoi utilizzare con MetaMask"
+    "message": "Selezione un portafoglio hardware che vuoi utilizzare con DekuSan"
   },
   "havingTroubleConnecting": {
     "message": "Problemi di connessione?"
@@ -1057,10 +1057,10 @@
     "message": "Menu"
   },
   "dekusanSeedWords": {
-    "message": "Parole Seed di MetaMask"
+    "message": "Parole Seed di DekuSan"
   },
   "dekusanVersion": {
-    "message": "versione di MetaMask"
+    "message": "versione di DekuSan"
   },
   "missingYourTokens": {
     "message": ""
@@ -1196,7 +1196,7 @@
     "message": "Seleziona un Account"
   },
   "selectAnAccountHelp": {
-    "message": "Selezione l'account da visualizzare in MetaMask"
+    "message": "Selezione l'account da visualizzare in DekuSan"
   },
   "selectHdPath": {
     "message": "Seleziona Percorso HD"
@@ -1238,7 +1238,7 @@
     "message": "3. Inizia a usare dApps e molto altro ancora!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Usa il tuo account hardware come utilizzeresti qualsiasi account DEXON. Accedi alle dApps, invia DEX, compra e conserva token ERC20 e token non fungibili come CryptoKitties"
+    "message": "Usa il tuo account hardware come utilizzeresti qualsiasi account DEXON. Accedi alle dApps, invia DXN, compra e conserva token ERC20 e token non fungibili come CryptoKitties"
   },
   "token": {
     "message": "Token"
@@ -1433,13 +1433,13 @@
   "holdEther": {
     "message": ""
   },
-  "metamaskDescription": {
+  "DekuSanDescription": {
     "message": ""
   },
-  "metamaskSeedWords": {
+  "DekuSanSeedWords": {
     "message": ""
   },
-  "metamaskVersion": {
+  "DekuSanVersion": {
     "message": ""
   },
   "minutesShorthand": {
@@ -1540,6 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "Benvenuto nella Beta di MetaMask"
+    "message": "Benvenuto nella Beta di DekuSan"
   }
 }

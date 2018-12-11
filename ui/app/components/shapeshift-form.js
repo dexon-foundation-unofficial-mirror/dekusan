@@ -58,7 +58,7 @@ function ShapeshiftForm () {
 }
 
 ShapeshiftForm.prototype.getCoinPair = function () {
-  return `${this.state.depositCoin.toUpperCase()}_DEX`
+  return `${this.state.depositCoin.toUpperCase()}_DXN`
 }
 
 ShapeshiftForm.prototype.componentWillMount = function () {
@@ -211,7 +211,7 @@ ShapeshiftForm.prototype.render = function () {
                 this.context.t('receive'),
               ]),
 
-              h('div.shapeshift-form__selector-input', ['DEX']),
+              h('div.shapeshift-form__selector-input', ['DXN']),
 
             ]),
 

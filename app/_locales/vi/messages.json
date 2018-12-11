@@ -187,7 +187,7 @@
     "message": ""
   },
   "defaultNetwork": {
-    "message": "Mạng lưới mặc định dùng cho các giao dịch DEX là Main Net (tiền DEX thật)."
+    "message": "Mạng lưới mặc định dùng cho các giao dịch DXN là Main Net (tiền DXN thật)."
   },
   "denExplainer": {
     "message": "Số DEN của bạn là mật khẩu đã được mã hóa và lưu trữ trong DekuSan"
@@ -202,8 +202,8 @@
     "message": "Ký gửi $1 đến địa chỉ sau:",
     "description": "Báo cho người dùng biết đồng tiền nào họ đã chọn để ký gửi với ShapeShift"
   },
-  "depositDEX": {
-    "message": "Ký gửi DEX"
+  "depositDXN": {
+    "message": "Ký gửi DXN"
   },
   "depositFiat": {
     "message": "Ký gửi bằng tiền Fiat (USD, GBP, ...)"
@@ -215,7 +215,7 @@
     "message": "Ký gửi với ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Nếu bạn sở hữu các đồng tiền điện tử khác, bạn có thể giao dịch và ký gửi DEX trực tiếp vào ví DekuSan của bạn. Không cần tạo thêm tài khoản."
+    "message": "Nếu bạn sở hữu các đồng tiền điện tử khác, bạn có thể giao dịch và ký gửi DXN trực tiếp vào ví DekuSan của bạn. Không cần tạo thêm tài khoản."
   },
   "details": {
     "message": "Chi tiết"
@@ -224,10 +224,10 @@
     "message": "Ký gửi trực tiếp"
   },
   "directDepositDex": {
-    "message": "Ký gửi DEX trực tiếp"
+    "message": "Ký gửi DXN trực tiếp"
   },
   "directDepositDexExplainer": {
-    "message": "Nếu bạn đã có sẵn vài DEX, cách nhanh nhất để thêm DEX vào ví tiền mới của bạn là bằng ký gửi trực tiếp."
+    "message": "Nếu bạn đã có sẵn vài DXN, cách nhanh nhất để thêm DXN vào ví tiền mới của bạn là bằng ký gửi trực tiếp."
   },
   "done": {
     "message": "Hoàn tất"
@@ -329,11 +329,11 @@
     "message": "Giá ga được yêu cầu"
   },
   "getDex": {
-    "message": "Lấy DEX"
+    "message": "Lấy DXN"
   },
   "getDexFromFaucet": {
-    "message": "Lấy DEX từ vòi với giá $1",
-    "description": "Hiển thị tên mạng cho vòi DEX"
+    "message": "Lấy DXN từ vòi với giá $1",
+    "description": "Hiển thị tên mạng cho vòi DXN"
   },
   "greaterThanMin": {
     "message": "phải nhiều hơn hoặc bằng $1",
@@ -356,7 +356,7 @@
     "message": "Ẩn mã token?"
   },
   "howToDeposit": {
-    "message": "Bạn muốn ký gửi DEX bằng cách nào?"
+    "message": "Bạn muốn ký gửi DXN bằng cách nào?"
   },
   "holdDex": {
     "message": ""
@@ -465,7 +465,7 @@
     "message": ""
   },
   "mainnet": {
-    "message": "Mạng DEXON MainNet (tiền DEX thật)"
+    "message": "Mạng DEXON MainNet (tiền DXN thật)"
   },
   "message": {
     "message": "Tin nhắn"
@@ -483,7 +483,7 @@
     "message": ""
   },
   "needDexInWallet": {
-    "message": "Để tương tác với các ứng dụng phân tán bằng DekuSan, bạn sẽ phải cần có DEX trong ví của bạn."
+    "message": "Để tương tác với các ứng dụng phân tán bằng DekuSan, bạn sẽ phải cần có DXN trong ví của bạn."
   },
   "needImportFile": {
     "message": "Bạn phải chọn một tập tin để nhập.",
@@ -708,7 +708,7 @@
   "send": {
     "message": "Gửi"
   },
-  "sendDEX": {
+  "sendDXN": {
     "message": ""
   },
   "sendTokens": {
@@ -790,7 +790,7 @@
     "message": ""
   },
   "testFaucet": {
-    "message": "Vòi nhận tiền DEX ảo để thử nghiệm"
+    "message": "Vòi nhận tiền DXN ảo để thử nghiệm"
   },
   "testnet": {
     "message": ""
@@ -799,7 +799,7 @@
     "message": "Đến"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 thành DEX qua ShapeShift",
+    "message": "$1 thành DXN qua ShapeShift",
     "description": "hệ thống sẽ điền vào loại tiền gửi khi bắt đầu tin nhắn"
   },
   "tokenAddress": {

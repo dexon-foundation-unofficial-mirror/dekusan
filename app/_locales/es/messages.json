@@ -187,7 +187,7 @@
     "message": "Decimales de precisión"
   },
   "defaultNetwork": {
-    "message": "La red por defecto para las transacciones de DEX es MainNet (red principal)"
+    "message": "La red por defecto para las transacciones de DXN es MainNet (red principal)"
   },
   "denExplainer": {
     "message": "El DEN es tu contraseña encriptada almacenada dentro de DekuSan"
@@ -202,8 +202,8 @@
     "message": "Deposita tu $1 a la dirección de abajo",
     "description": "Informa al usuario que moneda ha elegido para depositar en shapeshift"
   },
-  "depositDEX": {
-    "message": "Depositar DEX"
+  "depositDXN": {
+    "message": "Depositar DXN"
   },
   "depositFiat": {
     "message": "Depositar con fiat (divisa nacional)"
@@ -215,7 +215,7 @@
     "message": "Depositar con ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Si posees otras criptomonedas, puedes intercambiar y depositar DEX directamente en tu billetera de DekuSan. No necesitas tener una cuenta."
+    "message": "Si posees otras criptomonedas, puedes intercambiar y depositar DXN directamente en tu billetera de DekuSan. No necesitas tener una cuenta."
   },
   "details": {
     "message": "Detalles"
@@ -224,10 +224,10 @@
     "message": "Depósito directo"
   },
   "directDepositDex": {
-    "message": "Depositar DEX directamente"
+    "message": "Depositar DXN directamente"
   },
   "directDepositDexExplainer": {
-    "message": "Si posees DEX, la forma más rápida de transferirlo a tu nueva billetera es depositándolo directamente"
+    "message": "Si posees DXN, la forma más rápida de transferirlo a tu nueva billetera es depositándolo directamente"
   },
   "done": {
     "message": "Completo"
@@ -329,11 +329,11 @@
     "message": "Precio del gas requerido"
   },
   "getDex": {
-    "message": "Conseguir DEX"
+    "message": "Conseguir DXN"
   },
   "getDexFromFaucet": {
-    "message": "Obtenga DEX de un faucet (grifo) por $1",
-    "description": "Muestra el nombre de la red para el faucet (grifo) de DEX"
+    "message": "Obtenga DXN de un faucet (grifo) por $1",
+    "description": "Muestra el nombre de la red para el faucet (grifo) de DXN"
   },
   "greaterThanMin": {
     "message": "Debe ser mayor o igual a $1",
@@ -356,7 +356,7 @@
     "message": "¿Ocultar token?"
   },
   "howToDeposit": {
-    "message": "¿Cómo te gustaria depositar DEX?"
+    "message": "¿Cómo te gustaria depositar DXN?"
   },
   "holdDex": {
     "message": "Te permite mantener tus dexon y tokens, así como puente para aplicaciones descentralizadas"
@@ -483,7 +483,7 @@
     "message": "Debe seleccionar al menos un (1) token"
   },
   "needDexInWallet": {
-    "message": "Para interactuar con una aplicación descentralizada usando DekuSan, necesitas tener DEX en tu billetera"
+    "message": "Para interactuar con una aplicación descentralizada usando DekuSan, necesitas tener DXN en tu billetera"
   },
   "needImportFile": {
     "message": "Debes seleccionar un archivo para importar",
@@ -494,7 +494,7 @@
     "description": "Contraseña y archivo necesarios para importar una cuenta"
   },
   "negativeDex": {
-    "message": "No se pueden mandar cantidades negativas de DEX"
+    "message": "No se pueden mandar cantidades negativas de DXN"
   },
   "networks": {
     "message": "Redes"
@@ -708,8 +708,8 @@
   "send": {
     "message": "Enviar"
   },
-  "sendDEX": {
-    "message": "Enviar DEX"
+  "sendDXN": {
+    "message": "Enviar DXN"
   },
   "sendTokens": {
     "message": "Enviar tokens"
@@ -799,7 +799,7 @@
     "message": "Para"
   },
   "toDEXviaShapeShift": {
-    "message": "$1 a DEX via ShapeShift",
+    "message": "$1 a DXN via ShapeShift",
     "description": "el sistema llenará el tipo de depósito al principio del mensaje"
   },
   "tokenAddress": {
@@ -1540,6 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "Bienvenido a MetaMask"
+    "message": "Bienvenido a DekuSan"
   }
 }

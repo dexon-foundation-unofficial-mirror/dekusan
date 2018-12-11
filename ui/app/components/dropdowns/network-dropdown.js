@@ -233,7 +233,7 @@ NetworkDropdown.prototype.renderCommonRpc = function (rpcListDetail, provider) {
 
   return reversedRpcListDetail.map((entry) => {
     const rpc = entry.rpcUrl
-    const ticker = entry.ticker || 'DEX'
+    const ticker = entry.ticker || 'DXN'
     const nickname = entry.nickname || ''
     const currentRpcTarget = provider.type === 'rpc' && rpc === provider.rpcTarget
 
