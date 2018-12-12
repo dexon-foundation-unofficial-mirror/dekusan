@@ -161,12 +161,12 @@ function listenForProviderRequest () {
         window.postMessage({ type: 'dexonprovider', error: 'User rejected provider access' }, '*')
         break
       case 'answer-is-approved':
-        window.postMessage({ type: 'ethereumisapproved', isApproved, caching }, '*')
+        window.postMessage({ type: 'dexonisapproved', isApproved, caching }, '*')
         break
       case 'answer-is-unlocked':
-        window.postMessage({ type: 'metamaskisunlocked', isUnlocked }, '*')
+        window.postMessage({ type: 'dekusanisunlocked', isUnlocked }, '*')
         break
-      case 'metamask-set-locked':
+      case 'dekusan-set-locked':
         isEnabled = false
         window.postMessage({ type: 'dekusansetlocked' }, '*')
         break
@@ -175,8 +175,8 @@ function listenForProviderRequest () {
 }
 
 /**
- * Checks if MetaMask is currently operating in "privacy mode", meaning
- * dapps must call ethereum.enable in order to access user accounts
+ * Checks if DekuSan is currently operating in "privacy mode", meaning
+ * dapps must call dexon.enable in order to access user accounts
  */
 function checkPrivacyMode () {
   extension.runtime.sendMessage({ action: 'init-privacy-request' })
@@ -189,7 +189,7 @@ function checkPrivacyMode () {
  * @param {Error} err Stream connection error
  */
 function logStreamDisconnectWarning (remoteLabel, err) {
-  let warningMsg = `MetamaskContentscript - lost connection to ${remoteLabel}`
+  let warningMsg = `DekuSanContentscript - lost connection to ${remoteLabel}`
   if (err) warningMsg += '\n' + err.stack
   console.warn(warningMsg)
 }

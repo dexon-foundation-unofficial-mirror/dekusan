@@ -2,6 +2,8 @@
 
 ## Current Develop Branch
 
+## 1.2.2 Wed Dec 12 2018
+
 ## 1.2.1 Tue Dec 11 2018
 
 ## 1.2.0 Mon Dec 10 2018

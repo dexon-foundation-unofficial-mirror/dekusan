@@ -38,7 +38,7 @@ var inpageProvider = new DekuSanInpageProvider(dekusanStream)
 // set a high max listener count to avoid unnecesary warnings
 inpageProvider.setMaxListeners(100)
 
-// set up a listener for when MetaMask is locked
+// set up a listener for when DekuSan is locked
 onMessage('dekusansetlocked', () => { isEnabled = false })
 
 // set up a listener for privacy mode responses
@@ -102,30 +102,30 @@ inpageProvider._dekusan = new Proxy({
           resolve(false)
         }
       }
-      onMessage('ethereumisapproved', isApprovedHandle, true)
+      onMessage('dexonisapproved', isApprovedHandle, true)
       window.postMessage({ type: 'DEXON_IS_APPROVED' }, '*')
     })
   },
 
   /**
-   * Determines if MetaMask is unlocked by the user
+   * Determines if DekuSan is unlocked by the user
    *
-   * @returns {Promise<boolean>} - Promise resolving to true if MetaMask is currently unlocked
+   * @returns {Promise<boolean>} - Promise resolving to true if DekuSan is currently unlocked
    */
   isUnlocked: function () {
     return new Promise((resolve) => {
       isUnlockedHandle = ({ data: { isUnlocked } }) => {
         resolve(!!isUnlocked)
       }
-      onMessage('metamaskisunlocked', isUnlockedHandle, true)
+      onMessage('dekusanisunlocked', isUnlockedHandle, true)
       window.postMessage({ type: 'DEKUSAN_IS_UNLOCKED' }, '*')
     })
   },
 }, {
   get: function (obj, prop) {
-    !warned && console.warn('Heads up! ethereum._metamask exposes methods that have ' +
+    !warned && console.warn('Heads up! dexon._dekusan exposes methods that have ' +
     'not been standardized yet. This means that these methods may not be implemented ' +
-    'in other dapp browsers and may be removed from MetaMask in the future.')
+    'in other dapp browsers and may be removed from DekuSan in the future.')
     warned = true
     return obj[prop]
   },
@@ -139,14 +139,12 @@ const proxiedInpageProvider = new Proxy(inpageProvider, {
   deleteProperty: () => true,
 })
 
-window.ethereum = proxiedInpageProvider
-
 // detect eth_requestAccounts and pipe to enable for now
 function detectAccountRequest (method) {
   const originalMethod = inpageProvider[method]
   inpageProvider[method] = function ({ method }) {
     if (method === 'eth_requestAccounts') {
-      return window.ethereum.enable()
+      return window.dexon.enable()
     }
     return originalMethod.apply(this, arguments)
   }
@@ -156,7 +154,7 @@ detectAccountRequest('sendAsync')
 
 // set web3 defaultAccount
 inpageProvider.publicConfigStore.subscribe(function (state) {
-  web3.eth.defaultAccount = state.selectedAddress
+  window.dexon.defaultAccount = state.selectedAddress
 })
 
 // expose provider
