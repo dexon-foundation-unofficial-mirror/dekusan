@@ -508,7 +508,6 @@ export default class SettingsTab extends PureComponent {
         { this.renderClearApproval() }
         { this.renderPrivacyOptIn() }
         { this.renderHexDataOptIn() }
-        { this.renderBlockieOptIn() }
       </div>
     )
   }
