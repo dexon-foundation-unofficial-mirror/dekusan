@@ -1394,19 +1394,19 @@
     "message": "Increasing fee may decrease processing times, but it is not guaranteed."
   },
   "depositEth": {
-    "message": "Deposit Eth"
+    "message": "Deposit DXN"
   },
   "depositEther": {
-    "message": "Deposit Ether"
+    "message": "Deposit DXN"
   },
   "directDepositEther": {
-    "message": "Directly Deposit Ether"
+    "message": "Directly Deposit DXN"
   },
   "directDepositEtherExplainer": {
-    "message": "If you already have some Ether, the quickest way to get Ether in your new wallet by direct deposit."
+    "message": "If you already have some DXN, the quickest way to get DXN in your new wallet by direct deposit."
   },
   "eth": {
-    "message": "ETH"
+    "message": "DXN"
   },
   "etherscanView": {
     "message": "View account on DEXSCAN"
@@ -1428,10 +1428,10 @@
   },
   "getEtherFromFaucet": {
     "message": "Get Ether from a faucet for the $1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for DXN faucet"
   },
   "holdEther": {
-    "message": "It allows you to hold ether & tokens, and serves as your bridge to decentralized applications."
+    "message": "It allows you to hold DXN & tokens, and serves as your bridge to decentralized applications."
   },
   "metamaskDescription": {
     "message": "DekuSan is a secure identity vault for DEXON."
