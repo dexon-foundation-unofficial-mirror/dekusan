@@ -14,8 +14,8 @@ const AccountTracker = require('./lib/account-tracker')
 const RpcEngine = require('json-rpc-engine')
 const debounce = require('debounce')
 const createEngineStream = require('json-rpc-middleware-stream/engineStream')
-const createFilterMiddleware = require('eth-json-rpc-filters')
-const createSubscriptionManager = require('eth-json-rpc-filters/subscriptionManager')
+const createFilterMiddleware = require('@dexon-foundation/eth-json-rpc-filters')
+const createSubscriptionManager = require('@dexon-foundation/eth-json-rpc-filters/subscriptionManager')
 const createOriginMiddleware = require('./lib/createOriginMiddleware')
 const createLoggerMiddleware = require('./lib/createLoggerMiddleware')
 const createProviderMiddleware = require('./lib/createProviderMiddleware')
@@ -1520,7 +1520,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * @param {string} nickname - Optional nickname of the selected network.
    * @returns {Promise<String>} - The RPC Target URL confirmed.
    */
-  async setCustomRpc(rpcTarget, chainId, ticker = 'DXN', nickname = '') {
+  async setCustomRpc (rpcTarget, chainId, ticker = 'DXN', nickname = '') {
     this.networkController.setRpcTarget(rpcTarget, chainId, ticker, nickname)
     await this.preferencesController.addToFrequentRpcList(rpcTarget, chainId, ticker, nickname)
     return rpcTarget
