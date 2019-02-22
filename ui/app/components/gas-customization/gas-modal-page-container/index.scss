@@ -34,7 +34,7 @@
 
     &__header-close-text {
       font-size: 14px;
-      color: #4EADE7;
+      color: $dexon-purple;
       position: absolute;
       top: 16px;
       right: 16px;
@@ -43,7 +43,7 @@
     }
 
     &__title {
-      color: $black;
+      color: $white;
       font-size: 16px;
       font-weight: 500;
       line-height: 16px;
@@ -88,11 +88,11 @@
 
   &__info-row, &__info-row--fade {
     width: 100%;
-    background: $polar;
+    background: $black;
     padding: 15px 21px;
     display: flex;
     flex-flow: column;
-    color: $scorpion;
+    color: $alto;
     font-size: 12px;
 
     @media screen and (max-width: $break-small) {

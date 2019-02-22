@@ -4,25 +4,25 @@
   align-items: flex-start;
   padding-left: 21px;
   height: 324px;
-  background: #F5F7F8;
-  border-bottom: 1px solid #d2d8dd;
+  background: $black;
+  border-bottom: 1px solid $tundora;
 
   &__title {
     margin-top: 19px;
     font-size: 16px;
-    color: $black;
+    color: $white;
   }
 
   &__blurb {
     font-size: 12px;
-    color: $black;
+    color: $white;
     margin-top: 5px;
     margin-bottom: 15px;
   }
 
   &__footer-blurb {
     font-size: 12px;
-    color: #979797;
+    color: $alto;
     margin-top: 15px;
   }
 }

@@ -175,14 +175,14 @@
     font-size: 14px;
     font-weight: 500;
     margin-top: 4px;
-    color: $black;
+    color: $white;
   }
 
   .button-group__button,
   .button-group__button--active {
     height: 78px;
-    background: white;
-    color: #2A4055;
+    background: $dark-gray;
+    color: $white;
     width: 108px;
     height: 97px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.151579);
@@ -211,7 +211,7 @@
   }
 
   .button-group__button--active {
-    background: #F7FCFF;
+    background: $dark-gray;
     border: 2px solid $dexon-purple;
 
     .button-check-wrapper {
@@ -221,7 +221,7 @@
       position: absolute;
       top: -11px;
       right: -10px;
-      background: #D5ECFA;
+      background: $manatee;
       display: flex;
       flex-flow: row;
       justify-content: center;
