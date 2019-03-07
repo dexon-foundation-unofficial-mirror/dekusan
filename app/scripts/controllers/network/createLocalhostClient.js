@@ -10,7 +10,10 @@ module.exports = createLocalhostClient
 function createLocalhostClient () {
   const fetchMiddleware = createFetchMiddleware({ rpcUrl: 'http://localhost:8545/' })
   const blockProvider = providerFromMiddleware(fetchMiddleware)
-  const blockTracker = new BlockTracker({ provider: blockProvider, pollingInterval: 1000 })
+  const blockTracker = new BlockTracker({
+    provider: blockProvider,
+    pollingInterval: 500,
+  })
 
   const networkMiddleware = mergeMiddleware([
     createBlockRefRewriteMiddleware({ blockTracker }),

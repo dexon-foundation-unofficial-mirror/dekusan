@@ -14,7 +14,7 @@ function createJsonRpcClient ({ rpcUrl }) {
   const blockProvider = providerFromMiddleware(fetchMiddleware)
   const blockTracker = new BlockTracker({
     provider: blockProvider,
-    pollingInterval: 1000,
+    pollingInterval: 500,
   })
 
   const networkMiddleware = mergeMiddleware([

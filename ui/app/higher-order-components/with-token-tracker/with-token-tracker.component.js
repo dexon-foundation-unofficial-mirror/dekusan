@@ -59,7 +59,7 @@ export default function withTokenTracker (WrappedComponent) {
         userAddress,
         provider: global.ethereumProvider,
         tokens: [token],
-        pollingInterval: 8000,
+        pollingInterval: 1000,
       })
 
       this.tracker.on('update', this.updateBalance)

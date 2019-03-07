@@ -112,7 +112,7 @@ TokenList.prototype.createFreshTokenTracker = function () {
     userAddress,
     provider: global.ethereumProvider,
     tokens: this.props.tokens,
-    pollingInterval: 8000,
+    pollingInterval: 1000,
   })
 
 
