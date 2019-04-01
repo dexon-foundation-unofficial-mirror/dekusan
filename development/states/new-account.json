@@ -2,7 +2,7 @@
   "dekusan": {
     "isInitialized": true,
     "isUnlocked": true,
-    "rpcTarget": "http://testnet.dexon.org:8545/",
+    "rpcTarget": "https://testnet-rpc.dexon.org/",
     "identities": {
       "0xa6ef573d60594731178b7f85d80da13cc2af52dd": {
         "address": "0xa6ef573d60594731178b7f85d80da13cc2af52dd",

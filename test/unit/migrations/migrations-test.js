@@ -19,7 +19,7 @@ const migration12 = require(path.join('..', '..', '..', 'app', 'scripts', 'migra
 const migration13 = require(path.join('..', '..', '..', 'app', 'scripts', 'migrations', '013'))
 
 
-const oldTestRpc = 'http://testnet.dexon.org:8545/'
+const oldTestRpc = 'https://testnet-rpc.dexon.org/'
 const newTestRpc = 'https://testrpc.metamask.io/'
 
 describe('wallet1 is migrated successfully', () => {

@@ -41,7 +41,7 @@ function getProvider (type) {
     case 'mainnet':
       return 'https://mainnet.infura.io/'
     case 'testnet':
-      return 'http://testnet.dexon.org:8545/'
+      return 'https://testnet-rpc.dexon.org/'
     default:
       return 'http://localhost:8545/'
   }

@@ -17,7 +17,7 @@ const KOVAN_DISPLAY_NAME = 'Kovan'
 const MAINNET_DISPLAY_NAME = 'Main DEXON Network'
 const TESTNET_DISPLAY_NAME = 'DEXON Test Network'
 
-const TESTNET_RPC_URL = 'http://testnet.dexon.org:8545/'
+const TESTNET_RPC_URL = 'https://testnet-rpc.dexon.org/'
 
 module.exports = {
   ROPSTEN,

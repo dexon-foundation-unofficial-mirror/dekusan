@@ -6,7 +6,7 @@
     "isInitialized": true,
     "isUnlocked": true,
     "currentDomain": "example.com",
-    "rpcTarget": "http://testnet.dexon.org:8545/",
+    "rpcTarget": "https://testnet-rpc.dexon.org/",
     "identities": {
       "0x5f11b68b7d41633e74c6b18d8b8d147da52aedd6": {
         "name": "Wallet 1",

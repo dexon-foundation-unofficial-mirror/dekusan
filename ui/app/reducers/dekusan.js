@@ -17,7 +17,7 @@ function reduceDekusan (state, action) {
     isAccountMenuOpen: false,
     isMascara: window.platform instanceof MetamascaraPlatform,
     isPopup: getEnvironmentType(window.location.href) === ENVIRONMENT_TYPE_POPUP,
-    rpcTarget: 'http://testnet.dexon.org:8545/',
+    rpcTarget: 'https://testnet-rpc.dexon.org/',
     identities: {},
     unapprovedTxs: {},
     noActiveNotices: true,
