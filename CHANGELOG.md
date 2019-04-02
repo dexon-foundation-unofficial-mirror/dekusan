@@ -290,7 +290,7 @@
 - (beta) Fixes bug where tx data was nullified when repricing a tx
 - Fix flashing Login screen after logging in or restoring from seed phrase.
 - Increase tap areas for menu buttons on mobile
-- Change all fonts in new-ui onboarding to Roboto, size 400
+- Change all fonts in new-ui onboarding to Overpass, size 400
 - Add a welcome screen to new-ui onboarding flow
 - Make new-ui create password screen responsive
 - Hide network dropdown before account is initialized

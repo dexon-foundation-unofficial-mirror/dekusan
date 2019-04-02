@@ -4,7 +4,7 @@
   border-radius: 4px;
   background-color: $dark-gray;
   color: $dim-gray;
-  font-family: Roboto;
+  font-family: Overpass;
   font-size: 16px;
   padding: 8px 10px;
   position: relative;
@@ -15,7 +15,7 @@
 
   &__input {
     color: $white;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 16px;
     line-height: 22px;
     border: none;
@@ -26,7 +26,7 @@
   &__primary-currency {
     color: $white;
     font-weight: 400;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 16px;
     line-height: 22px;
   }
@@ -38,7 +38,7 @@
   &__converted-value,
   &__converted-currency {
     color: $dusty-gray;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 12px;
     line-height: 12px;
   }

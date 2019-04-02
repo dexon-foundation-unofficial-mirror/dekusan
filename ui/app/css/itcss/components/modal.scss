@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: Roboto;
+  font-family: Overpass;
   padding: 0 16px;
 }
 
@@ -21,7 +21,7 @@
 .ellip-address {
   width: 247px;
   border: none;
-  font-family: Roboto;
+  font-family: Overpass;
   font-size: 14px;
 }
 
@@ -194,7 +194,7 @@
   padding: 5px 0 31px 0;
   border: 1px solid $geyser;
   border-radius: 4px;
-  font-family: Roboto;
+  font-family: Overpass;
 
   button {
     cursor: pointer;
@@ -210,7 +210,7 @@
 
   &__text {
     margin-top: 2px;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 14px;
     line-height: 18px;
   }
@@ -253,7 +253,7 @@
     border: 1px solid $geyser;
     border-radius: 2px;
     padding: 5px 10px;
-    font-family: Roboto;
+    font-family: Overpass;
     margin-top: 7px;
     width: 286px;
   }
@@ -317,7 +317,7 @@
 
 .private-key-password::-webkit-input-placeholder {
   color: $dusty-gray;
-  font-family: Roboto;
+  font-family: Overpass;
 }
 
 .private-key-password-warning {
@@ -330,7 +330,7 @@
   width: 292px;
   padding: 9px 15px;
   margin-top: 18px;
-  font-family: Roboto;
+  font-family: Overpass;
 }
 
 .export-private-key-buttons {
@@ -358,7 +358,7 @@
 
 .private-key-password-display-textarea {
   color: $crimson;
-  font-family: Roboto;
+  font-family: Overpass;
   font-size: 16px;
   line-height: 21px;
   border: none;
@@ -379,7 +379,7 @@
   position: relative;
   border: 1px solid $alto;
   box-shadow: 0 0 2px 2px $alto;
-  font-family: Roboto;
+  font-family: Overpass;
 }
 
 .new-account-modal-header {
@@ -434,7 +434,7 @@
   width: 100%;
   font-size: 1em;
   color: $dusty-gray;
-  font-family: Roboto;
+  font-family: Overpass;
   font-size: 17px;
   margin: 0 60px;
 }
@@ -499,7 +499,7 @@
 
   &__symbol {
     color: $tundora;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -510,7 +510,7 @@
     height: 30px;
     width: 271.28px;
     color: $tundora;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 22px;
     line-height: 30px;
     text-align: center;
@@ -521,7 +521,7 @@
     height: 41px;
     width: 318px;
     color: $scorpion;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 14px;
     line-height: 18px;
     text-align: center;
@@ -551,7 +551,7 @@
     position: relative;
     border: 1px solid $alto;
     box-shadow: 0 0 2px 2px $alto;
-    font-family: Roboto;
+    font-family: Overpass;
   }
 
   &__header {
@@ -593,7 +593,7 @@
 // Deposit Ether Modal
 .deposit-ether-modal {
   border-radius: 8px;
-  font-family: Roboto;
+  font-family: Overpass;
   display: flex;
   flex-flow: column;
   height: 100%;
@@ -838,7 +838,7 @@
   position: relative;
   border: 1px solid $alto;
   box-shadow: 0 0 2px 2px $alto;
-  font-family: Roboto;
+  font-family: Overpass;
 }
 
 .notification-modal-header {

@@ -31,7 +31,7 @@
                             </g>
                         </g>
                     </g>
-                    <text id="LOGIN-WITH-METAMASK" font-family="RobotoMono-Bold, Roboto Mono" font-size="10" font-weight="bold" fill="#3098DC">
+                    <text id="LOGIN-WITH-METAMASK" font-family="OverpassMono-Bold, Overpass Mono" font-size="10" font-weight="bold" fill="#3098DC">
                         <tspan x="24.4951172" y="43">LOGIN WITH </tspan>
                         <tspan x="30.4960938" y="56">METAMASK</tspan>
                     </text>

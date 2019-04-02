@@ -12,7 +12,7 @@ $wallet-view-bg: $muddy-gray;
 .main-container {
   // position: absolute;
   z-index: $main-container-z-index;
-  font-family: Roboto;
+  font-family: Overpass;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
@@ -67,7 +67,7 @@ $wallet-view-bg: $muddy-gray;
   &__keyring-label {
     height: 50px;
     color: $dusty-gray;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 10px;
     text-align: right;
     padding: 17px 20px 0;
@@ -279,7 +279,7 @@ $wallet-view-bg: $muddy-gray;
 
 .unlock-screen-container {
   z-index: $main-container-z-index;
-  font-family: Roboto;
+  font-family: Overpass;
   display: flex;
   justify-content: center;
   align-items: center;

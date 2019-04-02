@@ -8,7 +8,7 @@
     flex-flow: column nowrap;
     z-index: 25;
     align-items: center;
-    font-family: Roboto;
+    font-family: Overpass;
     position: relative;
     height: 100%;
     @media screen and (max-width: $break-small) {
@@ -54,7 +54,7 @@
   }
   &__header__text {
     color: #5B5D67;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 22px;
     line-height: 29px;
     z-index: 3;
@@ -118,7 +118,7 @@
     height: 48px;
     width: 240px;
     color: $tundora;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 18px;
     line-height: 24px;
     text-align: center;
@@ -156,7 +156,7 @@
   &__row-title {
     width: 80px;
     color: $dusty-gray;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 16px;
     line-height: 22px;
     margin-top: 12px;
@@ -165,7 +165,7 @@
   }
   &__row-value {
     color: $scorpion;
-    font-family: Roboto;
+    font-family: Overpass;
     font-size: 14px;
     line-height: 19px;
     width: 100%;
