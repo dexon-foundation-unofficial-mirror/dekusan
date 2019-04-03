@@ -34,7 +34,7 @@
     "description": "பயன்பாட்டின் விளக்கம்"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "பயன்பாட்டின் பெயர்"
   },
   "approved": {
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "நீங்கள் கையெழுத்திடுகிறீர்கள்"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {

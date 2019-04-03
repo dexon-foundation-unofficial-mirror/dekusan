@@ -34,7 +34,7 @@
     "description": "애플리케이션 설명"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "애플리케이션 이름"
   },
   "approved": {
@@ -359,7 +359,7 @@
     "message": "어떤 방법으로 이더를 입금하시겠습니까?"
   },
   "holdDex": {
-    "message": "It allows you to hold dexon & tokens, and serves as your bridge to decentralized applications."
+    "message": "It allows you to hold DXN & tokens, and serves as your bridge to decentralized applications."
   },
   "import": {
     "message": "가져오기",
@@ -471,7 +471,7 @@
     "message": "메시지"
   },
   "dekusanDescription": {
-    "message": "메타마스크는 이더리움을 위한 안전한 신분 저장소입니다."
+    "message": ""
   },
   "min": {
     "message": "최소"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "서명합니다"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {

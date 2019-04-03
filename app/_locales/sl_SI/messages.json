@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "The name of the application"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Izposoja z Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "DekuSan je ustvarjen v Kaliforniji."
+    "message": "DEXON Wallet je ustvarjen v Kaliforniji."
   },
   "buy": {
     "message": "Kupi"
@@ -190,7 +190,7 @@
     "message": "Privzeto omrežje za transakcije je Main Net."
   },
   "denExplainer": {
-    "message": "DEN je vaša šifrirana shramba v DekuSanu."
+    "message": "DEN je vaša šifrirana shramba v DEXON Walletu."
   },
   "deposit": {
     "message": "Vplačaj"
@@ -215,7 +215,7 @@
     "message": "Vplačilo z ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Če imate druge kriptovalute, lahko vpačate dexon neposredno v DekuSan. Brez računov."
+    "message": "Če imate druge kriptovalute, lahko vpačate dexon neposredno v DEXON Wallet. Brez računov."
   },
   "details": {
     "message": "Podrobnosti"
@@ -227,7 +227,7 @@
     "message": "Direktno vplačilo ehera"
   },
   "directDepositDexExplainer": {
-    "message": "Če že imate dexon, ga lahko najhitreje dobite v DekuSan z direktnim vplačilom."
+    "message": "Če že imate dexon, ga lahko najhitreje dobite v DEXON Wallet z direktnim vplačilom."
   },
   "done": {
     "message": "Končano"
@@ -471,7 +471,7 @@
     "message": "Sporočilo"
   },
   "dekusanDescription": {
-    "message": "DekuSan je varen identitetni sklad za DEXON."
+    "message": "DEXON Wallet je varen identitetni sklad za DEXON."
   },
   "min": {
     "message": "Najmanj"
@@ -483,7 +483,7 @@
     "message": "Izbran mora biti vsaj 1 žeton."
   },
   "needDexInWallet": {
-    "message": "Za interakcijo z decentraliziranimi aplikacijami, ki uporabljajo DekuSan, boste v svoji denarnici potrebovali eter."
+    "message": "Za interakcijo z decentraliziranimi aplikacijami, ki uporabljajo DEXON Wallet, boste v svoji denarnici potrebovali eter."
   },
   "needImportFile": {
     "message": "Za uvoz morate izbrati datoteko.",
@@ -818,7 +818,7 @@
     "message": "Simbol žetona"
   },
   "tokenWarning1": {
-    "message": "Spremljajte žetone, ki ste jih kupili s svojim DekuSan računom. Če ste kupili žetone z drugačnim računom, ti žetoni ne bodo prikazani tukaj."
+    "message": "Spremljajte žetone, ki ste jih kupili s svojim DEXON Wallet računom. Če ste kupili žetone z drugačnim računom, ti žetoni ne bodo prikazani tukaj."
   },
   "total": {
     "message": "Skupno"
@@ -843,7 +843,7 @@
     "description": "Followed by a link (here) to view token balances"
   },
   "twelveWords": {
-    "message": "Edini način za obnovitev DekuSan računa, je teh 12 besed.\nShranite jih na varno in skrivno mesto."
+    "message": "Edini način za obnovitev DEXON Wallet računa, je teh 12 besed.\nShranite jih na varno in skrivno mesto."
   },
   "typePassword": {
     "message": "Vpišite vaše geslo"
@@ -852,7 +852,7 @@
     "message": "Dobrodošli v nov UI (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Zdaj uporabljate novi DekuSan uporabniški vmesnik. Razglejte se, preizkusite nove funkcije, kot so pošiljanje žetonov, in nas obvestite, če imate kakšne težave."
+    "message": "Zdaj uporabljate novi DEXON Wallet uporabniški vmesnik. Razglejte se, preizkusite nove funkcije, kot so pošiljanje žetonov, in nas obvestite, če imate kakšne težave."
   },
   "unapproved": {
     "message": ""
@@ -898,7 +898,7 @@
     "message": "Opozorilo"
   },
   "welcomeBeta": {
-    "message": "Dobrodošli v DekuSan Beta"
+    "message": "Dobrodošli v DEXON Wallet Beta"
   },
   "whatsThis": {
     "message": "Kaj je to?"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "Podpisani ste"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {

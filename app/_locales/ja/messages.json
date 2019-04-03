@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "The name of the application"
   },
   "approved": {
@@ -190,7 +190,7 @@
     "message": "デフォルトのDEXON送受信ネットワークはメインネットです。"
   },
   "denExplainer": {
-    "message": "DENとは、あなたのパスワードが暗号化されたDekuSan内のストレージです。"
+    "message": "DENとは、あなたのパスワードが暗号化されたDEXON Wallet内のストレージです。"
   },
   "deposit": {
     "message": "振込"
@@ -215,7 +215,7 @@
     "message": "ShapeShiftで交換"
   },
   "depositShapeShiftExplainer": {
-    "message": "他の暗号通貨とDEXONを交換して、DekuSanのウォレットへ入金できます。アカウント作成は不要です。"
+    "message": "他の暗号通貨とDEXONを交換して、DEXON Walletのウォレットへ入金できます。アカウント作成は不要です。"
   },
   "details": {
     "message": "詳細"
@@ -227,7 +227,7 @@
     "message": "DEXONを直接入金"
   },
   "directDepositDexExplainer": {
-    "message": "既にDEXONをお持ちなら、DekuSanの新しいウォレットにDEXONを送信することができます。"
+    "message": "既にDEXONをお持ちなら、DEXON Walletの新しいウォレットにDEXONを送信することができます。"
   },
   "done": {
     "message": "完了"
@@ -369,7 +369,7 @@
     "message": "アカウントのインポート"
   },
   "importAccountMsg": {
-    "message": "追加したアカウントはDekuSanのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
+    "message": "追加したアカウントはDEXON Walletのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
   },
   "importAnAccount": {
     "message": "アカウントをインポート"
@@ -416,7 +416,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "DekuSanアカウントで入手したトークンを検索できます。"
+    "message": "DEXON Walletアカウントで入手したトークンを検索できます。"
   },
   "kovan": {
     "message": "Kovanテストネットワーク"
@@ -483,7 +483,7 @@
     "message": "一つ以上のトークンを選択してください。"
   },
   "needDexInWallet": {
-    "message": "DekuSanで分散型アプリケーションを使用するためには、このウォレットにDEXONが必要です。"
+    "message": "DEXON Walletで分散型アプリケーションを使用するためには、このウォレットにDEXONが必要です。"
   },
   "needImportFile": {
     "message": "インポートするファイルを選択してください。",
@@ -818,7 +818,7 @@
     "message": "トークンシンボル"
   },
   "tokenWarning1": {
-    "message": "DekuSanのアカウントで取得したアカウントのみ追加できます。他のアカウントを使用して取得したトークンは、カスタムトークンを使用してください。"
+    "message": "DEXON Walletのアカウントで取得したアカウントのみ追加できます。他のアカウントを使用して取得したトークンは、カスタムトークンを使用してください。"
   },
   "total": {
     "message": "合計"
@@ -852,7 +852,7 @@
     "message": "新UIへようこそ! (ベータ版)"
   },
   "uiWelcomeMessage": {
-    "message": "現在、DekuSan の新しいUIをお使いになっています。トークン送信など、新たな機能を試してみましょう! 何か問題があればご報告ください。"
+    "message": "現在、DEXON Wallet の新しいUIをお使いになっています。トークン送信など、新たな機能を試してみましょう! 何か問題があればご報告ください。"
   },
   "unapproved": {
     "message": ""
@@ -898,7 +898,7 @@
     "message": "警告"
   },
   "welcomeBeta": {
-    "message": "DekuSan ベータ版へようこそ!"
+    "message": "DEXON Wallet ベータ版へようこそ!"
   },
   "whatsThis": {
     "message": "この機能について"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "署名しています。"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {
@@ -1540,6 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "DekuSan ベータ版へようこそ!"
+    "message": "DEXON Wallet ベータ版へようこそ!"
   }
 }

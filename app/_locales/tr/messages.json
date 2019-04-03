@@ -34,7 +34,7 @@
     "description": "Uygulama açıklaması"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "Uygulama ismi"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Dharma (Beta) ile ödünç al"
   },
   "builtInCalifornia": {
-    "message": "DekuSan California'da tasarlandı ve yaratıldı"
+    "message": "DEXON Wallet California'da tasarlandı ve yaratıldı"
   },
   "buy": {
     "message": "Satın al"
@@ -190,7 +190,7 @@
     "message": "DEXON işlemleri için varsayılan ağ Main Net."
   },
   "denExplainer": {
-    "message": "DEN'iniz DekuSan içersinde parola-şifrelenmiş deponuzdur."
+    "message": "DEN'iniz DEXON Wallet içersinde parola-şifrelenmiş deponuzdur."
   },
   "deposit": {
     "message": "Yatır"
@@ -215,7 +215,7 @@
     "message": "ShapeShift ile yatır"
   },
   "depositShapeShiftExplainer": {
-    "message": "Eğer başka kripto paralara sahipseniz, DekuSan cüzdanınıza direk olarak DXN yatırabilirsiniz. Hesaba gerek yoktur."
+    "message": "Eğer başka kripto paralara sahipseniz, DEXON Wallet cüzdanınıza direk olarak DXN yatırabilirsiniz. Hesaba gerek yoktur."
   },
   "details": {
     "message": "Ayrıntılar"
@@ -369,7 +369,7 @@
     "message": "Hesap Al"
   },
   "importAccountMsg": {
-    "message": " Alınan hesaplar orjinal kaynakifadenizle yarattığınız DekuSan hesabınızla ilişkilendirilmez. Alınan hesaplar ile ilgili daha fazla bilgi edinin "
+    "message": " Alınan hesaplar orjinal kaynakifadenizle yarattığınız DEXON Wallet hesabınızla ilişkilendirilmez. Alınan hesaplar ile ilgili daha fazla bilgi edinin "
   },
   "importAnAccount": {
     "message": "Hesap al"
@@ -416,7 +416,7 @@
     "description": "Hesap alımı için düzenle"
   },
   "keepTrackTokens": {
-    "message": "DekuSan hesabınızla satın aldığınız jetonların kaydını tutun."
+    "message": "DEXON Wallet hesabınızla satın aldığınız jetonların kaydını tutun."
   },
   "kovan": {
     "message": "Kovan Test Ağı"
@@ -471,7 +471,7 @@
     "message": "Mesaj"
   },
   "dekusanDescription": {
-    "message": "DekuSan DEXON için güvenli bir kimlik kasasıdır."
+    "message": "DEXON Wallet DEXON için güvenli bir kimlik kasasıdır."
   },
   "min": {
     "message": "Minimum"
@@ -483,7 +483,7 @@
     "message": "En az bir jeton seçilmeli"
   },
   "needDexInWallet": {
-    "message": "DekuSan kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda DXN bulunmalıdır."
+    "message": "DEXON Wallet kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda DXN bulunmalıdır."
   },
   "needImportFile": {
     "message": "Almak için bir dosya seçmelisiniz.",
@@ -818,7 +818,7 @@
     "message": "Jeton Sembolü"
   },
   "tokenWarning1": {
-    "message": "DekuSan hesabınızla aldığınız jetonların kaydını tutun. Başka bir hesapla jetonlar satın aldıysanız, o jetonlar burada gözükmeyecektir."
+    "message": "DEXON Wallet hesabınızla aldığınız jetonların kaydını tutun. Başka bir hesapla jetonlar satın aldıysanız, o jetonlar burada gözükmeyecektir."
   },
   "total": {
     "message": "Toplam"
@@ -843,7 +843,7 @@
     "description": "Jeton bakiyelerini görmek için bir link (burası) ile takip ediliyor"
   },
   "twelveWords": {
-    "message": "DekuSan hesaplarınızı geri getirmenin tek yolu bu 12 kelimedir.\nBu kelimeleri güvenli ve gizli bir yerde saklayın."
+    "message": "DEXON Wallet hesaplarınızı geri getirmenin tek yolu bu 12 kelimedir.\nBu kelimeleri güvenli ve gizli bir yerde saklayın."
   },
   "typePassword": {
     "message": "Parolanızı girin"
@@ -852,7 +852,7 @@
     "message": "Yeni UI (Beta)'ya hoşgeldiniz"
   },
   "uiWelcomeMessage": {
-    "message": "Şu anda yeni DekuSan UI kullanmaktasınız. Gözatın, jeton gönderme gibi yeni özellikleri deneyin ve herhangi bir sorunlar karşılaşırsanız bize haber verin"
+    "message": "Şu anda yeni DEXON Wallet UI kullanmaktasınız. Gözatın, jeton gönderme gibi yeni özellikleri deneyin ve herhangi bir sorunlar karşılaşırsanız bize haber verin"
   },
   "unapproved": {
     "message": "Onaylanmadı"
@@ -898,7 +898,7 @@
     "message": "Uyarı"
   },
   "welcomeBeta": {
-    "message": "DekuSan Beta'ya Hoşgeldiniz"
+    "message": "DEXON Wallet Beta'ya Hoşgeldiniz"
   },
   "whatsThis": {
     "message": "Bu nedir?"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "İmzalıyorsunuz"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {

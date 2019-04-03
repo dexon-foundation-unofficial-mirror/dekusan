@@ -34,7 +34,7 @@
     "description": "La descripción de la aplicación"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "El nombre de la aplicación"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Pedir prestado con Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "DekuSan fue diseñado y construido en California"
+    "message": "DEXON Wallet fue diseñado y construido en California"
   },
   "buy": {
     "message": "Comprar"
@@ -190,7 +190,7 @@
     "message": "La red por defecto para las transacciones de DXN es MainNet (red principal)"
   },
   "denExplainer": {
-    "message": "El DEN es tu contraseña encriptada almacenada dentro de DekuSan"
+    "message": "El DEN es tu contraseña encriptada almacenada dentro de DEXON Wallet"
   },
   "deposit": {
     "message": "Depositar"
@@ -215,7 +215,7 @@
     "message": "Depositar con ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Si posees otras criptomonedas, puedes intercambiar y depositar DXN directamente en tu billetera de DekuSan. No necesitas tener una cuenta."
+    "message": "Si posees otras criptomonedas, puedes intercambiar y depositar DXN directamente en tu billetera de DEXON Wallet. No necesitas tener una cuenta."
   },
   "details": {
     "message": "Detalles"
@@ -369,7 +369,7 @@
     "message": "Importar cuenta"
   },
   "importAccountMsg": {
-    "message": "Las cuentas importadas no serán asociadas con tu cuenta original creada con tu DekuSan. Aprende más acerca de importar cuentas."
+    "message": "Las cuentas importadas no serán asociadas con tu cuenta original creada con tu DEXON Wallet. Aprende más acerca de importar cuentas."
   },
   "importAnAccount": {
     "message": "Importar una cuenta"
@@ -471,7 +471,7 @@
     "message": "Mensaje"
   },
   "dekusanDescription": {
-    "message": "DekuSan es una identidad segura en Dexon"
+    "message": "DEXON Wallet es una identidad segura en Dexon"
   },
   "min": {
     "message": "Mínimo"
@@ -483,7 +483,7 @@
     "message": "Debe seleccionar al menos un (1) token"
   },
   "needDexInWallet": {
-    "message": "Para interactuar con una aplicación descentralizada usando DekuSan, necesitas tener DXN en tu billetera"
+    "message": "Para interactuar con una aplicación descentralizada usando DEXON Wallet, necesitas tener DXN en tu billetera"
   },
   "needImportFile": {
     "message": "Debes seleccionar un archivo para importar",
@@ -818,7 +818,7 @@
     "message": "Símbolo del token"
   },
   "tokenWarning1": {
-    "message": "Mantén un registro de los tokens que has comprado con tu cuenta de DekuSan. Si compraste tokens usando una cuenta diferente, esos tokens no aparecerán aquí."
+    "message": "Mantén un registro de los tokens que has comprado con tu cuenta de DEXON Wallet. Si compraste tokens usando una cuenta diferente, esos tokens no aparecerán aquí."
   },
   "total": {
     "message": "Total"
@@ -843,7 +843,7 @@
     "description": "Seguidos por un enlace (aquí) para ver los saldos de token"
   },
   "twelveWords": {
-    "message": "Estas 12 palabras son la única forma de restablecer tus cuentas de DekuSan. \nGuárdalas en un lugar seguro y secreto."
+    "message": "Estas 12 palabras son la única forma de restablecer tus cuentas de DEXON Wallet. \nGuárdalas en un lugar seguro y secreto."
   },
   "typePassword": {
     "message": "Escribe tu contraseña"
@@ -852,7 +852,7 @@
     "message": "Bienvenido a la nueva UI (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Estás usando la nueva UI de DekuSan. Echa un vistazo alrededor, prueba las nuevas características, tales como mandar tokens, y háznos saber si tienes algún problema"
+    "message": "Estás usando la nueva UI de DEXON Wallet. Echa un vistazo alrededor, prueba las nuevas características, tales como mandar tokens, y háznos saber si tienes algún problema"
   },
   "unapproved": {
     "message": "No aprobado"
@@ -898,7 +898,7 @@
     "message": "Advertencia"
   },
   "welcomeBeta": {
-    "message": "Bienvenido a DekuSan Beta"
+    "message": "Bienvenido a DEXON Wallet Beta"
   },
   "whatsThis": {
     "message": "¿Qué es esto?"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "Usted está firmando"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {
@@ -1540,6 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "Bienvenido a DekuSan"
+    "message": "Bienvenido a DEXON Wallet"
   }
 }

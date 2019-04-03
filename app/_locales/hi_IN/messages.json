@@ -34,7 +34,7 @@
     "description": "आवेदन का विवरण"
   },
   "appName": {
-    "message": "मेटामास्क\/DekuSan",
+    "message": "DEXON Wallet",
     "description": "एप्लिकेशन का नाम"
   },
   "approved": {
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "आप हस्ताक्षर कर रहे हैं"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {

@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "The name of the application"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Prete Avèk Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "DekuSan fèt e bati nan California."
+    "message": "DEXON Wallet fèt e bati nan California."
   },
   "buy": {
     "message": "Achte"
@@ -190,7 +190,7 @@
     "message": "Dfo rezo a pou tranzaksyon DXN se Mainnet."
   },
   "denExplainer": {
-    "message": "DEN ou se depo modpas avèk chif ou nan DekuSan."
+    "message": "DEN ou se depo modpas avèk chif ou nan DEXON Wallet."
   },
   "deposit": {
     "message": "Depo"
@@ -215,7 +215,7 @@
     "message": "Depo avèk ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Si ou posede lòt cryptocurrencies, ou ka chanje ak depo DXN dirèkteman nan Wallet DekuSan ou. Pa gen kont ki nesesè."
+    "message": "Si ou posede lòt cryptocurrencies, ou ka chanje ak depo DXN dirèkteman nan Wallet DEXON Wallet ou. Pa gen kont ki nesesè."
   },
   "details": {
     "message": "Detay yo"
@@ -369,7 +369,7 @@
     "message": "Pòte Kont"
   },
   "importAccountMsg": {
-    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont DekuSan seed fraz. Aprann plis sou kont enpòte "
+    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont DEXON Wallet seed fraz. Aprann plis sou kont enpòte "
   },
   "importAnAccount": {
     "message": "Pòte yon kont"
@@ -416,7 +416,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "Gade tokens yo ou te achte ak kont DekuSan ou."
+    "message": "Gade tokens yo ou te achte ak kont DEXON Wallet ou."
   },
   "kovan": {
     "message": "Kovan Tès Rezo"
@@ -471,7 +471,7 @@
     "message": "Mesaje"
   },
   "dekusanDescription": {
-    "message": "DekuSan sekirize idantite pou DEXeum."
+    "message": "DEXON Wallet sekirize idantite pou DEXeum."
   },
   "min": {
     "message": "Minimòm"
@@ -483,7 +483,7 @@
     "message": "Ou dwe chwazi omwen 1 token."
   },
   "needDexInWallet": {
-    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize DekuSan, ou pral bezwen DXN nan Wallet ou."
+    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize DEXON Wallet, ou pral bezwen DXN nan Wallet ou."
   },
   "needImportFile": {
     "message": "Ou dwe chwazi yon dosye pou enpòte.",
@@ -818,7 +818,7 @@
     "message": "Token Senbòl"
   },
   "tokenWarning1": {
-    "message": "Kenbe tras token yo ou te achte ak kont DekuSan ou. Si ou te achte tokens pandan wap itilize yon kont diferan tokens sa yo pa pral parèt la."
+    "message": "Kenbe tras token yo ou te achte ak kont DEXON Wallet ou. Si ou te achte tokens pandan wap itilize yon kont diferan tokens sa yo pa pral parèt la."
   },
   "total": {
     "message": "Total"
@@ -843,7 +843,7 @@
     "description": "Followed by a link (here) to view token balances"
   },
   "twelveWords": {
-    "message": "12 mo sa yo se sèl fason pou retabli kont DekuSan ou yo. \nKenbe yo yon kote ki an sekirite ak sekrè."
+    "message": "12 mo sa yo se sèl fason pou retabli kont DEXON Wallet ou yo. \nKenbe yo yon kote ki an sekirite ak sekrè."
   },
   "typePassword": {
     "message": "Tape modpas ou"
@@ -852,7 +852,7 @@
     "message": "Byenveni nan New itilizatè koòdone (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Kounya w ap itilize nouvo DekuSan UI (itilizatè koòdone) a."
+    "message": "Kounya w ap itilize nouvo DEXON Wallet UI (itilizatè koòdone) a."
   },
   "unapproved": {
     "message": "Pa apwouve"
@@ -898,7 +898,7 @@
     "message": "Avètisman"
   },
   "welcomeBeta": {
-    "message": "Byenveni nan DekuSan Beta"
+    "message": "Byenveni nan DEXON Wallet Beta"
   },
   "whatsThis": {
     "message": "Kisa sa ye?"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "Ou ap siyen kounya"
   },
-  "aboutDekuSan": {
+  "aboutDEXON Wallet": {
     "message": ""
   },
   "accessingYourCamera": {
@@ -928,7 +928,7 @@
     "message": "Ajoute Token Yo Sikjere W"
   },
   "addAcquiredTokens": {
-    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk DekuSan"
+    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk DEXON Wallet"
   },
   "approve": {
     "message": "Apwouve"
@@ -961,7 +961,7 @@
     "message": "Fèmen"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Ou bezwen sèvi ak DekuSan sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
+    "message": "Ou bezwen sèvi ak DEXON Wallet sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
   },
   "connectHardwareWallet": {
     "message": "Konekte Hardware Wallet"
@@ -1030,7 +1030,7 @@
     "message": "Hardware Wallet konekte"
   },
   "hardwareWalletsMsg": {
-    "message": "Chwazi yon Hardware Wallet ou ta renmen itilize ak DekuSan"
+    "message": "Chwazi yon Hardware Wallet ou ta renmen itilize ak DEXON Wallet"
   },
   "havingTroubleConnecting": {
     "message": "Èske w gen pwoblèm pou konekte?"
@@ -1057,7 +1057,7 @@
     "message": "Opsyon"
   },
   "dekusanSeedWords": {
-    "message": "DekuSan Seed Mo"
+    "message": "DEXON Wallet Seed Mo"
   },
   "dekusanVersion": {
     "message": ""
@@ -1196,7 +1196,7 @@
     "message": "Chwazi yon kont"
   },
   "selectAnAccountHelp": {
-    "message": "Chwazi kont pou wè nan DekuSan"
+    "message": "Chwazi kont pou wè nan DEXON Wallet"
   },
   "selectHdPath": {
     "message": "Chwazi chemen HD"

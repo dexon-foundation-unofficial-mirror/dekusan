@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "The name of the application"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Pújčit si přes Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "DekuSan je navržen a vytvořen v Kalifornii."
+    "message": "DEXON Wallet je navržen a vytvořen v Kalifornii."
   },
   "buy": {
     "message": "Koupit"
@@ -190,7 +190,7 @@
     "message": "Výchozí síť pro DEXové transakce je Main Net."
   },
   "denExplainer": {
-    "message": "Váš DEN je heslem šifrované uložiště v DekuSanu."
+    "message": "Váš DEN je heslem šifrované uložiště v DEXON Walletu."
   },
   "deposit": {
     "message": "Vklad"
@@ -215,7 +215,7 @@
     "message": "Vklad přes ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit DXN a vložit ho přímo do peněženky DekuSan. Bez založení účtu."
+    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit DXN a vložit ho přímo do peněženky DEXON Wallet. Bez založení účtu."
   },
   "details": {
     "message": "Podrobnosti"
@@ -369,7 +369,7 @@
     "message": "Import účtu"
   },
   "importAccountMsg": {
-    "message": "Importované účty nebudou spojeny s vaší původní DekuSanovou klíčovou frází. Zjistěte více o importovaných účtech "
+    "message": "Importované účty nebudou spojeny s vaší původní DEXON Walletovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "importAnAccount": {
     "message": "Import účtu"
@@ -416,7 +416,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "Udržujte si záznamy o tokenech, které jste koupili s účtem v DekuSanu."
+    "message": "Udržujte si záznamy o tokenech, které jste koupili s účtem v DEXON Walletu."
   },
   "kovan": {
     "message": "Kovan Test Network"
@@ -471,7 +471,7 @@
     "message": "Zpráva"
   },
   "dekusanDescription": {
-    "message": "DekuSan je bezpečný osobní trezor pro DEXON."
+    "message": "DEXON Wallet je bezpečný osobní trezor pro DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -483,7 +483,7 @@
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needDexInWallet": {
-    "message": "Potřebujete DXN v peněžence, abyste mohli pomocí DekuSanu interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete DXN v peněžence, abyste mohli pomocí DEXON Walletu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",
@@ -818,7 +818,7 @@
     "message": "Symbol tokenu"
   },
   "tokenWarning1": {
-    "message": "Mějte přehled o tokenech, které jste koupili s účtem DekuSanu. Pokud jste koupili tokeny s jiným účtem, tyto tokeny se zde nezobrazí."
+    "message": "Mějte přehled o tokenech, které jste koupili s účtem DEXON Walletu. Pokud jste koupili tokeny s jiným účtem, tyto tokeny se zde nezobrazí."
   },
   "total": {
     "message": "Celkem"
@@ -843,7 +843,7 @@
     "description": "Followed by a link (here) to view token balances"
   },
   "twelveWords": {
-    "message": "Těchto 12 slov je jedinou možností, jak obnovit DekuSan účet. \nUložte je na bezpečné a neveřejné místo."
+    "message": "Těchto 12 slov je jedinou možností, jak obnovit DEXON Wallet účet. \nUložte je na bezpečné a neveřejné místo."
   },
   "typePassword": {
     "message": "Zadejte své heslo"
@@ -852,7 +852,7 @@
     "message": "Vítejte v novém rozhraní (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Používáte nyní nové rozhraní DekuSanu. Rozhlédněte se kolem, vyzkoušejte nové funkce, jako jsou zasílání tokenů, a dejte nám vědět, pokud narazíte na problém."
+    "message": "Používáte nyní nové rozhraní DEXON Walletu. Rozhlédněte se kolem, vyzkoušejte nové funkce, jako jsou zasílání tokenů, a dejte nám vědět, pokud narazíte na problém."
   },
   "unapproved": {
     "message": "Neschváleno"
@@ -898,7 +898,7 @@
     "message": "Varování"
   },
   "welcomeBeta": {
-    "message": "Vítejte v DekuSan Beta"
+    "message": "Vítejte v DEXON Wallet Beta"
   },
   "whatsThis": {
     "message": "Co to je?"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "Podepisujete"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {

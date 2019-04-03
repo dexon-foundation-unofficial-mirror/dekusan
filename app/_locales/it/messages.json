@@ -34,7 +34,7 @@
     "description": "La descrizione dell'applicazione"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "Il nome dell'applicazione"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Prendi in presisito con Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "DekuSan è progettato e costruito in California."
+    "message": "DEXON Wallet è progettato e costruito in California."
   },
   "buy": {
     "message": "Compra"
@@ -190,7 +190,7 @@
     "message": "La rete predefinita per transazioni in DXN è la Rete DEXON Principale."
   },
   "denExplainer": {
-    "message": "Il DEN è il tuo archivio crittato con password dentro DekuSan."
+    "message": "Il DEN è il tuo archivio crittato con password dentro DEXON Wallet."
   },
   "deposit": {
     "message": "Deposita"
@@ -215,7 +215,7 @@
     "message": "Deposita con ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Se possiedi altre criptomonete, puoi scambiare e depositare DXN direttamente nel tuo portafoglio DekuSan. Nessun account richiesto."
+    "message": "Se possiedi altre criptomonete, puoi scambiare e depositare DXN direttamente nel tuo portafoglio DEXON Wallet. Nessun account richiesto."
   },
   "details": {
     "message": "Dettagli"
@@ -369,7 +369,7 @@
     "message": "Importa Account"
   },
   "importAccountMsg": {
-    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con DekuSan. Impara di più sugli account importati "
+    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con DEXON Wallet. Impara di più sugli account importati "
   },
   "importAnAccount": {
     "message": "Importa un account"
@@ -416,7 +416,7 @@
     "description": "formato per importare un account"
   },
   "keepTrackTokens": {
-    "message": "Tieni traccia dei tokens che hai acquistato con il tuo account DekuSan."
+    "message": "Tieni traccia dei tokens che hai acquistato con il tuo account DEXON Wallet."
   },
   "kovan": {
     "message": "Rete di test Kovan"
@@ -471,7 +471,7 @@
     "message": "Messaggio"
   },
   "dekusanDescription": {
-    "message": "DekuSan è una cassaforte sicura per identità su DEXON."
+    "message": "DEXON Wallet è una cassaforte sicura per identità su DEXON."
   },
   "min": {
     "message": "Minimo"
@@ -483,7 +483,7 @@
     "message": "Devi selezionare almeno un token."
   },
   "needDexInWallet": {
-    "message": "Per interagire con applicazioni decentralizzate con DekuSan, devi possedere DXN nel tuo portafoglio."
+    "message": "Per interagire con applicazioni decentralizzate con DEXON Wallet, devi possedere DXN nel tuo portafoglio."
   },
   "needImportFile": {
     "message": "Devi selezionare un file da importare.",
@@ -818,7 +818,7 @@
     "message": "Simbolo Token"
   },
   "tokenWarning1": {
-    "message": "Tieni traccia dei token che hai acquistato con il tuo account DekuSan. Se hai acquistato token con un account diverso, quei token non appariranno qui."
+    "message": "Tieni traccia dei token che hai acquistato con il tuo account DEXON Wallet. Se hai acquistato token con un account diverso, quei token non appariranno qui."
   },
   "total": {
     "message": "Totale"
@@ -843,7 +843,7 @@
     "description": "Seguito da un link (qui) per vedere il bilancio dei token"
   },
   "twelveWords": {
-    "message": "Queste 12 parole sono l'unico modo per ripristinare i tuoi account DekuSan. \nSalvale in un posto sicuro e segreto."
+    "message": "Queste 12 parole sono l'unico modo per ripristinare i tuoi account DEXON Wallet. \nSalvale in un posto sicuro e segreto."
   },
   "typePassword": {
     "message": "Inserisci Password"
@@ -852,7 +852,7 @@
     "message": "Benvenuto alla nuova interfaccia (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Stai utilizzanto la nuova interfaccia di DekuSan. Guarda in giro, prova nuove funzionalità come inviare token, e facci sapere se hai dei problemi."
+    "message": "Stai utilizzanto la nuova interfaccia di DEXON Wallet. Guarda in giro, prova nuove funzionalità come inviare token, e facci sapere se hai dei problemi."
   },
   "unapproved": {
     "message": ""
@@ -898,7 +898,7 @@
     "message": "Attenzione"
   },
   "welcomeBeta": {
-    "message": "Benvenuto nella Beta di DekuSan"
+    "message": "Benvenuto nella Beta di DEXON Wallet"
   },
   "whatsThis": {
     "message": "Cos'è questo?"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "Ti stai connettendo"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {
@@ -928,7 +928,7 @@
     "message": "Aggiungi Token Suggeriti"
   },
   "addAcquiredTokens": {
-    "message": "Aggiungi i token che hai acquistato usando DekuSan"
+    "message": "Aggiungi i token che hai acquistato usando DEXON Wallet"
   },
   "approve": {
     "message": "Approva"
@@ -961,7 +961,7 @@
     "message": "Chiudi"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Devi usare DekuSan con Google Chrome per connettere il tuo Portafoglio Hardware"
+    "message": "Devi usare DEXON Wallet con Google Chrome per connettere il tuo Portafoglio Hardware"
   },
   "connectHardwareWallet": {
     "message": "Connetti Portafoglio Hardware"
@@ -1030,7 +1030,7 @@
     "message": "Connetti portafoglio hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selezione un portafoglio hardware che vuoi utilizzare con DekuSan"
+    "message": "Selezione un portafoglio hardware che vuoi utilizzare con DEXON Wallet"
   },
   "havingTroubleConnecting": {
     "message": "Problemi di connessione?"
@@ -1057,10 +1057,10 @@
     "message": "Menu"
   },
   "dekusanSeedWords": {
-    "message": "Parole Seed di DekuSan"
+    "message": "Parole Seed di DEXON Wallet"
   },
   "dekusanVersion": {
-    "message": "versione di DekuSan"
+    "message": "versione di DEXON Wallet"
   },
   "missingYourTokens": {
     "message": ""
@@ -1196,7 +1196,7 @@
     "message": "Seleziona un Account"
   },
   "selectAnAccountHelp": {
-    "message": "Selezione l'account da visualizzare in DekuSan"
+    "message": "Selezione l'account da visualizzare in DEXON Wallet"
   },
   "selectHdPath": {
     "message": "Seleziona Percorso HD"
@@ -1531,6 +1531,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "Benvenuto nella Beta di DekuSan"
+    "message": "Benvenuto nella Beta di DEXON Wallet"
   }
 }

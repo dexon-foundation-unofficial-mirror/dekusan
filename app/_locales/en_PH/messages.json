@@ -34,7 +34,7 @@
     "description": ""
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": ""
   },
   "approved": {
@@ -909,7 +909,7 @@
   "youSign": {
     "message": ""
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {

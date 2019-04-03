@@ -34,7 +34,7 @@
     "description": "De beschrijving van de applicatie"
   },
   "appName": {
-    "message": "DekuSan",
+    "message": "DEXON Wallet",
     "description": "De naam van de applicatie"
   },
   "approved": {
@@ -75,7 +75,7 @@
     "message": "Lenen met Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "DekuSan is ontworpen en gebouwd in Californië."
+    "message": "DEXON Wallet is ontworpen en gebouwd in Californië."
   },
   "buy": {
     "message": "Kopen"
@@ -190,7 +190,7 @@
     "message": "Het standaardnetwerk voor DEX-transacties is Main Net."
   },
   "denExplainer": {
-    "message": "Uw DEN is uw wachtwoord-gecodeerde opslag binnen DekuSan."
+    "message": "Uw DEN is uw wachtwoord-gecodeerde opslag binnen DEXON Wallet."
   },
   "deposit": {
     "message": "Storting"
@@ -215,7 +215,7 @@
     "message": "Stort met ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Als u andere cryptocurrencies bezit, kunt u DXN direct in uw DekuSan-portemonnee ruilen en storten. Geen account nodig."
+    "message": "Als u andere cryptocurrencies bezit, kunt u DXN direct in uw DEXON Wallet-portemonnee ruilen en storten. Geen account nodig."
   },
   "details": {
     "message": "Details"
@@ -369,7 +369,7 @@
     "message": "Account importeren"
   },
   "importAccountMsg": {
-    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte DekuSan-account. Meer informatie over geïmporteerde accounts"
+    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte DEXON Wallet-account. Meer informatie over geïmporteerde accounts"
   },
   "importAnAccount": {
     "message": "Importeer een account"
@@ -471,7 +471,7 @@
     "message": "Bericht"
   },
   "dekusanDescription": {
-    "message": "DekuSan is een veilige identiteitskluis voor DEXON."
+    "message": "DEXON Wallet is een veilige identiteitskluis voor DEXON."
   },
   "min": {
     "message": "Minimum"
@@ -483,7 +483,7 @@
     "message": "Moet ten minste één token selecteren."
   },
   "needDexInWallet": {
-    "message": "Om te communiceren met gedecentraliseerde applicaties met DekuSan, heb je DXN nodig in je portemonnee."
+    "message": "Om te communiceren met gedecentraliseerde applicaties met DEXON Wallet, heb je DXN nodig in je portemonnee."
   },
   "needImportFile": {
     "message": "U moet een bestand selecteren om te importeren.",
@@ -818,7 +818,7 @@
     "message": "Token Symbol"
   },
   "tokenWarning1": {
-    "message": "Houd de tokens bij die je hebt gekocht met je DekuSan-account. Als je tokens met een ander account hebt gekocht, worden die tokens hier niet weergegeven."
+    "message": "Houd de tokens bij die je hebt gekocht met je DEXON Wallet-account. Als je tokens met een ander account hebt gekocht, worden die tokens hier niet weergegeven."
   },
   "total": {
     "message": "Totaal"
@@ -843,7 +843,7 @@
     "description": "Gevolgd door een link (hier) om tegensaldi te bekijken"
   },
   "twelveWords": {
-    "message": "Deze 12 woorden zijn de enige manier om uw DekuSan-accounts te herstellen.\nBewaar ze ergens veilig en geheim."
+    "message": "Deze 12 woorden zijn de enige manier om uw DEXON Wallet-accounts te herstellen.\nBewaar ze ergens veilig en geheim."
   },
   "typePassword": {
     "message": "Typ uw wachtwoord"
@@ -852,7 +852,7 @@
     "message": "Welkom bij de nieuwe gebruikersinterface (bèta)"
   },
   "uiWelcomeMessage": {
-    "message": "U gebruikt nu de nieuwe gebruikersinterface van DekuSan. Kijk rond, probeer nieuwe functies uit zoals het verzenden van tokens en laat ons weten of u problemen ondervindt."
+    "message": "U gebruikt nu de nieuwe gebruikersinterface van DEXON Wallet. Kijk rond, probeer nieuwe functies uit zoals het verzenden van tokens en laat ons weten of u problemen ondervindt."
   },
   "unapproved": {
     "message": ""
@@ -898,7 +898,7 @@
     "message": "Waarschuwing"
   },
   "welcomeBeta": {
-    "message": "Welkom bij DekuSan Beta"
+    "message": "Welkom bij DEXON Wallet Beta"
   },
   "whatsThis": {
     "message": "Wat is dit?"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "U ondertekent"
   },
-  "aboutDekuSan": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {
@@ -1540,6 +1540,6 @@
     "message": ""
   },
   "welcome": {
-    "message": "Welkom bij DekuSan"
+    "message": "Welkom bij DEXON Wallet"
   }
 }
