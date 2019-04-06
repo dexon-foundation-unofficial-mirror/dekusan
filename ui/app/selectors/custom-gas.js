@@ -195,10 +195,10 @@ function getRenderableBasicEstimateData (state) {
   const {
     gas: {
       basicEstimates: {
-        safeLow,
+        // safeLow,
         fast,
         fastest,
-        safeLowWait,
+        // safeLowWait,
         fastestWait,
         fastWait,
       },
@@ -220,13 +220,13 @@ function getRenderableBasicEstimateData (state) {
       timeEstimate: fastWait && getRenderableTimeEstimate(fastWait),
       priceInHexWei: getGasPriceInHexWei(fast),
     },
-    {
-      labelKey: 'slow',
-      feeInPrimaryCurrency: getRenderableConvertedCurrencyFee(safeLow, gasLimit, currentCurrency, conversionRate),
-      feeInSecondaryCurrency: getRenderableEthFee(safeLow, gasLimit),
-      timeEstimate: safeLowWait && getRenderableTimeEstimate(safeLowWait),
-      priceInHexWei: getGasPriceInHexWei(safeLow),
-    },
+    // {
+    //   labelKey: 'slow',
+    //   feeInPrimaryCurrency: getRenderableConvertedCurrencyFee(safeLow, gasLimit, currentCurrency, conversionRate),
+    //   feeInSecondaryCurrency: getRenderableEthFee(safeLow, gasLimit),
+    //   timeEstimate: safeLowWait && getRenderableTimeEstimate(safeLowWait),
+    //   priceInHexWei: getGasPriceInHexWei(safeLow),
+    // },
   ]
 }
 
@@ -240,7 +240,7 @@ function getRenderableEstimateDataForSmallButtonsFromGWEI (state) {
   const {
     gas: {
       basicEstimates: {
-        safeLow,
+        // safeLow,
         fast,
         fastest,
       },
@@ -260,11 +260,11 @@ function getRenderableEstimateDataForSmallButtonsFromGWEI (state) {
       feeInPrimaryCurrency: getRenderableEthFee(fast, gasLimit, NUMBER_OF_DECIMALS_SM_BTNS, true),
       priceInHexWei: getGasPriceInHexWei(fast, true),
     },
-    {
-      labelKey: 'slow',
-      feeInSecondaryCurrency: getRenderableConvertedCurrencyFee(safeLow, gasLimit, currentCurrency, conversionRate),
-      feeInPrimaryCurrency: getRenderableEthFee(safeLow, gasLimit, NUMBER_OF_DECIMALS_SM_BTNS, true),
-      priceInHexWei: getGasPriceInHexWei(safeLow, true),
-    },
+    // {
+    //   labelKey: 'slow',
+    //   feeInSecondaryCurrency: getRenderableConvertedCurrencyFee(safeLow, gasLimit, currentCurrency, conversionRate),
+    //   feeInPrimaryCurrency: getRenderableEthFee(safeLow, gasLimit, NUMBER_OF_DECIMALS_SM_BTNS, true),
+    //   priceInHexWei: getGasPriceInHexWei(safeLow, true),
+    // },
   ]
 }
