@@ -178,9 +178,9 @@ export default class ConfirmTransactionBase extends Component {
             <ConfirmDetailRow
               label="Gas Fee"
               value={hexTransactionFee}
-              headerText="Edit"
-              headerTextClassName="confirm-detail-row__header-text--edit"
-              onHeaderClick={() => this.handleEditGas()}
+              headerText="Gas Fee"
+              headerTextClassName="confirm-detail-row__header-text--total"
+              // onHeaderClick={() => this.handleEditGas()}
             />
           </div>
           <div>
@@ -191,8 +191,8 @@ export default class ConfirmTransactionBase extends Component {
               secondaryText={secondaryTotalTextOverride}
               headerText="Amount + Gas Fee"
               headerTextClassName="confirm-detail-row__header-text--total"
-              primaryValueTextColor="#954A97"
-              fiatTextColor="#954A97"
+              primaryValueTextColor="#000000"
+              fiatTextColor="#000000"
             />
           </div>
         </div>

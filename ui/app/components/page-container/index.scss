@@ -1,15 +1,16 @@
 .page-container {
   width: 408px;
-  background-color: $dark-gray;
+  background-color: $white;
   z-index: 25;
   display: flex;
   flex-flow: column;
-  border-radius: 8px;
+  border-radius: 0;
 
   &__header {
     display: flex;
     flex-flow: column;
-    border-bottom: 1px solid $geyser;
+
+    // border-bottom: 1px solid $geyser;
     padding: 24px;
     flex: 0 0 auto;
     position: relative;
@@ -40,11 +41,18 @@
     justify-content: space-between;
   }
 
+  &__bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
   &__footer {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    border-top: 1px solid $geyser;
+
+    // border-top: 1px solid $geyser;
     flex: 0 0 auto;
 
     .btn-default,
@@ -69,11 +77,10 @@
 
       a,
       a:hover {
-        text-decoration: none;
         cursor: pointer;
         font-size: 0.75rem;
         text-transform: uppercase;
-        color: $dexon-purple;
+        color: $dark-gray;
       }
     }
   }
@@ -90,14 +97,14 @@
   }
 
   &__back-button {
-    color: $dexon-purple;
+    color: $black;
     font-size: 1rem;
     cursor: pointer;
     font-weight: 400;
   }
 
   &__title {
-    color: $dexon-purple;
+    color: $black;
     font-size: 1.5rem;
     font-weight: 800;
     line-height: 1.5rem;
@@ -107,7 +114,7 @@
     padding-top: .5rem;
     line-height: initial;
     font-size: .9rem;
-    color: $gallery;
+    color: $black;
   }
 
   &__tabs {
@@ -118,7 +125,7 @@
   &__tab {
     min-width: 5rem;
     padding: 8px;
-    color: $dusty-gray;
+    color: $dark-gray;
     font-family: Overpass;
     font-size: 1rem;
     text-align: center;
@@ -131,8 +138,8 @@
     }
 
     &--selected {
-      color: $dexon-purple;
-      border-bottom: 2px solid $dexon-purple;
+      color: $black;
+      border-bottom: 2px solid $black;
     }
   }
 
@@ -163,7 +170,7 @@
   }
 
   &__warning-title {
-    font-weight: 500;
+    font-weight: 400;
   }
 
   &__warning-icon {
@@ -193,8 +200,7 @@
   .page-container {
     height: 100%;
     width: 100%;
-    background-color: $dark-gray;
-    border-radius: 0;
+    background-color: $white;
     flex: 1;
     overflow-y: auto;
   }
@@ -207,6 +213,6 @@
     flex: 0 0 auto;
     margin-right: auto;
     margin-left: auto;
-    border: 2px solid $geyser;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.2);
   }
 }

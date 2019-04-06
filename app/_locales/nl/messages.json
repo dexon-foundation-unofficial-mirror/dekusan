@@ -187,7 +187,7 @@
     "message": "Decimalen van precisie"
   },
   "defaultNetwork": {
-    "message": "Het standaardnetwerk voor DEX-transacties is Main Net."
+    "message": "Het standaardnetwerk voor DEX-transacties is Mainnet."
   },
   "denExplainer": {
     "message": "Uw DEN is uw wachtwoord-gecodeerde opslag binnen DEXON Wallet."

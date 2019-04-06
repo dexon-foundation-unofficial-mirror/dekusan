@@ -36,10 +36,11 @@ class JsonImportSubview extends Component {
           readAs: 'text',
           onLoad: this.onLoad.bind(this),
           style: {
-            margin: '20px 0px 12px 34%',
+            margin: '20px 0px 12px 0px',
             fontSize: '15px',
             display: 'flex',
             justifyContent: 'center',
+            width: '90%',
           },
         }),
 

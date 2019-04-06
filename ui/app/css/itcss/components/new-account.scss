@@ -1,22 +1,21 @@
 .new-account {
   width: 375px;
-  background-color: $dark-gray;
-  border: 2px solid $geyser;
-  border-radius: 4px;
+  background-color: $white;
   z-index: 25;
   overflow-y: auto;
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.2);
 
   &__header {
     display: flex;
     flex-flow: column;
-    border-bottom: 1px solid $geyser;
+    border-bottom: 1px solid #f0f0f0;
   }
 
   &__title {
-    color: $white;
+    color: $black;
     font-family: Overpass;
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 43px;
     margin-top: 22px;
     margin-left: 29px;
@@ -39,13 +38,13 @@
     }
 
     &__tab:hover {
-      color: $dexon-purple;
-      border-bottom: none;
+      color: $black;
+      border-bottom: 3px solid black;
     }
 
     &__selected {
-      color: $dexon-purple;
-      border-bottom: 3px solid $dexon-purple;
+      color: $black;
+      border-bottom: 3px solid $black;
       cursor: initial;
     }
   }
@@ -53,7 +52,7 @@
 
 .new-account-import-disclaimer {
   margin: 0 -30px;
-  background-color: $muddy-gray;
+  background-color: $alto;
   display: inline-block;
   align-items: center;
   padding: 20px 30px 20px;
@@ -84,17 +83,16 @@
 
   &__select {
     width: 210px;
-    border: 1px solid $geyser;
     border-radius: 4px;
-    background-color: $dark-gray;
+    background-color: #f0f0f0;
     display: flex;
     align-items: center;
 
     .Select-control {
-      background-color: $dark-gray !important;
+      background-color: #f0f0f0 !important;
 
       .Select-value-label {
-        color: $white !important;
+        color: $black !important;
       }
     }
 
@@ -103,18 +101,18 @@
     }
 
     .Select-menu {
-      background-color: $dark-gray !important;
+      background-color: #f0f0f0 !important;
 
       .Select-option.is-selected {
-        color: $white !important;
+        color: $black !important;
       }
 
       .Select-option {
-        color: $dim-gray !important;
-        background-color: $dark-gray !important;
+        color: $black !important;
+        background-color: #f0f0f0 !important;
 
         &:hover {
-          background-color: $muddy-gray !important;
+          background-color: $alto !important;
         }
       }
     }
@@ -157,11 +155,10 @@
   &__input-password {
     height: 54px;
     width: 315px;
-    border: 1px solid $geyser;
     border-radius: 4px;
-    background-color: $dark-gray;
+    background-color: #f0f0f0;
     margin-top: 16px;
-    color: $white;
+    color: $black;
     font-family: Overpass;
     font-size: 16px;
     padding: 0px 20px;
@@ -203,7 +200,7 @@
 
     &__msg {
       font-size: 14px;
-      color: #9b9b9b;
+      color: #000;
       margin-top: 10px;
       margin-bottom: 20px;
     }
@@ -216,7 +213,7 @@
   }
 
   &__connect-btn {
-    background-color: #954A97;
+    background-color: #000000;
     color: #fff;
     border: none;
     width: 315px;
@@ -245,7 +242,7 @@
   }
 
   &__btn.selected {
-    border: 2px solid #954A97;
+    border: 2px solid #000000;
     width: 149px;
   }
 
@@ -280,7 +277,7 @@
   &__learn-more {
     margin-top: 15px;
     font-size: 14px;
-    color: #5B5D67;
+    color: black;
     line-height: 19px;
     text-align: center;
     cursor: pointer;
@@ -309,13 +306,13 @@
 
   &__msg {
     font-size: 14px;
-    color: #9b9b9b;
+    color: #000;
     margin-top: 10px;
     margin-bottom: 15px;
   }
 
   &__link {
-    color: $dexon-purple;
+    color: $black;
   }
 
   &__footer {
@@ -331,7 +328,7 @@
 
     &__msg {
       font-size: 14px;
-      color: #9b9b9b;
+      color: #000;
       margin-top: 12px;
       margin-bottom: 27px;
       width: 100%;
@@ -351,7 +348,7 @@
 
     &__msg {
       font-size: 14px;
-      color: #9b9b9b;
+      color: #000;
     }
 
     &__link {
@@ -517,12 +514,12 @@
   }
 
   .btn-primary {
-    background-color: #954A97;
+    background-color: black;
     color: #FFFFFF;
     border: none;
     width: 100%;
     min-height: 54px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     margin-bottom: 20px;
   }
@@ -557,7 +554,7 @@
   padding: 30px 20px;
 
   &__input-label {
-    color: $dim-gray;
+    color: $black;
     font-family: Overpass;
     font-size: 16px;
     line-height: 21px;
@@ -567,10 +564,9 @@
   &__input {
     height: 54px;
     width: 315.84px;
-    border: 1px solid $geyser;
     border-radius: 4px;
-    background-color: $dark-gray;
-    color: $white;
+    background-color: #f0f0f0;
+    color: $black;
     font-family: Overpass;
     font-size: 16px;
     line-height: 21px;

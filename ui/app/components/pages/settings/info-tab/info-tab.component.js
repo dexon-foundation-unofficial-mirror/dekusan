@@ -110,7 +110,7 @@ export default class InfoTab extends PureComponent {
           <div className="settings-page__content-item settings-page__content-item--without-height">
             <div className="info-tab__logo-wrapper">
               <img
-                src="/images/dekusan.svg"
+                src="/images/dexon-wallet-black.svg"
                 width={160}
                 height={160}
               />
@@ -125,7 +125,7 @@ export default class InfoTab extends PureComponent {
             </div>
             <div className="info-tab__item">
               <div className="info-tab__about">
-                {t('aboutDekuSan') }
+                {t('aboutDexonWallet') }
               </div>
             </div>
           </div>

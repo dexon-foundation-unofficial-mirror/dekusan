@@ -187,7 +187,7 @@
   font-size: 16px;
   border-radius: 4px;
   font-family: "Lato";
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .gas-tooltip-arrow {
@@ -402,7 +402,7 @@
     // height: 701px;
     width: 380px;
     border-radius: 8px;
-    background-color: $dark-gray;
+    background-color: $white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
     display: flex;
     flex-flow: column nowrap;
@@ -439,7 +439,7 @@
   }
 
   &__send-arrow-icon {
-    color: #954A97;
+    color: #000;
     transform: rotate(-45deg);
     position: absolute;
     top: -2px;
@@ -495,7 +495,7 @@
   }
 
   &__title {
-    color: $scorpion;
+    color: $black;
     font-size: 22px;
     line-height: 29px;
     text-align: center;
@@ -503,7 +503,7 @@
   }
 
   &__copy {
-    color: $gray;
+    color: $black;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
@@ -550,9 +550,11 @@
 
   &__form-field {
     flex: 1 1 auto;
+    background-color: #f0f0f0;
+    border-radius: 4px;
 
     .currency-display {
-      color: $dim-gray;
+      color: $black;
 
       &__currency-symbol {
         color: $dim-gray;
@@ -572,7 +574,7 @@
   }
 
   &__form-label {
-    color: $white;
+    color: $black;
     font-family: Overpass;
     font-size: 16px;
     line-height: 22px;
@@ -584,13 +586,11 @@
   &__from-dropdown {
     height: 73px;
     width: 100%;
-    border: 1px solid $geyser;
     border-radius: 4px;
-    background-color: $dark-gray;
     font-family: Overpass;
     line-height: 16px;
     font-size: 12px;
-    color: $white;
+    color: $black;
     position: relative;
 
     &__close-area {
@@ -607,9 +607,9 @@
       position: absolute;
       height: 220px;
       width: 100%;
-      border: 1px solid $geyser;
       border-radius: 4px;
-      background-color: $dark-gray;
+      border: 1px solid black;
+      background-color: #fff;
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.11);
       margin-top: 11px;
       margin-left: -1px;
@@ -638,7 +638,7 @@
     }
 
     &__qr-code:hover {
-      background: $geyser;
+      background: #9b9b9b;
     }
 
     &__input.with-qr {
@@ -654,10 +654,8 @@
       position: relative;
       height: 54px;
       width: 100%;
-      border: 1px solid $geyser;
       border-radius: 4px;
-      background-color: $dark-gray;
-      color: $white;
+      color: $black;
       padding: 10px;
       font-family: Overpass;
       font-size: 16px;
@@ -666,7 +664,8 @@
   }
 
   &__amount-max {
-    color: $dexon-purple;
+    color: $black;
+    text-decoration: underline;
     font-family: Overpass;
     font-size: 12px;
     left: 8px;
@@ -683,7 +682,6 @@
       display: flex;
       align-items: center;
     }
-
   }
 
   &__sliders-icon-container {
@@ -924,7 +922,6 @@
       display: none;
     }
   }
-
 }
 
 .advanced-gas-options-btn {

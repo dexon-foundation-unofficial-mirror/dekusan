@@ -187,7 +187,7 @@
     "message": "小數點精度"
   },
   "defaultNetwork": {
-    "message": "預設 DXN 交易網路為主網路（Main Net）。"
+    "message": "預設 DXN 交易網路為主網路（Mainnet）。"
   },
   "denExplainer": {
     "message": "你的 DEN 是在你的 DEXON Wallet 中的加密密碼儲存庫。"

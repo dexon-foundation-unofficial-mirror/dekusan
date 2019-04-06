@@ -34,7 +34,7 @@
 
     &__header-close-text {
       font-size: 14px;
-      color: $dexon-purple;
+      color: $black;
       position: absolute;
       top: 16px;
       right: 16px;
@@ -43,9 +43,9 @@
     }
 
     &__title {
-      color: $white;
+      color: $black;
       font-size: 16px;
-      font-weight: 500;
+      font-weight: 400;
       line-height: 16px;
       display: flex;
       justify-content: center;
@@ -70,8 +70,8 @@
       }
 
       &--selected {
-        color: $dexon-purple;
-        border-bottom: 2px solid $dexon-purple;
+        color: $black;
+        border-bottom: 2px solid $black;
       }
     }
   }

@@ -7,30 +7,35 @@ const inputLabelBase = {
   transform: 'none',
   transition: 'none',
   position: 'initial',
-  color: '#9b9b9b',
+  color: '#000',
+  fontFamily: 'Overpass',
 }
 
 const styles = {
+  typography: {
+    fontFamily: 'Overpass',
+  },
   materialLabel: {
     '&$materialFocused': {
-      color: '#aeaeae',
+      color: '#000',
     },
     '&$materialError': {
-      color: '#aeaeae',
+      color: '#000',
     },
     fontWeight: '400',
-    color: '#aeaeae',
+    fontFamily: 'Overpass',
+    color: '#000',
   },
   materialFocused: {},
   materialUnderline: {
     '&:before': {
-      borderBottom: '2px solid #aeaeae',
+      borderBottom: '2px solid #000',
     },
     '&:hover:before': {
-      borderBottom: '2px solid #954a97cc!important',
+      borderBottom: '2px solid #000000cc!important',
     },
     '&:after': {
-      borderBottom: '2px solid #954a97',
+      borderBottom: '2px solid #000',
     },
   },
   materialError: {},
@@ -40,11 +45,12 @@ const styles = {
   // Non-material styles
   formLabel: {
     '&$formLabelFocused': {
-      color: '#9b9b9b',
+      color: '#000',
     },
     '&$materialError': {
-      color: '#9b9b9b',
+      color: '#000',
     },
+    fontFamily: 'Overpass',
   },
   formLabelFocused: {},
   inputFocused: {},
@@ -52,18 +58,21 @@ const styles = {
     'label + &': {
       marginTop: '8px',
     },
-    border: '1px solid #4a4a4a',
+    border: 'none',
     height: '48px',
+    fontFamily: 'Overpass',
+    background: '#f0f0f0',
     borderRadius: '4px',
     padding: '0 16px',
     display: 'flex',
     alignItems: 'center',
     '&$inputFocused': {
-      border: '1px solid #4a4a4a',
+      border: 'none',
     },
   },
   input: {
-    color: 'white',
+    color: 'black',
+    fontFamily: 'Overpass',
   },
   largeInputLabel: {
     ...inputLabelBase,

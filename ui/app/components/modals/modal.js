@@ -32,10 +32,8 @@ import ConfirmCustomizeGasModal from '../gas-customization/gas-modal-page-contai
 
 const modalContainerBaseStyle = {
   transform: 'translate3d(-50%, 0, 0px)',
-  border: '1px solid #4a4a4a',
-  borderRadius: '8px',
-  backgroundColor: '#222222',
-  boxShadow: '0 2px 22px 0 rgba(0,0,0,0.2)',
+  backgroundColor: '#ffffff',
+  boxShadow: '4px 4px 10px 0 rgba(0, 0, 0, 0.2)',
 }
 
 const modalContainerLaptopStyle = {
@@ -51,7 +49,7 @@ const modalContainerMobileStyle = {
 }
 
 const modalContentStyle = {
-  backgroundColor: '#222222',
+  backgroundColor: '#ffffff',
 }
 
 const accountModalStyle = {
@@ -69,7 +67,7 @@ const accountModalStyle = {
   laptopModalStyle: {
     width: '360px',
     // top: 'calc(33% + 45px)',
-    boxShadow: 'rgba(0, 0, 0, 0.15) 0px 2px 2px 2px',
+    boxShadow: '4px 4px 10px 0 rgba(0, 0, 0, 0.2)',
     borderRadius: '4px',
     top: '10%',
     transform: 'none',
@@ -104,7 +102,7 @@ const MODALS = {
       left: '0',
       right: '0',
       margin: '0 auto',
-      boxShadow: '0 0 7px 0 rgba(0,0,0,0.08)',
+      boxShadow: '4px 4px 10px 0 rgba(0, 0, 0, 0.2)',
       transform: 'none',
     },
   },
@@ -131,7 +129,7 @@ const MODALS = {
       left: '0',
       right: '0',
       margin: '0 auto',
-      boxShadow: '0 0 6px 0 rgba(0,0,0,0.3)',
+      boxShadow: '4px 4px 10px 0 rgba(0, 0, 0, 0.2)',
       borderRadius: '7px',
       transform: 'none',
       height: 'calc(80% - 20px)',
@@ -161,7 +159,7 @@ const MODALS = {
       width: '375px',
       // top: 'calc(30% + 10px)',
       top: '10%',
-      boxShadow: 'rgba(0, 0, 0, 0.15) 0px 2px 2px 2px',
+      boxShadow: '4px 4px 10px 0 rgba(0, 0, 0, 0.2)',
       transform: 'none',
       left: '0',
       right: '0',

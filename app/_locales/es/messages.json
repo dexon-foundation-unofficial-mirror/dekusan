@@ -465,7 +465,7 @@
     "message": "las frases semilla sólo pueden tener minúsculas"
   },
   "mainnet": {
-    "message": "Red principal de DEXON (Main Net)"
+    "message": "Red principal de DEXON (Mainnet)"
   },
   "message": {
     "message": "Mensaje"
@@ -647,7 +647,7 @@
     "message": "RPC actual"
   },
   "connectingToMainnet": {
-    "message": "Conectando a la red principal de DEXON (Main Net)"
+    "message": "Conectando a la red principal de DEXON (Mainnet)"
   },
   "connectingToRopsten": {
     "message": "Conectando a la red de test Ropsten"
@@ -793,7 +793,7 @@
     "message": "Probar Faucet"
   },
   "testnet": {
-    "message": "DEXON Test Network"
+    "message": "DEXON Testnet"
   },
   "to": {
     "message": "Para"

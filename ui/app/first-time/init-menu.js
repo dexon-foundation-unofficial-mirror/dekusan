@@ -38,7 +38,7 @@ class InitializeMenuScreen extends Component {
       h('.initialize-screen.flex-column.flex-center', [
 
         h('img.welcome-screen__info__logo', {
-          src: '/images/dekusan.svg',
+          src: '/images/dexon-wallet.svg',
           width: 160,
           height: 160,
         }),

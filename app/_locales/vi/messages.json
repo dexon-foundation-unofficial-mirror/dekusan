@@ -187,7 +187,7 @@
     "message": ""
   },
   "defaultNetwork": {
-    "message": "Mạng lưới mặc định dùng cho các giao dịch DXN là Main Net (tiền DXN thật)."
+    "message": "Mạng lưới mặc định dùng cho các giao dịch DXN là Mainnet (tiền DXN thật)."
   },
   "denExplainer": {
     "message": "Số DEN của bạn là mật khẩu đã được mã hóa và lưu trữ trong DEXON Wallet"

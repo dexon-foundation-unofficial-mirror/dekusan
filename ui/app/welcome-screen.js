@@ -44,7 +44,7 @@ class WelcomeScreen extends Component {
         h('div.welcome-screen__info', [
 
           h('img.welcome-screen__info__logo', {
-            src: '/images/dekusan.svg',
+            src: '/images/dexon-wallet-black.svg',
             width: 160,
             height: 160,
           }),

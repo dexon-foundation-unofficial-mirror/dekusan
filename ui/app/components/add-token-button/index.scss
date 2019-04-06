@@ -1,7 +1,7 @@
 .add-token-button {
   display: flex;
   flex-direction: column;
-  color: lighten($scorpion, 25%);
+  color: $black;
   width: 185px;
   margin: 36px auto;
   text-align: center;
@@ -19,8 +19,8 @@
   &__button {
     font-size: 0.75rem;
     margin: 1rem;
-    text-transform: uppercase;
-    color: $dexon-purple;
+    text-decoration: underline;
+    color: $black;
     cursor: pointer;
   }
 }

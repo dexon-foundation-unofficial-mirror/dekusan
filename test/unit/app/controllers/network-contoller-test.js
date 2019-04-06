@@ -91,7 +91,7 @@ describe('Network utils', () => {
         expected: 'Kovan',
       }, {
         input: 'mainnet',
-        expected: 'Main DEXON Network',
+        expected: 'DEXON Mainnet',
       },
     ]
 

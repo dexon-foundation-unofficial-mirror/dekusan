@@ -187,7 +187,7 @@
     "message": "Počet desetinných míst přesnosti"
   },
   "defaultNetwork": {
-    "message": "Výchozí síť pro DEXové transakce je Main Net."
+    "message": "Výchozí síť pro DEXové transakce je Mainnet."
   },
   "denExplainer": {
     "message": "Váš DEN je heslem šifrované uložiště v DEXON Walletu."
@@ -465,7 +465,7 @@
     "message": "slova klíčové fráze mají pouze malá písmena"
   },
   "mainnet": {
-    "message": "Main DEXON Network"
+    "message": "DEXON Mainnet"
   },
   "message": {
     "message": "Zpráva"
@@ -638,7 +638,7 @@
     "message": "Zvrátit"
   },
   "rinkeby": {
-    "message": "DEXON Test Network"
+    "message": "DEXON Testnet"
   },
   "ropsten": {
     "message": "Ropsten Test Network"
@@ -647,7 +647,7 @@
     "message": "Současné RPC"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main DEXON Network"
+    "message": "Připojuji se k DEXON Mainnet"
   },
   "connectingToRopsten": {
     "message": "Připojuji se k Ropsten Test Network"
@@ -656,7 +656,7 @@
     "message": "Připojuji se k Kovan Test Network"
   },
   "connectingToTestnet": {
-    "message": "Připojuji se k DEXON Test Network"
+    "message": "Připojuji se k DEXON Testnet"
   },
   "connectingToUnknown": {
     "message": "Připojuji se k neznámé síti"
@@ -793,7 +793,7 @@
     "message": "Testovací faucet"
   },
   "testnet": {
-    "message": "DEXON Test Network"
+    "message": "DEXON Testnet"
   },
   "to": {
     "message": "Komu"

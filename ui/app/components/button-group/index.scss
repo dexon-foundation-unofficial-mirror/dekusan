@@ -6,10 +6,7 @@
   &__button {
     font-family: Overpass;
     font-size: 1rem;
-    color: $manatee;
-    border-style: solid;
-    border-color: $geyser;
-    border-width: 1px 1px 1px;
+    color: $black;
     border-left: 0;
     flex: 1;
     padding: 12px;
@@ -18,7 +15,6 @@
     text-overflow: ellipsis;
 
     &:first-child {
-      border-left: 1px solid $geyser;
       border-radius: 4px 0 0 4px;
     }
 
@@ -27,7 +23,7 @@
     }
 
     &--active {
-      background-color: $dexon-purple;
+      background-color: $black;
       color: $white;
     }
 

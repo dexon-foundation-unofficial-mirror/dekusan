@@ -4,7 +4,7 @@ const h = require('react-hyperscript')
 const connect = require('react-redux').connect
 const classnames = require('classnames')
 const inherits = require('util').inherits
-const NetworkDropdownIcon = require('./dropdowns/components/network-dropdown-icon')
+// const NetworkDropdownIcon = require('./dropdowns/components/network-dropdown-icon')
 
 Network.contextTypes = {
   t: PropTypes.func,
@@ -78,19 +78,19 @@ Network.prototype.render = function () {
         switch (iconName) {
           case 'dexon-network':
             return h('.network-indicator', [
-              h(NetworkDropdownIcon, {
-                backgroundColor: '#954A97', // $blue-lagoon
-                nonSelectBackgroundColor: '#954A97',
-              }),
+              // h(NetworkDropdownIcon, {
+              //   backgroundColor: '#954A97', // $blue-lagoon
+              //   nonSelectBackgroundColor: '#954A97',
+              // }),
               h('.network-name', context.t('mainnet')),
               h('i.fa.fa-chevron-down.fa-lg.network-caret'),
             ])
           case 'dexon-test-network':
             return h('.network-indicator', [
-              h(NetworkDropdownIcon, {
-                backgroundColor: '#aeaeae', // $crimson
-                nonSelectBackgroundColor: '#aeaeae',
-              }),
+              // h(NetworkDropdownIcon, {
+              //   backgroundColor: '#aeaeae', // $crimson
+              //   nonSelectBackgroundColor: '#aeaeae',
+              // }),
               h('.network-name', context.t('testnet')),
               h('i.fa.fa-chevron-down.fa-lg.network-caret'),
             ])

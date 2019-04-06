@@ -5,9 +5,6 @@ $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (ma
   NewUI Container Elements
  */
 
-// Component Colors
-$wallet-view-bg: $muddy-gray;
-
 // Main container
 .main-container {
   // position: absolute;
@@ -41,7 +38,7 @@ $wallet-view-bg: $muddy-gray;
   flex-direction: column;
   flex: 32 1 32%;
   width: 0;
-  background: $wallet-view-bg;
+  background: #f0f0f0;
   z-index: 200;
   position: relative;
 
@@ -92,8 +89,8 @@ $wallet-view-bg: $muddy-gray;
 
   &__address {
     border-radius: 3px;
-    background-color: $dark-gray;
-    color: $dim-gray;
+    background-color: #d8d8d8;
+    color: $tundora;
     font-size: 14px;
     line-height: 12px;
     padding: 4px 12px;
@@ -152,7 +149,7 @@ $wallet-view-bg: $muddy-gray;
 
 .wallet-view.sidebar-right {
   flex: 1 0 230px;
-  background: $muddy-gray;
+  background: #f0f0f0;
   z-index: $sidebar-z-index;
   position: fixed;
   top: 66px;
@@ -182,8 +179,7 @@ $wallet-view-bg: $muddy-gray;
     // margin-top: 6.9vh;
     width: 85vw;
     height: 90vh;
-    border: 2px solid $geyser;
-    border-radius: 4px;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -217,7 +213,7 @@ $wallet-view-bg: $muddy-gray;
     height: 100%;
     width: 100%;
     overflow-y: auto;
-    background-color: $dark-gray;
+    background-color: $white;
   }
 
   .main-container-wrapper {
@@ -228,7 +224,7 @@ $wallet-view-bg: $muddy-gray;
 // wallet view
 .account-name {
   font-size: 24px;
-  color: $white;
+  color: $black;
   margin-top: 8px;
   margin-bottom: .9rem;
   white-space: nowrap;
@@ -284,7 +280,7 @@ $wallet-view-bg: $muddy-gray;
   justify-content: center;
   align-items: center;
   flex: 1 0 auto;
-  background: $dark-gray;
+  background: $white;
   width: 100%;
 }
 
@@ -301,7 +297,7 @@ $wallet-view-bg: $muddy-gray;
   width: 100%;
   height: 100%;
   justify-content: center;
-  background: $dark-gray;
+  background: $white;
 }
 
 // tooltip style

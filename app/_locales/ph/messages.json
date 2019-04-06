@@ -181,7 +181,7 @@
     "message": "Custom RPC"
   },
   "defaultNetwork": {
-    "message": "Ang default network para sa DXN transactions ay ang Main Net."
+    "message": "Ang default network para sa DXN transactions ay ang Mainnet."
   },
   "denExplainer": {
     "message": "Ang iyong DEN ang nagsisilbing password-encrypted storage mo sa loob ng DEXON Wallet."
@@ -384,7 +384,7 @@
     "message": "Loose"
   },
   "mainnet": {
-    "message": "Main DEXON Network"
+    "message": "DEXON Mainnet"
   },
   "message": {
     "message": "Mensahe"
@@ -512,7 +512,7 @@
     "message": "Ibalik"
   },
   "rinkeby": {
-    "message": "DEXON Test Network"
+    "message": "DEXON Testnet"
   },
   "ropsten": {
     "message": "Ropsten Test Network"

@@ -187,7 +187,7 @@
     "message": "Décimales de précision"
   },
   "defaultNetwork": {
-    "message": "Le réseau par défaut pour les transactions DXN est Main Net."
+    "message": "Le réseau par défaut pour les transactions DXN est Mainnet."
   },
   "denExplainer": {
     "message": "Votre DEN est votre stockage crypté par mot de passe dans DEXON Wallet."
@@ -793,7 +793,7 @@
     "message": "Faucet Testnet"
   },
   "testnet": {
-    "message": "DEXON Test Network"
+    "message": "DEXON Testnet"
   },
   "to": {
     "message": "Destinataire"
@@ -909,7 +909,7 @@
   "youSign": {
     "message": "Vous signez"
   },
-  "aboutDEXON Wallet": {
+  "aboutDexonWallet": {
     "message": ""
   },
   "accessingYourCamera": {

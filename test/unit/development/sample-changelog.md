@@ -404,7 +404,7 @@ rollback to 3.10.0 due to bug
 
 ## 3.6.0 2017-4-26
 
-- Add DEXON Test Network to our network list.
+- Add DEXON Testnet to our network list.
 
 ## 3.5.4 2017-4-25
 

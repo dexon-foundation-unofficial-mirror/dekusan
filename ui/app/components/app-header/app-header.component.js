@@ -120,12 +120,12 @@ export default class AppHeader extends PureComponent {
           >
             <img
               className="app-header__metafox-logo app-header__metafox-logo--horizontal"
-              src="/images/dekusan.svg"
-              height={40}
+              src="/images/dexon-wallet.svg"
+              height={24}
             />
             <img
               className="app-header__metafox-logo app-header__metafox-logo--icon"
-              src="/images/dekusan.svg"
+              src="/images/dexon-wallet.svg"
               height={36}
               width={36}
             />

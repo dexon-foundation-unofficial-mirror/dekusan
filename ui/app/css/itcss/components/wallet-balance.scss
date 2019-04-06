@@ -1,13 +1,14 @@
-$wallet-balance-bg: #4a4a4a;
+$wallet-balance-bg: #f0f0f0;
 $wallet-balance-breakpoint: 890px;
 $wallet-balance-breakpoint-range: "screen and (min-width: #{$break-large}) and (max-width: #{$wallet-balance-breakpoint})";
+
 .wallet-balance-wrapper {
   flex: 0 0 auto;
   transition: linear 200ms;
-  background: rgba($wallet-balance-bg, 0);
+  color: $black;
+
   &--active {
-    background: $geyser;
-    color: $white;
+    background: $white;
   }
 }
 
@@ -20,6 +21,7 @@ $wallet-balance-breakpoint-range: "screen and (min-width: #{$break-large}) and (
   flex: 0 0 auto;
   cursor: pointer;
   border-top: 1px solid $wallet-balance-bg;
+
   .balance-container {
     display: flex;
     justify-content: flex-start;
@@ -27,26 +29,33 @@ $wallet-balance-breakpoint-range: "screen and (min-width: #{$break-large}) and (
     margin: 20px 24px;
     flex-direction: row;
     flex-grow: 3;
+
     @media #{$wallet-balance-breakpoint-range} {
       margin: 10% 4%;
     }
   }
+
   .balance-display {
     margin-left: 15px;
     justify-content: flex-start;
     align-items: flex-start;
+
     .token-amount {
       font-size: 1.5rem;
     }
+
     .fiat-amount {
       margin-top: .25%;
       font-size: 105%;
     }
+
     @media #{$wallet-balance-breakpoint-range} {
       margin-left: 4%;
+
       .token-amount {
         font-size: 105%;
       }
+
       .fiat-amount {
         font-size: 95%;
       }
@@ -55,10 +64,8 @@ $wallet-balance-breakpoint-range: "screen and (min-width: #{$break-large}) and (
 }
 
 .balance-icon {
-  border-radius: 25px;
   width: 50px;
   height: 50px;
-  border: 1px solid $alto;
   padding: 5px;
   background: $white;
 }

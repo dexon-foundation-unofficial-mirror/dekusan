@@ -1,8 +1,13 @@
 .confirm-page-container-summary {
-  padding: 16px 24px 0;
+  padding: 16px 24px;
   background-color: $black;
-  height: 133px;
   box-sizing: border-box;
+
+  .currency-display-component {
+    &__text {
+      color: white;
+    }
+  }
 
   &__action-row {
     display: flex;

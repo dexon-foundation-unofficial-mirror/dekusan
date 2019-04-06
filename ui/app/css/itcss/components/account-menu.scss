@@ -143,6 +143,12 @@
   &__balance {
     color: $dusty-gray;
     font-size: 14px;
+
+    .currency-display-component {
+      &__text {
+        color: $dusty-gray;
+      }
+    }
   }
 
   &__action {

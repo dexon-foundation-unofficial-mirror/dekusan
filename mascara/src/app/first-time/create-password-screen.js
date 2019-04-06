@@ -117,7 +117,7 @@ class CreatePasswordScreen extends Component {
           {isMascara && <div className="mascara-info first-view-phone-invisible">
             <img
               className=".welcome-screen__info__logo"
-              src="/images/dekusan.svg"
+              src="/images/dexon-wallet.svg"
               width="225"
               height="225"
             />

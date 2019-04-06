@@ -15,7 +15,7 @@
 
   &__address {
     font-size: .75rem;
-    color: $silver-chalice;
+    color: black;
   }
 
   &__clickable {
@@ -28,11 +28,11 @@
     cursor: pointer;
 
     &:hover {
-      background-color: $geyser;
+      background-color: #f0f0f0;
     }
 
     &:active {
-      background-color: $geyser;
+      background-color: #f0f0f0;
     }
   }
 }

@@ -66,7 +66,7 @@ describe('Network Dropdown', () => {
     })
 
     it('checks background color for first NetworkDropdownIcon', () => {
-      assert.equal(wrapper.find(NetworkDropdownIcon).at(0).prop('backgroundColor'), '#29B6AF') // Main DEXON Network Teal
+      assert.equal(wrapper.find(NetworkDropdownIcon).at(0).prop('backgroundColor'), '#29B6AF') // DEXON Mainnet Teal
     })
 
     it('checks background color for second NetworkDropdownIcon', () => {

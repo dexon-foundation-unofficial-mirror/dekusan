@@ -1,6 +1,6 @@
 .transaction-activity-log {
   &__card {
-    background: $black;
+    background: $white;
     height: 100%;
   }
 
@@ -53,18 +53,18 @@
   }
 
   &__activity-text {
-    color: $dim-gray;
+    color: $black;
     font-size: .75rem;
     cursor: pointer;
 
     &:hover {
-      color: $white;
+      color: #4a4a4a;
     }
   }
 
   &__value {
     display: inline;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   &__entry-container {
@@ -74,10 +74,11 @@
   &__action-link {
     font-size: .75rem;
     cursor: pointer;
-    color: $dexon-purple;
+    color: $black;
+    text-decoration: underline;
   }
 
   b {
-    font-weight: 500;
+    font-weight: 400;
   }
 }

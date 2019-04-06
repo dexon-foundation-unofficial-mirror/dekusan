@@ -1,12 +1,12 @@
 .transaction-list-item {
   box-sizing: border-box;
   min-height: 74px;
-  border-bottom: 1px solid $geyser;
+  border-bottom: 1px solid #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: $black;
+  background: #fafafa;
 
   &__grid {
     cursor: pointer;
@@ -114,7 +114,7 @@
 
   &__details-container {
     padding: 8px 16px 16px;
-    background: $dark-gray;
+    background: $white;
     width: 100%;
   }
 

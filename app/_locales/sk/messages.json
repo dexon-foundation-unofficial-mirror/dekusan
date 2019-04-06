@@ -232,7 +232,7 @@
     "message": "Počet desetinných míst přesnosti"
   },
   "defaultNetwork": {
-    "message": "Výchozí síť pro Etherové transakce je Main Net."
+    "message": "Výchozí síť pro Etherové transakce je Mainnet."
   },
   "denExplainer": {
     "message": "Váš DEN je heslem šifrované uložiště v DEXON Walletu."
@@ -513,7 +513,7 @@
     "message": "slova klíčové fráze mají pouze malá písmena"
   },
   "mainnet": {
-    "message": "Main DEXON Network"
+    "message": "DEXON Mainnet"
   },
   "message": {
     "message": "Zpráva"
@@ -695,7 +695,7 @@
     "message": "Současné RPC"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main DEXON Network"
+    "message": "Připojuji se k DEXON Mainnet"
   },
   "connectingToRopsten": {
     "message": "Připojuji se k Ropsten Test Network"

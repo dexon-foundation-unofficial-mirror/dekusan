@@ -9,14 +9,12 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-radius: 4px;
   font-size: 14px;
   font-weight: 400;
   transition: border-color .3s ease;
   padding: 0 16px;
   min-width: 140px;
   width: 100%;
-  text-transform: uppercase;
   outline: none;
   font-family: Overpass;
 
@@ -30,8 +28,8 @@
 
 .btn-primary {
   color: $white;
-  background: $dexon-purple;
-  border: 2px solid $dexon-purple;
+  background: $black;
+  border: 2px solid $black;
 
   &:hover {
     border-color: $white-transparent;
@@ -58,8 +56,8 @@
 
 .btn-default {
   color: $white;
-  border: 2px solid $dusty-gray;
-  background: $dusty-gray;
+  border: 2px solid #4a4a4a;
+  background: #4a4a4a;
 
   &:hover {
     border-color: $white-transparent;
@@ -72,13 +70,13 @@
 
 .btn-confirm {
   color: $white;
-  border: 2px solid $dexon-purple;
-  background-color: $dexon-purple;
+  border: 2px solid $black;
+  background-color: $black;
 }
 
 .btn-raised {
   color: $white;
-  background-color: $dexon-purple;
+  background-color: $black;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
   padding: 6px;
   height: initial;
@@ -98,16 +96,15 @@
 .btn-clear {
   background: $white;
   text-align: center;
+  text-decoration: underline;
   padding: .8rem 1rem;
-  color: $dexon-purple;
-  border: 2px solid $dexon-purple;
-  border-radius: 4px;
+  color: $black;
   font-size: .85rem;
   font-weight: 400;
   transition: border-color .3s ease;
 
   &:hover {
-    border-color: $white;
+    color: #4d4d4d;
   }
 
   &--disabled,
@@ -122,16 +119,14 @@
   background: $white;
   text-align: center;
   padding: .9rem 1rem;
-  color: $scorpion;
-  border: 2px solid $dusty-gray;
-  border-radius: 4px;
+  color: $black;
   font-size: .85rem;
   font-weight: 400;
   transition: border-color .3s ease;
   width: 100%;
 
   &:hover {
-    border-color: $scorpion;
+    border-color: #4d4d4d;
   }
 }
 
@@ -172,7 +167,6 @@ button.primary {
   color: $white;
   font-size: 1.1em;
   font-family: Overpass;
-  text-transform: uppercase;
 }
 
 .btn-light {
@@ -181,7 +175,6 @@ button.primary {
   color: #585d67; // TODO: make reusable light button color
   font-size: 1.1em;
   font-family: Overpass;
-  text-transform: uppercase;
   text-align: center;
   line-height: 20px;
   border-radius: 2px;

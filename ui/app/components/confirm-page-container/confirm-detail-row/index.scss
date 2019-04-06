@@ -7,8 +7,8 @@
 
   &__label {
     font-size: .75rem;
-    font-weight: 500;
-    color: $white;
+    font-weight: 400;
+    color: $black;
     text-transform: uppercase;
   }
 
@@ -24,7 +24,7 @@
   }
 
   &__secondary {
-    color: $oslo-gray;
+    color: $black;
     justify-content: flex-end;
   }
 
@@ -32,10 +32,11 @@
     font-size: .75rem;
     text-transform: uppercase;
     margin-bottom: 6px;
-    color: $white;
+    color: $black;
 
     &--edit {
-      color: $dexon-purple;
+      color: $black;
+      text-decoration: underline;
       cursor: pointer;
     }
 

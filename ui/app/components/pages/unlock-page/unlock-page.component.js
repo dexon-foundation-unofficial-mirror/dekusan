@@ -103,14 +103,14 @@ export default class UnlockPage extends Component {
         <div className="unlock-page">
           <div className="unlock-page__mascot-container">
             <img
-              src="/images/dekusan.svg"
-              width={160}
-              height={160}
+              src="/images/dexon-wallet-name.svg"
+              width={240}
+              height={54}
             />
           </div>
-          <h1 className="unlock-page__title">
+          {/* <h1 className="unlock-page__title">
             {t('appName') }
-          </h1>
+          </h1> */}
           <form
             className="unlock-page__form"
             onSubmit={event => this.handleSubmit(event)}
@@ -124,8 +124,8 @@ export default class UnlockPage extends Component {
               error={error}
               autoFocus
               autoComplete="current-password"
-              material
               fullWidth
+              largeLabel
             />
           </form>
           { this.renderSubmitButton() }

@@ -115,27 +115,27 @@ NetworkDropdown.prototype.render = function () {
       ),
     ]),
 
-    // h(
-    //   DropdownMenuItem,
-    //   {
-    //     key: 'main',
-    //     closeMenu: () => this.props.hideNetworkDropdown(),
-    //     onClick: () => props.setProviderType('mainnet'),
-    //     style: { ...dropdownMenuItemStyle, borderColor: '#038789' },
-    //   },
-    //   [
-    //     providerType === 'mainnet' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
-    //     h(NetworkDropdownIcon, {
-    //       backgroundColor: '#aeaeae', // $silver-chalice
-    //       isSelected: providerType === 'mainnet',
-    //     }),
-    //     h('span.network-name-item', {
-    //       style: {
-    //         color: providerType === 'mainnet' ? '#ffffff' : '#9b9b9b',
-    //       },
-    //     }, this.context.t('mainnet')),
-    //   ]
-    // ),
+    h(
+      DropdownMenuItem,
+      {
+        key: 'mainnet',
+        closeMenu: () => this.props.hideNetworkDropdown(),
+        onClick: () => props.setProviderType('mainnet'),
+        style: dropdownMenuItemStyle,
+      },
+      [
+        providerType === 'mainnet' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
+        h(NetworkDropdownIcon, {
+          backgroundColor: '#954A97', // $silver-chalice
+          isSelected: providerType === 'mainnet',
+        }),
+        h('span.network-name-item', {
+          style: {
+            color: providerType === 'mainnet' ? '#ffffff' : '#9b9b9b',
+          },
+        }, this.context.t('mainnet')),
+      ]
+    ),
 
     h(
       DropdownMenuItem,
@@ -255,7 +255,7 @@ NetworkDropdown.prototype.renderCommonRpc = function (rpcListDetail, provider) {
         },
         [
           currentRpcTarget ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
-          h('i.fa.fa-question-circle.fa-med.menu-icon-circle'),
+          // h('i.fa.fa-question-circle.fa-med.menu-icon-circle'),
           h('span.network-name-item', {
             style: {
               color: currentRpcTarget ? '#ffffff' : '#9b9b9b',
@@ -301,7 +301,7 @@ NetworkDropdown.prototype.renderCustomOption = function (provider) {
         },
         [
           h('i.fa.fa-check'),
-          h('i.fa.fa-question-circle.fa-med.menu-icon-circle'),
+          // h('i.fa.fa-question-circle.fa-med.menu-icon-circle'),
           h('span.network-name-item', {
             style: {
               color: '#ffffff',

@@ -3,7 +3,7 @@ const actions = require('../actions')
 const MetamascaraPlatform = require('../../../app/scripts/platforms/window')
 const { getEnvironmentType } = require('../../../app/scripts/lib/util')
 const { ENVIRONMENT_TYPE_POPUP } = require('../../../app/scripts/lib/enums')
-const { TESTNET } = require('../../../app/scripts/controllers/network/enums')
+const { MAINNET } = require('../../../app/scripts/controllers/network/enums')
 
 module.exports = reduceDekusan
 
@@ -17,7 +17,7 @@ function reduceDekusan (state, action) {
     isAccountMenuOpen: false,
     isMascara: window.platform instanceof MetamascaraPlatform,
     isPopup: getEnvironmentType(window.location.href) === ENVIRONMENT_TYPE_POPUP,
-    rpcTarget: 'https://testnet-rpc.dexon.org/',
+    rpcTarget: 'https://mainnet-rpc.dexon.org/',
     identities: {},
     unapprovedTxs: {},
     noActiveNotices: true,
@@ -47,7 +47,7 @@ function reduceDekusan (state, action) {
     coinOptions: {},
     useBlockie: false,
     featureFlags: {},
-    networkEndpointType: TESTNET,
+    networkEndpointType: MAINNET,
     isRevealingSeedWords: false,
     welcomeScreenSeen: false,
     currentLocale: '',

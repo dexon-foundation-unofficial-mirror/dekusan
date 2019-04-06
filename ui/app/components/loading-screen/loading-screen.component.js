@@ -14,7 +14,7 @@ class LoadingScreen extends Component {
       h('.loading-overlay', [
         h('.loading-overlay__container', [
           h(Spinner, {
-            color: '#954A97',
+            color: '#FFFFFF',
           }),
 
           this.renderMessage(),

@@ -21,6 +21,7 @@ const {
   MAINNET,
   TESTNET,
   LOCALHOST,
+  MAINNET_RPC_URL,
   TESTNET_RPC_URL,
 } = require('./enums')
 const DEXON_PROVIDER_TYPES = [MAINNET, TESTNET]
@@ -193,7 +194,11 @@ module.exports = class NetworkController extends EventEmitter {
 
   _configureDexonProvider ({ type }) {
     log.info('NetworkController - configureDexonProvider', type)
-    const networkClient = createJsonRpcClient({ rpcUrl: TESTNET_RPC_URL })
+    const networkClient = createJsonRpcClient({
+      rpcUrl: type === MAINNET
+        ? MAINNET_RPC_URL
+        : TESTNET_RPC_URL,
+    })
     this._setNetworkClient(networkClient)
   }
 

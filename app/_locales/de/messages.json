@@ -187,7 +187,7 @@
     "message": "Dezimalangabe der Präzision"
   },
   "defaultNetwork": {
-    "message": "Das Standardnetzwerk für DXN Transaktionen ist das Main Net."
+    "message": "Das Standardnetzwerk für DXN Transaktionen ist das Mainnet."
   },
   "denExplainer": {
     "message": "Dein DEN ist dein passwortverschlüsselter Speicher innerhalb von DEXON Wallet."
@@ -465,7 +465,7 @@
     "message": "Die Wörter der Seed-Wörterfolgen sind alle kleingeschrieben"
   },
   "mainnet": {
-    "message": "DEXON Main Net"
+    "message": "DEXON Mainnet"
   },
   "message": {
     "message": "Nachricht"
@@ -647,7 +647,7 @@
     "message": "Aktueller RPC"
   },
   "connectingToMainnet": {
-    "message": "Verbinde zum DEXON Main Net"
+    "message": "Verbinde zum DEXON Mainnet"
   },
   "connectingToRopsten": {
     "message": " Verbinde zum Ropsten Testnetzwerk"
@@ -793,7 +793,7 @@
     "message": "Testfaucet"
   },
   "testnet": {
-    "message": "DEXON Test Network"
+    "message": "DEXON Testnet"
   },
   "to": {
     "message": "An"

@@ -48,13 +48,12 @@ $wallet-balance-breakpoint-range: "screen and (min-width: #{$break-large}) and (
   }
 
   &--active {
-    background-color: $geyser;
-    color: $white;
+    background-color: $white;
+    color: $black;
   }
 
   &__identicon {
     margin-right: 15px;
-    border: '1px solid #dedede';
     min-width: 50px;
 
     @media #{$wallet-balance-breakpoint-range} {

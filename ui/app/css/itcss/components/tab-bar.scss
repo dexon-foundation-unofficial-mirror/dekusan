@@ -9,13 +9,13 @@
   min-width: 0;
   flex: 0 0 auto;
   padding: 15px 25px;
-  border-bottom: 1px solid $geyser;
+  border-bottom: 1px solid #f0f0f0;
   box-sizing: border-box;
   font-size: 18px;
 }
 
 .tab-bar__tab--active {
-  border-color: $white;
+  border-color: $black;
 }
 
 .tab-bar__grow-tab {

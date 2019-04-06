@@ -1195,7 +1195,7 @@ describe('DekuSan', function () {
       await networkDropdown.click()
       await delay(regularDelayMs)
 
-      const customRpcButton = await findElement(driver, By.xpath(`//span[contains(text(), 'Main DEXON Network')]`))
+      const customRpcButton = await findElement(driver, By.xpath(`//span[contains(text(), 'DEXON Mainnet')]`))
       await customRpcButton.click()
       await delay(largeDelayMs * 2)
     })

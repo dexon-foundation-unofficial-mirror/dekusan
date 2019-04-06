@@ -33,7 +33,7 @@
     padding-top: 17px;
     border-radius: 4px;
     border: 2px solid $spindle;
-    background: $dark-gray;
+    background: $white;
     color: $scorpion;
 
     div {
@@ -76,7 +76,7 @@
   }
 
   &__label {
-    font-weight: 500;
+    font-weight: 400;
   }
 
   &__primary-currency {
@@ -102,8 +102,8 @@
   .button-group__button,
   .button-group__button--active {
     height: 78px;
-    background: $dark-gray;
-    color: $dim-gray;
+    background: transparent;
+    color: $black;
     padding-top: 9px;
     padding-left: 8.5px;
 
@@ -127,12 +127,12 @@
 
   .button-group__button--active {
     color: $white;
-    background: $geyser;
+    background: $black;
 
     i {
       &:last-child {
         display: flex;
-        color: $dexon-purple;
+        color: $black;
         margin-top: 10px;
       }
     }
@@ -153,7 +153,7 @@
   }
 
   &__label {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 10px;
     text-transform: capitalize;
   }
@@ -173,16 +173,16 @@
 
   &__time-estimate {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 4px;
-    color: $white;
+    color: $black;
   }
 
   .button-group__button,
   .button-group__button--active {
     height: 78px;
-    background: $dark-gray;
-    color: $white;
+    background: $white;
+    color: $black;
     width: 108px;
     height: 97px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.151579);
@@ -211,8 +211,8 @@
   }
 
   .button-group__button--active {
-    background: $dark-gray;
-    border: 2px solid $dexon-purple;
+    background: $white;
+    border: 2px solid $black;
 
     .button-check-wrapper {
       height: 16px;
@@ -230,7 +230,7 @@
 
     i {
       display: flex;
-      color: $dexon-purple;
+      color: $black;
       font-size: 12px;
     }
   }
