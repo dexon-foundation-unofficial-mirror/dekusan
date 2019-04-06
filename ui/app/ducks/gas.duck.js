@@ -1,5 +1,6 @@
 import { clone, uniqBy, flatten } from 'ramda'
 import BigNumber from 'bignumber.js'
+import { hexToNumberString } from 'web3-utils'
 import {
   loadLocalStorageData,
   saveLocalStorageData,
@@ -170,31 +171,29 @@ export function fetchBasicGasEstimates () {
   return (dispatch) => {
     dispatch(basicGasEstimatesLoadingStarted())
 
-    return fetch('https://dev.blockscale.net/api/gasexpress.json', {
-      'headers': {},
-      'referrer': 'https://dev.blockscale.net/api/',
-      'referrerPolicy': 'no-referrer-when-downgrade',
-      'body': null,
-      'method': 'GET',
+    // TODO: switch to Mainnet
+    return fetch('https://testnet-rpc.dexon.org', {
+      'headers': {
+        'Content-Type': 'application/json',
+      },
+      'body': '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":67}',
+      'method': 'POST',
       'mode': 'cors'}
     )
       .then(r => r.json())
       .then(({
-        safeLow,
-        standard: average,
-        fast,
-        fastest,
-        block_time: blockTime,
-        blockNum,
+        result,
       }) => {
+        const gasEstimate = parseInt(hexToNumberString(result).slice(0, -9))
+
         const basicEstimates = {
-          safeLow,
-          average,
-          fast,
-          fastest,
-          blockTime,
-          blockNum,
+          blockTime: 1,
+          safeLow: gasEstimate,
+          average: gasEstimate,
+          fast: gasEstimate,
+          fastest: gasEstimate * 2,
         }
+
         dispatch(setBasicGasEstimateData(basicEstimates))
         dispatch(basicGasEstimatesLoadingFinished())
         return basicEstimates
@@ -212,48 +211,28 @@ export function fetchBasicGasAndTimeEstimates () {
 
     dispatch(basicGasEstimatesLoadingStarted())
 
+    // TODO: switch to Mainnet
     const promiseToFetch = Date.now() - timeLastRetrieved > 75000
-      ? fetch('https://ethgasstation.info/json/ethgasAPI.json', {
-        'headers': {},
-        'referrer': 'http://ethgasstation.info/json/',
-        'referrerPolicy': 'no-referrer-when-downgrade',
-        'body': null,
-        'method': 'GET',
-        'mode': 'cors'}
-      )
+      ? fetch('https://testnet-rpc.dexon.org', {
+        'headers': {
+          'Content-Type': 'application/json',
+        },
+        'body': '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":67}',
+        'method': 'POST',
+        'mode': 'cors',
+      })
         .then(r => r.json())
         .then(({
-          average: averageTimes10,
-          avgWait,
-          block_time: blockTime,
-          blockNum,
-          fast: fastTimes10,
-          fastest: fastestTimes10,
-          fastestWait,
-          fastWait,
-          safeLow: safeLowTimes10,
-          safeLowWait,
-          speed,
+          result,
         }) => {
-          const [average, fast, fastest, safeLow] = [
-            averageTimes10,
-            fastTimes10,
-            fastestTimes10,
-            safeLowTimes10,
-          ].map(price => (new BigNumber(price)).div(10).toNumber())
+          const gasEstimate = parseInt(hexToNumberString(result).slice(0, -9))
 
           const basicEstimates = {
-            average,
-            avgWait,
-            blockTime,
-            blockNum,
-            fast,
-            fastest,
-            fastestWait,
-            fastWait,
-            safeLow,
-            safeLowWait,
-            speed,
+            blockTime: 1,
+            safeLow: gasEstimate,
+            average: gasEstimate,
+            fast: gasEstimate,
+            fastest: gasEstimate * 2,
           }
 
           const timeRetrieved = Date.now()
