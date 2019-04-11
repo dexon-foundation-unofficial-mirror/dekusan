@@ -685,13 +685,13 @@
     "message": "Hledat"
   },
   "secretPhrase": {
-    "message": "Zadejte svých 12 slov tajné fráze k obnovení trezoru."
+    "message": "Zadejte svých 12 / 24 slov tajné fráze k obnovení trezoru."
   },
   "newPassword8Chars": {
     "message": "Nové heslo (min 8 znaků)"
   },
   "seedPhraseReq": {
-    "message": "klíčové fráze mají 12 slov"
+    "message": "klíčové fráze mají 12 / 24 slov"
   },
   "select": {
     "message": "Vybrat"

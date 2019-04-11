@@ -685,13 +685,13 @@
     "message": "Search"
   },
   "secretPhrase": {
-    "message": "Enter your secret twelve word phrase here to restore your vault."
+    "message": "Enter your secret 12 or 24 word phrase here to restore your vault."
   },
   "newPassword8Chars": {
     "message": "New Password (min 8 chars)"
   },
   "seedPhraseReq": {
-    "message": "Seed phrases are 12 words long"
+    "message": "Seed phrases are 12 or 24 words long"
   },
   "select": {
     "message": "Select"

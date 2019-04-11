@@ -39,8 +39,11 @@ class RestoreVaultPage extends Component {
   handleSeedPhraseChange (seedPhrase) {
     let seedPhraseError = null
 
-    if (seedPhrase && this.parseSeedPhrase(seedPhrase).split(' ').length !== 12) {
-      seedPhraseError = this.context.t('seedPhraseReq')
+    if (seedPhrase) {
+      const numberOfWords = this.parseSeedPhrase(seedPhrase).split(' ').length
+      if (numberOfWords !== 12 && numberOfWords !== 24) {
+        seedPhraseError = this.context.t('seedPhraseReq')
+      }
     }
 
     this.setState({ seedPhrase, seedPhraseError })

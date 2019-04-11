@@ -691,7 +691,7 @@
     "message": "Nouvo modpas (pou pi pit 8)"
   },
   "seedPhraseReq": {
-    "message": "Seed fraz yo se 12 long mo"
+    "message": "Seed fraz yo se 12 / 24 long mo"
   },
   "select": {
     "message": "Chwazi"

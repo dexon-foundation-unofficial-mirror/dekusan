@@ -691,7 +691,7 @@
     "message": "Nueva contraseña (mínimo [8] caracteres)"
   },
   "seedPhraseReq": {
-    "message": "las frases semilla tienen doce (12) palabras de largo"
+    "message": ""
   },
   "select": {
     "message": "Seleccionar"

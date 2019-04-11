@@ -685,13 +685,13 @@
     "message": "Rechercher"
   },
   "secretPhrase": {
-    "message": "Entrez vos 12 mots secrets de votre phrase Seed pour restaurer votre coffre."
+    "message": "Entrez vos 12 / 24 mots secrets de votre phrase Seed pour restaurer votre coffre."
   },
   "newPassword8Chars": {
     "message": "Nouveau mot de passe (min 8 caractères)"
   },
   "seedPhraseReq": {
-    "message": "Les phrases Seed sont composées de 12 mots"
+    "message": "Les phrases Seed sont composées de 12 / 24 mots"
   },
   "select": {
     "message": "Selectionner"

@@ -691,7 +691,7 @@
     "message": ""
   },
   "seedPhraseReq": {
-    "message": "Back-up woorden zijn 12 woorden lang"
+    "message": "Back-up woorden zijn 12 / 24 woorden lang"
   },
   "select": {
     "message": "kiezen"

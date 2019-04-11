@@ -685,13 +685,13 @@
     "message": "Suche"
   },
   "secretPhrase": {
-    "message": "Gib die 12 Wörter deiner geheimem Wörterfolge ein um deinen Vault wiederherzustellen."
+    "message": "Gib die 12 oder 24 Wörter deiner geheimem Wörterfolge ein um deinen Vault wiederherzustellen."
   },
   "newPassword8Chars": {
     "message": "Neues Passwort (min. 8 Zeichen)"
   },
   "seedPhraseReq": {
-    "message": "Seed-Wörterfolgen bestehen aus 12 Wörtern"
+    "message": "Seed-Wörterfolgen bestehen aus 12 oder 24 Wörtern"
   },
   "select": {
     "message": "Auswählen"

@@ -685,13 +685,13 @@
     "message": "搜尋"
   },
   "secretPhrase": {
-    "message": "在此輸入你的12個祕密助憶詞以回復金庫."
+    "message": "在此輸入你的 12 或 24 個祕密助憶詞以回復金庫."
   },
   "newPassword8Chars": {
     "message": "新密碼 (至少 8 個字元)"
   },
   "seedPhraseReq": {
-    "message": "助憶詞為 12 個詞語"
+    "message": "助憶詞為 12 或 24 個詞語"
   },
   "select": {
     "message": "選擇"

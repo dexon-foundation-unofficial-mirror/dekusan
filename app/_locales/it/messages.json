@@ -691,7 +691,7 @@
     "message": "Nuova Password (minimo 8 caratteri)"
   },
   "seedPhraseReq": {
-    "message": "le frasi seed sono lunghe 12 parole"
+    "message": "le frasi seed sono lunghe 12 / 24 parole"
   },
   "select": {
     "message": "Seleziona"

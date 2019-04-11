@@ -685,13 +685,13 @@
     "message": "Ara"
   },
   "secretPhrase": {
-    "message": "Kasanızı geri getirmek için gizli 12 kelimelik ifadenizi giriniz."
+    "message": "Kasanızı geri getirmek için gizli 12 / 24 kelimelik ifadenizi giriniz."
   },
   "newPassword8Chars": {
     "message": "Yeni Parola (minumum 8 karakter)"
   },
   "seedPhraseReq": {
-    "message": "Kaynak ifadeleri 12 kelimedir."
+    "message": "Kaynak ifadeleri 12 / 24 kelimedir."
   },
   "select": {
     "message": "Seç"

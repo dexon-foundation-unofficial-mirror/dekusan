@@ -691,7 +691,7 @@
     "message": "Nowe hasło (min. 8 znaków)"
   },
   "seedPhraseReq": {
-    "message": "Frazy seed mają 12 słów"
+    "message": "Frazy seed mają 12 / 24 słów"
   },
   "select": {
     "message": "Wybierz"

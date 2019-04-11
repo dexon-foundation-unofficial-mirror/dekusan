@@ -691,7 +691,7 @@
     "message": "새 비밀번호 (최소 8문자)"
   },
   "seedPhraseReq": {
-    "message": "시드 구문은 12개의 단어입니다"
+    "message": "시드 구문은 12/24개의 단어입니다"
   },
   "select": {
     "message": "선택"
