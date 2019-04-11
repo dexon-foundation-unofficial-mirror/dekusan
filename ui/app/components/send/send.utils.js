@@ -236,13 +236,9 @@ async function estimateGas ({
     }
   }
 
-  // if not, fall back to block gasLimit
-  paramsForGasEstimate.gas = ethUtil.addHexPrefix(multiplyCurrencies(blockGasLimit, 0.95, {
-    multiplicandBase: 16,
-    multiplierBase: 10,
-    roundDown: '0',
-    toNumericBase: 'hex',
-  }))
+  // if not, fall back to base token cost
+  paramsForGasEstimate.gas = BASE_TOKEN_GAS_COST
+
   // run tx
   return new Promise((resolve, reject) => {
     return estimateGasMethod(paramsForGasEstimate, (err, estimatedGas) => {
