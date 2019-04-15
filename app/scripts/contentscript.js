@@ -81,7 +81,7 @@ function setupStreams () {
 
   // setup local multistream channels
   const mux = new ObjectMultiplex()
-  mux.setMaxListeners(25)
+  mux.setMaxListeners(100)
 
   pump(
     mux,
