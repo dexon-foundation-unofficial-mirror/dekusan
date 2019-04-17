@@ -77,7 +77,10 @@
   "externally_connectable": {
     "matches": [
       "https://*.dexscan.org/*",
-      "https://*.dexscan.app/*"
+      "https://dexscan.app/*",
+      "https://*.dexscan.app/*",
+      "https://dexonscan.app/*",
+      "https://*.dexonscan.app/*"
     ],
     "ids": [
       "*"

@@ -26,7 +26,7 @@ export default class TransactionListItemDetails extends PureComponent {
     const { hash, dekusanNetworkId } = primaryTransaction
 
     const prefix = prefixForNetwork(dekusanNetworkId)
-    const etherscanUrl = `https://${prefix}dexscan.app/transaction/${hash}`
+    const etherscanUrl = `https://${prefix}dexonscan.app/transaction/${hash}`
     global.platform.openWindow({ url: etherscanUrl })
   }
 

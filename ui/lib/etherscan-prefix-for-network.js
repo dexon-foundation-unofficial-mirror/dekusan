@@ -3,9 +3,11 @@ module.exports = function (network) {
   let prefix
   switch (net) {
     case 1: // main net
+    case 237: // main net
       prefix = ''
       break
     case 2: // test net
+    case 238: // test net
       prefix = 'testnet.'
       break
     case 3: // ropsten test net

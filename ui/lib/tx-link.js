@@ -3,12 +3,13 @@ module.exports = function (txHash, network) {
   let link
   switch (net) {
     case 1: // main net
-      link = `https://dexscan.app/transaction/${txHash}`
+    case 237: // main net
+      link = `https://dexonscan.app/transaction/${txHash}`
       break
     case 2: // test net
     case 238: // test net
     default:
-      link = `https://testnet.dexscan.app/transaction/${txHash}`
+      link = `https://testnet.dexonscan.app/transaction/${txHash}`
       break
   }
 
