@@ -14,7 +14,7 @@ class AccountList extends Component {
       return [
         {
           label: `Ledger Live`,
-          value: `m/44'/237'/0'/0/0`,
+          value: `m/44'/237'/0'/0`,
         },
         {
           label: `Legacy (MEW / MyCrypto)`,
