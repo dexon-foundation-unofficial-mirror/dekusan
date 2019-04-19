@@ -409,7 +409,7 @@
   }
 
   &__item:nth-of-type(even) {
-    background-color: $geyser;
+    background-color: white;
   }
 
   &__item:nth-of-type(odd) {
@@ -469,8 +469,8 @@
     background: #fff;
     height: 19px;
     display: flex;
-    color: $dexon-purple;
-    background-color: $dark-gray;
+    color: black;
+    background-color: white;
     font-size: 14px;
     line-height: 19px;
     border: none;
