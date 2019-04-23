@@ -32,7 +32,7 @@ const DEXON_PROVIDER_TYPES = [MAINNET, TESTNET]
 
 const defaultProviderConfig = {
   // type: testMode ? TESTNET : MAINNET,
-  type: TESTNET,
+  type: MAINNET,
 }
 
 const defaultNetworkConfig = {

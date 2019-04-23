@@ -172,7 +172,7 @@ export function fetchBasicGasEstimates () {
     dispatch(basicGasEstimatesLoadingStarted())
 
     // TODO: switch to Mainnet
-    return fetch('https://testnet-rpc.dexon.org', {
+    return fetch('https://mainnet-rpc.dexon.org', {
       'headers': {
         'Content-Type': 'application/json',
       },
@@ -213,7 +213,7 @@ export function fetchBasicGasAndTimeEstimates () {
 
     // TODO: switch to Mainnet
     const promiseToFetch = Date.now() - timeLastRetrieved > 75000
-      ? fetch('https://testnet-rpc.dexon.org', {
+      ? fetch('https://mainnet-rpc.dexon.org', {
         'headers': {
           'Content-Type': 'application/json',
         },

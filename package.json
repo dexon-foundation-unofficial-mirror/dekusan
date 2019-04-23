@@ -80,7 +80,6 @@
     ]
   },
   "dependencies": {
-    "@sentry/browser": "^4.1.1",
     "@dexon-foundation/dekusan-inpage-provider": "^1.2.3",
     "@dexon-foundation/dexon-keyring-controller": "^4.0.0",
     "@dexon-foundation/eth-json-rpc-filters": "^3.0.1",
@@ -88,6 +87,7 @@
     "@dexon-foundation/eth-trezor-keyring": "^0.4.0",
     "@dexon-foundation/jazzicon": "^2.0.0",
     "@material-ui/core": "^3.1.0",
+    "@sentry/browser": "^4.1.1",
     "@zxing/library": "^0.8.0",
     "abi-decoder": "^1.0.9",
     "asmcrypto.js": "0.22.0",
@@ -128,7 +128,7 @@
     "eth-phishing-detect": "^1.1.4",
     "eth-query": "^2.1.2",
     "eth-sig-util": "^2.0.2",
-    "eth-token-tracker": "^1.1.5",
+    "eth-token-tracker": "^1.1.8",
     "ethereumjs-abi": "^0.6.4",
     "ethereumjs-tx": "^1.3.0",
     "ethereumjs-util": "github:ethereumjs/ethereumjs-util#ac5d0908536b447083ea422b435da27f26615de9",
