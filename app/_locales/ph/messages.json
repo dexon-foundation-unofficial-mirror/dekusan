@@ -69,7 +69,7 @@
     "message": "Halaga + Gas"
   },
   "appDescription": {
-    "message": "DEXON Browser Extension",
+    "message": "Store DXN and interact with DApps on DEXON Blockchain.",
     "description": "Ang deskripsyon ng application"
   },
   "appName": {
@@ -239,7 +239,7 @@
     "message": "I-enter ang password"
   },
   "etherscanView": {
-    "message": "Tingnan ang account sa DEXSCAN"
+    "message": "Tingnan ang account sa DEXONSCAN"
   },
   "exchangeRate": {
     "message": "Exchange Rate"

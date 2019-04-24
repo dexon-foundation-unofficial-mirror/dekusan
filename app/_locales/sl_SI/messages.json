@@ -1409,7 +1409,7 @@
     "message": "ETH"
   },
   "etherscanView": {
-    "message": "Poglejte račun na DEXSCAN"
+    "message": "Poglejte račun na DEXONSCAN"
   },
   "fast": {
     "message": ""

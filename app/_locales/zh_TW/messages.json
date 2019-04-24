@@ -30,7 +30,7 @@
     "message": "數額 + Gas"
   },
   "appDescription": {
-    "message": "DEXON 瀏覽器擴充插件",
+    "message": "存放 DXN 並且與 DEXON 區塊鏈上的 DApps 互動。",
     "description": "The description of the application"
   },
   "appName": {

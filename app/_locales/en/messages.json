@@ -30,7 +30,7 @@
     "message": "Amount + Gas"
   },
   "appDescription": {
-    "message": "DEXON Browser Extension",
+    "message": "Store DXN and interact with DApps on DEXON Blockchain.",
     "description": "The description of the application"
   },
   "appName": {
@@ -263,7 +263,7 @@
     "message": "Passwords Don't Match"
   },
   "dexscanView": {
-    "message": "View account on DEXSCAN"
+    "message": "View account on DEXONSCAN"
   },
   "exchangeRate": {
     "message": "Exchange Rate"
@@ -1304,7 +1304,7 @@
     "message": "Updated $1"
   },
   "viewOnDexScan": {
-    "message": "View on DEXSCAN"
+    "message": "View on DEXONSCAN"
   },
   "welcomeBack": {
     "message": "Welcome Back!"
@@ -1409,7 +1409,7 @@
     "message": "DXN"
   },
   "etherscanView": {
-    "message": "View account on DEXSCAN"
+    "message": "View account on DEXONSCAN"
   },
   "fast": {
     "message": "Fast"
@@ -1537,7 +1537,7 @@
     "message": "Transaction Time"
   },
   "viewOnEtherscan": {
-    "message": "View on DEXSCAN"
+    "message": "View on DEXONSCAN"
   },
   "welcome": {
     "message": "Welcome to DEXON Wallet"
