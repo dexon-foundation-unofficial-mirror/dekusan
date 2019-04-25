@@ -134,14 +134,9 @@ class CurrencyController {
       currentCurrency = this.getCurrentCurrency()
       nativeCurrency = this.getNativeCurrency()
       // select api
-      let apiUrl
-      if (nativeCurrency === 'DXN') {
-        // DEX
-        apiUrl = `https://api.infura.io/v1/ticker/eth${currentCurrency.toLowerCase()}`
-      } else {
-       // ETC
-        apiUrl = `https://min-api.cryptocompare.com/data/price?fsym=${nativeCurrency.toUpperCase()}&tsyms=${currentCurrency.toUpperCase()}`
-      }
+      // apiUrl = `https://api.infura.io/v1/ticker/eth${currentCurrency.toLowerCase()}`
+      const apiUrl = 'https://api.cobinhood.com/v1/market/exchange_rates/DXN'
+
       // attempt request
       let response
       try {
@@ -160,21 +155,9 @@ class CurrencyController {
         log.error(new Error(`CurrencyController - Failed to parse response "${rawResponse}"`))
         return
       }
-      // set conversion rate
-      if (nativeCurrency === 'DXN') {
-        // DEX
-        this.setConversionRate(Number(parsedResponse.bid))
-        this.setConversionDate(Number(parsedResponse.timestamp))
-      } else {
-        // ETC
-        if (parsedResponse[currentCurrency.toUpperCase()]) {
-          this.setConversionRate(Number(parsedResponse[currentCurrency.toUpperCase()]))
-          this.setConversionDate(parseInt((new Date()).getTime() / 1000))
-        } else {
-          this.setConversionRate(0)
-          this.setConversionDate('N/A')
-        }
-      }
+
+      this.setConversionRate(Number(parsedResponse.result.price_usd))
+      this.setConversionDate(Date.now())
     } catch (err) {
       // reset current conversion rate
       log.warn(`DekuSan - Failed to query currency conversion:`, nativeCurrency, currentCurrency, err)

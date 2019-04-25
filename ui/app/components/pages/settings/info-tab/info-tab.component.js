@@ -32,7 +32,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://github.com/dexon-foundation/dekusan/blob/develop/docs/privacy.md"
+            href="https://dexon.org/dexon-wallet-privacy"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://github.com/dexon-foundation/dekusan/blob/develop/docs/terms-of-use.md"
+            href="https://dexon.org/dexon-wallet-tos"
             target="_blank"
             rel="noopener noreferrer"
           >
