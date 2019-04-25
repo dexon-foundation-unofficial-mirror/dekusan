@@ -1,4 +1,4 @@
-# DekuSan Browser Extension
+# DEXON Wallet Browser Extension
 [![Build Status](https://circleci.com/gh/dexon-foundation/dexon-wallet.svg?style=shield)](https://circleci.com/gh/dexon-foundation/dekusan)
 
 ## Introduction

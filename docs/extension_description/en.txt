@@ -1,8 +1,8 @@
-DekuSan is an extension for accessing DEXON enabled distributed applications, or "Dapps" in your normal browser!
+DEXON Wallet is an extension for accessing DEXON enabled distributed applications, or "Dapps" in your normal browser!
 
 The extension injects the DEXON web3 API into every website's javascript context, so that dapps can read from the blockchain.
 
-DekuSan also lets the user create and manage their own identities, so when a Dapp wants to perform a transaction and write to the blockchain, the user gets a secure interface to review the transaction, before approving or rejecting it.
+DEXON Wallet also lets the user create and manage their own identities, so when a Dapp wants to perform a transaction and write to the blockchain, the user gets a secure interface to review the transaction, before approving or rejecting it.
 
-Because it adds functionality to the normal browser context, DekuSan requires the permission to read and write to any webpage. You can always "view the source" of DekuSan the way you do any extension, or view the source code on Github:
-https://github.com/DekuSan/metamask-plugin
+Because it adds functionality to the normal browser context, DEXON Wallet requires the permission to read and write to any webpage. You can always "view the source" of DEXON Wallet the way you do any extension, or view the source code on Github:
+https://github.com/dexon-foundation/dekusan

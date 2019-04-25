@@ -1,4 +1,4 @@
-# Main DekuSan Code
+# Main DEXON Wallet Code
 
 This folder contains the core-code.
 

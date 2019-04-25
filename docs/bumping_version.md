@@ -1,10 +1,10 @@
-# How to Bump DekuSan's Version Automatically
+# How to Bump DEXON Wallet's Version Automatically
 
 ```
 npm run version:bump patch
 ```
 
-DekuSan publishes using a loose [semver](https://semver.org/) interpretation. We divide the three segments of our version into three types of version bump:
+DEXON Wallet publishes using a loose [semver](https://semver.org/) interpretation. We divide the three segments of our version into three types of version bump:
 
 ## Major
 

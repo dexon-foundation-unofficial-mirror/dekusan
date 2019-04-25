@@ -1,1 +1,1 @@
-# DekuSan Privacy Policy
+# DEXON Wallet Privacy Policy

@@ -1,6 +1,6 @@
-# DekuSan Translation Guide
+# DEXON Wallet Translation Guide
 
-The DekuSan browser extension supports new translations added in the form of new locales files added in `app/_locales`.
+The DEXON Wallet browser extension supports new translations added in the form of new locales files added in `app/_locales`.
 
 - [The MDN Guide to Internationalizing Extensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Internationalization)
 
@@ -13,7 +13,7 @@ The DekuSan browser extension supports new translations added in the form of new
 - Add the language to the [locales index](https://github.com/DekuSan/metamask-extension/blob/master/app/_locales/index.json) `app/_locales/index.json` 
 
 
-That's it! When DekuSan is loaded on a computer with that language set as the system language, they will see your translation instead of the default one.
+That's it! When DEXON Wallet is loaded on a computer with that language set as the system language, they will see your translation instead of the default one.
 
 ## Testing
 
@@ -25,5 +25,5 @@ node development/verify-locale-strings.js $YOUR_LOCALE
 
 Where `$YOUR_LOCALE` is your locale string (example: `es`), i.e. the name of your language folder.
 
-To verify that your translation works in the app, you will need to [build a local copy](https://github.com/DekuSan/metamask-extension#building-locally) of DekuSan. You will need to change your browser language, your operating system language, and restart your browser (sorry it's so much work!).
+To verify that your translation works in the app, you will need to [build a local copy](https://github.com/DekuSan/metamask-extension#building-locally) of DEXON Wallet. You will need to change your browser language, your operating system language, and restart your browser (sorry it's so much work!).
 

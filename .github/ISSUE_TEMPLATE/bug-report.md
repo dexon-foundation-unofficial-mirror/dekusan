@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Using DekuSan, but it's not working as you expect?
+about: Using DEXON Wallet, but it's not working as you expect?
 
 ---
 
@@ -29,7 +29,7 @@ If applicable, add screenshots to help explain your problem.
 **Browser details (please complete the following information):**
  - OS: [e.g. OS X, Windows]
  - Browser [e.g. chrome, safari]
- - DekuSan Version [e.g. 4.9.0]
+ - DEXON Wallet Version [e.g. 4.9.0]
 
 **Additional context**
 Add any other context about the problem here.
