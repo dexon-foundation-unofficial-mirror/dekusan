@@ -26,9 +26,9 @@ export default class TransactionActivityLog extends PureComponent {
 
   handleActivityClick = hash => {
     const { primaryTransaction } = this.props
-    const { metamaskNetworkId } = primaryTransaction
+    const { dekusanNetworkId } = primaryTransaction
 
-    const prefix = prefixForNetwork(metamaskNetworkId)
+    const prefix = prefixForNetwork(dekusanNetworkId)
     const etherscanUrl = `https://${prefix}dexonscan.app/transaction/${hash}`
 
     global.platform.openWindow({ url: etherscanUrl })
@@ -85,7 +85,7 @@ export default class TransactionActivityLog extends PureComponent {
         conversionRate,
         numberOfDecimals: 3,
       })
-    const formattedTimestamp = formatDate(timestamp, '14:30 on 3/16/2014')
+    const formattedTimestamp = formatDate(timestamp, 'T \'on\' M/d/y')
     const activityText = this.context.t(eventKey, [ethValue, formattedTimestamp])
 
     return (
