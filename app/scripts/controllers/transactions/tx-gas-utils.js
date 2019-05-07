@@ -6,6 +6,7 @@ const {
 } = require('../../lib/util')
 const { addHexPrefix } = require('ethereumjs-util')
 const SIMPLE_GAS_COST = '0x5208' // Hex for 21000, cost of a simple send.
+const BASE_TOKEN_GAS_COST = '0x186a0' // Hex for 100000
 
 import { TRANSACTION_NO_CONTRACT_ERROR_KEY } from '../../../../ui/app/constants/error-keys'
 
@@ -94,10 +95,8 @@ class TxGasUtil {
       }
     }
 
-    // fallback to block gasLimit
-    const blockGasLimitBN = hexToBn(blockGasLimitHex)
-    const saferGasLimitBN = BnMultiplyByFraction(blockGasLimitBN, 19, 20)
-    txParams.gas = bnToHex(saferGasLimitBN)
+    // fallback to safe limit
+    txParams.gas = BASE_TOKEN_GAS_COST
 
     // estimate tx gas requirements
     return await this.query.estimateGas(txParams)
